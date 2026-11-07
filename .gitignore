@@ -4,38 +4,30 @@
 !.env.example
 *.bak
 
-# Python & Virtual Environments
+# Python Virtual Environment & Cache
 .venv/
 venv/
-env/
-ENV/
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
 
-# Data & Runtime generated files
-data/
-*.log
-
-# Media & Temporary downloads (if stored outside data/)
-*.part
+# Videos & Video Part Files
 *.mp4
 *.mkv
 *.webm
 *.mov
 *.avi
+*.wmv
+*.flv
+*.ts
+*.m4v
+*.part
 
-# IDEs & System files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Browser Profiles & Cache (Chrome sessions, cookies & crash dumps)
+data/browser_profile/
+data/browser_profile_*/
+*.dmp
+
+# System & OS Files
 .DS_Store
 Thumbs.db
 desktop.ini

@@ -1,0 +1,542 @@
+{
+  "id": "2e256c3b77",
+  "created": 1793947415.6750405,
+  "url": "https://youtu.be/ij8h9Prt3yU",
+  "source": "manual",
+  "title": "\u201cIt\u2019s a new dawn in America\u201d| Zohran Mamdani reacts to Democrats\u2019 blue wave in US midterms",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 62,
+        "value": 68,
+        "shareability": 75,
+        "overall": 70,
+        "hook_text": "Americans are done with bought politicians",
+        "tip": "Cut the trailing interview question at the very end to finish cleanly on the strong closing statement.",
+        "caption": "Working people are the majority across America. It is time our politics actually reflected that reality.",
+        "hashtags": [
+          "politics",
+          "workingclass",
+          "election2024",
+          "usnews",
+          "politicalreform"
+        ]
+      },
+      "id": "c1",
+      "title": "Americans Tired of Bought Politicians",
+      "reason": "Starts with a fiery populist statement about voters rejecting bought politicians that immediately captures audience attention.",
+      "score": 70,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 0.63,
+        "end": 47.44,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Americans are done with bought politicians",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/VHJD7WhDGog",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 54,
+        "retention": 58,
+        "value": 71,
+        "shareability": 64,
+        "overall": 61,
+        "hook_text": "Winning power isn't enough anymore",
+        "tip": "Trim the conversational filler at the start to jump immediately into the core claim that winning isn't enough.",
+        "caption": "Winning elections is completely useless if politicians do not lower the cost of living for working families.",
+        "hashtags": [
+          "politicstoday",
+          "uspolitics",
+          "economy",
+          "housing",
+          "democrats"
+        ]
+      },
+      "id": "c2",
+      "title": "Winning Power Isn't Enough",
+      "reason": "Presents a bold political thesis on using power to deliver concrete policy changes with clear real-world examples.",
+      "score": 61,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 60.23,
+        "end": 105.54,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Winning power isn't enough anymore",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Ss367vdZPuE",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 48,
+        "retention": 65,
+        "value": 66,
+        "shareability": 78,
+        "overall": 62,
+        "hook_text": "Proof that the good guys still win",
+        "tip": "Re-record or edit the beginning so it starts directly on the struggle against dark money and slander.",
+        "caption": "Against massive corporate money and daily slander, a huge victory proves that the good guys can still win.",
+        "hashtags": [
+          "elections",
+          "politicalnews",
+          "campaign",
+          "victory",
+          "usnews"
+        ]
+      },
+      "id": "c3",
+      "title": "The Good Guys Won",
+      "reason": "Delivers an emotional, inspiring story about overcoming slander and dark money in politics.",
+      "score": 62,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 114.07,
+        "end": 145.76,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Proof that the good guys still win",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/-ABG0Lz_C08",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 68,
+        "retention": 60,
+        "value": 73,
+        "shareability": 72,
+        "overall": 68,
+        "hook_text": "Unbelievable election flips in red states",
+        "tip": "Hard-cut the video right after 'deliver on those struggles' to prevent ending mid-sentence.",
+        "caption": "Government shouldn't just describe working class struggles\u2014it needs to actually solve them.",
+        "hashtags": [
+          "bluewave",
+          "uspolitics",
+          "electionresults",
+          "government",
+          "news"
+        ]
+      },
+      "id": "c4",
+      "title": "A Shocking Political Blue Wave",
+      "reason": "Hooks viewers by highlighting unexpected political shifts across traditional red states.",
+      "score": 68,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 157.77,
+        "end": 196.38,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Unbelievable election flips in red states",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/HFeB8TgGMFc",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 81,
+        "retention": 75,
+        "value": 79,
+        "shareability": 82,
+        "overall": 80,
+        "hook_text": "Should politicians keep foot on the gas?",
+        "tip": "Add dynamic text highlights on screen for punchy phrases like 'politics felt like a hobby'.",
+        "caption": "For too long politics felt like a hobby only some could afford. It is time to deliver dignity to working people.",
+        "hashtags": [
+          "politicalreform",
+          "workingclass",
+          "uspolitics",
+          "inspiration",
+          "newday"
+        ]
+      },
+      "id": "c5",
+      "title": "Foot On The Gas",
+      "reason": "Starts with a sharp, direct response to a controversial political strategy question that drives high engagement.",
+      "score": 80,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 249.31,
+        "end": 293.78,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Should politicians keep foot on the gas?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/bYt2TgSbIuk",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "green_pop",
+    "num_clips": 5,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p"
+  },
+  "started": 1793947415.6801388,
+  "finished": 1793948134.0384865,
+  "log": [
+    {
+      "t": 1793947415.6860685,
+      "level": "info",
+      "msg": "Downloading https://youtu.be/ij8h9Prt3yU"
+    },
+    {
+      "t": 1793947443.9283733,
+      "level": "ok",
+      "msg": "Downloaded \"\u201cIt\u2019s a new dawn in America\u201d| Zohran Mamdani reacts to Democrats\u2019 blue wave in US midterms\" (5:01) in 0:28"
+    },
+    {
+      "t": 1793947443.9430833,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1793947495.2229245,
+      "level": "warn",
+      "msg": "Captions unavailable (\u001b[0;31mERROR:\u001b[0m Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests) - falling back to Whisper"
+    },
+    {
+      "t": 1793947495.2257862,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1793947711.5273519,
+      "level": "ok",
+      "msg": "Transcribed 84 segments / 912 words in 4:27"
+    },
+    {
+      "t": 1793947711.5314841,
+      "level": "info",
+      "msg": "Asking Gemini for the 5 best moments (20-60s each)"
+    },
+    {
+      "t": 1793947713.9345398,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793947714.6274495,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793947714.629943,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793947717.2267294,
+      "level": "warn",
+      "msg": "gemini-3.6-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1793947717.2287571,
+      "level": "info",
+      "msg": "Trying gemini-3.7-flash..."
+    },
+    {
+      "t": 1793947717.5570204,
+      "level": "warn",
+      "msg": "gemini-3.7-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793947717.5596147,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1793947731.4070215,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1793947731.4193025,
+      "level": "ok",
+      "msg": "AI picked 5 clips in 0:19"
+    },
+    {
+      "t": 1793947731.4213367,
+      "level": "info",
+      "msg": "  \u2022 Americans Tired of Bought Politicians  [0:00-0:47, score 92]"
+    },
+    {
+      "t": 1793947731.423227,
+      "level": "info",
+      "msg": "  \u2022 Winning Power Isn't Enough  [1:00-1:45, score 88]"
+    },
+    {
+      "t": 1793947731.4263492,
+      "level": "info",
+      "msg": "  \u2022 The Good Guys Won  [1:54-2:25, score 85]"
+    },
+    {
+      "t": 1793947731.429004,
+      "level": "info",
+      "msg": "  \u2022 A Shocking Political Blue Wave  [2:37-3:16, score 84]"
+    },
+    {
+      "t": 1793947731.4310706,
+      "level": "info",
+      "msg": "  \u2022 Foot On The Gas  [4:09-4:53, score 90]"
+    },
+    {
+      "t": 1793947731.434659,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1793947732.962045,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793947733.298404,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793947733.303067,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793947735.8103218,
+      "level": "warn",
+      "msg": "gemini-3.6-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1793947735.8133445,
+      "level": "info",
+      "msg": "Trying gemini-3.7-flash..."
+    },
+    {
+      "t": 1793947736.1135209,
+      "level": "warn",
+      "msg": "gemini-3.7-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793947736.1158059,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1793947749.3831306,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1793947749.385816,
+      "level": "ok",
+      "msg": "Rated 5 clips in 0:17"
+    },
+    {
+      "t": 1793947749.3885033,
+      "level": "info",
+      "msg": "  - Americans Tired of Bought Politicians: 70/100 (hook 72, retention 62, value 68, share 75)"
+    },
+    {
+      "t": 1793947749.3913925,
+      "level": "info",
+      "msg": "  - Winning Power Isn't Enough: 61/100 (hook 54, retention 58, value 71, share 64)"
+    },
+    {
+      "t": 1793947749.3943367,
+      "level": "info",
+      "msg": "  - The Good Guys Won: 62/100 (hook 48, retention 65, value 66, share 78)"
+    },
+    {
+      "t": 1793947749.3973894,
+      "level": "info",
+      "msg": "  - A Shocking Political Blue Wave: 68/100 (hook 68, retention 60, value 73, share 72)"
+    },
+    {
+      "t": 1793947749.3998737,
+      "level": "info",
+      "msg": "  - Foot On The Gas: 80/100 (hook 81, retention 75, value 79, share 82)"
+    },
+    {
+      "t": 1793947749.4121385,
+      "level": "info",
+      "msg": "Rendering clip 1/5: Americans Tired of Bought Politicians"
+    },
+    {
+      "t": 1793947832.3398366,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:22"
+    },
+    {
+      "t": 1793947832.3485088,
+      "level": "info",
+      "msg": "Rendering clip 2/5: Winning Power Isn't Enough"
+    },
+    {
+      "t": 1793947904.7736256,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:12"
+    },
+    {
+      "t": 1793947904.7841372,
+      "level": "info",
+      "msg": "Rendering clip 3/5: The Good Guys Won"
+    },
+    {
+      "t": 1793947966.4741898,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:01"
+    },
+    {
+      "t": 1793947966.4853292,
+      "level": "info",
+      "msg": "Rendering clip 4/5: A Shocking Political Blue Wave"
+    },
+    {
+      "t": 1793948038.725543,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:12"
+    },
+    {
+      "t": 1793948038.7343762,
+      "level": "info",
+      "msg": "Rendering clip 5/5: Foot On The Gas"
+    },
+    {
+      "t": 1793948134.0361261,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:35"
+    },
+    {
+      "t": 1793948134.043957,
+      "level": "ok",
+      "msg": "All done in 11:58"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Maktoob",
+  "duration": 301,
+  "heatmap": [],
+  "render_index": 5,
+  "render_total": 5
+}

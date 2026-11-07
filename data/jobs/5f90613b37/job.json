@@ -1,0 +1,1079 @@
+{
+  "id": "5f90613b37",
+  "created": 1794054824.963098,
+  "url": "https://www.youtube.com/watch?v=5cS8Rw9cWZU",
+  "source": "manual",
+  "creator_id": "UCzXwjTI6c6mVn6oui_p6oiw",
+  "title": "This Video is Bananas",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 84,
+        "value": 90,
+        "shareability": 89,
+        "overall": 87,
+        "hook_text": "That's a monkey LeBron James!",
+        "tip": "Emphasize the hype sound effects right as the massive jump is successfully landed.",
+        "caption": "The LeBron James of monkeys",
+        "description": "Pulling off an insane jump across a massive gap leads to pure triumphant hype from the group. After soaring through the air, the team celebrates their athletic monkey prowess. Have you ever seen a jump like this?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "lebron"
+        ]
+      },
+      "id": "c1",
+      "title": "Becoming the LeBron James of Monkeys",
+      "reason": "Pulling off an insane jump across the gap leads to pure triumphant hype from the group.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 985.73,
+        "end": 1035.58,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "That's a monkey LeBron James!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/SIxTiG_zxCU",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794074672.2730112
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 80,
+        "value": 88,
+        "shareability": 86,
+        "overall": 84,
+        "hook_text": "This is just a regular day.",
+        "tip": "Keep the comedic office job comparison right at the forefront of the edit.",
+        "caption": "Treating monkey mountain like a nine to five",
+        "description": "Comparing chaotic gameplay to a normal daily office job provides a brilliant satirical angle. The group jokes about monkey blood diamonds and working the rail cart. Is this what a normal workday looks like?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "satire"
+        ]
+      },
+      "id": "c2",
+      "title": "Treating Monkey Mountain Like a Nine-to-Five Job",
+      "reason": "Comparing the chaotic gameplay to a normal daily office job provides a brilliant satirical angle.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 930.07,
+        "end": 962.62,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "This is just a regular day.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 78,
+        "value": 85,
+        "shareability": 82,
+        "overall": 81,
+        "hook_text": "There is gators in the water!",
+        "tip": "Enhance the sound design during the alligator panic for maximum impact.",
+        "caption": "Escaping alligators in mushroom land",
+        "description": "Navigating dangerous waters while screaming about alligators showcases classic cooperative game panic. The team tries to survive the hazards of mushroom land without getting eaten. Can they make it through the swamp?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "alligator"
+        ]
+      },
+      "id": "c3",
+      "title": "Escaping Alligators in Mushroom Land",
+      "reason": "Navigating the dangerous waters while screaming about alligators is classic cooperative game panic.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 520.73,
+        "end": 561.5,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "There is gators in the water!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 76,
+        "value": 80,
+        "shareability": 78,
+        "overall": 78,
+        "hook_text": "I'm sliding off the mountain!",
+        "tip": "Highlight the contrast between the denial and the actual sliding physics.",
+        "caption": "Sliding off the mountain while denying it",
+        "description": "Sliding off the edge of the mountain while swearing everything is completely fine provides peak comedy timing. Lag and rubber-banding make the climb even more chaotic than intended. Can they recover from the fall?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "lag"
+        ]
+      },
+      "id": "c4",
+      "title": "Sliding Off the Mountain While Denying It",
+      "reason": "Sliding off the edge while swearing everything is completely fine is peak comedy timing.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1370.7,
+        "end": 1418.59,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "I'm sliding off the mountain!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 75,
+        "value": 82,
+        "shareability": 79,
+        "overall": 76,
+        "hook_text": "Did you spend our fucking banana?",
+        "tip": "Focus tighter on the exact moment the realization about the banana money hits.",
+        "caption": "We spent all our bananas on a weird frog",
+        "description": "The group realizes their hard-earned bananas were wasted on a strange frog instead of progression. Debating the history of the monkey kingdom while carrying crates leads to hilarious banter. Did anyone actually care about the kingdom?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "bananas"
+        ]
+      },
+      "id": "c5",
+      "title": "Accidentally Spending All the Banana Money",
+      "reason": "The group realizes their hard-earned bananas were spent on a weird frog instead of progress.",
+      "score": 76,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 366.59,
+        "end": 437.48,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Did you spend our fucking banana?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 72,
+        "value": 78,
+        "shareability": 74,
+        "overall": 75,
+        "hook_text": "I just turned on voice pitching.",
+        "tip": "Amplify the voice pitch effect earlier in the clip for a quicker laugh.",
+        "caption": "Turning on voice pitch in Monkey Business",
+        "description": "turns on voice pitching while fighting an aggressive crab in Monkey Business. The altered audio creates instant chaos as the group hunts down twelve bananas. Can they handle the new voice settings?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "voicepitch"
+        ]
+      },
+      "id": "c6",
+      "title": "Voice Pitching and Attacking an Aggressive Crab",
+      "reason": "Turning on voice pitching while fighting an aggressive crab creates an instantly hilarious moment.",
+      "score": 75,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 127.05,
+        "end": 172.16,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "I just turned on voice pitching.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 74,
+        "retention": 72,
+        "value": 76,
+        "shareability": 75,
+        "overall": 74,
+        "hook_text": "Give me that diamond right now.",
+        "tip": "Punch up the audio when the diamond is stolen for comedic emphasis.",
+        "caption": "Stealing the diamond to test real friends",
+        "description": "Stealing the diamond reward and claiming full credit proves who the real friends are in the group. Bullying each other brings out the absolute best in their teamwork. Would you trust your friends with the diamond?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "betrayal"
+        ]
+      },
+      "id": "c7",
+      "title": "Bullying Friends for Diamond Credit",
+      "reason": "Stealing the diamond reward and claiming full credit proves who the real friends are.",
+      "score": 74,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1158.93,
+        "end": 1203.59,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Give me that diamond right now.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 70,
+        "value": 75,
+        "shareability": 73,
+        "overall": 72,
+        "hook_text": "Monkey getting tossed like a salad.",
+        "tip": "Cut out the slower dialogue about ancestors to keep the pacing snappy.",
+        "caption": "Getting tossed by Indiana Jones boulders",
+        "description": "Getting crushed by giant boulders while discussing future monkey ancestors creates great physical comedy. The group tries to navigate the hazardous path without getting flattened. Are these truly the ancestors from the future?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "boulders"
+        ]
+      },
+      "id": "c8",
+      "title": "Getting Tossed Around by Indiana Jones Boulders",
+      "reason": "Getting crushed by giant boulders while analyzing monkey ancestors makes for great physical comedy.",
+      "score": 72,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 621.68,
+        "end": 667.37,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Monkey getting tossed like a salad.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 69,
+        "retention": 71,
+        "value": 74,
+        "shareability": 70,
+        "overall": 71,
+        "hook_text": "How do you submerge your monkey?",
+        "tip": "Trim the initial confusion about gravity controls to maintain momentum.",
+        "caption": "Figuring out anti-gravity in the hell cave",
+        "description": "Complete confusion over how to submerge a monkey in anti-gravity leads to hilarious banter. The crew explores the gloomy hell cave and misses the sunshine. How do you actually get your monkey to go down?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "gravity"
+        ]
+      },
+      "id": "c9",
+      "title": "Figuring Out Anti-Gravity in the Hell Cave",
+      "reason": "Complete confusion over how to submerge a monkey in anti-gravity makes for funny banter.",
+      "score": 71,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1215.04,
+        "end": 1262.18,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "How do you submerge your monkey?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 67,
+        "value": 71,
+        "shareability": 68,
+        "overall": 67,
+        "hook_text": "How the fuck am I cartwheeling?",
+        "tip": "Start directly on the accidental cartwheel animation to hook viewers instantly.",
+        "caption": "Accidentally cartwheeling past magma plants",
+        "description": "Randomly cartwheeling through hazards while failing to navigate the trail highlights the game's absurdity. Grizzly and the rest of the crew deal with oversized boulders and magma plants. Why would anyone take the magma trail?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "magma"
+        ]
+      },
+      "id": "c10",
+      "title": "Accidentally Cartwheeling Past Magma Plants",
+      "reason": "Randomly cartwheeling through hazards while failing to navigate the trail highlights the game's absurdity.",
+      "score": 67,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 784.46,
+        "end": 832.81,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "How the fuck am I cartwheeling?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 68,
+        "retention": 65,
+        "value": 70,
+        "shareability": 62,
+        "overall": 66,
+        "hook_text": "We decided to double up our audio.",
+        "tip": "Cut straight to the group unmuting their discord audio to avoid a slow opening.",
+        "caption": "Unmuting in Discord was our first mistake",
+        "description": "and friends kick off a chaotic session of Monkey Business by doubling up their audio in Discord. The group scrambles to figure out objectives while getting thrown across the screen. Will they survive the mountain climb?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "multiplayer"
+        ]
+      },
+      "id": "c11",
+      "title": "Unmuting in Discord for Maximum Monkey Chaos",
+      "reason": "The group agrees to double up their audio just as chaotic gameplay starts, setting a funny tone.",
+      "score": 66,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 50.33,
+        "end": 98.0,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "We decided to double up our audio.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 62,
+        "retention": 68,
+        "value": 65,
+        "shareability": 60,
+        "overall": 63,
+        "hook_text": "I'll be cart boy.",
+        "tip": "Trim the initial confusion about who is handling the cart mechanics.",
+        "caption": "Assigning cart roles goes wrong instantly",
+        "description": "Trying to coordinate cart roles leads to immediate physical comedy and fumbling around. The group struggles to lift each other onto the cart while navigating treacherous terrain. Who is actually in charge of the cart?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "smii7y",
+          "monkeybusiness",
+          "fail"
+        ]
+      },
+      "id": "c12",
+      "title": "Figuring Out the Monkey Cart Mechanics",
+      "reason": "Trying to assign cart roles leads to immediate physical comedy and fumbling around.",
+      "score": 63,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 255.87,
+        "end": 303.09,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "I'll be cart boy.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "cancelled",
+          "method": "browser"
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": false,
+    "sub_style": "green_pop",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794055328.31037,
+  "finished": 1794061059.3633065,
+  "log": [
+    {
+      "t": 1794055328.3301544,
+      "level": "info",
+      "msg": "Using uploaded video file"
+    },
+    {
+      "t": 1794055328.3549569,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794055378.7895374,
+      "level": "warn",
+      "msg": "Captions unavailable (Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests) - falling back to Whisper"
+    },
+    {
+      "t": 1794055378.8042374,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794056451.0999117,
+      "level": "ok",
+      "msg": "Transcribed 228 segments / 2575 words in 24:55"
+    },
+    {
+      "t": 1794056451.1069703,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794056452.676964,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794056457.8908787,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794056457.9013884,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: SMii7Y plays the Steam multiplayer game \"Monkey Business\" alongside his friends, where they play as customized monkeys navigating obstacles, pushing a cart, and collecting bananas. | People: SMii7Y; Blarg (BlargMyShnoople); TheDooo; Grizzy | Context: Gameplay transcript and video details fo"
+    },
+    {
+      "t": 1794056463.2926583,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794056464.9872131,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794056465.5233672,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794056465.5274081,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794056469.092779,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794056469.2313464,
+      "level": "ok",
+      "msg": "AI picked 12 clips in 0:18"
+    },
+    {
+      "t": 1794056469.2354672,
+      "level": "info",
+      "msg": "  \u2022 Unmuting in Discord for Maximum Monkey Chaos  [0:50-1:38, score 85]"
+    },
+    {
+      "t": 1794056469.238901,
+      "level": "info",
+      "msg": "  \u2022 Voice Pitching and Attacking an Aggressive Crab  [2:07-2:52, score 88]"
+    },
+    {
+      "t": 1794056469.243177,
+      "level": "info",
+      "msg": "  \u2022 Figuring Out the Monkey Cart Mechanics  [4:15-5:03, score 82]"
+    },
+    {
+      "t": 1794056469.2465782,
+      "level": "info",
+      "msg": "  \u2022 Accidentally Spending All the Banana Money  [6:06-7:17, score 90]"
+    },
+    {
+      "t": 1794056469.2500532,
+      "level": "info",
+      "msg": "  \u2022 Escaping Alligators in Mushroom Land  [8:40-9:21, score 87]"
+    },
+    {
+      "t": 1794056469.2554798,
+      "level": "info",
+      "msg": "  \u2022 Getting Tossed Around by Indiana Jones Boulders  [10:21-11:07, score 89]"
+    },
+    {
+      "t": 1794056469.2588422,
+      "level": "info",
+      "msg": "  \u2022 Accidentally Cartwheeling Past Magma Plants  [13:04-13:52, score 84]"
+    },
+    {
+      "t": 1794056469.26202,
+      "level": "info",
+      "msg": "  \u2022 Treating Monkey Mountain Like a Nine-to-Five Job  [15:30-16:02, score 92]"
+    },
+    {
+      "t": 1794056469.2653906,
+      "level": "info",
+      "msg": "  \u2022 Becoming the LeBron James of Monkeys  [16:25-17:15, score 91]"
+    },
+    {
+      "t": 1794056469.2688599,
+      "level": "info",
+      "msg": "  \u2022 Bullying Friends for Diamond Credit  [19:18-20:03, score 86]"
+    },
+    {
+      "t": 1794056469.273191,
+      "level": "info",
+      "msg": "  \u2022 Figuring Out Anti-Gravity in the Hell Cave  [20:15-21:02, score 83]"
+    },
+    {
+      "t": 1794056469.276454,
+      "level": "info",
+      "msg": "  \u2022 Sliding Off the Mountain While Denying It  [22:50-23:38, score 94]"
+    },
+    {
+      "t": 1794056469.2826967,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794056470.7739549,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794056497.5274358,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794056497.5303535,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794056504.466648,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794056504.4777527,
+      "level": "ok",
+      "msg": "Rated 12 clips in 0:35"
+    },
+    {
+      "t": 1794056504.480767,
+      "level": "info",
+      "msg": "  - Unmuting in Discord for Maximum Monkey Chaos: 66/100 (hook 68, retention 65, value 70, share 62)"
+    },
+    {
+      "t": 1794056504.4838355,
+      "level": "info",
+      "msg": "  - Voice Pitching and Attacking an Aggressive Crab: 75/100 (hook 75, retention 72, value 78, share 74)"
+    },
+    {
+      "t": 1794056504.4915547,
+      "level": "info",
+      "msg": "  - Figuring Out the Monkey Cart Mechanics: 63/100 (hook 62, retention 68, value 65, share 60)"
+    },
+    {
+      "t": 1794056504.494967,
+      "level": "info",
+      "msg": "  - Accidentally Spending All the Banana Money: 76/100 (hook 70, retention 75, value 82, share 79)"
+    },
+    {
+      "t": 1794056504.4979136,
+      "level": "info",
+      "msg": "  - Escaping Alligators in Mushroom Land: 81/100 (hook 80, retention 78, value 85, share 82)"
+    },
+    {
+      "t": 1794056504.5012572,
+      "level": "info",
+      "msg": "  - Getting Tossed Around by Indiana Jones Boulders: 72/100 (hook 72, retention 70, value 75, share 73)"
+    },
+    {
+      "t": 1794056504.5078435,
+      "level": "info",
+      "msg": "  - Accidentally Cartwheeling Past Magma Plants: 67/100 (hook 65, retention 67, value 71, share 68)"
+    },
+    {
+      "t": 1794056504.511362,
+      "level": "info",
+      "msg": "  - Treating Monkey Mountain Like a Nine-to-Five Job: 84/100 (hook 82, retention 80, value 88, share 86)"
+    },
+    {
+      "t": 1794056504.5145934,
+      "level": "info",
+      "msg": "  - Becoming the LeBron James of Monkeys: 87/100 (hook 85, retention 84, value 90, share 89)"
+    },
+    {
+      "t": 1794056504.5178742,
+      "level": "info",
+      "msg": "  - Bullying Friends for Diamond Credit: 74/100 (hook 74, retention 72, value 76, share 75)"
+    },
+    {
+      "t": 1794056504.521788,
+      "level": "info",
+      "msg": "  - Figuring Out Anti-Gravity in the Hell Cave: 71/100 (hook 69, retention 71, value 74, share 70)"
+    },
+    {
+      "t": 1794056504.5256295,
+      "level": "info",
+      "msg": "  - Sliding Off the Mountain While Denying It: 78/100 (hook 78, retention 76, value 80, share 78)"
+    },
+    {
+      "t": 1794056504.5344222,
+      "level": "ok",
+      "msg": "12 distinct clips found, 12 rated 50+"
+    },
+    {
+      "t": 1794056938.820612,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794056950.6466653,
+      "level": "info",
+      "msg": "Rendering clip 1/12: Becoming the LeBron James of Monkeys"
+    },
+    {
+      "t": 1794057233.050678,
+      "level": "ok",
+      "msg": "Clip 1 ready in 4:38"
+    },
+    {
+      "t": 1794057244.8880012,
+      "level": "info",
+      "msg": "Rendering clip 2/12: Treating Monkey Mountain Like a Nine-to-Five Job"
+    },
+    {
+      "t": 1794057524.9951236,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:36"
+    },
+    {
+      "t": 1794057536.7519076,
+      "level": "info",
+      "msg": "Rendering clip 3/12: Escaping Alligators in Mushroom Land"
+    },
+    {
+      "t": 1794057784.8533015,
+      "level": "ok",
+      "msg": "Clip 3 ready in 4:04"
+    },
+    {
+      "t": 1794057796.6115003,
+      "level": "info",
+      "msg": "Rendering clip 4/12: Sliding Off the Mountain While Denying It"
+    },
+    {
+      "t": 1794058013.3793802,
+      "level": "ok",
+      "msg": "Clip 4 ready in 3:32"
+    },
+    {
+      "t": 1794058025.1343904,
+      "level": "info",
+      "msg": "Rendering clip 5/12: Accidentally Spending All the Banana Money"
+    },
+    {
+      "t": 1794058265.5394049,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:56"
+    },
+    {
+      "t": 1794058277.2940352,
+      "level": "info",
+      "msg": "Rendering clip 6/12: Voice Pitching and Attacking an Aggressive Crab"
+    },
+    {
+      "t": 1794059309.407967,
+      "level": "ok",
+      "msg": "Clip 6 ready in 17:08"
+    },
+    {
+      "t": 1794059321.257258,
+      "level": "info",
+      "msg": "Rendering clip 7/12: Bullying Friends for Diamond Credit"
+    },
+    {
+      "t": 1794059603.756618,
+      "level": "ok",
+      "msg": "Clip 7 ready in 4:38"
+    },
+    {
+      "t": 1794059615.523329,
+      "level": "info",
+      "msg": "Rendering clip 8/12: Getting Tossed Around by Indiana Jones Boulders"
+    },
+    {
+      "t": 1794059863.91057,
+      "level": "ok",
+      "msg": "Clip 8 ready in 4:04"
+    },
+    {
+      "t": 1794059875.6827571,
+      "level": "info",
+      "msg": "Rendering clip 9/12: Figuring Out Anti-Gravity in the Hell Cave"
+    },
+    {
+      "t": 1794060187.2519426,
+      "level": "ok",
+      "msg": "Clip 9 ready in 5:07"
+    },
+    {
+      "t": 1794060199.0242376,
+      "level": "info",
+      "msg": "Rendering clip 10/12: Accidentally Cartwheeling Past Magma Plants"
+    },
+    {
+      "t": 1794060416.4997597,
+      "level": "ok",
+      "msg": "Clip 10 ready in 3:33"
+    },
+    {
+      "t": 1794060428.3244975,
+      "level": "info",
+      "msg": "Rendering clip 11/12: Unmuting in Discord for Maximum Monkey Chaos"
+    },
+    {
+      "t": 1794060455.0297012,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794060466.8415875,
+      "level": "info",
+      "msg": "Rendering clip 1/2: Unmuting in Discord for Maximum Monkey Chaos"
+    },
+    {
+      "t": 1794060747.056805,
+      "level": "ok",
+      "msg": "Clip 1 ready in 4:36"
+    },
+    {
+      "t": 1794060758.8212361,
+      "level": "info",
+      "msg": "Rendering clip 2/2: Figuring Out the Monkey Cart Mechanics"
+    },
+    {
+      "t": 1794061055.4411645,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:52"
+    },
+    {
+      "t": 1794061063.313778,
+      "level": "ok",
+      "msg": "All done in 10:04"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "SMii7Y",
+  "duration": 1499,
+  "heatmap": [],
+  "video_description": "Some call this Monkey Bizniz... This is just a normal workday for me.\n\nMERCH Available now! https://smii7y.store/\n\nUse code S7 on Gamer Supps for 10% OFF your order\nGet my GamerSupps flavor, GOOD here!: https://gamersupps.gg/s7\n\nCheck out my other channels!\nSolo Let's Play Channel: https://www.youtube.com/@SMii7Yplays\nStream Highlight Channel:  https://www.youtube.com/c/SMii7Yplus\nStream VODs:  https://www.youtube.com/c/SMii7Yminus\n\nFollow my social medias and stream!\n\ud83d\udd34 Stream  -  http://www.twitch.tv/smii7y\n\ud83d\udc55 Merch - https://smii7y.store/\n\ud83d\udc26 Twitter  -  https://twitter.com/SMii7Y\n\ud83d\udcf7 Instagram  -  https://www.instagram.com/smii7y/\n\ud83c\udfac Clips Page - https://www.instagram.com/smii7y.clips/\n\nFriends in the video:\n@BlargMyShnoople \n@TheDooo \n@Grizzy \n\nEdited by: https://www.youtube.com/@PressurisedOrangeJuice\nThumbnail Milkbag Character Artist: https://twitter.com/ArtzyYT\nIntro Milkbag Character Artist: https://twitter.com/RoboEye5\nOutro Music Created by:  https://www.youtube.com/@MattercellEntertainment\n\n\ud83c\udfb5 Music licensing provided by:\nhttp://www.epidemicsound.com/\nhttps://www.shutterstock.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nhttps://www.soundsnap.com/\nhttps://www.pond5.com/\nhttps://motionarray.com/\nKevin MacLeod - incompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/",
+  "brief": "Summary: SMii7Y plays the Steam multiplayer game \"Monkey Business\" alongside his friends, where they play as customized monkeys navigating obstacles, pushing a cart, and collecting bananas.\nPeople: SMii7Y; Blarg (BlargMyShnoople); TheDooo; Grizzy\nContext: Gameplay transcript and video details for SMii7Y's video playing the game \"Monkey Business\" with his regular group of collaborator friends.\nUnclear: The transcript does not explicitly label which friend speaks every specific line during gameplay chaos, though all four listed participants are present in the video.",
+  "render_index": 2,
+  "render_total": 2
+}

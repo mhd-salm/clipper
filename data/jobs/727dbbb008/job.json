@@ -1,0 +1,645 @@
+{
+  "id": "727dbbb008",
+  "created": 1794035125.7018595,
+  "url": "https://www.youtube.com/watch?v=OzBGWnlyCA4",
+  "source": "manual",
+  "creator_id": "UCupvZG-5ko_eiXAupbDfxWw",
+  "title": "Miller is \u2018the worst of all possible choices\u2019: Tillis",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 88,
+        "shareability": 92,
+        "overall": 89,
+        "hook_text": "Stephen Miller is a can of kerosene!",
+        "tip": "Lead directly with the kerosene metaphor for maximum scroll-stopping impact.",
+        "caption": "David Axelrod argues that appointing Stephen Miller after election losses is like throwing kerosene on a fire.",
+        "description": "Political analyst David Axelrod uses a striking metaphor to describe the White House's decision to appoint Stephen Miller after historic midterm losses. He explains how past immigration policies alienated key voter blocs. What is your take on this strategy?",
+        "hashtags": [
+          "davidaxelrod",
+          "politics",
+          "electionloss",
+          "analysis",
+          "news"
+        ]
+      },
+      "id": "c1",
+      "title": "David Axelrod: Stephen Miller Is a Can of Kerosene",
+      "reason": "David Axelrod delivers a memorable metaphor arguing that appointing Miller after midterm losses is self-destructive.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 479.19,
+        "end": 537.4,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Stephen Miller is a can of kerosene!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 82,
+        "value": 85,
+        "shareability": 90,
+        "overall": 87,
+        "hook_text": "A lot of WTF texts from colleagues!",
+        "tip": "Highlight the mention of private text messages earlier in the edit to spike initial curiosity.",
+        "caption": "Thom Tillis reveals the wild text messages he received from fellow senators about Stephen Miller.",
+        "description": "Senator Thom Tillis shares the private reactions of his Senate colleagues regarding the controversial White House shakeup. He calls Stephen Miller a political opportunist who is wrong for the job. Would you share private political texts publicly?",
+        "hashtags": [
+          "senate",
+          "politics",
+          "thomtillis",
+          "stephenmiller",
+          "news"
+        ]
+      },
+      "id": "c2",
+      "title": "Thom Tillis Reveals 'WTF Texts' Over Stephen Miller",
+      "reason": "Tillis shares private reactions from Republican colleagues and calls Miller a political opportunist.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 289.23,
+        "end": 349.28,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "A lot of WTF texts from colleagues!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 81,
+        "value": 85,
+        "shareability": 89,
+        "overall": 86,
+        "hook_text": "Stephen Miller has a lawyer\u2014it is me!",
+        "tip": "Cut the setup question to jump straight to the attorney general's controversial quote.",
+        "caption": "The panel reacts to the Attorney General's stunning claim that he acts as Stephen Miller's personal lawyer.",
+        "description": "The panel breaks down a controversial statement from Attorney General Todd Blanche regarding his role relative to top White House staff. Analysts discuss the blending of the Department of Justice and presidential politics. Should the DOJ remain entirely independent?",
+        "hashtags": [
+          "doj",
+          "law",
+          "politics",
+          "whitehouse",
+          "news"
+        ]
+      },
+      "id": "c3",
+      "title": "Todd Blanche Claims He Is Stephen Miller's Lawyer",
+      "reason": "The panel analyzes Attorney General Todd Blanche's controversial statement blurring the line between DOJ and the White House.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 657.61,
+        "end": 712.91,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Stephen Miller has a lawyer\u2014it is me!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 80,
+        "value": 84,
+        "shareability": 85,
+        "overall": 83,
+        "hook_text": "You are not in Kansas anymore!",
+        "tip": "Start the clip right on the phrase referencing the midterm election losses to tighten the intro.",
+        "caption": "Thom Tillis warns the White House that facing a new Democratic Congress requires a completely different approach.",
+        "description": "Following devastating midterm losses, Senator Thom Tillis warns that the White House cannot treat the new Congress like the last one. He explains how misjudging this political reality will hurt Republicans in future elections. How should leadership adapt to the incoming Congress?",
+        "hashtags": [
+          "gop",
+          "midterms",
+          "congress",
+          "politics",
+          "news"
+        ]
+      },
+      "id": "c4",
+      "title": "Thom Tillis on GOP Midterm 'Ass Whuppin'",
+      "reason": "Senator Tillis uses blunt language to describe Republican election losses and warns the White House about the new political reality.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 81.69,
+        "end": 138.26,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "You are not in Kansas anymore!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 78,
+        "value": 82,
+        "shareability": 80,
+        "overall": 82,
+        "hook_text": "The worst of all possible choices!",
+        "tip": "Cut the filler words at the very beginning to let the strong condemnation hit immediately.",
+        "caption": "Senator Thom Tillis calls Stephen Miller the worst choice for chief of staff after historic midterm losses.",
+        "description": "Senator Thom Tillis blasts the appointment of Stephen Miller as White House chief of staff following tough midterm election losses. He explains why this divisive choice damages Republican outreach and policy goals. Do you agree with his blunt assessment?",
+        "hashtags": [
+          "politics",
+          "news",
+          "thomtillis",
+          "stephenmiller",
+          "whitehouse"
+        ]
+      },
+      "id": "c5",
+      "title": "Thom Tillis Reacts to Stephen Miller Appointment",
+      "reason": "Senator Thom Tillis opens with a punchy condemnation of Stephen Miller's appointment as White House Chief of Staff.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6.73,
+        "end": 63.48,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The worst of all possible choices!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 76,
+        "value": 79,
+        "shareability": 75,
+        "overall": 77,
+        "hook_text": "He failed on every major policy!",
+        "tip": "Trim the initial transition to jump straight into the critique of foreign policy and immigration.",
+        "caption": "Thom Tillis breaks down Stephen Miller's policy failures on immigration and foreign relations.",
+        "description": "Senator Thom Tillis outlines how Stephen Miller's controversial record on immigration and foreign policy alienated key allies and voters. He argues that past missteps should disqualify him from top leadership roles. Should policy failures prevent staff promotions?",
+        "hashtags": [
+          "immigration",
+          "foreignpolicy",
+          "politics",
+          "gop",
+          "news"
+        ]
+      },
+      "id": "c6",
+      "title": "Thom Tillis Slams Stephen Miller's Policy Failures",
+      "reason": "Tillis lists Stephen Miller's controversial moves on immigration and foreign policy, including the Greenland controversy.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 203.09,
+        "end": 261.24,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "He failed on every major policy!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 77,
+        "value": 78,
+        "shareability": 74,
+        "overall": 76,
+        "hook_text": "Inside the lobbying for Stephen Miller",
+        "tip": "Add an on-screen graphic tracking the key names mentioned during the lobbying timeline.",
+        "caption": "Dasha Burns shares behind-the-scenes reporting on how Katie Miller lobbied for her husband's new role.",
+        "description": "Reporter Dasha Burns details the behind-the-scenes lobbying efforts by Katie Miller to secure the chief of staff role for her husband, Stephen Miller. This look inside the transition reveals how key insiders pushed for the shakeup. Did you follow this staffing drama?",
+        "hashtags": [
+          "whitehouse",
+          "reporting",
+          "politics",
+          "behindthescenes",
+          "news"
+        ]
+      },
+      "id": "c7",
+      "title": "How Katie Miller Lobbied for Stephen Miller's Job",
+      "reason": "Dasha Burns shares behind-the-scenes reporting on Katie Miller's efforts to secure the Chief of Staff role for her husband.",
+      "score": 76,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 367.07,
+        "end": 421.08,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Inside the lobbying for Stephen Miller",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "green_pop",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": ""
+  },
+  "started": 1794035125.7059834,
+  "finished": 1794036677.2252405,
+  "log": [
+    {
+      "t": 1794035125.7132316,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=OzBGWnlyCA4"
+    },
+    {
+      "t": 1794035145.3256335,
+      "level": "ok",
+      "msg": "Downloaded \"Miller is \u2018the worst of all possible choices\u2019: Tillis\" (15:33) in 0:19"
+    },
+    {
+      "t": 1794035145.3322046,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794035147.9278822,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794035147.9307766,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794035825.0784435,
+      "level": "ok",
+      "msg": "Transcribed 239 segments / 2887 words in 11:19"
+    },
+    {
+      "t": 1794035825.082727,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794035827.7021902,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794035828.4526813,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794035828.4554806,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794035830.3167732,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794035830.321957,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Senator Thom Tillis reacts strongly against Donald Trump's appointment of Stephen Miller as White House chief of staff following historic midterm losses, calling it 'the worst of all possible choices' and criticizing Miller's record on immigration, foreign relations, and domestic policy. | "
+    },
+    {
+      "t": 1794035834.0516396,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794035875.4578562,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794035875.5335763,
+      "level": "ok",
+      "msg": "AI picked 7 clips in 0:50"
+    },
+    {
+      "t": 1794035875.5367317,
+      "level": "info",
+      "msg": "  \u2022 Thom Tillis Reacts to Stephen Miller Appointment  [0:06-1:03, score 88]"
+    },
+    {
+      "t": 1794035875.5399854,
+      "level": "info",
+      "msg": "  \u2022 Thom Tillis on GOP Midterm 'Ass Whuppin'  [1:21-2:18, score 87]"
+    },
+    {
+      "t": 1794035875.5427096,
+      "level": "info",
+      "msg": "  \u2022 Thom Tillis Slams Stephen Miller's Policy Failures  [3:23-4:21, score 90]"
+    },
+    {
+      "t": 1794035875.5457497,
+      "level": "info",
+      "msg": "  \u2022 Thom Tillis Reveals 'WTF Texts' Over Stephen Miller  [4:49-5:49, score 94]"
+    },
+    {
+      "t": 1794035875.548845,
+      "level": "info",
+      "msg": "  \u2022 How Katie Miller Lobbied for Stephen Miller's Job  [6:07-7:01, score 82]"
+    },
+    {
+      "t": 1794035875.552467,
+      "level": "info",
+      "msg": "  \u2022 David Axelrod: Stephen Miller Is a Can of Kerosene  [7:59-8:57, score 91]"
+    },
+    {
+      "t": 1794035875.55685,
+      "level": "info",
+      "msg": "  \u2022 Todd Blanche Claims He Is Stephen Miller's Lawyer  [10:57-11:52, score 85]"
+    },
+    {
+      "t": 1794035875.5627995,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794035877.1234293,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794035879.7043009,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794035879.7069576,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794035884.884442,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794035884.8889077,
+      "level": "ok",
+      "msg": "Rated 7 clips in 0:09"
+    },
+    {
+      "t": 1794035884.8912601,
+      "level": "info",
+      "msg": "  - Thom Tillis Reacts to Stephen Miller Appointment: 82/100 (hook 85, retention 78, value 82, share 80)"
+    },
+    {
+      "t": 1794035884.8936064,
+      "level": "info",
+      "msg": "  - Thom Tillis on GOP Midterm 'Ass Whuppin': 83/100 (hook 82, retention 80, value 84, share 85)"
+    },
+    {
+      "t": 1794035884.8956828,
+      "level": "info",
+      "msg": "  - Thom Tillis Slams Stephen Miller's Policy Failures: 77/100 (hook 78, retention 76, value 79, share 75)"
+    },
+    {
+      "t": 1794035884.8984485,
+      "level": "info",
+      "msg": "  - Thom Tillis Reveals 'WTF Texts' Over Stephen Miller: 87/100 (hook 88, retention 82, value 85, share 90)"
+    },
+    {
+      "t": 1794035884.908365,
+      "level": "info",
+      "msg": "  - How Katie Miller Lobbied for Stephen Miller's Job: 76/100 (hook 75, retention 77, value 78, share 74)"
+    },
+    {
+      "t": 1794035884.910662,
+      "level": "info",
+      "msg": "  - David Axelrod: Stephen Miller Is a Can of Kerosene: 89/100 (hook 90, retention 85, value 88, share 92)"
+    },
+    {
+      "t": 1794035884.9130082,
+      "level": "info",
+      "msg": "  - Todd Blanche Claims He Is Stephen Miller's Lawyer: 86/100 (hook 86, retention 81, value 85, share 89)"
+    },
+    {
+      "t": 1794035884.918684,
+      "level": "ok",
+      "msg": "7 distinct clips found, 7 rated 60+"
+    },
+    {
+      "t": 1794035884.9244938,
+      "level": "ok",
+      "msg": "Waiting for you to choose which clips to render"
+    },
+    {
+      "t": 1794035992.6779132,
+      "level": "info",
+      "msg": "Rendering clip 1/7: David Axelrod: Stephen Miller Is a Can of Kerosene"
+    },
+    {
+      "t": 1794036094.408204,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:41"
+    },
+    {
+      "t": 1794036094.41691,
+      "level": "info",
+      "msg": "Rendering clip 2/7: Thom Tillis Reveals 'WTF Texts' Over Stephen Miller"
+    },
+    {
+      "t": 1794036203.112607,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:48"
+    },
+    {
+      "t": 1794036203.124356,
+      "level": "info",
+      "msg": "Rendering clip 3/7: Todd Blanche Claims He Is Stephen Miller's Lawyer"
+    },
+    {
+      "t": 1794036294.6179202,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:31"
+    },
+    {
+      "t": 1794036294.628012,
+      "level": "info",
+      "msg": "Rendering clip 4/7: Thom Tillis on GOP Midterm 'Ass Whuppin'"
+    },
+    {
+      "t": 1794036389.9514225,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:35"
+    },
+    {
+      "t": 1794036389.9625046,
+      "level": "info",
+      "msg": "Rendering clip 5/7: Thom Tillis Reacts to Stephen Miller Appointment"
+    },
+    {
+      "t": 1794036481.41651,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:31"
+    },
+    {
+      "t": 1794036481.4274745,
+      "level": "info",
+      "msg": "Rendering clip 6/7: Thom Tillis Slams Stephen Miller's Policy Failures"
+    },
+    {
+      "t": 1794036579.5877867,
+      "level": "ok",
+      "msg": "Clip 6 ready in 1:38"
+    },
+    {
+      "t": 1794036579.600122,
+      "level": "info",
+      "msg": "Rendering clip 7/7: How Katie Miller Lobbied for Stephen Miller's Job"
+    },
+    {
+      "t": 1794036677.2228222,
+      "level": "ok",
+      "msg": "Clip 7 ready in 1:37"
+    },
+    {
+      "t": 1794036677.2314572,
+      "level": "ok",
+      "msg": "All done in 11:24"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "CNN",
+  "duration": 933,
+  "heatmap": [],
+  "video_description": "Susie Wiles, the White House chief of staff, is departing her role days after catastrophic Republican midterm losses in a seismic staff shakeup at the White House. She will be replaced by Stephen Miller, a longtime aide to President Donald Trump who orchestrated his hardline immigration agenda.\n\nCNN\u2019s Jake Tapper talks to Sen. Thom Tillis on his first reactions to the shakeup and Anderson Cooper\u2019s panel digs into why Trump made the move and what Democrats could do in response.\n\n0:00 \u201cThe worst of all possible choices\u201d\n5:50 New reporting on the shakeup\n11:08 Todd Blanche: \u201cStephen Miller has a lawyer - it\u2019s me\u201d\n14:20 More WH staff changes coming?\n\nWatch 24/7 live news with CNN Headlines: https://bit.ly/4eIvlTr\n\nStream more on CNN with an All Access subscription: https://cnn.it/4AZMu54\n\n#News #politics #midterms",
+  "brief": "Summary: Senator Thom Tillis reacts strongly against Donald Trump's appointment of Stephen Miller as White House chief of staff following historic midterm losses, calling it 'the worst of all possible choices' and criticizing Miller's record on immigration, foreign relations, and domestic policy.\nPeople: Thom Tillis; Stephen Miller; Susie Wiles; Donald Trump; Jake Tapper; Anderson Cooper; Katie Miller; Jeff Sessions; Elon Musk; Scott; Bill Pulty; Steve Whitcoff\nContext: An interview and panel discussion on CNN hosted by Jake Tapper and Anderson Cooper, focusing on the Republican midterm losses, the departure of White House chief of staff Susie Wiles, and the subsequent appointment of Stephen Miller.\nUnclear: The exact full name of treasury secretary Scott is not explicitly provided in the speech text beyond his first name.",
+  "render_index": 7,
+  "render_total": 7
+}

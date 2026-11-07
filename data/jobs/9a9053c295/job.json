@@ -1,0 +1,333 @@
+{
+  "id": "9a9053c295",
+  "created": 1793939397.6213725,
+  "url": "https://youtu.be/bVw75csjBZU",
+  "source": "manual",
+  "title": "Mamdani says there is \u2018absolutely\u2019 a path for a progressive candidate in 2028: Full interview",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "id": "c1",
+      "title": "Americans Are Tired of Unrealistic Promises",
+      "reason": "Captures a passionate critique of status quo politics and resonates deeply with working-class voters facing immediate financial pressure.",
+      "score": 88,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 17.61,
+        "end": 45.82,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/tZPPSNSyYs0",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "id": "c2",
+      "title": "Redefining What Progressive Victory Looks Like",
+      "reason": "Starts with direct pushback against the interviewer, creating instant tension before detailing popular policy highlights.",
+      "score": 85,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 60.85,
+        "end": 97.78,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/eEm9oHbnPOc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "id": "c3",
+      "title": "Politics Can't Be About Managing Decline",
+      "reason": "Features a strong, memorable soundbite arguing that government must inspire rather than manage national decline.",
+      "score": 92,
+      "status": "ready",
+      "error": null,
+      "version": 2,
+      "progress": 100,
+      "params": {
+        "start": 159.02,
+        "end": 193.31,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "clean_white",
+        "resolution": "1080p",
+        "overlays": [],
+        "layout": {
+          "id": "fit_blur",
+          "name": "Fit + blur",
+          "description": "Whole video centered over a blurred copy",
+          "background": "blur",
+          "regions": [
+            {
+              "x": 0.0,
+              "y": 0.3,
+              "w": 1.0,
+              "h": 0.4,
+              "fit": "fit",
+              "crop": null,
+              "follow_face": false,
+              "zoom": 1.0
+            }
+          ]
+        }
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/hg1EGahrWO8",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "id": "c4",
+      "title": "How a Progressive Mayor Worked With Trump",
+      "reason": "Delivers a surprising bipartisan story about securing tangible results through direct oval office conversations.",
+      "score": 90,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 311.1,
+        "end": 353.95,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/2JliSOypw8U",
+          "privacy": "public",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "id": "c5",
+      "title": "He Is Not Just a Commentator Online",
+      "reason": "Calls out the Vice President directly with a sharp, viral-ready critique regarding accountability and executive power.",
+      "score": 95,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 489.51,
+        "end": 526.96,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Fb-mXLaul0A",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 5,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p"
+  },
+  "started": 1793939397.6241963,
+  "finished": 1793939769.1273282,
+  "log": [
+    {
+      "t": 1793939397.6304927,
+      "level": "info",
+      "msg": "Downloading https://youtu.be/bVw75csjBZU"
+    },
+    {
+      "t": 1793939411.0077488,
+      "level": "ok",
+      "msg": "Downloaded \"Mamdani says there is \u2018absolutely\u2019 a path for a progressive candidate in 2028: Full interview\" (9:16) in 0:13"
+    },
+    {
+      "t": 1793939411.0142817,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1793939416.3638754,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1793939416.4207036,
+      "level": "ok",
+      "msg": "Transcribed 274 segments / 1842 words in 0:05"
+    },
+    {
+      "t": 1793939416.4275455,
+      "level": "info",
+      "msg": "Asking Gemini for the 5 best moments (20-60s each)"
+    },
+    {
+      "t": 1793939420.777448,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793939421.3344672,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793939421.3409843,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793939431.9999113,
+      "level": "ok",
+      "msg": "gemini-3.6-flash answered"
+    },
+    {
+      "t": 1793939432.0141997,
+      "level": "ok",
+      "msg": "AI picked 5 clips in 0:15"
+    },
+    {
+      "t": 1793939432.0164235,
+      "level": "info",
+      "msg": "  \u2022 Americans Are Tired of Unrealistic Promises  [0:17-0:45, score 88]"
+    },
+    {
+      "t": 1793939432.0190222,
+      "level": "info",
+      "msg": "  \u2022 Redefining What Progressive Victory Looks Like  [1:00-1:37, score 85]"
+    },
+    {
+      "t": 1793939432.0216668,
+      "level": "info",
+      "msg": "  \u2022 Politics Can't Be About Managing Decline  [2:39-3:13, score 92]"
+    },
+    {
+      "t": 1793939432.0242739,
+      "level": "info",
+      "msg": "  \u2022 How a Progressive Mayor Worked With Trump  [5:11-5:53, score 90]"
+    },
+    {
+      "t": 1793939432.0263665,
+      "level": "info",
+      "msg": "  \u2022 He Is Not Just a Commentator Online  [8:09-8:46, score 95]"
+    },
+    {
+      "t": 1793939432.0375965,
+      "level": "info",
+      "msg": "Rendering clip 1/5: Americans Are Tired of Unrealistic Promises"
+    },
+    {
+      "t": 1793939481.9046025,
+      "level": "ok",
+      "msg": "Clip 1 ready in 0:49"
+    },
+    {
+      "t": 1793939481.9124851,
+      "level": "info",
+      "msg": "Rendering clip 2/5: Redefining What Progressive Victory Looks Like"
+    },
+    {
+      "t": 1793939554.5526857,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:12"
+    },
+    {
+      "t": 1793939554.5623267,
+      "level": "info",
+      "msg": "Rendering clip 3/5: Politics Can't Be About Managing Decline"
+    },
+    {
+      "t": 1793939621.0457797,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:06"
+    },
+    {
+      "t": 1793939621.0542977,
+      "level": "info",
+      "msg": "Rendering clip 4/5: How a Progressive Mayor Worked With Trump"
+    },
+    {
+      "t": 1793939699.6172428,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:18"
+    },
+    {
+      "t": 1793939699.62462,
+      "level": "info",
+      "msg": "Rendering clip 5/5: He Is Not Just a Commentator Online"
+    },
+    {
+      "t": 1793939769.1256852,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:09"
+    },
+    {
+      "t": 1793939769.1320944,
+      "level": "ok",
+      "msg": "All done in 6:11"
+    },
+    {
+      "t": 1793962665.4279182,
+      "level": "info",
+      "msg": "Re-rendering Politics Can't Be About Managing Decline"
+    },
+    {
+      "t": 1793962721.9852912,
+      "level": "ok",
+      "msg": "Politics Can't Be About Managing Decline updated"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "NBC News",
+  "duration": 556,
+  "heatmap": [],
+  "render_index": 5,
+  "render_total": 5
+}

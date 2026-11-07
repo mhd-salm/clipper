@@ -1,0 +1,300 @@
+{
+  "id": "275892d922",
+  "created": 1793964195.8985176,
+  "url": "https://youtu.be/EIavGrcp4xg",
+  "source": "manual",
+  "title": "\u2018BE BOLD\u2019: Bernie Sanders calls for Democrats to pass Medicare for All",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": null,
+      "id": "c1",
+      "title": "Bernie Sanders: Trump Is Crazy, Not Stupid",
+      "reason": "Bernie delivers a viral moment arguing Democrats must pass bold legislation and challenge Trump to sign or veto it.",
+      "score": 94,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 297.89,
+        "end": 350.92,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/0NVZlw1vv40",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "rating": null,
+      "id": "c2",
+      "title": "Bernie Sanders On Why Populists Win Everywhere",
+      "reason": "Bernie breaks down why standing up to the billionaire class resonates across both red and blue America.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 156.93,
+        "end": 201.72,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Ou_TuNVawN0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "rating": null,
+      "id": "c3",
+      "title": "Bernie Sanders Demands Medicare For All",
+      "reason": "Bernie highlights the absurdity of US healthcare spending compared to other nations while demanding universal coverage.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 229.03,
+        "end": 265.2,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Zh9upGZE4Kg",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "rating": null,
+      "id": "c4",
+      "title": "Bernie Sanders Reacts To Election Wins",
+      "reason": "Bernie Sanders candidly expresses relief and lays out his plan after major election victories for working class candidates.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 74.41,
+        "end": 110.64,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/cSmOrRnqGlk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": false,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794050025.5807421
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "green_pop",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p"
+  },
+  "started": 1793964195.9035034,
+  "finished": 1793973477.5707428,
+  "log": [
+    {
+      "t": 1793964195.9123275,
+      "level": "info",
+      "msg": "Downloading https://youtu.be/EIavGrcp4xg"
+    },
+    {
+      "t": 1793964243.4149456,
+      "level": "ok",
+      "msg": "Downloaded \"\u2018BE BOLD\u2019: Bernie Sanders calls for Democrats to pass Medicare for All\" (8:23) in 0:47"
+    },
+    {
+      "t": 1793964243.4268506,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1793964248.3729641,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1793964248.376144,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1793964618.0882118,
+      "level": "ok",
+      "msg": "Transcribed 91 segments / 1476 words in 6:14"
+    },
+    {
+      "t": 1793964618.0929506,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1793964622.0408235,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793964652.6816514,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1793964652.6857347,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793964663.4518929,
+      "level": "ok",
+      "msg": "gemini-3.6-flash answered"
+    },
+    {
+      "t": 1793964663.466582,
+      "level": "ok",
+      "msg": "AI picked 4 clips in 0:45"
+    },
+    {
+      "t": 1793964663.4684756,
+      "level": "info",
+      "msg": "  \u2022 Bernie Sanders Reacts To Election Wins  [1:14-1:50, score 82]"
+    },
+    {
+      "t": 1793964663.4707355,
+      "level": "info",
+      "msg": "  \u2022 Bernie Sanders On Why Populists Win Everywhere  [2:36-3:21, score 89]"
+    },
+    {
+      "t": 1793964663.4725952,
+      "level": "info",
+      "msg": "  \u2022 Bernie Sanders Demands Medicare For All  [3:49-4:25, score 88]"
+    },
+    {
+      "t": 1793964663.4746015,
+      "level": "info",
+      "msg": "  \u2022 Bernie Sanders: Trump Is Crazy, Not Stupid  [4:57-5:50, score 94]"
+    },
+    {
+      "t": 1793964663.478269,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1793964663.4803357,
+      "level": "warn",
+      "msg": "Rating skipped: _ask_gemini() got an unexpected keyword argument 'spread'"
+    },
+    {
+      "t": 1793964663.4851098,
+      "level": "ok",
+      "msg": "4 distinct clips found, 4 rated 60+"
+    },
+    {
+      "t": 1793964663.4897392,
+      "level": "ok",
+      "msg": "Waiting for you to choose which clips to render"
+    },
+    {
+      "t": 1793965114.1740022,
+      "level": "info",
+      "msg": "Rendering clip 1/4: Bernie Sanders: Trump Is Crazy, Not Stupid"
+    },
+    {
+      "t": 1793965198.0658062,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:23"
+    },
+    {
+      "t": 1793965198.0740745,
+      "level": "info",
+      "msg": "Rendering clip 2/4: Bernie Sanders On Why Populists Win Everywhere"
+    },
+    {
+      "t": 1793965273.4906743,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:15"
+    },
+    {
+      "t": 1793965273.4974973,
+      "level": "info",
+      "msg": "Rendering clip 3/4: Bernie Sanders Demands Medicare For All"
+    },
+    {
+      "t": 1793973432.122293,
+      "level": "ok",
+      "msg": "Clip 3 ready in 135:58"
+    },
+    {
+      "t": 1793973432.129827,
+      "level": "info",
+      "msg": "Rendering clip 4/4: Bernie Sanders Reacts To Election Wins"
+    },
+    {
+      "t": 1793973477.5694702,
+      "level": "ok",
+      "msg": "Clip 4 ready in 0:45"
+    },
+    {
+      "t": 1793973477.5735104,
+      "level": "ok",
+      "msg": "All done in 139:23"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "MS NOW",
+  "duration": 503,
+  "heatmap": [],
+  "render_index": 4,
+  "render_total": 4
+}

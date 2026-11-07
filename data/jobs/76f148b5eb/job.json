@@ -1,0 +1,452 @@
+{
+  "id": "76f148b5eb",
+  "created": 1793945093.113327,
+  "url": "https://youtu.be/GU8PlxxU7kM",
+  "source": "manual",
+  "title": "Mamdani Makes CNN's Tapper Look Extra Foolish",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 68,
+        "value": 60,
+        "shareability": 65,
+        "overall": 67,
+        "tip": "Trim the abrupt opening start and add text on screen clarifying what news clip prompted the reaction.",
+        "caption": "Caught red-handed screaming at political news clips alone in the office.",
+        "hashtags": [
+          "media",
+          "politics",
+          "behindthescenes",
+          "relatable",
+          "officehumor"
+        ]
+      },
+      "id": "c1",
+      "title": "Caught Screaming At Jake Tapper Alone",
+      "reason": "A hilarious behind-the-scenes opening story illustrating extreme frustration with mainstream media framing.",
+      "score": 67,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5.93,
+        "end": 34.62,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://studio.youtube.com",
+          "privacy": "private",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 78,
+        "value": 85,
+        "shareability": 88,
+        "overall": 77,
+        "tip": "Cut out verbal hesitations and stammers in editing to make the rhetorical comparison deliver maximum emotional impact.",
+        "caption": "Examining the stark double standards in political media coverage.",
+        "hashtags": [
+          "politics",
+          "media",
+          "journalism",
+          "doublestandards",
+          "news"
+        ]
+      },
+      "id": "c2",
+      "title": "Media Hysteria vs Gaza Reality",
+      "reason": "A highly provocative hot take contrasting elite media pearl-clutching with real-world human suffering.",
+      "score": 77,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 188.25,
+        "end": 246.3,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/A6TqbwYptDA",
+          "privacy": "private",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 55,
+        "retention": 72,
+        "value": 76,
+        "shareability": 74,
+        "overall": 67,
+        "tip": "Add dynamic text captions highlighting key contrasts between media treatment of different social issues.",
+        "caption": "How selective media coverage shapes public political narratives.",
+        "hashtags": [
+          "media",
+          "politics",
+          "identitypolitics",
+          "newsanalysis",
+          "commentary"
+        ]
+      },
+      "id": "c3",
+      "title": "How Media Puppeteers Identity Politics",
+      "reason": "A sharp political insight exposing the double standard of which minority voices mainstream media chooses to elevate.",
+      "score": 67,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 376.73,
+        "end": 411.58,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/e0b4Ng-X_C4",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794050518.5254216
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 48,
+        "retention": 62,
+        "value": 75,
+        "shareability": 78,
+        "overall": 64,
+        "tip": "Remove filler phrases at the start to jump immediately into the core question about journalistic bias.",
+        "caption": "Notice how political interview questions are rarely asked both ways?",
+        "hashtags": [
+          "media",
+          "journalism",
+          "politics",
+          "interview",
+          "bias"
+        ]
+      },
+      "id": "c4",
+      "title": "The Question Media Never Asks Zionists",
+      "reason": "Points out a blatant media bias by contrasting how Muslim politicians are treated versus staunch Zionists.",
+      "score": 64,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 708.65,
+        "end": 751.1,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/kti2F7elRdE",
+          "privacy": "private",
+          "method": "browser",
+          "likes_hidden": true
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 62,
+        "retention": 58,
+        "value": 66,
+        "shareability": 72,
+        "overall": 64,
+        "tip": "Cut the trailing audio right after the RPG analogy to make the joke land cleanly without trailing text.",
+        "caption": "Why trial-by-error learning isn't always as great as podcast hosts claim.",
+        "hashtags": [
+          "joerogan",
+          "education",
+          "commentary",
+          "popculture",
+          "podcasts"
+        ]
+      },
+      "id": "c5",
+      "title": "The Joe Rogan Style Of Learning",
+      "reason": "A punchy, funny critique of modern anti-intellectualism and learning everything the hardest way possible.",
+      "score": 64,
+      "status": "ready",
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 828.01,
+        "end": 853.58,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "overlays": []
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Fj1mbZ7zYSs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794050633.046982
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 5,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p"
+  },
+  "started": 1793945093.116763,
+  "finished": 1793945533.3515353,
+  "log": [
+    {
+      "t": 1793945093.122718,
+      "level": "info",
+      "msg": "Downloading https://youtu.be/GU8PlxxU7kM"
+    },
+    {
+      "t": 1793945168.7141807,
+      "level": "ok",
+      "msg": "Downloaded \"Mamdani Makes CNN's Tapper Look Extra Foolish\" (15:03) in 1:15"
+    },
+    {
+      "t": 1793945168.7206483,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1793945203.2941265,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1793945203.3442094,
+      "level": "ok",
+      "msg": "Transcribed 436 segments / 2803 words in 0:34"
+    },
+    {
+      "t": 1793945203.3486753,
+      "level": "info",
+      "msg": "Asking Gemini for the 5 best moments (20-60s each)"
+    },
+    {
+      "t": 1793945205.9723155,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793945206.4595642,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793945206.4611795,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793945222.4285574,
+      "level": "ok",
+      "msg": "gemini-3.6-flash answered"
+    },
+    {
+      "t": 1793945222.457238,
+      "level": "ok",
+      "msg": "AI picked 5 clips in 0:19"
+    },
+    {
+      "t": 1793945222.4599748,
+      "level": "info",
+      "msg": "  \u2022 Caught Screaming At Jake Tapper Alone  [0:05-0:34, score 85]"
+    },
+    {
+      "t": 1793945222.4621167,
+      "level": "info",
+      "msg": "  \u2022 Media Hysteria vs Gaza Reality  [3:08-4:06, score 92]"
+    },
+    {
+      "t": 1793945222.4664268,
+      "level": "info",
+      "msg": "  \u2022 How Media Puppeteers Identity Politics  [6:16-6:51, score 88]"
+    },
+    {
+      "t": 1793945222.468629,
+      "level": "info",
+      "msg": "  \u2022 The Question Media Never Asks Zionists  [11:48-12:31, score 89]"
+    },
+    {
+      "t": 1793945222.4710767,
+      "level": "info",
+      "msg": "  \u2022 The Joe Rogan Style Of Learning  [13:48-14:13, score 86]"
+    },
+    {
+      "t": 1793945222.4755528,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1793945223.9764748,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793945224.371357,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1793945224.3742774,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793945233.180801,
+      "level": "ok",
+      "msg": "gemini-3.6-flash answered"
+    },
+    {
+      "t": 1793945233.1827714,
+      "level": "ok",
+      "msg": "Rated 5 clips in 0:10"
+    },
+    {
+      "t": 1793945233.1843436,
+      "level": "info",
+      "msg": "  - Caught Screaming At Jake Tapper Alone: 67/100 (hook 72, retention 68, value 60, share 65)"
+    },
+    {
+      "t": 1793945233.1863441,
+      "level": "info",
+      "msg": "  - Media Hysteria vs Gaza Reality: 77/100 (hook 65, retention 78, value 85, share 88)"
+    },
+    {
+      "t": 1793945233.1880524,
+      "level": "info",
+      "msg": "  - How Media Puppeteers Identity Politics: 67/100 (hook 55, retention 72, value 76, share 74)"
+    },
+    {
+      "t": 1793945233.1897118,
+      "level": "info",
+      "msg": "  - The Question Media Never Asks Zionists: 64/100 (hook 48, retention 62, value 75, share 78)"
+    },
+    {
+      "t": 1793945233.191352,
+      "level": "info",
+      "msg": "  - The Joe Rogan Style Of Learning: 64/100 (hook 62, retention 58, value 66, share 72)"
+    },
+    {
+      "t": 1793945233.198013,
+      "level": "info",
+      "msg": "Rendering clip 1/5: Caught Screaming At Jake Tapper Alone"
+    },
+    {
+      "t": 1793945272.1530817,
+      "level": "ok",
+      "msg": "Clip 1 ready in 0:38"
+    },
+    {
+      "t": 1793945272.160672,
+      "level": "info",
+      "msg": "Rendering clip 2/5: Media Hysteria vs Gaza Reality"
+    },
+    {
+      "t": 1793945375.3694277,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:43"
+    },
+    {
+      "t": 1793945375.37815,
+      "level": "info",
+      "msg": "Rendering clip 3/5: How Media Puppeteers Identity Politics"
+    },
+    {
+      "t": 1793945428.986065,
+      "level": "ok",
+      "msg": "Clip 3 ready in 0:53"
+    },
+    {
+      "t": 1793945428.9939415,
+      "level": "info",
+      "msg": "Rendering clip 4/5: The Question Media Never Asks Zionists"
+    },
+    {
+      "t": 1793945492.569162,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:03"
+    },
+    {
+      "t": 1793945492.5775712,
+      "level": "info",
+      "msg": "Rendering clip 5/5: The Joe Rogan Style Of Learning"
+    },
+    {
+      "t": 1793945533.349765,
+      "level": "ok",
+      "msg": "Clip 5 ready in 0:40"
+    },
+    {
+      "t": 1793945533.3551204,
+      "level": "ok",
+      "msg": "All done in 7:20"
+    },
+    {
+      "t": 1793974009.7973988,
+      "level": "error",
+      "msg": "Full auto upload STOPPED: YouTube daily upload limit was reached (test). Try again tomorrow."
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Majority Report w/ Sam Seder",
+  "duration": 903,
+  "heatmap": [],
+  "render_index": 5,
+  "render_total": 5
+}

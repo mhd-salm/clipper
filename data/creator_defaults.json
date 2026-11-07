@@ -1,0 +1,16 @@
+{
+  "layout_id": "fit_blur",
+  "subtitles": true,
+  "sub_style": "green_pop",
+  "num_clips": 0,
+  "min_len": 20,
+  "max_len": 60,
+  "resolution": "1080p",
+  "hook_text": true,
+  "content": "auto",
+  "auto": true,
+  "auto_privacy": "public",
+  "hide_likes": true,
+  "account": "default",
+  "min_score": 50
+}

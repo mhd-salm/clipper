@@ -1,0 +1,18 @@
+[
+  {
+    "id": "default",
+    "name": "Main channel",
+    "port": 9223,
+    "profile": "browser_profile",
+    "handle": "",
+    "channel_id": "UCz5BBfgvNfeLoyGWHwUTc9g"
+  },
+  {
+    "id": "entertainment-fun",
+    "name": "Entertainment & fun",
+    "port": 9224,
+    "profile": "browser_profile_entertainment-fun",
+    "handle": "@itainttmeee",
+    "channel_id": "UCCuLV1vBaNKFiyveU8jZR6w"
+  }
+]

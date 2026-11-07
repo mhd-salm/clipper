@@ -1,0 +1,2332 @@
+{
+  "id": "13dcef7b1a",
+  "created": 1794038422.8657467,
+  "url": "https://www.youtube.com/watch?v=a2K-AHeZ3o0",
+  "source": "manual",
+  "creator_id": "UCzQUP1qoWDoEbmsQxvdjxgQ",
+  "title": "Joe Rogan Experience #2574 - Francis Foster & Konstantin Kisin",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 92,
+        "retention": 88,
+        "value": 90,
+        "shareability": 95,
+        "overall": 92,
+        "hook_text": "The chilling curse of Tamerlane's tomb",
+        "tip": "Start with the chilling warning written on the tomb for an instantly arresting hook.",
+        "caption": "The eerie curse of Tamerlane's opened tomb.",
+        "description": "Konstantin Kisin recounts the eerie historical coincidence connecting the unsealing of Tamerlane's tomb with the launch of Operation Barbarossa. Discover the chilling warning left behind by the ancient conqueror. Do you believe in historical curses and coincidences?",
+        "hashtags": [
+          "history",
+          "ww2",
+          "mystery",
+          "conspiracy",
+          "stories"
+        ]
+      },
+      "id": "c1",
+      "title": "Konstantin Kisin Shares the Legend of Tamerlane's Tomb",
+      "reason": "Konstantin Kisin recounts the eerie historical coincidence connecting the unsealing of Tamerlane's tomb with Operation Barbarossa.",
+      "score": 92,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4964.57,
+        "end": 5024.22,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The chilling curse of Tamerlane's tomb",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/dqk_VMQ_BSo",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 91,
+        "retention": 86,
+        "value": 89,
+        "shareability": 94,
+        "overall": 90,
+        "hook_text": "Politics has become the new religion",
+        "tip": "Cut out the interruption mid-speech to deliver a seamless psychological insight.",
+        "caption": "How modern politics replaced traditional religion.",
+        "description": "Konstantin Kisin explains how political causes and ideological zealotry fill the psychological void left by declining religious adherence. Learn why ideological opponents are often treated like heretics or evil infidels. Have you noticed politics becoming a substitute for faith?",
+        "hashtags": [
+          "politics",
+          "psychology",
+          "religion",
+          "culture",
+          "ideology"
+        ]
+      },
+      "id": "c2",
+      "title": "Konstantin Kisin on Modern Political Zealotry",
+      "reason": "Konstantin Kisin explains how political causes fill the psychological void left by declining traditional religious adherence.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1433.05,
+        "end": 1483.1,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Politics has become the new religion",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/C_tNDYcfL8k",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 87,
+        "value": 92,
+        "shareability": 93,
+        "overall": 90,
+        "hook_text": "How a simple task changed a troubled kid",
+        "tip": "Highlight the student's reaction when sharpening pencils to maximize emotional resonance.",
+        "caption": "How a simple task gave a troubled student purpose.",
+        "description": "Francis Foster shares a touching story from his teaching days about a troubled student who found immense pride and self-worth in completing a simple, useful task. Explore the deep human psychological need for purposeful work and contribution. When was the last time a small task made you proud?",
+        "hashtags": [
+          "teaching",
+          "mentalhealth",
+          "purpose",
+          "inspiration",
+          "stories"
+        ]
+      },
+      "id": "c3",
+      "title": "Francis Foster's Story on Human Purpose",
+      "reason": "Francis Foster tells a moving story from his teaching career about a student finding pride in completing a simple task.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 7876.17,
+        "end": 7934.86,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "How a simple task changed a troubled kid",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/4CPDG8JfhIw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 86,
+        "value": 91,
+        "shareability": 94,
+        "overall": 90,
+        "hook_text": "Premier League star now works construction",
+        "tip": "Emphasize the transition from soccer champion to building site worker in the hook.",
+        "caption": "Why a Premier League champion became an electrician.",
+        "description": "Francis Foster discusses former soccer champion Danny Drinkwater choosing tradeswork and building camaraderie to find personal fulfillment after professional sports. Discover why chasing status often takes a back seat to genuine achievement and community. What does true success look like to you?",
+        "hashtags": [
+          "soccer",
+          "premierleague",
+          "trades",
+          "fulfillment",
+          "success"
+        ]
+      },
+      "id": "c4",
+      "title": "Francis Foster on Premier League Star Danny Drinkwater",
+      "reason": "Francis Foster discusses former soccer champion Danny Drinkwater choosing tradeswork to maintain personal fulfillment.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8278.81,
+        "end": 8339.18,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Premier League star now works construction",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/dGLiLn4hGpM",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 86,
+        "shareability": 92,
+        "overall": 89,
+        "hook_text": "Why negative content always goes viral",
+        "tip": "Add on-screen text highlighting the word negative engagement for visual emphasis.",
+        "caption": "Why outrage is the easiest way to go viral on X.",
+        "description": "Francis Foster explains how monetizing user engagement on social media incentivizes creators to post outrageous takes. Learn why negative content drives higher revenue than positivity or humor. Do you think monetization ruins online discourse?",
+        "hashtags": [
+          "socialmedia",
+          "twitter",
+          "contentcreator",
+          "outrage",
+          "podcast"
+        ]
+      },
+      "id": "c5",
+      "title": "Francis Foster Breaks Down Outrage Incentives",
+      "reason": "Francis Foster explains how monetizing engagement on X incentivizes creators to post outrageous takes to drive revenue.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 345.37,
+        "end": 376.94,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Why negative content always goes viral",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/U6FR-qifM6U",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 85,
+        "value": 87,
+        "shareability": 93,
+        "overall": 89,
+        "hook_text": "American attack ads are completely insane",
+        "tip": "Emphasize the absurdity of the political attack ad examples for an immediate hook.",
+        "caption": "The sheer shock of American political attack ads.",
+        "description": "Konstantin Kisin expresses utter shock at the extreme and absurd accusations featured in American midterm political commercials. Look at how polarized political messaging has evolved in modern campaigns. How do you feel about modern political advertising?",
+        "hashtags": [
+          "politics",
+          "media",
+          "usa",
+          "election",
+          "humor"
+        ]
+      },
+      "id": "c6",
+      "title": "Konstantin Kisin Reacts to Wild US Attack Ads",
+      "reason": "Konstantin Kisin expresses shock at the extreme accusations featured in American midterm political commercials.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2857.93,
+        "end": 2913.9,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "American attack ads are completely insane",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/3WMUihNhWYg",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 86,
+        "value": 87,
+        "shareability": 92,
+        "overall": 89,
+        "hook_text": "The terrifying scale of ancient conquests",
+        "tip": "Enhance the descriptive pacing when detailing the historical bone piles for maximum impact.",
+        "caption": "The terrifying scale of Genghis Khan's conquests.",
+        "description": "Francis Foster and Joe Rogan discuss Dan Carlin's historical accounts detailing the devastating and brutal scale of Genghis Khan's invasions. Examine the grim realities of ancient warfare and empire building. How do historical conquerors shape our modern world view?",
+        "hashtags": [
+          "history",
+          "joerogan",
+          "warfare",
+          "mongols",
+          "podcast"
+        ]
+      },
+      "id": "c7",
+      "title": "Francis Foster and Joe Rogan on Genghis Khan's Brutality",
+      "reason": "Francis Foster and Joe Rogan discuss Dan Carlin's historical accounts of Genghis Khan's devastating conquests.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5117.29,
+        "end": 5175.98,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The terrifying scale of ancient conquests",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/krt361mOJjY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 89,
+        "shareability": 92,
+        "overall": 89,
+        "hook_text": "Running marathons with skin falling off",
+        "tip": "Keep the vivid description of the foot blisters punchy to maintain high engagement.",
+        "caption": "Running back-to-back marathons with ruined feet.",
+        "description": "Joe Rogan describes comedian Eddie Izzard running consecutive marathons despite suffering severe physical trauma and torn skin on his feet. Discover the sheer mental endurance required to push past physical agony. What is the hardest physical challenge you have faced?",
+        "hashtags": [
+          "endurance",
+          "marathon",
+          "eddieizzard",
+          "joerogan",
+          "motivation"
+        ]
+      },
+      "id": "c8",
+      "title": "Joe Rogan Marvels at Eddie Izzard's Endurance Feat",
+      "reason": "Joe Rogan describes comedian Eddie Izzard running back-to-back marathons despite severe physical trauma to his feet.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8833.69,
+        "end": 8893.58,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Running marathons with skin falling off",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/5smS6MwZI0k",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 84,
+        "value": 87,
+        "shareability": 90,
+        "overall": 88,
+        "hook_text": "The real motivation behind green deals",
+        "tip": "Start the clip right as Joe calls out the engineered narrative for an instant emotional grab.",
+        "caption": "The truth about corporate greenwashing profits.",
+        "description": "Joe Rogan breaks down how corporate interests and environmental panic are manufactured to secure lucrative state contracts. Discover the financial incentives driving major green energy mandates today. Do you believe corporate campaigns genuinely want to save the planet?",
+        "hashtags": [
+          "joerogan",
+          "greenenergy",
+          "corporations",
+          "business",
+          "money"
+        ]
+      },
+      "id": "c9",
+      "title": "Joe Rogan Calls Out Corporate Greenwashing Profits",
+      "reason": "Joe Rogan breaks down how corporate interests push environmental panic to secure lucrative state contracts.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1073.61,
+        "end": 1133.98,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The real motivation behind green deals",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/0wjUN1iwYmA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 85,
+        "value": 89,
+        "shareability": 90,
+        "overall": 88,
+        "hook_text": "Why martial arts destroys your ego",
+        "tip": "Begin right at the moment Joe describes getting completely mauled in jiu-jitsu.",
+        "caption": "Why everyone starts out terrible at jiu-jitsu.",
+        "description": "Joe Rogan breaks down how enduring initial failure and humility in martial arts builds long-term resilience and self-awareness. Learn why checking your ego early on is essential for true personal growth. Have you ever tried learning a humbling skill?",
+        "hashtags": [
+          "joerogan",
+          "jiujitsu",
+          "martialarts",
+          "humility",
+          "growth"
+        ]
+      },
+      "id": "c10",
+      "title": "Joe Rogan on the Life Lessons of Jiu-Jitsu",
+      "reason": "Joe Rogan breaks down how enduring initial failure in martial arts builds long-term humility and resilience.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8530.73,
+        "end": 8590.54,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Why martial arts destroys your ego",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/ia4-DRlFt6Y",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 82,
+        "value": 85,
+        "shareability": 91,
+        "overall": 87,
+        "hook_text": "How census counting alters political power",
+        "tip": "Trim the opening census setup to get straight into the congressional seat allocation point.",
+        "caption": "How population metrics influence congressional seats.",
+        "description": "Joe Rogan discusses how population counting rules and immigration numbers impact congressional seat reapportionment. Examine the debate surrounding political representation and systemic power shifts. Are population metrics accurately reflecting local needs?",
+        "hashtags": [
+          "politics",
+          "joerogan",
+          "government",
+          "laws",
+          "news"
+        ]
+      },
+      "id": "c11",
+      "title": "Joe Rogan Explains Census Counting Rules",
+      "reason": "Joe Rogan discusses how population metrics influence congressional reapportionment regardless of citizenship status.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3046.09,
+        "end": 3089.74,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "How census counting alters political power",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/9KUL_WGo0_8",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 84,
+        "value": 88,
+        "shareability": 90,
+        "overall": 87,
+        "hook_text": "The dark side of childhood fame",
+        "tip": "Begin directly with the psychological trap of childhood stardom.",
+        "caption": "The hidden psychological traps of childhood stardom.",
+        "description": "Joe Rogan analyzes why child stars often encounter severe psychological difficulties after growing up surrounded by unearned praise and adult pampering. Discover why navigating normal developmental struggles is crucial for young people. How does society treat young celebrities?",
+        "hashtags": [
+          "childstars",
+          "joerogan",
+          "psychology",
+          "fame",
+          "hollywood"
+        ]
+      },
+      "id": "c12",
+      "title": "Joe Rogan Describes the Traps of Childhood Stardom",
+      "reason": "Joe Rogan analyzes why child stars often encounter psychological difficulties after growing up surrounded by adult praise.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4082.09,
+        "end": 4137.82,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The dark side of childhood fame",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/PMbVojbgbjo",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 84,
+        "value": 85,
+        "shareability": 91,
+        "overall": 87,
+        "hook_text": "Missile defenses deployed at Mar-a-Lago",
+        "tip": "Put emphasis on the missile deployment news report right at the 3-second mark.",
+        "caption": "Surface-to-air missiles deployed at Mar-a-Lago.",
+        "description": "Joe Rogan comments on reports of surface-to-air missile defense systems being deployed around key infrastructure amid heightened threat environments. Discuss the geopolitical tensions and security measures shaping modern political figures' lives. Are you surprised by these security escalations?",
+        "hashtags": [
+          "news",
+          "joerogan",
+          "politics",
+          "security",
+          "currentevents"
+        ]
+      },
+      "id": "c13",
+      "title": "Joe Rogan Discusses SAM Deployments at Mar-a-Lago",
+      "reason": "Joe Rogan comments on reports of surface-to-air missile defenses deployed around key infrastructure during geopolitical tensions.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6643.61,
+        "end": 6695.98,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Missile defenses deployed at Mar-a-Lago",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/MUTsAAoYy1I",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 83,
+        "value": 86,
+        "shareability": 90,
+        "overall": 87,
+        "hook_text": "How professional paid protesters operate",
+        "tip": "Trim the conversational preamble about friends on the left to get straight to the protest vans.",
+        "caption": "Inside the world of professional paid protesters.",
+        "description": "Joe Rogan outlines how organized groups fund rapid-response street demonstrations complete with pre-printed signs and career protesters. Explore the logistics behind modern political activism and public dissent. Have you ever witnessed organized demonstrations firsthand?",
+        "hashtags": [
+          "protest",
+          "joerogan",
+          "politics",
+          "activism",
+          "society"
+        ]
+      },
+      "id": "c14",
+      "title": "Joe Rogan Explains Manufactured Political Demonstrations",
+      "reason": "Joe Rogan outlines how organized groups fund rapid-response street protests and pre-printed sign campaigns.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6774.49,
+        "end": 6829.34,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "How professional paid protesters operate",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/2S1_Kgxj8ZU",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 88,
+        "shareability": 92,
+        "overall": 87,
+        "hook_text": "The American Revolution was not a revolution",
+        "tip": "Keep the definition of a true revolution distinct and punchy from the start.",
+        "caption": "Why the American Revolution wasn't a real revolution.",
+        "description": "Konstantin Kisin explains the structural differences between a war of independence and a regime-toppling revolution like those in France or Russia. Discover why categorizing historical uprisings accurately changes our perspective on political change. What is the difference between freedom and revolution?",
+        "hashtags": [
+          "history",
+          "americanrevolution",
+          "politics",
+          "freedom",
+          "education"
+        ]
+      },
+      "id": "c15",
+      "title": "Konstantin Kisin Distinguishes Independence from Revolution",
+      "reason": "Konstantin Kisin explains the structural differences between war of independence movements and regime-toppling revolutions.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 7106.57,
+        "end": 7166.78,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The American Revolution was not a revolution",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/ahm9hkSoZUY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 84,
+        "value": 89,
+        "shareability": 91,
+        "overall": 87,
+        "hook_text": "A stark warning from a Cuban immigrant",
+        "tip": "Start directly with the Cuban coffee shop owner's blunt warning about communism.",
+        "caption": "A Cuban coffee shop owner's warning on socialism.",
+        "description": "Francis Foster shares a poignant anecdote from a Cuban business owner about western misperceptions and naivety regarding socialist regimes. Examine why those who haven't experienced authoritarianism struggle to comprehend its reality. How can history educate younger generations?",
+        "hashtags": [
+          "history",
+          "socialism",
+          "cuba",
+          "politics",
+          "wisdom"
+        ]
+      },
+      "id": "c16",
+      "title": "Francis Foster Recounts Warning on Communism",
+      "reason": "Francis Foster shares an anecdote from a Cuban coffee shop owner about western misperceptions of socialist regimes.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 7286.97,
+        "end": 7341.42,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "A stark warning from a Cuban immigrant",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/de5OSG4t7bA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 83,
+        "value": 85,
+        "shareability": 91,
+        "overall": 86,
+        "hook_text": "Why public opinion polls are flawed",
+        "tip": "Deliver the punchline about poll respondents with a cleaner, quicker pause.",
+        "caption": "The hilarious flaw in modern opinion polling.",
+        "description": "Joe Rogan humorously criticizes modern opinion polling methods and questions the skewed sample sizes of people who actually answer calls. Discover why busy individuals rarely participate in standard surveys. Do you trust public opinion polls?",
+        "hashtags": [
+          "joerogan",
+          "polls",
+          "comedy",
+          "society",
+          "data"
+        ]
+      },
+      "id": "c17",
+      "title": "Why Joe Rogan Distrusts Polling Data",
+      "reason": "Joe Rogan humorously criticizes modern opinion polling methods and the skewed sample sizes they rely upon.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1618.33,
+        "end": 1668.62,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Why public opinion polls are flawed",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/68zm-t3kx4M",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 88,
+        "shareability": 89,
+        "overall": 86,
+        "hook_text": "A week in nature changes children",
+        "tip": "Highlight the stark contrast between concrete playgrounds and the countryside visually.",
+        "caption": "How a week in nature completely transforms kids.",
+        "description": "Francis Foster shares his experience teaching in East London and how taking rough kids away to the countryside transformed their behavior. Explore how modern society struggles with the absence of nature and quiet surroundings. How often do you get out into nature?",
+        "hashtags": [
+          "nature",
+          "teaching",
+          "mentalhealth",
+          "kids",
+          "society"
+        ]
+      },
+      "id": "c18",
+      "title": "Francis Foster on How Nature Resets Children",
+      "reason": "Francis Foster shares his experience teaching in East London and how a week in nature transformed student behavior.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2455.05,
+        "end": 2505.82,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "A week in nature changes children",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/SdfrFSwlnZE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 86,
+        "shareability": 89,
+        "overall": 86,
+        "hook_text": "Eddie Izzard's brutal early comedy nickname",
+        "tip": "Cut straight to the brutal early nickname to hook comedy fans instantly.",
+        "caption": "Eddie Izzard's brutal nickname on the comedy circuit.",
+        "description": "Francis Foster recounts how stand-up icon Eddie Izzard overcame early years of bombing on stage to become a legendary comedic success. Explore the relentless drive and adaptability required to survive in entertainment. How do you handle failure in your career?",
+        "hashtags": [
+          "comedy",
+          "standup",
+          "eddieizzard",
+          "perseverance",
+          "podcast"
+        ]
+      },
+      "id": "c19",
+      "title": "Francis Foster Shares Eddie Izzard's Early Career Nickname",
+      "reason": "Francis Foster recounts how stand-up icon Eddie Izzard overcame early bombing on stage before finding success.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8676.25,
+        "end": 8733.82,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Eddie Izzard's brutal early comedy nickname",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/ZfxZSH7xGko",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 80,
+        "value": 85,
+        "shareability": 89,
+        "overall": 85,
+        "hook_text": "Why secular groups act like religions",
+        "tip": "Sharpen the phrasing of the moral scaffolding argument for maximum philosophical impact.",
+        "caption": "Why secular movements mimic religious dogmas.",
+        "description": "Joe Rogan shares his theory on why modern secular political movements adopt rigid moral structures similar to traditional religious dogmas. Explore the human psychological need for rules and a guiding framework. Can society function without a shared moral structure?",
+        "hashtags": [
+          "joerogan",
+          "philosophy",
+          "religion",
+          "culture",
+          "politics"
+        ]
+      },
+      "id": "c20",
+      "title": "Joe Rogan's Theory on Secular Ideology",
+      "reason": "Joe Rogan outlines why he believes secular movements often adopt rigid moral structures similar to religious dogmas.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1303.29,
+        "end": 1354.54,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Why secular groups act like religions",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/2foWHfIH8E8",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 80,
+        "value": 86,
+        "shareability": 88,
+        "overall": 85,
+        "hook_text": "The danger of corporate moral diffusion",
+        "tip": "Make the corporation workflow comparison snappier to maintain listener engagement.",
+        "caption": "How corporate structures dilute personal morality.",
+        "description": "Joe Rogan examines how large corporate structures diffuse personal responsibility among employees who are hyper-focused on daily tasks and profits. Explore how good people can unknowingly contribute to harmful corporate actions. Can large corporations ever truly be ethical?",
+        "hashtags": [
+          "corporations",
+          "joerogan",
+          "business",
+          "ethics",
+          "workplace"
+        ]
+      },
+      "id": "c21",
+      "title": "Joe Rogan on Corporate Morality and Ethics",
+      "reason": "Joe Rogan examines how corporate structures diffuse personal responsibility among employees pursuing profit.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3413.05,
+        "end": 3469.02,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The danger of corporate moral diffusion",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/tMY_DIi6SxA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 81,
+        "value": 87,
+        "shareability": 88,
+        "overall": 85,
+        "hook_text": "Why Siberian trappers are genuinely happy",
+        "tip": "Streamline the description of the Siberian documentary to maintain narrative momentum.",
+        "caption": "Finding genuine happiness in brutal Siberian climates.",
+        "description": "Joe Rogan breaks down a documentary about Siberian trappers living a subsistence lifestyle to show how physical labor fosters mental well-being. Examine whether modern corporate cubicle jobs align with human nature. Can simple physical survival bring more peace than modern luxury?",
+        "hashtags": [
+          "joerogan",
+          "siberia",
+          "lifestyle",
+          "happiness",
+          "nature"
+        ]
+      },
+      "id": "c22",
+      "title": "Joe Rogan Highlights Siberian Subsistence Living",
+      "reason": "Joe Rogan breaks down Werner Herzog's documentary 'Happy People' to show how simple labor fosters mental well-being.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8125.53,
+        "end": 8183.02,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Why Siberian trappers are genuinely happy",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/M7piAUPdyd4",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 78,
+        "value": 82,
+        "shareability": 88,
+        "overall": 84,
+        "hook_text": "Timelines are flooded with fake news",
+        "tip": "Cut the filler words at the very beginning to jump straight into the core claim.",
+        "caption": "Why fake news and AI are flooding your timeline.",
+        "description": "Joe Rogan exposes how coordinated propaganda operations flood social media timelines with fake stories and AI images. Discover why bad actors muddy the waters to confuse voters and distort reality. Are you noticing more manipulated content online lately?",
+        "hashtags": [
+          "fakenews",
+          "joerogan",
+          "socialmedia",
+          "propaganda",
+          "politics"
+        ]
+      },
+      "id": "c23",
+      "title": "Why Social Media Timelines Are Flooded With Fake News",
+      "reason": "Joe Rogan discusses how propaganda operations intentionally pollute social media timelines with fake stories and AI images to confuse voters.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 105.29,
+        "end": 164.78,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Timelines are flooded with fake news",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/u543U3nQ-WQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 83,
+        "retention": 81,
+        "value": 86,
+        "shareability": 87,
+        "overall": 84,
+        "hook_text": "Cities create a human zoo effect",
+        "tip": "Focus the narrative directly on Desmond Morris's primate findings right from the opening second.",
+        "caption": "How high-density city living mirrors zoo stress.",
+        "description": "Konstantin Kisin references primatologist Desmond Morris to explain how high-density city living induces animal-like stress behaviors in humans. Examine the link between urban environments, mental health, and plummeting birth rates. Would you prefer living in a bustling city or a quiet town?",
+        "hashtags": [
+          "citylife",
+          "psychology",
+          "urban",
+          "mentalhealth",
+          "books"
+        ]
+      },
+      "id": "c24",
+      "title": "Konstantin Kisin Explains 'The Human Zoo' Effect",
+      "reason": "Konstantin Kisin references Desmond Morris to show how high-density city living induces animal-like stress behaviors in humans.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2164.01,
+        "end": 2210.54,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Cities create a human zoo effect",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/A2gGCmCpi_I",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 79,
+        "value": 84,
+        "shareability": 86,
+        "overall": 83,
+        "hook_text": "Pensioners freezing because of climate policies",
+        "tip": "Tighten the transition into the air conditioning joke to keep the comedic timing sharp.",
+        "caption": "How climate mandates drive up winter energy costs.",
+        "description": "Konstantin Kisin argues that strict climate mandates have driven up energy prices, leaving vulnerable pensioners struggling to stay warm in winter. Examine the unintended consequences of aggressive green policies on everyday citizens. How should cities balance energy costs and climate goals?",
+        "hashtags": [
+          "energy",
+          "climatechange",
+          "uk",
+          "politics",
+          "economics"
+        ]
+      },
+      "id": "c25",
+      "title": "Konstantin Kisin on Green Energy and Energy Poverty",
+      "reason": "Konstantin Kisin argues that climate mandates have driven up energy costs, forcing UK pensioners to struggle in winter.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 774.81,
+        "end": 825.58,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Pensioners freezing because of climate policies",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/k1gH4v1W0rc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 79,
+        "value": 84,
+        "shareability": 86,
+        "overall": 83,
+        "hook_text": "When rulers artificially created new gods",
+        "tip": "Speed up the historical backstory to keep the viewer hooked on the museum exhibition angle.",
+        "caption": "When ancient rulers artificially created new gods.",
+        "description": "Francis Foster shares a fascinating historical exhibition story about ancient rulers merging Greek and Egyptian deities to prevent civil unrest. Explore how artificial religious synthesis was used as a brilliant political tool. What do you think of historical problem-solving tactics?",
+        "hashtags": [
+          "history",
+          "ancientrome",
+          "egypt",
+          "culture",
+          "museum"
+        ]
+      },
+      "id": "c26",
+      "title": "Francis Foster on Ancient Greek-Egyptian Syntheses",
+      "reason": "Francis Foster shares how rulers artificially merged Greek and Egyptian deities to prevent civil unrest.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4781.21,
+        "end": 4832.86,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "When rulers artificially created new gods",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/XAkH-qQlpes",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 74,
+        "value": 80,
+        "shareability": 85,
+        "overall": 79,
+        "hook_text": "European heat deaths vs US firearms",
+        "tip": "Streamline the CDC statistic breakdown to maintain a punchier conversational rhythm.",
+        "caption": "Comparing European heat deaths to US firearm stats.",
+        "description": "Joe Rogan reviews surprising data showing how European summer heat deaths can sometimes exceed annual American firearm statistics. Explore the nuances behind these shocking comparative numbers and public safety data. Which statistic surprises you more?",
+        "hashtags": [
+          "statistics",
+          "joerogan",
+          "europe",
+          "usa",
+          "facts"
+        ]
+      },
+      "id": "c27",
+      "title": "European Heat Deaths vs US Firearm Deaths",
+      "reason": "Joe Rogan highlights data showing European summer heat deaths can exceed annual American firearm statistics.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 669.05,
+        "end": 724.62,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "European heat deaths vs US firearms",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/yxI0P3kLbUY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel"
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "green_pop",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": ""
+  },
+  "started": 1794038422.8697846,
+  "finished": 1794041035.6821563,
+  "log": [
+    {
+      "t": 1794038422.8765125,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=a2K-AHeZ3o0"
+    },
+    {
+      "t": 1794038601.5163062,
+      "level": "ok",
+      "msg": "Downloaded \"Joe Rogan Experience #2574 - Francis Foster & Konstantin Kisin\" (158:15) in 2:58"
+    },
+    {
+      "t": 1794038601.5226443,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794038606.2214,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794038606.795899,
+      "level": "ok",
+      "msg": "Transcribed 4732 segments / 30825 words in 0:05"
+    },
+    {
+      "t": 1794038606.8003476,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794038607.7009063,
+      "level": "info",
+      "msg": "Using 7 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794038609.1836295,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794038618.4568841,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794038618.4593916,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794038620.5655441,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794038620.5711808,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Joe Rogan, Francis Foster, and Konstantin Kisin discuss the difficulty of verifying news on social media platforms like X, the impact of fake stories, AI-generated images, bots, and foreign actors muddying political narratives, and how the monetization of engagement on social media incentiv"
+    },
+    {
+      "t": 1794038640.369169,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794038640.3813317,
+      "level": "info",
+      "msg": "Using 7 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794038641.8431098,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794038680.1336966,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794038681.1372519,
+      "level": "ok",
+      "msg": "AI picked 27 clips in 1:14"
+    },
+    {
+      "t": 1794038681.1396935,
+      "level": "info",
+      "msg": "  \u2022 Why Social Media Timelines Are Flooded With Fake News  [1:45-2:44, score 88]"
+    },
+    {
+      "t": 1794038681.1422238,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster Breaks Down Outrage Incentives  [5:45-6:16, score 82]"
+    },
+    {
+      "t": 1794038681.1448407,
+      "level": "info",
+      "msg": "  \u2022 European Heat Deaths vs US Firearm Deaths  [11:09-12:04, score 93]"
+    },
+    {
+      "t": 1794038681.146834,
+      "level": "info",
+      "msg": "  \u2022 Konstantin Kisin on Green Energy and Energy Poverty  [12:54-13:45, score 85]"
+    },
+    {
+      "t": 1794038681.1487849,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Calls Out Corporate Greenwashing Profits  [17:53-18:53, score 89]"
+    },
+    {
+      "t": 1794038681.1507268,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan's Theory on Secular Ideology  [21:43-22:34, score 91]"
+    },
+    {
+      "t": 1794038681.1528492,
+      "level": "info",
+      "msg": "  \u2022 Konstantin Kisin on Modern Political Zealotry  [23:53-24:43, score 86]"
+    },
+    {
+      "t": 1794038681.154919,
+      "level": "info",
+      "msg": "  \u2022 Why Joe Rogan Distrusts Polling Data  [26:58-27:48, score 84]"
+    },
+    {
+      "t": 1794038681.1572034,
+      "level": "info",
+      "msg": "  \u2022 Konstantin Kisin Explains 'The Human Zoo' Effect  [36:04-36:50, score 90]"
+    },
+    {
+      "t": 1794038681.1599066,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster on How Nature Resets Children  [40:55-41:45, score 87]"
+    },
+    {
+      "t": 1794038681.1621292,
+      "level": "info",
+      "msg": "  \u2022 Konstantin Kisin Reacts to Wild US Attack Ads  [47:37-48:33, score 83]"
+    },
+    {
+      "t": 1794038681.1643238,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Explains Census Counting Rules  [50:46-51:29, score 86]"
+    },
+    {
+      "t": 1794038681.1664245,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan on Corporate Morality and Ethics  [56:53-57:49, score 85]"
+    },
+    {
+      "t": 1794038681.16886,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Describes the Traps of Childhood Stardom  [68:02-68:57, score 92]"
+    },
+    {
+      "t": 1794038681.1714957,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster on Ancient Greek-Egyptian Syntheses  [79:41-80:32, score 81]"
+    },
+    {
+      "t": 1794038681.1738305,
+      "level": "info",
+      "msg": "  \u2022 Konstantin Kisin Shares the Legend of Tamerlane's Tomb  [82:44-83:44, score 95]"
+    },
+    {
+      "t": 1794038681.176164,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster and Joe Rogan on Genghis Khan's Brutality  [85:17-86:15, score 94]"
+    },
+    {
+      "t": 1794038681.1783323,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Discusses SAM Deployments at Mar-a-Lago  [110:43-111:35, score 89]"
+    },
+    {
+      "t": 1794038681.1805263,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Explains Manufactured Political Demonstrations  [112:54-113:49, score 88]"
+    },
+    {
+      "t": 1794038681.1827905,
+      "level": "info",
+      "msg": "  \u2022 Konstantin Kisin Distinguishes Independence from Revolution  [118:26-119:26, score 87]"
+    },
+    {
+      "t": 1794038681.1849988,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster Recounts Warning on Communism  [121:26-122:21, score 90]"
+    },
+    {
+      "t": 1794038681.1871939,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster's Story on Human Purpose  [131:16-132:14, score 93]"
+    },
+    {
+      "t": 1794038681.1897974,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Highlights Siberian Subsistence Living  [135:25-136:23, score 91]"
+    },
+    {
+      "t": 1794038681.192249,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster on Premier League Star Danny Drinkwater  [137:58-138:59, score 88]"
+    },
+    {
+      "t": 1794038681.1947513,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan on the Life Lessons of Jiu-Jitsu  [142:10-143:10, score 89]"
+    },
+    {
+      "t": 1794038681.1971736,
+      "level": "info",
+      "msg": "  \u2022 Francis Foster Shares Eddie Izzard's Early Career Nickname  [144:36-145:33, score 84]"
+    },
+    {
+      "t": 1794038681.1995544,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan Marvels at Eddie Izzard's Endurance Feat  [147:13-148:13, score 92]"
+    },
+    {
+      "t": 1794038681.2044883,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794038681.2740657,
+      "level": "info",
+      "msg": "Using 7 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794038682.7149408,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794038684.0333266,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794038684.0358274,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794038697.6556723,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794038697.6602576,
+      "level": "ok",
+      "msg": "Rated 27 clips in 0:16"
+    },
+    {
+      "t": 1794038697.6626365,
+      "level": "info",
+      "msg": "  - Why Social Media Timelines Are Flooded With Fake News: 84/100 (hook 85, retention 78, value 82, share 88)"
+    },
+    {
+      "t": 1794038697.6647983,
+      "level": "info",
+      "msg": "  - Francis Foster Breaks Down Outrage Incentives: 89/100 (hook 90, retention 85, value 86, share 92)"
+    },
+    {
+      "t": 1794038697.666906,
+      "level": "info",
+      "msg": "  - European Heat Deaths vs US Firearm Deaths: 79/100 (hook 78, retention 74, value 80, share 85)"
+    },
+    {
+      "t": 1794038697.669051,
+      "level": "info",
+      "msg": "  - Konstantin Kisin on Green Energy and Energy Poverty: 83/100 (hook 82, retention 79, value 84, share 86)"
+    },
+    {
+      "t": 1794038697.6715748,
+      "level": "info",
+      "msg": "  - Joe Rogan Calls Out Corporate Greenwashing Profits: 88/100 (hook 88, retention 84, value 87, share 90)"
+    },
+    {
+      "t": 1794038697.6737316,
+      "level": "info",
+      "msg": "  - Joe Rogan's Theory on Secular Ideology: 85/100 (hook 84, retention 80, value 85, share 89)"
+    },
+    {
+      "t": 1794038697.67627,
+      "level": "info",
+      "msg": "  - Konstantin Kisin on Modern Political Zealotry: 90/100 (hook 91, retention 86, value 89, share 94)"
+    },
+    {
+      "t": 1794038697.6788116,
+      "level": "info",
+      "msg": "  - Why Joe Rogan Distrusts Polling Data: 86/100 (hook 86, retention 83, value 85, share 91)"
+    },
+    {
+      "t": 1794038697.6809433,
+      "level": "info",
+      "msg": "  - Konstantin Kisin Explains 'The Human Zoo' Effect: 84/100 (hook 83, retention 81, value 86, share 87)"
+    },
+    {
+      "t": 1794038697.6830447,
+      "level": "info",
+      "msg": "  - Francis Foster on How Nature Resets Children: 86/100 (hook 85, retention 82, value 88, share 89)"
+    },
+    {
+      "t": 1794038697.6851912,
+      "level": "info",
+      "msg": "  - Konstantin Kisin Reacts to Wild US Attack Ads: 89/100 (hook 89, retention 85, value 87, share 93)"
+    },
+    {
+      "t": 1794038697.687384,
+      "level": "info",
+      "msg": "  - Joe Rogan Explains Census Counting Rules: 87/100 (hook 87, retention 82, value 85, share 91)"
+    },
+    {
+      "t": 1794038697.689506,
+      "level": "info",
+      "msg": "  - Joe Rogan on Corporate Morality and Ethics: 85/100 (hook 84, retention 80, value 86, share 88)"
+    },
+    {
+      "t": 1794038697.6921499,
+      "level": "info",
+      "msg": "  - Joe Rogan Describes the Traps of Childhood Stardom: 87/100 (hook 86, retention 84, value 88, share 90)"
+    },
+    {
+      "t": 1794038697.6942172,
+      "level": "info",
+      "msg": "  - Francis Foster on Ancient Greek-Egyptian Syntheses: 83/100 (hook 82, retention 79, value 84, share 86)"
+    },
+    {
+      "t": 1794038697.6962721,
+      "level": "info",
+      "msg": "  - Konstantin Kisin Shares the Legend of Tamerlane's Tomb: 92/100 (hook 92, retention 88, value 90, share 95)"
+    },
+    {
+      "t": 1794038697.6985426,
+      "level": "info",
+      "msg": "  - Francis Foster and Joe Rogan on Genghis Khan's Brutality: 89/100 (hook 89, retention 86, value 87, share 92)"
+    },
+    {
+      "t": 1794038697.7006223,
+      "level": "info",
+      "msg": "  - Joe Rogan Discusses SAM Deployments at Mar-a-Lago: 87/100 (hook 88, retention 84, value 85, share 91)"
+    },
+    {
+      "t": 1794038697.7027218,
+      "level": "info",
+      "msg": "  - Joe Rogan Explains Manufactured Political Demonstrations: 87/100 (hook 87, retention 83, value 86, share 90)"
+    },
+    {
+      "t": 1794038697.70486,
+      "level": "info",
+      "msg": "  - Konstantin Kisin Distinguishes Independence from Revolution: 87/100 (hook 85, retention 82, value 88, share 92)"
+    },
+    {
+      "t": 1794038697.7077801,
+      "level": "info",
+      "msg": "  - Francis Foster Recounts Warning on Communism: 87/100 (hook 86, retention 84, value 89, share 91)"
+    },
+    {
+      "t": 1794038697.7107084,
+      "level": "info",
+      "msg": "  - Francis Foster's Story on Human Purpose: 90/100 (hook 88, retention 87, value 92, share 93)"
+    },
+    {
+      "t": 1794038697.7132218,
+      "level": "info",
+      "msg": "  - Joe Rogan Highlights Siberian Subsistence Living: 85/100 (hook 84, retention 81, value 87, share 88)"
+    },
+    {
+      "t": 1794038697.7155647,
+      "level": "info",
+      "msg": "  - Francis Foster on Premier League Star Danny Drinkwater: 90/100 (hook 90, retention 86, value 91, share 94)"
+    },
+    {
+      "t": 1794038697.7179384,
+      "level": "info",
+      "msg": "  - Joe Rogan on the Life Lessons of Jiu-Jitsu: 88/100 (hook 87, retention 85, value 89, share 90)"
+    },
+    {
+      "t": 1794038697.7201893,
+      "level": "info",
+      "msg": "  - Francis Foster Shares Eddie Izzard's Early Career Nickname: 86/100 (hook 85, retention 82, value 86, share 89)"
+    },
+    {
+      "t": 1794038697.7223878,
+      "level": "info",
+      "msg": "  - Joe Rogan Marvels at Eddie Izzard's Endurance Feat: 89/100 (hook 88, retention 85, value 89, share 92)"
+    },
+    {
+      "t": 1794038697.7288601,
+      "level": "ok",
+      "msg": "27 distinct clips found, 27 rated 65+"
+    },
+    {
+      "t": 1794038697.752122,
+      "level": "info",
+      "msg": "Rendering clip 1/27: Konstantin Kisin Shares the Legend of Tamerlane's Tomb"
+    },
+    {
+      "t": 1794038787.3572164,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:29"
+    },
+    {
+      "t": 1794038787.3732538,
+      "level": "info",
+      "msg": "Rendering clip 2/27: Konstantin Kisin on Modern Political Zealotry"
+    },
+    {
+      "t": 1794038862.7991903,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:15"
+    },
+    {
+      "t": 1794038862.8154762,
+      "level": "info",
+      "msg": "Rendering clip 3/27: Francis Foster's Story on Human Purpose"
+    },
+    {
+      "t": 1794038950.5071049,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:27"
+    },
+    {
+      "t": 1794038950.5232859,
+      "level": "info",
+      "msg": "Rendering clip 4/27: Francis Foster on Premier League Star Danny Drinkwater"
+    },
+    {
+      "t": 1794039057.9806404,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:47"
+    },
+    {
+      "t": 1794039057.9969542,
+      "level": "info",
+      "msg": "Rendering clip 5/27: Francis Foster Breaks Down Outrage Incentives"
+    },
+    {
+      "t": 1794039108.5293522,
+      "level": "ok",
+      "msg": "Clip 5 ready in 0:50"
+    },
+    {
+      "t": 1794039108.545924,
+      "level": "info",
+      "msg": "Rendering clip 6/27: Konstantin Kisin Reacts to Wild US Attack Ads"
+    },
+    {
+      "t": 1794039208.7292333,
+      "level": "ok",
+      "msg": "Clip 6 ready in 1:40"
+    },
+    {
+      "t": 1794039208.747354,
+      "level": "info",
+      "msg": "Rendering clip 7/27: Francis Foster and Joe Rogan on Genghis Khan's Brutality"
+    },
+    {
+      "t": 1794039304.8795042,
+      "level": "ok",
+      "msg": "Clip 7 ready in 1:36"
+    },
+    {
+      "t": 1794039304.8959978,
+      "level": "info",
+      "msg": "Rendering clip 8/27: Joe Rogan Marvels at Eddie Izzard's Endurance Feat"
+    },
+    {
+      "t": 1794039401.0944955,
+      "level": "ok",
+      "msg": "Clip 8 ready in 1:36"
+    },
+    {
+      "t": 1794039401.1119678,
+      "level": "info",
+      "msg": "Rendering clip 9/27: Joe Rogan Calls Out Corporate Greenwashing Profits"
+    },
+    {
+      "t": 1794039499.5131292,
+      "level": "ok",
+      "msg": "Clip 9 ready in 1:38"
+    },
+    {
+      "t": 1794039499.5299501,
+      "level": "info",
+      "msg": "Rendering clip 10/27: Joe Rogan on the Life Lessons of Jiu-Jitsu"
+    },
+    {
+      "t": 1794039595.2259755,
+      "level": "ok",
+      "msg": "Clip 10 ready in 1:35"
+    },
+    {
+      "t": 1794039595.2435696,
+      "level": "info",
+      "msg": "Rendering clip 11/27: Joe Rogan Explains Census Counting Rules"
+    },
+    {
+      "t": 1794039666.8712807,
+      "level": "ok",
+      "msg": "Clip 11 ready in 1:11"
+    },
+    {
+      "t": 1794039666.8883462,
+      "level": "info",
+      "msg": "Rendering clip 12/27: Joe Rogan Describes the Traps of Childhood Stardom"
+    },
+    {
+      "t": 1794039755.0598557,
+      "level": "ok",
+      "msg": "Clip 12 ready in 1:28"
+    },
+    {
+      "t": 1794039755.0769055,
+      "level": "info",
+      "msg": "Rendering clip 13/27: Joe Rogan Discusses SAM Deployments at Mar-a-Lago"
+    },
+    {
+      "t": 1794039838.1910362,
+      "level": "ok",
+      "msg": "Clip 13 ready in 1:23"
+    },
+    {
+      "t": 1794039838.2084699,
+      "level": "info",
+      "msg": "Rendering clip 14/27: Joe Rogan Explains Manufactured Political Demonstrations"
+    },
+    {
+      "t": 1794039925.9170847,
+      "level": "ok",
+      "msg": "Clip 14 ready in 1:27"
+    },
+    {
+      "t": 1794039925.934157,
+      "level": "info",
+      "msg": "Rendering clip 15/27: Konstantin Kisin Distinguishes Independence from Revolution"
+    },
+    {
+      "t": 1794040023.1432588,
+      "level": "ok",
+      "msg": "Clip 15 ready in 1:37"
+    },
+    {
+      "t": 1794040023.159945,
+      "level": "info",
+      "msg": "Rendering clip 16/27: Francis Foster Recounts Warning on Communism"
+    },
+    {
+      "t": 1794040108.4483545,
+      "level": "ok",
+      "msg": "Clip 16 ready in 1:25"
+    },
+    {
+      "t": 1794040108.4658895,
+      "level": "info",
+      "msg": "Rendering clip 17/27: Why Joe Rogan Distrusts Polling Data"
+    },
+    {
+      "t": 1794040190.9743183,
+      "level": "ok",
+      "msg": "Clip 17 ready in 1:22"
+    },
+    {
+      "t": 1794040190.991803,
+      "level": "info",
+      "msg": "Rendering clip 18/27: Francis Foster on How Nature Resets Children"
+    },
+    {
+      "t": 1794040271.5724525,
+      "level": "ok",
+      "msg": "Clip 18 ready in 1:20"
+    },
+    {
+      "t": 1794040271.5893161,
+      "level": "info",
+      "msg": "Rendering clip 19/27: Francis Foster Shares Eddie Izzard's Early Career Nickname"
+    },
+    {
+      "t": 1794040360.6037395,
+      "level": "ok",
+      "msg": "Clip 19 ready in 1:29"
+    },
+    {
+      "t": 1794040360.623095,
+      "level": "info",
+      "msg": "Rendering clip 20/27: Joe Rogan's Theory on Secular Ideology"
+    },
+    {
+      "t": 1794040441.648444,
+      "level": "ok",
+      "msg": "Clip 20 ready in 1:21"
+    },
+    {
+      "t": 1794040441.667986,
+      "level": "info",
+      "msg": "Rendering clip 21/27: Joe Rogan on Corporate Morality and Ethics"
+    },
+    {
+      "t": 1794040529.4823956,
+      "level": "ok",
+      "msg": "Clip 21 ready in 1:27"
+    },
+    {
+      "t": 1794040529.5005324,
+      "level": "info",
+      "msg": "Rendering clip 22/27: Joe Rogan Highlights Siberian Subsistence Living"
+    },
+    {
+      "t": 1794040615.0643375,
+      "level": "ok",
+      "msg": "Clip 22 ready in 1:25"
+    },
+    {
+      "t": 1794040615.0804691,
+      "level": "info",
+      "msg": "Rendering clip 23/27: Why Social Media Timelines Are Flooded With Fake News"
+    },
+    {
+      "t": 1794040704.0728734,
+      "level": "ok",
+      "msg": "Clip 23 ready in 1:28"
+    },
+    {
+      "t": 1794040704.090015,
+      "level": "info",
+      "msg": "Rendering clip 24/27: Konstantin Kisin Explains 'The Human Zoo' Effect"
+    },
+    {
+      "t": 1794040777.7556362,
+      "level": "ok",
+      "msg": "Clip 24 ready in 1:13"
+    },
+    {
+      "t": 1794040777.7752545,
+      "level": "info",
+      "msg": "Rendering clip 25/27: Konstantin Kisin on Green Energy and Energy Poverty"
+    },
+    {
+      "t": 1794040863.7327325,
+      "level": "ok",
+      "msg": "Clip 25 ready in 1:25"
+    },
+    {
+      "t": 1794040863.751665,
+      "level": "info",
+      "msg": "Rendering clip 26/27: Francis Foster on Ancient Greek-Egyptian Syntheses"
+    },
+    {
+      "t": 1794040947.9271746,
+      "level": "ok",
+      "msg": "Clip 26 ready in 1:24"
+    },
+    {
+      "t": 1794040947.9456413,
+      "level": "info",
+      "msg": "Rendering clip 27/27: European Heat Deaths vs US Firearm Deaths"
+    },
+    {
+      "t": 1794041035.6789033,
+      "level": "ok",
+      "msg": "Clip 27 ready in 1:27"
+    },
+    {
+      "t": 1794041035.6892934,
+      "level": "ok",
+      "msg": "All done in 38:57"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "PowerfulJRE",
+  "duration": 9495,
+  "heatmap": [],
+  "video_description": "Comedian Francis Foster and political commentator Konstantin Kisin host the \"TRIGGERnometry\" podcast. Francis also hosts \"The Francis Foster Show\" and is the author of \"(Un)educated: My Life as a Teacher, and Why You Should Never Become One.\" Konstantin is the author of \"An Immigrant's Love Letter to the West.\"\n\nhttps://www.youtube.com/@triggerpod\nhttps://www.youtube.com/@Francisfosterpod\nhttps://www.youtube.com/@KonstantinKisinPod\nhttps://www.triggerpod.co.uk\nhttps://www.francisfoster.co.uk\nhttps://www.konstantinkisin.com",
+  "brief": "Summary: Joe Rogan, Francis Foster, and Konstantin Kisin discuss the difficulty of verifying news on social media platforms like X, the impact of fake stories, AI-generated images, bots, and foreign actors muddying political narratives, and how the monetization of engagement on social media incentivizes outrage and extreme takes.\nPeople: Joe Rogan; Francis Foster; Konstantin Kisin; Flavio Bolsonaro; Jair Bolsonaro; Lula; Hillary; Trump; David Pakman; Dave Smith; Steven Crowder\nContext: The conversation takes place on the Joe Rogan Experience podcast, featuring podcast hosts Francis Foster and Konstantin Kisin from TRIGGERnometry as guests, discussing current events, media manipulation, and online discourse.\nUnclear: The speakers express uncertainty regarding the exact details and current status of Flavio Bolsonaro's alleged passport confiscation and fleeing to the US, noting that it is mainly 'Twitter talk'.",
+  "render_index": 27,
+  "render_total": 27
+}

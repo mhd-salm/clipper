@@ -1,0 +1,1 @@
+[0:v]fps=30,split=2[s0][s1];[s1]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:3[bg0];[s0]scale=1080:768:force_original_aspect_ratio=decrease[r0];[bg0][r0]overlay=x='0+(1080-overlay_w)/2':y='576+(768-overlay_h)/2'[o0];[o0]null[base];[base]ass=c19.ass[v]

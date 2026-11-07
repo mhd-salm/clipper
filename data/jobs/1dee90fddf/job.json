@@ -1,0 +1,488 @@
+{
+  "id": "1dee90fddf",
+  "created": 1793975307.0647228,
+  "url": "https://youtu.be/9qeNEn5taPk",
+  "source": "manual",
+  "title": "ASU Prof. In Lawsuit With University For Bing \"Too Christian\"",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 79,
+        "shareability": 90,
+        "overall": 86,
+        "hook_text": "Witchcraft allowed but philosophy banned?",
+        "tip": "Cut the trailing incomplete sentence at the end for a cleaner finish.",
+        "caption": "When campus events embrace alternative lifestyles while questioning basic philosophical themes.",
+        "description": "This clip highlights the double standard between university-sanctioned events on alternative topics and strict scrutiny on basic philosophy. Explore how campus culture evaluates different perspectives. Where should higher education draw the line?",
+        "hashtags": [
+          "highereducation",
+          "campusculture",
+          "controversy",
+          "debate",
+          "values"
+        ]
+      },
+      "id": "c1",
+      "title": "University Promotes Witchcraft Over Biblical Values",
+      "reason": "The guest highlights the double standard of ASU hosting events promoting witchcraft and polyamory while attacking basic Christian thought.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 541.47,
+        "end": 575.4,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Witchcraft allowed but philosophy banned?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 80,
+        "value": 84,
+        "shareability": 88,
+        "overall": 85,
+        "hook_text": "This basic quiz question got flagged?",
+        "tip": "Trim the cut-off ending sentence about midterm elections and financial markets.",
+        "caption": "Is asking if death makes us think about life really a banned concept in higher ed?",
+        "description": "An inside look at how a basic philosophical quiz question about life and death was flagged as evidence of religious bias. See how administrative processes can escalate minor course content into potential faculty discipline. Is university policy crossing the line?",
+        "hashtags": [
+          "philosophy",
+          "education",
+          "freethought",
+          "university",
+          "faculty"
+        ]
+      },
+      "id": "c2",
+      "title": "The Absurd Quiz Question ASU Flagged",
+      "reason": "The professor exposes the basic philosophy question about death and the meaning of life that ASU used as evidence of Christian bias.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 316.33,
+        "end": 376.62,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "This basic quiz question got flagged?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 78,
+        "value": 80,
+        "shareability": 85,
+        "overall": 82,
+        "hook_text": "Penalized for being too Christian in class?",
+        "tip": "Add on-screen text highlighting the hypothetical student comment to emphasize the absurdity.",
+        "caption": "A tenured professor had his pay docked after his class was labeled too Christian.",
+        "description": "A tenured university professor explains how his teaching review resulted in docked pay after administrators claimed his course was too religious. The evidence provided included quiz questions and hypothetical student offense. Discover how campus policies are affecting academic freedom.",
+        "hashtags": [
+          "highered",
+          "academicfreedom",
+          "culturewar",
+          "freespeech",
+          "campuslife"
+        ]
+      },
+      "id": "c3",
+      "title": "Punished for Being Too Christian in Class",
+      "reason": "A tenured professor reveals ASU penalized his pay because his annual teaching review was deemed too Christian based on absurd student feedback.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 111.15,
+        "end": 165.02,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "Penalized for being too Christian in class?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 79,
+        "value": 78,
+        "shareability": 84,
+        "overall": 82,
+        "hook_text": "America was sold a lie about neutrality",
+        "tip": "Cut the last trailing unfinished sentence to end on the strong climax.",
+        "caption": "Was the concept of public neutrality just a cover for pushing new cultural agendas?",
+        "description": "A passionate breakdown of how public institutions shifted from neutrality to advancing specific cultural agendas. The speaker examines the impact of societal narrative shifts on everyday citizens. Is it time to re-evaluate institutional neutrality?",
+        "hashtags": [
+          "culture",
+          "society",
+          "media",
+          "perspectives",
+          "truth"
+        ]
+      },
+      "id": "c4",
+      "title": "America Was Sold a Lie About Neutrality",
+      "reason": "The host delivers a passionate breakdown on how institutions forced neutrality on Christians while quietly advancing far-left agendas.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 703.67,
+        "end": 751.04,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "America was sold a lie about neutrality",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 76,
+        "value": 82,
+        "shareability": 83,
+        "overall": 80,
+        "hook_text": "The myth of neutrality in universities",
+        "tip": "Add graphics or bullet points on screen when the speaker outlines the oppressor-oppressed dialectic.",
+        "caption": "Did removing traditional values from higher education really create a neutral environment?",
+        "description": "An analysis of how the push for neutrality in higher education transformed university curricula. The speaker breaks down how ideological frameworks replaced traditional values on taxpayer-funded campuses. Learn why true neutrality might be an illusion.",
+        "hashtags": [
+          "highered",
+          "ideology",
+          "politics",
+          "education",
+          "taxpayers"
+        ]
+      },
+      "id": "c5",
+      "title": "The Myth of Campus Neutrality",
+      "reason": "Professor Anderson explains how removing Christianity from universities did not create neutrality, but allowed Marxism to take over on taxpayer dollars.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 652.79,
+        "end": 702.34,
+        "layout_id": "fit_blur",
+        "subtitles": true,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "overlays": [
+          {
+            "text": "The myth of neutrality in universities",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": true,
+    "sub_style": "green_pop",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "content": "talk",
+    "auto": false,
+    "auto_privacy": "public",
+    "hide_likes": true
+  },
+  "started": 1793975307.070226,
+  "finished": 1793976684.5561285,
+  "log": [
+    {
+      "t": 1793975307.0768504,
+      "level": "info",
+      "msg": "Downloading https://youtu.be/9qeNEn5taPk"
+    },
+    {
+      "t": 1793975339.403403,
+      "level": "ok",
+      "msg": "Downloaded \"ASU Prof. In Lawsuit With University For Bing \"Too Christian\"\" (12:48) in 0:32"
+    },
+    {
+      "t": 1793975339.4221203,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1793975389.2976465,
+      "level": "warn",
+      "msg": "Captions unavailable (\u001b[0;31mERROR:\u001b[0m Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests) - falling back to Whisper"
+    },
+    {
+      "t": 1793975389.3002944,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1793976054.1944554,
+      "level": "ok",
+      "msg": "Transcribed 287 segments / 2365 words in 11:54"
+    },
+    {
+      "t": 1793976054.1996298,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1793976057.4590352,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793976069.0911045,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1793976069.0932944,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793976086.166592,
+      "level": "ok",
+      "msg": "gemini-3.6-flash answered"
+    },
+    {
+      "t": 1793976086.2018263,
+      "level": "ok",
+      "msg": "AI picked 5 clips in 0:32"
+    },
+    {
+      "t": 1793976086.2037575,
+      "level": "info",
+      "msg": "  \u2022 Punished for Being Too Christian in Class  [1:51-2:45, score 92]"
+    },
+    {
+      "t": 1793976086.2059753,
+      "level": "info",
+      "msg": "  \u2022 The Absurd Quiz Question ASU Flagged  [5:16-6:16, score 95]"
+    },
+    {
+      "t": 1793976086.208148,
+      "level": "info",
+      "msg": "  \u2022 University Promotes Witchcraft Over Biblical Values  [9:01-9:35, score 96]"
+    },
+    {
+      "t": 1793976086.210198,
+      "level": "info",
+      "msg": "  \u2022 The Myth of Campus Neutrality  [10:52-11:42, score 88]"
+    },
+    {
+      "t": 1793976086.2140715,
+      "level": "info",
+      "msg": "  \u2022 America Was Sold a Lie About Neutrality  [11:43-12:31, score 86]"
+    },
+    {
+      "t": 1793976086.2183535,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1793976087.7082725,
+      "level": "info",
+      "msg": "Trying gemini-3.8-flash..."
+    },
+    {
+      "t": 1793976150.5718613,
+      "level": "warn",
+      "msg": "gemini-3.8-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1793976150.5737107,
+      "level": "info",
+      "msg": "Trying gemini-3.6-flash..."
+    },
+    {
+      "t": 1793976167.319929,
+      "level": "ok",
+      "msg": "gemini-3.6-flash answered"
+    },
+    {
+      "t": 1793976167.3233125,
+      "level": "ok",
+      "msg": "Rated 5 clips in 1:21"
+    },
+    {
+      "t": 1793976167.3255594,
+      "level": "info",
+      "msg": "  - Punished for Being Too Christian in Class: 82/100 (hook 82, retention 78, value 80, share 85)"
+    },
+    {
+      "t": 1793976167.3275015,
+      "level": "info",
+      "msg": "  - The Absurd Quiz Question ASU Flagged: 85/100 (hook 86, retention 80, value 84, share 88)"
+    },
+    {
+      "t": 1793976167.3301878,
+      "level": "info",
+      "msg": "  - University Promotes Witchcraft Over Biblical Values: 86/100 (hook 88, retention 85, value 79, share 90)"
+    },
+    {
+      "t": 1793976167.33302,
+      "level": "info",
+      "msg": "  - The Myth of Campus Neutrality: 80/100 (hook 80, retention 76, value 82, share 83)"
+    },
+    {
+      "t": 1793976167.3352103,
+      "level": "info",
+      "msg": "  - America Was Sold a Lie About Neutrality: 82/100 (hook 85, retention 79, value 78, share 84)"
+    },
+    {
+      "t": 1793976167.340683,
+      "level": "ok",
+      "msg": "5 distinct clips found, 5 rated 60+"
+    },
+    {
+      "t": 1793976167.3450718,
+      "level": "ok",
+      "msg": "Waiting for you to choose which clips to render"
+    },
+    {
+      "t": 1793976185.8236678,
+      "level": "info",
+      "msg": "Rendering clip 1/5: University Promotes Witchcraft Over Biblical Values"
+    },
+    {
+      "t": 1793976244.1481993,
+      "level": "ok",
+      "msg": "Clip 1 ready in 0:58"
+    },
+    {
+      "t": 1793976244.1579695,
+      "level": "info",
+      "msg": "Rendering clip 2/5: The Absurd Quiz Question ASU Flagged"
+    },
+    {
+      "t": 1793976401.8283443,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:37"
+    },
+    {
+      "t": 1793976401.8382068,
+      "level": "info",
+      "msg": "Rendering clip 3/5: Punished for Being Too Christian in Class"
+    },
+    {
+      "t": 1793976507.030526,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:45"
+    },
+    {
+      "t": 1793976507.0434954,
+      "level": "info",
+      "msg": "Rendering clip 4/5: America Was Sold a Lie About Neutrality"
+    },
+    {
+      "t": 1793976601.7570033,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:34"
+    },
+    {
+      "t": 1793976601.7666764,
+      "level": "info",
+      "msg": "Rendering clip 5/5: The Myth of Campus Neutrality"
+    },
+    {
+      "t": 1793976684.5541635,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:22"
+    },
+    {
+      "t": 1793976684.5602257,
+      "level": "ok",
+      "msg": "All done in 8:18"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Charlie Kirk",
+  "duration": 768,
+  "heatmap": [],
+  "video_description": "NOBLE GOLD INVESTMENTS\n\nFREE GOLD INVESTMENT GUIDE: https://bit.ly/KirkGold\n\nPHONE: (877) 646-5347\n\nFor daily episodes, insight, and analysis like this, SUBSCRIBE to The Charlie Kirk Show TODAY: https://apple.co/2VCxGsh\n\n\nFor daily episodes, insight, and analysis like this, SUBSCRIBE to The Charlie Kirk Show TODAY: https://apple.co/2VCxGsh\n\nAnd for EVEN MORE\u2014tune in to The Charlie Kirk Show LIVE on Salem Radio Network affiliates across the country, 5 days a week from 12\u20143PM ET\n\nFor members-only content, exclusive interviews, my column, supporter zoom calls, and MORE, become a member at members.charliekirk.com today!\n\n\ud83c\uddfa\ud83c\uddf8",
+  "render_index": 5,
+  "render_total": 5
+}
