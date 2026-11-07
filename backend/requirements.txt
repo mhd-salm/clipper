@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+requests
+yt-dlp
+faster-whisper
+google-genai
+pydantic
+opencv-python<5
+google-api-python-client
+google-auth-oauthlib
+playwright
