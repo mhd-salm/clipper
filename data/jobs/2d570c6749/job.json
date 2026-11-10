@@ -111,7 +111,7 @@
         "youtube": {
           "status": "uploading",
           "progress": 0,
-          "note": "Filling in title and description\u2026",
+          "note": "Hiding the like count\u2026",
           "method": "browser"
         }
       }
@@ -357,7 +357,7 @@
       "selected": true,
       "error": null,
       "version": 0,
-      "progress": 27,
+      "progress": 38,
       "params": {
         "start": 629.06,
         "end": 666.78,
@@ -806,7 +806,7 @@
     }
   ],
   "stage_key": "render",
-  "progress": 27,
+  "progress": 38,
   "channel": "The Tonight Show Starring Jimmy Fallon",
   "duration": 698,
   "heatmap": [
