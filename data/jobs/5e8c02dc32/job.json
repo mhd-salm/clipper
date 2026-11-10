@@ -1,0 +1,2143 @@
+{
+  "id": "5e8c02dc32",
+  "created": 1794130557.8863938,
+  "url": "https://www.youtube.com/watch?v=ouEPXMniOUQ",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Bill Hader on Group Chat with Kimmel, Mulaney and Armisen, The Cat in the Hat & His Kids Being Funny",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 91,
+        "retention": 92,
+        "value": 90,
+        "shareability": 94,
+        "overall": 92,
+        "hook_text": "She texted him from UNDER his bed!",
+        "tip": "Emphasize the text message reveal with a quick screen visual effect to heighten the creepy comedic moment.",
+        "caption": "Bill Hader's daughter pulled the ultimate creepy prank on him while he was relaxing in bed.",
+        "description": "While quietly reading in bed, Bill Hader received a disturbing text message containing a photo taken directly from beneath his frame. Instead of panicking, he couldn't help but feel proud of his daughter's twisted sense of humor when she silently crawled out. Would you freeze if your child pulled this prank?",
+        "hashtags": [
+          "billhader",
+          "parentinghumor",
+          "pranked",
+          "scaryprank",
+          "familyfunny"
+        ]
+      },
+      "id": "c1",
+      "title": "Bill Hader's Daughter Pulls a Terrifying Prank From Underneath His Bed",
+      "reason": "Bill Hader proudly shares how his daughter successfully scared him by hiding under his bed and texting him about it.",
+      "score": 92,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 653.39,
+        "end": 682.64,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "She texted him from UNDER his bed!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 653.39, 682.64]",
+        "items": [
+          {
+            "t": 9.0,
+            "dur": 1.5,
+            "phrase": "person reading in bed",
+            "said": "I was in bed one time reading",
+            "alt": [
+              "reading a book in bed",
+              "person in bed"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_34473.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 15.0,
+            "dur": 2.5,
+            "phrase": "underneath the bed",
+            "said": "a picture from underneath my bed",
+            "alt": [
+              "under bed view",
+              "bedroom floor"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 24.0,
+            "dur": 2.1,
+            "phrase": "crawling on floor",
+            "said": "she just crawled out of my bed",
+            "alt": [
+              "person crawling",
+              "indoor movement"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 86,
+        "value": 88,
+        "shareability": 89,
+        "overall": 87,
+        "hook_text": "Why actors REALLY take giant roles",
+        "tip": "Display Giancarlo Esposito's name on screen when Bill contrasts their promotional interview answers.",
+        "caption": "Bill Hader gives the most brutally honest reason for taking on his latest animated film role.",
+        "description": "During press interviews, co-star Giancarlo Esposito gives poetic reflections on acting, while Bill Hader candidly admits his main motivation was simple compensation. Hader contrasts the intense artistic philosophy with his straightforward honesty. Do you prefer actors being totally candid about their choices?",
+        "hashtags": [
+          "billhader",
+          "giancarloesposito",
+          "hollywoodlife",
+          "actorinterview",
+          "brutallyhonest"
+        ]
+      },
+      "id": "c2",
+      "title": "Bill Hader on Why He Really Agreed to Do 'The Cat in the Hat'",
+      "reason": "Bill Hader contrasts Giancarlo Esposito's heartfelt press answers with his own brutally honest motivation for doing the movie.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 694.15,
+        "end": 730.6,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why actors REALLY take giant roles",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 694.15, 730.6]",
+        "items": [
+          {
+            "t": 2.5,
+            "dur": 1.5,
+            "phrase": "microphone interview",
+            "said": "Where you get asked the same",
+            "alt": [
+              "reporter talking",
+              "press conference"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_54575.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 11.0,
+            "dur": 2.5,
+            "phrase": "talking to camera",
+            "said": "the most heartfelt answer about like",
+            "alt": [
+              "person speaking",
+              "actor interview"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 17.4,
+            "dur": 2.1,
+            "phrase": "man looking annoyed",
+            "said": "And I'm like looking at him like",
+            "alt": [
+              "serious man",
+              "person staring"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_107264.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 24.3,
+            "dur": 1.6,
+            "phrase": "thinking hard",
+            "said": "get in my head and I'm like",
+            "alt": [
+              "stressed person",
+              "man thinking"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_122389.mp4",
+            "conf": 70,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 83,
+        "retention": 85,
+        "value": 84,
+        "shareability": 88,
+        "overall": 85,
+        "hook_text": "Never unsend a message in group chats",
+        "tip": "Start immediately on the word 'unsent' to catch viewers struggling with awkward text receipts.",
+        "caption": "Bill Hader explains the sheer panic of unsending a text message in front of fellow comedians.",
+        "description": "Attempting to take back a bad joke in a group chat backfires completely for Bill Hader when the unsent notification appears for everyone to see. His daughter is always there to remind him how out of touch his texting habits are. Have you ever been caught red-handed unsending a message?",
+        "hashtags": [
+          "billhader",
+          "textingproblems",
+          "relatableshorts",
+          "comedyclip",
+          "parentinghumor"
+        ]
+      },
+      "id": "c3",
+      "title": "Bill Hader Gets Caught Unsending Texts in His Celebrity Group Chat",
+      "reason": "Bill Hader shares the painful experience of accidentally leaving receipts when trying to unsend texts in his comedy group chat.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 387.11,
+        "end": 411.68,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Never unsend a message in group chats",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 387.11, 411.68]",
+        "items": [
+          {
+            "t": 4.2,
+            "dur": 1.5,
+            "phrase": "person sending text message",
+            "said": "I will send it and I'm like",
+            "alt": [
+              "typing on smartphone",
+              "using phone"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_3176.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 11.2,
+            "dur": 2.5,
+            "phrase": "confused person looking at phone",
+            "said": "WHAT DID YOU UNSEND?",
+            "alt": [
+              "stressed mobile user",
+              "person reading screen"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 20.1,
+            "dur": 2.1,
+            "phrase": "teenage daughter talking",
+            "said": "And my daughter is like",
+            "alt": [
+              "young woman speaking",
+              "person talking"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 80,
+        "value": 82,
+        "shareability": 86,
+        "overall": 81,
+        "hook_text": "Texting comedy legends is terrifying",
+        "tip": "Zoom in on Bill's face when he mentions getting paranoid about missing a text reaction.",
+        "caption": "Bill Hader gets severe texting anxiety when messaging funny friends like John Mulaney and Fred Armisen.",
+        "description": "Comedian Bill Hader admits how intimidating it is to participate in a group text chat alongside comedic heavyweights John Mulaney and Fred Armisen. To make matters worse, his own daughters roast him for putting proper periods at the end of his texts. Do your friends overthink group chats too?",
+        "hashtags": [
+          "billhader",
+          "johnmulaney",
+          "fredarmisen",
+          "groupchat",
+          "relatablecomedy"
+        ]
+      },
+      "id": "c4",
+      "title": "Bill Hader's Group Chat Anxiety With John Mulaney and Fred Armisen",
+      "reason": "Bill Hader explains how terrifying it is to text in a group chat with comedy geniuses like John Mulaney and Fred Armisen.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 276.78,
+        "end": 311.19,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Texting comedy legends is terrifying",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 276.78, 311.19]",
+        "items": [
+          {
+            "t": 4.5,
+            "dur": 1.5,
+            "phrase": "kids at home",
+            "said": "my kids are like, are you on your old",
+            "alt": [
+              "children indoors",
+              "family"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 10.8,
+            "dur": 2.5,
+            "phrase": "typing on keyboard",
+            "said": "guess you put periods at the end of sentences.",
+            "alt": [
+              "writing text",
+              "hands typing"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_43559.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 21.2,
+            "dur": 2.1,
+            "phrase": "stressed person",
+            "said": "get really paranoid and erratic because it's like three",
+            "alt": [
+              "worried man",
+              "person"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_83875.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 81,
+        "value": 85,
+        "shareability": 78,
+        "overall": 78,
+        "hook_text": "The most generic Halloween costume ever?",
+        "tip": "Add text overlay highlighting the phrase 'Just a Superhero' when Bill delivers the punchline.",
+        "caption": "Bill Hader couldn't handle Jimmy Kimmel questioning a van driver about his kid's vague Halloween costume.",
+        "description": "Bill Hader acts out a hilarious roadside encounter where Jimmy Kimmel quizzed a shuttle driver about his child's mysterious Halloween outfit. The driver's absurdly simple response left Hader crying from laughter in the backseat. What is the most unspecific Halloween costume you have ever seen?",
+        "hashtags": [
+          "billhader",
+          "jimmykimmel",
+          "halloweencostume",
+          "standupcomedy",
+          "funnytalks"
+        ]
+      },
+      "id": "c5",
+      "title": "Bill Hader and Jimmy Kimmel Relive the Epic 'Just a Superhero' Moment",
+      "reason": "Bill Hader acts out a hilarious interaction between Jimmy Kimmel and a van driver about a kid's vague Halloween costume.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 204.58,
+        "end": 255.19,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The most generic Halloween costume ever?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 204.58, 255.19]",
+        "items": [
+          {
+            "t": 4.5,
+            "dur": 1.5,
+            "phrase": "boy in superhero costume",
+            "said": "A superhero.",
+            "alt": [
+              "child dressed as hero",
+              "costumed child"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_184630.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 18.4,
+            "dur": 2.5,
+            "phrase": "back of head",
+            "said": "back of Jimmy's head",
+            "alt": [
+              "person from behind",
+              "headshot rear view"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 43.0,
+            "dur": 2.1,
+            "phrase": "person wearing a cape",
+            "said": "LIKE CAPE MAN?",
+            "alt": [
+              "superhero cape",
+              "costumed person"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_357768.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 76,
+        "retention": 75,
+        "value": 78,
+        "shareability": 80,
+        "overall": 77,
+        "hook_text": "How to fake being from Philly",
+        "tip": "Add rapid cut captions highlighting Hader's fake Philadelphia accent impression.",
+        "caption": "Bill Hader had to pretend he was a die-hard Philly fan to land a cameo on Abbott Elementary.",
+        "description": "Creator Quinta Brunson famously reserves roles for actors with authentic Philadelphia roots, forcing Bill Hader to fake his sports knowledge to secure a guest appearance. Hader jokes about how hard he had to pretend to love local baseball teams. What guest star would you love to see pop up unexpectedly?",
+        "hashtags": [
+          "billhader",
+          "quintabrunson",
+          "abbottelementary",
+          "philly",
+          "cameo"
+        ]
+      },
+      "id": "c6",
+      "title": "Bill Hader Sneaks Into 'Abbott Elementary' Without Being From Philly",
+      "reason": "Bill Hader reveals how he managed to trick Quinta Brunson into letting him guest star on Abbott Elementary even though he's not from Philadelphia.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 734.27,
+        "end": 762.44,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "How to fake being from Philly",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 734.27, 762.44]",
+        "items": [
+          {
+            "t": 4.0,
+            "dur": 1.5,
+            "phrase": "excited person celebrating",
+            "said": "Oh, GREAT. OH,",
+            "alt": [
+              "happy man cheering",
+              "joyful person"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_275188.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 11.1,
+            "dur": 2.5,
+            "phrase": "actor on stage",
+            "said": "actors who aren't from Philadelphia in the",
+            "alt": [
+              "performing artist",
+              "person acting"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 20.3,
+            "dur": 2.1,
+            "phrase": "baseball fans cheering",
+            "said": "I was like, I love the Phillies. I think",
+            "alt": [
+              "sports supporters",
+              "crowd cheering"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1630.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 68,
+        "value": 72,
+        "shareability": 65,
+        "overall": 69,
+        "hook_text": "Forced to play football at birth?",
+        "tip": "Cut the awkward pause right before discussing the Barry Switzer football camp.",
+        "caption": "Bill Hader jokes about the mandatory football culture growing up in Oklahoma.",
+        "description": "Growing up in Oklahoma meant actor Bill Hader had practically no choice but to participate in football as a kid, even attending a camp run by famous coach Barry Switzer. He clears up whether his hit show took inspiration from the coach's name. Did your hometown force you into sports growing up?",
+        "hashtags": [
+          "billhader",
+          "oklahoma",
+          "footballlife",
+          "barryswitzer",
+          "childhoodstories"
+        ]
+      },
+      "id": "c7",
+      "title": "Bill Hader's Hilarious Childhood Playing Oklahoma Football",
+      "reason": "Bill Hader jokes about being forced to play football in Oklahoma simply because he was tall.",
+      "score": 69,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 418.95,
+        "end": 454.31,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Forced to play football at birth?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 418.95, 454.31]",
+        "items": [
+          {
+            "t": 2.5,
+            "dur": 1.5,
+            "phrase": "oklahoma countryside landscape",
+            "said": "I grew up in Oklahoma",
+            "alt": [
+              "midwest plains",
+              "rural landscape"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 8.0,
+            "dur": 2.5,
+            "phrase": "kid playing football",
+            "said": "You're playing football",
+            "alt": [
+              "child football player",
+              "youth sports"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_71016.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 13.9,
+            "dur": 2.1,
+            "phrase": "football training camp",
+            "said": "football camp",
+            "alt": [
+              "sports practice",
+              "athletic training"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_171423.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 29.7,
+            "dur": 1.6,
+            "phrase": "family portrait",
+            "said": "naming it after Dad",
+            "alt": [
+              "father and child",
+              "family gathering"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_76889.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 60,
+        "value": 65,
+        "shareability": 58,
+        "overall": 62,
+        "hook_text": "Why do talk show hosts never stop?",
+        "tip": "Cut straight to the 4 AM van interview realization to build instant comedic tension.",
+        "caption": "Bill Hader reveals what it's really like traveling with a talk show host at 4 AM.",
+        "description": "During an unexpected overnight layover in Kentucky, comedian Bill Hader discovered that late-night host Jimmy Kimmel cannot turn off his interviewer persona even at 4 AM. Watch how a sleepy van ride turned into an impromptu interview session with a local driver. Have you ever worked with someone who never turns off?",
+        "hashtags": [
+          "billhader",
+          "jimmykimmel",
+          "comedystories",
+          "travelmishaps",
+          "latenight"
+        ]
+      },
+      "id": "c8",
+      "title": "Bill Hader Recounts Jimmy Kimmel's 4 AM Van Interview",
+      "reason": "Bill Hader hilariously describes Jimmy Kimmel interviewing a random van driver about Halloween at 4 AM.",
+      "score": 62,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 143.94,
+        "end": 180.75,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why do talk show hosts never stop?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 143.94, 180.75]",
+        "items": [
+          {
+            "t": 4.2,
+            "dur": 1.5,
+            "phrase": "airplane interior cabin",
+            "said": "were in a plane and",
+            "alt": [
+              "commercial aircraft",
+              "airplane"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_32975.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 9.8,
+            "dur": 2.5,
+            "phrase": "american city street",
+            "said": "Lexington, Kentucky. And",
+            "alt": [
+              "kentucky town",
+              "city street"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 17.5,
+            "dur": 2.1,
+            "phrase": "person relaxing",
+            "said": "Everybody relax.",
+            "alt": [
+              "calm person",
+              "portrait"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_184541.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 24.2,
+            "dur": 1.6,
+            "phrase": "car driving at night",
+            "said": "driven to the airport.",
+            "alt": [
+              "vehicle headlights",
+              "driving"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_35277.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 30.8,
+            "dur": 2.7,
+            "phrase": "dark early morning",
+            "said": "4:00 in the morning,",
+            "alt": [
+              "night time city",
+              "night"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_64804.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {},
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794130557.9053075,
+  "finished": 1794132249.0302417,
+  "log": [
+    {
+      "t": 1794130557.9213178,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=ouEPXMniOUQ"
+    },
+    {
+      "t": 1794130579.3347101,
+      "level": "ok",
+      "msg": "Downloaded \"Bill Hader on Group Chat with Kimmel, Mulaney and Armisen, The Cat in the Hat & His Kids Being Funny\" (14:43) in 0:21"
+    },
+    {
+      "t": 1794130579.3418996,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794130582.9605954,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794130583.018843,
+      "level": "ok",
+      "msg": "Transcribed 465 segments / 2702 words in 0:03"
+    },
+    {
+      "t": 1794130583.0289657,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794130583.0379312,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130584.4670134,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130590.0949194,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794130590.1066926,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Bill Hader visits Jimmy Kimmel Live while sick to discuss Daylight Saving Time, a 10-year-old Halloween memory involving a stranded flight in Kentucky with Jimmy Kimmel and Guillermo, their group text chat with John Mulaney and Fred Armisen, his daughters making fun of his texting habits, a"
+    },
+    {
+      "t": 1794130592.537568,
+      "level": "info",
+      "msg": "Audio analysis: 2 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794130592.5458465,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130594.026371,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130594.5736039,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794130594.5795097,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794130622.9255052,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794130622.9887033,
+      "level": "ok",
+      "msg": "AI picked 9 clips in 0:39"
+    },
+    {
+      "t": 1794130622.9938972,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader Recounts Jimmy Kimmel's 4 AM Van Interview  [2:23-3:00, score 88]"
+    },
+    {
+      "t": 1794130623.0004003,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader and Jimmy Kimmel Relive the Epic 'Just a Superhero' Moment  [3:24-4:15, score 92]"
+    },
+    {
+      "t": 1794130623.0056438,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader's Group Chat Anxiety With John Mulaney and Fred Armisen  [4:36-5:11, score 90]"
+    },
+    {
+      "t": 1794130623.010749,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader Gets Caught Unsending Texts in His Celebrity Group Chat  [6:27-6:51, score 87]"
+    },
+    {
+      "t": 1794130623.0159118,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader's Hilarious Childhood Playing Oklahoma Football  [6:58-7:34, score 85]"
+    },
+    {
+      "t": 1794130623.024056,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader Loses It Over His Old SCTV Character Photo  [9:27-10:12, score 89]"
+    },
+    {
+      "t": 1794130623.0296736,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader's Daughter Pulls a Terrifying Prank From Underneath His Bed  [10:53-11:22, score 94]"
+    },
+    {
+      "t": 1794130623.0383608,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader on Why He Really Agreed to Do 'The Cat in the Hat'  [11:34-12:10, score 91]"
+    },
+    {
+      "t": 1794130623.0438306,
+      "level": "info",
+      "msg": "  \u2022 Bill Hader Sneaks Into 'Abbott Elementary' Without Being From Philly  [12:14-12:42, score 86]"
+    },
+    {
+      "t": 1794130623.055756,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794130623.0637143,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130624.565279,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130650.1153965,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794130650.1277146,
+      "level": "ok",
+      "msg": "Rated 9 clips in 0:27"
+    },
+    {
+      "t": 1794130650.1324875,
+      "level": "info",
+      "msg": "  - Bill Hader Recounts Jimmy Kimmel's 4 AM Van Interview: 62/100 (hook 65, retention 60, value 65, share 58)"
+    },
+    {
+      "t": 1794130650.1370122,
+      "level": "info",
+      "msg": "  - Bill Hader and Jimmy Kimmel Relive the Epic 'Just a Superhero' Moment: 78/100 (hook 72, retention 81, value 85, share 78)"
+    },
+    {
+      "t": 1794130650.1414175,
+      "level": "info",
+      "msg": "  - Bill Hader's Group Chat Anxiety With John Mulaney and Fred Armisen: 81/100 (hook 78, retention 80, value 82, share 86)"
+    },
+    {
+      "t": 1794130650.1461837,
+      "level": "info",
+      "msg": "  - Bill Hader Gets Caught Unsending Texts in His Celebrity Group Chat: 85/100 (hook 83, retention 85, value 84, share 88)"
+    },
+    {
+      "t": 1794130650.1504028,
+      "level": "info",
+      "msg": "  - Bill Hader's Hilarious Childhood Playing Oklahoma Football: 69/100 (hook 70, retention 68, value 72, share 65)"
+    },
+    {
+      "t": 1794130650.1546288,
+      "level": "info",
+      "msg": "  - Bill Hader Loses It Over His Old SCTV Character Photo: 39/100 (hook 42, retention 38, value 40, share 35)"
+    },
+    {
+      "t": 1794130650.1590586,
+      "level": "info",
+      "msg": "  - Bill Hader's Daughter Pulls a Terrifying Prank From Underneath His Bed: 92/100 (hook 91, retention 92, value 90, share 94)"
+    },
+    {
+      "t": 1794130650.1635444,
+      "level": "info",
+      "msg": "  - Bill Hader on Why He Really Agreed to Do 'The Cat in the Hat': 87/100 (hook 85, retention 86, value 88, share 89)"
+    },
+    {
+      "t": 1794130650.1678927,
+      "level": "info",
+      "msg": "  - Bill Hader Sneaks Into 'Abbott Elementary' Without Being From Philly: 77/100 (hook 76, retention 75, value 78, share 80)"
+    },
+    {
+      "t": 1794130650.1784027,
+      "level": "ok",
+      "msg": "9 distinct clips found, 8 rated 50+"
+    },
+    {
+      "t": 1794131161.331004,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794131161.3700902,
+      "level": "info",
+      "msg": "Rendering clip 1/8: Bill Hader's Daughter Pulls a Terrifying Prank From Underneath His Bed"
+    },
+    {
+      "t": 1794131165.6922727,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131166.2176597,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131166.2268584,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131167.6844873,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131167.6913183,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794131175.713098,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131177.0418885,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131177.6768336,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131177.6823387,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131179.416666,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131180.7599092,
+      "level": "info",
+      "msg": "Cutaway at 9.0s: 'person reading in bed' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794131180.765186,
+      "level": "info",
+      "msg": "Cutaway at 15.0s: 'underneath the bed' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131180.7704687,
+      "level": "info",
+      "msg": "Cutaway at 15.0s: 'underneath the bed' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131180.7755806,
+      "level": "info",
+      "msg": "Cutaway at 24.0s: 'crawling on floor' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131180.7806897,
+      "level": "info",
+      "msg": "Cutaway at 24.0s: 'crawling on floor' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131281.4770145,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:00"
+    },
+    {
+      "t": 1794131281.4951348,
+      "level": "info",
+      "msg": "Rendering clip 2/8: Bill Hader on Why He Really Agreed to Do 'The Cat in the Hat'"
+    },
+    {
+      "t": 1794131281.5186055,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131282.9040022,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131283.3549054,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131283.360675,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131284.750674,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131284.7584574,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794131291.2434123,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131292.6747043,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131293.0801919,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131293.0853436,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131294.5161333,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131296.078959,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'microphone interview' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794131296.0854838,
+      "level": "info",
+      "msg": "Cutaway at 11.0s: 'talking to camera' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131296.0915434,
+      "level": "info",
+      "msg": "Cutaway at 11.0s: 'talking to camera' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131297.3368905,
+      "level": "info",
+      "msg": "Cutaway at 17.4s: 'man looking annoyed' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794131299.2968688,
+      "level": "info",
+      "msg": "Cutaway at 24.3s: 'thinking hard' -> pixabay (70% match)"
+    },
+    {
+      "t": 1794131346.004028,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:04"
+    },
+    {
+      "t": 1794131346.0231605,
+      "level": "info",
+      "msg": "Rendering clip 3/8: Bill Hader Gets Caught Unsending Texts in His Celebrity Group Chat"
+    },
+    {
+      "t": 1794131346.0494268,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131347.5197148,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131348.0628395,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131348.0693502,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131349.5948818,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131349.6010225,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794131358.5263758,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131360.04972,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131360.4639373,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131360.470396,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131361.8502772,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131363.0119157,
+      "level": "info",
+      "msg": "Cutaway at 4.2s: 'person sending text message' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794131363.0206294,
+      "level": "info",
+      "msg": "Cutaway at 11.2s: 'confused person looking at phone' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131363.026932,
+      "level": "info",
+      "msg": "Cutaway at 11.2s: 'confused person looking at phone' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131363.0340207,
+      "level": "info",
+      "msg": "Cutaway at 20.1s: 'teenage daughter talking' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131363.0414474,
+      "level": "info",
+      "msg": "Cutaway at 20.1s: 'teenage daughter talking' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131462.0094793,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:55"
+    },
+    {
+      "t": 1794131462.030549,
+      "level": "info",
+      "msg": "Rendering clip 4/8: Bill Hader's Group Chat Anxiety With John Mulaney and Fred Armisen"
+    },
+    {
+      "t": 1794131462.0513582,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131463.4632895,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131464.1381207,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131464.14599,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131466.0395317,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131466.0459728,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794131469.4242566,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131470.8105502,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131471.4138453,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131471.4220288,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131472.6774821,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131472.683704,
+      "level": "info",
+      "msg": "Cutaway at 4.5s: 'kids at home' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131472.6925406,
+      "level": "info",
+      "msg": "Cutaway at 4.5s: 'kids at home' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131474.005777,
+      "level": "info",
+      "msg": "Cutaway at 10.8s: 'typing on keyboard' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794131475.4238687,
+      "level": "info",
+      "msg": "Cutaway at 21.2s: 'stressed person' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794131608.8483589,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:26"
+    },
+    {
+      "t": 1794131608.86905,
+      "level": "info",
+      "msg": "Rendering clip 5/8: Bill Hader and Jimmy Kimmel Relive the Epic 'Just a Superhero' Moment"
+    },
+    {
+      "t": 1794131608.8960924,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131610.270789,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131610.8447397,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131610.850573,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131612.230792,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131612.2371554,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794131620.6000373,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131621.9998622,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131622.5960484,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131622.6023462,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131623.5301354,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131624.8395522,
+      "level": "info",
+      "msg": "Cutaway at 4.5s: 'boy in superhero costume' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794131624.8448043,
+      "level": "info",
+      "msg": "Cutaway at 18.4s: 'back of head' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131624.8508039,
+      "level": "info",
+      "msg": "Cutaway at 18.4s: 'back of head' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131626.6243112,
+      "level": "info",
+      "msg": "Cutaway at 43.0s: 'person wearing a cape' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794131795.976199,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:07"
+    },
+    {
+      "t": 1794131795.9938374,
+      "level": "info",
+      "msg": "Rendering clip 6/8: Bill Hader Sneaks Into 'Abbott Elementary' Without Being From Philly"
+    },
+    {
+      "t": 1794131796.020586,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131797.366099,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131797.9739618,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131797.980851,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131799.367229,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131799.3745153,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794131807.0667646,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131808.5832498,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131808.9349487,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131808.9438362,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131809.9539526,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131812.9952018,
+      "level": "info",
+      "msg": "Cutaway at 4.0s: 'excited person celebrating' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794131813.0127163,
+      "level": "info",
+      "msg": "Cutaway at 11.1s: 'actor on stage' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131813.028167,
+      "level": "info",
+      "msg": "Cutaway at 11.1s: 'actor on stage' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131813.0591013,
+      "level": "info",
+      "msg": "Cutaway at 20.3s: 'baseball fans cheering' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794131920.564307,
+      "level": "ok",
+      "msg": "Clip 6 ready in 2:04"
+    },
+    {
+      "t": 1794131920.6081498,
+      "level": "info",
+      "msg": "Rendering clip 7/8: Bill Hader's Hilarious Childhood Playing Oklahoma Football"
+    },
+    {
+      "t": 1794131920.6763678,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131922.4997723,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131922.8855727,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131922.890652,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131924.397552,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131924.405331,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794131932.037818,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131933.424864,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131933.8126254,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131933.8200245,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131935.20358,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131935.2113292,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'oklahoma countryside landscape' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131935.2187643,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'oklahoma countryside landscape' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131937.5061953,
+      "level": "info",
+      "msg": "Cutaway at 8.0s: 'kid playing football' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794131939.1621165,
+      "level": "info",
+      "msg": "Cutaway at 13.9s: 'football training camp' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794131941.13397,
+      "level": "info",
+      "msg": "Cutaway at 29.7s: 'family portrait' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794132064.9977787,
+      "level": "ok",
+      "msg": "Clip 7 ready in 2:24"
+    },
+    {
+      "t": 1794132065.021594,
+      "level": "info",
+      "msg": "Rendering clip 8/8: Bill Hader Recounts Jimmy Kimmel's 4 AM Van Interview"
+    },
+    {
+      "t": 1794132065.0450907,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794132066.4778464,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794132067.0293114,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794132067.0356834,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794132092.9052289,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794132092.913959,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794132099.4914093,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794132100.939797,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794132101.5474334,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794132101.5542119,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794132117.8303337,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794132119.2422955,
+      "level": "info",
+      "msg": "Cutaway at 4.2s: 'airplane interior cabin' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794132119.2503648,
+      "level": "info",
+      "msg": "Cutaway at 9.8s: 'american city street' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794132119.257036,
+      "level": "info",
+      "msg": "Cutaway at 9.8s: 'american city street' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794132121.077973,
+      "level": "info",
+      "msg": "Cutaway at 17.5s: 'person relaxing' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794132122.3249974,
+      "level": "info",
+      "msg": "Cutaway at 24.2s: 'car driving at night' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794132124.991599,
+      "level": "info",
+      "msg": "Cutaway at 30.8s: 'dark early morning' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794132249.0246034,
+      "level": "ok",
+      "msg": "Clip 8 ready in 3:03"
+    },
+    {
+      "t": 1794132249.0392325,
+      "level": "ok",
+      "msg": "All done in 18:07"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 883,
+  "heatmap": [],
+  "video_description": "Bill talks about being sick, Daylight Saving Time messing him up, a Halloween memory he has with Jimmy, their text chain with John Mulaney & Fred Armisen, having to play football growing up because he\u2019s from Oklahoma, his high school yearbook photo, being in the new Netflix Documentary SCTV: The Greatest Show You\u2019ve Never Heard Of, starring in The Cat in the Hat movie, his kids being funny, and doing a guest spot on Abbott Elementary.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 18 billion views and more than 22 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Bill Hader visits Jimmy Kimmel Live while sick to discuss Daylight Saving Time, a 10-year-old Halloween memory involving a stranded flight in Kentucky with Jimmy Kimmel and Guillermo, their group text chat with John Mulaney and Fred Armisen, his daughters making fun of his texting habits, and his childhood experience playing football in Oklahoma.\nPeople: Bill Hader (guest, actor and comedian); Jimmy Kimmel (host of Jimmy Kimmel Live); John Mulaney (comedian, mentioned as part of group chat); Fred Armisen (actor and comedian, mentioned as part of group chat); Guillermo Rodriguez (talk show sidekick, mentioned in Halloween story); Barry Switzer (former Oklahoma football coach, mentioned regarding football camp)\nContext: A late-night talk show interview on Jimmy Kimmel Live following the release/promotion of Bill Hader's projects.\nUnclear: The specific illness Bill Hader has (he mentions he cannot talk about it on TV) and the completion of his story regarding whether he was a good football player, as the transcript cuts off at the end.",
+  "render_index": 8,
+  "render_total": 8
+}

@@ -1,0 +1,117 @@
+{
+  "standard": {
+    "name": "jimmy",
+    "description": "Full-frame video, bold yellow captions, hook text at the start, 1080p. The look the app has always used.",
+    "settings": {
+      "layout_id": "fill",
+      "subtitles": true,
+      "sub_style": "bold_yellow",
+      "resolution": "1080p",
+      "hook_text": true,
+      "motion": {
+        "zoom": 40,
+        "shake": 0
+      },
+      "caption": {
+        "size": 0.045
+      },
+      "hook": {
+        "size": 0.057,
+        "duration": 6.0
+      },
+      "look": {
+        "filter": "warm",
+        "strength": 25,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "sharpness": 0
+      },
+      "music": {
+        "track": null,
+        "volume": 15,
+        "duck": true
+      },
+      "pacing": {
+        "speed": 100,
+        "cut_pauses": false,
+        "pause": 0.6
+      },
+      "stock": {
+        "on": false,
+        "source": "live",
+        "every_min": 3.0,
+        "every_max": 5.0,
+        "len_min": 1.5,
+        "len_max": 3.0,
+        "confidence": 60,
+        "fallback": "zoom",
+        "max": 8,
+        "judge": true
+      },
+      "smart_framing": true,
+      "retention": {
+        "trim_start": true,
+        "trim_end": true,
+        "hook_rules": true,
+        "hook_weight": true,
+        "punch": true
+      }
+    }
+  },
+  "two_speakers": {
+    "name": "Two speakers",
+    "description": "Two-up layout for interviews and podcasts with two people on screen, clean white captions.",
+    "settings": {
+      "layout_id": "stack_two",
+      "subtitles": true,
+      "sub_style": "clean_white",
+      "resolution": "1080p",
+      "hook_text": true,
+      "motion": {
+        "zoom": 100,
+        "shake": 0
+      },
+      "caption": {},
+      "hook": {},
+      "look": {
+        "filter": "none",
+        "strength": 60,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "sharpness": 0
+      },
+      "music": {
+        "track": null,
+        "volume": 15,
+        "duck": true
+      },
+      "pacing": {
+        "speed": 115,
+        "cut_pauses": false,
+        "pause": 0.6
+      },
+      "stock": {
+        "on": false,
+        "source": "library_first",
+        "every_min": 5.0,
+        "every_max": 10.0,
+        "len_min": 1.5,
+        "len_max": 3.0,
+        "confidence": 60,
+        "fallback": "zoom",
+        "max": 8,
+        "judge": false
+      },
+      "smart_framing": true,
+      "retention": {
+        "trim_start": true,
+        "trim_end": true,
+        "hook_rules": true,
+        "hook_weight": true,
+        "punch": true
+      }
+    }
+  }
+}

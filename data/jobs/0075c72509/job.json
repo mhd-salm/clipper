@@ -1,0 +1,459 @@
+{
+  "id": "0075c72509",
+  "created": 1794123013.719349,
+  "url": "https://www.youtube.com/watch?v=DBcBmzz8Bf4",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Timothy Simons on Major Soup Fail, Getting into Politics Doing VEEP & His Epic Search for Cigarettes",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 88,
+        "overall": 85,
+        "hook_text": "They walked in and I was naked",
+        "tip": "Start right as the guests walk around the corner to maximize the shock value.",
+        "caption": "Imagine walking into a dinner party and seeing this.",
+        "description": "Timothy Simons recounts the chaotic moment his dinner guests walked in to find him completely naked and covered in red soup after a kitchen explosion. Discover how he handled the most awkward greeting ever, and let us know how you would react.",
+        "hashtags": [
+          "dinnerparty",
+          "awkward",
+          "comedy",
+          "storytime",
+          "laugh"
+        ]
+      },
+      "id": "c1",
+      "title": "Timothy Simons Explains Why He Was Naked After Soup Explosion",
+      "reason": "Timothy Simons hilariously recounts greeting his dinner guests completely naked and covered in red soup after a kitchen explosion.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 3,
+      "progress": 100,
+      "params": {
+        "start": 220.33,
+        "end": 266.54,
+        "layout_id": "split_zoom",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "They walked in and I was naked",
+            "start": 0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ],
+        "layout": {
+          "id": "split_zoom",
+          "name": "Zoom + wide",
+          "description": "Zoomed on the speaker on top, whole scene below",
+          "background": "blur",
+          "regions": [
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 1.0,
+              "h": 0.55,
+              "fit": "fill",
+              "crop": {
+                "x": 0.3150152816728854,
+                "y": 0.10289053518251776,
+                "w": 0.3595525568181818,
+                "h": 0.625
+              },
+              "follow_face": true,
+              "zoom": 1.6
+            },
+            {
+              "x": 0.0,
+              "y": 0.55,
+              "w": 1.0,
+              "h": 0.44999999999999996,
+              "fit": "fill",
+              "crop": null,
+              "follow_face": false,
+              "zoom": 1.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 65,
+        "value": 70,
+        "shareability": 68,
+        "overall": 69,
+        "hook_text": "I did not know hot soup explodes",
+        "tip": "Cut straight into the blender warning to maximize initial tension.",
+        "caption": "Never blend hot soup unless you want a kitchen disaster.",
+        "description": "Timothy Simons shares a hilarious story about a catastrophic kitchen accident involving a blender and hot winter soup. Watch to find out why blending hot liquids is a terrible idea, and tell us your worst cooking fail in the comments.",
+        "hashtags": [
+          "cookingfail",
+          "funny",
+          "kitchen",
+          "storytime",
+          "soup"
+        ]
+      },
+      "id": "c2",
+      "title": "Timothy Simons' Disastrous Winter Soup Explosion",
+      "reason": "Timothy Simons shares a hilarious and shocking story about blowing up a blender full of hot soup.",
+      "score": 69,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 171.61,
+        "end": 218.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I did not know hot soup explodes",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 3,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 20
+    },
+    "caption": {},
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": true,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794123013.7234385,
+  "finished": 1794123238.7140946,
+  "log": [
+    {
+      "t": 1794123013.7328181,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=DBcBmzz8Bf4"
+    },
+    {
+      "t": 1794123031.4873936,
+      "level": "ok",
+      "msg": "Downloaded \"Timothy Simons on Major Soup Fail, Getting into Politics Doing VEEP & His Epic Search for Cigarettes\" (8:35) in 0:17"
+    },
+    {
+      "t": 1794123031.5006168,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794123034.519554,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794123034.5519836,
+      "level": "ok",
+      "msg": "Transcribed 248 segments / 1625 words in 0:03"
+    },
+    {
+      "t": 1794123034.558719,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794123035.1477807,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794123036.219803,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794123036.8119297,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794123036.8148856,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794123038.5033224,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794123038.5106132,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Timothy Simons appears on Jimmy Kimmel Live to discuss his work on 'Nobody Wants This' and 'VEEP', winning money on 'Who Wants to Be a Millionaire?', an explosive soup mishap during a dinner party, and a chaotic late-night cigarette delivery run. | People: Jimmy Kimmel; Timothy Simons; Jack"
+    },
+    {
+      "t": 1794123039.7670667,
+      "level": "info",
+      "msg": "Audio analysis: 4 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794123039.772044,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794123040.8800793,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794123041.4703512,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794123041.4735038,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794123043.2400475,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794123043.2519674,
+      "level": "ok",
+      "msg": "AI picked 2 clips in 0:08"
+    },
+    {
+      "t": 1794123043.2553911,
+      "level": "info",
+      "msg": "  \u2022 Timothy Simons' Disastrous Winter Soup Explosion  [2:51-3:38, score 95]"
+    },
+    {
+      "t": 1794123043.2601693,
+      "level": "info",
+      "msg": "  \u2022 Timothy Simons Explains Why He Was Naked After Soup Explosion  [3:40-4:26, score 96]"
+    },
+    {
+      "t": 1794123043.2698905,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794123043.276694,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794123044.3651164,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794123044.7513373,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794123044.7546828,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794123046.6293862,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794123046.6335135,
+      "level": "ok",
+      "msg": "Rated 2 clips in 0:03"
+    },
+    {
+      "t": 1794123046.6367245,
+      "level": "info",
+      "msg": "  - Timothy Simons' Disastrous Winter Soup Explosion: 69/100 (hook 72, retention 65, value 70, share 68)"
+    },
+    {
+      "t": 1794123046.6398873,
+      "level": "info",
+      "msg": "  - Timothy Simons Explains Why He Was Naked After Soup Explosion: 85/100 (hook 85, retention 80, value 85, share 88)"
+    },
+    {
+      "t": 1794123046.6474326,
+      "level": "ok",
+      "msg": "2 distinct clips found, 2 rated 50+"
+    },
+    {
+      "t": 1794123046.6611643,
+      "level": "warn",
+      "msg": "Full auto upload is PAUSED (Upload failed: YouTube Studio did not respond as expected (slow page, a security check, or its layout changed). A screenshot is saved as upload_error.png in the project folder. Locator.set_input_files: Timeout 20000ms exceeded.). Clips will be rendered; resume from the banner, then use Upload all."
+    },
+    {
+      "t": 1794123046.6720617,
+      "level": "info",
+      "msg": "Rendering clip 1/2: Timothy Simons Explains Why He Was Naked After Soup Explosion"
+    },
+    {
+      "t": 1794123136.1099463,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:29"
+    },
+    {
+      "t": 1794123136.121428,
+      "level": "info",
+      "msg": "Rendering clip 2/2: Timothy Simons' Disastrous Winter Soup Explosion"
+    },
+    {
+      "t": 1794123238.7073407,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:42"
+    },
+    {
+      "t": 1794123238.7231386,
+      "level": "ok",
+      "msg": "All done in 3:12"
+    },
+    {
+      "t": 1794123393.961548,
+      "level": "info",
+      "msg": "Re-rendering Timothy Simons Explains Why He Was Naked After Soup Explosion"
+    },
+    {
+      "t": 1794123522.6884718,
+      "level": "ok",
+      "msg": "Timothy Simons Explains Why He Was Naked After Soup Explosion updated"
+    },
+    {
+      "t": 1794123522.6970706,
+      "level": "info",
+      "msg": "Re-rendering Timothy Simons Explains Why He Was Naked After Soup Explosion"
+    },
+    {
+      "t": 1794123646.5462968,
+      "level": "ok",
+      "msg": "Timothy Simons Explains Why He Was Naked After Soup Explosion updated"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 515,
+  "heatmap": [],
+  "video_description": "Timothy talks about winning money on \"Who Wants to Be a Millionaire?\u201d for the Silver Lake Children\u2019s Theater, his major soup mishap, learning a lot about politics while making \u201cVEEP,\u201d and his epic search for cigarettes. Season three of \u201cNobody Wants This\u201d is on Netflix now.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 18 billion views and more than 22 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Timothy Simons appears on Jimmy Kimmel Live to discuss his work on 'Nobody Wants This' and 'VEEP', winning money on 'Who Wants to Be a Millionaire?', an explosive soup mishap during a dinner party, and a chaotic late-night cigarette delivery run.\nPeople: Jimmy Kimmel; Timothy Simons; Jackie; Brena; Trump\nContext: Timothy Simons is being interviewed on 'Jimmy Kimmel Live' to promote season three of Netflix's 'Nobody Wants This' and shares various anecdotes from his game show appearance, personal life, and time on 'VEEP'.\nUnclear: The exact outcome of the cigarette delivery run after the text message exchange is cut off before completion.",
+  "render_index": 2,
+  "render_total": 2
+}

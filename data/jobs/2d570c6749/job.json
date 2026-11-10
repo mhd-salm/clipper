@@ -1,0 +1,1318 @@
+{
+  "id": "2d570c6749",
+  "created": 1794306407.2468417,
+  "url": "https://www.youtube.com/watch?v=N3TeZQ85h8E",
+  "source": "manual",
+  "creator_id": null,
+  "title": "Tom Holland Got Ghosted by Erling Haaland, Had a Jason Bourne Moment with Matt Damon on The Odyssey",
+  "status": "running",
+  "stage": "Rendering clip 4 of 5",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 83,
+        "shareability": 81,
+        "overall": 87,
+        "hook_text": "The moment he realized who he fought",
+        "tip": "Use quick dramatic zoom-ins when Matt Damon's character is mentioned to heighten tension.",
+        "caption": "Tom Holland realizes mid-scene that he is actually sparring against Jason Bourne actor Matt Damon.",
+        "description": "While filming an intense action sequence in a fiery quarry, Tom Holland was struck by who he was standing across from. Watching Matt Damon execute the choreography, he suddenly realized he was fighting an iconic action hero. Could you hold your own in a scene like this?",
+        "hashtags": [
+          "tomholland",
+          "mattdamon",
+          "jasonbourne",
+          "behindthescenes",
+          "actionmovies"
+        ]
+      },
+      "id": "c1",
+      "title": "Tom Holland Realizes He's Fighting Jason Bourne",
+      "reason": "Tom Holland recalls watching Matt Damon execute a fiery fight scene on set and realizing mid-scene that he was facing Jason Bourne.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 468.43,
+        "end": 505.73,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The moment he realized who he fought",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "uploading",
+          "progress": 0,
+          "note": "Filling in title and description\u2026",
+          "method": "browser"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 76,
+        "value": 72,
+        "shareability": 84,
+        "overall": 80,
+        "hook_text": "The text message Erling Haaland ignored",
+        "tip": "Trim the opening small talk to jump straight into the DM reveal.",
+        "caption": "Tom Holland reveals what happened when he tried to text soccer superstar Erling Haaland for dinner.",
+        "description": "Actor Tom Holland shares a humbling moment from a trip to Monaco where he attempted to reach out to football icon Erling Haaland. After sending a friendly dinner invitation, he was left completely on read without a response. Did Haaland ever text back?",
+        "hashtags": [
+          "tomholland",
+          "erlinghaaland",
+          "hollywood",
+          "football",
+          "celebritygossip"
+        ]
+      },
+      "id": "c2",
+      "title": "Tom Holland's Humbling Moment DMing Erling Haaland",
+      "reason": "Tom Holland hilariously reveals shooting his shot with football star Erling Haaland only to get completely ghosted.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 101.79,
+        "end": 145.77,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The text message Erling Haaland ignored",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "queued",
+          "progress": 0,
+          "method": "browser",
+          "note": "Waiting in the upload queue"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 80,
+        "value": 81,
+        "shareability": 77,
+        "overall": 78,
+        "hook_text": "Why he thought Christopher Nolan misdialed",
+        "tip": "Add on-screen visuals of Christopher Nolan and Timoth\u00e9e Chalamet when they are mentioned.",
+        "caption": "Tom Holland thought director Christopher Nolan actually meant to call Timoth\u00e9e Chalamet for his latest role.",
+        "description": "When Christopher Nolan reached out with a secret project offer, Tom Holland assumed the director meant to call Timoth\u00e9e Chalamet instead. To make matters stranger, his agents initially pitched it as a vampire sci-fi film. What was Nolan actually offering him?",
+        "hashtags": [
+          "tomholland",
+          "christophernolan",
+          "timotheechalamet",
+          "behindthescenes",
+          "moviecasting"
+        ]
+      },
+      "id": "c3",
+      "title": "Tom Holland Thought Nolan Meant to Call Timoth\u00e9e Chalamet",
+      "reason": "Tom Holland shares the surreal story of receiving a mysterious call from Christopher Nolan that his agents misidentified as a vampire movie.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 175.39,
+        "end": 234.69,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he thought Christopher Nolan misdialed",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "queued",
+          "progress": 0,
+          "method": "browser",
+          "note": "Waiting in the upload queue"
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 71,
+        "retention": 73,
+        "value": 69,
+        "shareability": 70,
+        "overall": 73,
+        "hook_text": "Why he called his co star Cupid",
+        "tip": "Overlay a playful graphic of Cupid when Tom Holland describes Jon Bernthal's stance.",
+        "caption": "Tom Holland could not stop laughing at Jon Bernthal's archery technique on set.",
+        "description": "During a tense archery scene, Tom Holland noticed co-star Jon Bernthal using a technique that looked hilariously out of character. Despite Bernthal hitting every target, Holland could not stop teasing him for looking like Cupid. Would you call out your best friend on set?",
+        "hashtags": [
+          "tomholland",
+          "jonbernthal",
+          "behindthescenes",
+          "actinglife",
+          "bloopers"
+        ]
+      },
+      "id": "c4",
+      "title": "Tom Holland Called Jon Bernthal Cupid on Set",
+      "reason": "Tom Holland reveals making fun of Jon Bernthal's bow-and-arrow technique during a scene on set.",
+      "score": 73,
+      "status": "rendering",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 27,
+      "params": {
+        "start": 629.06,
+        "end": 666.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he called his co star Cupid",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 61,
+        "retention": 64,
+        "value": 65,
+        "shareability": 58,
+        "overall": 64,
+        "hook_text": "How he rescheduled a major movie",
+        "tip": "Insert movie clips or posters of Spider-Man to maintain visual momentum.",
+        "caption": "Tom Holland had to ask studio executive Tom Rothman to move Spider-Man filming for Christopher Nolan.",
+        "description": "Scheduling conflicts almost prevented Tom Holland from starring in Christopher Nolan's epic project. Studio executive Tom Rothman stepped in to adjust the production timeline for Spider-Man. How far would a studio go to accommodate a director?",
+        "hashtags": [
+          "tomholland",
+          "spiderman",
+          "christophernolan",
+          "tomrothman",
+          "filmmaking"
+        ]
+      },
+      "id": "c5",
+      "title": "Tom Holland Shifted Spider-Man for Christopher Nolan",
+      "reason": "Tom Holland explains how studio head Tom Rothman moved Spider-Man's entire shoot schedule so he could join Christopher Nolan's film.",
+      "score": 64,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 260.41,
+        "end": 296.29,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How he rescheduled a major movie",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794306407.2533562,
+  "finished": null,
+  "log": [
+    {
+      "t": 1794306407.2652874,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=N3TeZQ85h8E"
+    },
+    {
+      "t": 1794306471.4296339,
+      "level": "ok",
+      "msg": "Downloaded \"Tom Holland Got Ghosted by Erling Haaland, Had a Jason Bourne Moment with Matt Damon on The Odyssey\" (11:38) in 1:04"
+    },
+    {
+      "t": 1794306471.440003,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794306471.483053,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794306474.3847096,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794306474.390829,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794308091.5445173,
+      "level": "ok",
+      "msg": "Transcribed 340 segments / 2198 words in 27:00"
+    },
+    {
+      "t": 1794308091.5605884,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794308091.5742347,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794308093.8548477,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794308102.5893471,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794308102.6169307,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Actor Tom Holland appears on The Tonight Show Starring Jimmy Fallon to discuss getting ignored on social media by Norwegian football star Erling Haaland after sending a dinner invitation, as well as being cast by director Christopher Nolan in his film adaptation of The Odyssey, which requir"
+    },
+    {
+      "t": 1794308104.5559487,
+      "level": "info",
+      "msg": "Audio analysis: 5 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794308104.570711,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794308106.8614159,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794308122.2407746,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794308122.3088877,
+      "level": "ok",
+      "msg": "AI picked 5 clips in 0:30"
+    },
+    {
+      "t": 1794308122.3163455,
+      "level": "info",
+      "msg": "  \u2022 Tom Holland's Humbling Moment DMing Erling Haaland  [1:41-2:25, score 92]"
+    },
+    {
+      "t": 1794308122.3242111,
+      "level": "info",
+      "msg": "  \u2022 Tom Holland Thought Nolan Meant to Call Timoth\u00e9e Chalamet  [2:55-3:54, score 88]"
+    },
+    {
+      "t": 1794308122.332464,
+      "level": "info",
+      "msg": "  \u2022 Tom Holland Shifted Spider-Man for Christopher Nolan  [4:20-4:56, score 85]"
+    },
+    {
+      "t": 1794308122.3408074,
+      "level": "info",
+      "msg": "  \u2022 Tom Holland Realizes He's Fighting Jason Bourne  [7:48-8:25, score 95]"
+    },
+    {
+      "t": 1794308122.3489194,
+      "level": "info",
+      "msg": "  \u2022 Tom Holland Called Jon Bernthal Cupid on Set  [10:28-11:06, score 90]"
+    },
+    {
+      "t": 1794308122.3764634,
+      "level": "ok",
+      "msg": "Tightened the clips: 0.7s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794308122.3904064,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794308122.4033494,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794308124.7385318,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794308159.0086179,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794308159.0329223,
+      "level": "ok",
+      "msg": "Rated 5 clips in 0:36"
+    },
+    {
+      "t": 1794308159.038364,
+      "level": "info",
+      "msg": "  - Tom Holland's Humbling Moment DMing Erling Haaland: 80/100 (hook 78, retention 76, value 72, share 84)"
+    },
+    {
+      "t": 1794308159.0442724,
+      "level": "info",
+      "msg": "  - Tom Holland Thought Nolan Meant to Call Timoth\u00e9e Chalamet: 78/100 (hook 82, retention 80, value 81, share 77)"
+    },
+    {
+      "t": 1794308159.0541162,
+      "level": "info",
+      "msg": "  - Tom Holland Shifted Spider-Man for Christopher Nolan: 64/100 (hook 61, retention 64, value 65, share 58)"
+    },
+    {
+      "t": 1794308159.0619292,
+      "level": "info",
+      "msg": "  - Tom Holland Realizes He's Fighting Jason Bourne: 87/100 (hook 88, retention 85, value 83, share 81)"
+    },
+    {
+      "t": 1794308159.0691524,
+      "level": "info",
+      "msg": "  - Tom Holland Called Jon Bernthal Cupid on Set: 73/100 (hook 71, retention 73, value 69, share 70)"
+    },
+    {
+      "t": 1794308159.085338,
+      "level": "ok",
+      "msg": "5 distinct clips found, 5 rated 50+"
+    },
+    {
+      "t": 1794308514.515236,
+      "level": "info",
+      "msg": "Rendering clip 1/5: Tom Holland Realizes He's Fighting Jason Bourne"
+    },
+    {
+      "t": 1794308734.478737,
+      "level": "ok",
+      "msg": "Clip 1 ready in 3:39"
+    },
+    {
+      "t": 1794308734.50311,
+      "level": "info",
+      "msg": "Rendering clip 2/5: Tom Holland's Humbling Moment DMing Erling Haaland"
+    },
+    {
+      "t": 1794309005.2288644,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:30"
+    },
+    {
+      "t": 1794309005.2528226,
+      "level": "info",
+      "msg": "Rendering clip 3/5: Tom Holland Thought Nolan Meant to Call Timoth\u00e9e Chalamet"
+    },
+    {
+      "t": 1794309338.235476,
+      "level": "ok",
+      "msg": "Clip 3 ready in 5:32"
+    },
+    {
+      "t": 1794309338.2569356,
+      "level": "info",
+      "msg": "Rendering clip 4/5: Tom Holland Called Jon Bernthal Cupid on Set"
+    }
+  ],
+  "stage_key": "render",
+  "progress": 27,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 698,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.98,
+      "value": 0.48412083625327257
+    },
+    {
+      "start_time": 6.98,
+      "end_time": 13.96,
+      "value": 0.2551048225701991
+    },
+    {
+      "start_time": 13.96,
+      "end_time": 20.94,
+      "value": 0.2580435483130475
+    },
+    {
+      "start_time": 20.94,
+      "end_time": 27.92,
+      "value": 0.2595307321980436
+    },
+    {
+      "start_time": 27.92,
+      "end_time": 34.9,
+      "value": 0.2565492901624107
+    },
+    {
+      "start_time": 34.9,
+      "end_time": 41.88,
+      "value": 0.2970338686964323
+    },
+    {
+      "start_time": 41.88,
+      "end_time": 48.86,
+      "value": 0.29516546851706355
+    },
+    {
+      "start_time": 48.86,
+      "end_time": 55.84,
+      "value": 0.22311894554750053
+    },
+    {
+      "start_time": 55.84,
+      "end_time": 62.82,
+      "value": 0.18727116916243872
+    },
+    {
+      "start_time": 62.82,
+      "end_time": 69.8,
+      "value": 0.1726959080715061
+    },
+    {
+      "start_time": 69.8,
+      "end_time": 76.78,
+      "value": 0.1832527697193711
+    },
+    {
+      "start_time": 76.78,
+      "end_time": 83.76,
+      "value": 0.22068050753957907
+    },
+    {
+      "start_time": 83.76,
+      "end_time": 90.74,
+      "value": 0.2199814004562757
+    },
+    {
+      "start_time": 90.74,
+      "end_time": 97.72,
+      "value": 0.22334066602622907
+    },
+    {
+      "start_time": 97.72,
+      "end_time": 104.7,
+      "value": 0.2451682765674046
+    },
+    {
+      "start_time": 104.7,
+      "end_time": 111.68,
+      "value": 0.2704859544065023
+    },
+    {
+      "start_time": 111.68,
+      "end_time": 118.66,
+      "value": 0.28597202719867454
+    },
+    {
+      "start_time": 118.66,
+      "end_time": 125.64,
+      "value": 0.27444036062007526
+    },
+    {
+      "start_time": 125.64,
+      "end_time": 132.62,
+      "value": 0.254087048694336
+    },
+    {
+      "start_time": 132.62,
+      "end_time": 139.6,
+      "value": 0.23205899461114204
+    },
+    {
+      "start_time": 139.6,
+      "end_time": 146.58,
+      "value": 0.24046666909212916
+    },
+    {
+      "start_time": 146.58,
+      "end_time": 153.56,
+      "value": 0.39110640648383876
+    },
+    {
+      "start_time": 153.56,
+      "end_time": 160.54,
+      "value": 0.30881923432191144
+    },
+    {
+      "start_time": 160.54,
+      "end_time": 167.52,
+      "value": 0.28735154509180233
+    },
+    {
+      "start_time": 167.52,
+      "end_time": 174.5,
+      "value": 0.23621860866808325
+    },
+    {
+      "start_time": 174.5,
+      "end_time": 181.48,
+      "value": 0.4044769129175224
+    },
+    {
+      "start_time": 181.48,
+      "end_time": 188.46,
+      "value": 0.5808442024371856
+    },
+    {
+      "start_time": 188.46,
+      "end_time": 195.44,
+      "value": 0.5163357787192807
+    },
+    {
+      "start_time": 195.44,
+      "end_time": 202.42,
+      "value": 0.25978316798320195
+    },
+    {
+      "start_time": 202.42,
+      "end_time": 209.4,
+      "value": 0.23771764916666593
+    },
+    {
+      "start_time": 209.4,
+      "end_time": 216.38,
+      "value": 0.23675470084951825
+    },
+    {
+      "start_time": 216.38,
+      "end_time": 223.36,
+      "value": 0.23893671477456047
+    },
+    {
+      "start_time": 223.36,
+      "end_time": 230.34,
+      "value": 0.24174036174618285
+    },
+    {
+      "start_time": 230.34,
+      "end_time": 237.32,
+      "value": 0.30239735312741733
+    },
+    {
+      "start_time": 237.32,
+      "end_time": 244.3,
+      "value": 0.29350110315232164
+    },
+    {
+      "start_time": 244.3,
+      "end_time": 251.28,
+      "value": 0.17030139547830264
+    },
+    {
+      "start_time": 251.28,
+      "end_time": 258.26,
+      "value": 0.14036422217583044
+    },
+    {
+      "start_time": 258.26,
+      "end_time": 265.24,
+      "value": 0.16623760884623925
+    },
+    {
+      "start_time": 265.24,
+      "end_time": 272.22,
+      "value": 0.21431099756674135
+    },
+    {
+      "start_time": 272.22,
+      "end_time": 279.2,
+      "value": 0.2616449270152345
+    },
+    {
+      "start_time": 279.2,
+      "end_time": 286.18,
+      "value": 0.23988784257131365
+    },
+    {
+      "start_time": 286.18,
+      "end_time": 293.16,
+      "value": 0.16959956335899992
+    },
+    {
+      "start_time": 293.16,
+      "end_time": 300.14,
+      "value": 0.1306312417761662
+    },
+    {
+      "start_time": 300.14,
+      "end_time": 307.12,
+      "value": 0.1149615087762762
+    },
+    {
+      "start_time": 307.12,
+      "end_time": 314.1,
+      "value": 0.10386001890705772
+    },
+    {
+      "start_time": 314.1,
+      "end_time": 321.08,
+      "value": 0.11354528410683931
+    },
+    {
+      "start_time": 321.08,
+      "end_time": 328.06,
+      "value": 0.1311442343146928
+    },
+    {
+      "start_time": 328.06,
+      "end_time": 335.04,
+      "value": 0.17509554589797985
+    },
+    {
+      "start_time": 335.04,
+      "end_time": 342.02,
+      "value": 0.17670764832064154
+    },
+    {
+      "start_time": 342.02,
+      "end_time": 349.0,
+      "value": 0.12501833534155854
+    },
+    {
+      "start_time": 349.0,
+      "end_time": 355.98,
+      "value": 0.09419749241826408
+    },
+    {
+      "start_time": 355.98,
+      "end_time": 362.96,
+      "value": 0.09320282720860738
+    },
+    {
+      "start_time": 362.96,
+      "end_time": 369.94,
+      "value": 0.10818946947916369
+    },
+    {
+      "start_time": 369.94,
+      "end_time": 376.92,
+      "value": 0.1267546524846409
+    },
+    {
+      "start_time": 376.92,
+      "end_time": 383.9,
+      "value": 0.13280919521710344
+    },
+    {
+      "start_time": 383.9,
+      "end_time": 390.88,
+      "value": 0.13255390806977363
+    },
+    {
+      "start_time": 390.88,
+      "end_time": 397.86,
+      "value": 0.12682599067871658
+    },
+    {
+      "start_time": 397.86,
+      "end_time": 404.84,
+      "value": 0.12287548252988444
+    },
+    {
+      "start_time": 404.84,
+      "end_time": 411.82,
+      "value": 0.10496170945442397
+    },
+    {
+      "start_time": 411.82,
+      "end_time": 418.8,
+      "value": 0.1252625057857387
+    },
+    {
+      "start_time": 418.8,
+      "end_time": 425.78,
+      "value": 0.16865583466661585
+    },
+    {
+      "start_time": 425.78,
+      "end_time": 432.76,
+      "value": 0.17673127131483457
+    },
+    {
+      "start_time": 432.76,
+      "end_time": 439.74,
+      "value": 0.1223208023545466
+    },
+    {
+      "start_time": 439.74,
+      "end_time": 446.72,
+      "value": 0.11842650935232354
+    },
+    {
+      "start_time": 446.72,
+      "end_time": 453.7,
+      "value": 0.13387614606712697
+    },
+    {
+      "start_time": 453.7,
+      "end_time": 460.68,
+      "value": 0.129917661322853
+    },
+    {
+      "start_time": 460.68,
+      "end_time": 467.66,
+      "value": 0.12632702034529925
+    },
+    {
+      "start_time": 467.66,
+      "end_time": 474.64,
+      "value": 0.2367343262426092
+    },
+    {
+      "start_time": 474.64,
+      "end_time": 481.62,
+      "value": 0.2838907132794361
+    },
+    {
+      "start_time": 481.62,
+      "end_time": 488.6,
+      "value": 0.3071611852657773
+    },
+    {
+      "start_time": 488.6,
+      "end_time": 495.58,
+      "value": 0.6607919221703732
+    },
+    {
+      "start_time": 495.58,
+      "end_time": 502.56,
+      "value": 0.9179761998604204
+    },
+    {
+      "start_time": 502.56,
+      "end_time": 509.54,
+      "value": 0.17191923671849937
+    },
+    {
+      "start_time": 509.54,
+      "end_time": 516.52,
+      "value": 0.13183278413932317
+    },
+    {
+      "start_time": 516.52,
+      "end_time": 523.5,
+      "value": 0.18258253718970321
+    },
+    {
+      "start_time": 523.5,
+      "end_time": 530.48,
+      "value": 0.3219449928203422
+    },
+    {
+      "start_time": 530.48,
+      "end_time": 537.46,
+      "value": 0.3689483988626891
+    },
+    {
+      "start_time": 537.46,
+      "end_time": 544.44,
+      "value": 0.25610195114021284
+    },
+    {
+      "start_time": 544.44,
+      "end_time": 551.42,
+      "value": 0.18754329378385723
+    },
+    {
+      "start_time": 551.42,
+      "end_time": 558.4,
+      "value": 0.17480571756586358
+    },
+    {
+      "start_time": 558.4,
+      "end_time": 565.38,
+      "value": 0.22619542095778628
+    },
+    {
+      "start_time": 565.38,
+      "end_time": 572.36,
+      "value": 0.2080573647869621
+    },
+    {
+      "start_time": 572.36,
+      "end_time": 579.34,
+      "value": 0.19109674072700927
+    },
+    {
+      "start_time": 579.34,
+      "end_time": 586.32,
+      "value": 0.38787292568816
+    },
+    {
+      "start_time": 586.32,
+      "end_time": 593.3,
+      "value": 0.7657609585427821
+    },
+    {
+      "start_time": 593.3,
+      "end_time": 600.28,
+      "value": 1.0
+    },
+    {
+      "start_time": 600.28,
+      "end_time": 607.26,
+      "value": 0.9929543923537872
+    },
+    {
+      "start_time": 607.26,
+      "end_time": 614.24,
+      "value": 0.8566076672912233
+    },
+    {
+      "start_time": 614.24,
+      "end_time": 621.22,
+      "value": 0.7289519663137908
+    },
+    {
+      "start_time": 621.22,
+      "end_time": 628.2,
+      "value": 0.6354320513897755
+    },
+    {
+      "start_time": 628.2,
+      "end_time": 635.18,
+      "value": 0.477871841448671
+    },
+    {
+      "start_time": 635.18,
+      "end_time": 642.16,
+      "value": 0.4125398432746978
+    },
+    {
+      "start_time": 642.16,
+      "end_time": 649.14,
+      "value": 0.48848024417477537
+    },
+    {
+      "start_time": 649.14,
+      "end_time": 656.12,
+      "value": 0.5463084677227246
+    },
+    {
+      "start_time": 656.12,
+      "end_time": 663.1,
+      "value": 0.5031172607172959
+    },
+    {
+      "start_time": 663.1,
+      "end_time": 670.08,
+      "value": 0.3281064255410442
+    },
+    {
+      "start_time": 670.08,
+      "end_time": 677.06,
+      "value": 0.09159745616626198
+    },
+    {
+      "start_time": 677.06,
+      "end_time": 684.04,
+      "value": 0.02841462260092162
+    },
+    {
+      "start_time": 684.04,
+      "end_time": 691.02,
+      "value": 0.0
+    },
+    {
+      "start_time": 691.02,
+      "end_time": 698.0,
+      "value": 0.007711391689961213
+    }
+  ],
+  "video_description": "Tom Holland talks about Norwegian soccer player Erling Haaland ignoring his dinner invitation, Christopher Nolan casting him in The Odyssey and filming fight scenes with Matt Damon and Jon Bernthal.\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nTom Holland Got Ghosted by Erling Haaland, Had a Jason Bourne Moment with Matt Damon on The Odyssey\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight \n#TomHolland\n#JimmyFallon",
+  "brief": "Summary: Actor Tom Holland appears on The Tonight Show Starring Jimmy Fallon to discuss getting ignored on social media by Norwegian football star Erling Haaland after sending a dinner invitation, as well as being cast by director Christopher Nolan in his film adaptation of The Odyssey, which required studio executive Tom Rothman to adjust the Spider-Man filming schedule.\nPeople: Tom Holland; Jimmy Fallon; Erling Haaland; Christopher Nolan; Matt Damon; Jon Bernthal; Lewis Hamilton; Timoth\u00e9e Chalamet; Tom Rothman\nContext: Interview segment from The Tonight Show Starring Jimmy Fallon where host Jimmy Fallon interviews actor Tom Holland about his personal anecdote with footballer Erling Haaland and his experience working on Christopher Nolan's movie adaptation of The Odyssey.\nUnclear: The transcript ends abruptly mid-sentence while Tom Holland is describing walking through the set in Morocco, so the full story about his Jason Bourne moment with Matt Damon and details about Jon Bernthal mentioned in the title and description are missing from the provided transcript.",
+  "render_index": 4,
+  "render_total": 5
+}

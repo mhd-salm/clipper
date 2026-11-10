@@ -9,6 +9,7 @@ import requests
 
 import config
 import jobs
+import presets
 
 _lock = threading.Lock()
 NS = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
@@ -48,7 +49,7 @@ OPT_KEYS = ("layout_id", "subtitles", "sub_style", "num_clips", "min_len", "max_
 BUILTIN_DEFAULTS = {"layout_id": "fill", "subtitles": True, "sub_style": "bold_yellow", "num_clips": 0, "min_len": 20, "max_len": 60,
                     "resolution": "1080p", "hook_text": True, "content": "auto", "auto": True, "auto_privacy": "public",
                     "hide_likes": True, "account": "default", "min_score": 50}
-SETTING_KEYS = ("layout_id", "subtitles", "sub_style", "resolution", "hook_text", "auto", "auto_privacy", "hide_likes", "account", "min_score", "min_len", "max_len")
+SETTING_KEYS = ("layout_id", "subtitles", "sub_style", "resolution", "hook_text", "auto", "auto_privacy", "hide_likes", "account", "min_score", "min_len", "max_len", "num_clips")
 
 
 def defaults() -> dict:
@@ -77,6 +78,16 @@ def update_options(channel_id: str, fields: dict):
                 c["options"].update({k: v for k, v in fields.items() if k in SETTING_KEYS})
                 if "enabled" in fields:
                     c["enabled"] = bool(fields["enabled"])
+                if "preset" in fields:
+                    pid = fields["preset"] or None
+                    if pid:
+                        ps = presets.settings_for(pid)
+                        if not ps:
+                            raise ValueError("That edit preset does not exist")
+                        c["preset"] = pid
+                        c["options"].update(ps)
+                    else:
+                        c.pop("preset", None)
         _save(items)
 
 
@@ -104,14 +115,30 @@ def search(q: str, limit: int = 8) -> list[dict]:
     return out
 
 
-def follow(channel_id: str, name: str) -> dict:
-    """Follow with the saved defaults. Videos already on the channel are ignored."""
+def job_options(c: dict) -> dict:
+    """Options for a new video of this creator: their own settings, with the edit preset's CURRENT look on top."""
+    return {**c["options"], **presets.settings_for(c.get("preset")), "preset": c.get("preset")}
+
+
+def follow(channel_id: str, name: str, settings: dict | None = None) -> dict:
+    """Follow with the settings chosen in the step-by-step screen (anything not given uses the built-in defaults).
+    Videos already on the channel are ignored."""
     seen = [v["id"] for v in feed(channel_id)]
-    d = defaults()
-    enabled = d.pop("enabled", True)
+    d = dict(BUILTIN_DEFAULTS)
+    s = settings or {}
+    d.update({k: v for k, v in s.items() if k in SETTING_KEYS})
+    enabled = bool(s.get("enabled", True))
+    d["min_score"] = max(0, min(100, int(d.get("min_score", 50))))
     if d.get("auto"):
-        d["num_clips"] = 0
+        d["num_clips"] = d.get("num_clips") or 0
+    pid = s.get("preset") or None
+    ps = presets.settings_for(pid)
+    if pid and not ps:
+        raise ValueError("That edit preset does not exist")
+    d.update(ps)  # snapshot, used if the preset is ever deleted
     item = {"channel_id": channel_id, "name": name, "url": "https://www.youtube.com/channel/" + channel_id, "enabled": enabled, "seen": seen, "options": d}
+    if pid:
+        item["preset"] = pid
     with _lock:
         items = [x for x in _load() if x["channel_id"] != channel_id]
         items.append(item)
@@ -158,6 +185,20 @@ def recent_videos(channel_id: str, offset: int = 0, limit: int = 5) -> list[dict
              "live": e.get("live_status") in ("is_live", "was_live", "is_upcoming")} for e in (info.get("entries") or []) if e and e.get("id")]
 
 
+_pop_cache: dict = {}
+POPULAR_POOL = 300  # "most viewed" ranks the channel's latest 300 uploads
+
+
+def popular_videos(channel_id: str, offset: int = 0, limit: int = 5) -> list[dict]:
+    """The most viewed of the channel's latest POPULAR_POOL uploads (YouTube's own Popular sort is not reachable, so we rank the
+    uploads list ourselves). The list is kept for 10 minutes so paging through it is instant."""
+    hit = _pop_cache.get(channel_id)
+    if not hit or time.time() - hit[0] > 600:
+        vids = recent_videos(channel_id, 0, POPULAR_POOL)
+        hit = _pop_cache[channel_id] = (time.time(), sorted(vids, key=lambda v: -(v.get("view_count") or 0)))
+    return hit[1][offset: offset + limit]
+
+
 def remove_creator(channel_id: str):
     with _lock:
         _save([c for c in _load() if c["channel_id"] != channel_id])
@@ -196,7 +237,7 @@ def check_all() -> list[str]:
         new = [v for v in vids if v["id"] not in c["seen"]]
         for v in reversed(new):  # oldest first
             jobs.create_job(url=f"https://www.youtube.com/watch?v={v['id']}", upload=None,
-                            opts={**c["options"], "title": v["title"], "creator_id": c["channel_id"]}, source="watcher")
+                            opts={**job_options(c), "title": v["title"], "creator_id": c["channel_id"]}, source="watcher")
             queued.append(v["title"])
         if new:
             with _lock:

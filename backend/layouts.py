@@ -139,36 +139,63 @@ def resolve_region(r: dict, face_x: float, face_y: float = 0.4) -> tuple[dict | 
     return crop, fx
 
 
-def build_filter(layout: dict, W: int, H: int, face_x: float, face_y: float = 0.4) -> str:
-    """Build an ffmpeg filter_complex that ends in the label [base]."""
+def fx_expr(kf: list) -> str:
+    """ffmpeg expression (in t, seconds) for the speaker's horizontal position (0..1) from keyframes [(t, x), ...].
+    Between keyframes the position glides; two keyframes at the same moment make a jump (a camera cut)."""
+    kf = sorted((float(t), min(max(float(x), 0.0), 1.0)) for t, x in kf)[:90]
+    expr = f"{kf[-1][1]:.4f}"
+    for (t0, x0), (t1, x1) in reversed(list(zip(kf, kf[1:]))):
+        if t1 - t0 < 0.01:
+            expr = f"if(lt(t,{t1:.3f}),{x0:.4f},{expr})"
+        else:
+            expr = f"if(lt(t,{t1:.3f}),{x0:.4f}+({x1 - x0:.4f})*(t-{t0:.3f})/{t1 - t0:.3f},{expr})"
+    return f"if(lt(t,{kf[0][0]:.3f}),{kf[0][1]:.4f},{expr})"
+
+
+def build_filter(layout: dict, W: int, H: int, face_x, face_y: float = 0.4, src: str = "0:v", pre: str = "") -> str:
+    """Build an ffmpeg filter_complex that ends in the label [base].
+    face_x is one number (speaker never moves) or a list of (time, x) keyframes (speaker moves / camera cuts)."""
     layout = sanitize(layout)
     regions = layout["regions"]
     n = len(regions)
-    labels = "".join(f"[s{i}]" for i in range(n + 1))
-    parts = [f"[0:v]fps=30,split={n + 1}{labels}"]
+    dyn = isinstance(face_x, (list, tuple))
+    static_x = sorted(x for _, x in face_x)[len(face_x) // 2] if dyn else face_x
+    E = fx_expr(face_x) if dyn else f"{face_x:.4f}"
+    labels = "".join(f"[{pre}s{i}]" for i in range(n + 1))
+    parts = [f"[{src}]fps=30,split={n + 1}{labels}"]
 
-    bg = f"[s{n}]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
-    parts.append(bg + (",boxblur=30:3[bg0]" if layout["background"] == "blur" else ",eq=brightness=-1[bg0]"))
+    bg = f"[{pre}s{n}]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
+    parts.append(bg + (f",boxblur=30:3[{pre}bg0]" if layout["background"] == "blur" else f",eq=brightness=-1[{pre}bg0]"))
 
-    prev = "bg0"
+    prev = f"{pre}bg0"
     for i, r in enumerate(regions):
         rw = max(2, int(r["w"] * W) // 2 * 2)
         rh = max(2, int(r["h"] * H) // 2 * 2)
         rx, ry = int(r["x"] * W), int(r["y"] * H)
-        crop, fx = resolve_region(r, face_x, face_y)
-        chain = f"[s{i}]"
-        if crop:
+        crop, fx = resolve_region(r, static_x, face_y)
+        fxs = f"{fx:.4f}"
+        chain = f"[{pre}s{i}]"
+        auto_zoom = bool(crop) and not r.get("crop") and r.get("follow_face")
+        if crop and dyn and auto_zoom:  # zoomed window that follows the speaker over time
+            cw = crop["w"]
+            x0e = f"min(max(({E})-{cw / 2:.5f},0),{1 - cw:.5f})"
+            chain += (f"crop=w='in_w*{cw:.5f}':h='in_h*{crop['h']:.5f}':"
+                      f"x='in_w*({x0e})':y='in_h*{crop['y']:.5f}',")
+            fxs = f"min(max((({E})-({x0e}))/{cw:.5f},0),1)"
+        elif crop:
             chain += (f"crop=w='in_w*{crop['w']:.5f}':h='in_h*{crop['h']:.5f}':"
                       f"x='in_w*{crop['x']:.5f}':y='in_h*{crop['y']:.5f}',")
+        elif dyn and r.get("follow_face"):
+            fxs = E
         if r["fit"] == "fit":
-            chain += f"scale={rw}:{rh}:force_original_aspect_ratio=decrease[r{i}]"
+            chain += f"scale={rw}:{rh}:force_original_aspect_ratio=decrease[{pre}r{i}]"
             ox, oy = f"{rx}+({rw}-overlay_w)/2", f"{ry}+({rh}-overlay_h)/2"
         else:
             chain += (f"scale={rw}:{rh}:force_original_aspect_ratio=increase,"
-                      f"crop=w={rw}:h={rh}:x='min(max(iw*{fx:.4f}-{rw}/2,0),iw-{rw})':y='(ih-{rh})/2'[r{i}]")
+                      f"crop=w={rw}:h={rh}:x='min(max(iw*({fxs})-{rw}/2,0),iw-{rw})':y='(ih-{rh})/2'[{pre}r{i}]")
             ox, oy = str(rx), str(ry)
         parts.append(chain)
-        parts.append(f"[{prev}][r{i}]overlay=x='{ox}':y='{oy}'[o{i}]")
-        prev = f"o{i}"
-    parts.append(f"[{prev}]null[base]")
+        parts.append(f"[{prev}][{pre}r{i}]overlay=x='{ox}':y='{oy}'[{pre}o{i}]")
+        prev = f"{pre}o{i}"
+    parts.append(f"[{prev}]null[{pre}base]")
     return ";".join(parts)

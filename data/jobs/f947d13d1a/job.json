@@ -1,0 +1,863 @@
+{
+  "id": "f947d13d1a",
+  "created": 1794124433.2571347,
+  "url": "https://www.youtube.com/watch?v=Dp_bpfEvvoQ",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Miles Teller on Tom Cruise Talking About Top Gun 3, MLB All-Star Game in Philly & Paper Tiger",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 82,
+        "value": 85,
+        "shareability": 90,
+        "overall": 87,
+        "hook_text": "I actually had to hang up on Tom Cruise!",
+        "tip": "Start directly with the part about hanging up on Tom Cruise to capture maximum attention immediately.",
+        "caption": "When you have to hang up on Tom Cruise because he talks too much",
+        "description": "Miles Teller reveals what it is like texting Tom Cruise and shares the surprising moment he actually had to hang up on the Hollywood icon. Hear how Tom acts behind the scenes and why he became such a vital mentor to his co-stars. Could you ever bring yourself to hang up the phone on Tom Cruise?",
+        "hashtags": [
+          "milesteller",
+          "tomcruise",
+          "topgun",
+          "hollywood",
+          "stories"
+        ]
+      },
+      "id": "c1",
+      "title": "Miles Teller Reveals What Tom Cruise Is Really Like",
+      "reason": "Miles Teller discusses texting Tom Cruise and admits he once had to hang up on him because he was talking too much.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 2,
+      "progress": 100,
+      "params": {
+        "start": 611.45,
+        "end": 683.1,
+        "layout_id": "stack_two",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I actually had to hang up on Tom Cruise!",
+            "start": 0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ],
+        "layout": {
+          "id": "stack_two",
+          "name": "Two-up",
+          "description": "Left half and right half of the video stacked (podcasts, interviews)",
+          "background": "black",
+          "regions": [
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "w": 1.0,
+              "h": 0.5,
+              "fit": "fill",
+              "crop": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.5,
+                "h": 1.0
+              },
+              "follow_face": false,
+              "zoom": 1.0
+            },
+            {
+              "x": 0.0,
+              "y": 0.5,
+              "w": 1.0,
+              "h": 0.5,
+              "fit": "fill",
+              "crop": {
+                "x": 0.5,
+                "y": 0.0,
+                "w": 0.5,
+                "h": 0.7901234567901234
+              },
+              "follow_face": false,
+              "zoom": 1.0
+            }
+          ]
+        }
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 611.45, 683.1]",
+        "items": [
+          {
+            "t": 8.8,
+            "dur": 1.5,
+            "phrase": "race cars",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1295.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 30.0,
+            "dur": 2.5,
+            "phrase": "reaching the top",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 54.7,
+            "dur": 2.1,
+            "phrase": "hanging up phone",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 61.4,
+            "dur": 1.6,
+            "phrase": "bathroom mirror",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_24881.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 75,
+        "shareability": 82,
+        "overall": 81,
+        "hook_text": "They mistook my dad for Bruce Springsteen!",
+        "tip": "Cut down the conversational setup at the start to get straight to the Jumbotron reveal faster.",
+        "caption": "When a baseball stadium Jumbotron mistakes your dad for Bruce Springsteen",
+        "description": "Miles Teller shares a hilarious story about attending a baseball game where the stadium Jumbotron mistakenly put his father on screen as Bruce Springsteen. Discover how his dad reacted to the mix-up and who Miles actually thinks his father resembles instead. Have you ever seen a celebrity lookalike fail at a major sporting event?",
+        "hashtags": [
+          "milesteller",
+          "brucespringsteen",
+          "mlb",
+          "funny",
+          "talkshow"
+        ]
+      },
+      "id": "c2",
+      "title": "Miles Teller's Dad Confused With Bruce Springsteen",
+      "reason": "Miles Teller shares the hilarious story of how a baseball stadium jumbotron mistakenly identified his father as Bruce Springsteen.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 255.74,
+        "end": 314.49,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "They mistook my dad for Bruce Springsteen!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 255.74, 314.49]",
+        "items": [
+          {
+            "t": 2.0,
+            "dur": 1.5,
+            "phrase": "father and son",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_74518.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 8.0,
+            "dur": 2.5,
+            "phrase": "stadium jumbotron",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 21.0,
+            "dur": 2.1,
+            "phrase": "empty bathroom",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_34471.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 35.0,
+            "dur": 1.6,
+            "phrase": "man smiling",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_171044.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 47.0,
+            "dur": 2.7,
+            "phrase": "elderly man",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_6096.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 75,
+        "value": 70,
+        "shareability": 72,
+        "overall": 74,
+        "hook_text": "I wanted to discipline my child co-star!",
+        "tip": "Tighten the preamble about the Chinese restaurant scene to improve the pacing of the anecdote.",
+        "caption": "Miles Teller wanted to discipline a child actor like his parents used to do",
+        "description": "Miles Teller opens up about the hilarious frustration of working with child actors on set and wanting to discipline them old-school style. Find out why a young co-star's cheeky comeback made him immediately halt filming to check the rules. Would you know how to handle an unruly kid actor on your first day of shooting?",
+        "hashtags": [
+          "milesteller",
+          "acting",
+          "moviestats",
+          "behindthescenes",
+          "comedy"
+        ]
+      },
+      "id": "c3",
+      "title": "Miles Teller Disciplines Child Actor Like His Parents",
+      "reason": "Miles Teller humorously details his frustration trying to parent the child actors on the set of his new movie.",
+      "score": 74,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 534.75,
+        "end": 591.6,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I wanted to discipline my child co-star!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 534.75, 591.6]",
+        "items": [
+          {
+            "t": 8.1,
+            "dur": 1.5,
+            "phrase": "chinese restaurant",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_11610.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 27.3,
+            "dur": 2.5,
+            "phrase": "public bathroom",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 47.0,
+            "dur": 2.1,
+            "phrase": "young boy actor",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_3171.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 3,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 20
+    },
+    "caption": {},
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "stock": {
+      "on": true,
+      "source": "library_first",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794124433.2617402,
+  "finished": 1794124851.0570552,
+  "log": [
+    {
+      "t": 1794124433.2720258,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=Dp_bpfEvvoQ"
+    },
+    {
+      "t": 1794124450.5448697,
+      "level": "ok",
+      "msg": "Downloaded \"Miles Teller on Tom Cruise Talking About Top Gun 3, MLB All-Star Game in Philly & Paper Tiger\" (11:55) in 0:17"
+    },
+    {
+      "t": 1794124450.553163,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794124453.2034283,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794124453.23784,
+      "level": "ok",
+      "msg": "Transcribed 412 segments / 2329 words in 0:02"
+    },
+    {
+      "t": 1794124453.2439094,
+      "level": "info",
+      "msg": "Asking the AI for the 3 best moments (20-60s each)"
+    },
+    {
+      "t": 1794124453.8736396,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794124454.9468818,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794124455.349861,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794124455.3526802,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794124456.8475826,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794124456.854271,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Jimmy Kimmel interviews actor Miles Teller about hosting the MLB All-Star Game in Philadelphia, being a Philly sports fan, getting mistaken for Bruce Springsteen at a World Series game, growing up in Florida around manatees, and his new movie Paper Tiger. | People: Jimmy Kimmel; Miles Telle"
+    },
+    {
+      "t": 1794124458.7357197,
+      "level": "info",
+      "msg": "Audio analysis: 3 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794124458.7404885,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794124459.9502668,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794124460.51713,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794124460.5205607,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794124462.1290393,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794124462.140419,
+      "level": "ok",
+      "msg": "AI picked 3 clips in 0:08"
+    },
+    {
+      "t": 1794124462.1436572,
+      "level": "info",
+      "msg": "  \u2022 Miles Teller's Dad Confused With Bruce Springsteen  [4:15-5:14, score 92]"
+    },
+    {
+      "t": 1794124462.1483424,
+      "level": "info",
+      "msg": "  \u2022 Miles Teller Disciplines Child Actor Like His Parents  [8:54-9:51, score 88]"
+    },
+    {
+      "t": 1794124462.1513913,
+      "level": "info",
+      "msg": "  \u2022 Miles Teller Reveals What Tom Cruise Is Really Like  [10:11-11:23, score 90]"
+    },
+    {
+      "t": 1794124462.157685,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794124462.1632216,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794124463.244328,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794124463.6504629,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794124463.653278,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794124466.428495,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794124466.4338317,
+      "level": "ok",
+      "msg": "Rated 3 clips in 0:04"
+    },
+    {
+      "t": 1794124466.4367518,
+      "level": "info",
+      "msg": "  - Miles Teller's Dad Confused With Bruce Springsteen: 81/100 (hook 85, retention 80, value 75, share 82)"
+    },
+    {
+      "t": 1794124466.4398906,
+      "level": "info",
+      "msg": "  - Miles Teller Disciplines Child Actor Like His Parents: 74/100 (hook 78, retention 75, value 70, share 72)"
+    },
+    {
+      "t": 1794124466.4427817,
+      "level": "info",
+      "msg": "  - Miles Teller Reveals What Tom Cruise Is Really Like: 87/100 (hook 88, retention 82, value 85, share 90)"
+    },
+    {
+      "t": 1794124466.4505265,
+      "level": "ok",
+      "msg": "3 distinct clips found, 3 rated 50+"
+    },
+    {
+      "t": 1794124466.4722977,
+      "level": "info",
+      "msg": "Rendering clip 1/3: Miles Teller Reveals What Tom Cruise Is Really Like"
+    },
+    {
+      "t": 1794124466.4991689,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794124467.5478072,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794124467.9243448,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794124467.92801,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794124468.8367922,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794124468.8405633,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794124470.7863169,
+      "level": "info",
+      "msg": "Cutaway at 8.8s: 'race cars' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124471.712523,
+      "level": "info",
+      "msg": "Cutaway at 30.0s: 'reaching the top' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794124472.6170263,
+      "level": "info",
+      "msg": "Cutaway at 54.7s: 'hanging up phone' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794124475.4425113,
+      "level": "info",
+      "msg": "Cutaway at 61.4s: 'bathroom mirror' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124605.940982,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:19"
+    },
+    {
+      "t": 1794124605.9588091,
+      "level": "info",
+      "msg": "Rendering clip 2/3: Miles Teller's Dad Confused With Bruce Springsteen"
+    },
+    {
+      "t": 1794124605.9820805,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794124607.1027126,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794124607.6839838,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794124607.6876438,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794124608.9180574,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794124608.9246314,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794124610.7739236,
+      "level": "info",
+      "msg": "Cutaway at 2.0s: 'father and son' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124611.6868021,
+      "level": "info",
+      "msg": "Cutaway at 8.0s: 'stadium jumbotron' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794124616.5699246,
+      "level": "info",
+      "msg": "Cutaway at 21.0s: 'empty bathroom' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124619.1706648,
+      "level": "info",
+      "msg": "Cutaway at 35.0s: 'man smiling' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124621.9418397,
+      "level": "info",
+      "msg": "Cutaway at 47.0s: 'elderly man' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124735.7066407,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:09"
+    },
+    {
+      "t": 1794124735.7233262,
+      "level": "info",
+      "msg": "Rendering clip 3/3: Miles Teller Disciplines Child Actor Like His Parents"
+    },
+    {
+      "t": 1794124735.742084,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794124736.8539793,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794124737.4355783,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794124737.439425,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794124738.549266,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794124738.553235,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794124740.7832267,
+      "level": "info",
+      "msg": "Cutaway at 8.1s: 'chinese restaurant' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794124741.753937,
+      "level": "info",
+      "msg": "Cutaway at 27.3s: 'public bathroom' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794124743.7495115,
+      "level": "info",
+      "msg": "Cutaway at 47.0s: 'young boy actor' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794124851.0541065,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:55"
+    },
+    {
+      "t": 1794124851.0620174,
+      "level": "ok",
+      "msg": "All done in 6:24"
+    },
+    {
+      "t": 1794125007.9762619,
+      "level": "info",
+      "msg": "Re-rendering Miles Teller Reveals What Tom Cruise Is Really Like"
+    },
+    {
+      "t": 1794125124.1339233,
+      "level": "ok",
+      "msg": "Miles Teller Reveals What Tom Cruise Is Really Like updated"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 715,
+  "heatmap": [],
+  "video_description": "Miles talks about hosting the MLB All-Star game in Philadelphia, Philly sports fans being ruthless, growing up in Florida, his new movie Paper Tiger being inspired by the director James Gray\u2019s life, getting a taste of what it could be like to have teenagers, and Tom Cruise saying there's going to be a Top Gun 3.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 18 billion views and more than 22 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Jimmy Kimmel interviews actor Miles Teller about hosting the MLB All-Star Game in Philadelphia, being a Philly sports fan, getting mistaken for Bruce Springsteen at a World Series game, growing up in Florida around manatees, and his new movie Paper Tiger.\nPeople: Jimmy Kimmel; Miles Teller; John Middleton; Bruce Springsteen; James Gray\nContext: Jimmy Kimmel Live talk show appearance where Miles Teller promotes his new movie Paper Tiger and discusses various personal anecdotes about sports and his upbringing.\nUnclear: The exact details of how the mistake of confusing Miles Teller's dad with Bruce Springsteen happened on the Jumbotron are briefly glossed over.",
+  "render_index": 3,
+  "render_total": 3
+}

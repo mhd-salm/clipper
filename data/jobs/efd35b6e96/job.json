@@ -1,0 +1,551 @@
+{
+  "id": "efd35b6e96",
+  "created": 1794162067.2605622,
+  "url": "https://www.youtube.com/watch?v=KCZaSSr5m6o",
+  "source": "manual",
+  "creator_id": "UC8-Th83bH_thdKZDJCrn88g",
+  "title": "Caitlin Clark Shoots Cheeseballs into Jimmy's Mouth, Talks Nike Friendship Bracelet Caitlin 1s",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 84,
+        "shareability": 92,
+        "overall": 88,
+        "hook_text": "Nobody has these other than me!",
+        "tip": "Zoom in closer on the shoes immediately when they are pulled out to boost visual retention.",
+        "caption": "Jimmy Fallon gets completely starstruck by Caitlin Clark's unreleased sneakers.",
+        "description": "Caitlin Clark surprises Jimmy Fallon with an exclusive pair of custom friendship bracelet sneakers that nobody else has yet. Watch his hilarious reaction to receiving this incredible collector's item. What is the coolest pair of kicks you own?",
+        "hashtags": [
+          "caitlinclark",
+          "sneakers",
+          "nike",
+          "basketball",
+          "jimmyfallon"
+        ]
+      },
+      "id": "c1",
+      "title": "Caitlin Clark Surprises Jimmy Fallon with Unreleased Nike Shoes",
+      "reason": "The exclusive reveal of the custom friendship bracelet sneakers creates an authentic, exciting, and highly shareable celebrity moment.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 223.26,
+        "end": 240.3,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Nobody has these other than me!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 90,
+        "value": 82,
+        "shareability": 88,
+        "overall": 86,
+        "hook_text": "I cracked my little brother's head open!",
+        "tip": "Start directly with the line about cracking her brother's head open rather than the interviewer's preamble.",
+        "caption": "Caitlin Clark took playground basketball way too seriously as a kid.",
+        "description": "WNBA star Caitlin Clark shares a wild childhood story about getting way too competitive playing indoor Nerf basketball with her brother. Find out how their mom reacted to the brutal accident in this funny clip. Would you let her play in your backyard game?",
+        "hashtags": [
+          "caitlinclark",
+          "wnba",
+          "basketball",
+          "funny",
+          "siblings"
+        ]
+      },
+      "id": "c2",
+      "title": "Caitlin Clark Accidentally Cracked Her Brother's Head Open",
+      "reason": "Caitlin tells a hilarious and shocking childhood story about playing a little too aggressively on a Nerf hoop.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 152.06,
+        "end": 170.29,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I cracked my little brother's head open!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 86,
+        "value": 80,
+        "shareability": 85,
+        "overall": 83,
+        "hook_text": "Can she hit a target with snacks?",
+        "tip": "Cut out the rules explanation to launch straight into the first cheese ball shot.",
+        "caption": "Testing if Caitlin Clark's legendary shooting accuracy works with snack food.",
+        "description": "WNBA player Caitlin Clark faces a hilarious high-stakes challenge to see how many cheese balls she can accurately launch into Jimmy Fallon's mouth. Watch to see if her pro skills translate to junk food targets. How many could you catch?",
+        "hashtags": [
+          "caitlinclark",
+          "wnba",
+          "challenge",
+          "funny",
+          "basketball"
+        ]
+      },
+      "id": "c3",
+      "title": "Caitlin Clark's High-Stakes Cheese Ball Challenge",
+      "reason": "Jimmy sets up a funny and ridiculous game testing Caitlin's legendary shooting accuracy with snack food.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 424.08,
+        "end": 444.23,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Can she hit a target with snacks?",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 15,
+    "max_len": 25,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "duration": 5.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794162067.2657633,
+  "finished": 1794162774.381241,
+  "log": [
+    {
+      "t": 1794162067.2773104,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=KCZaSSr5m6o"
+    },
+    {
+      "t": 1794162084.0378013,
+      "level": "ok",
+      "msg": "Downloaded \"Caitlin Clark Shoots Cheeseballs into Jimmy's Mouth, Talks Nike Friendship Bracelet Caitlin 1s\" (9:14) in 0:16"
+    },
+    {
+      "t": 1794162084.0476763,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794162086.7836068,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794162086.789252,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794162551.9502373,
+      "level": "ok",
+      "msg": "Transcribed 290 segments / 1821 words in 7:47"
+    },
+    {
+      "t": 1794162551.958048,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (15-25s each)"
+    },
+    {
+      "t": 1794162551.967908,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794162553.4105237,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794162559.305963,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794162559.3221812,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: WNBA star Caitlin Clark appears on The Tonight Show Starring Jimmy Fallon to discuss her third-grade dream board, her competitive childhood playing Nerf hoop with her brother, her signature Nike Caitlin 1s shoes, and her new children's book EXTRAordinary! A Little EXTRA to Reach BIG Dreams."
+    },
+    {
+      "t": 1794162560.6152,
+      "level": "info",
+      "msg": "Audio analysis: 2 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794162560.6228454,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794162562.0309732,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794162562.547888,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794162562.5518746,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794162564.6812968,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794162564.706811,
+      "level": "ok",
+      "msg": "AI picked 3 clips in 0:12"
+    },
+    {
+      "t": 1794162564.710583,
+      "level": "info",
+      "msg": "  \u2022 Caitlin Clark Accidentally Cracked Her Brother's Head Open  [2:32-2:50, score 92]"
+    },
+    {
+      "t": 1794162564.715307,
+      "level": "info",
+      "msg": "  \u2022 Caitlin Clark Surprises Jimmy Fallon with Unreleased Nike Shoes  [3:43-4:00, score 95]"
+    },
+    {
+      "t": 1794162564.7195082,
+      "level": "info",
+      "msg": "  \u2022 Caitlin Clark's High-Stakes Cheese Ball Challenge  [7:04-7:24, score 90]"
+    },
+    {
+      "t": 1794162564.7277343,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794162564.7339344,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794162566.1214414,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794162566.5540893,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794162566.5577016,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794162569.1471028,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794162569.1570423,
+      "level": "ok",
+      "msg": "Rated 3 clips in 0:04"
+    },
+    {
+      "t": 1794162569.160899,
+      "level": "info",
+      "msg": "  - Caitlin Clark Accidentally Cracked Her Brother's Head Open: 86/100 (hook 85, retention 90, value 82, share 88)"
+    },
+    {
+      "t": 1794162569.164851,
+      "level": "info",
+      "msg": "  - Caitlin Clark Surprises Jimmy Fallon with Unreleased Nike Shoes: 88/100 (hook 90, retention 85, value 84, share 92)"
+    },
+    {
+      "t": 1794162569.1697085,
+      "level": "info",
+      "msg": "  - Caitlin Clark's High-Stakes Cheese Ball Challenge: 83/100 (hook 82, retention 86, value 80, share 85)"
+    },
+    {
+      "t": 1794162569.1780567,
+      "level": "ok",
+      "msg": "3 distinct clips found, 3 rated 50+"
+    },
+    {
+      "t": 1794162569.205629,
+      "level": "info",
+      "msg": "Rendering clip 1/3: Caitlin Clark Surprises Jimmy Fallon with Unreleased Nike Shoes"
+    },
+    {
+      "t": 1794162632.554053,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:03"
+    },
+    {
+      "t": 1794162632.5700312,
+      "level": "info",
+      "msg": "Rendering clip 2/3: Caitlin Clark Accidentally Cracked Her Brother's Head Open"
+    },
+    {
+      "t": 1794162699.2406373,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:06"
+    },
+    {
+      "t": 1794162699.2570093,
+      "level": "info",
+      "msg": "Rendering clip 3/3: Caitlin Clark's High-Stakes Cheese Ball Challenge"
+    },
+    {
+      "t": 1794162774.3772478,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:15"
+    },
+    {
+      "t": 1794162774.3876383,
+      "level": "ok",
+      "msg": "All done in 3:25"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 554,
+  "heatmap": [],
+  "video_description": "Caitlin Clark talks about achieving her childhood dream of playing in the WNBA and releasing her children's book EXTRAordinary! A Little EXTRA to Reach BIG Dreams before shooting cheeseballs into Jimmy's mouth with precise accuracy.\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nCaitlin Clark Shoots Cheeseballs into Jimmy's Mouth, Talks Nike Friendship Bracelet Caitlin 1s\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight \n#CaitlinClark \n#JimmyFallon",
+  "brief": "Summary: WNBA star Caitlin Clark appears on The Tonight Show Starring Jimmy Fallon to discuss her third-grade dream board, her competitive childhood playing Nerf hoop with her brother, her signature Nike Caitlin 1s shoes, and her new children's book EXTRAordinary! A Little EXTRA to Reach BIG Dreams.\nPeople: Caitlin Clark; Jimmy Fallon; Caitlin Clark's mother; Caitlin Clark's younger brother; Taylor Swift\nContext: An interview segment on The Tonight Show Starring Jimmy Fallon featuring WNBA player Caitlin Clark discussing her childhood dreams, competitive personality, Nike signature shoe line, and newly authored children's book.\nUnclear: The specific names of Caitlin Clark's mother and younger brother are not stated in the transcript.",
+  "render_index": 3,
+  "render_total": 3
+}

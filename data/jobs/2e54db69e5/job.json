@@ -1,0 +1,1727 @@
+{
+  "id": "2e54db69e5",
+  "created": 1794166429.8022048,
+  "url": "https://www.youtube.com/watch?v=PKygRju86oI",
+  "source": "manual",
+  "creator_id": "UC8-Th83bH_thdKZDJCrn88g",
+  "title": "Anne Hathaway Addresses Her Viral Mom-Mode Verity Red Carpet Moment | The Tonight Show",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 84,
+        "value": 82,
+        "shareability": 90,
+        "overall": 86,
+        "hook_text": "This viral red carpet video is horrifying!",
+        "tip": "Insert a brief flash of the actual red carpet photo being discussed for visual context.",
+        "caption": "Anne Hathaway reacts to her viral mom-mode red carpet moment.",
+        "description": "Anne Hathaway cringes and laughs as Jimmy Fallon shows the viral footage of her organizing photographers on the red carpet. Have you ever accidentally gone into total mom mode in public?",
+        "hashtags": [
+          "annehathaway",
+          "redcarpet",
+          "viral",
+          "mommode",
+          "funny"
+        ]
+      },
+      "id": "c1",
+      "title": "Anne Hathaway Reacts To Her Viral Mom-Mode Red Carpet Moment",
+      "reason": "Jimmy Fallon plays the viral footage of Anne Hathaway organizing photographers on the red carpet like a strict mom.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 434.61,
+        "end": 451.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "This viral red carpet video is horrifying!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 434.61, 451.26]",
+        "items": [
+          {
+            "t": 7.3,
+            "dur": 1.5,
+            "phrase": "nightmare scary monster",
+            "said": "stuff of nightmares",
+            "alt": [
+              "creepy horror creature",
+              "dark spooky scene"
+            ],
+            "avoid": [
+              "bright",
+              "comedy",
+              "cute"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_183847.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.5,
+            "dur": 2.5,
+            "phrase": "person giving directions",
+            "said": "organize everyone",
+            "alt": [
+              "group coordinator",
+              "leader speaking"
+            ],
+            "avoid": [
+              "empty",
+              "quiet",
+              "solo"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 85,
+        "value": 80,
+        "shareability": 88,
+        "overall": 84,
+        "hook_text": "Are you actually serious right now?",
+        "tip": "Start the clip right at the reveal of the jersey to maximize immediate emotional payoff.",
+        "caption": "Anne Hathaway gets completely starstruck over an NBA jersey.",
+        "description": "Jimmy Fallon surprises Anne Hathaway with a signed OG Anunoby jersey live on stage, resulting in genuine and hilarious excitement. Watch her priceless reaction to the unexpected gift and tell us your favorite sports crossover moment.",
+        "hashtags": [
+          "annehathaway",
+          "oganunoby",
+          "knicks",
+          "surprisegift",
+          "nba"
+        ]
+      },
+      "id": "c2",
+      "title": "Anne Hathaway Surprised With Signed OG Anunoby Jersey",
+      "reason": "Jimmy Fallon surprises Anne Hathaway with an autographed OG Anunoby jersey right on stage, leading to pure excitement.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 223.89,
+        "end": 239.7,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Are you actually serious right now?",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 223.89, 239.7]",
+        "items": [
+          {
+            "t": 2.6,
+            "dur": 1.5,
+            "phrase": "signing sports jersey",
+            "said": "autographed the jersey for you",
+            "alt": [
+              "autographing shirt",
+              "signing merchandise"
+            ],
+            "avoid": [
+              "laundry",
+              "soccer",
+              "store"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_55545.mp4",
+            "conf": 92,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 6.0,
+            "dur": 2.5,
+            "phrase": "giving gift box",
+            "said": "It's for you. Oh, my",
+            "alt": [
+              "present surprise",
+              "handing package"
+            ],
+            "avoid": [
+              "buying",
+              "shipping",
+              "trash"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_5183.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.6,
+            "dur": 2.1,
+            "phrase": "wearing jacket",
+            "said": "put it... Oh, no",
+            "alt": [
+              "trying on clothes",
+              "putting on garment"
+            ],
+            "avoid": [
+              "folding",
+              "store",
+              "taking"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_269403.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 78,
+        "shareability": 80,
+        "overall": 82,
+        "hook_text": "I thought this thriller was a romcom!",
+        "tip": "Add a quick text overlay defining the book title before she reveals the plot twist.",
+        "caption": "Anne Hathaway thought she was starring in a cute romcom.",
+        "description": "Anne Hathaway shares the hilarious misunderstanding of thinking the thriller adaptation Verity was going to be a fun romantic comedy. Would you read the book after hearing this story? Let us know below.",
+        "hashtags": [
+          "annehathaway",
+          "verity",
+          "colleenhoover",
+          "romcom",
+          "books"
+        ]
+      },
+      "id": "c3",
+      "title": "Anne Hathaway Thought Verity Was A Romantic Comedy",
+      "reason": "Anne Hathaway hilarious shares how she thought starring in a Colleen Hoover project meant doing a fun rom-com instead of a thriller.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 314.81,
+        "end": 338.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I thought this thriller was a romcom!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 314.81, 338.26]",
+        "items": [
+          {
+            "t": 2.8,
+            "dur": 1.5,
+            "phrase": "female romance novelist writing",
+            "said": "I did because it's Colleen Hoover",
+            "alt": [
+              "woman author typing",
+              "writer working"
+            ],
+            "avoid": [
+              "child",
+              "man"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_43459.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 6.8,
+            "dur": 2.5,
+            "phrase": "successful female writer at desk",
+            "said": "successful romance novelist. Yes. And Michael",
+            "alt": [
+              "author working in office",
+              "woman writing"
+            ],
+            "avoid": [
+              "reading",
+              "student"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 10.2,
+            "dur": 2.1,
+            "phrase": "film crew on set",
+            "said": "we work together on The",
+            "alt": [
+              "movie production",
+              "director working"
+            ],
+            "avoid": [
+              "factory",
+              "office"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_31851.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 14.1,
+            "dur": 1.6,
+            "phrase": "film director looking through monitor",
+            "said": "He's so amazing as",
+            "alt": [
+              "director on set",
+              "filmmaker working"
+            ],
+            "avoid": [
+              "actor",
+              "audience"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 18.0,
+            "dur": 2.7,
+            "phrase": "woman reading romance novel",
+            "said": "oh, my gosh, Colleen's written",
+            "alt": [
+              "person reading book",
+              "reading novel"
+            ],
+            "avoid": [
+              "studying",
+              "writing"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_40706.mp4",
+            "conf": 70,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 78,
+        "value": 75,
+        "shareability": 82,
+        "overall": 79,
+        "hook_text": "I got credit for the Knicks win?",
+        "tip": "Zoom in on the newspaper headlines to make them easily readable on mobile screens.",
+        "caption": "Why is Anne Hathaway getting credit for the Knicks winning?",
+        "description": "Anne Hathaway reacts in shock as Jimmy Fallon brings up headlines crediting her for the New York Knicks' historic playoff win. Did you expect a Hollywood star to impact an NBA game? Drop a comment below.",
+        "hashtags": [
+          "annehathaway",
+          "knicks",
+          "nba",
+          "basketball",
+          "jimmyfallon"
+        ]
+      },
+      "id": "c4",
+      "title": "Anne Hathaway Gets Credit For Knicks' Playoff Win",
+      "reason": "Anne Hathaway reacts to headlines and the governor of New York thanking her for the Knicks' historic playoff victory.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 180.76,
+        "end": 196.29,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I got credit for the Knicks win?",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 180.76, 196.29]",
+        "items": [
+          {
+            "t": 3.0,
+            "dur": 1.5,
+            "phrase": "woman smiling close up",
+            "said": "a nobie enjoys Anne Hathaway's effect",
+            "alt": [
+              "happy female portrait",
+              "person smiling"
+            ],
+            "avoid": [
+              "group",
+              "man",
+              "sad"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_243485.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 6.5,
+            "dur": 2.5,
+            "phrase": "basketball game crowd",
+            "said": "win over the Hawks",
+            "alt": [
+              "sports fans cheering",
+              "basketball stadium"
+            ],
+            "avoid": [
+              "concert",
+              "empty",
+              "soccer"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 9.9,
+            "dur": 2.1,
+            "phrase": "reading daily newspaper",
+            "said": "Why Anne Hathaway is getting all",
+            "alt": [
+              "person holding paper",
+              "news reading"
+            ],
+            "avoid": [
+              "digital",
+              "phone",
+              "screen"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_846.mp4",
+            "conf": 92,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 80,
+        "value": 75,
+        "shareability": 77,
+        "overall": 78,
+        "hook_text": "This is the best role ever!",
+        "tip": "Lean into the comedic timing by pausing slightly before her final punchline.",
+        "caption": "The best part of playing a wealthy character in cashmere.",
+        "description": "Anne Hathaway jokes about why lying in bed wearing cashmere socks makes playing a wealthy thriller character the easiest job ever. What is your dream job setup? Tell us in the comments.",
+        "hashtags": [
+          "annehathaway",
+          "verity",
+          "moviemaking",
+          "comedy",
+          "interview"
+        ]
+      },
+      "id": "c5",
+      "title": "Anne Hathaway Jokes About Playing Bedridden Rich Woman",
+      "reason": "Anne Hathaway jokes that lying in bed wearing cashmere socks makes playing a wealthy thriller character the best role ever.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 381.75,
+        "end": 401.16,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "This is the best role ever!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 381.75, 401.16]",
+        "items": [
+          {
+            "t": 2.3,
+            "dur": 1.5,
+            "phrase": "person lying in bed",
+            "said": "probably like lie and just be like",
+            "alt": [
+              "sleeping in bed",
+              "person resting"
+            ],
+            "avoid": [
+              "dishonest"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_729.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 5.4,
+            "dur": 2.5,
+            "phrase": "person digging with shovel",
+            "said": "dig very, very deep",
+            "alt": [
+              "shovel in dirt",
+              "gardening tool"
+            ],
+            "avoid": [
+              "metaphor",
+              "thought"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_286628.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 12.1,
+            "dur": 2.1,
+            "phrase": "luxury cashmere socks",
+            "said": "expensive nightgowns and cashmere socks",
+            "alt": [
+              "soft wool socks",
+              "winter socks"
+            ],
+            "avoid": [
+              "feet",
+              "shoe"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 70,
+        "value": 72,
+        "shareability": 68,
+        "overall": 72,
+        "hook_text": "Pregnancy lets you smell time!",
+        "tip": "Cut the rambling setup at the end and end directly on the punchline about smelling the 1980s.",
+        "caption": "Anne Hathaway explains the wild superpower of pregnancy smell.",
+        "description": "Anne Hathaway reveals the bizarre sensory experience of pregnancy, claiming it actually lets you smell all the way back to the 1980s. Find out what a press tour is like with this wild superpower and share your thoughts in the comments.",
+        "hashtags": [
+          "annehathaway",
+          "pregnancy",
+          "talkshow",
+          "funny",
+          "celebrity"
+        ]
+      },
+      "id": "c6",
+      "title": "Anne Hathaway Explains What Pregnancy Smell Actually Is",
+      "reason": "Anne Hathaway describes how pregnancy gives you the superpower to smell time and go all the way back to the 1980s.",
+      "score": 72,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 107.42,
+        "end": 122.21,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Pregnancy lets you smell time!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 107.42, 122.21]",
+        "items": [
+          {
+            "t": 2.8,
+            "dur": 1.5,
+            "phrase": "clock ticking time",
+            "said": "you smell time. So you don't just smell this",
+            "alt": [
+              "vintage watch",
+              "time passing"
+            ],
+            "avoid": [
+              "alarm",
+              "digital"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_151868.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 11.1,
+            "dur": 2.5,
+            "phrase": "eighties retro style",
+            "said": "to the 80s. Oh, wow. You went back in",
+            "alt": [
+              "vintage 1980s",
+              "retro aesthetic"
+            ],
+            "avoid": [
+              "future",
+              "modern"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_48044.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 15,
+    "max_len": 25,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "duration": 5.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794166429.8092206,
+  "finished": 1794167844.4822757,
+  "log": [
+    {
+      "t": 1794166429.819352,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=PKygRju86oI"
+    },
+    {
+      "t": 1794166450.3241825,
+      "level": "ok",
+      "msg": "Downloaded \"Anne Hathaway Addresses Her Viral Mom-Mode Verity Red Carpet Moment | The Tonight Show\" (10:36) in 0:20"
+    },
+    {
+      "t": 1794166450.3366375,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794166453.2054925,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794166453.2112484,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794167155.4292939,
+      "level": "ok",
+      "msg": "Transcribed 360 segments / 1901 words in 11:45"
+    },
+    {
+      "t": 1794167155.439394,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (15-25s each)"
+    },
+    {
+      "t": 1794167156.8423433,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167158.6581955,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167165.9304466,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794167165.9486983,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Anne Hathaway joins host Jimmy Fallon on The Tonight Show to discuss her pregnancy during press tours, her reaction to being credited for the New York Knicks' playoff success, receiving a signed OG Anunoby jersey, and her role in the upcoming thriller film Verity. | People: Anne Hathaway; J"
+    },
+    {
+      "t": 1794167168.0836275,
+      "level": "info",
+      "msg": "Audio analysis: 3 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794167168.0972328,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167170.0781734,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167170.6001663,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167170.6058419,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167173.800854,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167173.8634348,
+      "level": "ok",
+      "msg": "AI picked 6 clips in 0:18"
+    },
+    {
+      "t": 1794167173.8674436,
+      "level": "info",
+      "msg": "  \u2022 Anne Hathaway Explains What Pregnancy Smell Actually Is  [1:47-2:02, score 90]"
+    },
+    {
+      "t": 1794167173.8774104,
+      "level": "info",
+      "msg": "  \u2022 Anne Hathaway Gets Credit For Knicks' Playoff Win  [3:00-3:16, score 85]"
+    },
+    {
+      "t": 1794167173.8816113,
+      "level": "info",
+      "msg": "  \u2022 Anne Hathaway Surprised With Signed OG Anunoby Jersey  [3:43-3:59, score 92]"
+    },
+    {
+      "t": 1794167173.8859763,
+      "level": "info",
+      "msg": "  \u2022 Anne Hathaway Thought Verity Was A Romantic Comedy  [5:14-5:38, score 94]"
+    },
+    {
+      "t": 1794167173.8985586,
+      "level": "info",
+      "msg": "  \u2022 Anne Hathaway Jokes About Playing Bedridden Rich Woman  [6:21-6:41, score 88]"
+    },
+    {
+      "t": 1794167173.9035766,
+      "level": "info",
+      "msg": "  \u2022 Anne Hathaway Reacts To Her Viral Mom-Mode Red Carpet Moment  [7:14-7:31, score 96]"
+    },
+    {
+      "t": 1794167173.912961,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794167173.9193575,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167175.888954,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167176.702901,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167176.7119453,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167180.6272748,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167180.6569297,
+      "level": "ok",
+      "msg": "Rated 6 clips in 0:06"
+    },
+    {
+      "t": 1794167180.6651876,
+      "level": "info",
+      "msg": "  - Anne Hathaway Explains What Pregnancy Smell Actually Is: 72/100 (hook 75, retention 70, value 72, share 68)"
+    },
+    {
+      "t": 1794167180.6690016,
+      "level": "info",
+      "msg": "  - Anne Hathaway Gets Credit For Knicks' Playoff Win: 79/100 (hook 80, retention 78, value 75, share 82)"
+    },
+    {
+      "t": 1794167180.6768603,
+      "level": "info",
+      "msg": "  - Anne Hathaway Surprised With Signed OG Anunoby Jersey: 84/100 (hook 82, retention 85, value 80, share 88)"
+    },
+    {
+      "t": 1794167180.6811278,
+      "level": "info",
+      "msg": "  - Anne Hathaway Thought Verity Was A Romantic Comedy: 82/100 (hook 85, retention 82, value 78, share 80)"
+    },
+    {
+      "t": 1794167180.6849625,
+      "level": "info",
+      "msg": "  - Anne Hathaway Jokes About Playing Bedridden Rich Woman: 78/100 (hook 78, retention 80, value 75, share 77)"
+    },
+    {
+      "t": 1794167180.6928616,
+      "level": "info",
+      "msg": "  - Anne Hathaway Reacts To Her Viral Mom-Mode Red Carpet Moment: 86/100 (hook 88, retention 84, value 82, share 90)"
+    },
+    {
+      "t": 1794167180.7029364,
+      "level": "ok",
+      "msg": "6 distinct clips found, 6 rated 50+"
+    },
+    {
+      "t": 1794167180.7465656,
+      "level": "info",
+      "msg": "Rendering clip 1/6: Anne Hathaway Reacts To Her Viral Mom-Mode Red Carpet Moment"
+    },
+    {
+      "t": 1794167180.778117,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167182.497806,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167183.0926895,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167183.098046,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167184.9602923,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167184.971799,
+      "level": "info",
+      "msg": "Stock cutaways: 2 moment(s) chosen"
+    },
+    {
+      "t": 1794167191.382454,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167192.9774811,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167193.4300835,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167193.4348962,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167194.3344004,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167194.4674346,
+      "level": "info",
+      "msg": "Stock picking: 2 unclear moment(s) sent for one extra AI check, 0 decided by the tag score"
+    },
+    {
+      "t": 1794167197.713456,
+      "level": "info",
+      "msg": "Cutaway at 7.3s: 'nightmare scary monster' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794167197.7182853,
+      "level": "info",
+      "msg": "Cutaway at 10.5s: 'person giving directions' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794167197.7249959,
+      "level": "info",
+      "msg": "Cutaway at 10.5s: 'person giving directions' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794167286.2402482,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:45"
+    },
+    {
+      "t": 1794167286.2596352,
+      "level": "info",
+      "msg": "Rendering clip 2/6: Anne Hathaway Surprised With Signed OG Anunoby Jersey"
+    },
+    {
+      "t": 1794167286.2841682,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167287.8999581,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167288.5632236,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167288.5696316,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167289.9936297,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167290.0052655,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794167296.3098006,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167298.1967125,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167298.728663,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167298.7336624,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167299.638562,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167299.6539695,
+      "level": "info",
+      "msg": "Stock picking: 1 unclear moment(s) sent for one extra AI check, 2 decided by the tag score"
+    },
+    {
+      "t": 1794167302.2771463,
+      "level": "info",
+      "msg": "Cutaway at 2.6s: 'signing sports jersey' -> pixabay (92% match)"
+    },
+    {
+      "t": 1794167304.7982912,
+      "level": "info",
+      "msg": "Cutaway at 6.0s: 'giving gift box' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794167306.2638013,
+      "level": "info",
+      "msg": "Cutaway at 10.6s: 'wearing jacket' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794167389.1357675,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:42"
+    },
+    {
+      "t": 1794167389.1562667,
+      "level": "info",
+      "msg": "Rendering clip 3/6: Anne Hathaway Thought Verity Was A Romantic Comedy"
+    },
+    {
+      "t": 1794167389.1837656,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167390.843642,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167391.3698263,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167391.379992,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167392.93141,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167392.9493854,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794167407.3814087,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167409.5533395,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167410.1132836,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167410.1191795,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167411.4394882,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167411.4510305,
+      "level": "info",
+      "msg": "Stock picking: 5 unclear moment(s) sent for one extra AI check, 0 decided by the tag score"
+    },
+    {
+      "t": 1794167412.996566,
+      "level": "info",
+      "msg": "Cutaway at 2.8s: 'female romance novelist writing' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794167413.0022883,
+      "level": "info",
+      "msg": "Cutaway at 6.8s: 'successful female writer at desk' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794167413.0082798,
+      "level": "info",
+      "msg": "Cutaway at 6.8s: 'successful female writer at desk' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794167413.0232713,
+      "level": "info",
+      "msg": "Cutaway at 10.2s: 'film crew on set' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794167413.030582,
+      "level": "info",
+      "msg": "Cutaway at 14.1s: 'film director looking through monitor' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794167413.037375,
+      "level": "info",
+      "msg": "Cutaway at 14.1s: 'film director looking through monitor' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794167415.7606733,
+      "level": "info",
+      "msg": "Cutaway at 18.0s: 'woman reading romance novel' -> pixabay (70% match)"
+    },
+    {
+      "t": 1794167537.0038717,
+      "level": "ok",
+      "msg": "Clip 3 ready in 2:27"
+    },
+    {
+      "t": 1794167537.031168,
+      "level": "info",
+      "msg": "Rendering clip 4/6: Anne Hathaway Gets Credit For Knicks' Playoff Win"
+    },
+    {
+      "t": 1794167537.057128,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167539.0899832,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167539.67707,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167539.684343,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167541.0832582,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167541.0978534,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794167547.5356607,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167549.2444055,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167549.8920488,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167549.8985338,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167550.7077553,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167550.7249575,
+      "level": "info",
+      "msg": "Stock picking: 2 unclear moment(s) sent for one extra AI check, 1 decided by the tag score"
+    },
+    {
+      "t": 1794167552.4527812,
+      "level": "info",
+      "msg": "Cutaway at 3.0s: 'woman smiling close up' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794167552.458648,
+      "level": "info",
+      "msg": "Cutaway at 6.5s: 'basketball game crowd' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794167552.4686193,
+      "level": "info",
+      "msg": "Cutaway at 6.5s: 'basketball game crowd' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794167554.3202615,
+      "level": "info",
+      "msg": "Cutaway at 9.9s: 'reading daily newspaper' -> pixabay (92% match)"
+    },
+    {
+      "t": 1794167637.059971,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:40"
+    },
+    {
+      "t": 1794167637.0869098,
+      "level": "info",
+      "msg": "Rendering clip 5/6: Anne Hathaway Jokes About Playing Bedridden Rich Woman"
+    },
+    {
+      "t": 1794167637.1336026,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167638.87834,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167639.4013906,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167639.4130883,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167641.1066148,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167641.124303,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794167649.5753915,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167652.638783,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167653.0239275,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167653.029646,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167653.859638,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167653.8745737,
+      "level": "info",
+      "msg": "Stock picking: 2 unclear moment(s) sent for one extra AI check, 1 decided by the tag score"
+    },
+    {
+      "t": 1794167655.254293,
+      "level": "info",
+      "msg": "Cutaway at 2.3s: 'person lying in bed' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794167657.928458,
+      "level": "info",
+      "msg": "Cutaway at 5.4s: 'person digging with shovel' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794167657.9351184,
+      "level": "info",
+      "msg": "Cutaway at 12.1s: 'luxury cashmere socks' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794167657.944554,
+      "level": "info",
+      "msg": "Cutaway at 12.1s: 'luxury cashmere socks' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794167755.1720963,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:58"
+    },
+    {
+      "t": 1794167755.1962395,
+      "level": "info",
+      "msg": "Rendering clip 6/6: Anne Hathaway Explains What Pregnancy Smell Actually Is"
+    },
+    {
+      "t": 1794167755.2313116,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167757.0195863,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167757.665749,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167757.692947,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167759.0008874,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167759.0166614,
+      "level": "info",
+      "msg": "Stock cutaways: 2 moment(s) chosen"
+    },
+    {
+      "t": 1794167761.567803,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794167763.2670224,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794167763.8192296,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794167763.8298092,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794167764.9319534,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794167764.94974,
+      "level": "info",
+      "msg": "Stock picking: 2 unclear moment(s) sent for one extra AI check, 0 decided by the tag score"
+    },
+    {
+      "t": 1794167767.0764532,
+      "level": "info",
+      "msg": "Cutaway at 2.8s: 'clock ticking time' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794167769.6500423,
+      "level": "info",
+      "msg": "Cutaway at 11.1s: 'eighties retro style' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794167844.4777164,
+      "level": "ok",
+      "msg": "Clip 6 ready in 1:29"
+    },
+    {
+      "t": 1794167844.4926765,
+      "level": "ok",
+      "msg": "All done in 11:03"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 636,
+  "heatmap": [],
+  "video_description": "Anne Hathaway talks about finding out she was pregnant right before The Devil Wears Prada 2's press tour kicked off, how she reacted to getting credit for the Knicks' NBA playoffs win and why she thought Verity was a romantic comedy.\n\n0:00 - Intro\n0:12 - Anne Hathaway Found Out She Was Pregnant Before the Devils Wear Prada 2 Press Tour\n2:48 - Anne Hathaway on Getting Credit for the Knicks\u2019 Playoffs Win\n3:41 - Anne Hathaway Gets Surprised With a Signed OG Anunoby Jersey\n4:46 - Anne Hathaway on Her Reaction to Verity \n5:51 - Anne Hathaway Talks Filming Verity \n7:06 - Anne Hathaway Addresses Her Viral Mom-Mode Verity Red Carpet Moment\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nAnne Hathaway Addresses Her Viral Mom-Mode Verity Red Carpet Moment | The Tonight Show\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight \n#AnneHathaway\n#JimmyFallon",
+  "brief": "Summary: Anne Hathaway joins host Jimmy Fallon on The Tonight Show to discuss her pregnancy during press tours, her reaction to being credited for the New York Knicks' playoff success, receiving a signed OG Anunoby jersey, and her role in the upcoming thriller film Verity.\nPeople: Anne Hathaway; Jimmy Fallon; OG Anunoby; Colleen Hoover; Michael Showalter; Dakota Johnson\nContext: A guest interview on The Tonight Show Starring Jimmy Fallon where actress Anne Hathaway talks about her pregnancy experiences, her fandom and viral involvement with the New York Knicks, and working on the film adaptation of Colleen Hoover's book Verity.\nUnclear: The full story regarding her viral 'mom-mode' red carpet moment mentioned in the video title is cut off at the end of the transcript.",
+  "render_index": 6,
+  "render_total": 6
+}

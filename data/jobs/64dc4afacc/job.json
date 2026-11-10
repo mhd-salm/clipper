@@ -1,0 +1,678 @@
+{
+  "id": "64dc4afacc",
+  "created": 1794202586.5696006,
+  "url": "https://www.youtube.com/watch?v=r07P9Fa9Xo4",
+  "source": "manual",
+  "creator_id": "UC8-Th83bH_thdKZDJCrn88g",
+  "title": "True Confessions with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 88,
+        "shareability": 92,
+        "overall": 89,
+        "hook_text": "I fell into a giant shark tank!",
+        "tip": "Keep the chaotic back-and-forth about her brother being in a scuba tank front and center, as it drives high engagement.",
+        "caption": "Ariana Grande claims she fell into a giant shark tank!",
+        "description": "Ariana Grande delivers a wildly chaotic and hilarious story about tumbling into a massive fish tank while visiting the aquarium as a child. Watch the panel completely interrogate her bizarre details about scuba-diving family members. Do you believe her story?",
+        "hashtags": [
+          "arianagrande",
+          "funny",
+          "storytime",
+          "aquarium",
+          "fail"
+        ]
+      },
+      "id": "c1",
+      "title": "Ariana Grande Claims She Fell Into an Aquarium",
+      "reason": "Ariana Grande delivers a wildly entertaining and chaotic story about falling into a giant shark tank at the Boca Aquarium as a child.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 362.66,
+        "end": 434.38,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I fell into a giant shark tank!",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 78,
+        "value": 82,
+        "shareability": 80,
+        "overall": 82,
+        "hook_text": "Robert De Niro tried to copyright a sandwich!",
+        "tip": "Cut out the awkward conversational filler at the start to jump straight into the copyright claim.",
+        "caption": "Robert De Niro tried to copyright his own Italian sub sandwich!",
+        "description": "Robert De Niro shares a hilarious Hollywood memory about trying to copyright a local Italian sub named after him. Watch as he explains the delicious details of the sandwich and his unexpected business move. Would you try a De Niro hero?",
+        "hashtags": [
+          "robertdeniro",
+          "funny",
+          "hollywood",
+          "sandwich",
+          "throwback"
+        ]
+      },
+      "id": "c2",
+      "title": "Robert De Niro Tried to Copyright His Sandwich",
+      "reason": "Robert De Niro shares a hilarious and specific Hollywood story about trying to copyright an Italian sub named after him.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 67.44,
+        "end": 134.59,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Robert De Niro tried to copyright a sandwich!",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 77,
+        "shareability": 78,
+        "overall": 78,
+        "hook_text": "Penny Marshall tried to pop my zit!",
+        "tip": "Trim the repetitive banter about Ben Stiller's skin to keep the pacing snappy.",
+        "caption": "Penny Marshall randomly tried to pop Ben Stiller's zit!",
+        "description": "Ben Stiller reveals a bizarre behind-the-scenes encounter when Penny Marshall suddenly tried to pop a blemish on his face. Listen to the surreal story and the panel's hilarious reaction to his great skin. Have you ever had a weird celebrity encounter?",
+        "hashtags": [
+          "benstiller",
+          "pennymarshall",
+          "storytime",
+          "funny",
+          "celebrity"
+        ]
+      },
+      "id": "c3",
+      "title": "Penny Marshall Tried to Pop Ben Stiller's Zit",
+      "reason": "Ben Stiller tells a bizarre and funny story about Penny Marshall and Ellen Barkin attempting to pop a blemish on his face.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 191.15,
+        "end": 232.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Penny Marshall tried to pop my zit!",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 74,
+        "value": 75,
+        "shareability": 72,
+        "overall": 75,
+        "hook_text": "I watched Foreigner record their biggest hit!",
+        "tip": "Shorten the rambling discussion about the exact year to get faster to the core story about the band.",
+        "caption": "Ben Stiller was in the room when Foreigner recorded their hit!",
+        "description": "Ben Stiller reminisces about working as a young production assistant and witnessing rock history while the band Foreigner recorded legendary vocals. Discover how he landed in the right place at the right time. What is the coolest job you have ever had?",
+        "hashtags": [
+          "benstiller",
+          "foreigner",
+          "music",
+          "throwback",
+          "rockhistory"
+        ]
+      },
+      "id": "c4",
+      "title": "Ben Stiller Watched Foreigner Record Their Hit Song",
+      "reason": "Ben Stiller reminisces about working as a PA and being in the room when Foreigner recorded their legendary vocals.",
+      "score": 75,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 570.88,
+        "end": 644.65,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I watched Foreigner record their biggest hit!",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794202586.5753076,
+  "finished": 1794204285.2427604,
+  "log": [
+    {
+      "t": 1794202586.5897439,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=r07P9Fa9Xo4"
+    },
+    {
+      "t": 1794202607.972084,
+      "level": "ok",
+      "msg": "Downloaded \"True Confessions with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show\" (12:39) in 0:21"
+    },
+    {
+      "t": 1794202607.9826484,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794202610.867876,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794202610.8735154,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794203430.3880074,
+      "level": "ok",
+      "msg": "Transcribed 373 segments / 1895 words in 13:42"
+    },
+    {
+      "t": 1794203430.3950958,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794203430.403071,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794203431.6575627,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794203432.1360686,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794203432.139645,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794203433.7953463,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794203433.8083925,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Jimmy Fallon, Robert De Niro, Ben Stiller, and Ariana Grande play a game of True Confessions where they share personal facts and interrogate each other to determine if they are telling the truth or lying. | People: Jimmy Fallon; Robert De Niro; Ben Stiller; Ariana Grande | Context: The segm"
+    },
+    {
+      "t": 1794203435.3263266,
+      "level": "info",
+      "msg": "Audio analysis: 3 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794203435.3337233,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794203436.4394617,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794203436.9048452,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794203436.9083543,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794203439.18045,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794203439.2099614,
+      "level": "ok",
+      "msg": "AI picked 4 clips in 0:08"
+    },
+    {
+      "t": 1794203439.2138495,
+      "level": "info",
+      "msg": "  \u2022 Robert De Niro Tried to Copyright His Sandwich  [1:07-2:14, score 90]"
+    },
+    {
+      "t": 1794203439.217805,
+      "level": "info",
+      "msg": "  \u2022 Penny Marshall Tried to Pop Ben Stiller's Zit  [3:11-3:52, score 88]"
+    },
+    {
+      "t": 1794203439.2217205,
+      "level": "info",
+      "msg": "  \u2022 Ariana Grande Claims She Fell Into an Aquarium  [6:02-7:14, score 95]"
+    },
+    {
+      "t": 1794203439.2255824,
+      "level": "info",
+      "msg": "  \u2022 Ben Stiller Watched Foreigner Record Their Hit Song  [9:30-10:44, score 85]"
+    },
+    {
+      "t": 1794203439.233057,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794203439.2387536,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794203440.5356266,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794203440.9438603,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794203440.9479148,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794203444.9735959,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794203444.9844608,
+      "level": "ok",
+      "msg": "Rated 4 clips in 0:05"
+    },
+    {
+      "t": 1794203444.9886246,
+      "level": "info",
+      "msg": "  - Robert De Niro Tried to Copyright His Sandwich: 82/100 (hook 85, retention 78, value 82, share 80)"
+    },
+    {
+      "t": 1794203444.9923916,
+      "level": "info",
+      "msg": "  - Penny Marshall Tried to Pop Ben Stiller's Zit: 78/100 (hook 80, retention 75, value 77, share 78)"
+    },
+    {
+      "t": 1794203444.996218,
+      "level": "info",
+      "msg": "  - Ariana Grande Claims She Fell Into an Aquarium: 89/100 (hook 90, retention 85, value 88, share 92)"
+    },
+    {
+      "t": 1794203445.0000474,
+      "level": "info",
+      "msg": "  - Ben Stiller Watched Foreigner Record Their Hit Song: 75/100 (hook 78, retention 74, value 75, share 72)"
+    },
+    {
+      "t": 1794203445.009286,
+      "level": "ok",
+      "msg": "4 distinct clips found, 4 rated 50+"
+    },
+    {
+      "t": 1794203445.0370564,
+      "level": "info",
+      "msg": "Rendering clip 1/4: Ariana Grande Claims She Fell Into an Aquarium"
+    },
+    {
+      "t": 1794203745.8431137,
+      "level": "ok",
+      "msg": "Clip 1 ready in 5:00"
+    },
+    {
+      "t": 1794203745.8594828,
+      "level": "info",
+      "msg": "Rendering clip 2/4: Robert De Niro Tried to Copyright His Sandwich"
+    },
+    {
+      "t": 1794204031.4448378,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:45"
+    },
+    {
+      "t": 1794204031.4608967,
+      "level": "info",
+      "msg": "Rendering clip 3/4: Penny Marshall Tried to Pop Ben Stiller's Zit"
+    },
+    {
+      "t": 1794204115.1585217,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:23"
+    },
+    {
+      "t": 1794204115.1735723,
+      "level": "info",
+      "msg": "Rendering clip 4/4: Ben Stiller Watched Foreigner Record Their Hit Song"
+    },
+    {
+      "t": 1794204285.2388124,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:50"
+    },
+    {
+      "t": 1794204285.248891,
+      "level": "ok",
+      "msg": "All done in 14:00"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 759,
+  "heatmap": [],
+  "video_description": "Robert De Niro, Ben Stiller, Ariana Grande and Jimmy play a game where they take turns confessing a random fact before interrogating each other to determine who was telling the truth.\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nTrue Confessions with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight \n#RobertDeNiro\n#BenStiller\n#ArianaGrande\n#JimmyFallon",
+  "brief": "Summary: Jimmy Fallon, Robert De Niro, Ben Stiller, and Ariana Grande play a game of True Confessions where they share personal facts and interrogate each other to determine if they are telling the truth or lying.\nPeople: Jimmy Fallon; Robert De Niro; Ben Stiller; Ariana Grande\nContext: The segment takes place on The Tonight Show Starring Jimmy Fallon, featuring celebrity guests promoting a project.\nUnclear: It is unclear whether Ariana Grande's story about falling into a giant fish tank at the Boca Aquarium was true or a lie because the transcript cuts off before the final reveal.",
+  "render_index": 4,
+  "render_total": 4
+}

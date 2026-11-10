@@ -1,0 +1,647 @@
+{
+  "id": "568a0e9af2",
+  "created": 1794127562.1765032,
+  "url": "https://www.youtube.com/watch?v=rd2qzmINQCU",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Sam Nivola on Loving the Movie Swingers, Finding Out About White Lotus Storyline & New Show Phony",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 78,
+        "shareability": 74,
+        "overall": 77,
+        "hook_text": "I read the wild script on a plane!",
+        "tip": "Start directly with the moment he found out about the twist on the plane instead of correcting the host's premise.",
+        "caption": "Finding out about your wild TV storyline on a plane is wild.",
+        "description": "Sam Nivola explains the shocking moment he discovered his bizarre storyline on The White Lotus while reading the script on a flight. He discusses why he trusted the writer despite the extreme plot twist. Would you stay in a project after reading a wild script on a plane?",
+        "hashtags": [
+          "samnivola",
+          "thewhitelotus",
+          "bts",
+          "hbo",
+          "tvshows"
+        ]
+      },
+      "id": "c1",
+      "title": "Sam Nivola Found Out About The White Lotus on a Plane",
+      "reason": "Sam shares the shocking moment he discovered his bizarre storyline on The White Lotus right before shooting.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 232.7,
+        "end": 282.75,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I read the wild script on a plane!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 232.7, 282.75]",
+        "items": [
+          {
+            "t": 2.1,
+            "dur": 1.5,
+            "phrase": "television screen",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_154511.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 9.0,
+            "dur": 2.5,
+            "phrase": "family brother",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_112365.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 17.7,
+            "dur": 2.1,
+            "phrase": "couple romance",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_245932.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 24.3,
+            "dur": 1.6,
+            "phrase": "airplane window",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_995.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 36.8,
+            "dur": 2.7,
+            "phrase": "genius writer",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 42.8,
+            "dur": 2.2,
+            "phrase": "dramatic story",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_384495.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 70,
+        "value": 72,
+        "shareability": 78,
+        "overall": 74,
+        "hook_text": "I watch this movie every two weeks!",
+        "tip": "Cut down the repeated swearing at the beginning to keep the pacing snappy right out of the gate.",
+        "caption": "Watching Swingers every two weeks is a serious dedication level.",
+        "description": "Sam Nivola admits to watching the movie Swingers every two weeks and reveals his desperate desire to meet the creators. This hilarious obsession leads to a surprising live text exchange on stage. What is your absolute favorite comfort movie to rewatch on repeat?",
+        "hashtags": [
+          "samnivola",
+          "swingers",
+          "movies",
+          "interview",
+          "comedy"
+        ]
+      },
+      "id": "c2",
+      "title": "Sam Nivola's Extreme Swingers Obsession",
+      "reason": "Sam reveals he watches the movie Swingers every two weeks and acts out hilarious scenarios trying to meet the creators.",
+      "score": 74,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 146.22,
+        "end": 185.87,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I watch this movie every two weeks!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 146.22, 185.87]",
+        "items": [
+          {
+            "t": 2.3,
+            "dur": 1.5,
+            "phrase": "wall clock",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_55443.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.3,
+            "dur": 2.5,
+            "phrase": "sitting on floor",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 27.2,
+            "dur": 2.1,
+            "phrase": "kitchen appliances",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1631.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 33.6,
+            "dur": 1.6,
+            "phrase": "barbecue grill",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_152830.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 3,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 20
+    },
+    "caption": {},
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "library_first",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794127562.1803052,
+  "finished": 1794128007.9615371,
+  "log": [
+    {
+      "t": 1794127562.191447,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=rd2qzmINQCU"
+    },
+    {
+      "t": 1794127580.1243765,
+      "level": "ok",
+      "msg": "Downloaded \"Sam Nivola on Loving the Movie Swingers, Finding Out About White Lotus Storyline & New Show Phony\" (7:50) in 0:17"
+    },
+    {
+      "t": 1794127580.131554,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794127582.4770207,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794127582.5026495,
+      "level": "ok",
+      "msg": "Transcribed 259 segments / 1608 words in 0:02"
+    },
+    {
+      "t": 1794127582.5087826,
+      "level": "info",
+      "msg": "Asking the AI for the 3 best moments (20-60s each)"
+    },
+    {
+      "t": 1794127583.1487167,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794127584.83784,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794127586.1985857,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794127586.212551,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794127594.5477486,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794127594.5559185,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Sam Nivola discusses his new show Phony, his obsession with the movie Swingers, finding out about the shocking storyline in The White Lotus, and a behind-the-scenes mishap on set. | People: Jimmy Kimmel; Sam Nivola; Jon Favreau | Context: An interview segment on Jimmy Kimmel Live featuring "
+    },
+    {
+      "t": 1794127595.598177,
+      "level": "info",
+      "msg": "Audio analysis: 1 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794127595.6062188,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794127596.6424043,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794127601.5574546,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794127601.560659,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794127603.2323673,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794127603.2432926,
+      "level": "ok",
+      "msg": "AI picked 2 clips in 0:20"
+    },
+    {
+      "t": 1794127603.2463813,
+      "level": "info",
+      "msg": "  \u2022 Sam Nivola's Extreme Swingers Obsession  [2:26-3:05, score 92]"
+    },
+    {
+      "t": 1794127603.2499573,
+      "level": "info",
+      "msg": "  \u2022 Sam Nivola Found Out About The White Lotus on a Plane  [3:52-4:42, score 90]"
+    },
+    {
+      "t": 1794127603.2582078,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794127603.2628276,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794127604.389781,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794127606.040909,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794127606.0439556,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794127608.622178,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794127608.6262376,
+      "level": "ok",
+      "msg": "Rated 2 clips in 0:05"
+    },
+    {
+      "t": 1794127608.6295764,
+      "level": "info",
+      "msg": "  - Sam Nivola's Extreme Swingers Obsession: 74/100 (hook 75, retention 70, value 72, share 78)"
+    },
+    {
+      "t": 1794127608.6336458,
+      "level": "info",
+      "msg": "  - Sam Nivola Found Out About The White Lotus on a Plane: 77/100 (hook 80, retention 75, value 78, share 74)"
+    },
+    {
+      "t": 1794127608.6413357,
+      "level": "ok",
+      "msg": "2 distinct clips found, 2 rated 50+"
+    },
+    {
+      "t": 1794127608.6622224,
+      "level": "info",
+      "msg": "Rendering clip 1/2: Sam Nivola Found Out About The White Lotus on a Plane"
+    },
+    {
+      "t": 1794127608.677456,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794127609.6771712,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794127613.7164893,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794127613.7205877,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794127625.1969388,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794127625.2017653,
+      "level": "info",
+      "msg": "Stock cutaways: 6 moment(s) chosen"
+    },
+    {
+      "t": 1794127628.5133321,
+      "level": "info",
+      "msg": "Cutaway at 2.1s: 'television screen' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127630.342343,
+      "level": "info",
+      "msg": "Cutaway at 9.0s: 'family brother' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127633.048147,
+      "level": "info",
+      "msg": "Cutaway at 17.7s: 'couple romance' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127634.992576,
+      "level": "info",
+      "msg": "Cutaway at 24.3s: 'airplane window' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127635.910156,
+      "level": "info",
+      "msg": "Cutaway at 36.8s: 'genius writer' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794127637.71066,
+      "level": "info",
+      "msg": "Cutaway at 42.8s: 'dramatic story' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127836.346401,
+      "level": "ok",
+      "msg": "Clip 1 ready in 3:47"
+    },
+    {
+      "t": 1794127836.3638318,
+      "level": "info",
+      "msg": "Rendering clip 2/2: Sam Nivola's Extreme Swingers Obsession"
+    },
+    {
+      "t": 1794127836.38122,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794127837.4664052,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794127839.4177334,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794127839.427097,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794127840.6623883,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794127840.6713467,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794127843.3129337,
+      "level": "info",
+      "msg": "Cutaway at 2.3s: 'wall clock' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127844.179545,
+      "level": "info",
+      "msg": "Cutaway at 10.3s: 'sitting on floor' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794127846.7652304,
+      "level": "info",
+      "msg": "Cutaway at 27.2s: 'kitchen appliances' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794127849.7055376,
+      "level": "info",
+      "msg": "Cutaway at 33.6s: 'barbecue grill' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794128007.9588883,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:51"
+    },
+    {
+      "t": 1794128007.966244,
+      "level": "ok",
+      "msg": "All done in 6:39"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 470,
+  "heatmap": [],
+  "video_description": "Sam talks about his new show \u201cPhony\u201d on Hulu, reading online theories, visiting Los Angeles, watching Swingers once every two weeks, never meeting Jon Favreau, his memorable story line on \u201cThe White Lotus,\u201d and he brings a clip from a mishap while filming \u201cPhony.\u201d\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 18 billion views and more than 22 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Sam Nivola discusses his new show Phony, his obsession with the movie Swingers, finding out about the shocking storyline in The White Lotus, and a behind-the-scenes mishap on set.\nPeople: Jimmy Kimmel; Sam Nivola; Jon Favreau\nContext: An interview segment on Jimmy Kimmel Live featuring actor Sam Nivola talking about his television projects and personal interests.\nUnclear: The exact details of the online theories for Phony and the ending of the show's storyline are not fully revealed.",
+  "render_index": 2,
+  "render_total": 2
+}

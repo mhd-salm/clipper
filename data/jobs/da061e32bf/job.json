@@ -1,0 +1,2688 @@
+{
+  "id": "da061e32bf",
+  "created": 1794288168.7305508,
+  "url": "https://www.youtube.com/watch?v=ml1hyhqBEJE",
+  "source": "manual",
+  "creator_id": null,
+  "title": "Joe Rogan Experience #2576 - Dr. Peter McCullough",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 91,
+        "retention": 87,
+        "value": 93,
+        "shareability": 95,
+        "overall": 88,
+        "hook_text": "A cardiologist reveals what really caused his collapse",
+        "tip": "Keep the focus strictly on the medical mechanism of injury breakdown to maximize authority.",
+        "caption": "Cardiologist Dr. Peter McCullough explains why Damar Hamlin's collapse was not caused by a tackle.",
+        "description": "Dr. Peter McCullough applies common-sense medical principles to the mechanism of injury following Damar Hamlin's cardiac arrest on the football field. He evaluates sports trauma physics versus vaccine-related cardiac events. What do you think about athletes' health transparency today?",
+        "hashtags": [
+          "sports",
+          "cardiology",
+          "health",
+          "analysis"
+        ]
+      },
+      "id": "c1",
+      "title": "The Truth Behind Damar Hamlin's Cardiac Arrest",
+      "reason": "Dr. Peter McCullough explains why a chest tackle cannot cause cardiac arrest and attributes Damar Hamlin's collapse to vaccine myocarditis.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6424.37,
+        "end": 6493.3,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "A cardiologist reveals what really caused his collapse",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/KiaNsn-vgqA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302025.5797372
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 88,
+        "value": 92,
+        "shareability": 94,
+        "overall": 87,
+        "hook_text": "Two of his friends had strokes right after",
+        "tip": "Start right at the moment Joe Rogan describes friends suffering strokes after scheduling their shots.",
+        "caption": "Joe Rogan shares how personal experiences with post-vaccine strokes changed his perspective.",
+        "description": "Joe Rogan recounts a personal scheduling conflict that delayed his vaccination, leading him to witness unexpected health crises among friends and acquaintances. This eye-opening story highlights how personal observation shifted his viewpoint on safety. Have personal stories ever changed your mind on a major issue?",
+        "hashtags": [
+          "joerogan",
+          "personalstory",
+          "experience",
+          "reflection"
+        ]
+      },
+      "id": "c2",
+      "title": "Joe Rogan's Personal Brush With Vaccine Hesitancy",
+      "reason": "Joe Rogan shares how seeing multiple friends suffer strokes and severe illness shortly after taking the shot made him rethink his stance.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5409.84,
+        "end": 5480.17,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Two of his friends had strokes right after",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/3fA5YA6xeSI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302085.1091886
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 82,
+        "shareability": 88,
+        "overall": 86,
+        "hook_text": "He told Joe Rogan he got canceled first",
+        "tip": "Trim the intro banter so the revelation about being the first canceled starts immediately.",
+        "caption": "Joe Rogan and Dr. Peter McCullough discuss who actually got canceled first for speaking out about COVID.",
+        "description": "Joe Rogan and Dr. Peter McCullough reflect on being targeted by the White House and media for questioning official narratives. They discuss how initial claims labeled as misinformation ultimately turned out to be true. See how this high-stakes censorship shaped the pandemic response, and join the conversation in the comments.",
+        "hashtags": [
+          "joerogan",
+          "petermccullough",
+          "censorship",
+          "history"
+        ]
+      },
+      "id": "c3",
+      "title": "Dr. Peter McCullough on Being the First Cancelled",
+      "reason": "Dr. Peter McCullough and Joe Rogan reflect on being targeted by the White House and media for COVID misinformation that later proved true.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 16.52,
+        "end": 44.1,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "He told Joe Rogan he got canceled first",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/_kXIamw_1xw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794300290.4386592
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 83,
+        "value": 88,
+        "shareability": 89,
+        "overall": 86,
+        "hook_text": "They promised this vaccine would stop transmission completely",
+        "tip": "Feature Rachel Maddow's exact quote early in the clip to grab viewer attention immediately.",
+        "caption": "Rochelle Walensky and Rachel Maddow publicly promised that vaccines stopped transmission.",
+        "description": "Dr. Peter McCullough revisits official press releases and televised statements promising that vaccinated individuals could never catch or transmit the virus. He analyzes how mandates continued long after these transmission claims were officially walked back. Drop your perspective on media accountability below.",
+        "hashtags": [
+          "media",
+          "transmission",
+          "mandates",
+          "promises"
+        ]
+      },
+      "id": "c4",
+      "title": "Rochelle Walensky and Rachel Maddow Lied About Transmission",
+      "reason": "Dr. Peter McCullough recalls the blatant false claims made on television promising that vaccinated individuals could never catch or spread COVID.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4962.84,
+        "end": 5015.29,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "They promised this vaccine would stop transmission completely",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/R1PhRxAXTZY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302132.4976637
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 86,
+        "value": 91,
+        "shareability": 93,
+        "overall": 86,
+        "hook_text": "An alarming number of senators suffered strokes",
+        "tip": "Deliver the statistical percentage of senatorial strokes right at the start for maximum shock value.",
+        "caption": "Dr. Peter McCullough analyzes the alarming rate of premature strokes among younger senators.",
+        "description": "Dr. Peter McCullough breaks down statistical data showing an unusually high percentage of younger democratic senators suffering premature strokes after publicly taking vaccines. He discusses specific high-profile cases like John Fetterman. Have you noticed these patterns in public figures?",
+        "hashtags": [
+          "politics",
+          "health",
+          "statistics",
+          "analysis"
+        ]
+      },
+      "id": "c5",
+      "title": "Unprecedented Strokes in Democratic Senators",
+      "reason": "Dr. Peter McCullough analyzes the shockingly high percentage of younger Democratic senators who suffered premature strokes after vaccination.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6975.94,
+        "end": 7053.43,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "An alarming number of senators suffered strokes",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/j-DreTfcZrM",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302242.037035
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 90,
+        "shareability": 92,
+        "overall": 85,
+        "hook_text": "The Vatican issued a very strange coin",
+        "tip": "Highlight the mention of the 20 euro coin right at the start to maximize visual curiosity.",
+        "caption": "The controversial 2022 Vatican coin depicting a vaccine instead of communion.",
+        "description": "Dr. Peter McCullough analyzes a 20 euro coin issued by the Vatican in 2022 and discusses the religious zeal often associated with modern vaccinology. The conversation compares these symbolic choices to political quotes branding medical treatments as divine gifts. What is your reaction to this imagery?",
+        "hashtags": [
+          "vatican",
+          "symbolism",
+          "culture",
+          "debate"
+        ]
+      },
+      "id": "c6",
+      "title": "The Vatican Issued a Coin Promoting Vaccines",
+      "reason": "Dr. Peter McCullough discusses a 2022 euro coin issued by the Vatican depicting a child receiving a vaccine instead of communion.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2271.04,
+        "end": 2335.66,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The Vatican issued a very strange coin",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/fL8aaAk9aUg",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302299.8031256
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 84,
+        "value": 91,
+        "shareability": 90,
+        "overall": 85,
+        "hook_text": "Doctors actually sued the FDA and won",
+        "tip": "Cut the brief meandering about other countries to focus squarely on the FDA lawsuit settlement.",
+        "caption": "Doctors successfully sued the FDA to take down false claims about ivermectin.",
+        "description": "Dr. Peter McCullough breaks down the landmark lawsuit filed by prominent critical care doctors forcing the FDA to remove misleading statements about ivermectin. The discussion reveals global pressures and institutional campaigns designed to suppress alternative treatments. What are your thoughts on agency transparency?",
+        "hashtags": [
+          "lawsuit",
+          "fda",
+          "medicalfreedom",
+          "justice"
+        ]
+      },
+      "id": "c7",
+      "title": "Suing the FDA Over Ivermectin Misinformation",
+      "reason": "Dr. Peter McCullough discusses doctors suing the FDA and forcing the agency to take down false claims labeling ivermectin as horse dewormer.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4360.26,
+        "end": 4436.64,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Doctors actually sued the FDA and won",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/RvjN4a5A360",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302353.341717
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 84,
+        "value": 85,
+        "shareability": 89,
+        "overall": 84,
+        "hook_text": "Not a single person ever said sorry",
+        "tip": "Cut the repetition in the middle to keep the emotional punch of the questioning fast-paced.",
+        "caption": "Why did nobody ever apologize for getting major COVID decisions completely wrong?",
+        "description": "Joe Rogan and Dr. Peter McCullough question why public officials and media personalities never issued apologies for severe pandemic errors. They explore the unprecedented lack of accountability when large numbers of people suffered real harm. Do you think public figures should be held accountable for mistakes?",
+        "hashtags": [
+          "accountability",
+          "media",
+          "questions",
+          "reflection"
+        ]
+      },
+      "id": "c8",
+      "title": "Nobody Ever Apologized for COVID Mistakes",
+      "reason": "Joe Rogan and Dr. Peter McCullough discuss the unprecedented fact that officials and media never apologized for being completely wrong about COVID.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 220.05,
+        "end": 265.95,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Not a single person ever said sorry",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/x0_-AXe2cTM",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302468.19551
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 84,
+        "value": 89,
+        "shareability": 91,
+        "overall": 84,
+        "hook_text": "Everyone knew about the fake vaccine cards",
+        "tip": "Smooth out the segue into the topic of fake vaccine cards to keep the momentum going.",
+        "caption": "High-profile athlete cardiac arrests and the widespread underground use of fake vaccine cards.",
+        "description": "Joe Rogan and Dr. Peter McCullough discuss prominent athlete cardiac arrest incidents and the open secret of fake vaccine cards used during strict mandates. They examine the breakdown of trust between governments and the public. Let us know what you think about mandate policies in the comments.",
+        "hashtags": [
+          "athletes",
+          "mandates",
+          "trust",
+          "discussion"
+        ]
+      },
+      "id": "c9",
+      "title": "Athletes Collapsing and the Epidemic of Fake Vaccine Cards",
+      "reason": "Joe Rogan and Dr. Peter McCullough discuss high-profile athlete cardiac arrests and the widespread use of fake vaccine cards during mandates.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6787.78,
+        "end": 6858.27,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Everyone knew about the fake vaccine cards",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/v9K4aTrI6gs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302517.5156443
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 83,
+        "value": 89,
+        "shareability": 88,
+        "overall": 83,
+        "hook_text": "Life-saving treatments were deliberately withheld from patients",
+        "tip": "Keep the personal anecdote about the Texas patient front and center to anchor the economic data.",
+        "caption": "Miraculous monoclonal antibodies were withheld from high-risk patients in hospitals.",
+        "description": "Dr. Peter McCullough shares heartbreaking accounts of how life-saving monoclonal antibodies were restricted in hospital settings despite proven efficacy. He explains how policy decisions directly impacted patient outcomes during critical stages of illness. Share your thoughts on hospital treatment protocols below.",
+        "hashtags": [
+          "healthcare",
+          "treatments",
+          "hospitals",
+          "stories"
+        ]
+      },
+      "id": "c10",
+      "title": "Monoclonal Antibodies Were Withheld From Patients",
+      "reason": "Dr. Peter McCullough explains how life-saving monoclonal antibodies were restricted to protect vaccine adoption while patients died.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3378.9,
+        "end": 3456.39,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Life-saving treatments were deliberately withheld from patients",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Co8w2GiqypU",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302564.501808
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 83,
+        "retention": 80,
+        "value": 85,
+        "shareability": 84,
+        "overall": 83,
+        "hook_text": "Hospitals kept pushing this drug despite warnings",
+        "tip": "Speed up the transition between the WHO warning and the American hospital response.",
+        "caption": "Why did American hospitals push Remdesivir despite severe WHO warnings?",
+        "description": "Dr. Peter McCullough questions why frontline protocols in the United States heavily favored Remdesivir despite international warnings regarding kidney and liver toxicities. Discover the timeline of medical reversals and discuss hospital protocols in the comments.",
+        "hashtags": [
+          "hospitals",
+          "medication",
+          "publichealth",
+          "questions"
+        ]
+      },
+      "id": "c11",
+      "title": "Why Hospitals Pushed Toxic Remdesivir Against WHO Warnings",
+      "reason": "Dr. Peter McCullough questions why American hospitals frontline-promoted Remdesivir despite the WHO warning against its severe kidney toxicities.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3899.58,
+        "end": 3945.28,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Hospitals kept pushing this drug despite warnings",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/au8vgFmT5Ws",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302744.9578438
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 82,
+        "value": 88,
+        "shareability": 85,
+        "overall": 82,
+        "hook_text": "Thousands of doctors lost their licenses instantly",
+        "tip": "Focus the clip more tightly on the global license revocations to make the narrative punchier.",
+        "caption": "Thousands of doctors worldwide lost their medical licenses instantly for treating COVID patients.",
+        "description": "Dr. Peter McCullough details how thousands of doctors across France, Australia, and beyond were stripped of their licenses for helping patients. The discussion uncovers surprising regulatory actions involving nutraceuticals and corporate lawsuits. What do you think drove these sudden global crackdowns?",
+        "hashtags": [
+          "doctors",
+          "regulations",
+          "globalnews",
+          "health"
+        ]
+      },
+      "id": "c12",
+      "title": "Doctors Losing Licenses for Treating COVID",
+      "reason": "Dr. Peter McCullough reveals how thousands of doctors worldwide were immediately stripped of licenses for successfully treating patients.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 429.86,
+        "end": 492.32,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Thousands of doctors lost their licenses instantly",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/D95FW7VTkV4",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302785.7682889
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 87,
+        "shareability": 86,
+        "overall": 82,
+        "hook_text": "Doctors launched a campaign to ban this drug",
+        "tip": "Emphasize the AMA's specific policy objective right at the beginning for maximum impact.",
+        "caption": "The American Medical Association launched an official campaign to abolish ivermectin.",
+        "description": "Dr. Peter McCullough highlights the AMA's official 2021 policy aimed at eliminating a medication with high reported effectiveness rates. International medical teams share how they managed patient oxygen levels at home against mounting odds. Have you ever questioned standard medical guidelines?",
+        "hashtags": [
+          "medicalassociation",
+          "ivermectin",
+          "doctors",
+          "policy"
+        ]
+      },
+      "id": "c13",
+      "title": "The AMA Campaigned to Abolish Ivermectin",
+      "reason": "Dr. Peter McCullough highlights how the American Medical Association actively worked to eliminate a drug with a 50 percent effectiveness rate.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4157.18,
+        "end": 4225.28,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Doctors launched a campaign to ban this drug",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/H1epEv9oFjE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302826.507431
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 87,
+        "shareability": 89,
+        "overall": 82,
+        "hook_text": "How hospitals profited off COVID death classifications",
+        "tip": "Trim the background noise at the end to finish cleanly on the disappearance of influenza data.",
+        "caption": "How hospital financial incentives shifted COVID death classifications and dropped flu testing.",
+        "description": "Dr. Peter McCullough discusses the financial reimbursements and testing protocols that influenced hospital death classifications during the pandemic. He highlights how traditional metrics like influenza cases seemingly vanished from the data. What are your thoughts on hospital funding structures?",
+        "hashtags": [
+          "hospitals",
+          "finance",
+          "data",
+          "system"
+        ]
+      },
+      "id": "c14",
+      "title": "Hospitals Profited Off COVID Death Classifications",
+      "reason": "Dr. Peter McCullough discusses the financial incentives that drove hospitals to classify unrelated deaths as COVID and drop influenza testing.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8317.1,
+        "end": 8378.24,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How hospitals profited off COVID death classifications",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/b0GQJXgZu4U",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302870.3231404
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 78,
+        "value": 84,
+        "shareability": 76,
+        "overall": 80,
+        "hook_text": "The hidden network behind Wuhan lab research",
+        "tip": "Provide clearer on-screen text to help viewers follow the complex web of researchers mentioned.",
+        "caption": "How Peter Daszak and key organizations influenced the Wuhan lab investigations.",
+        "description": "Dr. Peter McCullough outlines the key figures and organizations involved in coronavirus research coordination and the Wuhan lab investigations. Hear how funding structures and international bodies intertwined during the early days of the outbreak. Let us know your take on transparency in scientific research.",
+        "hashtags": [
+          "investigation",
+          "science",
+          "research",
+          "origins"
+        ]
+      },
+      "id": "c15",
+      "title": "Peter Daszak and the Wuhan Lab Investigation Cover-up",
+      "reason": "Dr. Peter McCullough exposes how Peter Daszak and the WHO blocked independent American scientists from investigating the lab leak origins.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1145.63,
+        "end": 1190.8,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The hidden network behind Wuhan lab research",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Z6n5bMvBVHo",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302911.5338504
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 81,
+        "value": 86,
+        "shareability": 83,
+        "overall": 80,
+        "hook_text": "Why humans struggle so badly with ambiguity",
+        "tip": "Remove the initial stumbling about labels to jump straight into the rational theorist concept.",
+        "caption": "Why humans struggle with ambiguity and how rational theories emerge in crises.",
+        "description": "Dr. Peter McCullough reflects on labels like conspiracy theorist and explains why humans naturally construct rational theories during unprecedented crises. This deep dive examines how society handles ambiguity when facing brand-new threats. How do you process confusing information during a crisis?",
+        "hashtags": [
+          "psychology",
+          "crisis",
+          "rationality",
+          "perspectives"
+        ]
+      },
+      "id": "c16",
+      "title": "We Are Rational Theorists, Not Conspiracy Theorists",
+      "reason": "Dr. Peter McCullough explains how humans struggle with ambiguity and construct rational theories when faced with a brand new virus.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1657.88,
+        "end": 1726.89,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why humans struggle so badly with ambiguity",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/fKUlB571q38",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302952.3913877
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 75,
+        "value": 80,
+        "shareability": 72,
+        "overall": 79,
+        "hook_text": "This word never appeared in medical literature",
+        "tip": "Start directly with the shocking statistic about medical literature to boost immediate viewer curiosity.",
+        "caption": "Dr. Peter McCullough reveals when the word misinformation officially entered the medical literature.",
+        "description": "Dr. Peter McCullough explains how the term misinformation was institutionalized in medical literature and diagnostic scales during the pandemic. Discover how language shifted within healthcare systems and share your thoughts on these institutional changes below.",
+        "hashtags": [
+          "medicalhistory",
+          "pandemic",
+          "science",
+          "terminology"
+        ]
+      },
+      "id": "c17",
+      "title": "The Weaponization of the Word Misinformation",
+      "reason": "Dr. Peter McCullough details how the term misinformation entered medical literature and Nazi propaganda to achieve moral superiority.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 113.36,
+        "end": 142.39,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "This word never appeared in medical literature",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/nZriEVpMR6E",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794302992.8947308
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 79,
+        "value": 84,
+        "shareability": 81,
+        "overall": 78,
+        "hook_text": "Medical journals started retracting valid studies",
+        "tip": "Condense the editor credentials section so the viewer gets to the topic of tainted literature faster.",
+        "caption": "How medical literature became systematically biased and compromised through retractions.",
+        "description": "As a veteran journal editor, Dr. Peter McCullough exposes unprecedented administrative retractions that targeted therapeutic studies while protecting vaccine narratives. Discover how peer review standards shifted during the pandemic. Do you still trust mainstream medical journals?",
+        "hashtags": [
+          "journals",
+          "science",
+          "censorship",
+          "research"
+        ]
+      },
+      "id": "c18",
+      "title": "The Corruption and Retraction of Medical Literature",
+      "reason": "Dr. Peter McCullough exposes how journals systematically retracted valid therapeutic studies while shielding the vaccines from criticism.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4663.06,
+        "end": 4732.32,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Medical journals started retracting valid studies",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Uw8a5xULGVY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794303033.7775836
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794288168.7365446,
+  "finished": 1794300286.585553,
+  "log": [
+    {
+      "t": 1794288168.749349,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=ml1hyhqBEJE"
+    },
+    {
+      "t": 1794288783.9484851,
+      "level": "ok",
+      "msg": "Downloaded \"Joe Rogan Experience #2576 - Dr. Peter McCullough\" (156:09) in 10:15"
+    },
+    {
+      "t": 1794288783.9567695,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794288790.9961698,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794288791.5749562,
+      "level": "ok",
+      "msg": "Transcribed 4583 segments / 26304 words in 0:07"
+    },
+    {
+      "t": 1794288791.5827582,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794288794.865544,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288796.5884247,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794288796.592379,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794288800.5219738,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794288800.535095,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Joe Rogan and Dr. Peter McCullough discuss the 5 years since their last interview, the weaponization and history of the term 'misinformation' during the COVID-19 pandemic, the government pressure and censorship they faced, the lack of apologies from officials and media regarding incorrect i"
+    },
+    {
+      "t": 1794288819.7590752,
+      "level": "info",
+      "msg": "Audio analysis: 6 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794288821.732126,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288823.721646,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794288823.7254717,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794288833.9449472,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794288834.9043453,
+      "level": "ok",
+      "msg": "AI picked 18 clips in 0:43"
+    },
+    {
+      "t": 1794288834.9082887,
+      "level": "info",
+      "msg": "  \u2022 Dr. Peter McCullough on Being the First Cancelled  [0:16-0:44, score 92]"
+    },
+    {
+      "t": 1794288834.9123173,
+      "level": "info",
+      "msg": "  \u2022 The Weaponization of the Word Misinformation  [1:53-2:22, score 88]"
+    },
+    {
+      "t": 1794288834.9160461,
+      "level": "info",
+      "msg": "  \u2022 Nobody Ever Apologized for COVID Mistakes  [3:40-4:25, score 90]"
+    },
+    {
+      "t": 1794288834.9199476,
+      "level": "info",
+      "msg": "  \u2022 Doctors Losing Licenses for Treating COVID  [7:09-8:12, score 89]"
+    },
+    {
+      "t": 1794288834.9238048,
+      "level": "info",
+      "msg": "  \u2022 Peter Daszak and the Wuhan Lab Investigation Cover-up  [19:05-19:50, score 94]"
+    },
+    {
+      "t": 1794288834.927684,
+      "level": "info",
+      "msg": "  \u2022 We Are Rational Theorists, Not Conspiracy Theorists  [27:37-28:46, score 87]"
+    },
+    {
+      "t": 1794288834.931902,
+      "level": "info",
+      "msg": "  \u2022 The Vatican Issued a Coin Promoting Vaccines  [37:50-38:55, score 91]"
+    },
+    {
+      "t": 1794288834.9358122,
+      "level": "info",
+      "msg": "  \u2022 Monoclonal Antibodies Were Withheld From Patients  [56:18-57:36, score 90]"
+    },
+    {
+      "t": 1794288834.9397695,
+      "level": "info",
+      "msg": "  \u2022 Why Hospitals Pushed Toxic Remdesivir Against WHO Warnings  [64:59-65:45, score 92]"
+    },
+    {
+      "t": 1794288834.9437118,
+      "level": "info",
+      "msg": "  \u2022 The AMA Campaigned to Abolish Ivermectin  [69:17-70:25, score 91]"
+    },
+    {
+      "t": 1794288834.947767,
+      "level": "info",
+      "msg": "  \u2022 Suing the FDA Over Ivermectin Misinformation  [72:39-73:56, score 93]"
+    },
+    {
+      "t": 1794288834.9517682,
+      "level": "info",
+      "msg": "  \u2022 The Corruption and Retraction of Medical Literature  [77:43-78:52, score 88]"
+    },
+    {
+      "t": 1794288834.9557211,
+      "level": "info",
+      "msg": "  \u2022 Rochelle Walensky and Rachel Maddow Lied About Transmission  [82:42-83:35, score 94]"
+    },
+    {
+      "t": 1794288834.9596524,
+      "level": "info",
+      "msg": "  \u2022 Joe Rogan's Personal Brush With Vaccine Hesitancy  [90:09-91:20, score 95]"
+    },
+    {
+      "t": 1794288834.9637048,
+      "level": "info",
+      "msg": "  \u2022 The Truth Behind Damar Hamlin's Cardiac Arrest  [107:04-108:13, score 95]"
+    },
+    {
+      "t": 1794288834.9686205,
+      "level": "info",
+      "msg": "  \u2022 Athletes Collapsing and the Epidemic of Fake Vaccine Cards  [113:07-114:18, score 91]"
+    },
+    {
+      "t": 1794288834.9724183,
+      "level": "info",
+      "msg": "  \u2022 Unprecedented Strokes in Democratic Senators  [116:15-117:33, score 94]"
+    },
+    {
+      "t": 1794288834.9765089,
+      "level": "info",
+      "msg": "  \u2022 Hospitals Profited Off COVID Death Classifications  [138:37-139:38, score 91]"
+    },
+    {
+      "t": 1794288835.0906298,
+      "level": "ok",
+      "msg": "Tightened the clips: 1.0s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794288835.0985742,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794288837.1399279,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288837.8558505,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794288839.8216815,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794288839.826022,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288840.26228,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794288842.1691146,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794288842.173943,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288842.6202126,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794288844.619333,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794288844.623513,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288845.1284888,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794288847.1659212,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794288847.1704426,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288847.6799767,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794288849.6262016,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794288849.6308107,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288850.041423,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794288852.0756726,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794288852.0795379,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794288861.1785076,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794288861.1836367,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794288874.7595832,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794288874.7703893,
+      "level": "ok",
+      "msg": "Rated 18 clips in 0:39"
+    },
+    {
+      "t": 1794288874.7735674,
+      "level": "info",
+      "msg": "  - Dr. Peter McCullough on Being the First Cancelled: 86/100 (hook 85, retention 80, value 82, share 88)"
+    },
+    {
+      "t": 1794288874.7765841,
+      "level": "info",
+      "msg": "  - The Weaponization of the Word Misinformation: 79/100 (hook 78, retention 75, value 80, share 72)"
+    },
+    {
+      "t": 1794288874.7802212,
+      "level": "info",
+      "msg": "  - Nobody Ever Apologized for COVID Mistakes: 84/100 (hook 82, retention 84, value 85, share 89)"
+    },
+    {
+      "t": 1794288874.7853138,
+      "level": "info",
+      "msg": "  - Doctors Losing Licenses for Treating COVID: 82/100 (hook 86, retention 82, value 88, share 85)"
+    },
+    {
+      "t": 1794288874.788591,
+      "level": "info",
+      "msg": "  - Peter Daszak and the Wuhan Lab Investigation Cover-up: 80/100 (hook 80, retention 78, value 84, share 76)"
+    },
+    {
+      "t": 1794288874.792427,
+      "level": "info",
+      "msg": "  - We Are Rational Theorists, Not Conspiracy Theorists: 80/100 (hook 84, retention 81, value 86, share 83)"
+    },
+    {
+      "t": 1794288874.7967017,
+      "level": "info",
+      "msg": "  - The Vatican Issued a Coin Promoting Vaccines: 85/100 (hook 88, retention 85, value 90, share 92)"
+    },
+    {
+      "t": 1794288874.8003535,
+      "level": "info",
+      "msg": "  - Monoclonal Antibodies Were Withheld From Patients: 83/100 (hook 87, retention 83, value 89, share 88)"
+    },
+    {
+      "t": 1794288874.8041692,
+      "level": "info",
+      "msg": "  - Why Hospitals Pushed Toxic Remdesivir Against WHO Warnings: 83/100 (hook 83, retention 80, value 85, share 84)"
+    },
+    {
+      "t": 1794288874.8078637,
+      "level": "info",
+      "msg": "  - The AMA Campaigned to Abolish Ivermectin: 82/100 (hook 85, retention 82, value 87, share 86)"
+    },
+    {
+      "t": 1794288874.81152,
+      "level": "info",
+      "msg": "  - Suing the FDA Over Ivermectin Misinformation: 85/100 (hook 89, retention 84, value 91, share 90)"
+    },
+    {
+      "t": 1794288874.8154683,
+      "level": "info",
+      "msg": "  - The Corruption and Retraction of Medical Literature: 78/100 (hook 82, retention 79, value 84, share 81)"
+    },
+    {
+      "t": 1794288874.8198104,
+      "level": "info",
+      "msg": "  - Rochelle Walensky and Rachel Maddow Lied About Transmission: 86/100 (hook 86, retention 83, value 88, share 89)"
+    },
+    {
+      "t": 1794288874.8236384,
+      "level": "info",
+      "msg": "  - Joe Rogan's Personal Brush With Vaccine Hesitancy: 87/100 (hook 90, retention 88, value 92, share 94)"
+    },
+    {
+      "t": 1794288874.8273776,
+      "level": "info",
+      "msg": "  - The Truth Behind Damar Hamlin's Cardiac Arrest: 88/100 (hook 91, retention 87, value 93, share 95)"
+    },
+    {
+      "t": 1794288874.8314822,
+      "level": "info",
+      "msg": "  - Athletes Collapsing and the Epidemic of Fake Vaccine Cards: 84/100 (hook 87, retention 84, value 89, share 91)"
+    },
+    {
+      "t": 1794288874.8356068,
+      "level": "info",
+      "msg": "  - Unprecedented Strokes in Democratic Senators: 86/100 (hook 89, retention 86, value 91, share 93)"
+    },
+    {
+      "t": 1794288874.8396726,
+      "level": "info",
+      "msg": "  - Hospitals Profited Off COVID Death Classifications: 82/100 (hook 85, retention 82, value 87, share 89)"
+    },
+    {
+      "t": 1794288874.8506174,
+      "level": "ok",
+      "msg": "18 distinct clips found, 18 rated 50+"
+    },
+    {
+      "t": 1794288874.8618073,
+      "level": "ok",
+      "msg": "Waiting for you to choose which clips to render"
+    },
+    {
+      "t": 1794291604.5086205,
+      "level": "info",
+      "msg": "Rendering clip 1/18: The Truth Behind Damar Hamlin's Cardiac Arrest"
+    },
+    {
+      "t": 1794291871.545711,
+      "level": "ok",
+      "msg": "Clip 1 ready in 4:27"
+    },
+    {
+      "t": 1794291871.5759063,
+      "level": "info",
+      "msg": "Rendering clip 2/18: Joe Rogan's Personal Brush With Vaccine Hesitancy"
+    },
+    {
+      "t": 1794292153.8912525,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:42"
+    },
+    {
+      "t": 1794292153.918709,
+      "level": "info",
+      "msg": "Rendering clip 3/18: Dr. Peter McCullough on Being the First Cancelled"
+    },
+    {
+      "t": 1794292258.6103225,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:44"
+    },
+    {
+      "t": 1794292258.636721,
+      "level": "info",
+      "msg": "Rendering clip 4/18: Rochelle Walensky and Rachel Maddow Lied About Transmission"
+    },
+    {
+      "t": 1794292433.0489964,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:54"
+    },
+    {
+      "t": 1794292433.0740104,
+      "level": "info",
+      "msg": "Rendering clip 5/18: Unprecedented Strokes in Democratic Senators"
+    },
+    {
+      "t": 1794292833.4658153,
+      "level": "ok",
+      "msg": "Clip 5 ready in 6:40"
+    },
+    {
+      "t": 1794292833.5624387,
+      "level": "info",
+      "msg": "Rendering clip 6/18: The Vatican Issued a Coin Promoting Vaccines"
+    },
+    {
+      "t": 1794295139.8155365,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794295139.843085,
+      "level": "info",
+      "msg": "Rendering clip 1/13: The Vatican Issued a Coin Promoting Vaccines"
+    },
+    {
+      "t": 1794295255.3782284,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794295255.5691473,
+      "level": "info",
+      "msg": "Rendering clip 1/13: The Vatican Issued a Coin Promoting Vaccines"
+    },
+    {
+      "t": 1794297505.412982,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794297505.4459298,
+      "level": "info",
+      "msg": "Rendering clip 1/13: The Vatican Issued a Coin Promoting Vaccines"
+    },
+    {
+      "t": 1794297746.5541372,
+      "level": "ok",
+      "msg": "Clip 1 ready in 4:01"
+    },
+    {
+      "t": 1794297746.5807328,
+      "level": "info",
+      "msg": "Rendering clip 2/13: Suing the FDA Over Ivermectin Misinformation"
+    },
+    {
+      "t": 1794297978.06491,
+      "level": "ok",
+      "msg": "Clip 2 ready in 3:51"
+    },
+    {
+      "t": 1794297978.089967,
+      "level": "info",
+      "msg": "Rendering clip 3/13: Nobody Ever Apologized for COVID Mistakes"
+    },
+    {
+      "t": 1794298087.8962622,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:49"
+    },
+    {
+      "t": 1794298087.9235415,
+      "level": "info",
+      "msg": "Rendering clip 4/13: Athletes Collapsing and the Epidemic of Fake Vaccine Cards"
+    },
+    {
+      "t": 1794298429.9130695,
+      "level": "ok",
+      "msg": "Clip 4 ready in 5:41"
+    },
+    {
+      "t": 1794298429.9934804,
+      "level": "info",
+      "msg": "Rendering clip 5/13: Monoclonal Antibodies Were Withheld From Patients"
+    },
+    {
+      "t": 1794298653.8274574,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:43"
+    },
+    {
+      "t": 1794298653.8525982,
+      "level": "info",
+      "msg": "Rendering clip 6/13: Why Hospitals Pushed Toxic Remdesivir Against WHO Warnings"
+    },
+    {
+      "t": 1794298804.7174337,
+      "level": "ok",
+      "msg": "Clip 6 ready in 2:30"
+    },
+    {
+      "t": 1794298804.7461483,
+      "level": "info",
+      "msg": "Rendering clip 7/13: Doctors Losing Licenses for Treating COVID"
+    },
+    {
+      "t": 1794299028.9270544,
+      "level": "ok",
+      "msg": "Clip 7 ready in 3:44"
+    },
+    {
+      "t": 1794299028.9518385,
+      "level": "info",
+      "msg": "Rendering clip 8/13: The AMA Campaigned to Abolish Ivermectin"
+    },
+    {
+      "t": 1794299252.5665138,
+      "level": "ok",
+      "msg": "Clip 8 ready in 3:43"
+    },
+    {
+      "t": 1794299252.5940669,
+      "level": "info",
+      "msg": "Rendering clip 9/13: Hospitals Profited Off COVID Death Classifications"
+    },
+    {
+      "t": 1794299575.9688013,
+      "level": "ok",
+      "msg": "Clip 9 ready in 5:23"
+    },
+    {
+      "t": 1794299575.9939418,
+      "level": "info",
+      "msg": "Rendering clip 10/13: Peter Daszak and the Wuhan Lab Investigation Cover-up"
+    },
+    {
+      "t": 1794299703.5103593,
+      "level": "ok",
+      "msg": "Clip 10 ready in 2:07"
+    },
+    {
+      "t": 1794299703.5394084,
+      "level": "info",
+      "msg": "Rendering clip 11/13: We Are Rational Theorists, Not Conspiracy Theorists"
+    },
+    {
+      "t": 1794299887.2039158,
+      "level": "ok",
+      "msg": "Clip 11 ready in 3:03"
+    },
+    {
+      "t": 1794299887.2275937,
+      "level": "info",
+      "msg": "Rendering clip 12/13: The Weaponization of the Word Misinformation"
+    },
+    {
+      "t": 1794299992.4832983,
+      "level": "ok",
+      "msg": "Clip 12 ready in 1:45"
+    },
+    {
+      "t": 1794299992.507531,
+      "level": "info",
+      "msg": "Rendering clip 13/13: The Corruption and Retraction of Medical Literature"
+    },
+    {
+      "t": 1794300286.5789895,
+      "level": "ok",
+      "msg": "Clip 13 ready in 4:54"
+    },
+    {
+      "t": 1794300286.6076086,
+      "level": "ok",
+      "msg": "All done in 46:21"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "PowerfulJRE",
+  "duration": 9369,
+  "heatmap": [],
+  "video_description": "Peter A. McCullough, MD, MPH, is a physician, author, and chief scientific officer of The Wellness Company. His most recent book is \"Vaccines: Mythology, Ideology, and Reality,\" co-authored with John Leake.\n\nhttps://www.skyhorsepublishing.com/9781648211898/vaccines\nhttps://www.twc.health\nhttps://www.thefocalpoints.com\nhttps://www.youtube.com/@petermcculloughmd\nhttps://www.petermcculloughmd.com\nPerplexity: Download the app or ask Perplexity anything at https://pplx.ai/rogan.\n\nTry ZipRecruiter FOR FREE at https://ziprecruiter.com/rogan\n\nUse code ROGAN at https://BlueChew.com to get 10% OFF + Free Overnight Shipping on your first order.",
+  "brief": "Summary: Joe Rogan and Dr. Peter McCullough discuss the 5 years since their last interview, the weaponization and history of the term 'misinformation' during the COVID-19 pandemic, the government pressure and censorship they faced, the lack of apologies from officials and media regarding incorrect information, and the global persecution and loss of medical licenses for doctors who treated patients with drugs like hydroxychloroquine and ivermectin.\nPeople: Joe Rogan; Dr. Peter McCullough; John Leake; Robert Malone; Joseph Goebbels; Rachel Maddow; Nate Jones\nContext: An episode of The Joe Rogan Experience podcast featuring physician and author Dr. Peter McCullough, discussing the COVID-19 pandemic response, censorship, misinformation, and medical treatments.\nUnclear: The transcript cuts off abruptly at the end during Dr. McCullough's mention of a lawsuit from the Federal Trade Commission against Nate Jones, CEO of Clear.",
+  "render_index": 13,
+  "render_total": 13
+}

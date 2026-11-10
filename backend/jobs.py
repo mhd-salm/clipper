@@ -10,7 +10,13 @@ from pathlib import Path
 
 import config
 import layouts
+import look
+import motion
 import pipeline
+import retention
+import sound
+import stock
+import subtitles
 
 _pool = ThreadPoolExecutor(max_workers=config.JOB_WORKERS)  # download, captions, AI: run in parallel
 _rpool = ThreadPoolExecutor(max_workers=config.RENDER_WORKERS)  # rendering: one at a time, in the order queued
@@ -90,6 +96,37 @@ def list_jobs() -> list[dict]:
     return sorted(jobs, key=lambda j: j["created"], reverse=True)
 
 
+def clean_options(opts: dict) -> dict:
+    """A job's options, validated, with every missing key filled in."""
+    return {
+            "layout_id": opts.get("layout_id", "fill"),
+            "subtitles": opts.get("subtitles", True),
+            "sub_style": opts.get("sub_style", "bold_yellow"),
+            "num_clips": int(opts.get("num_clips", 5)),
+            "min_len": int(opts.get("min_len", 20)),
+            "max_len": int(opts.get("max_len", 60)),
+            "resolution": opts.get("resolution", "1080p"),
+            "hook_text": bool(opts.get("hook_text", True)),
+            "motion": motion.clean(opts.get("motion")),
+            "caption": subtitles.clean_caption(opts.get("caption")),
+            "look": look.clean(opts.get("look")),
+            "smart_framing": bool(opts.get("smart_framing", True)),
+            "retention": retention.clean(opts.get("retention")),
+            "preset": opts.get("preset") or None,
+            "stock": stock.clean(opts.get("stock")),
+            "music": sound.clean_music(opts.get("music")),
+            "pacing": sound.clean_pacing(opts.get("pacing")),
+            "hook": subtitles.clean_hook(opts.get("hook")),
+            "content": opts.get("content", "auto"),
+            "auto": bool(opts.get("auto", False)),  # full auto: render the 60+ clips and upload them
+            "auto_privacy": opts.get("auto_privacy", "public"),
+            "account": opts.get("account", "default"),
+            "hide_likes": bool(opts.get("hide_likes", True)),
+            "notes": str(opts.get("notes", ""))[:1000],
+            "min_score": max(0, min(100, int(opts.get("min_score", DEFAULT_MIN_SCORE)))),
+    }
+
+
 def create_job(*, url: str | None, upload: Path | None, opts: dict, source: str = "manual") -> dict:
     job_id = uuid.uuid4().hex[:10]
     d = job_dir(job_id)
@@ -99,23 +136,7 @@ def create_job(*, url: str | None, upload: Path | None, opts: dict, source: str 
     job = {
         "id": job_id, "created": time.time(), "url": url, "source": source, "creator_id": opts.get("creator_id"), "title": opts.get("title") or url or "Upload",
         "status": "queued", "stage": "Queued", "error": None, "clips": [],
-        "options": {
-            "layout_id": opts.get("layout_id", "fill"),
-            "subtitles": opts.get("subtitles", True),
-            "sub_style": opts.get("sub_style", "bold_yellow"),
-            "num_clips": int(opts.get("num_clips", 5)),
-            "min_len": int(opts.get("min_len", 20)),
-            "max_len": int(opts.get("max_len", 60)),
-            "resolution": opts.get("resolution", "1080p"),
-            "hook_text": bool(opts.get("hook_text", True)),
-            "content": opts.get("content", "auto"),
-            "auto": bool(opts.get("auto", False)),  # full auto: render the 60+ clips and upload them
-            "auto_privacy": opts.get("auto_privacy", "public"),
-            "account": opts.get("account", "default"),
-            "hide_likes": bool(opts.get("hide_likes", True)),
-            "notes": str(opts.get("notes", ""))[:1000],
-            "min_score": max(0, min(100, int(opts.get("min_score", DEFAULT_MIN_SCORE)))),
-        },
+        "options": clean_options(opts),
     }
     write_job(job)
     _pool.submit(_run, job_id, bool(url and not upload))
@@ -238,6 +259,16 @@ def _run(job_id: str, needs_download: bool):
         for p in picks:
             log(job_id, f"  • {p['title']}  [{_fmt(p['start'])}-{_fmt(p['end'])}, score {p['score']}]")
 
+        ret = o.get("retention") or retention.clean(None)
+        if ret.get("trim_start") or ret.get("trim_end"):  # open on the hook, end on the payoff
+            tw = [w for s in transcript for w in s["words"]]
+            cut = 0.0
+            for p in picks:
+                ns, ne = retention.tighten(tw, p["start"], p["end"], ret, o["min_len"])
+                cut += (ns - p["start"]) + (p["end"] - ne)
+                p["start"], p["end"] = ns, ne
+            if cut > 0.05:
+                log(job_id, f"Tightened the clips: {cut:.1f}s of filler / dead air trimmed from their starts and ends", "ok")
         set_stage(job_id, "pick", "AI reviewers are rating the clips")
         t = time.time()
         log(job_id, "Review panel (hook / retention / value / shareability) is scoring each clip")
@@ -245,7 +276,7 @@ def _run(job_id: str, needs_download: bool):
         try:
             jb = read_job(job_id)
             ratings = pipeline.rate_clips(transcript, picks, log=lambda m, lv="info": log(job_id, m, lv), kind=kind,
-                                          context={"title": jb.get("title", ""), "channel": jb.get("channel", ""), "description": jb.get("video_description", ""), "brief": brief})
+                                          context={"title": jb.get("title", ""), "channel": jb.get("channel", ""), "description": jb.get("video_description", ""), "brief": brief}, ret=ret)
             log(job_id, f"Rated {sum(1 for r in ratings if r)} clips in {_fmt(time.time() - t)}", "ok")
         except Exception as e:  # rating is a bonus: never fail the job over it
             log(job_id, f"Rating skipped: {str(e)[:120]}", "warn")
@@ -261,18 +292,18 @@ def _run(job_id: str, needs_download: bool):
             "status": "candidate", "selected": False, "error": None, "version": 0, "progress": 0,
             "params": {"start": p["start"], "end": p["end"], "layout_id": o["layout_id"],
                        "subtitles": o["subtitles"], "sub_style": o["sub_style"],
-                       "resolution": o["resolution"],
-                       "overlays": ([{"text": r["hook_text"], "start": 0.0, "end": 3.5, "x": 0.5, "y": 0.14,
-                                      "size": 0.05, "color": "#FFFFFF", "hook": True}]
+                       "resolution": o["resolution"], "motion": o.get("motion") or {}, "caption": o.get("caption") or {}, "look": o.get("look") or {}, "stock": o.get("stock") or {}, "smart_framing": o.get("smart_framing", True), "music": o.get("music") or {}, "pacing": o.get("pacing") or {}, "retention": ret,
+                       "overlays": ([subtitles.hook_overlay(r["hook_text"], o.get("hook"))]
                                     if r and r.get("hook_text") and o.get("hook_text", True) else [])},
         } for i, (p, r) in enumerate(picks_r)]
         # pre-select. Creator videos (clips only): everything rated 65+. Full auto: 60+. Manual: 60+ (or top N), never empty.
         creator_job = bool(job.get("creator_id")) or job["source"] == "watcher"
-        unattended = creator_job or bool(o.get("auto"))
+        unattended = True  # no manual picking anywhere: the best clips are always rendered automatically (uploading still only happens in full auto)
+        strict = creator_job or bool(o.get("auto"))  # these may end with nothing; a manual project always renders at least the top 3
         thr = int(o.get("min_score", DEFAULT_MIN_SCORE))  # chosen by the user when starting (default 50)
         for i, c in enumerate(clips):
             c["selected"] = (c["score"] >= thr and (not want or i < want)) if creator_job else ((i < want) if want else c["score"] >= thr)
-        if not any(c["selected"] for c in clips) and not unattended:
+        if not any(c["selected"] for c in clips) and not strict:
             for c in clips[:3]:
                 c["selected"] = True
         update(job_id, clips=clips)
@@ -537,7 +568,22 @@ def _render(job_id: str, clip_id: str, announce: bool = True):
         if clip["params"].get("captions"):  # user-edited caption text replaces the AI transcript
             from subtitles import expand_captions
             words = expand_captions(clip["params"]["captions"])
-        pipeline.render_clip(pipeline.source_path(d), words, clip["params"], out_dir, clip_id, on_progress=on_progress)
+        params = dict(clip["params"])
+        st = stock.clean(params.get("stock"))
+        params["cutaways"] = []
+        if stock.active(st):  # pick the moments + footage once per clip; later re-renders reuse them
+            sig = stock.signature(st, float(params["start"]), float(params["end"]))
+            cached = clip.get("cutaway_plan") or {}
+            if cached.get("sig") == sig:
+                params["cutaways"] = cached.get("items", [])
+            else:
+                try:
+                    items = stock.plan(words, float(params["start"]), float(params["end"]), st, lambda m, lv="info": log(job_id, m, lv))
+                    _set_clip(job_id, clip_id, cutaway_plan={"sig": sig, "items": items})
+                    params["cutaways"] = items
+                except Exception as e:  # cutaways are a bonus: the clip still renders without them
+                    log(job_id, f"Stock cutaways skipped: {str(e)[:160]}", "warn")
+        pipeline.render_clip(pipeline.source_path(d), words, params, out_dir, clip_id, on_progress=on_progress)
         _set_clip(job_id, clip_id, status="ready", version=clip["version"] + 1, progress=100)
         if announce:
             log(job_id, f"{clip['title']} updated", "ok")
@@ -554,13 +600,137 @@ def edit_clip(job_id: str, clip_id: str, params: dict):
     if "layout" in params and params["layout"]:
         params["layout"] = layouts.sanitize(params["layout"])
     clip["params"].update({k: v for k, v in params.items() if k in
-                           ("start", "end", "layout_id", "layout", "subtitles", "sub_style", "resolution", "overlays", "captions")})
+                           ("start", "end", "layout_id", "layout", "subtitles", "sub_style", "resolution", "overlays", "captions", "motion", "caption", "look", "music", "pacing", "stock", "smart_framing", "retention")})
     if "captions" in params and not params["captions"]:
         clip["params"].pop("captions", None)  # empty list = back to the AI captions
     if params.get("layout_id") and "layout" not in params:
         clip["params"].pop("layout", None)  # picking a preset clears any per-clip custom layout
     write_job(job)
     _rpool_submit(_render, job_id, clip_id)
+
+
+# ---------------------------------------------------------------- testing area (Edits): quick throw-away renders
+TESTS_DIR = config.DATA / "tests"
+TESTS_DIR.mkdir(parents=True, exist_ok=True)
+_tests: dict = {}
+_test_pool = ThreadPoolExecutor(max_workers=1)  # one test at a time, so it never competes with itself
+
+
+def test_status(test_id: str) -> dict | None:
+    return _tests.get(test_id)
+
+
+def start_test(job_id: str, settings: dict, clip_id: str | None = None, start: float | None = None, end: float | None = None) -> str:
+    """Render a short throw-away video with the given (possibly unsaved) preset settings from a project's source video.
+    With clip_id: that clip's own time range, hook text and edited captions. Otherwise start..end of the source (max 60 s).
+    Nothing is saved to the project. Stock footage is never used here (it would cost AI requests)."""
+    import presets
+    s = presets.clean(settings or {})
+    job = read_job(job_id)
+    if job is None:
+        raise ValueError("That project no longer exists.")
+    d = job_dir(job_id)
+    try:
+        src = pipeline.source_path(d)
+    except Exception:
+        raise ValueError("That project's video file is gone, so it can't be tested.")
+    clip = next((c for c in job.get("clips") or [] if c["id"] == clip_id), None) if clip_id else None
+    if clip_id and not clip:
+        raise ValueError("That clip no longer exists.")
+    if clip:
+        t0, t1 = float(clip["params"]["start"]), float(clip["params"]["end"])
+    else:
+        if start is None or end is None:
+            raise ValueError("Pick a start and an end.")
+        t0, t1 = float(start), float(end)
+    if t1 - t0 < 3:
+        raise ValueError("Pick at least 3 seconds.")
+    if t1 - t0 > 60:
+        t1 = t0 + 60
+    tid = uuid.uuid4().hex[:10]
+    _tests[tid] = {"id": tid, "status": "queued", "progress": 0, "error": None, "url": None, "range": [round(t0, 2), round(t1, 2)]}
+    for old in sorted(TESTS_DIR.glob("*"), key=lambda p: p.stat().st_mtime)[:-8] if TESTS_DIR.exists() else []:
+        shutil.rmtree(old, ignore_errors=True)  # keep only the latest few test renders
+    _test_pool.submit(_run_test, tid, job_id, src, d, s, clip, t0, t1)
+    return tid
+
+
+def _run_test(tid, job_id, src, d, s, clip, t0, t1):
+    st = _tests[tid]
+    try:
+        st["status"] = "rendering"
+        transcript = pipeline.transcribe(src, d)
+        words = [w for seg in transcript for w in seg["words"]]
+        ret = s.get("retention") or retention.clean(None)
+        if clip and clip["params"].get("captions"):
+            from subtitles import expand_captions
+            words = expand_captions(clip["params"]["captions"])
+        elif not clip and (ret.get("trim_start") or ret.get("trim_end")):
+            t0, t1 = retention.tighten(words, t0, t1, ret, 20)
+            st["range"] = [round(t0, 2), round(t1, 2)]
+        text = next((o.get("text") for o in (clip["params"].get("overlays") or []) if o.get("text")), None) if clip else None
+        overlays = [subtitles.hook_overlay(text or "Your hook text shows up here", s.get("hook"))] if s.get("hook_text", True) else []
+        res = "720p"  # quick test: never above 720p
+        params = {"start": t0, "end": t1, "layout_id": s["layout_id"], "subtitles": s["subtitles"], "sub_style": s["sub_style"], "resolution": res,
+                  "motion": s.get("motion") or {}, "caption": s.get("caption") or {}, "look": s.get("look") or {}, "stock": {}, "cutaways": [],
+                  "smart_framing": s.get("smart_framing", True), "music": s.get("music") or {}, "pacing": s.get("pacing") or {}, "retention": ret, "overlays": overlays}
+        out_dir = TESTS_DIR / tid
+        out_dir.mkdir(parents=True, exist_ok=True)
+
+        def prog(p):
+            st["progress"] = int(p)
+        pipeline.render_clip(src, words, params, out_dir, "test", on_progress=prog)
+        st.update(status="ready", progress=100, url=f"/tests/{tid}/test.mp4")
+    except Exception as e:
+        st.update(status="error", error=str(e)[:300])
+
+
+def set_results(job_id: str, clip_id: str, results: dict) -> dict:
+    """Store how a clip did on YouTube (typed in by hand): {"watched_pct": 0-100, "views": n}. Empty = clear."""
+    out = {}
+    try:
+        if results.get("watched_pct") not in (None, ""):
+            out["watched_pct"] = max(0.0, min(100.0, float(results["watched_pct"])))
+        if results.get("views") not in (None, ""):
+            out["views"] = max(0, int(float(results["views"])))
+    except (TypeError, ValueError):
+        raise ValueError("Use plain numbers (stayed-to-watch is a percentage from 0 to 100).")
+    with _lock:
+        job = read_job(job_id)
+        if job is None:
+            raise JobGone(job_id)
+        clip = next(c for c in job["clips"] if c["id"] == clip_id)
+        if out:
+            clip["results"] = out
+        else:
+            clip.pop("results", None)
+        write_job(job)
+    return out
+
+
+def style_report() -> list[dict]:
+    """Per preset: how many clips, and the average of the results typed in so far."""
+    rows: dict = {}
+    for j in list_jobs():
+        pid = (j.get("options") or {}).get("preset")
+        if not pid:
+            continue
+        r = rows.setdefault(pid, {"preset": pid, "clips": 0, "rated": 0, "_w": 0.0, "_v": 0, "_nv": 0})
+        for c in j.get("clips") or []:
+            r["clips"] += 1
+            res = c.get("results") or {}
+            if "watched_pct" in res:
+                r["rated"] += 1
+                r["_w"] += res["watched_pct"]
+            if "views" in res:
+                r["_v"] += res["views"]
+                r["_nv"] += 1
+    out = []
+    for r in rows.values():
+        out.append({"preset": r["preset"], "clips": r["clips"], "rated": r["rated"],
+                    "avg_watched_pct": round(r["_w"] / r["rated"], 1) if r["rated"] else None,
+                    "avg_views": round(r["_v"] / r["_nv"]) if r["_nv"] else None})
+    return out
 
 
 def retry_job(job_id: str):

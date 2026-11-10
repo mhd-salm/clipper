@@ -1,0 +1,185 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:720px;height:1280px;overflow:hidden;font-family:"Segoe UI","Arial",sans-serif}
+#bg{position:absolute;left:0;top:0;width:720px;height:1280px}
+.blob{position:absolute;border-radius:50%}
+#stage{position:absolute;left:0;top:0;width:720px;height:1280px;transform-origin:50% 45%}
+.abs{position:absolute}
+.tx{position:absolute;text-align:center;font-weight:900;line-height:1.1;word-break:break-word;display:flex;align-items:center;justify-content:center}
+.card{position:absolute;border-radius:28px}
+.emo{position:absolute;text-align:center;font-family:"Segoe UI Emoji","Apple Color Emoji","Noto Color Emoji",sans-serif;line-height:1}
+</style>
+<div id="bg"></div>
+<div id="stage"></div>
+<script>
+const clamp = (x) => Math.min(1, Math.max(0, x));
+const eo = (t) => 1 - Math.pow(1 - clamp(t), 3);
+const eb = (t) => { t = clamp(t); const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2); };
+const stage = document.getElementById('stage'), bg = document.getElementById('bg');
+let A = [], blobs = [], TH = null, DUR = 3, CAM = 'zoomin', BGL = null;
+const TOP = 230, BOT = 880; // the middle band: hook text sits above it, captions below it
+
+function el(cls, css, html, parent) {
+  const d = document.createElement('div'); d.className = cls; Object.assign(d.style, css || {});
+  if (html != null) d.textContent = html; (parent || stage).appendChild(d); return d;
+}
+function fit(d, maxW, maxH, size, min) {
+  const h0 = d.style.height; d.style.height = 'auto'; d.style.width = maxW + 'px'; let s = size; d.style.fontSize = s + 'px';
+  while ((d.offsetHeight > maxH || d.scrollWidth > maxW + 2) && s > (min || 26)) { s -= 4; d.style.fontSize = s + 'px'; }
+  d.style.height = h0;
+}
+// entrance animations: kind = pop | up | left | right | fade
+function enter(d, s, dur, kind) {
+  A.push({ s, d: dur, fn: (p) => {
+    const e = eo(p), b = eb(p);
+    d.style.opacity = Math.min(1, p * 3);
+    d.style.transform = kind === 'pop' ? `scale(${0.4 + 0.6 * b})` : kind === 'up' ? `translateY(${(1 - e) * 70}px)` : kind === 'left' ? `translateX(${-(1 - e) * 160}px)` : kind === 'right' ? `translateX(${(1 - e) * 160}px)` : 'none';
+  } });
+  d.style.opacity = 0;
+}
+function emoji(ch, cx, cy, size, s) {
+  const d = el('emo', { left: (cx - size) + 'px', top: (cy - size / 2) + 'px', width: (size * 2) + 'px', fontSize: size + 'px' }, ch); enter(d, s, 0.5, 'pop');
+  A.push({ s: 0, d: 9999, fn: (p, t) => { d.style.marginTop = (Math.sin(t * 2.2) * 8) + 'px'; } });
+  return d;
+}
+function num(n, dec) { return dec ? n.toFixed(dec) : Math.round(n).toLocaleString('en-US'); }
+
+function setup(sc, theme, dur) {
+  A = []; TH = theme; DUR = dur; stage.innerHTML = ''; bg.innerHTML = ''; blobs = []; CAM = sc.cam || 'zoomin'; BGL = null;
+  bg.style.background = `linear-gradient(165deg, ${theme.bg[0]}, ${theme.bg[1]})`;
+  const pat = theme.text, kind = sc.bgs || 'blobs';
+  if (kind !== 'blobs') {
+    const L = el('abs', { left: '0px', top: '0px', width: '720px', height: '1280px', opacity: 0.09 }, null, bg);
+    if (kind === 'grid') { L.style.backgroundImage = `linear-gradient(${pat} 2px, transparent 2px), linear-gradient(90deg, ${pat} 2px, transparent 2px)`; L.style.backgroundSize = '90px 90px'; }
+    else if (kind === 'dots') { L.style.backgroundImage = `radial-gradient(circle, ${pat} 5px, transparent 6px)`; L.style.backgroundSize = '64px 64px'; }
+    else if (kind === 'stripes') { L.style.backgroundImage = `repeating-linear-gradient(45deg, ${pat} 0 26px, transparent 26px 86px)`; }
+    else if (kind === 'rays') { Object.assign(L.style, { left: '-640px', top: '-360px', width: '2000px', height: '2000px', backgroundImage: `repeating-conic-gradient(${pat} 0 7deg, transparent 7deg 22deg)`, opacity: 0.07 }); }
+    BGL = { L, kind };
+  }
+  [[-120, 140, 420, theme.accent, 0], [430, 760, 520, theme.accent2, 2], [60, 1000, 380, theme.accent, 4]].forEach(([x, y, r, c, ph]) => {
+    const b = el('blob', { left: x + 'px', top: y + 'px', width: r + 'px', height: r + 'px', background: c, opacity: 0.13 }, null, bg); blobs.push({ b, x, y, ph });
+  });
+  const texts = sc.texts || [], data = sc.data || [], icon = (sc.icons || [])[0];
+  const W = 720, mid = (TOP + BOT) / 2;
+  const T = theme;
+  if (sc.type === 'counter') {
+    const raw = texts[0] || '', m = raw.match(/^(\D*?)(-?[\d,]*\.?\d+)(.*)$/);
+    const pre = m ? m[1] : '', val = m ? parseFloat(m[2].replace(/,/g, '')) : 0, suf = m ? m[3] : '', dec = m && m[2].includes('.') ? (m[2].split('.')[1] || '').length : 0;
+    if (icon) emoji(icon, W / 2, TOP + 80, 120, 0.1);
+    const big = el('tx', { left: '30px', top: (mid - 150) + 'px', height: '300px', color: T.accent, textShadow: '0 8px 0 rgba(0,0,0,.25)' }, '');
+    const fin = pre + num(val, dec) + suf; big.style.width = '660px'; big.style.fontSize = Math.max(70, Math.min(220, Math.floor(640 / (Math.max(1, fin.length) * 0.58)))) + 'px';
+    A.push({ s: 0.15, d: 1.3, fn: (p) => { big.textContent = pre + num(val * eo(p), dec) + suf; big.style.opacity = Math.min(1, p * 4 + 0.001); big.style.transform = `scale(${0.85 + 0.15 * eb(p)})`; } });
+    if (texts[1]) { const lab = el('tx', { left: '50px', top: (mid + 150) + 'px', height: '150px', color: T.text, fontWeight: 800 }, texts[1]); fit(lab, 620, 150, 62, 30); enter(lab, 0.7, 0.5, 'up'); }
+  } else if (sc.type === 'list') {
+    const items = texts.slice(0, 5), hasTitle = items.length > 3 && false;
+    const rowH = 118, gap = 22, total = items.length * rowH + (items.length - 1) * gap, y0 = Math.max(TOP, mid - total / 2);
+    const span = Math.max(1.0, dur * 0.65);
+    items.forEach((tx, i) => {
+      const row = el('card', { left: '50px', top: (y0 + i * (rowH + gap)) + 'px', width: '620px', height: rowH + 'px', background: T.card });
+      const badge = el('tx', { left: '18px', top: '19px', width: '80px', height: '80px', borderRadius: '50%', background: T.palette[i % T.palette.length], color: '#101018', fontSize: '44px' }, String(i + 1), row);
+      const t = el('tx', { left: '112px', top: '0px', height: rowH + 'px', color: T.cardText, textAlign: 'left', justifyContent: 'flex-start', fontWeight: 800 }, tx, row);
+      fit(t, 480, rowH - 16, 46, 24);
+      enter(row, 0.25 + i * (span / Math.max(1, items.length)), 0.45, 'right');
+    });
+    if (icon) emoji(icon, W / 2, Math.max(TOP - 10, y0 - 70), 90, 0.05);
+  } else if (sc.type === 'bars') {
+    const rows = data.slice(0, 6), mx = Math.max(...rows.map(r => r[1]), 1), rowH = 96, gap = 34;
+    const total = rows.length * (rowH + gap), y0 = Math.max(TOP + (texts[0] ? 90 : 0), mid - total / 2 + (texts[0] ? 60 : 0));
+    if (texts[0]) { const ti = el('tx', { left: '40px', top: (TOP - 10) + 'px', height: '90px', color: T.text, fontWeight: 800 }, texts[0]); fit(ti, 640, 90, 50, 28); enter(ti, 0, 0.4, 'up'); }
+    const best = rows.reduce((a, r, i) => r[1] > rows[a][1] ? i : a, 0);
+    rows.forEach((r, i) => {
+      const y = y0 + i * (rowH + gap), s = 0.2 + i * 0.22;
+      const lab = el('tx', { left: '50px', top: (y - 4) + 'px', height: '34px', color: T.text, textAlign: 'left', justifyContent: 'flex-start', fontSize: '30px', fontWeight: 800 }, r[0]); lab.style.width = '620px'; enter(lab, s, 0.4, 'fade');
+      const track = el('card', { left: '50px', top: (y + 36) + 'px', width: '620px', height: '58px', borderRadius: '29px', background: T.card, opacity: 0.55 });
+      const fill = el('card', { left: '50px', top: (y + 36) + 'px', width: '10px', height: '58px', borderRadius: '29px', background: i === best ? T.accent : T.palette[(i + 1) % T.palette.length] });
+      const val = el('tx', { left: '50px', top: (y + 36) + 'px', height: '58px', color: '#101018', fontSize: '34px', justifyContent: 'flex-end', paddingRight: '22px' }, ''); val.style.width = '620px';
+      const wmax = 620 * (r[1] / mx), dec = String(r[1]).includes('.') ? 1 : 0, unit = r[2] || '';
+      A.push({ s, d: 0.9, fn: (p) => { const e = eo(p); fill.style.width = Math.max(58, wmax * e) + 'px'; track.style.opacity = 0.55 * Math.min(1, p * 4); fill.style.opacity = Math.min(1, p * 4); val.textContent = p > 0.02 ? num(r[1] * e, dec) + unit : ''; val.style.width = Math.max(58, wmax * e) + 'px'; } });
+    });
+    if (icon && !texts[0]) emoji(icon, W / 2, TOP + 10, 80, 0);
+  } else if (sc.type === 'compare') {
+    const a = texts[0] || data[0]?.[0] || '', b = texts[1] || data[1]?.[0] || '';
+    const cardH = 270, y1 = mid - cardH - 40, y2 = mid + 40;
+    [[a, y1, T.palette[0], 'left', data[0]], [b, y2, T.palette[1], 'right', data[1]]].forEach(([tx, y, col, dir, dd], i) => {
+      const c = el('card', { left: '50px', top: y + 'px', width: '620px', height: cardH + 'px', background: T.card, borderLeft: `18px solid ${col}` });
+      const t = el('tx', { left: '30px', top: '0px', height: (dd ? 170 : cardH) + 'px', color: T.cardText, fontWeight: 900 }, tx, c); fit(t, 560, dd ? 170 : cardH - 30, 74, 30);
+      if (dd) { const v = el('tx', { left: '30px', top: '165px', height: '90px', width: '560px', color: col, fontSize: '70px', textShadow: '0 4px 0 rgba(0,0,0,.2)' }, num(dd[1], String(dd[1]).includes('.') ? 1 : 0) + (dd[2] || ''), c); }
+      enter(c, 0.15 + i * 0.6, 0.5, dir);
+    });
+    const vs = el('tx', { left: (W / 2 - 44) + 'px', top: (mid - 44) + 'px', width: '88px', height: '88px', borderRadius: '50%', background: T.accent, color: '#101018', fontSize: '36px', boxShadow: '0 6px 0 rgba(0,0,0,.25)' }, 'VS'); enter(vs, 0.5, 0.4, 'pop');
+  } else if (sc.type === 'flow') {
+    const steps = texts.slice(0, 4), rowH = 130, gap = 62, total = steps.length * rowH + (steps.length - 1) * gap, y0 = mid - total / 2;
+    steps.forEach((tx, i) => {
+      const y = y0 + i * (rowH + gap), s = 0.2 + i * 0.7;
+      const c = el('card', { left: '60px', top: y + 'px', width: '600px', height: rowH + 'px', background: T.palette[i % T.palette.length] });
+      const t = el('tx', { left: '20px', top: '0px', height: rowH + 'px', color: '#101018', fontWeight: 900 }, tx, c); fit(t, 560, rowH - 14, 48, 24);
+      enter(c, s, 0.45, 'pop');
+      if (i < steps.length - 1) { const ar = el('tx', { left: (W / 2 - 40) + 'px', top: (y + rowH + 2) + 'px', width: '80px', height: (gap - 4) + 'px', color: T.accent, fontSize: '52px' }, '↓'); enter(ar, s + 0.35, 0.3, 'fade'); }
+    });
+  } else if (sc.type === 'quote') {
+    const mark = el('tx', { left: '40px', top: (TOP - 10) + 'px', width: '200px', height: '200px', color: T.accent, fontSize: '260px', fontFamily: 'Georgia,serif', justifyContent: 'flex-start', lineHeight: '1' }, '\u201C'); enter(mark, 0, 0.5, 'pop');
+    const q = el('tx', { left: '50px', top: (TOP + 130) + 'px', height: '330px', color: T.text, fontWeight: 800, fontStyle: 'italic', lineHeight: '1.2' }, texts[0] || ''); fit(q, 620, 330, 66, 30); enter(q, 0.25, 0.6, 'up');
+    if (texts[1]) { const who = el('tx', { left: '50px', top: (TOP + 480) + 'px', height: '70px', color: T.accent, fontSize: '40px', fontWeight: 800 }, '\u2014 ' + texts[1]); fit(who, 620, 70, 40, 24); enter(who, 0.9, 0.5, 'fade'); }
+  } else if (sc.type === 'donut') {
+    const rows = data.slice(0, 5), tot = rows.reduce((a, r) => a + r[1], 0) || 1, R = 190, C = 2 * Math.PI * R;
+    const NS = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(NS, 'svg'); svg.setAttribute('viewBox', '0 0 720 520'); svg.setAttribute('width', 720); svg.setAttribute('height', 520);
+    Object.assign(svg.style, { position: 'absolute', left: '0px', top: (TOP - 30) + 'px' });
+    const mk = (stroke, extra) => { const c = document.createElementNS(NS, 'circle'); [['cx', 360], ['cy', 260], ['r', R], ['fill', 'none'], ['stroke', stroke], ['stroke-width', 70], ...(extra || [])].forEach(([a, b]) => c.setAttribute(a, b)); svg.appendChild(c); return c; };
+    mk(T.card);
+    const segs = rows.map((r, i) => mk(T.palette[i % T.palette.length], [['transform', 'rotate(-90 360 260)']]));
+    stage.appendChild(svg);
+    let cum = 0; const bounds = rows.map(r => { const a = cum / tot * C, l = r[1] / tot * C; cum += r[1]; return [a, l]; });
+    A.push({ s: 0.15, d: 1.6, fn: (p) => { const sw = eo(p) * C; segs.forEach((c, i) => { const [a, l] = bounds[i], len = Math.max(0, Math.min(l, sw - a)); c.setAttribute('stroke-dasharray', `${len} ${C}`); c.setAttribute('stroke-dashoffset', -a); }); svg.style.opacity = Math.min(1, p * 4); } });
+    const top = rows.reduce((a, r, i) => r[1] > rows[a][1] ? i : a, 0), pctTop = Math.round(rows[top][1] / tot * 100) + '%';
+    const mid1 = el('tx', { left: '210px', top: (TOP + 130) + 'px', width: '300px', height: '110px', color: T.accent, fontSize: '88px' }, pctTop); enter(mid1, 0.5, 0.5, 'pop');
+    const mid2 = el('tx', { left: '210px', top: (TOP + 232) + 'px', width: '300px', height: '60px', color: T.text, fontSize: '34px', fontWeight: 800 }, rows[top][0]); fit(mid2, 300, 60, 34, 20); enter(mid2, 0.6, 0.5, 'fade');
+    rows.forEach((r, i) => {
+      const y = TOP + 520 + i * 52;
+      const row = el('abs', { left: '120px', top: y + 'px', width: '480px', height: '44px', color: T.text, fontSize: '30px', fontWeight: 700, display: 'flex', alignItems: 'center', gap: '14px' }, null);
+      el('abs', { position: 'relative', width: '26px', height: '26px', borderRadius: '8px', background: T.palette[i % T.palette.length], flex: 'none' }, null, row);
+      el('abs', { position: 'relative', flex: '1' }, r[0], row); el('abs', { position: 'relative' }, Math.round(r[1] / tot * 100) + '%', row);
+      enter(row, 0.9 + i * 0.15, 0.4, 'right');
+    });
+  } else if (sc.type === 'timeline') {
+    const items = texts.slice(0, 5), rowH = 120, gap = 30, total = items.length * rowH + (items.length - 1) * gap, y0 = Math.max(TOP, mid - total / 2), span = Math.max(1.2, dur * 0.65);
+    const line = el('abs', { left: '196px', top: (y0 + 20) + 'px', width: '8px', height: '10px', background: T.accent, borderRadius: '4px' });
+    A.push({ s: 0.1, d: span, fn: (p) => { line.style.height = Math.max(10, (total - 40) * eo(p)) + 'px'; } });
+    items.forEach((tx, i) => {
+      const m = tx.match(/^\s*([^:]{1,14}):\s*(.+)$/), yr = m ? m[1].trim() : String(i + 1), body = m ? m[2].trim() : tx, y = y0 + i * (rowH + gap), s0 = 0.25 + i * (span / Math.max(1, items.length));
+      const node = el('tx', { left: '180px', top: (y + 36) + 'px', width: '40px', height: '40px', borderRadius: '50%', background: T.palette[i % T.palette.length], boxShadow: `0 0 0 8px ${T.bg[0]}` }, ''); enter(node, s0, 0.35, 'pop');
+      const yl = el('tx', { left: '20px', top: y + 'px', width: '150px', height: rowH + 'px', color: T.accent, fontSize: '44px', justifyContent: 'flex-end' }, yr); fit(yl, 150, rowH, 44, 22); enter(yl, s0, 0.4, 'left');
+      const bl = el('tx', { left: '240px', top: y + 'px', height: rowH + 'px', color: T.text, fontWeight: 800, textAlign: 'left', justifyContent: 'flex-start' }, body); fit(bl, 450, rowH, 42, 22); enter(bl, s0 + 0.1, 0.45, 'right');
+    });
+  } else if (sc.type === 'stats') {
+    const rows = data.slice(0, 4), rowH = 150, gap = 26, total = rows.length * rowH + (rows.length - 1) * gap, y0 = Math.max(TOP, mid - total / 2);
+    rows.forEach((r, i) => {
+      const y = y0 + i * (rowH + gap), s0 = 0.2 + i * 0.35, col = T.palette[i % T.palette.length];
+      const card = el('card', { left: '40px', top: y + 'px', width: '640px', height: rowH + 'px', background: T.card, borderLeft: `14px solid ${col}` });
+      const dec = String(r[1]).includes('.') ? 1 : 0, unit = r[2] || '';
+      const nv = el('tx', { left: '20px', top: '0px', height: rowH + 'px', color: col, justifyContent: 'flex-start', whiteSpace: 'nowrap' }, num(r[1], dec) + unit, card); fit(nv, 330, rowH, 84, 28); nv.style.width = '330px';
+      const lb = el('tx', { left: '360px', top: '0px', height: rowH + 'px', color: T.cardText, fontWeight: 800, textAlign: 'left', justifyContent: 'flex-start' }, r[0], card); fit(lb, 260, rowH - 10, 40, 22);
+      A.push({ s: s0, d: 1.0, fn: (p) => { nv.textContent = p > 0 ? num(r[1] * eo(p), dec) + unit : ''; } });
+      enter(card, s0, 0.45, i % 2 ? 'right' : 'left');
+    });
+  } else { // text
+    const main = texts[0] || '';
+    let y = mid;
+    if (icon) { emoji(icon, W / 2, TOP + 120, 170, 0.1); y = mid + 120; }
+    const big = el('tx', { left: '40px', top: (y - 200) + 'px', height: '400px', color: T.accent, textShadow: '0 8px 0 rgba(0,0,0,.25)' }, main);
+    fit(big, 640, texts[1] ? 250 : 340, 130, 44); big.style.height = (texts[1] ? 250 : 340) + 'px'; big.style.top = (texts[1] ? y - 200 : y - 170) + 'px'; enter(big, 0.12, 0.5, 'pop');
+    if (texts[1]) { const sub = el('tx', { left: '50px', top: (y + 70) + 'px', height: '200px', color: T.text, fontWeight: 800 }, texts[1]); fit(sub, 620, 200, 62, 30); enter(sub, 0.7, 0.5, 'up'); }
+  }
+}
+window.setup = setup;
+window.at = (t) => {
+  const k = Math.min(1, t / Math.max(1, DUR));
+  stage.style.transform = CAM === 'zoomout' ? `scale(${1.07 - 0.07 * k})` : CAM === 'panleft' ? `translateX(${22 - 44 * k}px) scale(1.03)` : CAM === 'panright' ? `translateX(${-22 + 44 * k}px) scale(1.03)`
+    : CAM === 'tiltup' ? `translateY(${24 - 48 * k}px) scale(1.03)` : CAM === 'drift' ? `rotate(${-0.9 + 1.8 * k}deg) scale(1.03)` : `scale(${1 + 0.07 * k})`;
+  if (BGL) { if (BGL.kind === 'rays') BGL.L.style.transform = `rotate(${t * 5}deg)`; else BGL.L.style.backgroundPosition = `${t * 22}px ${t * 14}px`; }
+  blobs.forEach(o => { o.b.style.transform = `translate(${Math.sin(t * 0.7 + o.ph) * 34}px, ${Math.cos(t * 0.5 + o.ph) * 28}px)`; });
+  A.forEach(a => { a.fn(clamp((t - a.s) / a.d), t); });
+};
+</script>

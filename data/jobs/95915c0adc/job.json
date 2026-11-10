@@ -1,0 +1,1791 @@
+{
+  "id": "95915c0adc",
+  "created": 1794216028.196183,
+  "url": "https://www.youtube.com/watch?v=fFn4z3M6c6w",
+  "source": "manual",
+  "creator_id": "UCzQUP1qoWDoEbmsQxvdjxgQ",
+  "title": "Joe Rogan Experience #2431 - Shane Gillis",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 92,
+        "retention": 85,
+        "value": 88,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "She actually knocked me out cold",
+        "tip": "Cut the slow intro to get directly to the punchy realization of her strength.",
+        "caption": "Never underestimate a partner until you test their strength on a punching bag.",
+        "description": "A shocking realization about a friend's girlfriend leads to a hilarious warning about underestimated strength. Could you handle getting knocked out by your significant other? This story serves as a reminder to be careful who you challenge.",
+        "hashtags": [
+          "relationships",
+          "comedy",
+          "strength",
+          "storytime",
+          "funny"
+        ]
+      },
+      "id": "c1",
+      "title": "When Your Girlfriend Can Knock You Out",
+      "reason": "A shocking and hilarious story about realizing your girlfriend hits harder than a professional punching bag.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 662.68,
+        "end": 715.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "She actually knocked me out cold",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtu.be/kQ925uGngYw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794218175.987917
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 88,
+        "value": 85,
+        "shareability": 90,
+        "overall": 88,
+        "hook_text": "The worst thing to wear on dates",
+        "tip": "Lean into the visual comedy of the awkward mouth-tape scenario.",
+        "caption": "Dating with medical equipment is a challenge no one prepared us for.",
+        "description": "Shane Gillis shares an awkward story about how anti-snoring mouthpieces can ruin a romantic moment. The conversation shifts to the unexpected benefits of getting a deviated septum fixed. Have you ever had a medical issue ruin your date night?",
+        "hashtags": [
+          "dating",
+          "comedy",
+          "nosejob",
+          "funny",
+          "health"
+        ]
+      },
+      "id": "c2",
+      "title": "Awkward Romance and Broken Noses in Jiu-Jitsu",
+      "reason": "A hilarious pivot from anti-snoring mouthpieces ruining romantic moments to getting a deviated septum fixed after decades of combat sports.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 463.85,
+        "end": 492.62,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The worst thing to wear on dates",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/d7NHbhCCMew",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794218239.9111528
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 82,
+        "value": 85,
+        "shareability": 85,
+        "overall": 88,
+        "hook_text": "I was in total panic mode",
+        "tip": "Highlight the contrast between the comedian's fanboy reaction and the athlete's size.",
+        "caption": "Meeting a massive star like Aaron Judge is enough to make any comedian freeze up.",
+        "description": "Shane Gillis talks about the moment he went into full panic mode when a professional baseball superstar approached him. It is a hilarious look at how fame works in reverse. Who is the one celebrity that would leave you starstruck?",
+        "hashtags": [
+          "baseball",
+          "aaronjudge",
+          "comedy",
+          "starstruck",
+          "panic"
+        ]
+      },
+      "id": "c3",
+      "title": "Aaron Judge Left a Comedian in Full Panic",
+      "reason": "A great celebrity encounter story where a massive baseball star unexpectedly approaches a fanboy comedian.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1474.89,
+        "end": 1514.46,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "I was in total panic mode",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtu.be/1Sm0UXZhMho",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794218365.997556
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 85,
+        "value": 80,
+        "shareability": 88,
+        "overall": 85,
+        "hook_text": "Why your liver needs an endurance workout",
+        "tip": "Tighten the 'marathon runner' analogy to make it punchier and more ridiculous.",
+        "caption": "The logic behind treating your liver like an elite endurance athlete.",
+        "description": "A bizarre pseudo-scientific argument suggests that regular drinking is actually good for your liver's endurance. It is a wild take on health management that you definitely shouldn't try at home. Is this the worst logic you have ever heard?",
+        "hashtags": [
+          "alcohol",
+          "logic",
+          "health",
+          "comedy",
+          "funny"
+        ]
+      },
+      "id": "c4",
+      "title": "The Marathon Runner Theory of Liver Damage",
+      "reason": "A hilarious pseudo-scientific breakdown of how daily drinking secretly turns your liver into a jacked endurance athlete.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1641.37,
+        "end": 1684.62,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why your liver needs an endurance workout",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/OAdNKfi_sJM",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794219012.1542416
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 75,
+        "value": 78,
+        "shareability": 92,
+        "overall": 85,
+        "hook_text": "I found this hidden in the White House",
+        "tip": "Focus the reading more on the most extreme lines to keep the energy high.",
+        "caption": "Reading the most unhinged presidential plaque ever left in the White House.",
+        "description": "The guests react to a wild, highly personalized political plaque left behind in the White House. It provides a unique look at the intense nature of presidential transitions and political rhetoric. What is the craziest thing you have ever read?",
+        "hashtags": [
+          "politics",
+          "history",
+          "whitehouse",
+          "funny",
+          "news"
+        ]
+      },
+      "id": "c5",
+      "title": "Reading Donald Trump's Wild White House Plaques",
+      "reason": "Hilarity ensues as they read the wildly unhinged and personalized presidential plaque left behind in the White House.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2373.16,
+        "end": 2420.14,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "I found this hidden in the White House",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/PRcT4qh_KSI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794219053.8309226
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 80,
+        "shareability": 85,
+        "overall": 82,
+        "hook_text": "I got rejected by a legend",
+        "tip": "Focus on the 'comedian hierarchy' aspect to make it more relatable to fans of the craft.",
+        "caption": "Trying to bond with a comedy legend is a high-stakes gamble that often ends in rejection.",
+        "description": "Shane Gillis recounts an agonizingly funny encounter outside a famous comedy cellar while trying to get a cigarette from a legend. It shows that even pros get nervous around their idols. Have you ever been instantly shut down by someone you admire?",
+        "hashtags": [
+          "comedy",
+          "legends",
+          "fail",
+          "awkward",
+          "podcast"
+        ]
+      },
+      "id": "c6",
+      "title": "Asking Dave Attell for a Cigarette Goes Wrong",
+      "reason": "An agonizingly funny story about attempting to bond with a comedy legend outside the Cellar and getting instantly shut down.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1026.12,
+        "end": 1050.06,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "I got rejected by a legend",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/xAfpFJ3ICWo",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794219095.641655
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 70,
+        "value": 75,
+        "shareability": 80,
+        "overall": 78,
+        "hook_text": "I destroyed everything in front of him",
+        "tip": "Explain who is at the scene (John Stewart) earlier to build higher stakes.",
+        "caption": "Trying to play it cool around celebrities usually leads to disaster.",
+        "description": "A simple attempt to offer a compliment turns into a nightmare when a piece of property gets destroyed in front of a comedy icon. Why does the pressure to be cool always lead to the most awkward moments? What is the most embarrassing thing you have broken?",
+        "hashtags": [
+          "fail",
+          "comedy",
+          "awkward",
+          "embarrassing",
+          "celebrity"
+        ]
+      },
+      "id": "c7",
+      "title": "Knocking Over a Statue in Front of John Stewart",
+      "reason": "A painfully relatable and hilarious retelling of trying to give a compliment and destroying property instead.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1317.8,
+        "end": 1342.3,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "I destroyed everything in front of him",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/ZXjZtnTxbOk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794219205.168854
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 80,
+        "value": 70,
+        "shareability": 65,
+        "overall": 76,
+        "hook_text": "He was literally dying in his sleep",
+        "tip": "Improve the hook by focusing on the specific health scare rather than generic weight loss.",
+        "caption": "When you realize your health is on the line, the weight loss starts immediately.",
+        "description": "Shane Gillis and friends discuss the brutal reality of sleep apnea and the extreme steps taken to avoid dying in their sleep. It is a sobering look at how health issues force lifestyle changes. Would you take drastic action to save your life?",
+        "hashtags": [
+          "comedy",
+          "health",
+          "weightloss",
+          "podcast"
+        ]
+      },
+      "id": "c8",
+      "title": "Sleep Apnea and Comedian Weight Loss Stories",
+      "reason": "The guests bond over the terrifying reality of sleep apnea and dropping massive amounts of weight to avoid dying in their sleep.",
+      "score": 76,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 184.73,
+        "end": 213.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "He was literally dying in his sleep",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/-_c3uIdvUq4",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794219247.6719706
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 15,
+    "max_len": 45,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794216028.201915,
+  "finished": 1794218804.1827464,
+  "log": [
+    {
+      "t": 1794216028.2143033,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=fFn4z3M6c6w"
+    },
+    {
+      "t": 1794216231.0249875,
+      "level": "ok",
+      "msg": "Downloaded \"Joe Rogan Experience #2431 - Shane Gillis\" (176:52) in 3:22"
+    },
+    {
+      "t": 1794216231.0308347,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794216231.044517,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794216236.1025834,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794216236.8995447,
+      "level": "ok",
+      "msg": "Transcribed 5801 segments / 32060 words in 0:05"
+    },
+    {
+      "t": 1794216236.9098077,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (15-45s each)"
+    },
+    {
+      "t": 1794216236.924735,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794216238.3336864,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794216244.9995432,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794216245.0456274,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Joe Rogan and comedian Shane Gillis discuss aging, health management, reducing alcohol consumption, weight loss, and the dangers and personal stories surrounding sleep apnea and CPAP machines. | People: Joe Rogan; Shane Gillis; Ari Shaffir; Mark Normand; Jelly Roll; Sam Tallent; Reggie Whit"
+    },
+    {
+      "t": 1794216277.3329577,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794216277.3571763,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794216278.8054655,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794216319.2634306,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794216319.2677355,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794216325.6323314,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794216326.0456476,
+      "level": "ok",
+      "msg": "AI picked 8 clips in 1:29"
+    },
+    {
+      "t": 1794216326.0502796,
+      "level": "info",
+      "msg": "  \u2022 Sleep Apnea and Comedian Weight Loss Stories  [3:04-3:33, score 85]"
+    },
+    {
+      "t": 1794216326.0559957,
+      "level": "info",
+      "msg": "  \u2022 Awkward Romance and Broken Noses in Jiu-Jitsu  [7:43-8:12, score 90]"
+    },
+    {
+      "t": 1794216326.0619385,
+      "level": "info",
+      "msg": "  \u2022 When Your Girlfriend Can Knock You Out  [11:02-11:55, score 92]"
+    },
+    {
+      "t": 1794216326.067477,
+      "level": "info",
+      "msg": "  \u2022 Asking Dave Attell for a Cigarette Goes Wrong  [17:06-17:30, score 94]"
+    },
+    {
+      "t": 1794216326.076573,
+      "level": "info",
+      "msg": "  \u2022 Knocking Over a Statue in Front of John Stewart  [21:57-22:22, score 95]"
+    },
+    {
+      "t": 1794216326.0824113,
+      "level": "info",
+      "msg": "  \u2022 Aaron Judge Left a Comedian in Full Panic  [24:34-25:14, score 88]"
+    },
+    {
+      "t": 1794216326.089023,
+      "level": "info",
+      "msg": "  \u2022 The Marathon Runner Theory of Liver Damage  [27:21-28:04, score 91]"
+    },
+    {
+      "t": 1794216326.1014957,
+      "level": "info",
+      "msg": "  \u2022 Reading Donald Trump's Wild White House Plaques  [39:33-40:20, score 96]"
+    },
+    {
+      "t": 1794216326.1915686,
+      "level": "ok",
+      "msg": "Tightened the clips: 0.1s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794216326.2034228,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794216326.2468803,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794216327.6663196,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794216330.7494662,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794216330.7552574,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794216337.813591,
+      "level": "warn",
+      "msg": "gemini-3.5-flash-lite: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794216337.8185008,
+      "level": "info",
+      "msg": "Trying gemini-3.1-flash-lite..."
+    },
+    {
+      "t": 1794216385.6160438,
+      "level": "ok",
+      "msg": "gemini-3.1-flash-lite answered"
+    },
+    {
+      "t": 1794216385.6283174,
+      "level": "ok",
+      "msg": "Rated 8 clips in 0:59"
+    },
+    {
+      "t": 1794216385.6327202,
+      "level": "info",
+      "msg": "  - Sleep Apnea and Comedian Weight Loss Stories: 76/100 (hook 75, retention 80, value 70, share 65)"
+    },
+    {
+      "t": 1794216385.6371727,
+      "level": "info",
+      "msg": "  - Awkward Romance and Broken Noses in Jiu-Jitsu: 88/100 (hook 85, retention 88, value 85, share 90)"
+    },
+    {
+      "t": 1794216385.6437685,
+      "level": "info",
+      "msg": "  - When Your Girlfriend Can Knock You Out: 90/100 (hook 92, retention 85, value 88, share 95)"
+    },
+    {
+      "t": 1794216385.6488926,
+      "level": "info",
+      "msg": "  - Asking Dave Attell for a Cigarette Goes Wrong: 82/100 (hook 80, retention 75, value 80, share 85)"
+    },
+    {
+      "t": 1794216385.6538775,
+      "level": "info",
+      "msg": "  - Knocking Over a Statue in Front of John Stewart: 78/100 (hook 78, retention 70, value 75, share 80)"
+    },
+    {
+      "t": 1794216385.66063,
+      "level": "info",
+      "msg": "  - Aaron Judge Left a Comedian in Full Panic: 88/100 (hook 88, retention 82, value 85, share 85)"
+    },
+    {
+      "t": 1794216385.6738136,
+      "level": "info",
+      "msg": "  - The Marathon Runner Theory of Liver Damage: 85/100 (hook 82, retention 85, value 80, share 88)"
+    },
+    {
+      "t": 1794216385.6803331,
+      "level": "info",
+      "msg": "  - Reading Donald Trump's Wild White House Plaques: 85/100 (hook 90, retention 75, value 78, share 92)"
+    },
+    {
+      "t": 1794216385.6948287,
+      "level": "ok",
+      "msg": "8 distinct clips found, 8 rated 50+"
+    },
+    {
+      "t": 1794217701.1310418,
+      "level": "info",
+      "msg": "Rendering clip 1/8: When Your Girlfriend Can Knock You Out"
+    },
+    {
+      "t": 1794217827.4533293,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:06"
+    },
+    {
+      "t": 1794217827.4743252,
+      "level": "info",
+      "msg": "Rendering clip 2/8: Awkward Romance and Broken Noses in Jiu-Jitsu"
+    },
+    {
+      "t": 1794217962.9030561,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:15"
+    },
+    {
+      "t": 1794217962.9233215,
+      "level": "info",
+      "msg": "Rendering clip 3/8: Aaron Judge Left a Comedian in Full Panic"
+    },
+    {
+      "t": 1794218088.3376024,
+      "level": "ok",
+      "msg": "Clip 3 ready in 2:05"
+    },
+    {
+      "t": 1794218088.3602278,
+      "level": "info",
+      "msg": "Rendering clip 4/8: The Marathon Runner Theory of Liver Damage"
+    },
+    {
+      "t": 1794218318.5404215,
+      "level": "ok",
+      "msg": "Clip 4 ready in 3:50"
+    },
+    {
+      "t": 1794218318.5640337,
+      "level": "info",
+      "msg": "Rendering clip 5/8: Reading Donald Trump's Wild White House Plaques"
+    },
+    {
+      "t": 1794218503.9008777,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:05"
+    },
+    {
+      "t": 1794218503.9160187,
+      "level": "info",
+      "msg": "Rendering clip 6/8: Asking Dave Attell for a Cigarette Goes Wrong"
+    },
+    {
+      "t": 1794218597.0771272,
+      "level": "ok",
+      "msg": "Clip 6 ready in 1:33"
+    },
+    {
+      "t": 1794218597.0934038,
+      "level": "info",
+      "msg": "Rendering clip 7/8: Knocking Over a Statue in Front of John Stewart"
+    },
+    {
+      "t": 1794218694.7700224,
+      "level": "ok",
+      "msg": "Clip 7 ready in 1:37"
+    },
+    {
+      "t": 1794218694.7868166,
+      "level": "info",
+      "msg": "Rendering clip 8/8: Sleep Apnea and Comedian Weight Loss Stories"
+    },
+    {
+      "t": 1794218804.1794095,
+      "level": "ok",
+      "msg": "Clip 8 ready in 1:49"
+    },
+    {
+      "t": 1794218804.1892886,
+      "level": "ok",
+      "msg": "All done in 18:23"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "PowerfulJRE",
+  "duration": 10612,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 106.13,
+      "value": 0.5329224430046827
+    },
+    {
+      "start_time": 106.13,
+      "end_time": 212.26,
+      "value": 0.26162493574842743
+    },
+    {
+      "start_time": 212.26,
+      "end_time": 318.39,
+      "value": 0.12894431588318186
+    },
+    {
+      "start_time": 318.39,
+      "end_time": 424.52,
+      "value": 0.14991805057743451
+    },
+    {
+      "start_time": 424.52,
+      "end_time": 530.65,
+      "value": 0.05928537541346082
+    },
+    {
+      "start_time": 530.65,
+      "end_time": 636.78,
+      "value": 0.09755626593373819
+    },
+    {
+      "start_time": 636.78,
+      "end_time": 742.91,
+      "value": 0.20847727740260164
+    },
+    {
+      "start_time": 742.91,
+      "end_time": 849.04,
+      "value": 0.26044804039020664
+    },
+    {
+      "start_time": 849.04,
+      "end_time": 955.17,
+      "value": 0.19108325133670148
+    },
+    {
+      "start_time": 955.17,
+      "end_time": 1061.3,
+      "value": 0.25256348847195864
+    },
+    {
+      "start_time": 1061.3,
+      "end_time": 1167.43,
+      "value": 0.7874359540292692
+    },
+    {
+      "start_time": 1167.43,
+      "end_time": 1273.56,
+      "value": 0.5934424754130005
+    },
+    {
+      "start_time": 1273.56,
+      "end_time": 1379.69,
+      "value": 0.0989057541566249
+    },
+    {
+      "start_time": 1379.69,
+      "end_time": 1485.82,
+      "value": 0.12592925179641265
+    },
+    {
+      "start_time": 1485.82,
+      "end_time": 1591.95,
+      "value": 0.1478401445016217
+    },
+    {
+      "start_time": 1591.95,
+      "end_time": 1698.08,
+      "value": 0.12240706339356519
+    },
+    {
+      "start_time": 1698.08,
+      "end_time": 1804.21,
+      "value": 0.13984177528209454
+    },
+    {
+      "start_time": 1804.21,
+      "end_time": 1910.34,
+      "value": 0.02038890818210884
+    },
+    {
+      "start_time": 1910.34,
+      "end_time": 2016.47,
+      "value": 0.03426523609220013
+    },
+    {
+      "start_time": 2016.47,
+      "end_time": 2122.6,
+      "value": 0.15090059388103896
+    },
+    {
+      "start_time": 2122.6,
+      "end_time": 2228.73,
+      "value": 0.622456230793934
+    },
+    {
+      "start_time": 2228.73,
+      "end_time": 2334.86,
+      "value": 0.19189136705104362
+    },
+    {
+      "start_time": 2334.86,
+      "end_time": 2440.99,
+      "value": 0.14300187917643267
+    },
+    {
+      "start_time": 2440.99,
+      "end_time": 2547.12,
+      "value": 0.16344718099876807
+    },
+    {
+      "start_time": 2547.12,
+      "end_time": 2653.25,
+      "value": 0.1907110275606857
+    },
+    {
+      "start_time": 2653.25,
+      "end_time": 2759.38,
+      "value": 0.25697188104302354
+    },
+    {
+      "start_time": 2759.38,
+      "end_time": 2865.51,
+      "value": 0.09018070524431562
+    },
+    {
+      "start_time": 2865.51,
+      "end_time": 2971.64,
+      "value": 0.09194344104143089
+    },
+    {
+      "start_time": 2971.64,
+      "end_time": 3077.77,
+      "value": 0.12479078909026405
+    },
+    {
+      "start_time": 3077.77,
+      "end_time": 3183.9,
+      "value": 0.26616983826709556
+    },
+    {
+      "start_time": 3183.9,
+      "end_time": 3290.03,
+      "value": 0.1747129372192972
+    },
+    {
+      "start_time": 3290.03,
+      "end_time": 3396.16,
+      "value": 0.03810378573532527
+    },
+    {
+      "start_time": 3396.16,
+      "end_time": 3502.29,
+      "value": 0.0804382854492209
+    },
+    {
+      "start_time": 3502.29,
+      "end_time": 3608.42,
+      "value": 0.12167716488570164
+    },
+    {
+      "start_time": 3608.42,
+      "end_time": 3714.55,
+      "value": 0.17107387364084325
+    },
+    {
+      "start_time": 3714.55,
+      "end_time": 3820.68,
+      "value": 0.08530463493599531
+    },
+    {
+      "start_time": 3820.68,
+      "end_time": 3926.81,
+      "value": 0.03802580993997779
+    },
+    {
+      "start_time": 3926.81,
+      "end_time": 4032.94,
+      "value": 0.008574279613895406
+    },
+    {
+      "start_time": 4032.94,
+      "end_time": 4139.07,
+      "value": 0.039710409000991494
+    },
+    {
+      "start_time": 4139.07,
+      "end_time": 4245.2,
+      "value": 0.19690048708075455
+    },
+    {
+      "start_time": 4245.2,
+      "end_time": 4351.33,
+      "value": 0.019114032092809513
+    },
+    {
+      "start_time": 4351.33,
+      "end_time": 4457.46,
+      "value": 0.10865474033448574
+    },
+    {
+      "start_time": 4457.46,
+      "end_time": 4563.59,
+      "value": 0.05469861220465883
+    },
+    {
+      "start_time": 4563.59,
+      "end_time": 4669.72,
+      "value": 0.11581821329819332
+    },
+    {
+      "start_time": 4669.72,
+      "end_time": 4775.85,
+      "value": 0.2605025993058368
+    },
+    {
+      "start_time": 4775.85,
+      "end_time": 4881.98,
+      "value": 0.1513665495522258
+    },
+    {
+      "start_time": 4881.98,
+      "end_time": 4988.11,
+      "value": 0.1071701906307825
+    },
+    {
+      "start_time": 4988.11,
+      "end_time": 5094.24,
+      "value": 0.09122368180107382
+    },
+    {
+      "start_time": 5094.24,
+      "end_time": 5200.37,
+      "value": 0.07670510371778613
+    },
+    {
+      "start_time": 5200.37,
+      "end_time": 5306.5,
+      "value": 0.7680224433812841
+    },
+    {
+      "start_time": 5306.5,
+      "end_time": 5412.63,
+      "value": 0.1692428506817756
+    },
+    {
+      "start_time": 5412.63,
+      "end_time": 5518.76,
+      "value": 0.20384440466775824
+    },
+    {
+      "start_time": 5518.76,
+      "end_time": 5624.89,
+      "value": 0.13890893048334724
+    },
+    {
+      "start_time": 5624.89,
+      "end_time": 5731.02,
+      "value": 0.1812593633318959
+    },
+    {
+      "start_time": 5731.02,
+      "end_time": 5837.15,
+      "value": 0.11603863775496918
+    },
+    {
+      "start_time": 5837.15,
+      "end_time": 5943.28,
+      "value": 0.12895561392411767
+    },
+    {
+      "start_time": 5943.28,
+      "end_time": 6049.41,
+      "value": 0.11945103237538929
+    },
+    {
+      "start_time": 6049.41,
+      "end_time": 6155.54,
+      "value": 0.07900613805504322
+    },
+    {
+      "start_time": 6155.54,
+      "end_time": 6261.67,
+      "value": 0.07603753756397436
+    },
+    {
+      "start_time": 6261.67,
+      "end_time": 6367.8,
+      "value": 0.397071322472386
+    },
+    {
+      "start_time": 6367.8,
+      "end_time": 6473.93,
+      "value": 0.19956933541736588
+    },
+    {
+      "start_time": 6473.93,
+      "end_time": 6580.06,
+      "value": 0.04971614396382206
+    },
+    {
+      "start_time": 6580.06,
+      "end_time": 6686.19,
+      "value": 0.12039929529837659
+    },
+    {
+      "start_time": 6686.19,
+      "end_time": 6792.32,
+      "value": 0.12595149380862528
+    },
+    {
+      "start_time": 6792.32,
+      "end_time": 6898.45,
+      "value": 1.0
+    },
+    {
+      "start_time": 6898.45,
+      "end_time": 7004.58,
+      "value": 0.13643288917011318
+    },
+    {
+      "start_time": 7004.58,
+      "end_time": 7110.71,
+      "value": 0.06464431626622086
+    },
+    {
+      "start_time": 7110.71,
+      "end_time": 7216.84,
+      "value": 0.16423501817809724
+    },
+    {
+      "start_time": 7216.84,
+      "end_time": 7322.97,
+      "value": 0.09657433420499918
+    },
+    {
+      "start_time": 7322.97,
+      "end_time": 7429.1,
+      "value": 0.11505158811025072
+    },
+    {
+      "start_time": 7429.1,
+      "end_time": 7535.23,
+      "value": 0.0
+    },
+    {
+      "start_time": 7535.23,
+      "end_time": 7641.36,
+      "value": 0.06435602309345317
+    },
+    {
+      "start_time": 7641.36,
+      "end_time": 7747.49,
+      "value": 0.05511158617960544
+    },
+    {
+      "start_time": 7747.49,
+      "end_time": 7853.62,
+      "value": 0.14292176286905606
+    },
+    {
+      "start_time": 7853.62,
+      "end_time": 7959.75,
+      "value": 0.1161856732278886
+    },
+    {
+      "start_time": 7959.75,
+      "end_time": 8065.88,
+      "value": 0.0894343424973106
+    },
+    {
+      "start_time": 8065.88,
+      "end_time": 8172.01,
+      "value": 0.07483194646930266
+    },
+    {
+      "start_time": 8172.01,
+      "end_time": 8278.14,
+      "value": 0.1737510908966663
+    },
+    {
+      "start_time": 8278.14,
+      "end_time": 8384.27,
+      "value": 0.13626567172663326
+    },
+    {
+      "start_time": 8384.27,
+      "end_time": 8490.4,
+      "value": 0.4576942925870077
+    },
+    {
+      "start_time": 8490.4,
+      "end_time": 8596.53,
+      "value": 0.10361607158232733
+    },
+    {
+      "start_time": 8596.53,
+      "end_time": 8702.66,
+      "value": 0.02883898981608753
+    },
+    {
+      "start_time": 8702.66,
+      "end_time": 8808.79,
+      "value": 0.10434906015266904
+    },
+    {
+      "start_time": 8808.79,
+      "end_time": 8914.92,
+      "value": 0.05535219260694183
+    },
+    {
+      "start_time": 8914.92,
+      "end_time": 9021.05,
+      "value": 0.19026798985287857
+    },
+    {
+      "start_time": 9021.05,
+      "end_time": 9127.18,
+      "value": 0.5948024891612035
+    },
+    {
+      "start_time": 9127.18,
+      "end_time": 9233.31,
+      "value": 0.4284973866279413
+    },
+    {
+      "start_time": 9233.31,
+      "end_time": 9339.44,
+      "value": 0.10628858936813147
+    },
+    {
+      "start_time": 9339.44,
+      "end_time": 9445.57,
+      "value": 0.19481871842684403
+    },
+    {
+      "start_time": 9445.57,
+      "end_time": 9551.7,
+      "value": 0.13194824286976936
+    },
+    {
+      "start_time": 9551.7,
+      "end_time": 9657.83,
+      "value": 0.18518821683213038
+    },
+    {
+      "start_time": 9657.83,
+      "end_time": 9763.96,
+      "value": 0.011717565199433115
+    },
+    {
+      "start_time": 9763.96,
+      "end_time": 9870.09,
+      "value": 0.0800868552186311
+    },
+    {
+      "start_time": 9870.09,
+      "end_time": 9976.22,
+      "value": 0.08373591321791285
+    },
+    {
+      "start_time": 9976.22,
+      "end_time": 10082.35,
+      "value": 0.029500359750867577
+    },
+    {
+      "start_time": 10082.35,
+      "end_time": 10188.48,
+      "value": 0.09155261251424446
+    },
+    {
+      "start_time": 10188.48,
+      "end_time": 10294.61,
+      "value": 0.05878108365465423
+    },
+    {
+      "start_time": 10294.61,
+      "end_time": 10400.74,
+      "value": 0.05095760875257622
+    },
+    {
+      "start_time": 10400.74,
+      "end_time": 10506.87,
+      "value": 0.2969952715284572
+    },
+    {
+      "start_time": 10506.87,
+      "end_time": 10613.0,
+      "value": 0.23369489102910765
+    }
+  ],
+  "video_description": "Shane is a comedian, co-host of \u201cMatt and Shane\u2019s Secret Podcast\u201d with Matt McCusker, a creator and star of Netflix\u2019s comedy series \u201cTires,\u201d and one half of the sketch comedy duo \u201cGilly and Keeves\u201d with John McKeever.\n\nhttps://www.shanemgillis.com\nhttps://gillyandkeeves.tv\nhttps://www.youtube.com/@MSsecretpod\nhttps://www.youtube.com/@GillyandKeeves\n\nPerplexity: Download the app or ask Perplexity anything at https://pplx.ai/rogan.\n\nGet a free welcome kit with your first subscription of AG1 at https://drinkag1.com/joerogan",
+  "brief": "Summary: Joe Rogan and comedian Shane Gillis discuss aging, health management, reducing alcohol consumption, weight loss, and the dangers and personal stories surrounding sleep apnea and CPAP machines.\nPeople: Joe Rogan; Shane Gillis; Ari Shaffir; Mark Normand; Jelly Roll; Sam Tallent; Reggie White; Donald Trump\nContext: Episode #2431 of the podcast 'The Joe Rogan Experience' featuring guest comedian Shane Gillis.\nUnclear: The transcript includes minor transcription ambiguities such as 'Same talent' which likely refers to comedian Sam Tallent.",
+  "render_index": 8,
+  "render_total": 8
+}

@@ -1,0 +1,132 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Arial,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,60,60,422,1
+Style: Txt,Arial,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,40,40,40,1
+Style: TxtPlain,Arial,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,0,0,5,40,40,40,1
+Style: TxtBox,Arial,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,3,14,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.15,Sub,,0,0,0,,{\c&H00FFFFFF}noise? {\c&H00FFFFFF}members {\c&H00FFFFFF}of
+Dialogue: 0,0:00:00.15,0:00:00.51,Sub,,0,0,0,,{\c&H00FFFFFF}noise? {\c&H00FFFFFF}members {\c&H00FFFFFF}of
+Dialogue: 0,0:00:00.51,0:00:00.59,Sub,,0,0,0,,{\c&H00FFFFFF}noise? {\c&H00FFFFFF}members {\c&H00FFFFFF}of
+Dialogue: 0,0:00:00.59,0:00:00.75,Sub,,0,0,0,,{\c&H00FFFFFF}his {\c&H00FFFFFF}cabinet {\c&H00FFFFFF}should
+Dialogue: 0,0:00:00.75,0:00:01.27,Sub,,0,0,0,,{\c&H00FFFFFF}his {\c&H00FFFFFF}cabinet {\c&H00FFFFFF}should
+Dialogue: 0,0:00:01.27,0:00:01.43,Sub,,0,0,0,,{\c&H00FFFFFF}his {\c&H00FFFFFF}cabinet {\c&H00FFFFFF}should
+Dialogue: 0,0:00:01.43,0:00:01.62,Sub,,0,0,0,,{\c&H00FFFFFF}get {\c&H00FFFFFF}him {\c&H00FFFFFF}and
+Dialogue: 0,0:00:01.62,0:00:01.91,Sub,,0,0,0,,{\c&H00FFFFFF}get {\c&H00FFFFFF}him {\c&H00FFFFFF}and
+Dialogue: 0,0:00:01.91,0:00:02.11,Sub,,0,0,0,,{\c&H00FFFFFF}get {\c&H00FFFFFF}him {\c&H00FFFFFF}and
+Dialogue: 0,0:00:02.11,0:00:02.23,Sub,,0,0,0,,{\c&H00FFFFFF}then {\c&H00FFFFFF}invoke {\c&H00FFFFFF}the
+Dialogue: 0,0:00:02.23,0:00:02.55,Sub,,0,0,0,,{\c&H00FFFFFF}then {\c&H00FFFFFF}invoke {\c&H00FFFFFF}the
+Dialogue: 0,0:00:02.55,0:00:02.62,Sub,,0,0,0,,{\c&H00FFFFFF}then {\c&H00FFFFFF}invoke {\c&H00FFFFFF}the
+Dialogue: 0,0:00:02.62,0:00:03.19,Sub,,0,0,0,,{\c&H00FFFFFF}25th {\c&H00FFFFFF}Amendment {\c&H00FFFFFF}when
+Dialogue: 0,0:00:03.19,0:00:03.71,Sub,,0,0,0,,{\c&H00FFFFFF}25th {\c&H00FFFFFF}Amendment {\c&H00FFFFFF}when
+Dialogue: 0,0:00:03.71,0:00:04.91,Sub,,0,0,0,,{\c&H00FFFFFF}25th {\c&H00FFFFFF}Amendment {\c&H00FFFFFF}when
+Dialogue: 0,0:00:03.87,0:00:03.95,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}comes {\c&H00FFFFFF}TO
+Dialogue: 0,0:00:03.95,0:00:04.19,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}comes {\c&H00FFFFFF}TO
+Dialogue: 0,0:00:04.19,0:00:04.27,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}comes {\c&H00FFFFFF}TO
+Dialogue: 0,0:00:04.27,0:00:04.67,Sub,,0,0,0,,{\c&H00FFFFFF}COMMENTS {\c&H00FFFFFF}LIKE
+Dialogue: 0,0:00:04.67,0:00:06.22,Sub,,0,0,0,,{\c&H00FFFFFF}COMMENTS {\c&H00FFFFFF}LIKE
+Dialogue: 0,0:00:09.19,0:00:09.59,Sub,,0,0,0,,{\c&H00FFFFFF}THREATENING {\c&H00FFFFFF}NUCLEAR
+Dialogue: 0,0:00:09.59,0:00:09.91,Sub,,0,0,0,,{\c&H00FFFFFF}THREATENING {\c&H00FFFFFF}NUCLEAR
+Dialogue: 0,0:00:09.91,0:00:10.03,Sub,,0,0,0,,{\c&H00FFFFFF}IT'S {\c&H00FFFFFF}IT'S {\c&H00FFFFFF}NOT
+Dialogue: 0,0:00:10.03,0:00:10.19,Sub,,0,0,0,,{\c&H00FFFFFF}IT'S {\c&H00FFFFFF}IT'S {\c&H00FFFFFF}NOT
+Dialogue: 0,0:00:10.19,0:00:10.43,Sub,,0,0,0,,{\c&H00FFFFFF}IT'S {\c&H00FFFFFF}IT'S {\c&H00FFFFFF}NOT
+Dialogue: 0,0:00:10.43,0:00:10.79,Sub,,0,0,0,,{\c&H00FFFFFF}THAT {\c&H00FFFFFF}YOU {\c&H00FFFFFF}THAT
+Dialogue: 0,0:00:10.79,0:00:11.27,Sub,,0,0,0,,{\c&H00FFFFFF}THAT {\c&H00FFFFFF}YOU {\c&H00FFFFFF}THAT
+Dialogue: 0,0:00:11.27,0:00:11.75,Sub,,0,0,0,,{\c&H00FFFFFF}THAT {\c&H00FFFFFF}YOU {\c&H00FFFFFF}THAT
+Dialogue: 0,0:00:11.75,0:00:12.03,Sub,,0,0,0,,{\c&H00FFFFFF}AGAIN, {\c&H00FFFFFF}NONE {\c&H00FFFFFF}OF
+Dialogue: 0,0:00:12.03,0:00:12.23,Sub,,0,0,0,,{\c&H00FFFFFF}AGAIN, {\c&H00FFFFFF}NONE {\c&H00FFFFFF}OF
+Dialogue: 0,0:00:12.23,0:00:12.31,Sub,,0,0,0,,{\c&H00FFFFFF}AGAIN, {\c&H00FFFFFF}NONE {\c&H00FFFFFF}OF
+Dialogue: 0,0:00:12.27,0:00:12.47,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}is {\c&H00FFFFFF}normal.
+Dialogue: 0,0:00:12.47,0:00:12.59,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}is {\c&H00FFFFFF}normal.
+Dialogue: 0,0:00:12.59,0:00:13.79,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}is {\c&H00FFFFFF}normal.
+Dialogue: 0,0:00:12.95,0:00:13.07,Sub,,0,0,0,,{\c&H00FFFFFF}We {\c&H00FFFFFF}can't {\c&H00FFFFFF}allow
+Dialogue: 0,0:00:13.07,0:00:13.31,Sub,,0,0,0,,{\c&H00FFFFFF}We {\c&H00FFFFFF}can't {\c&H00FFFFFF}allow
+Dialogue: 0,0:00:13.31,0:00:13.51,Sub,,0,0,0,,{\c&H00FFFFFF}We {\c&H00FFFFFF}can't {\c&H00FFFFFF}allow
+Dialogue: 0,0:00:13.51,0:00:13.67,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}to {\c&H00FFFFFF}be
+Dialogue: 0,0:00:13.67,0:00:13.75,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}to {\c&H00FFFFFF}be
+Dialogue: 0,0:00:13.75,0:00:13.87,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}to {\c&H00FFFFFF}be
+Dialogue: 0,0:00:13.87,0:00:14.95,Sub,,0,0,0,,{\c&H00FFFFFF}normalized. {\c&H00FFFFFF}He {\c&H00FFFFFF}said
+Dialogue: 0,0:00:14.95,0:00:15.15,Sub,,0,0,0,,{\c&H00FFFFFF}normalized. {\c&H00FFFFFF}He {\c&H00FFFFFF}said
+Dialogue: 0,0:00:15.15,0:00:15.39,Sub,,0,0,0,,{\c&H00FFFFFF}normalized. {\c&H00FFFFFF}He {\c&H00FFFFFF}said
+Dialogue: 0,0:00:15.39,0:00:15.51,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}not {\c&H00FFFFFF}once,
+Dialogue: 0,0:00:15.51,0:00:15.75,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}not {\c&H00FFFFFF}once,
+Dialogue: 0,0:00:15.75,0:00:16.03,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}not {\c&H00FFFFFF}once,
+Dialogue: 0,0:00:16.03,0:00:16.15,Sub,,0,0,0,,{\c&H00FFFFFF}he {\c&H00FFFFFF}said {\c&H00FFFFFF}it
+Dialogue: 0,0:00:16.15,0:00:16.39,Sub,,0,0,0,,{\c&H00FFFFFF}he {\c&H00FFFFFF}said {\c&H00FFFFFF}it
+Dialogue: 0,0:00:16.39,0:00:16.51,Sub,,0,0,0,,{\c&H00FFFFFF}he {\c&H00FFFFFF}said {\c&H00FFFFFF}it
+Dialogue: 0,0:00:16.51,0:00:17.31,Sub,,0,0,0,,{\c&H00FFFFFF}twice. {\c&H00FFFFFF}He {\c&H00FFFFFF}doubled
+Dialogue: 0,0:00:17.31,0:00:17.47,Sub,,0,0,0,,{\c&H00FFFFFF}twice. {\c&H00FFFFFF}He {\c&H00FFFFFF}doubled
+Dialogue: 0,0:00:17.47,0:00:17.91,Sub,,0,0,0,,{\c&H00FFFFFF}twice. {\c&H00FFFFFF}He {\c&H00FFFFFF}doubled
+Dialogue: 0,0:00:17.91,0:00:18.19,Sub,,0,0,0,,{\c&H00FFFFFF}down {\c&H00FFFFFF}on {\c&H00FFFFFF}stupid.
+Dialogue: 0,0:00:18.19,0:00:18.35,Sub,,0,0,0,,{\c&H00FFFFFF}down {\c&H00FFFFFF}on {\c&H00FFFFFF}stupid.
+Dialogue: 0,0:00:18.35,0:00:19.55,Sub,,0,0,0,,{\c&H00FFFFFF}down {\c&H00FFFFFF}on {\c&H00FFFFFF}stupid.
+Dialogue: 0,0:00:19.51,0:00:19.62,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}mean,
+Dialogue: 0,0:00:19.62,0:00:19.83,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}mean,
+Dialogue: 0,0:00:19.83,0:00:19.95,Sub,,0,0,0,,{\c&H00FFFFFF}he {\c&H00FFFFFF}consistently {\c&H00FFFFFF}does
+Dialogue: 0,0:00:19.95,0:00:20.75,Sub,,0,0,0,,{\c&H00FFFFFF}he {\c&H00FFFFFF}consistently {\c&H00FFFFFF}does
+Dialogue: 0,0:00:20.75,0:00:21.03,Sub,,0,0,0,,{\c&H00FFFFFF}he {\c&H00FFFFFF}consistently {\c&H00FFFFFF}does
+Dialogue: 0,0:00:21.03,0:00:21.27,Sub,,0,0,0,,{\c&H00FFFFFF}that. {\c&H00FFFFFF}I {\c&H00FFFFFF}mean,
+Dialogue: 0,0:00:21.27,0:00:21.35,Sub,,0,0,0,,{\c&H00FFFFFF}that. {\c&H00FFFFFF}I {\c&H00FFFFFF}mean,
+Dialogue: 0,0:00:21.35,0:00:21.79,Sub,,0,0,0,,{\c&H00FFFFFF}that. {\c&H00FFFFFF}I {\c&H00FFFFFF}mean,
+Dialogue: 0,0:00:21.79,0:00:21.91,Sub,,0,0,0,,{\c&H00FFFFFF}and {\c&H00FFFFFF}by {\c&H00FFFFFF}the
+Dialogue: 0,0:00:21.91,0:00:22.03,Sub,,0,0,0,,{\c&H00FFFFFF}and {\c&H00FFFFFF}by {\c&H00FFFFFF}the
+Dialogue: 0,0:00:22.03,0:00:22.15,Sub,,0,0,0,,{\c&H00FFFFFF}and {\c&H00FFFFFF}by {\c&H00FFFFFF}the
+Dialogue: 0,0:00:22.15,0:00:22.31,Sub,,0,0,0,,{\c&H00FFFFFF}way, {\c&H00FFFFFF}San {\c&H00FFFFFF}Diego
+Dialogue: 0,0:00:22.31,0:00:22.59,Sub,,0,0,0,,{\c&H00FFFFFF}way, {\c&H00FFFFFF}San {\c&H00FFFFFF}Diego
+Dialogue: 0,0:00:22.59,0:00:23.03,Sub,,0,0,0,,{\c&H00FFFFFF}way, {\c&H00FFFFFF}San {\c&H00FFFFFF}Diego
+Dialogue: 0,0:00:23.03,0:00:23.55,Sub,,0,0,0,,{\c&H00FFFFFF}is {\c&H00FFFFFF}I {\c&H00FFFFFF}I
+Dialogue: 0,0:00:23.55,0:00:23.71,Sub,,0,0,0,,{\c&H00FFFFFF}is {\c&H00FFFFFF}I {\c&H00FFFFFF}I
+Dialogue: 0,0:00:23.71,0:00:24.91,Sub,,0,0,0,,{\c&H00FFFFFF}is {\c&H00FFFFFF}I {\c&H00FFFFFF}I
+Dialogue: 0,0:00:24.03,0:00:24.51,Sub,,0,0,0,,{\c&H00FFFFFF}can't {\c&H00FFFFFF}even {\c&H00FFFFFF}imagine
+Dialogue: 0,0:00:24.51,0:00:24.83,Sub,,0,0,0,,{\c&H00FFFFFF}can't {\c&H00FFFFFF}even {\c&H00FFFFFF}imagine
+Dialogue: 0,0:00:24.83,0:00:25.51,Sub,,0,0,0,,{\c&H00FFFFFF}can't {\c&H00FFFFFF}even {\c&H00FFFFFF}imagine
+Dialogue: 0,0:00:25.51,0:00:25.75,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}is {\c&H00FFFFFF}an
+Dialogue: 0,0:00:25.75,0:00:25.87,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}is {\c&H00FFFFFF}an
+Dialogue: 0,0:00:25.87,0:00:27.07,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}is {\c&H00FFFFFF}an
+Dialogue: 0,0:00:26.07,0:00:26.91,Sub,,0,0,0,,{\c&H00FFFFFF}overstatement, {\c&H00FFFFFF}but
+Dialogue: 0,0:00:26.91,0:00:27.15,Sub,,0,0,0,,{\c&H00FFFFFF}overstatement, {\c&H00FFFFFF}but
+Dialogue: 0,0:00:27.15,0:00:27.31,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}may {\c&H00FFFFFF}be
+Dialogue: 0,0:00:27.31,0:00:27.59,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}may {\c&H00FFFFFF}be
+Dialogue: 0,0:00:27.59,0:00:27.79,Sub,,0,0,0,,{\c&H00FFFFFF}it {\c&H00FFFFFF}may {\c&H00FFFFFF}be
+Dialogue: 0,0:00:27.79,0:00:27.95,Sub,,0,0,0,,{\c&H00FFFFFF}one {\c&H00FFFFFF}of {\c&H00FFFFFF}the
+Dialogue: 0,0:00:27.95,0:00:28.03,Sub,,0,0,0,,{\c&H00FFFFFF}one {\c&H00FFFFFF}of {\c&H00FFFFFF}the
+Dialogue: 0,0:00:28.03,0:00:29.23,Sub,,0,0,0,,{\c&H00FFFFFF}one {\c&H00FFFFFF}of {\c&H00FFFFFF}the
+Dialogue: 0,0:00:28.15,0:00:28.83,Sub,,0,0,0,,{\c&H00FFFFFF}densest, {\c&H00FFFFFF}most {\c&H00FFFFFF}militarized
+Dialogue: 0,0:00:28.83,0:00:29.39,Sub,,0,0,0,,{\c&H00FFFFFF}densest, {\c&H00FFFFFF}most {\c&H00FFFFFF}militarized
+Dialogue: 0,0:00:29.39,0:00:30.59,Sub,,0,0,0,,{\c&H00FFFFFF}densest, {\c&H00FFFFFF}most {\c&H00FFFFFF}militarized
+Dialogue: 0,0:00:30.59,0:00:31.15,Sub,,0,0,0,,{\c&H00FFFFFF}cities {\c&H00FFFFFF}in {\c&H00FFFFFF}the
+Dialogue: 0,0:00:31.15,0:00:31.35,Sub,,0,0,0,,{\c&H00FFFFFF}cities {\c&H00FFFFFF}in {\c&H00FFFFFF}the
+Dialogue: 0,0:00:31.35,0:00:32.55,Sub,,0,0,0,,{\c&H00FFFFFF}cities {\c&H00FFFFFF}in {\c&H00FFFFFF}the
+Dialogue: 0,0:00:31.51,0:00:32.43,Sub,,0,0,0,,{\c&H00FFFFFF}world, {\c&H00FFFFFF}one {\c&H00FFFFFF}of
+Dialogue: 0,0:00:32.43,0:00:32.59,Sub,,0,0,0,,{\c&H00FFFFFF}world, {\c&H00FFFFFF}one {\c&H00FFFFFF}of
+Dialogue: 0,0:00:32.59,0:00:32.67,Sub,,0,0,0,,{\c&H00FFFFFF}world, {\c&H00FFFFFF}one {\c&H00FFFFFF}of
+Dialogue: 0,0:00:32.62,0:00:32.71,Sub,,0,0,0,,{\c&H00FFFFFF}the {\c&H00FFFFFF}most {\c&H00FFFFFF}critical
+Dialogue: 0,0:00:32.71,0:00:33.03,Sub,,0,0,0,,{\c&H00FFFFFF}the {\c&H00FFFFFF}most {\c&H00FFFFFF}critical
+Dialogue: 0,0:00:33.03,0:00:34.07,Sub,,0,0,0,,{\c&H00FFFFFF}the {\c&H00FFFFFF}most {\c&H00FFFFFF}critical
+Dialogue: 0,0:00:34.07,0:00:35.15,Sub,,0,0,0,,{\c&H00FFFFFF}assets {\c&H00FFFFFF}in {\c&H00FFFFFF}terms
+Dialogue: 0,0:00:35.15,0:00:35.27,Sub,,0,0,0,,{\c&H00FFFFFF}assets {\c&H00FFFFFF}in {\c&H00FFFFFF}terms
+Dialogue: 0,0:00:35.27,0:00:35.51,Sub,,0,0,0,,{\c&H00FFFFFF}assets {\c&H00FFFFFF}in {\c&H00FFFFFF}terms
+Dialogue: 0,0:00:35.51,0:00:35.59,Sub,,0,0,0,,{\c&H00FFFFFF}of {\c&H00FFFFFF}the {\c&H00FFFFFF}military
+Dialogue: 0,0:00:35.59,0:00:35.67,Sub,,0,0,0,,{\c&H00FFFFFF}of {\c&H00FFFFFF}the {\c&H00FFFFFF}military
+Dialogue: 0,0:00:35.67,0:00:36.19,Sub,,0,0,0,,{\c&H00FFFFFF}of {\c&H00FFFFFF}the {\c&H00FFFFFF}military
+Dialogue: 0,0:00:36.19,0:00:37.15,Sub,,0,0,0,,{\c&H00FFFFFF}preparedness, {\c&H00FFFFFF}and
+Dialogue: 0,0:00:37.15,0:00:37.27,Sub,,0,0,0,,{\c&H00FFFFFF}preparedness, {\c&H00FFFFFF}and
+Dialogue: 0,0:00:37.27,0:00:37.55,Sub,,0,0,0,,{\c&H00FFFFFF}he's {\c&H00FFFFFF}quite {\c&H00FFFFFF}literally
+Dialogue: 0,0:00:37.55,0:00:37.87,Sub,,0,0,0,,{\c&H00FFFFFF}he's {\c&H00FFFFFF}quite {\c&H00FFFFFF}literally
+Dialogue: 0,0:00:37.87,0:00:38.23,Sub,,0,0,0,,{\c&H00FFFFFF}he's {\c&H00FFFFFF}quite {\c&H00FFFFFF}literally
+Dialogue: 0,0:00:38.23,0:00:38.62,Sub,,0,0,0,,{\c&H00FFFFFF}threatening {\c&H00FFFFFF}city.
+Dialogue: 0,0:00:38.62,0:00:38.79,Sub,,0,0,0,,{\c&H00FFFFFF}threatening {\c&H00FFFFFF}city.
+Dialogue: 0,0:00:38.79,0:00:38.95,Sub,,0,0,0,,{\c&H00FFFFFF}What {\c&H00FFFFFF}I {\c&H00FFFFFF}think
+Dialogue: 0,0:00:38.95,0:00:39.03,Sub,,0,0,0,,{\c&H00FFFFFF}What {\c&H00FFFFFF}I {\c&H00FFFFFF}think
+Dialogue: 0,0:00:39.03,0:00:39.27,Sub,,0,0,0,,{\c&H00FFFFFF}What {\c&H00FFFFFF}I {\c&H00FFFFFF}think
+Dialogue: 0,0:00:39.27,0:00:39.59,Sub,,0,0,0,,{\c&H00FFFFFF}happened {\c&H00FFFFFF}though,
+Dialogue: 0,0:00:39.59,0:00:40.79,Sub,,0,0,0,,{\c&H00FFFFFF}happened {\c&H00FFFFFF}though,
+Dialogue: 0,0:00:39.67,0:00:40.30,Sub,,0,0,0,,{\c&H00FFFFFF}Jimmy,

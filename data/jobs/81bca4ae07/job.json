@@ -1,0 +1,2660 @@
+{
+  "id": "81bca4ae07",
+  "created": 1794128653.2130628,
+  "url": "https://www.youtube.com/watch?v=sdw-9wFMT1A",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Pod Save America Hosts on Midterm Results, Trump\u2019s Final Two Years & 2028 Presidential Candidates",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 86,
+        "value": 80,
+        "shareability": 89,
+        "overall": 86,
+        "hook_text": "Accidentally invited to a White House UFC fight!",
+        "tip": "Add a visual side-by-side photo of podcast Jon Favreau and director Jon Favreau on screen.",
+        "caption": "Jon Favreau reveals how a hilarious mix-up got him an invitation to a White House UFC event meant for the Hollywood director.",
+        "description": "Jon Favreau shares an absurd story of receiving an invitation to a White House UFC event due to a case of mistaken identity with director Jon Favreau. The hilarious mix-up showcases how name confusion leads to unexpected political perks. Have you ever been mistaken for someone famous?",
+        "hashtags": [
+          "jonfavreau",
+          "ufc",
+          "mistakenidentity",
+          "whitehouse",
+          "funnystories"
+        ]
+      },
+      "id": "c1",
+      "title": "Jon Favreau Invited To White House Fight",
+      "reason": "Jon Favreau explains getting invited to a White House UFC event after being mistaken for the Hollywood director.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 807.75,
+        "end": 838.72,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Accidentally invited to a White House UFC fight!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 807.75, 838.72]",
+        "items": [
+          {
+            "t": 2.4,
+            "dur": 1.5,
+            "phrase": "White House exterior",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_15356.mp4",
+            "conf": 67,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 12.7,
+            "dur": 2.5,
+            "phrase": "event invitation letter",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_201328.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 22.9,
+            "dur": 2.1,
+            "phrase": "city mayor speaking",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 88,
+        "value": 76,
+        "shareability": 91,
+        "overall": 86,
+        "hook_text": "What does the D in JD Vance mean?",
+        "tip": "Speed up the transition between guesses to keep the comedic cadence sharp.",
+        "caption": "The panel guesses what the D in JD Vance stands for, leading to a real Twitter feud revelation.",
+        "description": "Former Obama aides turn a simple question about Vice President JD Vance into a comedic guessing game before revealing a real social media insult. Dan Pfeiffer recalls getting called a dip on Twitter by the Vice President himself. What is your favorite political burn?",
+        "hashtags": [
+          "jdvance",
+          "danpfeiffer",
+          "twitterfeud",
+          "politicalhumor",
+          "comedy"
+        ]
+      },
+      "id": "c2",
+      "title": "What Does The D In JD Vance Mean?",
+      "reason": "The hosts play a hilarious game guessing what JD Vance's middle initial stands for, ending in a real Twitter feud callout.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1061.39,
+        "end": 1117.52,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "What does the D in JD Vance mean?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 1061.39, 1117.52]",
+        "items": [
+          {
+            "t": 3.8,
+            "dur": 1.5,
+            "phrase": "multiple choices",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_289513.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 18.6,
+            "dur": 2.5,
+            "phrase": "confused man",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_262068.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 23.6,
+            "dur": 2.1,
+            "phrase": "embarrassed crowd",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 39.0,
+            "dur": 1.6,
+            "phrase": "person thinking",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_126557.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 44.8,
+            "dur": 2.7,
+            "phrase": "desperate person",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 51.7,
+            "dur": 2.2,
+            "phrase": "smartphone screen",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_154511.mp4",
+            "conf": 100,
+            "src": "library",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 85,
+        "value": 88,
+        "shareability": 86,
+        "overall": 84,
+        "hook_text": "The real threat America is completely ignoring",
+        "tip": "Add dynamic text graphics during the list of ignored issues like AI and climate change for visual punch.",
+        "caption": "Jon Lovett delivers a sharp critique on how political circus draws focus away from AI threats and urgent national problems.",
+        "description": "Jon Lovett delivers a passionate rant detailing how non-stop political drama distracts the nation from addressing artificial intelligence risks, climate change, and rising inequality. He warns that fixating on one figure stalls progress while societal tensions build. How do we refocus on pressing future challenges?",
+        "hashtags": [
+          "jonlovett",
+          "aithreats",
+          "politicalrant",
+          "societaltrends",
+          "deepdive"
+        ]
+      },
+      "id": "c3",
+      "title": "Jon Lovett's Rant On America's Politics",
+      "reason": "Jon Lovett delivers an insightful and funny rant about AI risks and how Donald Trump consumes all national energy.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 635.15,
+        "end": 687.68,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The real threat America is completely ignoring",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 635.15, 687.68]",
+        "items": [
+          {
+            "t": 8.7,
+            "dur": 1.5,
+            "phrase": "artificial intelligence technology",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_215500.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 16.3,
+            "dur": 2.5,
+            "phrase": "business meeting experts",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_2340.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 22.5,
+            "dur": 2.1,
+            "phrase": "factory workers working",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_12543.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 28.3,
+            "dur": 1.6,
+            "phrase": "smokestack factory pollution",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_262186.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 41.5,
+            "dur": 2.7,
+            "phrase": "angry people arguing",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_77923.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 46.6,
+            "dur": 2.2,
+            "phrase": "people celebrating party",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1630.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 82,
+        "value": 71,
+        "shareability": 87,
+        "overall": 82,
+        "hook_text": "Who is actually funnier: Trump or JD Vance?",
+        "tip": "Keep the cut punchy right after the last laugh to maximize rewatchability.",
+        "caption": "A hilarious comparison of Donald Trump and JD Vance's stage presence and comedic delivery.",
+        "description": "Former White House speechwriters contrast the stage presence of Donald Trump and Vice President JD Vance. Explaining why raw charisma landing awkward jokes works for one but fails for the other, they highlight the fine line in political comedy. Which politician has the better comedic timing?",
+        "hashtags": [
+          "jdvance",
+          "politicalhumor",
+          "comedy",
+          "trump",
+          "stagepresence"
+        ]
+      },
+      "id": "c4",
+      "title": "Who Is Funnier: Trump Or JD Vance?",
+      "reason": "Jimmy Kimmel and the Pod Save America hosts compare Donald Trump and JD Vance's comedic delivery.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 757.67,
+        "end": 790.04,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Who is actually funnier: Trump or JD Vance?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 757.67, 790.04]",
+        "items": [
+          {
+            "t": 10.1,
+            "dur": 1.5,
+            "phrase": "man speaking on stage",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_204420.mp4",
+            "conf": 62,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 20.1,
+            "dur": 2.5,
+            "phrase": "crowd cheering at rally",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1630.mp4",
+            "conf": 72,
+            "src": "library",
+            "kind": "stock"
+          },
+          {
+            "t": 26.1,
+            "dur": 2.1,
+            "phrase": "person looking uncomfortable",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 81,
+        "retention": 83,
+        "value": 77,
+        "shareability": 82,
+        "overall": 81,
+        "hook_text": "A Supreme Court judge named Josh Groban?",
+        "tip": "Include pop-up text clarifying that California Supreme Court Justice Josh Groban is a real judge.",
+        "caption": "Jimmy Kimmel shares a funny story about a California Supreme Court judge named Josh Groban getting mistaken for the famous singer.",
+        "description": "Host Jimmy Kimmel recounts the awkward restaurant experiences of California Supreme Court Justice Josh Groban, who constantly gets mistaken for the famous singer. Restaurant staff set up special tables and pianos, only to be disappointed by a high-ranking legal official. What is the wildest mix-up you have seen?",
+        "hashtags": [
+          "joshgroban",
+          "supremecourt",
+          "california",
+          "jimmykimmel",
+          "funnystory"
+        ]
+      },
+      "id": "c5",
+      "title": "The Truth About Judge Josh Groban",
+      "reason": "Jimmy Kimmel shares a hilarious story about a California Supreme Court judge named Josh Groban getting confused for the singer.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 841.83,
+        "end": 880.64,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "A Supreme Court judge named Josh Groban?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 841.83, 880.64]",
+        "items": [
+          {
+            "t": 3.0,
+            "dur": 1.5,
+            "phrase": "supreme court judge",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_17257.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 15.4,
+            "dur": 2.5,
+            "phrase": "making dinner reservation",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 21.4,
+            "dur": 2.1,
+            "phrase": "chef in kitchen",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_11657.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 31.5,
+            "dur": 1.6,
+            "phrase": "playing grand piano",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_54891.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 78,
+        "value": 82,
+        "shareability": 85,
+        "overall": 80,
+        "hook_text": "Worst 3 AM warning in White House history",
+        "tip": "Start immediately on Jon Favreau's 3 AM quote to heighten emotional hook.",
+        "caption": "Jon Favreau recalls Rahm Emanuel's ominous 3 AM warning after President Obama's disastrous 2010 midterms.",
+        "description": "Jon Favreau details the brutal aftermath of President Obama's 2010 midterm defeat when Chief of Staff Rahm Emanuel delivered a haunting 3 AM warning. After facing catastrophic losses, the former White House staffer reflects on political schadenfreude. Will history repeat itself for upcoming White House administrations?",
+        "hashtags": [
+          "politics",
+          "democrats",
+          "obama",
+          "whitehouse",
+          "midterms"
+        ]
+      },
+      "id": "c6",
+      "title": "Pod Save America Hosts Recall 2010 Nightmare",
+      "reason": "Jon Favreau recounts Rahm Emanuel's terrifying 3 AM warning after President Obama's 2010 midterm defeat.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 112.53,
+        "end": 167.83,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Worst 3 AM warning in White House history",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 112.53, 167.83]",
+        "items": [
+          {
+            "t": 2.3,
+            "dur": 1.5,
+            "phrase": "white house exterior",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_15356.mp4",
+            "conf": 100,
+            "src": "library",
+            "kind": "stock"
+          },
+          {
+            "t": 14.5,
+            "dur": 2.5,
+            "phrase": "voting ballot box",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_30435.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 28.2,
+            "dur": 2.1,
+            "phrase": "late night office",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_215751.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 38.2,
+            "dur": 1.6,
+            "phrase": "walking out of building",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_21472.mp4",
+            "conf": 62,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 47.6,
+            "dur": 2.7,
+            "phrase": "stressed office worker",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_379540.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 76,
+        "value": 78,
+        "shareability": 84,
+        "overall": 80,
+        "hook_text": "Is Defense Secretary Pete Hegseth facing impeachment?",
+        "tip": "Highlight the impeachment proposal earlier to maximize instant viewer engagement.",
+        "caption": "Jon Lovett argues Democrats must debate impeaching Defense Secretary Pete Hegseth over controversial military statements.",
+        "description": "Jon Lovett breaks down what happens if judicial nominations grind to a halt and calls for a serious debate on impeaching Defense Secretary Pete Hegseth. Citing concerns over international war rules, he insists actions demand oversight. Should Congress initiate impeachment proceedings against cabinet officials?",
+        "hashtags": [
+          "petehegseth",
+          "jonlovett",
+          "impeachment",
+          "supremecourt",
+          "politics"
+        ]
+      },
+      "id": "c7",
+      "title": "Jon Lovett Calls To Impeach Pete Hegseth",
+      "reason": "Jon Lovett argues Democrats should block Supreme Court picks and debate impeaching Defense Secretary Pete Hegseth.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 344.18,
+        "end": 388.44,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Is Defense Secretary Pete Hegseth facing impeachment?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 344.18, 388.44]",
+        "items": [
+          {
+            "t": 4.4,
+            "dur": 1.5,
+            "phrase": "capitol building exterior",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_2143.mp4",
+            "conf": 67,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 14.7,
+            "dur": 2.5,
+            "phrase": "judge sitting in courtroom",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_17257.mp4",
+            "conf": 72,
+            "src": "library",
+            "kind": "stock"
+          },
+          {
+            "t": 25.8,
+            "dur": 2.1,
+            "phrase": "politician speaking at podium",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 33.0,
+            "dur": 1.6,
+            "phrase": "military soldiers in combat",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 38.4,
+            "dur": 2.7,
+            "phrase": "military tank in action",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_157865.mp4",
+            "conf": 62,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 74,
+        "retention": 77,
+        "value": 79,
+        "shareability": 80,
+        "overall": 77,
+        "hook_text": "Who actually wrote Obama's Cheesecake Factory joke?",
+        "tip": "Remove the awkward pauses between questions to tighten comedic pacing.",
+        "caption": "Discover how Barack Obama personally crafted his viral Cheesecake Factory speech mocking political headlines.",
+        "description": "Former Obama White House staffers address rumors about who writes speech comedy, revealing President Barack Obama personally crafted his viral Cheesecake Factory jokes. From mocking cabinet appointees to lighthearted political jabs, his speech strategy aimed to highlight absurdities. Who is the funniest president in modern history?",
+        "hashtags": [
+          "barackobama",
+          "politicalhumor",
+          "cheesecakefactory",
+          "behindthescenes",
+          "speechwriter"
+        ]
+      },
+      "id": "c8",
+      "title": "Did Pod Save America Write Obama's Joke?",
+      "reason": "The hosts reveal how Barack Obama personally crafted his viral Cheesecake Factory joke mocking Donald Trump.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 538.71,
+        "end": 589.64,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Who actually wrote Obama's Cheesecake Factory joke?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 538.71, 589.64]",
+        "items": [
+          {
+            "t": 3.0,
+            "dur": 1.5,
+            "phrase": "writing on paper",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_8256.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.2,
+            "dur": 2.5,
+            "phrase": "answering phone call",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_174262.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 15.5,
+            "dur": 2.1,
+            "phrase": "two people talking",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_2340.mp4",
+            "conf": 72,
+            "src": "library",
+            "kind": "stock"
+          },
+          {
+            "t": 21.5,
+            "dur": 1.6,
+            "phrase": "speaker at podium",
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 27.5,
+            "dur": 2.7,
+            "phrase": "watching news broadcast",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_2141.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 34.0,
+            "dur": 2.2,
+            "phrase": "stack of gold bars",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_165407.mp4",
+            "conf": 72,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 43.5,
+            "dur": 1.8,
+            "phrase": "voting at ballot box",
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_30435.mp4",
+            "conf": 100,
+            "src": "library",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 76,
+        "retention": 74,
+        "value": 68,
+        "shareability": 75,
+        "overall": 74,
+        "hook_text": "Everyone pictured the exact same thing!",
+        "tip": "Trim the initial stumble over the election candidate names to get to the joke faster.",
+        "caption": "A hilarious moment imagining South Carolina political legacies and Lindsey Graham wearing a wig.",
+        "description": "The panel reacts to election results after Darline Graham lost in South Carolina. They joke about the universal image everyone conjured up upon hearing rumors about Senator Lindsey Graham's family. Can political family legacies survive modern voter pushback?",
+        "hashtags": [
+          "lindseygraham",
+          "southcarolina",
+          "politicaljokes",
+          "elections",
+          "humor"
+        ]
+      },
+      "id": "c9",
+      "title": "Jimmy Kimmel Jokes About Lindsey Graham's Sister",
+      "reason": "The panel laughs about hearing Lindsey Graham's sister ran for office and picturing Lindsey Graham in a wig.",
+      "score": 74,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 933.07,
+        "end": 989.84,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Everyone pictured the exact same thing!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 933.07, 989.84]",
+        "items": [
+          {
+            "t": 3.2,
+            "dur": 1.5,
+            "phrase": "united states map",
+            "said": "IN SOUTH CAROLINA. YOU KNOW",
+            "alt": [
+              "state map pin",
+              "american geography map"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 19.5,
+            "dur": 2.5,
+            "phrase": "empty leather office chair",
+            "said": "pass down a Senate seat",
+            "alt": [
+              "executive armchair",
+              "government chamber seating"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1191.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 27.5,
+            "dur": 2.1,
+            "phrase": "people whispering secrets",
+            "said": "when people heard that",
+            "alt": [
+              "person gossiping ear",
+              "two people talking quietly"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_44648.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 35.5,
+            "dur": 1.6,
+            "phrase": "wig mannequin head",
+            "said": "in a wig with like",
+            "alt": [
+              "woman styling blonde wig",
+              "hair mannequin display"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 41.5,
+            "dur": 2.7,
+            "phrase": "formal business suit jacket",
+            "said": "and like a suit like",
+            "alt": [
+              "tailored suit torso",
+              "woman wearing blazer"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 72,
+        "value": 74,
+        "shareability": 71,
+        "overall": 71,
+        "hook_text": "Why these election margins are impossible to challenge",
+        "tip": "Cut the trailing off sentence at the very end to keep a clean finish.",
+        "caption": "Dan Pfeiffer explains why massive election margins leave Donald Trump unable to overturn election outcomes.",
+        "description": "Dan Pfeiffer analyzes midterm voting trends and explains why overwhelming victory margins prevent effective legal challenges to election results. Highlighting historic Democratic pickups in deep-red states like Kansas, he argues voter turnout reshaped the political landscape. Are traditional red strongholds officially shifting?",
+        "hashtags": [
+          "elections",
+          "midterms",
+          "danpfeiffer",
+          "kansas",
+          "politicalanalysis"
+        ]
+      },
+      "id": "c10",
+      "title": "Dan Pfeiffer On Trump Challenging Midterm Results",
+      "reason": "Dan Pfeiffer breaks down why midterm election margins are too big for Donald Trump to contest.",
+      "score": 71,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 471.03,
+        "end": 515.64,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why these election margins are impossible to challenge",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 471.03, 515.64]",
+        "items": [
+          {
+            "t": 2.1,
+            "dur": 1.5,
+            "phrase": "person looking doubtful",
+            "said": "question the integrity of the results",
+            "alt": [
+              "skeptical person",
+              "serious face"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_129427.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.0,
+            "dur": 2.5,
+            "phrase": "politicians in senate",
+            "said": "The Democrats should have the the Senate",
+            "alt": [
+              "government officials",
+              "people in courtroom"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_30435.mp4",
+            "conf": 90,
+            "src": "library",
+            "kind": "stock"
+          },
+          {
+            "t": 23.9,
+            "dur": 2.1,
+            "phrase": "voting ballot box",
+            "said": "These votes were stolen, mail-in ballot.",
+            "alt": [
+              "election ballot",
+              "paper voting"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 32.5,
+            "dur": 1.6,
+            "phrase": "politician speaking",
+            "said": "Democrats are flipping Senate seats in places",
+            "alt": [
+              "person giving speech",
+              "talking head"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_386108.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 68,
+        "retention": 65,
+        "value": 75,
+        "shareability": 70,
+        "overall": 69,
+        "hook_text": "Day-one subpoenas planned for executive deals?",
+        "tip": "Trim the stuttering at the start to get straight to the policy demands.",
+        "caption": "Tommy Vietor lays out immediate Democratic priorities, from blocking war funding to aggressive executive oversight.",
+        "description": "Tommy Vietor outlines an aggressive Democratic agenda focused on halting foreign military funding and launching day-one oversight into executive business deals. From protecting Medicaid to confronting price hikes, he argues investigations must pair with real economic relief. Can congressional power balance executive authority?",
+        "hashtags": [
+          "congress",
+          "democrats",
+          "oversight",
+          "policy",
+          "uspolitics"
+        ]
+      },
+      "id": "c11",
+      "title": "Tommy Vietor's Day One Agenda For Democrats",
+      "reason": "Tommy Vietor details immediate subpoena plans for Donald Trump's business deals and cutting off Iran war funding.",
+      "score": 69,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 282.06,
+        "end": 338.51,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "library_first",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Day-one subpoenas planned for executive deals?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"library_first\"}, 282.06, 338.51]",
+        "items": [
+          {
+            "t": 7.0,
+            "dur": 1.5,
+            "phrase": "politicians voting",
+            "said": "funding vote",
+            "alt": [
+              "government voting",
+              "politician speech"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 18.0,
+            "dur": 2.5,
+            "phrase": "cryptocurrency trading",
+            "said": "The crypto",
+            "alt": [
+              "digital currency screen",
+              "crypto charts"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_349089.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 24.5,
+            "dur": 2.1,
+            "phrase": "drone flying",
+            "said": "drone company",
+            "alt": [
+              "quadcopter aerial",
+              "flying drone"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_119278.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 30.0,
+            "dur": 1.6,
+            "phrase": "medical clinic waiting",
+            "said": "Medicaid cuts",
+            "alt": [
+              "hospital patient",
+              "sad person"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_49808.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 47.1,
+            "dur": 2.7,
+            "phrase": "detective looking at files",
+            "said": "investigate Trump",
+            "alt": [
+              "investigation desk",
+              "searching documents"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 20
+    },
+    "caption": {},
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "library_first",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794128653.2174504,
+  "finished": 1794132498.8986995,
+  "log": [
+    {
+      "t": 1794128653.2272363,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=sdw-9wFMT1A"
+    },
+    {
+      "t": 1794128680.7197642,
+      "level": "ok",
+      "msg": "Downloaded \"Pod Save America Hosts on Midterm Results, Trump\u2019s Final Two Years & 2028 Presidential Candidates\" (20:38) in 0:27"
+    },
+    {
+      "t": 1794128680.7273982,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794128683.301769,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794128683.3591342,
+      "level": "ok",
+      "msg": "Transcribed 622 segments / 3677 words in 0:02"
+    },
+    {
+      "t": 1794128683.3650286,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794128684.1889136,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794128685.2765093,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794128692.5430102,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794128692.552565,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Jimmy Kimmel interviews Pod Save America hosts Jon Favreau, Jon Lovett, Dan Pfeiffer, and Tommy Vietor about favorable midterm election results for Democrats, comparing the mood to the 2010 midterms under President Obama and discussing potential administration firings, congressional oversig"
+    },
+    {
+      "t": 1794128695.214802,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794128695.2221437,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794128696.2146013,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794128717.373093,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794128717.4221098,
+      "level": "ok",
+      "msg": "AI picked 11 clips in 0:34"
+    },
+    {
+      "t": 1794128717.4251633,
+      "level": "info",
+      "msg": "  \u2022 Pod Save America Hosts Recall 2010 Nightmare  [1:52-2:47, score 88]"
+    },
+    {
+      "t": 1794128717.427894,
+      "level": "info",
+      "msg": "  \u2022 Tommy Vietor's Day One Agenda For Democrats  [4:42-5:38, score 85]"
+    },
+    {
+      "t": 1794128717.430627,
+      "level": "info",
+      "msg": "  \u2022 Jon Lovett Calls To Impeach Pete Hegseth  [5:44-6:28, score 84]"
+    },
+    {
+      "t": 1794128717.433577,
+      "level": "info",
+      "msg": "  \u2022 Dan Pfeiffer On Trump Challenging Midterm Results  [7:51-8:35, score 82]"
+    },
+    {
+      "t": 1794128717.4377525,
+      "level": "info",
+      "msg": "  \u2022 Did Pod Save America Write Obama's Joke?  [8:58-9:49, score 90]"
+    },
+    {
+      "t": 1794128717.4409776,
+      "level": "info",
+      "msg": "  \u2022 Jon Lovett's Rant On America's Politics  [10:35-11:27, score 87]"
+    },
+    {
+      "t": 1794128717.4440536,
+      "level": "info",
+      "msg": "  \u2022 Who Is Funnier: Trump Or JD Vance?  [12:37-13:10, score 95]"
+    },
+    {
+      "t": 1794128717.446762,
+      "level": "info",
+      "msg": "  \u2022 Jon Favreau Invited To White House Fight  [13:27-13:58, score 89]"
+    },
+    {
+      "t": 1794128717.449551,
+      "level": "info",
+      "msg": "  \u2022 The Truth About Judge Josh Groban  [14:01-14:40, score 92]"
+    },
+    {
+      "t": 1794128717.4542632,
+      "level": "info",
+      "msg": "  \u2022 Jimmy Kimmel Jokes About Lindsey Graham's Sister  [15:33-16:29, score 94]"
+    },
+    {
+      "t": 1794128717.4572172,
+      "level": "info",
+      "msg": "  \u2022 What Does The D In JD Vance Mean?  [17:41-18:37, score 96]"
+    },
+    {
+      "t": 1794128717.463973,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794128717.4709475,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794128718.4681542,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794128751.8458164,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794128751.8534524,
+      "level": "ok",
+      "msg": "Rated 11 clips in 0:34"
+    },
+    {
+      "t": 1794128751.8566062,
+      "level": "info",
+      "msg": "  - Pod Save America Hosts Recall 2010 Nightmare: 80/100 (hook 75, retention 78, value 82, share 85)"
+    },
+    {
+      "t": 1794128751.8593547,
+      "level": "info",
+      "msg": "  - Tommy Vietor's Day One Agenda For Democrats: 69/100 (hook 68, retention 65, value 75, share 70)"
+    },
+    {
+      "t": 1794128751.8621104,
+      "level": "info",
+      "msg": "  - Jon Lovett Calls To Impeach Pete Hegseth: 80/100 (hook 82, retention 76, value 78, share 84)"
+    },
+    {
+      "t": 1794128751.8649967,
+      "level": "info",
+      "msg": "  - Dan Pfeiffer On Trump Challenging Midterm Results: 71/100 (hook 70, retention 72, value 74, share 71)"
+    },
+    {
+      "t": 1794128751.868828,
+      "level": "info",
+      "msg": "  - Did Pod Save America Write Obama's Joke?: 77/100 (hook 74, retention 77, value 79, share 80)"
+    },
+    {
+      "t": 1794128751.8726702,
+      "level": "info",
+      "msg": "  - Jon Lovett's Rant On America's Politics: 84/100 (hook 80, retention 85, value 88, share 86)"
+    },
+    {
+      "t": 1794128751.8757167,
+      "level": "info",
+      "msg": "  - Who Is Funnier: Trump Or JD Vance?: 82/100 (hook 84, retention 82, value 71, share 87)"
+    },
+    {
+      "t": 1794128751.8794713,
+      "level": "info",
+      "msg": "  - Jon Favreau Invited To White House Fight: 86/100 (hook 88, retention 86, value 80, share 89)"
+    },
+    {
+      "t": 1794128751.8834023,
+      "level": "info",
+      "msg": "  - The Truth About Judge Josh Groban: 81/100 (hook 81, retention 83, value 77, share 82)"
+    },
+    {
+      "t": 1794128751.8879828,
+      "level": "info",
+      "msg": "  - Jimmy Kimmel Jokes About Lindsey Graham's Sister: 74/100 (hook 76, retention 74, value 68, share 75)"
+    },
+    {
+      "t": 1794128751.8911705,
+      "level": "info",
+      "msg": "  - What Does The D In JD Vance Mean?: 86/100 (hook 87, retention 88, value 76, share 91)"
+    },
+    {
+      "t": 1794128751.89829,
+      "level": "ok",
+      "msg": "11 distinct clips found, 11 rated 50+"
+    },
+    {
+      "t": 1794128751.9272778,
+      "level": "info",
+      "msg": "Rendering clip 1/11: Jon Favreau Invited To White House Fight"
+    },
+    {
+      "t": 1794128751.9467883,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794128752.9543538,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794128760.1934988,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794128760.1976712,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794128761.5652964,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794128761.570606,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794128763.5958793,
+      "level": "info",
+      "msg": "Cutaway at 2.4s: 'White House exterior' -> pixabay (67% match)"
+    },
+    {
+      "t": 1794128766.1105938,
+      "level": "info",
+      "msg": "Cutaway at 12.7s: 'event invitation letter' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794128766.9258306,
+      "level": "info",
+      "msg": "Cutaway at 22.9s: 'city mayor speaking' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794128894.20444,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:22"
+    },
+    {
+      "t": 1794128894.2250404,
+      "level": "info",
+      "msg": "Rendering clip 2/11: What Does The D In JD Vance Mean?"
+    },
+    {
+      "t": 1794128894.2469962,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794128895.4442267,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794128898.0598636,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794128898.0657785,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794128899.737635,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794128899.742685,
+      "level": "info",
+      "msg": "Stock cutaways: 6 moment(s) chosen"
+    },
+    {
+      "t": 1794128902.0663114,
+      "level": "info",
+      "msg": "Cutaway at 3.8s: 'multiple choices' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794128903.6115808,
+      "level": "info",
+      "msg": "Cutaway at 18.6s: 'confused man' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794128904.4948945,
+      "level": "info",
+      "msg": "Cutaway at 23.6s: 'embarrassed crowd' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794128906.163237,
+      "level": "info",
+      "msg": "Cutaway at 39.0s: 'person thinking' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794128906.998975,
+      "level": "info",
+      "msg": "Cutaway at 44.8s: 'desperate person' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794128907.004836,
+      "level": "info",
+      "msg": "Cutaway at 51.7s: 'smartphone screen' -> library (100% match)"
+    },
+    {
+      "t": 1794129127.7360346,
+      "level": "ok",
+      "msg": "Clip 2 ready in 3:53"
+    },
+    {
+      "t": 1794129127.7517025,
+      "level": "info",
+      "msg": "Rendering clip 3/11: Jon Lovett's Rant On America's Politics"
+    },
+    {
+      "t": 1794129127.7727706,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794129128.7590327,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794129136.495913,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794129136.503724,
+      "level": "info",
+      "msg": "Stock cutaways: 6 moment(s) chosen"
+    },
+    {
+      "t": 1794129138.217873,
+      "level": "info",
+      "msg": "Cutaway at 8.7s: 'artificial intelligence technology' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129140.397917,
+      "level": "info",
+      "msg": "Cutaway at 16.3s: 'business meeting experts' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794129142.4895282,
+      "level": "info",
+      "msg": "Cutaway at 22.5s: 'factory workers working' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129144.879363,
+      "level": "info",
+      "msg": "Cutaway at 28.3s: 'smokestack factory pollution' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129146.619768,
+      "level": "info",
+      "msg": "Cutaway at 41.5s: 'angry people arguing' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794129148.558085,
+      "level": "info",
+      "msg": "Cutaway at 46.6s: 'people celebrating party' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794129378.6370583,
+      "level": "ok",
+      "msg": "Clip 3 ready in 4:10"
+    },
+    {
+      "t": 1794129378.6574996,
+      "level": "info",
+      "msg": "Rendering clip 4/11: Who Is Funnier: Trump Or JD Vance?"
+    },
+    {
+      "t": 1794129378.681151,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794129379.9239385,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794129386.5798268,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794129386.5890849,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794129389.7640393,
+      "level": "info",
+      "msg": "Cutaway at 10.1s: 'man speaking on stage' -> pixabay (62% match)"
+    },
+    {
+      "t": 1794129389.7733457,
+      "level": "info",
+      "msg": "Cutaway at 20.1s: 'crowd cheering at rally' -> library (72% match)"
+    },
+    {
+      "t": 1794129390.7187893,
+      "level": "info",
+      "msg": "Cutaway at 26.1s: 'person looking uncomfortable' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794129530.6131876,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:31"
+    },
+    {
+      "t": 1794129530.6346827,
+      "level": "info",
+      "msg": "Rendering clip 5/11: The Truth About Judge Josh Groban"
+    },
+    {
+      "t": 1794129530.7515335,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794129531.9986653,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794129538.5299044,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794129538.542543,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794129541.689137,
+      "level": "info",
+      "msg": "Cutaway at 3.0s: 'supreme court judge' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794129542.637048,
+      "level": "info",
+      "msg": "Cutaway at 15.4s: 'making dinner reservation' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794129546.1927114,
+      "level": "info",
+      "msg": "Cutaway at 21.4s: 'chef in kitchen' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129549.2195864,
+      "level": "info",
+      "msg": "Cutaway at 31.5s: 'playing grand piano' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129718.2141888,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:07"
+    },
+    {
+      "t": 1794129718.2345316,
+      "level": "info",
+      "msg": "Rendering clip 6/11: Pod Save America Hosts Recall 2010 Nightmare"
+    },
+    {
+      "t": 1794129718.2627115,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794129719.4199114,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794129726.4354095,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794129726.445576,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794129726.457656,
+      "level": "info",
+      "msg": "Cutaway at 2.3s: 'white house exterior' -> library (100% match)"
+    },
+    {
+      "t": 1794129728.6373463,
+      "level": "info",
+      "msg": "Cutaway at 14.5s: 'voting ballot box' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129730.7524493,
+      "level": "info",
+      "msg": "Cutaway at 28.2s: 'late night office' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129733.0073042,
+      "level": "info",
+      "msg": "Cutaway at 38.2s: 'walking out of building' -> pixabay (62% match)"
+    },
+    {
+      "t": 1794129735.4371097,
+      "level": "info",
+      "msg": "Cutaway at 47.6s: 'stressed office worker' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794129969.1868374,
+      "level": "ok",
+      "msg": "Clip 6 ready in 4:10"
+    },
+    {
+      "t": 1794129969.202667,
+      "level": "info",
+      "msg": "Rendering clip 7/11: Jon Lovett Calls To Impeach Pete Hegseth"
+    },
+    {
+      "t": 1794129969.2326312,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794129970.3433626,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794129977.631091,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794129977.641425,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794129979.6710737,
+      "level": "info",
+      "msg": "Cutaway at 4.4s: 'capitol building exterior' -> pixabay (67% match)"
+    },
+    {
+      "t": 1794129979.6813293,
+      "level": "info",
+      "msg": "Cutaway at 14.7s: 'judge sitting in courtroom' -> library (72% match)"
+    },
+    {
+      "t": 1794129980.598468,
+      "level": "info",
+      "msg": "Cutaway at 25.8s: 'politician speaking at podium' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794129989.8501928,
+      "level": "info",
+      "msg": "Cutaway at 33.0s: 'military soldiers in combat' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794129993.170761,
+      "level": "info",
+      "msg": "Cutaway at 38.4s: 'military tank in action' -> pixabay (62% match)"
+    },
+    {
+      "t": 1794130180.1883562,
+      "level": "ok",
+      "msg": "Clip 7 ready in 3:30"
+    },
+    {
+      "t": 1794130180.2137837,
+      "level": "info",
+      "msg": "Rendering clip 8/11: Did Pod Save America Write Obama's Joke?"
+    },
+    {
+      "t": 1794130180.2500503,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130181.343919,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130194.9905055,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794130194.9982991,
+      "level": "info",
+      "msg": "Stock cutaways: 7 moment(s) chosen"
+    },
+    {
+      "t": 1794130196.8918788,
+      "level": "info",
+      "msg": "Cutaway at 3.0s: 'writing on paper' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794130199.0221467,
+      "level": "info",
+      "msg": "Cutaway at 10.2s: 'answering phone call' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794130199.0316882,
+      "level": "info",
+      "msg": "Cutaway at 15.5s: 'two people talking' -> library (72% match)"
+    },
+    {
+      "t": 1794130199.9770827,
+      "level": "info",
+      "msg": "Cutaway at 21.5s: 'speaker at podium' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794130202.5294304,
+      "level": "info",
+      "msg": "Cutaway at 27.5s: 'watching news broadcast' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794130204.4855623,
+      "level": "info",
+      "msg": "Cutaway at 34.0s: 'stack of gold bars' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794130204.4949796,
+      "level": "info",
+      "msg": "Cutaway at 43.5s: 'voting at ballot box' -> library (100% match)"
+    },
+    {
+      "t": 1794130480.8205225,
+      "level": "ok",
+      "msg": "Clip 8 ready in 5:00"
+    },
+    {
+      "t": 1794130480.839249,
+      "level": "info",
+      "msg": "Rendering clip 9/11: Jimmy Kimmel Jokes About Lindsey Graham's Sister"
+    },
+    {
+      "t": 1794130480.8687255,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130482.1510038,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130492.7114277,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794130492.720101,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794130492.7329342,
+      "level": "info",
+      "msg": "Cutaway at 3.0s: 'state capitol building' -> library (72% match)"
+    },
+    {
+      "t": 1794130492.744976,
+      "level": "info",
+      "msg": "Cutaway at 18.0s: 'voter casting ballot' -> library (72% match)"
+    },
+    {
+      "t": 1794130493.7345495,
+      "level": "info",
+      "msg": "Cutaway at 23.2s: 'antique family heirloom' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794130496.1643307,
+      "level": "info",
+      "msg": "Cutaway at 35.2s: 'woman wearing wig' -> pixabay (72% match)"
+    },
+    {
+      "t": 1794130502.8429615,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794130502.874321,
+      "level": "info",
+      "msg": "Rendering clip 1/3: Jimmy Kimmel Jokes About Lindsey Graham's Sister"
+    },
+    {
+      "t": 1794130507.8641047,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130519.9485033,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794130519.9603457,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794130533.2798536,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130534.704043,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130544.120084,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794130544.130704,
+      "level": "info",
+      "msg": "Cutaway at 3.2s: 'united states map' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794130544.1376162,
+      "level": "info",
+      "msg": "Cutaway at 3.2s: 'united states map' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794130545.3193355,
+      "level": "info",
+      "msg": "Cutaway at 19.5s: 'empty leather office chair' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794130547.6017773,
+      "level": "info",
+      "msg": "Cutaway at 27.5s: 'people whispering secrets' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794130547.6082704,
+      "level": "info",
+      "msg": "Cutaway at 35.5s: 'wig mannequin head' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794130547.6157606,
+      "level": "info",
+      "msg": "Cutaway at 35.5s: 'wig mannequin head' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794130547.6228,
+      "level": "info",
+      "msg": "Cutaway at 41.5s: 'formal business suit jacket' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794130547.6313748,
+      "level": "info",
+      "msg": "Cutaway at 41.5s: 'formal business suit jacket' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794130813.190411,
+      "level": "ok",
+      "msg": "Clip 1 ready in 5:10"
+    },
+    {
+      "t": 1794130813.2145357,
+      "level": "info",
+      "msg": "Rendering clip 2/3: Dan Pfeiffer On Trump Challenging Midterm Results"
+    },
+    {
+      "t": 1794130813.246068,
+      "level": "info",
+      "msg": "Using 6 of 12 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130814.6632404,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130815.2345765,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794130815.2411838,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794130817.1203141,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794130817.1272385,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794130822.6121845,
+      "level": "info",
+      "msg": "Using 6 of 12 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794130824.0248759,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794130824.389617,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794130824.3966,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794130853.4360228,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794130854.52823,
+      "level": "info",
+      "msg": "Cutaway at 2.1s: 'person looking doubtful' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794130854.5358238,
+      "level": "info",
+      "msg": "Cutaway at 10.0s: 'politicians in senate' -> library (90% match)"
+    },
+    {
+      "t": 1794130854.542536,
+      "level": "info",
+      "msg": "Cutaway at 23.9s: 'voting ballot box' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794130855.918075,
+      "level": "info",
+      "msg": "Cutaway at 32.5s: 'politician speaking' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794131061.8457873,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:08"
+    },
+    {
+      "t": 1794131061.8777947,
+      "level": "info",
+      "msg": "Rendering clip 3/3: Tommy Vietor's Day One Agenda For Democrats"
+    },
+    {
+      "t": 1794131061.9135158,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131063.2252004,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131063.7427602,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131063.7497349,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131065.9314442,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131065.9402297,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794131073.8344128,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794131075.2463644,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794131075.7855942,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794131075.793305,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794131077.0165033,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794131077.023804,
+      "level": "info",
+      "msg": "Cutaway at 7.0s: 'politicians voting' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131077.03169,
+      "level": "info",
+      "msg": "Cutaway at 7.0s: 'politicians voting' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131078.871799,
+      "level": "info",
+      "msg": "Cutaway at 18.0s: 'cryptocurrency trading' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794131080.4042885,
+      "level": "info",
+      "msg": "Cutaway at 24.5s: 'drone flying' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794131081.6363423,
+      "level": "info",
+      "msg": "Cutaway at 30.0s: 'medical clinic waiting' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794131081.6442437,
+      "level": "info",
+      "msg": "Cutaway at 47.1s: 'detective looking at files' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794131081.6509695,
+      "level": "info",
+      "msg": "Cutaway at 47.1s: 'detective looking at files' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794131161.3569503,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794132249.0682712,
+      "level": "info",
+      "msg": "Rendering clip 1/1: Tommy Vietor's Day One Agenda For Democrats"
+    },
+    {
+      "t": 1794132498.893551,
+      "level": "ok",
+      "msg": "Clip 1 ready in 4:09"
+    },
+    {
+      "t": 1794132498.9101143,
+      "level": "ok",
+      "msg": "All done in 4:09"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 1238,
+  "heatmap": [],
+  "video_description": "Jon Favreau, Jon Lovett, Dan Pfeiffer and Tommy Vietor from Pod Save America talk about feeling very optimistic about the midterm election results, being in the Obama White House during the 2010 midterms when things went very badly, who from the Trump administration might get fired, the possibility that Trump gets even crazier in his last two years, what Democrats should do now that they will have more power in Washington, whether or not Trump will question the results of the election, The Cheesecake Factory joke in Obama\u2019s recent speech, who might decide to run for President, JD Vance being unfunny, Lindsay Graham\u2019s sister Darline Graham losing, hosting Crooked Con this weekend and Jimmy asks some questions that need answering.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 18 billion views and more than 22 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Jimmy Kimmel interviews Pod Save America hosts Jon Favreau, Jon Lovett, Dan Pfeiffer, and Tommy Vietor about favorable midterm election results for Democrats, comparing the mood to the 2010 midterms under President Obama and discussing potential administration firings, congressional oversight, and Democratic strategy.\nPeople: Jimmy Kimmel (Host, Jimmy Kimmel Live); Jon Favreau (Co-host, Pod Save America; former Obama White House staffer); Jon Lovett (Co-host, Pod Save America; former Obama White House staffer); Dan Pfeiffer (Co-host, Pod Save America; former Obama White House staffer); Tommy Vietor (Co-host, Pod Save America; former Obama White House staffer); Donald Trump (US President); Barack Obama (Former US President); Rahm Emanuel (Former Obama White House Chief of Staff); Susie Wiles (White House Chief of Staff); Pete Hegseth (Secretary of Defense)\nContext: A late-night talk show interview on 'Jimmy Kimmel Live' featuring the four hosts of the political podcast 'Pod Save America', who previously worked in the Obama White House, reflecting on election night results and political strategy.\nUnclear: The transcript cuts off mid-sentence before covering all topics mentioned in the description, such as specific 2028 presidential candidates and Lindsay Graham's sister.",
+  "render_index": 1,
+  "render_total": 1
+}

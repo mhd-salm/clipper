@@ -1,15 +1,18 @@
 [
   {
     "id": "default",
-    "name": "Main channel",
+    "name": "theBigbrain",
     "port": 9223,
     "profile": "browser_profile",
     "handle": "",
-    "channel_id": "UCz5BBfgvNfeLoyGWHwUTc9g"
+    "channel_id": "UCz5BBfgvNfeLoyGWHwUTc9g",
+    "topics": [
+      "podcast full episode"
+    ]
   },
   {
     "id": "entertainment-fun",
-    "name": "Entertainment & fun",
+    "name": "FameStands",
     "port": 9224,
     "profile": "browser_profile_entertainment-fun",
     "handle": "@itainttmeee",

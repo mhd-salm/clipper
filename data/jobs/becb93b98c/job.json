@@ -1,0 +1,1108 @@
+{
+  "id": "becb93b98c",
+  "created": 1794154827.6361496,
+  "url": "https://www.youtube.com/watch?v=SXVcFUo1kOI",
+  "source": "manual",
+  "creator_id": "UC8-Th83bH_thdKZDJCrn88g",
+  "title": "Conan O'Brien Got a Surprise Call from Mick Jagger, Addresses Rumors About His Hair | Tonight Show",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 82,
+        "value": 90,
+        "shareability": 89,
+        "overall": 87,
+        "hook_text": "I tried to rob the Van Gogh museum",
+        "tip": "Keep the museum footage tighter to maintain the comedic pacing.",
+        "caption": "Dressing as Van Gogh to demand museum merch money is pure chaos.",
+        "description": "Conan O'Brien details his absurd plan to dress as Vincent van Gogh and infiltrate the Van Gogh Museum to demand a cut of the merchandise sales. See how security quickly shuts down his hilarious stunt in real time. Would you try to shake down a famous art museum?",
+        "hashtags": [
+          "conanobrien",
+          "vangogh",
+          "museum",
+          "prank",
+          "comedy"
+        ]
+      },
+      "id": "c1",
+      "title": "Conan Tries To Rob The Van Gogh Museum",
+      "reason": "Conan explains his ridiculous plan to dress as Van Gogh to demand a cut of the museum's merchandise sales.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 881.01,
+        "end": 947.24,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I tried to rob the Van Gogh museum",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/YYlIkwtC67A",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794157267.6694193
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 78,
+        "value": 85,
+        "shareability": 80,
+        "overall": 81,
+        "hook_text": "I interrupted Paul McCartney for a joke",
+        "tip": "Start directly with the Paul McCartney name-drop to maximize immediate curiosity.",
+        "caption": "Interrupting Paul McCartney is bold, but doing it for an Uber joke is next level.",
+        "description": "Conan O'Brien recalls the hilariously awkward moment he interrupted Jimmy Fallon mid-conversation with Paul McCartney to deliver a dumb joke. Find out how the music legend reacted to the sudden interruption in this funny story. Would you have the nerve to interrupt a Beatle?",
+        "hashtags": [
+          "conanobrien",
+          "paulmccartney",
+          "jimmyfallon",
+          "funny",
+          "storytime"
+        ]
+      },
+      "id": "c2",
+      "title": "Interrupting Paul McCartney With A Bit",
+      "reason": "Conan recounts the awkward, hilarious moment he tried to do a bit on Jimmy while he was talking to Paul McCartney.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 58.73,
+        "end": 105.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I interrupted Paul McCartney for a joke",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/GlM8xG5JQag",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794157423.1089802
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 80,
+        "value": 82,
+        "shareability": 78,
+        "overall": 78,
+        "hook_text": "My band replaced me with a box",
+        "tip": "Cut out the introductory banter to jump straight into quitting the college band.",
+        "caption": "Getting replaced by a literal box before AI was wild.",
+        "description": "Conan O'Brien shares a self-deprecating college story about quitting his band to pursue comedy, only to discover his replacement was a drum machine. Watch how his old bandmates instantly found success without him. Have you ever been shown up by inanimate technology?",
+        "hashtags": [
+          "conanobrien",
+          "collegeband",
+          "funny",
+          "nostalgia",
+          "humor"
+        ]
+      },
+      "id": "c3",
+      "title": "Conan Replaced By A Drum Machine",
+      "reason": "Conan shares a self-deprecating story about quitting his college band only to find they were more successful using a machine.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 519.91,
+        "end": 581.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "My band replaced me with a box",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/UOy_tmRu5Pc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794157591.7884848
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {},
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": true,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794154827.6419342,
+  "finished": 1794157555.840589,
+  "log": [
+    {
+      "t": 1794154827.6521478,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=SXVcFUo1kOI"
+    },
+    {
+      "t": 1794154859.1895087,
+      "level": "ok",
+      "msg": "Downloaded \"Conan O'Brien Got a Surprise Call from Mick Jagger, Addresses Rumors About His Hair | Tonight Show\" (16:21) in 0:31"
+    },
+    {
+      "t": 1794154859.1947606,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794154859.2062461,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794154862.035953,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794154862.054656,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794156281.9058225,
+      "level": "ok",
+      "msg": "Transcribed 468 segments / 2932 words in 23:42"
+    },
+    {
+      "t": 1794156281.9183037,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794156281.934246,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794156283.721049,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794156284.1381521,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794156284.1449454,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794156289.8645093,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794156289.8831553,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Conan O'Brien discusses interrupting Jimmy Fallon while he was talking to Paul McCartney, receiving a surprise phone call from Mick Jagger while Jagger was loading a dishwasher, and addressing internet rumors and headlines about his new hairstyle caused by putting oil on a sunburned scalp b"
+    },
+    {
+      "t": 1794156293.0216274,
+      "level": "info",
+      "msg": "Audio analysis: 2 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794156293.0370135,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794156294.8566465,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794156295.2372859,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794156295.250346,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794156304.5315235,
+      "level": "warn",
+      "msg": "gemini-3.5-flash-lite: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794156304.536905,
+      "level": "info",
+      "msg": "Trying gemini-3.1-flash-lite..."
+    },
+    {
+      "t": 1794156307.1165245,
+      "level": "ok",
+      "msg": "gemini-3.1-flash-lite answered"
+    },
+    {
+      "t": 1794156307.2101774,
+      "level": "ok",
+      "msg": "AI picked 3 clips in 0:25"
+    },
+    {
+      "t": 1794156307.215698,
+      "level": "info",
+      "msg": "  \u2022 Interrupting Paul McCartney With A Bit  [0:58-1:45, score 92]"
+    },
+    {
+      "t": 1794156307.2213814,
+      "level": "info",
+      "msg": "  \u2022 Conan Replaced By A Drum Machine  [8:39-9:41, score 85]"
+    },
+    {
+      "t": 1794156307.2311132,
+      "level": "info",
+      "msg": "  \u2022 Conan Tries To Rob The Van Gogh Museum  [14:41-15:47, score 82]"
+    },
+    {
+      "t": 1794156307.2476313,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794156307.2560005,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794156309.066853,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794156309.502758,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794156309.5137815,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794156312.343909,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794156312.355349,
+      "level": "ok",
+      "msg": "Rated 3 clips in 0:05"
+    },
+    {
+      "t": 1794156312.36386,
+      "level": "info",
+      "msg": "  - Interrupting Paul McCartney With A Bit: 81/100 (hook 82, retention 78, value 85, share 80)"
+    },
+    {
+      "t": 1794156312.3690164,
+      "level": "info",
+      "msg": "  - Conan Replaced By A Drum Machine: 78/100 (hook 75, retention 80, value 82, share 78)"
+    },
+    {
+      "t": 1794156312.3754752,
+      "level": "info",
+      "msg": "  - Conan Tries To Rob The Van Gogh Museum: 87/100 (hook 88, retention 82, value 90, share 89)"
+    },
+    {
+      "t": 1794156312.3880424,
+      "level": "ok",
+      "msg": "3 distinct clips found, 3 rated 50+"
+    },
+    {
+      "t": 1794156995.6962168,
+      "level": "ok",
+      "msg": "Full auto: each clip uploads to 'Entertainment & fun' (public) as soon as it is rendered"
+    },
+    {
+      "t": 1794156995.718412,
+      "level": "info",
+      "msg": "Rendering clip 1/3: Conan Tries To Rob The Van Gogh Museum"
+    },
+    {
+      "t": 1794157210.7245514,
+      "level": "ok",
+      "msg": "Clip 1 ready in 3:35"
+    },
+    {
+      "t": 1794157210.754611,
+      "level": "info",
+      "msg": "Rendering clip 2/3: Interrupting Paul McCartney With A Bit"
+    },
+    {
+      "t": 1794157361.610676,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:30"
+    },
+    {
+      "t": 1794157361.6394238,
+      "level": "info",
+      "msg": "Rendering clip 3/3: Conan Replaced By A Drum Machine"
+    },
+    {
+      "t": 1794157555.831025,
+      "level": "ok",
+      "msg": "Clip 3 ready in 3:14"
+    },
+    {
+      "t": 1794157555.8521585,
+      "level": "ok",
+      "msg": "All done in 9:20"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 981,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.81,
+      "value": 0.4036120315663626
+    },
+    {
+      "start_time": 9.81,
+      "end_time": 19.62,
+      "value": 0.2883124170621226
+    },
+    {
+      "start_time": 19.62,
+      "end_time": 29.43,
+      "value": 0.29611452496925167
+    },
+    {
+      "start_time": 29.43,
+      "end_time": 39.24,
+      "value": 0.25762152115946013
+    },
+    {
+      "start_time": 39.24,
+      "end_time": 49.05,
+      "value": 0.2260723351430096
+    },
+    {
+      "start_time": 49.05,
+      "end_time": 58.86,
+      "value": 0.19916538499522554
+    },
+    {
+      "start_time": 58.86,
+      "end_time": 68.67,
+      "value": 0.18779666775537113
+    },
+    {
+      "start_time": 68.67,
+      "end_time": 78.48,
+      "value": 0.2411646508780924
+    },
+    {
+      "start_time": 78.48,
+      "end_time": 88.29,
+      "value": 0.21476827953346822
+    },
+    {
+      "start_time": 88.29,
+      "end_time": 98.1,
+      "value": 0.3046537161393528
+    },
+    {
+      "start_time": 98.1,
+      "end_time": 107.91,
+      "value": 0.22646478108445078
+    },
+    {
+      "start_time": 107.91,
+      "end_time": 117.72,
+      "value": 0.13171939468031357
+    },
+    {
+      "start_time": 117.72,
+      "end_time": 127.53,
+      "value": 0.12104178569105263
+    },
+    {
+      "start_time": 127.53,
+      "end_time": 137.34,
+      "value": 0.13596489720169244
+    },
+    {
+      "start_time": 137.34,
+      "end_time": 147.15,
+      "value": 0.24507813561213
+    },
+    {
+      "start_time": 147.15,
+      "end_time": 156.96,
+      "value": 0.23408501130331408
+    },
+    {
+      "start_time": 156.96,
+      "end_time": 166.77,
+      "value": 0.09585142925325323
+    },
+    {
+      "start_time": 166.77,
+      "end_time": 176.58,
+      "value": 0.09880128581728169
+    },
+    {
+      "start_time": 176.58,
+      "end_time": 186.39,
+      "value": 0.1251306630749531
+    },
+    {
+      "start_time": 186.39,
+      "end_time": 196.2,
+      "value": 0.14555970701378476
+    },
+    {
+      "start_time": 196.2,
+      "end_time": 206.01,
+      "value": 0.2329875163010743
+    },
+    {
+      "start_time": 206.01,
+      "end_time": 215.82,
+      "value": 0.3242026149805061
+    },
+    {
+      "start_time": 215.82,
+      "end_time": 225.63,
+      "value": 0.24102065875721182
+    },
+    {
+      "start_time": 225.63,
+      "end_time": 235.44,
+      "value": 0.2307127913337776
+    },
+    {
+      "start_time": 235.44,
+      "end_time": 245.25,
+      "value": 0.2362076277399203
+    },
+    {
+      "start_time": 245.25,
+      "end_time": 255.06,
+      "value": 0.26467966977537294
+    },
+    {
+      "start_time": 255.06,
+      "end_time": 264.87,
+      "value": 0.3623928038993821
+    },
+    {
+      "start_time": 264.87,
+      "end_time": 274.68,
+      "value": 0.25848922199425717
+    },
+    {
+      "start_time": 274.68,
+      "end_time": 284.49,
+      "value": 0.14367405738584865
+    },
+    {
+      "start_time": 284.49,
+      "end_time": 294.3,
+      "value": 0.12448548938951318
+    },
+    {
+      "start_time": 294.3,
+      "end_time": 304.11,
+      "value": 0.1221199873669834
+    },
+    {
+      "start_time": 304.11,
+      "end_time": 313.92,
+      "value": 0.13846736701036697
+    },
+    {
+      "start_time": 313.92,
+      "end_time": 323.73,
+      "value": 0.11549532514344439
+    },
+    {
+      "start_time": 323.73,
+      "end_time": 333.54,
+      "value": 0.17826886551263993
+    },
+    {
+      "start_time": 333.54,
+      "end_time": 343.35,
+      "value": 0.2949060697465206
+    },
+    {
+      "start_time": 343.35,
+      "end_time": 353.16,
+      "value": 0.3117724007686321
+    },
+    {
+      "start_time": 353.16,
+      "end_time": 362.97,
+      "value": 0.22180089246801887
+    },
+    {
+      "start_time": 362.97,
+      "end_time": 372.78,
+      "value": 0.19274756988016498
+    },
+    {
+      "start_time": 372.78,
+      "end_time": 382.59,
+      "value": 0.16742717561409842
+    },
+    {
+      "start_time": 382.59,
+      "end_time": 392.4,
+      "value": 0.1509474391682163
+    },
+    {
+      "start_time": 392.4,
+      "end_time": 402.21,
+      "value": 0.15611152513340001
+    },
+    {
+      "start_time": 402.21,
+      "end_time": 412.02,
+      "value": 0.2148380105493104
+    },
+    {
+      "start_time": 412.02,
+      "end_time": 421.83,
+      "value": 0.18564112727764223
+    },
+    {
+      "start_time": 421.83,
+      "end_time": 431.64,
+      "value": 0.11025223226549288
+    },
+    {
+      "start_time": 431.64,
+      "end_time": 441.45,
+      "value": 0.0816874177783755
+    },
+    {
+      "start_time": 441.45,
+      "end_time": 451.26,
+      "value": 0.07821968842828488
+    },
+    {
+      "start_time": 451.26,
+      "end_time": 461.07,
+      "value": 0.07725111221442152
+    },
+    {
+      "start_time": 461.07,
+      "end_time": 470.88,
+      "value": 0.08798935159390717
+    },
+    {
+      "start_time": 470.88,
+      "end_time": 480.69,
+      "value": 0.12774099215020482
+    },
+    {
+      "start_time": 480.69,
+      "end_time": 490.5,
+      "value": 0.13372331199405157
+    },
+    {
+      "start_time": 490.5,
+      "end_time": 500.31,
+      "value": 0.12965370097164347
+    },
+    {
+      "start_time": 500.31,
+      "end_time": 510.12,
+      "value": 0.11533670460953428
+    },
+    {
+      "start_time": 510.12,
+      "end_time": 519.93,
+      "value": 0.09584542958154986
+    },
+    {
+      "start_time": 519.93,
+      "end_time": 529.74,
+      "value": 0.09665259440298042
+    },
+    {
+      "start_time": 529.74,
+      "end_time": 539.55,
+      "value": 0.10083041523458211
+    },
+    {
+      "start_time": 539.55,
+      "end_time": 549.36,
+      "value": 0.0924893615371833
+    },
+    {
+      "start_time": 549.36,
+      "end_time": 559.17,
+      "value": 0.09052595886045336
+    },
+    {
+      "start_time": 559.17,
+      "end_time": 568.98,
+      "value": 0.11976382865342088
+    },
+    {
+      "start_time": 568.98,
+      "end_time": 578.79,
+      "value": 0.2416506647332893
+    },
+    {
+      "start_time": 578.79,
+      "end_time": 588.6,
+      "value": 0.23285600889030006
+    },
+    {
+      "start_time": 588.6,
+      "end_time": 598.41,
+      "value": 0.13561014807392
+    },
+    {
+      "start_time": 598.41,
+      "end_time": 608.22,
+      "value": 0.10284557687686079
+    },
+    {
+      "start_time": 608.22,
+      "end_time": 618.03,
+      "value": 0.10821951652757877
+    },
+    {
+      "start_time": 618.03,
+      "end_time": 627.84,
+      "value": 0.11736843613164089
+    },
+    {
+      "start_time": 627.84,
+      "end_time": 637.65,
+      "value": 0.10135643139527084
+    },
+    {
+      "start_time": 637.65,
+      "end_time": 647.46,
+      "value": 0.07931723736015793
+    },
+    {
+      "start_time": 647.46,
+      "end_time": 657.27,
+      "value": 0.07778279098660557
+    },
+    {
+      "start_time": 657.27,
+      "end_time": 667.08,
+      "value": 0.08716736960573056
+    },
+    {
+      "start_time": 667.08,
+      "end_time": 676.89,
+      "value": 0.09032753825717627
+    },
+    {
+      "start_time": 676.89,
+      "end_time": 686.7,
+      "value": 0.1103771332961893
+    },
+    {
+      "start_time": 686.7,
+      "end_time": 696.51,
+      "value": 0.126486009136354
+    },
+    {
+      "start_time": 696.51,
+      "end_time": 706.32,
+      "value": 0.1535267047746938
+    },
+    {
+      "start_time": 706.32,
+      "end_time": 716.13,
+      "value": 0.13342664508133095
+    },
+    {
+      "start_time": 716.13,
+      "end_time": 725.94,
+      "value": 0.09373676743755707
+    },
+    {
+      "start_time": 725.94,
+      "end_time": 735.75,
+      "value": 0.10753974698238422
+    },
+    {
+      "start_time": 735.75,
+      "end_time": 745.56,
+      "value": 0.11430907544721991
+    },
+    {
+      "start_time": 745.56,
+      "end_time": 755.37,
+      "value": 0.10905657184825954
+    },
+    {
+      "start_time": 755.37,
+      "end_time": 765.18,
+      "value": 0.1262620932989397
+    },
+    {
+      "start_time": 765.18,
+      "end_time": 774.99,
+      "value": 0.15619713842624566
+    },
+    {
+      "start_time": 774.99,
+      "end_time": 784.8,
+      "value": 0.1516005809569746
+    },
+    {
+      "start_time": 784.8,
+      "end_time": 794.61,
+      "value": 0.1362396686832979
+    },
+    {
+      "start_time": 794.61,
+      "end_time": 804.42,
+      "value": 0.136143080710078
+    },
+    {
+      "start_time": 804.42,
+      "end_time": 814.23,
+      "value": 0.1798168886713727
+    },
+    {
+      "start_time": 814.23,
+      "end_time": 824.04,
+      "value": 0.9485406674938124
+    },
+    {
+      "start_time": 824.04,
+      "end_time": 833.85,
+      "value": 1.0
+    },
+    {
+      "start_time": 833.85,
+      "end_time": 843.66,
+      "value": 0.11048414317104222
+    },
+    {
+      "start_time": 843.66,
+      "end_time": 853.47,
+      "value": 0.12433809970173543
+    },
+    {
+      "start_time": 853.47,
+      "end_time": 863.28,
+      "value": 0.1476026693820237
+    },
+    {
+      "start_time": 863.28,
+      "end_time": 873.09,
+      "value": 0.14427637049523245
+    },
+    {
+      "start_time": 873.09,
+      "end_time": 882.9,
+      "value": 0.12285661222807247
+    },
+    {
+      "start_time": 882.9,
+      "end_time": 892.71,
+      "value": 0.13006031692423123
+    },
+    {
+      "start_time": 892.71,
+      "end_time": 902.52,
+      "value": 0.13625231518230407
+    },
+    {
+      "start_time": 902.52,
+      "end_time": 912.33,
+      "value": 0.14788658193647156
+    },
+    {
+      "start_time": 912.33,
+      "end_time": 922.14,
+      "value": 0.18953570967521216
+    },
+    {
+      "start_time": 922.14,
+      "end_time": 931.95,
+      "value": 0.15933479145579338
+    },
+    {
+      "start_time": 931.95,
+      "end_time": 941.76,
+      "value": 0.14171153106565967
+    },
+    {
+      "start_time": 941.76,
+      "end_time": 951.57,
+      "value": 0.14223281490102732
+    },
+    {
+      "start_time": 951.57,
+      "end_time": 961.38,
+      "value": 0.15085805080104045
+    },
+    {
+      "start_time": 961.38,
+      "end_time": 971.19,
+      "value": 0.09841892471726547
+    },
+    {
+      "start_time": 971.19,
+      "end_time": 981.0,
+      "value": 0.0
+    }
+  ],
+  "video_description": "Conan O'Brien talks about a phone call he received from Mick Jagger, addresses rumors about his hair and discusses filming the new season of his show Conan O'Brien Must Go.\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nConan O'Brien Got a Surprise Call from Mick Jagger, Addresses Rumors About His Hair | Tonight Show\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight\n#ConanOBrien\n#JimmyFallon",
+  "brief": "Summary: Conan O'Brien discusses interrupting Jimmy Fallon while he was talking to Paul McCartney, receiving a surprise phone call from Mick Jagger while Jagger was loading a dishwasher, and addressing internet rumors and headlines about his new hairstyle caused by putting oil on a sunburned scalp before a podcast episode with Molly Shannon.\nPeople: Conan O'Brien; Jimmy Fallon; Paul McCartney; Mick Jagger; Molly Shannon; Jim Downey; Kevin Nealon\nContext: An interview segment on The Tonight Show Starring Jimmy Fallon where Conan O'Brien shares humorous anecdotes and responds to media coverage about his hair.\nUnclear: none",
+  "render_index": 3,
+  "render_total": 3
+}

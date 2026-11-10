@@ -1,0 +1,2647 @@
+{
+  "id": "c00a27ffc2",
+  "created": 1794149626.794726,
+  "url": "https://www.youtube.com/watch?v=WLDE9LrGpNk",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Jimmy Kimmel\u2019s Interview with James Talarico That the FCC Doesn\u2019t Want You To See",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 88,
+        "value": 85,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "Security video caught him stealing a pen",
+        "tip": "Include the security footage or photo of the pen directly in the edit for visual proof.",
+        "caption": "Caught on camera: politician steals a 1000 dollar pen.",
+        "description": "James Talarico shares the bizarre security footage story of his opponent getting caught stealing an expensive pen. The viral moment highlights ongoing corruption controversies involving high-profile state officials. Have you ever seen a politician get caught over something so small?",
+        "hashtags": [
+          "scandal",
+          "texas",
+          "caughtoncamera",
+          "politics",
+          "news"
+        ]
+      },
+      "id": "c1",
+      "title": "James Talarico Exposes Ken Paxton Stealing a $1000 Pen",
+      "reason": "James Talarico shares the unbelievable security footage story of his opponent getting caught stealing a fellow lawyer's pen.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 779.97,
+        "end": 851.89,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Security video caught him stealing a pen",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 779.97, 851.89]",
+        "items": [
+          {
+            "t": 4.5,
+            "dur": 1.5,
+            "phrase": "security camera footage",
+            "said": "got security video of him",
+            "alt": [
+              "cctv surveillance video",
+              "security monitors"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_173103.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 16.1,
+            "dur": 2.5,
+            "phrase": "luxury fountain pen",
+            "said": "1,000 pen",
+            "alt": [
+              "expensive gold pen",
+              "fountain pen detail"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_4952.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 23.0,
+            "dur": 2.1,
+            "phrase": "courthouse security scanner",
+            "said": "courthouse metal detectors in a a bin",
+            "alt": [
+              "metal detector checkpoint",
+              "security tray bin"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 29.6,
+            "dur": 1.6,
+            "phrase": "watching security footage",
+            "said": "they looked at the footage",
+            "alt": [
+              "looking at screen",
+              "cctv operator monitoring"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 39.7,
+            "dur": 2.7,
+            "phrase": "police officers speaking",
+            "said": "until police got involved",
+            "alt": [
+              "law enforcement officer",
+              "police emergency lights"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_360387.mp4",
+            "conf": 70,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 47.5,
+            "dur": 2.2,
+            "phrase": "counting cash money",
+            "said": "steal your tax dollars",
+            "alt": [
+              "holding dollar bills",
+              "stack of cash"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_59139.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 53.9,
+            "dur": 1.8,
+            "phrase": "filming video camera",
+            "said": "part of this video that you made",
+            "alt": [
+              "cameraman recording video",
+              "behind the scenes camera"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_992.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 64.3,
+            "dur": 2.9,
+            "phrase": "signing legal document",
+            "said": "He won't steal your pen",
+            "alt": [
+              "person writing pen",
+              "hand holding pen"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_198901.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 84,
+        "value": 90,
+        "shareability": 94,
+        "overall": 88,
+        "hook_text": "They are closing polling places to stop you",
+        "tip": "Display a clear call-out graphic telling viewers how to check their voter registration.",
+        "caption": "They are closing polling locations to make voting harder.",
+        "description": "James Talarico sounds the alarm on massive poll closures and voter registration suspensions in key swing counties. He urges citizens to check their registration status and fight voter suppression through collective action. Are your voting rights being protected?",
+        "hashtags": [
+          "votingrights",
+          "democracy",
+          "election2024",
+          "texas",
+          "civics"
+        ]
+      },
+      "id": "c2",
+      "title": "James Talarico Warns About Voter Suppression in Texas",
+      "reason": "James Talarico sounds the alarm on massive poll closures and voter registration suspensions in key Texas counties ahead of the election.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1169.61,
+        "end": 1238.06,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "They are closing polling places to stop you",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 1169.61, 1238.06]",
+        "items": [
+          {
+            "t": 9.4,
+            "dur": 1.5,
+            "phrase": "person voting at ballot box",
+            "said": "for people to vote",
+            "alt": [
+              "voter casting ballot",
+              "election voting"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_30435.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 18.0,
+            "dur": 2.5,
+            "phrase": "people at voting station",
+            "said": "in the democratic process",
+            "alt": [
+              "citizens voting",
+              "democracy vote"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 26.5,
+            "dur": 2.1,
+            "phrase": "closed voting polling place",
+            "said": "against these poll closures",
+            "alt": [
+              "locked ballot station",
+              "closed office"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 34.0,
+            "dur": 1.6,
+            "phrase": "voting line at polls",
+            "said": "92 polling locations",
+            "alt": [
+              "people waiting to vote",
+              "polling station queue"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 47.0,
+            "dur": 2.7,
+            "phrase": "voter registration forms",
+            "said": "million voter registrations",
+            "alt": [
+              "signing ballot paper",
+              "paper documents"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 54.0,
+            "dur": 2.2,
+            "phrase": "person typing on laptop",
+            "said": "voter registration online",
+            "alt": [
+              "using computer screen",
+              "online voting"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_10822.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 85,
+        "value": 88,
+        "shareability": 92,
+        "overall": 86,
+        "hook_text": "Nicknames do not lower grocery prices",
+        "tip": "Cut the stumbles at the beginning to maintain a razor-sharp rhythm throughout.",
+        "caption": "Nicknames don't lower the price of groceries.",
+        "description": "James Talarico calls out petty political name-calling and distraction tactics used by opponents. He argues that voters care more about affordable groceries and healthcare than childish nicknames. Is modern political theater distracting us from real issues?",
+        "hashtags": [
+          "elections",
+          "groceries",
+          "policy",
+          "texaspolitics",
+          "debates"
+        ]
+      },
+      "id": "c3",
+      "title": "James Talarico Destroys Republican Nickname Politics",
+      "reason": "James Talarico explains how voters are tired of professional wrestling politics and name-calling that does nothing to lower the price of groceries.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 573.05,
+        "end": 639.59,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Nicknames do not lower grocery prices",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 573.05, 639.59]",
+        "items": [
+          {
+            "t": 7.4,
+            "dur": 1.5,
+            "phrase": "eating healthy vegan food",
+            "said": "whole thing about you being vegan.",
+            "alt": [
+              "fresh vegetables meal",
+              "healthy eating"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_383952.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 15.0,
+            "dur": 2.5,
+            "phrase": "person praying in church",
+            "said": "They said you hate Christianity.",
+            "alt": [
+              "church prayer",
+              "religion"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_99730.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 37.7,
+            "dur": 2.1,
+            "phrase": "man applying spray tan",
+            "said": "in their fake tans throwing throwing throwing corny nicknames",
+            "alt": [
+              "spray tanning",
+              "grooming"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 45.4,
+            "dur": 1.6,
+            "phrase": "shopping at grocery store",
+            "said": "don't lower the price of groceries.",
+            "alt": [
+              "buying groceries",
+              "supermarket"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_4730.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 86,
+        "value": 85,
+        "shareability": 89,
+        "overall": 86,
+        "hook_text": "He literally runs away from hard questions",
+        "tip": "Insert a short clip of the opponent actually running away to visually emphasize the point.",
+        "caption": "Watch this politician literally run away from tough questions.",
+        "description": "James Talarico highlights how his opponent flees from reporters when asked about his massive net worth and multiple homes. The discussion emphasizes the importance of transparency and facing tough questions from the public. Should politicians be forced to answer the media?",
+        "hashtags": [
+          "transparency",
+          "accountability",
+          "interview",
+          "politics",
+          "news"
+        ]
+      },
+      "id": "c4",
+      "title": "James Talarico Calls Out Ken Paxton for Running From Tough Questions",
+      "reason": "James Talarico contrasts his own openness with Ken Paxton running away from reporters asking about his 15 homes and massive net worth.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 936.01,
+        "end": 992.98,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "He literally runs away from hard questions",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 936.01, 992.98]",
+        "items": [
+          {
+            "t": 9.7,
+            "dur": 1.5,
+            "phrase": "confident fit man",
+            "said": "the high testosterone candidate",
+            "alt": [
+              "strong athletic man",
+              "man portrait"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_20422.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 21.2,
+            "dur": 2.5,
+            "phrase": "wealthy businessman smiling",
+            "said": "Ken Paxton gets rich",
+            "alt": [
+              "rich man in suit",
+              "businessman"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_109146.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 32.4,
+            "dur": 2.1,
+            "phrase": "reporter asking questions",
+            "said": "someone asks him a hard question",
+            "alt": [
+              "microphone interview",
+              "interview"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_288390.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 40.3,
+            "dur": 1.6,
+            "phrase": "luxury modern home",
+            "said": "his 15 homes",
+            "alt": [
+              "big house exterior",
+              "house"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_143861.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 47.1,
+            "dur": 2.7,
+            "phrase": "scared man face",
+            "said": "terrified look on his face",
+            "alt": [
+              "fearful expression",
+              "face"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_61299.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 80,
+        "value": 82,
+        "shareability": 91,
+        "overall": 86,
+        "hook_text": "Ted Cruz is panicking in this video",
+        "tip": "Speed up the transition into the video clip to maximize comedic timing.",
+        "caption": "Ted Cruz caught panicking in new campaign video.",
+        "description": "Jimmy Kimmel and James Talarico poke fun at a desperate emergency campaign video released ahead of a tight election. They question the opponent's panic and joke about the location where the promotional clip was filmed. Are politicians losing touch with everyday voters?",
+        "hashtags": [
+          "tedcruz",
+          "campaign",
+          "funny",
+          "election",
+          "texas"
+        ]
+      },
+      "id": "c5",
+      "title": "Ted Cruz Begs Texas Voters in Panicked Campaign Video",
+      "reason": "Jimmy Kimmel and James Talarico mock Ted Cruz filming a desperate emergency campaign video, joking he probably shot it from Cancun.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1093.81,
+        "end": 1130.92,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Ted Cruz is panicking in this video",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 1093.81, 1130.92]",
+        "items": [
+          {
+            "t": 7.0,
+            "dur": 1.5,
+            "phrase": "politician speaking at podium",
+            "said": "representing them in the Senate?",
+            "alt": [
+              "government official talking",
+              "person speaking"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_386533.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 17.5,
+            "dur": 2.5,
+            "phrase": "worried man begging",
+            "said": "You've got him begging now.",
+            "alt": [
+              "stressed person pleading",
+              "man asking"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_107264.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 28.5,
+            "dur": 2.1,
+            "phrase": "pressing emergency button",
+            "said": "an emergency. You started an emergency.",
+            "alt": [
+              "alarm alert warning",
+              "urgent problem"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 82,
+        "value": 85,
+        "shareability": 90,
+        "overall": 84,
+        "hook_text": "The biggest welfare queens are giant corporations",
+        "tip": "Add on-screen text highlighting the specific tax write-offs mentioned to boost engagement.",
+        "caption": "Who are the real welfare queens in America?",
+        "description": "James Talarico exposes how giant corporations and wealthy CEOs exploit tax loopholes while contributing nothing. He contrasts corporate subsidies with unfair attacks on working-class citizens, calling for accountability from future leaders. Do corporations pay their fair share?",
+        "hashtags": [
+          "corporatetaxes",
+          "economy",
+          "wealthytax",
+          "politics",
+          "inequality"
+        ]
+      },
+      "id": "c6",
+      "title": "James Talarico Exposes Corporate Welfare in America",
+      "reason": "James Talarico brilliantly turns the conversation on welfare queens toward giant corporations and CEOs flying private jets on tax write-offs.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 419.97,
+        "end": 468.38,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The biggest welfare queens are giant corporations",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 419.97, 468.38]",
+        "items": [
+          {
+            "t": 2.5,
+            "dur": 1.5,
+            "phrase": "Texas map sign",
+            "said": "Texas it was actually on a uh a YouTube",
+            "alt": [
+              "Texas state outline",
+              "Texas landscape"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 8.0,
+            "dur": 2.5,
+            "phrase": "undecided voters",
+            "said": "undecided voters in the state of Texas and and",
+            "alt": [
+              "diverse group of people",
+              "people talking"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1112.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 15.0,
+            "dur": 2.1,
+            "phrase": "person counting money",
+            "said": "brought up the issue of his words welfare queens.",
+            "alt": [
+              "hand holding cash",
+              "wealthy person"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_50622.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 21.0,
+            "dur": 1.6,
+            "phrase": "corporate skyscrapers",
+            "said": "biggest welfare queens in this country are the giant",
+            "alt": [
+              "city buildings",
+              "business district"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_185341.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 34.0,
+            "dur": 2.7,
+            "phrase": "businessman in suit",
+            "said": "CEOs who get to write off flying on a",
+            "alt": [
+              "corporate executive",
+              "businessman working"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_262977.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 78,
+        "value": 80,
+        "shareability": 88,
+        "overall": 83,
+        "hook_text": "The FCC tried to ban this interview",
+        "tip": "Trim the opening filler words to jump straight into the accusation against the FCC.",
+        "caption": "Why the FCC tried to ban this political interview.",
+        "description": "Jimmy Kimmel reveals why government threats forced the show to move a major political interview to YouTube. He highlights attempts by regulators to control editorial decisions and silence dissenting voices on public airwaves. How should networks handle government pressure?",
+        "hashtags": [
+          "fcc",
+          "censorship",
+          "firstamendment",
+          "politics",
+          "news"
+        ]
+      },
+      "id": "c7",
+      "title": "Jimmy Kimmel Exposes FCC Threats Over Candidate Interview",
+      "reason": "Jimmy Kimmel opens the show by addressing why they were forced to move the interview to YouTube due to government censorship.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 0.0,
+        "end": 37.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The FCC tried to ban this interview",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 0.0, 37.34]",
+        "items": [
+          {
+            "t": 2.6,
+            "dur": 1.5,
+            "phrase": "politician interview",
+            "said": "by the FCC for the crime of interviewing political",
+            "alt": [
+              "news interview",
+              "political discussion"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_349094.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 8.4,
+            "dur": 2.5,
+            "phrase": "late night talk show",
+            "said": "late night talk show have welcomed numerous candidates including",
+            "alt": [
+              "television studio audience",
+              "talk show host"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_143765.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 18.0,
+            "dur": 2.1,
+            "phrase": "american constitution book",
+            "said": "doesn't like me anymore or the First Amendment. And",
+            "alt": [
+              "legal document",
+              "law book"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_185092.mp4",
+            "conf": 70,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 23.3,
+            "dur": 1.6,
+            "phrase": "television broadcasting station",
+            "said": "show, our network, even our local ABC stations because",
+            "alt": [
+              "tv studio control room",
+              "broadcasting equipment"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_31851.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 32.0,
+            "dur": 2.7,
+            "phrase": "radio antenna tower",
+            "said": "we are bypassing the public airwaves and hosting this",
+            "alt": [
+              "broadcasting tower",
+              "communication satellite"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_199377.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {},
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": true,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794149626.799563,
+  "finished": 1794151611.849297,
+  "log": [
+    {
+      "t": 1794149626.8086727,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=WLDE9LrGpNk"
+    },
+    {
+      "t": 1794149649.616165,
+      "level": "ok",
+      "msg": "Downloaded \"Jimmy Kimmel\u2019s Interview with James Talarico That the FCC Doesn\u2019t Want You To See\" (21:01) in 0:22"
+    },
+    {
+      "t": 1794149649.6223693,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794149649.6367342,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794149657.9520128,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794149658.0233483,
+      "level": "ok",
+      "msg": "Transcribed 594 segments / 3570 words in 0:08"
+    },
+    {
+      "t": 1794149658.034088,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794149659.155797,
+      "level": "info",
+      "msg": "Using 11 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149660.5066733,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149660.9779131,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794149660.982673,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794149664.3028567,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794149664.3175805,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Jimmy Kimmel hosts an interview with Democratic Senate candidate James Talarico on YouTube after their broadcast was threatened by the FCC. They discuss the campaign, Talarico's moderate appearance versus his progressive populist message, how MAGA has co-opted Christianity, and corporate we"
+    },
+    {
+      "t": 1794149667.7143383,
+      "level": "info",
+      "msg": "Audio analysis: 10 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794149667.7241843,
+      "level": "info",
+      "msg": "Using 11 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149669.1672785,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149669.817891,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794149669.8222697,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794149674.0532117,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794149674.1217747,
+      "level": "ok",
+      "msg": "AI picked 7 clips in 0:16"
+    },
+    {
+      "t": 1794149674.1279373,
+      "level": "info",
+      "msg": "  \u2022 Jimmy Kimmel Exposes FCC Threats Over Candidate Interview  [0:00-0:37, score 96]"
+    },
+    {
+      "t": 1794149674.1325793,
+      "level": "info",
+      "msg": "  \u2022 James Talarico Exposes Corporate Welfare in America  [6:59-7:48, score 91]"
+    },
+    {
+      "t": 1794149674.137956,
+      "level": "info",
+      "msg": "  \u2022 James Talarico Destroys Republican Nickname Politics  [9:33-10:39, score 89]"
+    },
+    {
+      "t": 1794149674.1447208,
+      "level": "info",
+      "msg": "  \u2022 James Talarico Exposes Ken Paxton Stealing a $1000 Pen  [12:59-14:11, score 93]"
+    },
+    {
+      "t": 1794149674.1498468,
+      "level": "info",
+      "msg": "  \u2022 James Talarico Calls Out Ken Paxton for Running From Tough Questions  [15:36-16:32, score 90]"
+    },
+    {
+      "t": 1794149674.1545994,
+      "level": "info",
+      "msg": "  \u2022 Ted Cruz Begs Texas Voters in Panicked Campaign Video  [18:13-18:50, score 92]"
+    },
+    {
+      "t": 1794149674.1607122,
+      "level": "info",
+      "msg": "  \u2022 James Talarico Warns About Voter Suppression in Texas  [19:29-20:38, score 88]"
+    },
+    {
+      "t": 1794149674.1705332,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794149674.180015,
+      "level": "info",
+      "msg": "Using 11 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149675.661669,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149676.1993392,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794149677.5093098,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794149677.5147655,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149678.0479627,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794149678.053005,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794149682.6436155,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794149682.654486,
+      "level": "ok",
+      "msg": "Rated 7 clips in 0:08"
+    },
+    {
+      "t": 1794149682.6602197,
+      "level": "info",
+      "msg": "  - Jimmy Kimmel Exposes FCC Threats Over Candidate Interview: 83/100 (hook 85, retention 78, value 80, share 88)"
+    },
+    {
+      "t": 1794149682.6646624,
+      "level": "info",
+      "msg": "  - James Talarico Exposes Corporate Welfare in America: 84/100 (hook 80, retention 82, value 85, share 90)"
+    },
+    {
+      "t": 1794149682.669642,
+      "level": "info",
+      "msg": "  - James Talarico Destroys Republican Nickname Politics: 86/100 (hook 82, retention 85, value 88, share 92)"
+    },
+    {
+      "t": 1794149682.6765978,
+      "level": "info",
+      "msg": "  - James Talarico Exposes Ken Paxton Stealing a $1000 Pen: 90/100 (hook 90, retention 88, value 85, share 95)"
+    },
+    {
+      "t": 1794149682.6831076,
+      "level": "info",
+      "msg": "  - James Talarico Calls Out Ken Paxton for Running From Tough Questions: 86/100 (hook 84, retention 86, value 85, share 89)"
+    },
+    {
+      "t": 1794149682.6880555,
+      "level": "info",
+      "msg": "  - Ted Cruz Begs Texas Voters in Panicked Campaign Video: 86/100 (hook 88, retention 80, value 82, share 91)"
+    },
+    {
+      "t": 1794149682.6939797,
+      "level": "info",
+      "msg": "  - James Talarico Warns About Voter Suppression in Texas: 88/100 (hook 86, retention 84, value 90, share 94)"
+    },
+    {
+      "t": 1794149682.7049417,
+      "level": "ok",
+      "msg": "7 distinct clips found, 7 rated 50+"
+    },
+    {
+      "t": 1794149682.7299328,
+      "level": "warn",
+      "msg": "Full auto upload is PAUSED (You stopped all uploads.). Clips will be rendered; resume from the banner, then use Upload all."
+    },
+    {
+      "t": 1794149682.7487335,
+      "level": "info",
+      "msg": "Rendering clip 1/7: James Talarico Exposes Ken Paxton Stealing a $1000 Pen"
+    },
+    {
+      "t": 1794149682.7742991,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149684.0578675,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149698.2965899,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794149698.3093493,
+      "level": "info",
+      "msg": "Stock cutaways: 8 moment(s) chosen"
+    },
+    {
+      "t": 1794149712.9025364,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149714.2289789,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149714.7874346,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794149714.798278,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794149716.6254752,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794149718.0038388,
+      "level": "info",
+      "msg": "Cutaway at 4.5s: 'security camera footage' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794149719.2197475,
+      "level": "info",
+      "msg": "Cutaway at 16.1s: 'luxury fountain pen' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794149719.2258484,
+      "level": "info",
+      "msg": "Cutaway at 23.0s: 'courthouse security scanner' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794149719.2325382,
+      "level": "info",
+      "msg": "Cutaway at 23.0s: 'courthouse security scanner' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794149719.2382429,
+      "level": "info",
+      "msg": "Cutaway at 29.6s: 'watching security footage' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794149719.2450578,
+      "level": "info",
+      "msg": "Cutaway at 29.6s: 'watching security footage' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794149722.438977,
+      "level": "info",
+      "msg": "Cutaway at 39.7s: 'police officers speaking' -> pixabay (70% match)"
+    },
+    {
+      "t": 1794149723.74978,
+      "level": "info",
+      "msg": "Cutaway at 47.5s: 'counting cash money' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794149725.5330517,
+      "level": "info",
+      "msg": "Cutaway at 53.9s: 'filming video camera' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794149727.2719746,
+      "level": "info",
+      "msg": "Cutaway at 64.3s: 'signing legal document' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794149965.5859385,
+      "level": "ok",
+      "msg": "Clip 1 ready in 4:42"
+    },
+    {
+      "t": 1794149965.608208,
+      "level": "info",
+      "msg": "Rendering clip 2/7: James Talarico Warns About Voter Suppression in Texas"
+    },
+    {
+      "t": 1794149965.6374927,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149966.9812188,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149967.5923438,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794149967.600818,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794149969.561852,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794149969.5738869,
+      "level": "info",
+      "msg": "Stock cutaways: 6 moment(s) chosen"
+    },
+    {
+      "t": 1794149985.106692,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794149986.4227262,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794149986.7943895,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794149986.80174,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794149988.494191,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794149988.513948,
+      "level": "info",
+      "msg": "Cutaway at 9.4s: 'person voting at ballot box' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794149988.5205107,
+      "level": "info",
+      "msg": "Cutaway at 18.0s: 'people at voting station' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794149988.527485,
+      "level": "info",
+      "msg": "Cutaway at 18.0s: 'people at voting station' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794149988.5358238,
+      "level": "info",
+      "msg": "Cutaway at 26.5s: 'closed voting polling place' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794149988.5429144,
+      "level": "info",
+      "msg": "Cutaway at 26.5s: 'closed voting polling place' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794149988.5510778,
+      "level": "info",
+      "msg": "Cutaway at 34.0s: 'voting line at polls' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794149988.5575392,
+      "level": "info",
+      "msg": "Cutaway at 34.0s: 'voting line at polls' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794149988.565159,
+      "level": "info",
+      "msg": "Cutaway at 47.0s: 'voter registration forms' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794149988.5725822,
+      "level": "info",
+      "msg": "Cutaway at 47.0s: 'voter registration forms' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794149988.5991423,
+      "level": "info",
+      "msg": "Cutaway at 54.0s: 'person typing on laptop' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794150214.6385574,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:09"
+    },
+    {
+      "t": 1794150214.6663206,
+      "level": "info",
+      "msg": "Rendering clip 3/7: James Talarico Destroys Republican Nickname Politics"
+    },
+    {
+      "t": 1794150214.8108685,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150216.2023094,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150216.6299179,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150216.6381488,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150218.543259,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150218.555258,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794150224.5734038,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150225.9699895,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150226.5304337,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150226.53906,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150227.558511,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150228.9155269,
+      "level": "info",
+      "msg": "Cutaway at 7.4s: 'eating healthy vegan food' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794150231.3540614,
+      "level": "info",
+      "msg": "Cutaway at 15.0s: 'person praying in church' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794150231.3604383,
+      "level": "info",
+      "msg": "Cutaway at 37.7s: 'man applying spray tan' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794150231.3673606,
+      "level": "info",
+      "msg": "Cutaway at 37.7s: 'man applying spray tan' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794150232.509666,
+      "level": "info",
+      "msg": "Cutaway at 45.4s: 'shopping at grocery store' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794150439.6520085,
+      "level": "ok",
+      "msg": "Clip 3 ready in 3:44"
+    },
+    {
+      "t": 1794150439.674872,
+      "level": "info",
+      "msg": "Rendering clip 4/7: James Talarico Calls Out Ken Paxton for Running From Tough Questions"
+    },
+    {
+      "t": 1794150439.7033832,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150440.8440616,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150441.418984,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150441.425454,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150443.2921362,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150443.3038862,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794150451.763936,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150453.137378,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150453.498897,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150453.5052416,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150454.9316003,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150456.0843403,
+      "level": "info",
+      "msg": "Cutaway at 9.7s: 'confident fit man' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794150458.48825,
+      "level": "info",
+      "msg": "Cutaway at 21.2s: 'wealthy businessman smiling' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794150459.9665372,
+      "level": "info",
+      "msg": "Cutaway at 32.4s: 'reporter asking questions' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794150461.5886822,
+      "level": "info",
+      "msg": "Cutaway at 40.3s: 'luxury modern home' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794150462.8993943,
+      "level": "info",
+      "msg": "Cutaway at 47.1s: 'scared man face' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794150635.56655,
+      "level": "ok",
+      "msg": "Clip 4 ready in 3:15"
+    },
+    {
+      "t": 1794150635.5903141,
+      "level": "info",
+      "msg": "Rendering clip 5/7: Ted Cruz Begs Texas Voters in Panicked Campaign Video"
+    },
+    {
+      "t": 1794150635.6200361,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150636.9772775,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150637.529316,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150637.5361469,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150660.0302439,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150660.0403442,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794150667.1519268,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150668.2401319,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150668.8850698,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150668.8923776,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150670.0314147,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150670.9207015,
+      "level": "info",
+      "msg": "Cutaway at 7.0s: 'politician speaking at podium' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794150670.9345312,
+      "level": "info",
+      "msg": "Cutaway at 17.5s: 'worried man begging' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794150670.9413173,
+      "level": "info",
+      "msg": "Cutaway at 28.5s: 'pressing emergency button' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794150670.9483285,
+      "level": "info",
+      "msg": "Cutaway at 28.5s: 'pressing emergency button' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794150783.27206,
+      "level": "ok",
+      "msg": "Clip 5 ready in 2:27"
+    },
+    {
+      "t": 1794150783.2911081,
+      "level": "info",
+      "msg": "Rendering clip 6/7: James Talarico Exposes Corporate Welfare in America"
+    },
+    {
+      "t": 1794150783.319108,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150784.5935411,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150785.0250406,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150785.0320692,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150787.5558674,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150787.5665681,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794150795.9283025,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794150797.3070438,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794150797.822897,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794150797.8291178,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794150805.7908766,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794150805.802904,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'Texas map sign' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794150805.8092756,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'Texas map sign' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794150806.7908971,
+      "level": "info",
+      "msg": "Cutaway at 8.0s: 'undecided voters' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794150806.8045232,
+      "level": "info",
+      "msg": "Cutaway at 15.0s: 'person counting money' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794150808.3092551,
+      "level": "info",
+      "msg": "Cutaway at 21.0s: 'corporate skyscrapers' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794150810.2067342,
+      "level": "info",
+      "msg": "Cutaway at 34.0s: 'businessman in suit' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794151484.3906984,
+      "level": "ok",
+      "msg": "Clip 6 ready in 11:41"
+    },
+    {
+      "t": 1794151484.4074411,
+      "level": "info",
+      "msg": "Rendering clip 7/7: Jimmy Kimmel Exposes FCC Threats Over Candidate Interview"
+    },
+    {
+      "t": 1794151484.428619,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794151485.0955381,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794151485.5250864,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794151485.5304165,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794151487.0829556,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794151487.0918088,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794151493.942403,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794151494.6249301,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794151495.1408308,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794151495.145852,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794151496.5949392,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794151497.3490624,
+      "level": "info",
+      "msg": "Cutaway at 2.6s: 'politician interview' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794151497.8297014,
+      "level": "info",
+      "msg": "Cutaway at 8.4s: 'late night talk show' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794151498.7157662,
+      "level": "info",
+      "msg": "Cutaway at 18.0s: 'american constitution book' -> pixabay (70% match)"
+    },
+    {
+      "t": 1794151500.76521,
+      "level": "info",
+      "msg": "Cutaway at 23.3s: 'television broadcasting station' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794151503.4148347,
+      "level": "info",
+      "msg": "Cutaway at 32.0s: 'radio antenna tower' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794151611.8439429,
+      "level": "ok",
+      "msg": "Clip 7 ready in 2:07"
+    },
+    {
+      "t": 1794151611.8605063,
+      "level": "ok",
+      "msg": "All done in 32:09"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 1261,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 12.62,
+      "value": 0.35314946177274564
+    },
+    {
+      "start_time": 12.62,
+      "end_time": 25.24,
+      "value": 0.13186223322088958
+    },
+    {
+      "start_time": 25.24,
+      "end_time": 37.86,
+      "value": 0.10441809959876852
+    },
+    {
+      "start_time": 37.86,
+      "end_time": 50.48,
+      "value": 0.1085069513533904
+    },
+    {
+      "start_time": 50.48,
+      "end_time": 63.1,
+      "value": 0.18046254250486385
+    },
+    {
+      "start_time": 63.1,
+      "end_time": 75.72,
+      "value": 0.36873307351392326
+    },
+    {
+      "start_time": 75.72,
+      "end_time": 88.34,
+      "value": 0.12443035873699199
+    },
+    {
+      "start_time": 88.34,
+      "end_time": 100.96,
+      "value": 0.139928324154228
+    },
+    {
+      "start_time": 100.96,
+      "end_time": 113.58,
+      "value": 0.09836110113725573
+    },
+    {
+      "start_time": 113.58,
+      "end_time": 126.2,
+      "value": 0.11057683447008843
+    },
+    {
+      "start_time": 126.2,
+      "end_time": 138.82,
+      "value": 0.10102717680286107
+    },
+    {
+      "start_time": 138.82,
+      "end_time": 151.44,
+      "value": 0.1031148026436606
+    },
+    {
+      "start_time": 151.44,
+      "end_time": 164.06,
+      "value": 0.09213347108315417
+    },
+    {
+      "start_time": 164.06,
+      "end_time": 176.68,
+      "value": 0.09115045541817975
+    },
+    {
+      "start_time": 176.68,
+      "end_time": 189.3,
+      "value": 0.09220629293438452
+    },
+    {
+      "start_time": 189.3,
+      "end_time": 201.92,
+      "value": 0.10093255334802163
+    },
+    {
+      "start_time": 201.92,
+      "end_time": 214.54,
+      "value": 0.12909984179889117
+    },
+    {
+      "start_time": 214.54,
+      "end_time": 227.16,
+      "value": 0.13759543357810272
+    },
+    {
+      "start_time": 227.16,
+      "end_time": 239.78,
+      "value": 0.11948124928556449
+    },
+    {
+      "start_time": 239.78,
+      "end_time": 252.4,
+      "value": 0.09675210577180864
+    },
+    {
+      "start_time": 252.4,
+      "end_time": 265.02,
+      "value": 0.08334134311998373
+    },
+    {
+      "start_time": 265.02,
+      "end_time": 277.64,
+      "value": 0.0863453105887652
+    },
+    {
+      "start_time": 277.64,
+      "end_time": 290.26,
+      "value": 0.15668433068111778
+    },
+    {
+      "start_time": 290.26,
+      "end_time": 302.88,
+      "value": 0.1036357406578542
+    },
+    {
+      "start_time": 302.88,
+      "end_time": 315.5,
+      "value": 0.24261205264041483
+    },
+    {
+      "start_time": 315.5,
+      "end_time": 328.12,
+      "value": 0.09018403224109459
+    },
+    {
+      "start_time": 328.12,
+      "end_time": 340.74,
+      "value": 0.07418897968468667
+    },
+    {
+      "start_time": 340.74,
+      "end_time": 353.36,
+      "value": 0.1394227490650761
+    },
+    {
+      "start_time": 353.36,
+      "end_time": 365.98,
+      "value": 0.07023926684842867
+    },
+    {
+      "start_time": 365.98,
+      "end_time": 378.6,
+      "value": 1.0
+    },
+    {
+      "start_time": 378.6,
+      "end_time": 391.22,
+      "value": 0.07377357253769
+    },
+    {
+      "start_time": 391.22,
+      "end_time": 403.84,
+      "value": 0.06624486667426968
+    },
+    {
+      "start_time": 403.84,
+      "end_time": 416.46,
+      "value": 0.07186785589280158
+    },
+    {
+      "start_time": 416.46,
+      "end_time": 429.08,
+      "value": 0.08912615867458308
+    },
+    {
+      "start_time": 429.08,
+      "end_time": 441.7,
+      "value": 0.09871582340822711
+    },
+    {
+      "start_time": 441.7,
+      "end_time": 454.32,
+      "value": 0.08790840227456963
+    },
+    {
+      "start_time": 454.32,
+      "end_time": 466.94,
+      "value": 0.12253447859488413
+    },
+    {
+      "start_time": 466.94,
+      "end_time": 479.56,
+      "value": 0.08003737553750076
+    },
+    {
+      "start_time": 479.56,
+      "end_time": 492.18,
+      "value": 0.07660924854962485
+    },
+    {
+      "start_time": 492.18,
+      "end_time": 504.8,
+      "value": 0.07361519691025928
+    },
+    {
+      "start_time": 504.8,
+      "end_time": 517.42,
+      "value": 0.06648349441443974
+    },
+    {
+      "start_time": 517.42,
+      "end_time": 530.04,
+      "value": 0.06650829720908537
+    },
+    {
+      "start_time": 530.04,
+      "end_time": 542.66,
+      "value": 0.07582428505085062
+    },
+    {
+      "start_time": 542.66,
+      "end_time": 555.28,
+      "value": 0.055493119617506005
+    },
+    {
+      "start_time": 555.28,
+      "end_time": 567.9,
+      "value": 0.04924939947753892
+    },
+    {
+      "start_time": 567.9,
+      "end_time": 580.52,
+      "value": 0.09194745012331193
+    },
+    {
+      "start_time": 580.52,
+      "end_time": 593.14,
+      "value": 0.11247623142636244
+    },
+    {
+      "start_time": 593.14,
+      "end_time": 605.76,
+      "value": 0.3895409788044783
+    },
+    {
+      "start_time": 605.76,
+      "end_time": 618.38,
+      "value": 0.10045170172688003
+    },
+    {
+      "start_time": 618.38,
+      "end_time": 631.0,
+      "value": 0.07778772504404545
+    },
+    {
+      "start_time": 631.0,
+      "end_time": 643.62,
+      "value": 0.10326648839151206
+    },
+    {
+      "start_time": 643.62,
+      "end_time": 656.24,
+      "value": 0.14869354716691666
+    },
+    {
+      "start_time": 656.24,
+      "end_time": 668.86,
+      "value": 0.16021923132014407
+    },
+    {
+      "start_time": 668.86,
+      "end_time": 681.48,
+      "value": 0.17702603333585504
+    },
+    {
+      "start_time": 681.48,
+      "end_time": 694.1,
+      "value": 0.19970678760206131
+    },
+    {
+      "start_time": 694.1,
+      "end_time": 706.72,
+      "value": 0.146108741639204
+    },
+    {
+      "start_time": 706.72,
+      "end_time": 719.34,
+      "value": 0.07752725603694866
+    },
+    {
+      "start_time": 719.34,
+      "end_time": 731.96,
+      "value": 0.058653307673458464
+    },
+    {
+      "start_time": 731.96,
+      "end_time": 744.58,
+      "value": 0.06835650204336158
+    },
+    {
+      "start_time": 744.58,
+      "end_time": 757.2,
+      "value": 0.25545307817621404
+    },
+    {
+      "start_time": 757.2,
+      "end_time": 769.82,
+      "value": 0.11109610662494016
+    },
+    {
+      "start_time": 769.82,
+      "end_time": 782.44,
+      "value": 0.12711934657910098
+    },
+    {
+      "start_time": 782.44,
+      "end_time": 795.06,
+      "value": 0.12882846537943687
+    },
+    {
+      "start_time": 795.06,
+      "end_time": 807.68,
+      "value": 0.13481773211548614
+    },
+    {
+      "start_time": 807.68,
+      "end_time": 820.3,
+      "value": 0.14238914215092427
+    },
+    {
+      "start_time": 820.3,
+      "end_time": 832.92,
+      "value": 0.17651191741229957
+    },
+    {
+      "start_time": 832.92,
+      "end_time": 845.54,
+      "value": 0.2667751044143448
+    },
+    {
+      "start_time": 845.54,
+      "end_time": 858.16,
+      "value": 0.24569315204094608
+    },
+    {
+      "start_time": 858.16,
+      "end_time": 870.78,
+      "value": 0.9024352192914762
+    },
+    {
+      "start_time": 870.78,
+      "end_time": 883.4,
+      "value": 0.14343818401870267
+    },
+    {
+      "start_time": 883.4,
+      "end_time": 896.02,
+      "value": 0.11282788640076784
+    },
+    {
+      "start_time": 896.02,
+      "end_time": 908.64,
+      "value": 0.07438409676537976
+    },
+    {
+      "start_time": 908.64,
+      "end_time": 921.26,
+      "value": 0.053360846102123154
+    },
+    {
+      "start_time": 921.26,
+      "end_time": 933.88,
+      "value": 0.04526971439423312
+    },
+    {
+      "start_time": 933.88,
+      "end_time": 946.5,
+      "value": 0.07084427787496318
+    },
+    {
+      "start_time": 946.5,
+      "end_time": 959.12,
+      "value": 0.10027750043570155
+    },
+    {
+      "start_time": 959.12,
+      "end_time": 971.74,
+      "value": 0.07231278576924585
+    },
+    {
+      "start_time": 971.74,
+      "end_time": 984.36,
+      "value": 0.05210768358054201
+    },
+    {
+      "start_time": 984.36,
+      "end_time": 996.98,
+      "value": 0.07774630331929877
+    },
+    {
+      "start_time": 996.98,
+      "end_time": 1009.6,
+      "value": 0.10952130103931906
+    },
+    {
+      "start_time": 1009.6,
+      "end_time": 1022.22,
+      "value": 0.16925926823981785
+    },
+    {
+      "start_time": 1022.22,
+      "end_time": 1034.84,
+      "value": 0.21641239527330658
+    },
+    {
+      "start_time": 1034.84,
+      "end_time": 1047.46,
+      "value": 0.26786396825305747
+    },
+    {
+      "start_time": 1047.46,
+      "end_time": 1060.08,
+      "value": 0.24457329793003227
+    },
+    {
+      "start_time": 1060.08,
+      "end_time": 1072.7,
+      "value": 0.19648641707210732
+    },
+    {
+      "start_time": 1072.7,
+      "end_time": 1085.32,
+      "value": 0.3232921061351246
+    },
+    {
+      "start_time": 1085.32,
+      "end_time": 1097.94,
+      "value": 0.05777751517723461
+    },
+    {
+      "start_time": 1097.94,
+      "end_time": 1110.56,
+      "value": 0.06237798406639914
+    },
+    {
+      "start_time": 1110.56,
+      "end_time": 1123.18,
+      "value": 0.11665782923878769
+    },
+    {
+      "start_time": 1123.18,
+      "end_time": 1135.8,
+      "value": 0.10510869084371519
+    },
+    {
+      "start_time": 1135.8,
+      "end_time": 1148.42,
+      "value": 0.04201206034567533
+    },
+    {
+      "start_time": 1148.42,
+      "end_time": 1161.04,
+      "value": 0.05716841882898074
+    },
+    {
+      "start_time": 1161.04,
+      "end_time": 1173.66,
+      "value": 0.0755738640842286
+    },
+    {
+      "start_time": 1173.66,
+      "end_time": 1186.28,
+      "value": 0.0326300330800002
+    },
+    {
+      "start_time": 1186.28,
+      "end_time": 1198.9,
+      "value": 0.01262938207274628
+    },
+    {
+      "start_time": 1198.9,
+      "end_time": 1211.52,
+      "value": 0.005772162956264661
+    },
+    {
+      "start_time": 1211.52,
+      "end_time": 1224.14,
+      "value": 0.0007978540770148985
+    },
+    {
+      "start_time": 1224.14,
+      "end_time": 1236.76,
+      "value": 0.0
+    },
+    {
+      "start_time": 1236.76,
+      "end_time": 1249.38,
+      "value": 0.0070913252384380175
+    },
+    {
+      "start_time": 1249.38,
+      "end_time": 1262.0,
+      "value": 0.024097871721902815
+    }
+  ],
+  "video_description": "Jimmy\u2019s interview with Democratic Senate candidate from Texas James Talarico was not televised because of threats from the FCC so we're hosting their discussion here on YouTube. James talks about Republicans being scared of him winning, Jesus being co-opted by MAGA, the RNC Convention being held in Texas, not taking money from corporate PACs, Trump calling him a \u201cfreaky guy\u201d and having second thoughts about endorsing his opponent Ken Paxton, and the GOP making it harder for people to vote.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 16 billion views and more than 19 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Jimmy Kimmel hosts an interview with Democratic Senate candidate James Talarico on YouTube after their broadcast was threatened by the FCC. They discuss the campaign, Talarico's moderate appearance versus his progressive populist message, how MAGA has co-opted Christianity, and corporate welfare compared to social safety nets.\nPeople: Jimmy Kimmel; James Talarico; Donald Trump; Elon Musk; Ken Paxton; Stephen Colbert; Raphael Warnock\nContext: The interview was blocked from being televised on ABC's Jimmy Kimmel Live due to threats from the FCC regarding equal time rules for political candidates, prompting the show to host it on YouTube instead.\nUnclear: The exact details of the FCC threats and notices received by the network or local stations are not elaborated upon beyond Kimmel's opening statement.",
+  "render_index": 7,
+  "render_total": 7
+}

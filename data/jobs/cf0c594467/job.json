@@ -1,0 +1,1379 @@
+{
+  "id": "cf0c594467",
+  "created": 1794306437.5818052,
+  "url": "https://www.youtube.com/watch?v=9dSLJHS2Uns",
+  "source": "manual",
+  "creator_id": null,
+  "title": "Mayor Zohran Mamdani on His Relationship with Trump, People in Sewers & New Public Restrooms",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 78,
+        "value": 72,
+        "shareability": 80,
+        "overall": 83,
+        "hook_text": "They said this city would fall.",
+        "tip": "Cut down the lengthy intro montage to get to Jimmy Kimmel's punchline faster.",
+        "caption": "Media warned New York would fall apart, but Mayor Zohran Mamdani took it in stride.",
+        "description": "Watch the dramatic media warnings that preceded Zohran Mamdani's unexpected mayoral victory in New York City. Jimmy Kimmel pokes fun at the doomsday predictions during a late-night show appearance. What do you think of this dramatic political entrance?",
+        "hashtags": [
+          "zohranmamdani",
+          "jimmykimmel",
+          "nyc",
+          "politics",
+          "lateight"
+        ]
+      },
+      "id": "c1",
+      "title": "Zohran Mamdani's Dramatic Late-Night Intro",
+      "reason": "A dramatic collage of news clips warning about the end of NYC builds up to a hilarious intro from Jimmy Kimmel.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 0.0,
+        "end": 41.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "They said this city would fall.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/n0u1DbQwC60",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "FameStands",
+          "t": 1794308729.534878
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 85,
+        "value": 80,
+        "shareability": 88,
+        "overall": 83,
+        "hook_text": "Ten minutes or the door opens.",
+        "tip": "Emphasize the audio cue of the public restroom door opening for added comedic tension.",
+        "caption": "Mayor Mamdani defends the ten-minute bathroom timer with a Madonna joke.",
+        "description": "Jimmy Kimmel questions the strict ten-minute time limit on New York City's new mobile public restrooms. Mayor Zohran Mamdani delivers a clever defense involving Madonna and public safety features. Would you be stressed by a bathroom timer?",
+        "hashtags": [
+          "jimmykimmel",
+          "nyc",
+          "bathroom",
+          "comedy",
+          "zohranmamdani"
+        ]
+      },
+      "id": "c2",
+      "title": "Jimmy Kimmel Questions 10-Minute Bathroom Limit",
+      "reason": "Mayor Zohran Mamdani delivers a witty Madonna reference while defending the time limits on new public restrooms.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 247.96,
+        "end": 294.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Ten minutes or the door opens.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/uNYVmmt4kms",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "FameStands",
+          "t": 1794308813.8015952
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 80,
+        "value": 82,
+        "shareability": 85,
+        "overall": 81,
+        "hook_text": "What Trump text messages look like.",
+        "tip": "Keep the focus tighter on the texting dynamic to build higher curiosity.",
+        "caption": "Does Donald Trump text Mayor Mamdani in all caps?",
+        "description": "Mayor Zohran Mamdani reveals to Jimmy Kimmel what it is really like texting with Donald Trump. Find out if the former president uses all caps or normal sentence case when messaging the mayor. Are you surprised by this text message style?",
+        "hashtags": [
+          "donaldtrump",
+          "zohranmamdani",
+          "jimmykimmel",
+          "texting",
+          "politics"
+        ]
+      },
+      "id": "c3",
+      "title": "Jimmy Kimmel Asks How Donald Trump Texts",
+      "reason": "Mayor Zohran Mamdani reveals to Jimmy Kimmel whether President Donald Trump texts him in all caps or normal case.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 593.17,
+        "end": 623.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What Trump text messages look like.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/bIrXQUYckRw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "FameStands",
+          "t": 1794308889.414687
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 82,
+        "value": 85,
+        "shareability": 75,
+        "overall": 80,
+        "hook_text": "Why these new stores are coming.",
+        "tip": "Highlight the exact cost savings graphic on screen to reinforce the policy value.",
+        "caption": "Mayor Mamdani plans to open city-run grocery stores with a 30% discount.",
+        "description": "New York City Mayor Zohran Mamdani explains his bold proposal to open city-run grocery stores offering a thirty percent discount on essentials. Find out how this plan aims to help working families struggling with rising food prices. Would you shop at a city-run grocery store?",
+        "hashtags": [
+          "nyc",
+          "grocery",
+          "zohranmamdani",
+          "economy",
+          "policy"
+        ]
+      },
+      "id": "c4",
+      "title": "Zohran Mamdani Explains City-Run Grocery Stores",
+      "reason": "Mayor Zohran Mamdani outlines his bold policy initiative to open discounted city-run grocery stores across NYC.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 193.68,
+        "end": 243.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why these new stores are coming.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/0k7vCkf0MCk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "FameStands",
+          "t": 1794309070.1977262
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 79,
+        "value": 77,
+        "shareability": 82,
+        "overall": 80,
+        "hook_text": "Why people are going down here.",
+        "tip": "Include a quick visual flash of the sewer waders mentioned in the conversation.",
+        "caption": "Mayor Mamdani responds to New Yorkers entering the city sewers.",
+        "description": "Jimmy Kimmel and Mayor Zohran Mamdani discuss the strange subset of New Yorkers exploring the city sewer system. Mamdani jokes about his previous comments on sewer socialism and fixing potholes from below. Have you ever wondered what is happening in the sewers?",
+        "hashtags": [
+          "nyc",
+          "sewers",
+          "zohranmamdani",
+          "jimmykimmel",
+          "funny"
+        ]
+      },
+      "id": "c5",
+      "title": "Mayor Zohran Mamdani on People Entering Sewers",
+      "reason": "Jimmy Kimmel and Zohran Mamdani joke about New Yorkers venturing into the city sewer system looking for socialism.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 345.4,
+        "end": 393.18,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why people are going down here.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/t3ivAiQ703A",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "FameStands",
+          "t": 1794309136.7043118
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794306437.589244,
+  "finished": 1794308514.4831207,
+  "log": [
+    {
+      "t": 1794306437.602674,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=9dSLJHS2Uns"
+    },
+    {
+      "t": 1794306504.3381555,
+      "level": "ok",
+      "msg": "Downloaded \"Mayor Zohran Mamdani on His Relationship with Trump, People in Sewers & New Public Restrooms\" (12:26) in 1:06"
+    },
+    {
+      "t": 1794306504.3493543,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794306504.3622272,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794306507.9512596,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794306508.000823,
+      "level": "ok",
+      "msg": "Transcribed 340 segments / 2097 words in 0:03"
+    },
+    {
+      "t": 1794306508.0116346,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794306510.0432315,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794306512.12455,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794306519.2054243,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794306519.2292733,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Mayor Zohran Mamdani appears on Jimmy Kimmel Live to discuss his New York City mayoral initiatives\u2014including the Parents' Night Out program, proposed city-run grocery stores, public restrooms with a 10-minute time limit, reports of people entering city sewers, and pothole repairs\u2014as well as"
+    },
+    {
+      "t": 1794306520.9609497,
+      "level": "info",
+      "msg": "Audio analysis: 8 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794306520.9719543,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794306523.1304326,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794306549.8938127,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794306549.9293694,
+      "level": "ok",
+      "msg": "AI picked 5 clips in 0:41"
+    },
+    {
+      "t": 1794306549.9348433,
+      "level": "info",
+      "msg": "  \u2022 Zohran Mamdani's Dramatic Late-Night Intro  [0:00-0:41, score 88]"
+    },
+    {
+      "t": 1794306549.941675,
+      "level": "info",
+      "msg": "  \u2022 Zohran Mamdani Explains City-Run Grocery Stores  [3:13-4:03, score 85]"
+    },
+    {
+      "t": 1794306549.948313,
+      "level": "info",
+      "msg": "  \u2022 Jimmy Kimmel Questions 10-Minute Bathroom Limit  [4:07-4:54, score 94]"
+    },
+    {
+      "t": 1794306549.9552512,
+      "level": "info",
+      "msg": "  \u2022 Mayor Zohran Mamdani on People Entering Sewers  [5:45-6:33, score 92]"
+    },
+    {
+      "t": 1794306549.9623404,
+      "level": "info",
+      "msg": "  \u2022 Jimmy Kimmel Asks How Donald Trump Texts  [9:53-10:23, score 90]"
+    },
+    {
+      "t": 1794306549.9759812,
+      "level": "ok",
+      "msg": "Tightened the clips: 0.1s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794306549.9897623,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794306549.999462,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794306552.2278788,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794306561.4855125,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794306561.4905643,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794306565.6641946,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794306565.6777272,
+      "level": "ok",
+      "msg": "Rated 5 clips in 0:15"
+    },
+    {
+      "t": 1794306565.6828847,
+      "level": "info",
+      "msg": "  - Zohran Mamdani's Dramatic Late-Night Intro: 83/100 (hook 85, retention 78, value 72, share 80)"
+    },
+    {
+      "t": 1794306565.6884928,
+      "level": "info",
+      "msg": "  - Zohran Mamdani Explains City-Run Grocery Stores: 80/100 (hook 78, retention 82, value 85, share 75)"
+    },
+    {
+      "t": 1794306565.693571,
+      "level": "info",
+      "msg": "  - Jimmy Kimmel Questions 10-Minute Bathroom Limit: 83/100 (hook 82, retention 85, value 80, share 88)"
+    },
+    {
+      "t": 1794306565.6991663,
+      "level": "info",
+      "msg": "  - Mayor Zohran Mamdani on People Entering Sewers: 80/100 (hook 80, retention 79, value 77, share 82)"
+    },
+    {
+      "t": 1794306565.7046847,
+      "level": "info",
+      "msg": "  - Jimmy Kimmel Asks How Donald Trump Texts: 81/100 (hook 75, retention 80, value 82, share 85)"
+    },
+    {
+      "t": 1794306565.7193677,
+      "level": "ok",
+      "msg": "5 distinct clips found, 5 rated 50+"
+    },
+    {
+      "t": 1794306565.9203444,
+      "level": "info",
+      "msg": "Rendering clip 1/5: Zohran Mamdani's Dramatic Late-Night Intro"
+    },
+    {
+      "t": 1794306919.3893325,
+      "level": "ok",
+      "msg": "Clip 1 ready in 5:53"
+    },
+    {
+      "t": 1794306919.4140851,
+      "level": "info",
+      "msg": "Rendering clip 2/5: Jimmy Kimmel Questions 10-Minute Bathroom Limit"
+    },
+    {
+      "t": 1794307346.445783,
+      "level": "ok",
+      "msg": "Clip 2 ready in 7:07"
+    },
+    {
+      "t": 1794307346.5128045,
+      "level": "info",
+      "msg": "Rendering clip 3/5: Jimmy Kimmel Asks How Donald Trump Texts"
+    },
+    {
+      "t": 1794307716.137217,
+      "level": "ok",
+      "msg": "Clip 3 ready in 6:09"
+    },
+    {
+      "t": 1794307716.2625039,
+      "level": "info",
+      "msg": "Rendering clip 4/5: Zohran Mamdani Explains City-Run Grocery Stores"
+    },
+    {
+      "t": 1794308263.8332446,
+      "level": "ok",
+      "msg": "Clip 4 ready in 9:07"
+    },
+    {
+      "t": 1794308263.85694,
+      "level": "info",
+      "msg": "Rendering clip 5/5: Mayor Zohran Mamdani on People Entering Sewers"
+    },
+    {
+      "t": 1794308514.4785292,
+      "level": "ok",
+      "msg": "Clip 5 ready in 4:10"
+    },
+    {
+      "t": 1794308514.4932656,
+      "level": "ok",
+      "msg": "All done in 32:28"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 746,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.47,
+      "value": 0.377841859026288
+    },
+    {
+      "start_time": 7.47,
+      "end_time": 14.94,
+      "value": 0.28071259027323725
+    },
+    {
+      "start_time": 14.94,
+      "end_time": 22.41,
+      "value": 0.26797673877376854
+    },
+    {
+      "start_time": 22.41,
+      "end_time": 29.88,
+      "value": 0.2527262536498854
+    },
+    {
+      "start_time": 29.88,
+      "end_time": 37.35,
+      "value": 0.28482021577165284
+    },
+    {
+      "start_time": 37.35,
+      "end_time": 44.82,
+      "value": 0.3313524326980339
+    },
+    {
+      "start_time": 44.82,
+      "end_time": 52.29,
+      "value": 0.33924577776256665
+    },
+    {
+      "start_time": 52.29,
+      "end_time": 59.76,
+      "value": 0.30819997517354264
+    },
+    {
+      "start_time": 59.76,
+      "end_time": 67.23,
+      "value": 0.3045933531715095
+    },
+    {
+      "start_time": 67.23,
+      "end_time": 74.7,
+      "value": 0.16637232989356004
+    },
+    {
+      "start_time": 74.7,
+      "end_time": 82.17,
+      "value": 0.14750901800731453
+    },
+    {
+      "start_time": 82.17,
+      "end_time": 89.64,
+      "value": 0.14599359799750877
+    },
+    {
+      "start_time": 89.64,
+      "end_time": 97.11,
+      "value": 0.13705580142433363
+    },
+    {
+      "start_time": 97.11,
+      "end_time": 104.58,
+      "value": 0.17955146331423713
+    },
+    {
+      "start_time": 104.58,
+      "end_time": 112.05,
+      "value": 0.19225112449847892
+    },
+    {
+      "start_time": 112.05,
+      "end_time": 119.52,
+      "value": 0.16637139052745445
+    },
+    {
+      "start_time": 119.52,
+      "end_time": 126.99,
+      "value": 0.13432234493763184
+    },
+    {
+      "start_time": 126.99,
+      "end_time": 134.46,
+      "value": 0.08851687601490937
+    },
+    {
+      "start_time": 134.46,
+      "end_time": 141.93,
+      "value": 0.10240152282122592
+    },
+    {
+      "start_time": 141.93,
+      "end_time": 149.4,
+      "value": 0.11686642595904613
+    },
+    {
+      "start_time": 149.4,
+      "end_time": 156.87,
+      "value": 0.1352529353862092
+    },
+    {
+      "start_time": 156.87,
+      "end_time": 164.34,
+      "value": 0.14991705829890217
+    },
+    {
+      "start_time": 164.34,
+      "end_time": 171.81,
+      "value": 0.1265077830251675
+    },
+    {
+      "start_time": 171.81,
+      "end_time": 179.28,
+      "value": 0.1351695295640947
+    },
+    {
+      "start_time": 179.28,
+      "end_time": 186.75,
+      "value": 0.13615539429193937
+    },
+    {
+      "start_time": 186.75,
+      "end_time": 194.22,
+      "value": 0.11095759067327125
+    },
+    {
+      "start_time": 194.22,
+      "end_time": 201.69,
+      "value": 0.09578556733936774
+    },
+    {
+      "start_time": 201.69,
+      "end_time": 209.16,
+      "value": 0.07482055975268864
+    },
+    {
+      "start_time": 209.16,
+      "end_time": 216.63,
+      "value": 0.06654442300011706
+    },
+    {
+      "start_time": 216.63,
+      "end_time": 224.1,
+      "value": 0.07716923457841737
+    },
+    {
+      "start_time": 224.1,
+      "end_time": 231.57,
+      "value": 0.09317677462294555
+    },
+    {
+      "start_time": 231.57,
+      "end_time": 239.04,
+      "value": 0.12740673166808195
+    },
+    {
+      "start_time": 239.04,
+      "end_time": 246.51,
+      "value": 0.43215447460308165
+    },
+    {
+      "start_time": 246.51,
+      "end_time": 253.98,
+      "value": 0.15437165597253977
+    },
+    {
+      "start_time": 253.98,
+      "end_time": 261.45,
+      "value": 0.2116810719076967
+    },
+    {
+      "start_time": 261.45,
+      "end_time": 268.92,
+      "value": 0.2262593664225291
+    },
+    {
+      "start_time": 268.92,
+      "end_time": 276.39,
+      "value": 0.17667633558671195
+    },
+    {
+      "start_time": 276.39,
+      "end_time": 283.86,
+      "value": 0.13197803322026208
+    },
+    {
+      "start_time": 283.86,
+      "end_time": 291.33,
+      "value": 0.1634083331884114
+    },
+    {
+      "start_time": 291.33,
+      "end_time": 298.8,
+      "value": 0.1594890011538506
+    },
+    {
+      "start_time": 298.8,
+      "end_time": 306.27,
+      "value": 0.0689109705020132
+    },
+    {
+      "start_time": 306.27,
+      "end_time": 313.74,
+      "value": 0.05077656963348518
+    },
+    {
+      "start_time": 313.74,
+      "end_time": 321.21,
+      "value": 0.06233197166036284
+    },
+    {
+      "start_time": 321.21,
+      "end_time": 328.68,
+      "value": 0.08450120951420151
+    },
+    {
+      "start_time": 328.68,
+      "end_time": 336.15,
+      "value": 0.12934170224484892
+    },
+    {
+      "start_time": 336.15,
+      "end_time": 343.62,
+      "value": 0.1753375411249228
+    },
+    {
+      "start_time": 343.62,
+      "end_time": 351.09,
+      "value": 0.0985947169580537
+    },
+    {
+      "start_time": 351.09,
+      "end_time": 358.56,
+      "value": 0.09572811768596108
+    },
+    {
+      "start_time": 358.56,
+      "end_time": 366.03,
+      "value": 0.09909062810133729
+    },
+    {
+      "start_time": 366.03,
+      "end_time": 373.5,
+      "value": 0.07420688176395354
+    },
+    {
+      "start_time": 373.5,
+      "end_time": 380.97,
+      "value": 0.061832352492978145
+    },
+    {
+      "start_time": 380.97,
+      "end_time": 388.44,
+      "value": 0.04604939510817437
+    },
+    {
+      "start_time": 388.44,
+      "end_time": 395.91,
+      "value": 0.054923821549461405
+    },
+    {
+      "start_time": 395.91,
+      "end_time": 403.38,
+      "value": 0.07834488833983765
+    },
+    {
+      "start_time": 403.38,
+      "end_time": 410.85,
+      "value": 0.09292381321876725
+    },
+    {
+      "start_time": 410.85,
+      "end_time": 418.32,
+      "value": 0.1635898286080808
+    },
+    {
+      "start_time": 418.32,
+      "end_time": 425.79,
+      "value": 0.27943547261233004
+    },
+    {
+      "start_time": 425.79,
+      "end_time": 433.26,
+      "value": 0.3171326052331369
+    },
+    {
+      "start_time": 433.26,
+      "end_time": 440.73,
+      "value": 0.1567714891707836
+    },
+    {
+      "start_time": 440.73,
+      "end_time": 448.2,
+      "value": 0.10824089445550651
+    },
+    {
+      "start_time": 448.2,
+      "end_time": 455.67,
+      "value": 0.11957427235928954
+    },
+    {
+      "start_time": 455.67,
+      "end_time": 463.14,
+      "value": 0.21068606072040258
+    },
+    {
+      "start_time": 463.14,
+      "end_time": 470.61,
+      "value": 0.30684451932345913
+    },
+    {
+      "start_time": 470.61,
+      "end_time": 478.08,
+      "value": 0.288942970008401
+    },
+    {
+      "start_time": 478.08,
+      "end_time": 485.55,
+      "value": 1.0
+    },
+    {
+      "start_time": 485.55,
+      "end_time": 493.02,
+      "value": 0.24625632015712925
+    },
+    {
+      "start_time": 493.02,
+      "end_time": 500.49,
+      "value": 0.12814986913826742
+    },
+    {
+      "start_time": 500.49,
+      "end_time": 507.96,
+      "value": 0.11379872817986952
+    },
+    {
+      "start_time": 507.96,
+      "end_time": 515.43,
+      "value": 0.09679911864716745
+    },
+    {
+      "start_time": 515.43,
+      "end_time": 522.9,
+      "value": 0.08687100771722628
+    },
+    {
+      "start_time": 522.9,
+      "end_time": 530.37,
+      "value": 0.09376904495253686
+    },
+    {
+      "start_time": 530.37,
+      "end_time": 537.84,
+      "value": 0.12885189698125185
+    },
+    {
+      "start_time": 537.84,
+      "end_time": 545.31,
+      "value": 0.11253258627030163
+    },
+    {
+      "start_time": 545.31,
+      "end_time": 552.78,
+      "value": 0.06630314187185729
+    },
+    {
+      "start_time": 552.78,
+      "end_time": 560.25,
+      "value": 0.05609776961979515
+    },
+    {
+      "start_time": 560.25,
+      "end_time": 567.72,
+      "value": 0.09642767351287808
+    },
+    {
+      "start_time": 567.72,
+      "end_time": 575.19,
+      "value": 0.12080390259154175
+    },
+    {
+      "start_time": 575.19,
+      "end_time": 582.66,
+      "value": 0.0772537528077622
+    },
+    {
+      "start_time": 582.66,
+      "end_time": 590.13,
+      "value": 0.07438468151960216
+    },
+    {
+      "start_time": 590.13,
+      "end_time": 597.6,
+      "value": 0.05980094856942143
+    },
+    {
+      "start_time": 597.6,
+      "end_time": 605.07,
+      "value": 0.0830071477232182
+    },
+    {
+      "start_time": 605.07,
+      "end_time": 612.54,
+      "value": 0.07919925417297634
+    },
+    {
+      "start_time": 612.54,
+      "end_time": 620.01,
+      "value": 0.0879921164441191
+    },
+    {
+      "start_time": 620.01,
+      "end_time": 627.48,
+      "value": 0.10922433660760514
+    },
+    {
+      "start_time": 627.48,
+      "end_time": 634.95,
+      "value": 0.18165309721426903
+    },
+    {
+      "start_time": 634.95,
+      "end_time": 642.42,
+      "value": 0.31311701289291105
+    },
+    {
+      "start_time": 642.42,
+      "end_time": 649.89,
+      "value": 0.3820586240340798
+    },
+    {
+      "start_time": 649.89,
+      "end_time": 657.36,
+      "value": 0.343551485908464
+    },
+    {
+      "start_time": 657.36,
+      "end_time": 664.83,
+      "value": 0.11994902999510924
+    },
+    {
+      "start_time": 664.83,
+      "end_time": 672.3,
+      "value": 0.12067642072294531
+    },
+    {
+      "start_time": 672.3,
+      "end_time": 679.77,
+      "value": 0.1268083801789648
+    },
+    {
+      "start_time": 679.77,
+      "end_time": 687.24,
+      "value": 0.0871513590594315
+    },
+    {
+      "start_time": 687.24,
+      "end_time": 694.71,
+      "value": 0.05782806962626071
+    },
+    {
+      "start_time": 694.71,
+      "end_time": 702.18,
+      "value": 0.05491739430768613
+    },
+    {
+      "start_time": 702.18,
+      "end_time": 709.65,
+      "value": 0.08257063912603455
+    },
+    {
+      "start_time": 709.65,
+      "end_time": 717.12,
+      "value": 0.12652313424494613
+    },
+    {
+      "start_time": 717.12,
+      "end_time": 724.59,
+      "value": 0.25422142784809904
+    },
+    {
+      "start_time": 724.59,
+      "end_time": 732.06,
+      "value": 0.2370042314611433
+    },
+    {
+      "start_time": 732.06,
+      "end_time": 739.53,
+      "value": 0.08905948354170637
+    },
+    {
+      "start_time": 739.53,
+      "end_time": 747.0,
+      "value": 0.0
+    }
+  ],
+  "video_description": "Mayor Mamdani talks about his \u201cParents' Night Out\" initiative, wanting to open a city run grocery store, new public bathrooms, people getting down into the sewers, fixing the BQE, and his relationship with Donald Trump.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 16 billion views and more than 19 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Mayor Zohran Mamdani appears on Jimmy Kimmel Live to discuss his New York City mayoral initiatives\u2014including the Parents' Night Out program, proposed city-run grocery stores, public restrooms with a 10-minute time limit, reports of people entering city sewers, and pothole repairs\u2014as well as his surprisingly friendly relationship with Donald Trump.\nPeople: Jimmy Kimmel; Zohran Mamdani; Donald Trump\nContext: An interview segment on the late-night talk show Jimmy Kimmel Live where host Jimmy Kimmel talks with NYC Mayor Zohran Mamdani about city policies, public reactions, and his interactions with President Donald Trump.\nUnclear: The transcript ends abruptly mid-sentence during a video clip playing of Donald Trump discussing media outlets.",
+  "render_index": 5,
+  "render_total": 5
+}

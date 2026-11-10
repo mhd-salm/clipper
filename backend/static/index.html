@@ -19,12 +19,11 @@
     </a>
     <nav class="nav" aria-label="Main">
       <a href="#/home" data-route="home"><i data-i="search"></i><span class="lbl">Home</span></a>
-      <a href="#/create" data-route="create"><i data-i="sparkles"></i><span class="lbl">Create</span></a>
-      <a href="#/auto" data-route="auto"><i data-i="wand"></i><span class="lbl">Full auto</span></a>
+      <a href="#/edits" data-route="edits"><i data-i="layout"></i><span class="lbl">Edits</span></a>
+      <a href="#/explainers" data-route="explainers"><i data-i="sparkles"></i><span class="lbl">Explainers</span></a>
       <a href="#/projects" data-route="projects"><i data-i="folder"></i><span class="lbl">Projects</span><span class="count" id="navRun" hidden>0</span></a>
       <a href="#/renders" data-route="renders"><i data-i="scissors"></i><span class="lbl">Rendering</span><span class="count" id="navRen" hidden>0</span></a>
       <a href="#/uploads" data-route="uploads"><i data-i="upload"></i><span class="lbl">Uploads</span><span class="count" id="navUp" hidden>0</span></a>
-      <a href="#/creators" data-route="creators"><i data-i="users"></i><span class="lbl">Creators</span></a>
       <div class="navsep"><span>Setup</span></div>
       <button type="button" class="navbtn" id="navChannels"><i data-i="film"></i><span class="lbl">Channels</span></button>
       <button type="button" class="navbtn" id="navKeys"><i data-i="sliders"></i><span class="lbl">AI keys</span></button>
@@ -43,15 +42,61 @@
 
     <!-- ===== CREATE ===== -->
     <section id="page-home" hidden>
-      <div class="card hsearch">
+      <div class="card" id="qclip">
+        <h2><i data-i="link"></i>Clip a video from a link</h2>
+        <div class="row" style="gap:8px;align-items:center;flex-wrap:wrap">
+          <div class="grow" style="min-width:220px"><div class="igroup"><i data-i="link"></i><input type="url" id="qurl" placeholder="Paste a YouTube video link" aria-label="YouTube video link" autocomplete="off" spellcheck="false"></div></div>
+          <select id="qacct" class="acct" aria-label="Upload channel"></select>
+          <select id="qpreset" aria-label="Edit preset"></select>
+          <button class="p" type="button" id="qgo">Clip it</button>
+        </div>
+        <small class="mut">You choose which clips to render afterwards. Nothing is uploaded automatically.</small>
+      </div>
+      <div class="card" id="recs" style="margin-top:14px"></div>
+      <div class="card hsearch" style="margin-top:14px">
         <h2><i data-i="search"></i>Find a creator</h2>
         <div class="row"><div class="grow"><div class="igroup"><i data-i="search"></i><input type="search" id="hq" placeholder="Search YouTube channels, or paste a channel link" aria-label="Search creators" autocomplete="off"></div></div></div>
         <div id="hres" class="hres"></div>
       </div>
-      <details class="card fold" id="hdef"><summary><b>Defaults for new creators</b><small>Used when you follow someone new. Creators you already follow keep their own settings.</small></summary>
-        <div id="hdefBody" class="sform"></div></details>
-      <div class="row" style="justify-content:space-between;align-items:center;margin-top:8px"><h2 style="margin:0">Following</h2><span class="mut" id="hcount"></span></div>
+      <div class="row" style="justify-content:space-between;align-items:center;margin-top:8px"><h2 style="margin:0">Following</h2><span class="mut" id="hcount"></span><button class="s sm" id="checknow" type="button"><i data-i="refresh" class="sm"></i>Check for new videos now</button></div>
       <div class="hgrid" id="hlist"></div>
+      <div class="card" id="aiuse" style="margin-top:18px"></div>
+    </section>
+
+    <section id="page-explainers" hidden>
+      <div class="card" id="xform">
+        <h2><i data-i="sparkles"></i><span id="xhead">New 2D explainer</span></h2>
+        <p class="mut" style="margin:0 0 10px">Paste a script (from any AI) or write one here. The app adds a free voice, animated 2D scenes, captions and music. Short ones are about 40 seconds; long ones run up to 3 minutes. Scenes change with different transitions, camera moves and backgrounds.</p>
+        <div class="row" style="gap:8px;align-items:center;flex-wrap:wrap">
+          <div class="grow" style="min-width:240px"><input id="xtopic" maxlength="300" placeholder="Or just type a topic, e.g. why octopuses have three hearts" aria-label="Topic"></div>
+          <button class="s" type="button" id="xwrite">Write script for me</button>
+        </div>
+        <small class="mut" id="xwritenote">Uses one AI request.</small>
+        <textarea id="xscript" rows="14" spellcheck="false" style="width:100%;margin-top:10px;font-family:Consolas,monospace;font-size:13px" placeholder="Paste your script here"></textarea>
+        <details style="margin-top:8px"><summary>Script format, and a prompt to give another AI</summary>
+          <p class="mut">Each scene has the exact words to speak (VOICE) and what to show. Only VOICE is required. Plain narration without any labels also works: it is cut into scenes at the sentence ends.</p>
+          <pre class="xfmt" id="xfmt"></pre>
+          <button class="s sm" type="button" id="xcopy">Copy the prompt</button>
+        </details>
+        <div id="xparse" style="margin-top:10px"></div>
+        <div class="row" style="gap:10px;align-items:end;flex-wrap:wrap;margin-top:12px">
+          <label>Length<select id="xlen"></select></label>
+          <label>Voice<select id="xvoice"></select></label>
+          <label>Second voice<select id="xvoice2"></select></label>
+          <label>Speed <b id="xratev">0%</b><input type="range" id="xrate" min="-20" max="20" step="2" value="0"></label>
+          <label>Colors<select id="xtheme"></select></label>
+          <label>Captions<select id="xcap"></select></label>
+          <label>Music<select id="xmusic"></select></label>
+        </div>
+        <div class="row" style="gap:8px;margin-top:14px"><button class="p" type="button" id="xgo">Make video</button><button class="s" type="button" id="xnew" hidden>Start a new one</button></div>
+      </div>
+      <h2 style="margin:20px 0 4px">Your explainers</h2>
+      <div class="xgrid" id="xlist"></div>
+    </section>
+
+    <section id="page-edits" hidden>
+      <p class="mut ed-intro" style="margin:0 0 14px">An edit preset is a saved look for clips: layout, captions, hook text and quality. Pick one for each creator you follow. When you change a preset, that creator's new videos use the change; clips already made stay as they are.</p>
+      <div class="edgrid" id="edlist"></div>
     </section>
 
     <section id="page-create" hidden>
@@ -181,25 +226,6 @@
     <section id="page-renders" hidden><div id="renq"></div></section>
     <section id="page-uploads" hidden><div id="upq"></div></section>
 
-    <!-- ===== CREATORS ===== -->
-    <section id="page-creators" hidden>
-      <div class="card">
-        <h2><i data-i="users"></i>Follow a creator</h2>
-        <div class="row">
-          <div class="grow"><div class="igroup"><i data-i="link"></i><input type="url" id="curl" placeholder="https://www.youtube.com/@channel" aria-label="Channel link"></div><div id="curlMsg"></div></div>
-          <button class="p" id="addc" type="button">Follow</button>
-        </div>
-        <div class="row" style="margin-top:12px;align-items:end">
-          <label class="chk"><span class="switch"><input type="checkbox" id="cAuto" checked><span></span></span>Full auto: upload the chosen clips too</label>
-          <label>Minimum score<input type="number" class="minScore" min="0" max="100" step="5" value="50" aria-label="Minimum clip score" style="width:90px"></label>
-          <label>Channel<select id="cAcct" class="acct"></select></label><label>Upload as<select id="cPriv"><option value="public">Public</option><option value="unlisted">Unlisted</option><option value="private">Private</option></select></label>
-          <button class="s sm" id="cManage" type="button">Manage channels</button>
-        </div>
-        <p class="hint">New uploads are clipped automatically with your last-used settings from <b>Create</b>. Videos already on the channel are ignored. Checked every few minutes while this app is running.</p>
-      </div>
-      <div class="row" style="justify-content:space-between;align-items:center"><h2 style="margin:0">Followed creators</h2><button class="s" id="checknow" type="button"><i data-i="refresh" class="sm"></i>Check now</button></div>
-      <div class="clist" id="clist"></div>
-    </section>
   </main>
 </div>
 

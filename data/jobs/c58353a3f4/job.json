@@ -1,0 +1,5583 @@
+{
+  "id": "c58353a3f4",
+  "created": 1794213694.8712373,
+  "url": "https://www.youtube.com/watch?v=TZqADzuu73g",
+  "source": "manual",
+  "creator_id": "UCzQUP1qoWDoEbmsQxvdjxgQ",
+  "title": "Joe Rogan Experience #2392 - John Kiriakou",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 94,
+        "retention": 92,
+        "value": 94,
+        "shareability": 96,
+        "overall": 96,
+        "hook_text": "Why Mossad agents lost headquarters access",
+        "tip": "Add visual animation of a listening device inside a gift box for engagement.",
+        "caption": "Repeated discoveries of covert listening devices hidden inside diplomatic gifts led to a ban on foreign liaisons at headquarters.",
+        "description": "Visiting intelligence delegations from Israel routinely brought decorative gifts that sweeps revealed were packed with audio bugs and batteries. After repeated incidents, CIA leadership banned foreign operatives from entering main headquarters, relocating meetings to off-site offices. Isn't inter-agency espionage wild?",
+        "hashtags": [
+          "cia",
+          "mossad",
+          "espionage",
+          "israel",
+          "secrets"
+        ]
+      },
+      "id": "c1",
+      "title": "Why Israeli Mossad Is Banned From CIA HQ",
+      "reason": "Kiriakou reveals that Israeli intelligence officers were banned from CIA headquarters for hiding listening devices in gifts.",
+      "score": 96,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8884.33,
+        "end": 8914.62,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why Mossad agents lost headquarters access",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Owj-EDtgbhQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794214613.855082
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 92,
+        "retention": 89,
+        "value": 93,
+        "shareability": 95,
+        "overall": 94,
+        "hook_text": "You break three federal laws every day",
+        "tip": "Put a big bold graphic reading 3 FELONIES A DAY on screen during the opening hook.",
+        "caption": "Legal expert Harvey Silverglate proves over-criminalization leaves ordinary citizens vulnerable to federal prosecution.",
+        "description": "Referencing attorney Harvey Silverglate's research, John Kiriakou points out that the vast volume of federal regulations means ordinary citizens unknowingly break multiple laws daily. This extensive legal code gives prosecutors unlimited leverage against targeted individuals. Are current legal codes too complex?",
+        "hashtags": [
+          "law",
+          "justice",
+          "legal",
+          "rights",
+          "america"
+        ]
+      },
+      "id": "c2",
+      "title": "Average American Commits Three Felonies A Day",
+      "reason": "A terrifying legal perspective on how over-criminalization leaves every citizen vulnerable to selective prosecution.",
+      "score": 94,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2138.17,
+        "end": 2163.5,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "You break three federal laws every day",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/_iLX6uYfDDI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794214731.4617715
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 93,
+        "retention": 91,
+        "value": 92,
+        "shareability": 94,
+        "overall": 94,
+        "hook_text": "Her pillow talk exposed entire foreign station",
+        "tip": "Add a text contrast showing 9 Months vs 45 Years to emphasize the judicial disparity.",
+        "caption": "CIA secretary Sharon Scranage served only nine months despite pillow talk leaks that resulted in asset deaths in Ghana.",
+        "description": "In the 1980s, CIA secretary Sharon Scranage disclosed the identities of covert foreign officers and local informants to a Ghanaian intelligence agent. Despite the fatal consequences of her leak, she received a nine-month sentence, contrasting sharply with whistleblower prosecutions. Is justice applied equally?",
+        "hashtags": [
+          "cia",
+          "ghana",
+          "history",
+          "justice",
+          "truecrime"
+        ]
+      },
+      "id": "c3",
+      "title": "CIA Secretary Leaked Names During Pillow Talk",
+      "reason": "Comparing Kiriakou's severe sentence to a CIA secretary who exposed active overseas agents and received 9 months.",
+      "score": 94,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3305.16,
+        "end": 3341.82,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Her pillow talk exposed entire foreign station",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Ef6cqQViQUw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794214893.2315428
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 92,
+        "retention": 89,
+        "value": 92,
+        "shareability": 94,
+        "overall": 94,
+        "hook_text": "The law change authorizing state propaganda",
+        "tip": "Add text referencing the Smith-Mundt Modernization Act within the NDAA.",
+        "caption": "Legislative changes lifted long-standing prohibitions against state-produced media targeting domestic citizens.",
+        "description": "Previously, federal statutes banned domestic distribution of government-produced foreign propaganda media. Legislative revisions updated these rules, effectively legalizing state-backed media messaging directly aimed at the domestic public. How does domestic messaging alter public awareness?",
+        "hashtags": [
+          "propaganda",
+          "law",
+          "government",
+          "media",
+          "politics"
+        ]
+      },
+      "id": "c4",
+      "title": "US Government Legalized Domestic Propaganda On Americans",
+      "reason": "Explaining the legal loophole tucked inside the NDAA authorizing state propaganda targeting domestic citizens.",
+      "score": 94,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8087.56,
+        "end": 8115.18,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The law change authorizing state propaganda",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/1dM1diXn4KY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215012.8172462
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 91,
+        "retention": 88,
+        "value": 90,
+        "shareability": 93,
+        "overall": 92,
+        "hook_text": "What the CIA did in San Francisco",
+        "tip": "Overlay archival photos of 1950s San Francisco to visually ground the narrative.",
+        "caption": "Operation Midnight Climax saw secret agencies covertly dosing unsuspecting American citizens with LSD in safehouses.",
+        "description": "Under a covert sub-program of MKUltra, intelligence agents set up safehouses in San Francisco to test mind-altering substances on unsuspecting citizens. John Kiriakou breaks down how covert operations targeted Americans on domestic soil. What other secret programs remain undiscovered?",
+        "hashtags": [
+          "mkultra",
+          "cia",
+          "history",
+          "sanfrancisco",
+          "conspiracy"
+        ]
+      },
+      "id": "c5",
+      "title": "MKUltra Operation Midnight Climax San Francisco Safehouse",
+      "reason": "Kiriakou details how the CIA used prostitutes and LSD to interrogate unsuspecting American citizens.",
+      "score": 92,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 844.6,
+        "end": 881.82,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What the CIA did in San Francisco",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/buNtR_zalXw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215217.232675
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 91,
+        "retention": 89,
+        "value": 92,
+        "shareability": 90,
+        "overall": 92,
+        "hook_text": "The tactical reason federal arrests happen Thursdays",
+        "tip": "Display a calendar graphic showing Thursday through Monday to clearly illustrate the detention timeline.",
+        "caption": "Federal law enforcement strategic arrest timing on Thursdays forces suspects into long weekend detentions before arraignment.",
+        "description": "Tactical planning leads law enforcement agencies in Washington to execute high-profile arrests on Thursdays. Because federal arraignments do not occur on Fridays, suspects remain held over the entire weekend, greatly increasing pressure to accept plea deals. Is this tactic fair to defendants?",
+        "hashtags": [
+          "fbi",
+          "law",
+          "justice",
+          "court",
+          "rights"
+        ]
+      },
+      "id": "c6",
+      "title": "Why The FBI In DC Arrests People On Thursdays",
+      "reason": "A tactical breakdown of how law enforcement uses weekend detention timing to force plea bargains.",
+      "score": 92,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2946.12,
+        "end": 2987.58,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The tactical reason federal arrests happen Thursdays",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/GScvph2GhVQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215342.0892286
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 88,
+        "value": 91,
+        "shareability": 92,
+        "overall": 92,
+        "hook_text": "How an informant planned the bridge attack",
+        "tip": "Highlight the length of prison sentences handed down to demonstrate the real-world impact.",
+        "caption": "An FBI informant suggested a bridge bombing plot to intoxicated men in a bar, resulting in decade-long prison terms.",
+        "description": "In Cleveland, an undercover FBI informant introduced the idea of targeting the Route 82 bridge to three intoxicated patrons in a tavern. After providing the materials himself, law enforcement arrested the group, landing them up to 20 years in federal prison. Where does legitimate investigation end and entrapment begin?",
+        "hashtags": [
+          "fbi",
+          "entrapment",
+          "law",
+          "justice",
+          "cleveland"
+        ]
+      },
+      "id": "c7",
+      "title": "FBI Route 82 Bridge Entrapment Scheme Exposed",
+      "reason": "A startling example of FBI informants orchestrating plot ideas for intoxicated targets.",
+      "score": 92,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5472.49,
+        "end": 5503.58,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How an informant planned the bridge attack",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/9q1Nc_qxO20",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215518.5812702
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 87,
+        "value": 92,
+        "shareability": 91,
+        "overall": 91,
+        "hook_text": "An apartment maid uncovered Operation Bojinka",
+        "tip": "Add quick background text explaining the scale of the Bojinka plot to boost stakes.",
+        "caption": "A sharp-eyed apartment cleaning lady accidentally uncovered the massive Bojinka plot to hijack 14 commercial planes.",
+        "description": "While tidying up an apartment in Manila, a housekeeper noticed suspicious chemical equipment and attack plans left out by terrorist operative Murad. Her immediate call to local police disrupted Operation Bojinka and saved thousands of lives. Isn't it wild how history turns on tiny coincidences?",
+        "hashtags": [
+          "history",
+          "counterterrorism",
+          "cia",
+          "aviation",
+          "truecrime"
+        ]
+      },
+      "id": "c8",
+      "title": "Cleaning Lady Stopped Massive 14-Airplane Hijacking Plot",
+      "reason": "An unbelievable story of how an everyday cleaning worker accidentally thwarted the massive Bojinka terrorist plot.",
+      "score": 91,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1491.37,
+        "end": 1531.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "An apartment maid uncovered Operation Bojinka",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/PChdTNmK5vs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215684.0000396
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 88,
+        "value": 91,
+        "shareability": 88,
+        "overall": 91,
+        "hook_text": "Three sentences that led to federal prison",
+        "tip": "Use on-screen text to count out statement 1, 2, and 3 clearly as he speaks.",
+        "caption": "Three bold admissions during a single media interview instantly sparked a federal investigation against John Kiriakou.",
+        "description": "In a landmark media interview, John Kiriakou confirmed that torture was official government policy, that it was approved at the highest levels, and that it was ongoing. Within twenty-four hours, intelligence agencies filed criminal reports against him. Was he right to speak out?",
+        "hashtags": [
+          "whistleblower",
+          "cia",
+          "free-speech",
+          "justice",
+          "law"
+        ]
+      },
+      "id": "c9",
+      "title": "The 3 Statements That Ended Kiriakou's Career",
+      "reason": "Kiriakou summarizes the exact bombshell admissions he made on television that triggered federal prosecution.",
+      "score": 91,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1976.17,
+        "end": 2007.02,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Three sentences that led to federal prison",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/vflRNhIhwko",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215827.7008517
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 88,
+        "value": 88,
+        "shareability": 91,
+        "overall": 91,
+        "hook_text": "Why a Bonanno crime boss took him",
+        "tip": "Highlight Pete the mob boss's affiliation with the Bonanno crime family on screen.",
+        "caption": "A senior Bonanno crime family boss stepped in to move CIA whistleblower John Kiriakou under his personal protection.",
+        "description": "Noticing that John Kiriakou was sitting with neo-Nazi inmates, Bonanno crime family leader Pete reassigned the former intelligence officer to the Italian dining section. This unexpected alliance led to protective friendships throughout his incarceration. Who knew prison dynamics were so structured?",
+        "hashtags": [
+          "mob",
+          "prison",
+          "storytelling",
+          "bonanno",
+          "mafia"
+        ]
+      },
+      "id": "c10",
+      "title": "Mob Boss Moves Kiriakou To Italian Table",
+      "reason": "A Bonanno family crime boss steps in to claim CIA whistleblower John Kiriakou under his protection.",
+      "score": 91,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4449.93,
+        "end": 4481.18,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why a Bonanno crime boss took him",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/pIWZWV6FiVc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794215956.5903192
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 89,
+        "retention": 87,
+        "value": 91,
+        "shareability": 88,
+        "overall": 91,
+        "hook_text": "Why 2000 prisoners suffocated in desert trucks",
+        "tip": "Display a text stat showing 14 survivors out of 2000 to highlight the tragedy.",
+        "caption": "The tragic Dasht-i-Leili massacre saw thousands of captured prisoners suffocate inside sealed desert shipping containers.",
+        "description": "During military operations in Afghanistan, approximately two thousand captured prisoners were loaded into unventilated metal cargo containers for desert transport. Only fourteen individuals survived the journey, revealing horrific conditions inside the trucks. Why was international oversight absent during this movement?",
+        "hashtags": [
+          "history",
+          "military",
+          "humanrights",
+          "afghanistan",
+          "investigation"
+        ]
+      },
+      "id": "c11",
+      "title": "Dasht-i-Leili Massacre Of 2000 Taliban Soldiers",
+      "reason": "Disturbing details on thousands of prisoners suffocated in shipping containers with zero ventilation.",
+      "score": 91,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6386.2,
+        "end": 6421.58,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why 2000 prisoners suffocated in desert trucks",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/b9bfz8gObYk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216174.138022
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 91,
+        "shareability": 89,
+        "overall": 90,
+        "hook_text": "He predicted his own arrest in 2002",
+        "tip": "Include visual text highlights on key phrases like slippery slope for added emphasis.",
+        "caption": "A senior CIA veteran accurately warned John Kiriakou about the legal consequences of enhanced interrogation techniques.",
+        "description": "Before enhanced interrogation techniques were deployed, a senior executive warned John Kiriakou that extreme methods would inevitably trigger federal prosecutions. That warning came true years later when Kiriakou became the only official imprisoned over the program. Was this outcome inevitable?",
+        "hashtags": [
+          "cia",
+          "whistleblower",
+          "justice",
+          "interrogation",
+          "history"
+        ]
+      },
+      "id": "c12",
+      "title": "Senior CIA Official Warns Kiriakou About Torture",
+      "reason": "A chilling prophecy from a senior officer accurately predicting Kiriakou's eventual imprisonment over the CIA torture program.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 375.37,
+        "end": 411.5,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "He predicted his own arrest in 2002",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/oPgy2JbQukE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216375.019688
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 86,
+        "value": 90,
+        "shareability": 92,
+        "overall": 90,
+        "hook_text": "The $108 million contractor torture deal",
+        "tip": "Cut down the brief pause in the middle of the clip to maintain fast momentum.",
+        "caption": "Two military psychologists received $108 million to convert survival training into enhanced interrogation tactics.",
+        "description": "Psychologists James Mitchell and Bruce Jessen reverse-engineered military SERE training to create authorized torture protocols for intelligence agencies. John Kiriakou reveals the staggering $108 million payout awarded to implement these techniques. Was this massive expenditure justified?",
+        "hashtags": [
+          "cia",
+          "money",
+          "psychology",
+          "investigation",
+          "whistleblower"
+        ]
+      },
+      "id": "c13",
+      "title": "CIA Paid Psychologists $108M To Design Torture",
+      "reason": "The shocking financial cost of hiring outside psychologists to reverse-engineer military SERE tactics into torture.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1711.45,
+        "end": 1756.38,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The $108 million contractor torture deal",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/CkGYecxEjhI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216513.9904
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 87,
+        "value": 86,
+        "shareability": 89,
+        "overall": 90,
+        "hook_text": "His strange first lunch in federal prison",
+        "tip": "Use discreet text pop-ups to define prison slang terms like rat and chomo.",
+        "caption": "On his first day in federal prison, former agent John Kiriakou was interrogated by inmate gang leaders during lunch.",
+        "description": "Upon entering federal custody, John Kiriakou was confronted by white supremacist inmates screening newcomers for informant status. After answering their aggressive questions, he was unexpectedly assigned to sit at their table in the cafeteria. How do non-violent offenders navigate prison politics?",
+        "hashtags": [
+          "prison",
+          "survival",
+          "storytelling",
+          "truecrime",
+          "society"
+        ]
+      },
+      "id": "c14",
+      "title": "First Day In Prison Interrogated By Neo-Nazis",
+      "reason": "An intense prison intake experience where white supremacists question Kiriakou's background.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4415.29,
+        "end": 4446.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "His strange first lunch in federal prison",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/4AYuKarOTFs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216651.346765
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 89,
+        "shareability": 91,
+        "overall": 90,
+        "hook_text": "The 1917 law used against journalists",
+        "tip": "Add dynamic text contrasting press prosecutions across historical presidential administrations.",
+        "caption": "President Barack Obama used the 1917 Espionage Act against press leakers more times than all prior presidents combined.",
+        "description": "Designed in 1917 to combat wartime foreign saboteurs, the Espionage Act was rarely invoked against press sources for nearly a century. Under President Barack Obama, eight media sources were prosecuted under the statute, setting a historic precedent for leak enforcement. How does press freedom survive under secret laws?",
+        "hashtags": [
+          "politics",
+          "obama",
+          "espionage",
+          "history",
+          "whistleblower"
+        ]
+      },
+      "id": "c15",
+      "title": "Barack Obama Record Espionage Act Whistleblower Prosecutions",
+      "reason": "Kiriakou breaks down how Obama's administration weaponized the 1917 Espionage Act against media leakers.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6321.29,
+        "end": 6348.86,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The 1917 law used against journalists",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Rbk5VyLcQkA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216709.1513312
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 86,
+        "value": 89,
+        "shareability": 87,
+        "overall": 89,
+        "hook_text": "What prosecutors told him before his plea",
+        "tip": "Add gentle emotional background music to reinforce the high emotional stakes of the story.",
+        "caption": "Federal prosecutors warned John Kiriakou he faced up to 45 years in prison if he refused to accept a plea bargain.",
+        "description": "Under intense pressure from Justice Department prosecutors, John Kiriakou was confronted with a potential 45-year prison sentence if he took his case to trial. The immense psychological burden left him relying on his wife's support to endure the ordeal. How far should prosecutors go during plea negotiations?",
+        "hashtags": [
+          "whistleblower",
+          "justice",
+          "law",
+          "court",
+          "emotional"
+        ]
+      },
+      "id": "c16",
+      "title": "DOJ Prosecutor Threatens Whistleblower With 45 Years",
+      "reason": "A dramatic moment where federal prosecutors explicitly warned Kiriakou he might die in prison.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3112.17,
+        "end": 3152.83,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What prosecutors told him before his plea",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/y4VzXH7n_qQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216756.5300741
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 85,
+        "value": 88,
+        "shareability": 87,
+        "overall": 89,
+        "hook_text": "The threat that stopped a prison warden",
+        "tip": "Highlight Kiriakou's retort about media presence outside the prison.",
+        "caption": "Former CIA agent John Kiriakou stood up to a prison warden's solitary confinement threat by citing media contacts.",
+        "description": "When a prison warden threatened him with solitary confinement in Loretto, Pennsylvania, John Kiriakou reminded officials of his operational history in Yemen and Pakistan. He added that media cameras would be waiting outside if they executed the threat, causing administration to back down. How effective is public exposure against official abuse?",
+        "hashtags": [
+          "prison",
+          "cia",
+          "whistleblower",
+          "free-speech",
+          "justice"
+        ]
+      },
+      "id": "c17",
+      "title": "CIA Officer Confronts Prison Warden Threatening Solitary",
+      "reason": "Kiriakou stands up to prison authorities by reminding them of his background in counter-terrorism.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4869.72,
+        "end": 4909.82,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The threat that stopped a prison warden",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/6bi6DEyQu9I",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216805.7083328
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 84,
+        "value": 87,
+        "shareability": 85,
+        "overall": 88,
+        "hook_text": "The secret memo John Brennan sent DOJ",
+        "tip": "Highlight attorney general Eric Holder's name to clarify the legal chain of command.",
+        "caption": "Internal discovery memos exposed how CIA Director John Brennan pushed Attorney General Eric Holder to pursue espionage charges.",
+        "description": "Legal discovery uncovered communications between CIA Director John Brennan and Attorney General Eric Holder regarding John Kiriakou's prosecution. Despite internal doubts about espionage, leadership insisted on bringing heavy felony charges to force a resolution. Should prosecutors pursue charges they doubt?",
+        "hashtags": [
+          "justice",
+          "cia",
+          "legal",
+          "whistleblower",
+          "government"
+        ]
+      },
+      "id": "c18",
+      "title": "John Brennan Demanded Espionage Charges Against Whistleblower",
+      "reason": "Kiriakou reveals internal DOJ memos showing John Brennan's personal push to prosecute him with espionage.",
+      "score": 88,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2073.64,
+        "end": 2113.02,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The secret memo John Brennan sent DOJ",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/FD0ipO__dTk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216853.511245
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 83,
+        "value": 89,
+        "shareability": 86,
+        "overall": 87,
+        "hook_text": "The simple trick that identified Mukhtar",
+        "tip": "Highlight the name of FBI agent Ali Soufan on screen when discussing respectful interrogation.",
+        "caption": "Respectful interrogation techniques used by FBI agent Ali Soufan revealed Khalid Sheikh Mohammed's role in 9/11.",
+        "description": "Prior to harsh interrogations, FBI agent Ali Soufan established rapport with Abu Zubaydah, leading to the first breakthrough identification of 9/11 mastermind Khalid Sheikh Mohammed. John Kiriakou details how respectful discourse unlocked critical secrets. Why was this effective method abandoned?",
+        "hashtags": [
+          "fbi",
+          "counterterrorism",
+          "history",
+          "september11",
+          "intelligence"
+        ]
+      },
+      "id": "c19",
+      "title": "How Respectful Questioning Uncovered Khalid Sheikh Mohammed",
+      "reason": "Treating Abu Zubaydah with respect led directly to identifying 9/11 mastermind Khalid Sheikh Mohammed.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1546.44,
+        "end": 1573.5,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The simple trick that identified Mukhtar",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/QsnVkPIzmLI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794216905.3020408
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 83,
+        "value": 85,
+        "shareability": 86,
+        "overall": 87,
+        "hook_text": "How guards tried inciting an inmate attack",
+        "tip": "Add visual subtitles for clarity on the Kurdish inmate conversation logic.",
+        "caption": "Correctional officers attempted to manipulate John Kiriakou into fighting an inmate by fabricating hit orders.",
+        "description": "Guards claimed an inmate had phoned overseas contacts to place a hit on John Kiriakou following a brief interaction. Recognizing the logical flaws in their story, Kiriakou realized officers were attempting to incite violence between prisoners. Why would staff attempt to provoke internal conflict?",
+        "hashtags": [
+          "prison",
+          "corruption",
+          "investigation",
+          "justice",
+          "truecrime"
+        ]
+      },
+      "id": "c20",
+      "title": "Prison Guards Tried Setting Up Inmate Hit",
+      "reason": "Guards lie to inmates about hit orders from overseas to spark internal violence inside federal prison.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4737.29,
+        "end": 4773.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How guards tried inciting an inmate attack",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 84,
+        "value": 86,
+        "shareability": 85,
+        "overall": 87,
+        "hook_text": "The camera hidden in the woods outside",
+        "tip": "Animate a simple camera lens zoom graphic to visualize the setup Kiriakou spotted.",
+        "caption": "Sharp counter-surveillance skills allowed John Kiriakou to spot a hidden guard camera setup intended to frame him.",
+        "description": "An inmate approached John Kiriakou in the yard attempting physical contact while a guard secretly snapped telephoto photos from nearby woods. Spotting the setup, Kiriakou avoided touching the individual, thwarting an attempt to fabricate behavioral infractions. How often do inmates face framed disciplinary traps?",
+        "hashtags": [
+          "surveillance",
+          "prison",
+          "cia",
+          "investigation",
+          "security"
+        ]
+      },
+      "id": "c21",
+      "title": "Kiriakou Spots Hidden Camera Trap In Prison",
+      "reason": "Former CIA agent spots covert long-distance photography setup designed to fabricate prison infractions.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4991.45,
+        "end": 5029.9,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The camera hidden in the woods outside",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 82,
+        "value": 81,
+        "shareability": 83,
+        "overall": 86,
+        "hook_text": "Why they put bugs inside his box",
+        "tip": "Include visual captions clarifying that the White House eventually returned control to the FBI.",
+        "caption": "Exploding a specific phobia, handlers placed Abu Zubaydah inside a confined wooden box filled with live insects.",
+        "description": "Interrogators exploited Abu Zubaydah's extreme fear of insects by locking him inside a small confinement box packed with cockroaches. The resulting psychological trauma caused him to stop cooperating entirely until FBI negotiators resumed control. Was psychological torture counterproductive?",
+        "hashtags": [
+          "cia",
+          "fbi",
+          "interrogation",
+          "history",
+          "psychology"
+        ]
+      },
+      "id": "c22",
+      "title": "CIA Put Abu Zubaydah In Cockroach Coffin",
+      "reason": "A disturbing account of the CIA exploiting a phobia by locking a prisoner inside a coffin filled with bugs.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1623.45,
+        "end": 1652.19,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why they put bugs inside his box",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 82,
+        "value": 85,
+        "shareability": 83,
+        "overall": 86,
+        "hook_text": "The briefing question that sparked an argument",
+        "tip": "Highlight Kiriakou's boss's response at the end of the clip for humor.",
+        "caption": "A foreign intelligence officer attempted an impromptu recruitment pitch on CIA analyst John Kiriakou during a briefing.",
+        "description": "During a official briefing session, a Shin Bet officer attempted to initiate a recruitment pitch on John Kiriakou by probing his heritage. Upon returning to headquarters, Kiriakou learned senior colleagues had all experienced identical recruitment attempts. Do allied services constantly test each other?",
+        "hashtags": [
+          "cia",
+          "shinbet",
+          "espionage",
+          "intelligence",
+          "storytelling"
+        ]
+      },
+      "id": "c23",
+      "title": "Shin Bet Officer Tries Recruiting CIA Agent Kiriakou",
+      "reason": "A bizarre intelligence briefing where an Israeli officer attempts to recruit a CIA analyst on the spot.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8950.2,
+        "end": 8993.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The briefing question that sparked an argument",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 80,
+        "value": 85,
+        "shareability": 82,
+        "overall": 85,
+        "hook_text": "The forbidden technique that caused hypothermia",
+        "tip": "Use subtle sound design to highlight the stark details of the cold cell conditions.",
+        "caption": "Shocking details reveal how extreme cold cell interrogation methods directly led to fatal hypothermia in custody.",
+        "description": "Enhanced interrogation protocols included locking stripped detainees in freezing cells while repeatedly dousing them with ice water. John Kiriakou reveals how these brutal conditions directly caused deaths that exceeded Justice Department authorization. Should officials face charges for these deaths?",
+        "hashtags": [
+          "cia",
+          "humanrights",
+          "interrogation",
+          "history",
+          "investigation"
+        ]
+      },
+      "id": "c24",
+      "title": "The CIA Cold Cell Technique Killed Detainees",
+      "reason": "A horrific revelation detailing how CIA enhanced interrogation techniques directly led to hypothermia deaths.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 664.57,
+        "end": 699.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The forbidden technique that caused hypothermia",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 82,
+        "value": 84,
+        "shareability": 83,
+        "overall": 85,
+        "hook_text": "Why he was denied minimum security camp",
+        "tip": "Display the map of Loretto Federal Correctional Institution for spatial context.",
+        "caption": "Arriving to surrender, John Kiriakou discovered top officials had personally interfered to increase his confinement severity.",
+        "description": "Expecting placement at a minimum-security camp, John Kiriakou arrived at federal prison only to be directed to a higher-security facility. Later records revealed CIA leadership intervened to ensure his incarceration conditions were as punitive as possible. Should agency heads influence prison placements?",
+        "hashtags": [
+          "prison",
+          "cia",
+          "whistleblower",
+          "justice",
+          "government"
+        ]
+      },
+      "id": "c25",
+      "title": "John Brennan Tampered With Kiriakou Prison Placement",
+      "reason": "Kiriakou describes arriving at prison only to learn CIA leadership personally escalated his confinement severity.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3644.28,
+        "end": 3682.06,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he was denied minimum security camp",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 75,
+        "value": 82,
+        "shareability": 84,
+        "overall": 84,
+        "hook_text": "Medical staff restarted his stopped heart",
+        "tip": "Extend the ending by two seconds to let the ethical question sink in before cutting off.",
+        "caption": "Medical personnel revived al-Qaeda operative Abu Zubaydah during waterboarding just to continue questioning.",
+        "description": "When Abu Zubaydah suffered cardiac arrest during waterboarding, medical personnel intervened to revive him so interrogation could resume. Former CIA operative John Kiriakou compares these medical practices to dark historical precedents. Where should the line be drawn for medical ethics?",
+        "hashtags": [
+          "ethics",
+          "cia",
+          "abuzubaydah",
+          "history",
+          "humanrights"
+        ]
+      },
+      "id": "c26",
+      "title": "Doctor Revived Abu Zubaydah To Torture Him",
+      "reason": "A dark story showing how medical personnel revived a dying detainee just to resume waterboarding.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 709.05,
+        "end": 724.62,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Medical staff restarted his stopped heart",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 83,
+        "retention": 81,
+        "value": 84,
+        "shareability": 80,
+        "overall": 84,
+        "hook_text": "How sleep deprivation destroyed human minds",
+        "tip": "Insert graphic timers showing the 12-day timeframe to visually emphasize duration.",
+        "caption": "Interrogators pushed human limits by keeping detainees awake for twelve consecutive days using extreme methods.",
+        "description": "Authorizations permitted intelligence handlers to enforce continuous wakefulness for nearly two weeks using ceiling shackles, blaring metal music, and harsh lighting. John Kiriakou outlines the severe physical toll these extreme measures caused. How long can a human body survive under these conditions?",
+        "hashtags": [
+          "cia",
+          "interrogation",
+          "science",
+          "humanrights",
+          "military"
+        ]
+      },
+      "id": "c27",
+      "title": "CIA Forced 12 Days Of Sleep Deprivation",
+      "reason": "A brutal breakdown of how extreme sleep deprivation was weaponized to destroy detainees' mental state.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1221.32,
+        "end": 1255.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How sleep deprivation destroyed human minds",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 83,
+        "retention": 80,
+        "value": 84,
+        "shareability": 82,
+        "overall": 84,
+        "hook_text": "Why he called reporter Brian Ross",
+        "tip": "Add text clarifying Brian Ross's position at ABC News for viewers unfamiliar with the name.",
+        "caption": "Fearing he would be framed as a rogue operative, John Kiriakou contacted journalist Brian Ross to reveal the truth.",
+        "description": "When official statements suggested illegal practices were the work of rogue agents, John Kiriakou recognized he might be set up as a scapegoat. To set the record straight, he arranged a ground-breaking interview with news reporter Brian Ross. Would you take such a risk to protect your name?",
+        "hashtags": [
+          "whistleblower",
+          "cia",
+          "journalism",
+          "justice",
+          "media"
+        ]
+      },
+      "id": "c28",
+      "title": "President Bush Scapegoated Rogue CIA Officers",
+      "reason": "Fearing he would be framed as a rogue officer, Kiriakou took the initiative to blow the whistle on live news.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1921.85,
+        "end": 1965.66,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he called reporter Brian Ross",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 80,
+        "value": 83,
+        "shareability": 81,
+        "overall": 84,
+        "hook_text": "Why his lawyer yelled at him",
+        "tip": "Cut audio noise floor during attorney quotes to make dialogue crisper.",
+        "caption": "Tensions boiled over when defense attorneys abruptly changed strategy and demanded John Kiriakou accept a plea deal.",
+        "description": "After months of promising victory at trial, defense attorney Plato Cacheris unexpectedly yelled at John Kiriakou to accept the prosecution's plea deal. Legal counsel admitted they had only offered optimism to keep his spirits up. How can a defendant trust counsel under such pressure?",
+        "hashtags": [
+          "lawyer",
+          "justice",
+          "court",
+          "legal",
+          "whistleblower"
+        ]
+      },
+      "id": "c29",
+      "title": "Defense Lawyer Screams At Kiriakou To Take Plea",
+      "reason": "A raw, unfiltered glimpse into attorney-client tensions during a high-profile federal prosecution.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3469.37,
+        "end": 3502.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why his lawyer yelled at him",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 83,
+        "retention": 79,
+        "value": 82,
+        "shareability": 86,
+        "overall": 84,
+        "hook_text": "Who paid millions to retrain AI chatbots",
+        "tip": "Show logos or screenshots of Reason magazine article references on screen.",
+        "caption": "Foreign entities and political campaigns purchase multi-million dollar contracts to influence automated AI outputs.",
+        "description": "Modern state actors and campaign consultants are contracting tech platforms to train public AI models toward specific geopolitical narratives. Former CIA officer John Kiriakou references reporting on multi-million dollar operations shaping automated search responses. How can users detect automated political bias online?",
+        "hashtags": [
+          "ai",
+          "tech",
+          "propaganda",
+          "politics",
+          "future"
+        ]
+      },
+      "id": "c30",
+      "title": "Foreign Governments Buying AI For Social Propaganda",
+      "reason": "How state actors purchase contracts to train AI models to manipulate public sentiment.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 7185.05,
+        "end": 7210.46,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Who paid millions to retrain AI chatbots",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 79,
+        "value": 83,
+        "shareability": 81,
+        "overall": 82,
+        "hook_text": "Why secret site officers quit their jobs",
+        "tip": "Frame cable quotes on screen with official document graphics to increase realism.",
+        "caption": "Secret cables revealed agency personnel fainting and abruptly quitting their assignments over brutal black site practices.",
+        "description": "Classified communications returning from overseas black sites showed widespread internal distress among agency staff during the interrogation of Abu Zubaydah. John Kiriakou explains how officers ended their careers early rather than participate in illegal methods. Would you have resigned under similar pressure?",
+        "hashtags": [
+          "cia",
+          "whistleblower",
+          "ethics",
+          "blacksite",
+          "history"
+        ]
+      },
+      "id": "c31",
+      "title": "CIA Staff Fainted And Quit Over Blacksite Torture",
+      "reason": "Inside cables showed CIA officers destroying their own careers to avoid participating in illegal torture.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1057.29,
+        "end": 1096.86,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why secret site officers quit their jobs",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 78,
+        "value": 74,
+        "shareability": 76,
+        "overall": 81,
+        "hook_text": "Why his boss was wearing a hood",
+        "tip": "Cut out the repeated words at the end to finish on a punchy punchline.",
+        "caption": "Recognizing a masked CIA superior on a high-stakes transport plane led to a surreal exchange.",
+        "description": "While transporting a high-value detainee on a secure flight, John Kiriakou spotted a masked operative who turned out to be his former boss. Their exchange revealed the extreme secrecy protocols governing classified intelligence operations. How would you react in this situation?",
+        "hashtags": [
+          "cia",
+          "whistleblower",
+          "classified",
+          "military",
+          "storytelling"
+        ]
+      },
+      "id": "c32",
+      "title": "John Kiriakou Meets Masked CIA Boss On Plane",
+      "reason": "A surreal moment where John Kiriakou recognizes his masked CIA superior on a high-stakes transport flight.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 268.17,
+        "end": 295.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why his boss was wearing a hood",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 81,
+        "retention": 76,
+        "value": 79,
+        "shareability": 80,
+        "overall": 81,
+        "hook_text": "What George Bush said on national TV",
+        "tip": "Overlay the archival quote from President Bush to contrast with Kiriakou's reaction.",
+        "caption": "Former CIA officer John Kiriakou reacted with disbelief when President George W. Bush denied torture policies on television.",
+        "description": "Watching a presidential broadcast alongside his wife, John Kiriakou witnessed President George W. Bush publicly deny the existence of state-sanctioned interrogation methods. Knowing firsthand that the program existed, Kiriakou realized official narratives contradicted reality. How often are public statements misleading?",
+        "hashtags": [
+          "politics",
+          "georgebush",
+          "cia",
+          "whistleblower",
+          "media"
+        ]
+      },
+      "id": "c33",
+      "title": "John Kiriakou Calls Out President Bush Lying",
+      "reason": "Kiriakou reacts in real time to President Bush publicly denying CIA torture policies on national TV.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1867.93,
+        "end": 1889.18,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What George Bush said on national TV",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 77,
+        "retention": 76,
+        "value": 86,
+        "shareability": 74,
+        "overall": 80,
+        "hook_text": "The conversation that saved German lives",
+        "tip": "Display a simple map graphic showing Dusseldorf to visualize the thwarted cell location.",
+        "caption": "Building rapport with Abu Zubaydah uncovered a terrorist cell operating in Dusseldorf and prevented attacks.",
+        "description": "Traditional, respectful questioning methods led Abu Zubaydah to disclose critical contact details for operatives based in Germany. Armed with this intelligence, German authorities raided the cell and prevented imminent attacks. Does humane questioning yield better intelligence than torture?",
+        "hashtags": [
+          "counterterrorism",
+          "fbi",
+          "intelligence",
+          "germany",
+          "security"
+        ]
+      },
+      "id": "c34",
+      "title": "Rapport Interrogation Foils Dusseldorf Terror Cell",
+      "reason": "Kiriakou highlights how respectful FBI questioning yielded actionable intelligence that saved lives.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1410.76,
+        "end": 1448.14,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The conversation that saved German lives",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 79,
+        "retention": 75,
+        "value": 78,
+        "shareability": 72,
+        "overall": 79,
+        "hook_text": "Why FBI refused his wire offer",
+        "tip": "Trim the trailing sentence at the end of the video clip for a slicker edit.",
+        "caption": "The FBI tasked John Kiriakou with setting up a sting operation against a foreign contact while agents observed.",
+        "description": "Counterintelligence agents instructed John Kiriakou to set up a follow-up meeting with a foreign handler to uncover specific target intelligence. FBI officers monitored the entire interaction from nearby tables to record the exchange. Would you agree to work as a secret informant?",
+        "hashtags": [
+          "fbi",
+          "counterespionage",
+          "cia",
+          "investigation",
+          "security"
+        ]
+      },
+      "id": "c35",
+      "title": "FBI Uses Kiriakou For Counterespionage Operation",
+      "reason": "Kiriakou details how he agreed to assist the FBI in setting up a counter-intelligence trap.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2760.33,
+        "end": 2800.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why FBI refused his wire offer",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 74,
+        "value": 77,
+        "shareability": 75,
+        "overall": 78,
+        "hook_text": "The lunch offer that went completely wrong",
+        "tip": "Clarify in the caption or text overlay that the diplomat was pitching cash for classified intelligence.",
+        "caption": "A foreign diplomat attempted to recruit John Kiriakou over lunch, prompting an immediate report to Senate security.",
+        "description": "During a business lunch, a foreign representative offered cash payments in exchange for sensitive government intelligence. John Kiriakou immediately cut the meeting short and reported the recruitment attempt directly to Senate security officers. How common are these covert approaches?",
+        "hashtags": [
+          "espionage",
+          "cia",
+          "diplomacy",
+          "security",
+          "truecrime"
+        ]
+      },
+      "id": "c36",
+      "title": "Japanese Diplomat Tries Bribing CIA Whistleblower Kiriakou",
+      "reason": "A high-stakes encounter where a foreign diplomat attempts to recruit Kiriakou over lunch.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2687.29,
+        "end": 2713.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The lunch offer that went completely wrong",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 76,
+        "retention": 70,
+        "value": 77,
+        "shareability": 81,
+        "overall": 77,
+        "hook_text": "How bureaucrats defeat elected presidents",
+        "tip": "Add screen text highlighting the definition of permanent bureaucracy.",
+        "caption": "Career federal bureaucrats can easily stall presidential agendas simply by waiting out political terms.",
+        "description": "Former CIA officer John Kiriakou explains how career officials within the federal bureaucracy hold immense power over elected leaders. By delaying implementation, permanent staffers routinely outwait executive administrations. Who truly holds power in government?",
+        "hashtags": [
+          "politics",
+          "government",
+          "bureaucracy",
+          "deepstate",
+          "policy"
+        ]
+      },
+      "id": "c37",
+      "title": "The Unelected Deep State Outwaits US Presidents",
+      "reason": "John Kiriakou explains how career federal bureaucrats bypass presidential power simply by waiting them out.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 991.13,
+        "end": 1013.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How bureaucrats defeat elected presidents",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 72,
+        "value": 78,
+        "shareability": 73,
+        "overall": 76,
+        "hook_text": "Catching Abu Zubaydah cost his promotion",
+        "tip": "Add lower-third captions identifying Abu Zubaydah's role in al-Qaeda to give context.",
+        "caption": "After capturing al-Qaeda operative Abu Zubaydah, John Kiriakou was denied a promotion for refusing torture training.",
+        "description": "Capturing high-ranking terrorist Abu Zubaydah should have guaranteed advancement inside the agency. Instead, John Kiriakou was passed over for promotion after refusing to participate in enhanced interrogation training. Is standing on principle worth sacrificing a career?",
+        "hashtags": [
+          "cia",
+          "alqaeda",
+          "whistleblower",
+          "ethics",
+          "nationalsecurity"
+        ]
+      },
+      "id": "c38",
+      "title": "John Kiriakou Passed Over After Capturing Zubaydah",
+      "reason": "Kiriakou explains how refusing torture training ruined his CIA promotion despite catching top al-Qaeda target Abu Zubaydah.",
+      "score": 76,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 424.25,
+        "end": 455.9,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Catching Abu Zubaydah cost his promotion",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 68,
+        "value": 75,
+        "shareability": 70,
+        "overall": 73,
+        "hook_text": "The secret pact behind 1980s attacks",
+        "tip": "Add historical context on Andreas Papandreou's administration to heighten the stakes.",
+        "caption": "Former CIA officer John Kiriakou exposes how an informal pact allowed international terrorists safe harbor in Greece.",
+        "description": "Prime Minister Andreas Papandreou reached an informal arrangement with international terrorist organizations to protect local citizens. Former CIA officer John Kiriakou details how this secret agreement left foreign nationals vulnerable. Did foreign governments know about this pact?",
+        "hashtags": [
+          "cia",
+          "greece",
+          "history",
+          "terrorism",
+          "geopolitics"
+        ]
+      },
+      "id": "c39",
+      "title": "Greece's Secret Deal With Terrorist Groups Exposed",
+      "reason": "Former CIA officer John Kiriakou reveals a shocking secret deal between the Greek government and international terrorists.",
+      "score": 73,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 72.12,
+        "end": 93.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The secret pact behind 1980s attacks",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 15,
+    "max_len": 45,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794213694.879343,
+  "finished": 1794217701.0815709,
+  "log": [
+    {
+      "t": 1794213694.8993669,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=TZqADzuu73g"
+    },
+    {
+      "t": 1794213878.9007885,
+      "level": "ok",
+      "msg": "Downloaded \"Joe Rogan Experience #2392 - John Kiriakou\" (151:05) in 3:03"
+    },
+    {
+      "t": 1794213878.9072347,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794213878.921137,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794213883.9697845,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794213884.597975,
+      "level": "ok",
+      "msg": "Transcribed 3876 segments / 25368 words in 0:05"
+    },
+    {
+      "t": 1794213884.6094928,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (15-45s each)"
+    },
+    {
+      "t": 1794213885.9424841,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794213887.5323575,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794213894.0537114,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794213894.0790956,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Former CIA counter-terrorism officer John Kiriakou talks with host Joe Rogan about replacing Mike Baker in Athens, tracking down al-Qaeda operative Abu Zubaydah in Pakistan after 9/11, and refusing to participate in the CIA's enhanced interrogation techniques (torture program). | People: Jo"
+    },
+    {
+      "t": 1794213917.0391872,
+      "level": "info",
+      "msg": "Audio analysis: 3 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794213917.0555105,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794213918.4112105,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794213963.5367966,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794213964.9036684,
+      "level": "ok",
+      "msg": "AI picked 39 clips in 1:20"
+    },
+    {
+      "t": 1794213964.9106042,
+      "level": "info",
+      "msg": "  \u2022 Greece's Secret Deal With Terrorist Groups Exposed  [1:12-1:33, score 88]"
+    },
+    {
+      "t": 1794213964.9165645,
+      "level": "info",
+      "msg": "  \u2022 John Kiriakou Meets Masked CIA Boss On Plane  [4:28-4:55, score 92]"
+    },
+    {
+      "t": 1794213964.9220645,
+      "level": "info",
+      "msg": "  \u2022 Senior CIA Official Warns Kiriakou About Torture  [6:15-6:51, score 95]"
+    },
+    {
+      "t": 1794213964.9287496,
+      "level": "info",
+      "msg": "  \u2022 John Kiriakou Passed Over After Capturing Zubaydah  [7:04-7:35, score 86]"
+    },
+    {
+      "t": 1794213964.93369,
+      "level": "info",
+      "msg": "  \u2022 The CIA Cold Cell Technique Killed Detainees  [11:04-11:39, score 94]"
+    },
+    {
+      "t": 1794213964.9392455,
+      "level": "info",
+      "msg": "  \u2022 Doctor Revived Abu Zubaydah To Torture Him  [11:49-12:04, score 90]"
+    },
+    {
+      "t": 1794213964.9490135,
+      "level": "info",
+      "msg": "  \u2022 MKUltra Operation Midnight Climax San Francisco Safehouse  [14:04-14:41, score 93]"
+    },
+    {
+      "t": 1794213964.953989,
+      "level": "info",
+      "msg": "  \u2022 The Unelected Deep State Outwaits US Presidents  [16:31-16:53, score 96]"
+    },
+    {
+      "t": 1794213964.9607923,
+      "level": "info",
+      "msg": "  \u2022 CIA Staff Fainted And Quit Over Blacksite Torture  [17:37-18:16, score 87]"
+    },
+    {
+      "t": 1794213964.967082,
+      "level": "info",
+      "msg": "  \u2022 CIA Forced 12 Days Of Sleep Deprivation  [20:21-20:55, score 89]"
+    },
+    {
+      "t": 1794213964.974551,
+      "level": "info",
+      "msg": "  \u2022 Rapport Interrogation Foils Dusseldorf Terror Cell  [23:30-24:08, score 85]"
+    },
+    {
+      "t": 1794213964.9832258,
+      "level": "info",
+      "msg": "  \u2022 Cleaning Lady Stopped Massive 14-Airplane Hijacking Plot  [24:51-25:31, score 97]"
+    },
+    {
+      "t": 1794213964.9902766,
+      "level": "info",
+      "msg": "  \u2022 How Respectful Questioning Uncovered Khalid Sheikh Mohammed  [25:46-26:13, score 91]"
+    },
+    {
+      "t": 1794213964.996127,
+      "level": "info",
+      "msg": "  \u2022 CIA Put Abu Zubaydah In Cockroach Coffin  [27:03-27:32, score 88]"
+    },
+    {
+      "t": 1794213965.0021534,
+      "level": "info",
+      "msg": "  \u2022 CIA Paid Psychologists $108M To Design Torture  [28:31-29:16, score 92]"
+    },
+    {
+      "t": 1794213965.008578,
+      "level": "info",
+      "msg": "  \u2022 John Kiriakou Calls Out President Bush Lying  [31:07-31:29, score 94]"
+    },
+    {
+      "t": 1794213965.0147235,
+      "level": "info",
+      "msg": "  \u2022 President Bush Scapegoated Rogue CIA Officers  [32:01-32:45, score 90]"
+    },
+    {
+      "t": 1794213965.020262,
+      "level": "info",
+      "msg": "  \u2022 The 3 Statements That Ended Kiriakou's Career  [32:56-33:27, score 95]"
+    },
+    {
+      "t": 1794213965.0270815,
+      "level": "info",
+      "msg": "  \u2022 John Brennan Demanded Espionage Charges Against Whistleblower  [34:33-35:13, score 93]"
+    },
+    {
+      "t": 1794213965.0338445,
+      "level": "info",
+      "msg": "  \u2022 Average American Commits Three Felonies A Day  [35:38-36:03, score 96]"
+    },
+    {
+      "t": 1794213965.0400004,
+      "level": "info",
+      "msg": "  \u2022 Japanese Diplomat Tries Bribing CIA Whistleblower Kiriakou  [44:47-45:13, score 89]"
+    },
+    {
+      "t": 1794213965.04688,
+      "level": "info",
+      "msg": "  \u2022 FBI Uses Kiriakou For Counterespionage Operation  [46:00-46:40, score 84]"
+    },
+    {
+      "t": 1794213965.053014,
+      "level": "info",
+      "msg": "  \u2022 Why The FBI In DC Arrests People On Thursdays  [49:06-49:47, score 95]"
+    },
+    {
+      "t": 1794213965.0668237,
+      "level": "info",
+      "msg": "  \u2022 DOJ Prosecutor Threatens Whistleblower With 45 Years  [51:52-52:33, score 91]"
+    },
+    {
+      "t": 1794213965.0729263,
+      "level": "info",
+      "msg": "  \u2022 CIA Secretary Leaked Names During Pillow Talk  [55:04-55:41, score 88]"
+    },
+    {
+      "t": 1794213965.079492,
+      "level": "info",
+      "msg": "  \u2022 Defense Lawyer Screams At Kiriakou To Take Plea  [57:49-58:22, score 87]"
+    },
+    {
+      "t": 1794213965.0859113,
+      "level": "info",
+      "msg": "  \u2022 John Brennan Tampered With Kiriakou Prison Placement  [60:44-61:22, score 90]"
+    },
+    {
+      "t": 1794213965.0928817,
+      "level": "info",
+      "msg": "  \u2022 First Day In Prison Interrogated By Neo-Nazis  [73:35-74:06, score 92]"
+    },
+    {
+      "t": 1794213965.0992,
+      "level": "info",
+      "msg": "  \u2022 Mob Boss Moves Kiriakou To Italian Table  [74:09-74:41, score 94]"
+    },
+    {
+      "t": 1794213965.1058128,
+      "level": "info",
+      "msg": "  \u2022 Prison Guards Tried Setting Up Inmate Hit  [78:57-79:33, score 91]"
+    },
+    {
+      "t": 1794213965.1161373,
+      "level": "info",
+      "msg": "  \u2022 CIA Officer Confronts Prison Warden Threatening Solitary  [81:09-81:49, score 93]"
+    },
+    {
+      "t": 1794213965.1230044,
+      "level": "info",
+      "msg": "  \u2022 Kiriakou Spots Hidden Camera Trap In Prison  [83:11-83:49, score 89]"
+    },
+    {
+      "t": 1794213965.129269,
+      "level": "info",
+      "msg": "  \u2022 FBI Route 82 Bridge Entrapment Scheme Exposed  [91:12-91:43, score 92]"
+    },
+    {
+      "t": 1794213965.1352384,
+      "level": "info",
+      "msg": "  \u2022 Barack Obama Record Espionage Act Whistleblower Prosecutions  [105:21-105:48, score 94]"
+    },
+    {
+      "t": 1794213965.1671455,
+      "level": "info",
+      "msg": "  \u2022 Dasht-i-Leili Massacre Of 2000 Taliban Soldiers  [106:26-107:01, score 89]"
+    },
+    {
+      "t": 1794213965.177289,
+      "level": "info",
+      "msg": "  \u2022 Foreign Governments Buying AI For Social Propaganda  [119:45-120:10, score 88]"
+    },
+    {
+      "t": 1794213965.1869252,
+      "level": "info",
+      "msg": "  \u2022 US Government Legalized Domestic Propaganda On Americans  [134:47-135:15, score 96]"
+    },
+    {
+      "t": 1794213965.1950438,
+      "level": "info",
+      "msg": "  \u2022 Why Israeli Mossad Is Banned From CIA HQ  [148:04-148:34, score 98]"
+    },
+    {
+      "t": 1794213965.2019265,
+      "level": "info",
+      "msg": "  \u2022 Shin Bet Officer Tries Recruiting CIA Agent Kiriakou  [149:10-149:53, score 95]"
+    },
+    {
+      "t": 1794213965.4840837,
+      "level": "ok",
+      "msg": "Tightened the clips: 2.2s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794213965.4962676,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794213965.5996037,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794213967.2466424,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794214037.3966823,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794214037.4196954,
+      "level": "ok",
+      "msg": "Rated 39 clips in 1:11"
+    },
+    {
+      "t": 1794214037.4256158,
+      "level": "info",
+      "msg": "  - Greece's Secret Deal With Terrorist Groups Exposed: 73/100 (hook 72, retention 68, value 75, share 70)"
+    },
+    {
+      "t": 1794214037.4317546,
+      "level": "info",
+      "msg": "  - John Kiriakou Meets Masked CIA Boss On Plane: 81/100 (hook 82, retention 78, value 74, share 76)"
+    },
+    {
+      "t": 1794214037.4376101,
+      "level": "info",
+      "msg": "  - Senior CIA Official Warns Kiriakou About Torture: 90/100 (hook 88, retention 85, value 91, share 89)"
+    },
+    {
+      "t": 1794214037.4445748,
+      "level": "info",
+      "msg": "  - John Kiriakou Passed Over After Capturing Zubaydah: 76/100 (hook 75, retention 72, value 78, share 73)"
+    },
+    {
+      "t": 1794214037.4496958,
+      "level": "info",
+      "msg": "  - The CIA Cold Cell Technique Killed Detainees: 85/100 (hook 84, retention 80, value 85, share 82)"
+    },
+    {
+      "t": 1794214037.455462,
+      "level": "info",
+      "msg": "  - Doctor Revived Abu Zubaydah To Torture Him: 84/100 (hook 86, retention 75, value 82, share 84)"
+    },
+    {
+      "t": 1794214037.461373,
+      "level": "info",
+      "msg": "  - MKUltra Operation Midnight Climax San Francisco Safehouse: 92/100 (hook 91, retention 88, value 90, share 93)"
+    },
+    {
+      "t": 1794214037.466953,
+      "level": "info",
+      "msg": "  - The Unelected Deep State Outwaits US Presidents: 77/100 (hook 76, retention 70, value 77, share 81)"
+    },
+    {
+      "t": 1794214037.4726343,
+      "level": "info",
+      "msg": "  - CIA Staff Fainted And Quit Over Blacksite Torture: 82/100 (hook 80, retention 79, value 83, share 81)"
+    },
+    {
+      "t": 1794214037.4792862,
+      "level": "info",
+      "msg": "  - CIA Forced 12 Days Of Sleep Deprivation: 84/100 (hook 83, retention 81, value 84, share 80)"
+    },
+    {
+      "t": 1794214037.4849644,
+      "level": "info",
+      "msg": "  - Rapport Interrogation Foils Dusseldorf Terror Cell: 80/100 (hook 77, retention 76, value 86, share 74)"
+    },
+    {
+      "t": 1794214037.492271,
+      "level": "info",
+      "msg": "  - Cleaning Lady Stopped Massive 14-Airplane Hijacking Plot: 91/100 (hook 89, retention 87, value 92, share 91)"
+    },
+    {
+      "t": 1794214037.4993951,
+      "level": "info",
+      "msg": "  - How Respectful Questioning Uncovered Khalid Sheikh Mohammed: 87/100 (hook 85, retention 83, value 89, share 86)"
+    },
+    {
+      "t": 1794214037.5049846,
+      "level": "info",
+      "msg": "  - CIA Put Abu Zubaydah In Cockroach Coffin: 86/100 (hook 87, retention 82, value 81, share 83)"
+    },
+    {
+      "t": 1794214037.5127034,
+      "level": "info",
+      "msg": "  - CIA Paid Psychologists $108M To Design Torture: 90/100 (hook 88, retention 86, value 90, share 92)"
+    },
+    {
+      "t": 1794214037.5186863,
+      "level": "info",
+      "msg": "  - John Kiriakou Calls Out President Bush Lying: 81/100 (hook 81, retention 76, value 79, share 80)"
+    },
+    {
+      "t": 1794214037.5254035,
+      "level": "info",
+      "msg": "  - President Bush Scapegoated Rogue CIA Officers: 84/100 (hook 83, retention 80, value 84, share 82)"
+    },
+    {
+      "t": 1794214037.5311968,
+      "level": "info",
+      "msg": "  - The 3 Statements That Ended Kiriakou's Career: 91/100 (hook 90, retention 88, value 91, share 88)"
+    },
+    {
+      "t": 1794214037.5376534,
+      "level": "info",
+      "msg": "  - John Brennan Demanded Espionage Charges Against Whistleblower: 88/100 (hook 86, retention 84, value 87, share 85)"
+    },
+    {
+      "t": 1794214037.5445354,
+      "level": "info",
+      "msg": "  - Average American Commits Three Felonies A Day: 94/100 (hook 92, retention 89, value 93, share 95)"
+    },
+    {
+      "t": 1794214037.5505674,
+      "level": "info",
+      "msg": "  - Japanese Diplomat Tries Bribing CIA Whistleblower Kiriakou: 78/100 (hook 78, retention 74, value 77, share 75)"
+    },
+    {
+      "t": 1794214037.5573964,
+      "level": "info",
+      "msg": "  - FBI Uses Kiriakou For Counterespionage Operation: 79/100 (hook 79, retention 75, value 78, share 72)"
+    },
+    {
+      "t": 1794214037.5633876,
+      "level": "info",
+      "msg": "  - Why The FBI In DC Arrests People On Thursdays: 92/100 (hook 91, retention 89, value 92, share 90)"
+    },
+    {
+      "t": 1794214037.569275,
+      "level": "info",
+      "msg": "  - DOJ Prosecutor Threatens Whistleblower With 45 Years: 89/100 (hook 87, retention 86, value 89, share 87)"
+    },
+    {
+      "t": 1794214037.5827596,
+      "level": "info",
+      "msg": "  - CIA Secretary Leaked Names During Pillow Talk: 94/100 (hook 93, retention 91, value 92, share 94)"
+    },
+    {
+      "t": 1794214037.5893335,
+      "level": "info",
+      "msg": "  - Defense Lawyer Screams At Kiriakou To Take Plea: 84/100 (hook 82, retention 80, value 83, share 81)"
+    },
+    {
+      "t": 1794214037.5982907,
+      "level": "info",
+      "msg": "  - John Brennan Tampered With Kiriakou Prison Placement: 85/100 (hook 84, retention 82, value 84, share 83)"
+    },
+    {
+      "t": 1794214037.604747,
+      "level": "info",
+      "msg": "  - First Day In Prison Interrogated By Neo-Nazis: 90/100 (hook 88, retention 87, value 86, share 89)"
+    },
+    {
+      "t": 1794214037.6123207,
+      "level": "info",
+      "msg": "  - Mob Boss Moves Kiriakou To Italian Table: 91/100 (hook 89, retention 88, value 88, share 91)"
+    },
+    {
+      "t": 1794214037.6183329,
+      "level": "info",
+      "msg": "  - Prison Guards Tried Setting Up Inmate Hit: 87/100 (hook 85, retention 83, value 85, share 86)"
+    },
+    {
+      "t": 1794214037.636291,
+      "level": "info",
+      "msg": "  - CIA Officer Confronts Prison Warden Threatening Solitary: 89/100 (hook 87, retention 85, value 88, share 87)"
+    },
+    {
+      "t": 1794214037.644288,
+      "level": "info",
+      "msg": "  - Kiriakou Spots Hidden Camera Trap In Prison: 87/100 (hook 86, retention 84, value 86, share 85)"
+    },
+    {
+      "t": 1794214037.6519969,
+      "level": "info",
+      "msg": "  - FBI Route 82 Bridge Entrapment Scheme Exposed: 92/100 (hook 90, retention 88, value 91, share 92)"
+    },
+    {
+      "t": 1794214037.6597946,
+      "level": "info",
+      "msg": "  - Barack Obama Record Espionage Act Whistleblower Prosecutions: 90/100 (hook 88, retention 85, value 89, share 91)"
+    },
+    {
+      "t": 1794214037.6671836,
+      "level": "info",
+      "msg": "  - Dasht-i-Leili Massacre Of 2000 Taliban Soldiers: 91/100 (hook 89, retention 87, value 91, share 88)"
+    },
+    {
+      "t": 1794214037.6731622,
+      "level": "info",
+      "msg": "  - Foreign Governments Buying AI For Social Propaganda: 84/100 (hook 83, retention 79, value 82, share 86)"
+    },
+    {
+      "t": 1794214037.6822257,
+      "level": "info",
+      "msg": "  - US Government Legalized Domestic Propaganda On Americans: 94/100 (hook 92, retention 89, value 92, share 94)"
+    },
+    {
+      "t": 1794214037.6889029,
+      "level": "info",
+      "msg": "  - Why Israeli Mossad Is Banned From CIA HQ: 96/100 (hook 94, retention 92, value 94, share 96)"
+    },
+    {
+      "t": 1794214037.6968446,
+      "level": "info",
+      "msg": "  - Shin Bet Officer Tries Recruiting CIA Agent Kiriakou: 86/100 (hook 84, retention 82, value 85, share 83)"
+    },
+    {
+      "t": 1794214037.7217925,
+      "level": "ok",
+      "msg": "39 distinct clips found, 39 rated 50+"
+    },
+    {
+      "t": 1794214037.8232336,
+      "level": "info",
+      "msg": "Rendering clip 1/39: Why Israeli Mossad Is Banned From CIA HQ"
+    },
+    {
+      "t": 1794214118.717078,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:20"
+    },
+    {
+      "t": 1794214118.7510188,
+      "level": "info",
+      "msg": "Rendering clip 2/39: Average American Commits Three Felonies A Day"
+    },
+    {
+      "t": 1794214194.987019,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:16"
+    },
+    {
+      "t": 1794214195.0264444,
+      "level": "info",
+      "msg": "Rendering clip 3/39: CIA Secretary Leaked Names During Pillow Talk"
+    },
+    {
+      "t": 1794214303.533777,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:48"
+    },
+    {
+      "t": 1794214303.6062427,
+      "level": "info",
+      "msg": "Rendering clip 4/39: US Government Legalized Domestic Propaganda On Americans"
+    },
+    {
+      "t": 1794214380.6638367,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:17"
+    },
+    {
+      "t": 1794214380.704815,
+      "level": "info",
+      "msg": "Rendering clip 5/39: MKUltra Operation Midnight Climax San Francisco Safehouse"
+    },
+    {
+      "t": 1794214483.148713,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:42"
+    },
+    {
+      "t": 1794214483.1855934,
+      "level": "info",
+      "msg": "Rendering clip 6/39: Why The FBI In DC Arrests People On Thursdays"
+    },
+    {
+      "t": 1794214601.4344552,
+      "level": "ok",
+      "msg": "Clip 6 ready in 1:58"
+    },
+    {
+      "t": 1794214601.4733732,
+      "level": "info",
+      "msg": "Rendering clip 7/39: FBI Route 82 Bridge Entrapment Scheme Exposed"
+    },
+    {
+      "t": 1794214692.7797632,
+      "level": "ok",
+      "msg": "Clip 7 ready in 1:31"
+    },
+    {
+      "t": 1794214692.8205264,
+      "level": "info",
+      "msg": "Rendering clip 8/39: Cleaning Lady Stopped Massive 14-Airplane Hijacking Plot"
+    },
+    {
+      "t": 1794214817.6821089,
+      "level": "ok",
+      "msg": "Clip 8 ready in 2:04"
+    },
+    {
+      "t": 1794214817.7269936,
+      "level": "info",
+      "msg": "Rendering clip 9/39: The 3 Statements That Ended Kiriakou's Career"
+    },
+    {
+      "t": 1794214918.435964,
+      "level": "ok",
+      "msg": "Clip 9 ready in 1:40"
+    },
+    {
+      "t": 1794214918.4779768,
+      "level": "info",
+      "msg": "Rendering clip 10/39: Mob Boss Moves Kiriakou To Italian Table"
+    },
+    {
+      "t": 1794215014.4834585,
+      "level": "ok",
+      "msg": "Clip 10 ready in 1:35"
+    },
+    {
+      "t": 1794215014.5333166,
+      "level": "info",
+      "msg": "Rendering clip 11/39: Dasht-i-Leili Massacre Of 2000 Taliban Soldiers"
+    },
+    {
+      "t": 1794215143.7480972,
+      "level": "ok",
+      "msg": "Clip 11 ready in 2:09"
+    },
+    {
+      "t": 1794215143.779337,
+      "level": "info",
+      "msg": "Rendering clip 12/39: Senior CIA Official Warns Kiriakou About Torture"
+    },
+    {
+      "t": 1794215264.0021582,
+      "level": "ok",
+      "msg": "Clip 12 ready in 2:00"
+    },
+    {
+      "t": 1794215264.0558872,
+      "level": "info",
+      "msg": "Rendering clip 13/39: CIA Paid Psychologists $108M To Design Torture"
+    },
+    {
+      "t": 1794215413.0929224,
+      "level": "ok",
+      "msg": "Clip 13 ready in 2:29"
+    },
+    {
+      "t": 1794215413.1313457,
+      "level": "info",
+      "msg": "Rendering clip 14/39: First Day In Prison Interrogated By Neo-Nazis"
+    },
+    {
+      "t": 1794215505.659434,
+      "level": "ok",
+      "msg": "Clip 14 ready in 1:32"
+    },
+    {
+      "t": 1794215505.70585,
+      "level": "info",
+      "msg": "Rendering clip 15/39: Barack Obama Record Espionage Act Whistleblower Prosecutions"
+    },
+    {
+      "t": 1794215590.0968301,
+      "level": "ok",
+      "msg": "Clip 15 ready in 1:24"
+    },
+    {
+      "t": 1794215590.1362934,
+      "level": "info",
+      "msg": "Rendering clip 16/39: DOJ Prosecutor Threatens Whistleblower With 45 Years"
+    },
+    {
+      "t": 1794215696.2635028,
+      "level": "ok",
+      "msg": "Clip 16 ready in 1:46"
+    },
+    {
+      "t": 1794215696.3334618,
+      "level": "info",
+      "msg": "Rendering clip 17/39: CIA Officer Confronts Prison Warden Threatening Solitary"
+    },
+    {
+      "t": 1794215800.2404819,
+      "level": "ok",
+      "msg": "Clip 17 ready in 1:43"
+    },
+    {
+      "t": 1794215800.2766776,
+      "level": "info",
+      "msg": "Rendering clip 18/39: John Brennan Demanded Espionage Charges Against Whistleblower"
+    },
+    {
+      "t": 1794215888.0336647,
+      "level": "ok",
+      "msg": "Clip 18 ready in 1:27"
+    },
+    {
+      "t": 1794215888.0732203,
+      "level": "info",
+      "msg": "Rendering clip 19/39: How Respectful Questioning Uncovered Khalid Sheikh Mohammed"
+    },
+    {
+      "t": 1794215950.2069707,
+      "level": "ok",
+      "msg": "Clip 19 ready in 1:02"
+    },
+    {
+      "t": 1794215950.253319,
+      "level": "info",
+      "msg": "Rendering clip 20/39: Prison Guards Tried Setting Up Inmate Hit"
+    },
+    {
+      "t": 1794216046.383283,
+      "level": "ok",
+      "msg": "Clip 20 ready in 1:36"
+    },
+    {
+      "t": 1794216046.42417,
+      "level": "info",
+      "msg": "Rendering clip 21/39: Kiriakou Spots Hidden Camera Trap In Prison"
+    },
+    {
+      "t": 1794216150.55923,
+      "level": "ok",
+      "msg": "Clip 21 ready in 1:44"
+    },
+    {
+      "t": 1794216150.6027076,
+      "level": "info",
+      "msg": "Rendering clip 22/39: CIA Put Abu Zubaydah In Cockroach Coffin"
+    },
+    {
+      "t": 1794216240.7191837,
+      "level": "ok",
+      "msg": "Clip 22 ready in 1:30"
+    },
+    {
+      "t": 1794216240.759264,
+      "level": "info",
+      "msg": "Rendering clip 23/39: Shin Bet Officer Tries Recruiting CIA Agent Kiriakou"
+    },
+    {
+      "t": 1794216363.3489532,
+      "level": "ok",
+      "msg": "Clip 23 ready in 2:02"
+    },
+    {
+      "t": 1794216363.390589,
+      "level": "info",
+      "msg": "Rendering clip 24/39: The CIA Cold Cell Technique Killed Detainees"
+    },
+    {
+      "t": 1794216454.593143,
+      "level": "ok",
+      "msg": "Clip 24 ready in 1:31"
+    },
+    {
+      "t": 1794216454.634043,
+      "level": "info",
+      "msg": "Rendering clip 25/39: John Brennan Tampered With Kiriakou Prison Placement"
+    },
+    {
+      "t": 1794216568.7711387,
+      "level": "ok",
+      "msg": "Clip 25 ready in 1:54"
+    },
+    {
+      "t": 1794216568.8105812,
+      "level": "info",
+      "msg": "Rendering clip 26/39: Doctor Revived Abu Zubaydah To Torture Him"
+    },
+    {
+      "t": 1794216613.8162763,
+      "level": "ok",
+      "msg": "Clip 26 ready in 0:44"
+    },
+    {
+      "t": 1794216613.8633683,
+      "level": "info",
+      "msg": "Rendering clip 27/39: CIA Forced 12 Days Of Sleep Deprivation"
+    },
+    {
+      "t": 1794216732.2882345,
+      "level": "ok",
+      "msg": "Clip 27 ready in 1:58"
+    },
+    {
+      "t": 1794216732.3271327,
+      "level": "info",
+      "msg": "Rendering clip 28/39: President Bush Scapegoated Rogue CIA Officers"
+    },
+    {
+      "t": 1794216868.3255756,
+      "level": "ok",
+      "msg": "Clip 28 ready in 2:15"
+    },
+    {
+      "t": 1794216868.4218793,
+      "level": "info",
+      "msg": "Rendering clip 29/39: Defense Lawyer Screams At Kiriakou To Take Plea"
+    },
+    {
+      "t": 1794216958.9521003,
+      "level": "ok",
+      "msg": "Clip 29 ready in 1:30"
+    },
+    {
+      "t": 1794216958.9871948,
+      "level": "info",
+      "msg": "Rendering clip 30/39: Foreign Governments Buying AI For Social Propaganda"
+    },
+    {
+      "t": 1794217070.4392862,
+      "level": "ok",
+      "msg": "Clip 30 ready in 1:51"
+    },
+    {
+      "t": 1794217070.4879835,
+      "level": "info",
+      "msg": "Rendering clip 31/39: CIA Staff Fainted And Quit Over Blacksite Torture"
+    },
+    {
+      "t": 1794217160.8501987,
+      "level": "ok",
+      "msg": "Clip 31 ready in 1:30"
+    },
+    {
+      "t": 1794217160.8927815,
+      "level": "info",
+      "msg": "Rendering clip 32/39: John Kiriakou Meets Masked CIA Boss On Plane"
+    },
+    {
+      "t": 1794217226.352705,
+      "level": "ok",
+      "msg": "Clip 32 ready in 1:05"
+    },
+    {
+      "t": 1794217226.3898687,
+      "level": "info",
+      "msg": "Rendering clip 33/39: John Kiriakou Calls Out President Bush Lying"
+    },
+    {
+      "t": 1794217276.1035461,
+      "level": "ok",
+      "msg": "Clip 33 ready in 0:49"
+    },
+    {
+      "t": 1794217276.1450274,
+      "level": "info",
+      "msg": "Rendering clip 34/39: Rapport Interrogation Foils Dusseldorf Terror Cell"
+    },
+    {
+      "t": 1794217358.2576945,
+      "level": "ok",
+      "msg": "Clip 34 ready in 1:22"
+    },
+    {
+      "t": 1794217358.298506,
+      "level": "info",
+      "msg": "Rendering clip 35/39: FBI Uses Kiriakou For Counterespionage Operation"
+    },
+    {
+      "t": 1794217447.2490282,
+      "level": "ok",
+      "msg": "Clip 35 ready in 1:28"
+    },
+    {
+      "t": 1794217447.2869782,
+      "level": "info",
+      "msg": "Rendering clip 36/39: Japanese Diplomat Tries Bribing CIA Whistleblower Kiriakou"
+    },
+    {
+      "t": 1794217502.0078607,
+      "level": "ok",
+      "msg": "Clip 36 ready in 0:54"
+    },
+    {
+      "t": 1794217502.0320818,
+      "level": "info",
+      "msg": "Rendering clip 37/39: The Unelected Deep State Outwaits US Presidents"
+    },
+    {
+      "t": 1794217560.1753547,
+      "level": "ok",
+      "msg": "Clip 37 ready in 0:58"
+    },
+    {
+      "t": 1794217560.207615,
+      "level": "info",
+      "msg": "Rendering clip 38/39: John Kiriakou Passed Over After Capturing Zubaydah"
+    },
+    {
+      "t": 1794217632.9865541,
+      "level": "ok",
+      "msg": "Clip 38 ready in 1:12"
+    },
+    {
+      "t": 1794217633.016027,
+      "level": "info",
+      "msg": "Rendering clip 39/39: Greece's Secret Deal With Terrorist Groups Exposed"
+    },
+    {
+      "t": 1794217701.0727708,
+      "level": "ok",
+      "msg": "Clip 39 ready in 1:08"
+    },
+    {
+      "t": 1794217701.099257,
+      "level": "ok",
+      "msg": "All done in 61:03"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "PowerfulJRE",
+  "duration": 9065,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 90.66,
+      "value": 0.8961422762820791
+    },
+    {
+      "start_time": 90.66,
+      "end_time": 181.32,
+      "value": 0.16373424845577858
+    },
+    {
+      "start_time": 181.32,
+      "end_time": 271.98,
+      "value": 0.0653998035727281
+    },
+    {
+      "start_time": 271.98,
+      "end_time": 362.64,
+      "value": 0.08615553768170889
+    },
+    {
+      "start_time": 362.64,
+      "end_time": 453.3,
+      "value": 0.4825537696454378
+    },
+    {
+      "start_time": 453.3,
+      "end_time": 543.96,
+      "value": 0.06378694189730565
+    },
+    {
+      "start_time": 543.96,
+      "end_time": 634.62,
+      "value": 0.08403173611055093
+    },
+    {
+      "start_time": 634.62,
+      "end_time": 725.28,
+      "value": 0.08235866079379829
+    },
+    {
+      "start_time": 725.28,
+      "end_time": 815.94,
+      "value": 0.07061202196314685
+    },
+    {
+      "start_time": 815.94,
+      "end_time": 906.6,
+      "value": 0.28275106429909613
+    },
+    {
+      "start_time": 906.6,
+      "end_time": 997.26,
+      "value": 0.05642106665577235
+    },
+    {
+      "start_time": 997.26,
+      "end_time": 1087.92,
+      "value": 0.5130851216359791
+    },
+    {
+      "start_time": 1087.92,
+      "end_time": 1178.58,
+      "value": 0.4911312731108447
+    },
+    {
+      "start_time": 1178.58,
+      "end_time": 1269.24,
+      "value": 0.3553104623847326
+    },
+    {
+      "start_time": 1269.24,
+      "end_time": 1359.9,
+      "value": 0.07052373984827238
+    },
+    {
+      "start_time": 1359.9,
+      "end_time": 1450.56,
+      "value": 0.13323748764956805
+    },
+    {
+      "start_time": 1450.56,
+      "end_time": 1541.22,
+      "value": 0.11066738173618428
+    },
+    {
+      "start_time": 1541.22,
+      "end_time": 1631.88,
+      "value": 0.29779614776680857
+    },
+    {
+      "start_time": 1631.88,
+      "end_time": 1722.54,
+      "value": 0.0829485324291052
+    },
+    {
+      "start_time": 1722.54,
+      "end_time": 1813.2,
+      "value": 0.3874064669728351
+    },
+    {
+      "start_time": 1813.2,
+      "end_time": 1903.86,
+      "value": 0.06881855405900399
+    },
+    {
+      "start_time": 1903.86,
+      "end_time": 1994.52,
+      "value": 0.15629329264965958
+    },
+    {
+      "start_time": 1994.52,
+      "end_time": 2085.18,
+      "value": 0.11536217221535111
+    },
+    {
+      "start_time": 2085.18,
+      "end_time": 2175.84,
+      "value": 0.5132072489868764
+    },
+    {
+      "start_time": 2175.84,
+      "end_time": 2266.5,
+      "value": 0.12232367408338783
+    },
+    {
+      "start_time": 2266.5,
+      "end_time": 2357.16,
+      "value": 0.2103377679960246
+    },
+    {
+      "start_time": 2357.16,
+      "end_time": 2447.82,
+      "value": 0.1478717791188078
+    },
+    {
+      "start_time": 2447.82,
+      "end_time": 2538.48,
+      "value": 0.12749569800334792
+    },
+    {
+      "start_time": 2538.48,
+      "end_time": 2629.14,
+      "value": 0.8322145062832701
+    },
+    {
+      "start_time": 2629.14,
+      "end_time": 2719.8,
+      "value": 0.2509601005260757
+    },
+    {
+      "start_time": 2719.8,
+      "end_time": 2810.46,
+      "value": 0.04117983347831619
+    },
+    {
+      "start_time": 2810.46,
+      "end_time": 2901.12,
+      "value": 0.12467483375978157
+    },
+    {
+      "start_time": 2901.12,
+      "end_time": 2991.78,
+      "value": 0.06227278826543512
+    },
+    {
+      "start_time": 2991.78,
+      "end_time": 3082.44,
+      "value": 0.05247878189069966
+    },
+    {
+      "start_time": 3082.44,
+      "end_time": 3173.1,
+      "value": 0.13644228975251776
+    },
+    {
+      "start_time": 3173.1,
+      "end_time": 3263.76,
+      "value": 0.15330911776953823
+    },
+    {
+      "start_time": 3263.76,
+      "end_time": 3354.42,
+      "value": 0.30152699955564033
+    },
+    {
+      "start_time": 3354.42,
+      "end_time": 3445.08,
+      "value": 0.0930863168880355
+    },
+    {
+      "start_time": 3445.08,
+      "end_time": 3535.74,
+      "value": 0.07361841916379368
+    },
+    {
+      "start_time": 3535.74,
+      "end_time": 3626.4,
+      "value": 0.36787819947854744
+    },
+    {
+      "start_time": 3626.4,
+      "end_time": 3717.06,
+      "value": 0.09001850905923861
+    },
+    {
+      "start_time": 3717.06,
+      "end_time": 3807.72,
+      "value": 0.22736613719082285
+    },
+    {
+      "start_time": 3807.72,
+      "end_time": 3898.38,
+      "value": 0.15017134692850145
+    },
+    {
+      "start_time": 3898.38,
+      "end_time": 3989.04,
+      "value": 0.0792382722831023
+    },
+    {
+      "start_time": 3989.04,
+      "end_time": 4079.7,
+      "value": 0.15328333918382325
+    },
+    {
+      "start_time": 4079.7,
+      "end_time": 4170.36,
+      "value": 0.2084750830279499
+    },
+    {
+      "start_time": 4170.36,
+      "end_time": 4261.02,
+      "value": 0.16283543278749868
+    },
+    {
+      "start_time": 4261.02,
+      "end_time": 4351.68,
+      "value": 0.3355000876489262
+    },
+    {
+      "start_time": 4351.68,
+      "end_time": 4442.34,
+      "value": 0.38084524443641826
+    },
+    {
+      "start_time": 4442.34,
+      "end_time": 4533.0,
+      "value": 0.41123951541463144
+    },
+    {
+      "start_time": 4533.0,
+      "end_time": 4623.66,
+      "value": 0.2822038504984279
+    },
+    {
+      "start_time": 4623.66,
+      "end_time": 4714.32,
+      "value": 0.18439021631546812
+    },
+    {
+      "start_time": 4714.32,
+      "end_time": 4804.98,
+      "value": 0.21481377010168057
+    },
+    {
+      "start_time": 4804.98,
+      "end_time": 4895.64,
+      "value": 0.14153059398562695
+    },
+    {
+      "start_time": 4895.64,
+      "end_time": 4986.3,
+      "value": 0.4286974120537787
+    },
+    {
+      "start_time": 4986.3,
+      "end_time": 5076.96,
+      "value": 0.5889214185959188
+    },
+    {
+      "start_time": 5076.96,
+      "end_time": 5167.62,
+      "value": 0.08958716011320719
+    },
+    {
+      "start_time": 5167.62,
+      "end_time": 5258.28,
+      "value": 0.20766349126880515
+    },
+    {
+      "start_time": 5258.28,
+      "end_time": 5348.94,
+      "value": 0.11489239825763822
+    },
+    {
+      "start_time": 5348.94,
+      "end_time": 5439.6,
+      "value": 0.3118584530124992
+    },
+    {
+      "start_time": 5439.6,
+      "end_time": 5530.26,
+      "value": 0.22568900252746368
+    },
+    {
+      "start_time": 5530.26,
+      "end_time": 5620.92,
+      "value": 0.10577588642295148
+    },
+    {
+      "start_time": 5620.92,
+      "end_time": 5711.58,
+      "value": 0.18765243909050167
+    },
+    {
+      "start_time": 5711.58,
+      "end_time": 5802.24,
+      "value": 0.04461124773819365
+    },
+    {
+      "start_time": 5802.24,
+      "end_time": 5892.9,
+      "value": 0.17732091624310248
+    },
+    {
+      "start_time": 5892.9,
+      "end_time": 5983.56,
+      "value": 0.0700622927553934
+    },
+    {
+      "start_time": 5983.56,
+      "end_time": 6074.22,
+      "value": 0.13359509179891418
+    },
+    {
+      "start_time": 6074.22,
+      "end_time": 6164.88,
+      "value": 0.024886934619972732
+    },
+    {
+      "start_time": 6164.88,
+      "end_time": 6255.54,
+      "value": 0.15989625767275056
+    },
+    {
+      "start_time": 6255.54,
+      "end_time": 6346.2,
+      "value": 0.3640628300116515
+    },
+    {
+      "start_time": 6346.2,
+      "end_time": 6436.86,
+      "value": 0.20117068780510694
+    },
+    {
+      "start_time": 6436.86,
+      "end_time": 6527.52,
+      "value": 0.12487169472256318
+    },
+    {
+      "start_time": 6527.52,
+      "end_time": 6618.18,
+      "value": 0.3671257978502637
+    },
+    {
+      "start_time": 6618.18,
+      "end_time": 6708.84,
+      "value": 0.12160024300567207
+    },
+    {
+      "start_time": 6708.84,
+      "end_time": 6799.5,
+      "value": 0.19068438935760754
+    },
+    {
+      "start_time": 6799.5,
+      "end_time": 6890.16,
+      "value": 0.06975308850789434
+    },
+    {
+      "start_time": 6890.16,
+      "end_time": 6980.82,
+      "value": 0.19004457388093224
+    },
+    {
+      "start_time": 6980.82,
+      "end_time": 7071.48,
+      "value": 0.11739441296860624
+    },
+    {
+      "start_time": 7071.48,
+      "end_time": 7162.14,
+      "value": 0.12014505398540665
+    },
+    {
+      "start_time": 7162.14,
+      "end_time": 7252.8,
+      "value": 0.19227811659154706
+    },
+    {
+      "start_time": 7252.8,
+      "end_time": 7343.46,
+      "value": 1.0
+    },
+    {
+      "start_time": 7343.46,
+      "end_time": 7434.12,
+      "value": 0.05332893744260643
+    },
+    {
+      "start_time": 7434.12,
+      "end_time": 7524.78,
+      "value": 0.06253090372765115
+    },
+    {
+      "start_time": 7524.78,
+      "end_time": 7615.44,
+      "value": 0.06990723959313204
+    },
+    {
+      "start_time": 7615.44,
+      "end_time": 7706.1,
+      "value": 0.2183734701229054
+    },
+    {
+      "start_time": 7706.1,
+      "end_time": 7796.76,
+      "value": 0.0
+    },
+    {
+      "start_time": 7796.76,
+      "end_time": 7887.42,
+      "value": 0.08010241002887601
+    },
+    {
+      "start_time": 7887.42,
+      "end_time": 7978.08,
+      "value": 0.10887335870771915
+    },
+    {
+      "start_time": 7978.08,
+      "end_time": 8068.74,
+      "value": 0.26818422043501106
+    },
+    {
+      "start_time": 8068.74,
+      "end_time": 8159.4,
+      "value": 0.20229738200767478
+    },
+    {
+      "start_time": 8159.4,
+      "end_time": 8250.06,
+      "value": 0.061796959983082586
+    },
+    {
+      "start_time": 8250.06,
+      "end_time": 8340.72,
+      "value": 0.04992555696100312
+    },
+    {
+      "start_time": 8340.72,
+      "end_time": 8431.38,
+      "value": 0.027810861163493742
+    },
+    {
+      "start_time": 8431.38,
+      "end_time": 8522.04,
+      "value": 0.18058202876949148
+    },
+    {
+      "start_time": 8522.04,
+      "end_time": 8612.7,
+      "value": 0.12526007357652463
+    },
+    {
+      "start_time": 8612.7,
+      "end_time": 8703.36,
+      "value": 0.09307686242692201
+    },
+    {
+      "start_time": 8703.36,
+      "end_time": 8794.02,
+      "value": 0.009737522474945462
+    },
+    {
+      "start_time": 8794.02,
+      "end_time": 8884.68,
+      "value": 0.07593566421362433
+    },
+    {
+      "start_time": 8884.68,
+      "end_time": 8975.34,
+      "value": 0.1055373564407302
+    },
+    {
+      "start_time": 8975.34,
+      "end_time": 9066.0,
+      "value": 0.059179826365785816
+    }
+  ],
+  "video_description": "John Kiriakou is a former CIA counter-terrorism officer and the first U.S. official to confirm the agency's torture of detainees. Punished for being a whistleblower, he served nearly 2 years in a federal prison. \nhttps://www.johnkiriakou.com\n\n\nBuy 1 Get 1 Free Trucker Hat with code ROGAN at https://happydad.com",
+  "brief": "Summary: Former CIA counter-terrorism officer John Kiriakou talks with host Joe Rogan about replacing Mike Baker in Athens, tracking down al-Qaeda operative Abu Zubaydah in Pakistan after 9/11, and refusing to participate in the CIA's enhanced interrogation techniques (torture program).\nPeople: Joe Rogan; John Kiriakou; Mike Baker; Andreas Papandreou; Abu Nidal; Osama bin Laden; Ayman al-Zawahiri; Abu Zubaydah; Khalid Sheikh Mohammed\nContext: John Kiriakou, a former CIA counter-terrorism officer and whistleblower, is interviewed by host Joe Rogan on 'The Joe Rogan Experience' podcast (Episode #2392).\nUnclear: The identities of the masked boss on the transport plane, the senior official who offered Kiriakou enhanced interrogation training in the cafeteria, and the executive floor officer who advised him against entering the program are not explicitly named in the text.",
+  "render_index": 39,
+  "render_total": 39
+}

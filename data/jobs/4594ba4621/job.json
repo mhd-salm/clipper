@@ -1,0 +1,401 @@
+{
+  "id": "4594ba4621",
+  "created": 1794123071.8179123,
+  "url": "https://www.youtube.com/watch?v=TTzta6J30eo",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 82,
+        "shareability": 88,
+        "overall": 84,
+        "hook_text": "Why I finally said yes to Marvel",
+        "tip": "Cut the dead air right after the joke about cousin Tony to keep the punchline hitting harder.",
+        "caption": "Adam Driver finally joined Marvel because of X-Men.",
+        "description": "Adam Driver reveals how childhood memories led him to finally say yes to a Marvel role after turning down multiple offers. Find out why this specific project changed his mind. Would you play X-Men if you had the chance?",
+        "hashtags": [
+          "adamdriver",
+          "xmen",
+          "marvel",
+          "moviestories",
+          "interview"
+        ]
+      },
+      "id": "c1",
+      "title": "Adam Driver Explains Why He Finally Joined the X-Men",
+      "reason": "Adam Driver shares how growing up playing X-Men with his cousin led him to finally say yes to Marvel after turning down many roles.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 265.46,
+        "end": 294.47,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why I finally said yes to Marvel",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 75,
+        "value": 85,
+        "shareability": 80,
+        "overall": 79,
+        "hook_text": "My uncle fought attack dogs with kibble",
+        "tip": "Trim the repetitive filler words at the beginning to jump straight into the uncle's dog story.",
+        "caption": "Adam Driver's uncle used dog food as a weapon.",
+        "description": "Adam Driver shares a wild childhood story about his uncle fighting off aggressive dogs using bags of dog food for self-defense. Listen to this unbelievable delivery route tale and let us know your wildest family story in the comments.",
+        "hashtags": [
+          "adamdriver",
+          "funny",
+          "stories",
+          "talkshow",
+          "wild"
+        ]
+      },
+      "id": "c2",
+      "title": "Adam Driver's Uncle Fought Off Dogs With Dog Food",
+      "reason": "Adam Driver tells an absurd and hilarious childhood story about his uncle defending himself against attack dogs using dog food.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 371.06,
+        "end": 421.84,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 20
+        },
+        "caption": {},
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "My uncle fought attack dogs with kibble",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 3,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 20
+    },
+    "caption": {},
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794123071.8242817,
+  "finished": 1794123393.9348505,
+  "log": [
+    {
+      "t": 1794123071.8408177,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=TTzta6J30eo"
+    },
+    {
+      "t": 1794123082.2627804,
+      "level": "ok",
+      "msg": "Downloaded \"Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller\" (7:32) in 0:10"
+    },
+    {
+      "t": 1794123082.2705386,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794123085.708218,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794123085.7396145,
+      "level": "ok",
+      "msg": "Transcribed 252 segments / 1535 words in 0:03"
+    },
+    {
+      "t": 1794123085.7513015,
+      "level": "info",
+      "msg": "Asking the AI for the 3 best moments (20-60s each)"
+    },
+    {
+      "t": 1794123085.7590902,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794123087.2002223,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794123087.8053725,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794123087.8143275,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794123089.40513,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794123089.4169037,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Adam Driver discusses his new thriller film Paper Tiger, his relationship with his neighbor Matt Damon and co-star Miles Teller, and his role as Mister Sinister in the upcoming X-Men movie. | People: Adam Driver; Jimmy Kimmel; Matt Damon; Miles Teller; James Gray; Bill Murray; Kevin Feige; "
+    },
+    {
+      "t": 1794123090.5821965,
+      "level": "info",
+      "msg": "Audio analysis: 5 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794123090.5890894,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794123092.022656,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794123092.4163177,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794123092.4197283,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794123094.0927398,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794123094.103371,
+      "level": "ok",
+      "msg": "AI picked 2 clips in 0:08"
+    },
+    {
+      "t": 1794123094.1116443,
+      "level": "info",
+      "msg": "  \u2022 Adam Driver Explains Why He Finally Joined the X-Men  [4:25-4:54, score 95]"
+    },
+    {
+      "t": 1794123094.119473,
+      "level": "info",
+      "msg": "  \u2022 Adam Driver's Uncle Fought Off Dogs With Dog Food  [6:11-7:01, score 92]"
+    },
+    {
+      "t": 1794123094.1272657,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794123094.1325538,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794123095.5908756,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794123096.1779225,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794123096.181521,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794123098.405746,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794123098.4118388,
+      "level": "ok",
+      "msg": "Rated 2 clips in 0:04"
+    },
+    {
+      "t": 1794123098.4181647,
+      "level": "info",
+      "msg": "  - Adam Driver Explains Why He Finally Joined the X-Men: 84/100 (hook 85, retention 80, value 82, share 88)"
+    },
+    {
+      "t": 1794123098.4230998,
+      "level": "info",
+      "msg": "  - Adam Driver's Uncle Fought Off Dogs With Dog Food: 79/100 (hook 78, retention 75, value 85, share 80)"
+    },
+    {
+      "t": 1794123098.431089,
+      "level": "ok",
+      "msg": "2 distinct clips found, 2 rated 50+"
+    },
+    {
+      "t": 1794123238.7468781,
+      "level": "info",
+      "msg": "Rendering clip 1/2: Adam Driver Explains Why He Finally Joined the X-Men"
+    },
+    {
+      "t": 1794123295.435392,
+      "level": "ok",
+      "msg": "Clip 1 ready in 0:56"
+    },
+    {
+      "t": 1794123295.4473035,
+      "level": "info",
+      "msg": "Rendering clip 2/2: Adam Driver's Uncle Fought Off Dogs With Dog Food"
+    },
+    {
+      "t": 1794123393.9290664,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:38"
+    },
+    {
+      "t": 1794123393.9445236,
+      "level": "ok",
+      "msg": "All done in 2:35"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 452,
+  "heatmap": [],
+  "video_description": "Adam talks about being neighbors with Matt Damon, working with Miles Teller on his new movie Paper Tiger, playing Mister Sinister in the upcoming X-Men movie, getting asked to be in Marvel movies before this, and his uncle being a dog food delivery driver.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 18 billion views and more than 22 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Adam Driver discusses his new thriller film Paper Tiger, his relationship with his neighbor Matt Damon and co-star Miles Teller, and his role as Mister Sinister in the upcoming X-Men movie.\nPeople: Adam Driver; Jimmy Kimmel; Matt Damon; Miles Teller; James Gray; Bill Murray; Kevin Feige; Jake Schreier; Carrie Fisher\nContext: An interview on Jimmy Kimmel Live promoting the upcoming release of the movie Paper Tiger and discussing Adam Driver's casting in the X-Men film.\nUnclear: ",
+  "render_index": 2,
+  "render_total": 2
+}

@@ -91,12 +91,11 @@ const layoutName = (id) => (layouts.find(l => l.id === id) || {}).name || id;
 /* ===================== routing ===================== */
 const PAGES = {
   home: ['Home', 'Find creators, follow them and pick their videos'],
-  create: ['Create clips', 'Turn any video into short, shareable clips'],
-  auto: ['Full auto', 'Give it videos and it clips, rates and uploads them by itself'],
   projects: ['Projects', 'Everything you have generated'],
+  edits: ['Edits', 'Saved looks for your clips, one per creator'],
+  explainers: ['Explainers', 'Animated 2D explainer videos with a free voice'],
   renders: ['Rendering', 'Every clip being made, across all projects'],
   uploads: ['Upload queue', 'Everything waiting to go to YouTube, across all projects'],
-  creators: ['Creators', 'Auto-clip new uploads from channels you follow'],
 };
 function route() {
   const [name = 'home', id] = (location.hash.replace(/^#\/?/, '') || 'home').split('/');
@@ -106,7 +105,8 @@ function route() {
   $$('.nav a').forEach(a => a.setAttribute('aria-current', a.dataset.route === page ? 'page' : 'false'));
   $('#pgTitle').textContent = PAGES[page][0]; $('#pgSub').textContent = PAGES[page][1];
   document.title = PAGES[page][0] + ' · Spark Clipper'; $('#pgActions').innerHTML = '';
-  clearInterval(poll); clearInterval(upTimer); clearInterval(renTimer);
+  clearInterval(poll); clearInterval(upTimer); clearInterval(renTimer); clearInterval(xTimer);
+  if (page === 'explainers') loadExplainers();
   if (page === 'create' && step >= 3 && step < 4) {
     // coming back to Create: resume live updates for the job being generated (another page may have taken over the poller)
     const cj = sessionStorage.getItem('spark.createJob');
@@ -116,8 +116,8 @@ function route() {
   if (page === 'renders') { renSig = ''; drawRenders(); renTimer = setInterval(drawRenders, 2000); }
   if (page === 'uploads') { $('#pgActions').innerHTML = '<button class="s sm danger" id="stopAllTop">Stop all uploads</button>'; $('#stopAllTop').onclick = stopAllUploads; upSig = ''; drawUploads(); upTimer = setInterval(drawUploads, 2000); }
   if (page === 'projects') { id ? showProject(id) : showProjectList(); }
-  if (page === 'creators') loadCreators();
   if (page === 'home') loadHome();
+  if (page === 'edits') loadEdits();
   window.scrollTo(0, 0);
 }
 window.addEventListener('hashchange', route);
@@ -221,7 +221,7 @@ $('#autoGo').onclick = async (e) => {
   } catch (err) { toast(err.message, { type: 'bad' }); }
   btn.classList.remove('busy'); btn.disabled = false;
 };
-const dismissed = () => { try { return JSON.parse(localStorage.getItem('spark.dismissed') || '[]'); } catch { return []; } };
+const dismissed = () => { try { return JSON.parse(sessionStorage.getItem('spark.dismissed') || '[]'); } catch { return []; } };
 async function stopAllUploads() {
   if (!await ask({ title: 'Stop all uploads?', text: 'Everything waiting is dropped and the running upload is cancelled, on every channel. Full auto stays paused until you press Resume. Clips stay in their projects.', ok: 'Stop all', danger: true })) return;
   try { const r = await send('/api/uploads/stop-all', {}); toast(`Stopped ${r.stopped} upload${r.stopped === 1 ? '' : 's'}`, { type: 'ok' }); } catch (e) { toast(e.message, { type: 'bad' }); }
@@ -239,7 +239,7 @@ async function drawAuto() {
   box.querySelectorAll('button[data-acc]').forEach(r => r.onclick = () => busy(r, async () => { await send('/api/auto/resume?account=' + encodeURIComponent(r.dataset.acc), {}); toast('Uploads resumed', { type: 'ok' }); drawAuto(); }));
   box.querySelectorAll('button[data-retry]').forEach(r => r.onclick = () => busy(r, async () => { try { await send('/api/uploads/continue', { account: r.dataset.retry, retry: true }); toast('Trying again', { type: 'ok', ms: 2500 }); } catch (e) { toast(e.message, { type: 'bad' }); } drawAuto(); }));
   box.querySelectorAll('button[data-stopall]').forEach(r => r.onclick = stopAllUploads);
-  box.querySelectorAll('button[data-dis]').forEach(r => r.onclick = () => { try { localStorage.setItem('spark.dismissed', JSON.stringify(dismissed().concat(r.dataset.dis).slice(-50))); } catch { } drawAuto(); });
+  box.querySelectorAll('button[data-dis]').forEach(r => r.onclick = () => { try { sessionStorage.setItem('spark.dismissed', JSON.stringify(dismissed().concat(r.dataset.dis).slice(-50))); } catch { } drawAuto(); });
 }
 setInterval(drawAuto, 6000); setTimeout(drawAuto, 500);
 
@@ -255,7 +255,23 @@ function fillAcct(sel, val) { sel.innerHTML = acctOpts(val || S.account); sel.on
 function manageChannels() {
   const draw = (h) => {
     h.querySelector('.chlist').innerHTML = accts.map(a => `<div class="chrow" data-id="${esc(a.id)}"><div><b>${esc(a.name)}</b><small class="mut">${esc(a.handle || 'channel not set')}${a.pinned ? ' · pinned to this channel' : ''}${a.open ? ' · window open' : ''}</small></div>
-      <button class="s sm" data-in>Sign in</button>${a.id === 'default' ? '' : '<button class="s sm danger" data-del>Remove</button>'}</div>`).join('');
+      <button class="s sm" data-ren>Rename</button><button class="s sm" data-in>Sign in</button>${a.id === 'default' ? '' : '<button class="s sm danger" data-del>Remove</button>'}</div>`).join('');
+    h.querySelectorAll('[data-ren]').forEach(b => b.onclick = () => {
+      const row = b.closest('.chrow'), a = accts.find(x => x.id === row.dataset.id), box = row.firstElementChild;
+      box.innerHTML = `<input maxlength="40" value="${esc(a.name)}" aria-label="Channel display name" style="width:100%"><small class="mut">Press Enter to save, Esc to cancel</small>`;
+      const inp = box.querySelector('input'); inp.focus(); inp.select();
+      let done = false;
+      const finish = async (save) => {
+        if (done) return; done = true;
+        const name = inp.value.trim();
+        if (save && name && name !== a.name) {
+          try { await send('/api/accounts/' + a.id, { name, handle: '' }, 'PUT'); await loadAccts(); toast('Renamed to ' + name, { type: 'ok', ms: 2000 }); } catch (e) { toast(e.message, { type: 'bad' }); }
+        }
+        draw(h);
+      };
+      inp.onkeydown = (e) => { if (e.key === 'Enter') finish(true); if (e.key === 'Escape') finish(false); };
+      inp.onblur = () => finish(true);
+    });
     h.querySelectorAll('[data-in]').forEach(b => b.onclick = () => busy(b, async () => { try { await send(`/api/accounts/${b.closest('.chrow').dataset.id}/signin`, {}); toast('A Chrome window opened. Sign in to the right Google account / channel there, then keep it signed in.', { type: 'ok', ms: 7000 }); } catch (e) { toast(e.message, { type: 'bad' }); } }));
     h.querySelectorAll('[data-del]').forEach(b => b.onclick = async () => { if (await ask({ title: 'Remove this channel?', text: 'Uploads already made stay on YouTube. Its sign-in window profile stays on disk.', ok: 'Remove', danger: true })) { await api('/api/accounts/' + b.closest('.chrow').dataset.id, { method: 'DELETE' }); await loadAccts(); draw(h); } });
   };
@@ -783,7 +799,7 @@ async function showProjectList(fromTimer) {
   let js = []; try { js = await api('/api/jobs'); } catch { toast('Couldn\'t load projects.', { type: 'bad' }); }
   const q = $('#pq').value.trim().toLowerCase();
   const vis = js.filter(j => (pFilter === 'all' || (pFilter === 'running' ? running(j) : pFilter === 'done' ? j.status === 'done' : j.status === 'error')) && (!q || (j.title || '').toLowerCase().includes(q)));
-  if (!js.length) { list.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><div class="big">${icon('film')}</div><h3>No projects yet</h3><p>Generate your first clips and they'll show up here.</p><a class="btn p" href="#/create">${icon('sparkles', 'sm')}Create clips</a></div>`; return; }
+  if (!js.length) { list.innerHTML = `<div class="empty-state" style="grid-column:1/-1"><div class="big">${icon('film')}</div><h3>No projects yet</h3><p>Generate your first clips and they'll show up here.</p><a class="btn p" href="#/home">${icon('sparkles', 'sm')}Find a creator</a></div>`; return; }
   if (!vis.length) { list.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><h3>No matches</h3><p>Try a different search or filter.</p></div>'; return; }
   const sig = JSON.stringify(vis.map(j => [j.id, j.status, j.stage, j.title, j.clips.map(c => [c.status, c.version, ((c.publish || {}).youtube || {}).status, ((c.publish || {}).youtube || {}).progress])]));
   if (fromTimer && sig === plSig) return;
@@ -815,59 +831,59 @@ $('#pback').onclick = () => { location.hash = '#/projects'; };
 let pqT; $('#pq').addEventListener('input', () => { clearTimeout(pqT); pqT = setTimeout(() => showProjectList(), 150); });
 $$('#pfilter button').forEach(b => b.onclick = () => { pFilter = b.dataset.v; $$('#pfilter button').forEach(x => x.classList.toggle('on', x === b)); showProjectList(); });
 
-/* ===================== creators ===================== */
-async function loadCreators() {
-  const box = $('#clist');
-  if (!box.children.length) box.innerHTML = '<div class="ccard"><span class="avatar skel"></span><div class="meta"><span class="skel" style="display:block;height:14px;width:40%;border-radius:6px"></span></div></div>';
-  await loadAccts(); $('#cManage').onclick = () => manageChannels().then(loadCreators);
-  let cs = []; try { cs = await api('/api/creators'); } catch { toast('Couldn\'t load creators.', { type: 'bad' }); }
-  if (!cs.length) { box.innerHTML = `<div class="empty-state"><div class="big">${icon('users')}</div><h3>You're not following anyone yet</h3><p>Follow a YouTube channel and every new video they post gets clipped automatically.</p></div>`; return; }
-  box.innerHTML = '';
-  cs.forEach(c => {
-    const d = document.createElement('div'); d.className = 'ccard';
-    d.innerHTML = `<span class="avatar">${esc((c.name || '?')[0].toUpperCase())}</span><div class="meta"><b>${esc(c.name)}</b><span class="mut">${c.options.auto ? 'Full auto → ' + esc((accts.find(a => a.id === (c.options.account || 'default')) || {}).name || 'Main channel') + ' (' + esc(c.options.auto_privacy || 'public') + ')' : 'Clips only, no upload'} · ${esc(layoutName(c.options.layout_id || 'fill'))}</span></div>
-      <div class="ctl"><select class="cacct" aria-label="Channel for ${esc(c.name)}">${acctOpts(c.options.account || 'default')}</select><select class="cmode" aria-label="What to do with new videos from ${esc(c.name)}"><option value="off" ${!c.enabled ? 'selected' : ''}>Off</option><option value="clips" ${c.enabled && !c.options.auto ? 'selected' : ''}>Clips only</option><option value="auto" ${c.enabled && c.options.auto ? 'selected' : ''}>Full auto: upload</option></select><button class="ghost icon danger" aria-label="Unfollow ${esc(c.name)}">${icon('trash')}</button></div>`;
-    const saveMode = async () => {
-      const m = d.querySelector('.cmode').value;
-      try {
-        await send(`/api/creators/${c.channel_id}/upload`, { auto: m === 'auto', account: d.querySelector('.cacct').value, auto_privacy: c.options.auto_privacy || 'public', hide_likes: c.options.hide_likes !== false }, 'PUT');
-        await api(`/api/creators/${c.channel_id}/enabled?enabled=${m !== 'off'}`, { method: 'POST' });
-        toast(`${c.name}: ${{ off: 'not watched', clips: 'clips only', auto: 'full auto upload' }[m]}`, { type: 'ok', ms: 2500 });
-      } catch (e) { toast(e.message, { type: 'bad' }); }
-      loadCreators();
-    };
-    d.querySelector('.cacct').onchange = saveMode; d.querySelector('.cmode').onchange = saveMode;
-    d.style.cursor = 'pointer'; d.title = 'Click to see this creator\'s videos';
-    d.onclick = (ev) => { if (!ev.target.closest('select, label, button, input, a')) openCreator(c); };
-    d.querySelector('button').onclick = async () => { if (await ask({ title: `Unfollow ${c.name}?`, text: 'Future uploads won\'t be clipped. Existing projects stay.', ok: 'Unfollow', danger: true })) { await api('/api/creators/' + c.channel_id, { method: 'DELETE' }); loadCreators(); } };
-    box.appendChild(d);
-  });
-}
+/* ===================== creator videos + settings ===================== */
 async function openCreator(c) {
+  await Promise.all([loadAccts(), loadPresets()]);
   const fmtViews = (n) => n == null ? '' : (n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '') + 'M' : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, '') + 'K' : String(n)) + ' views';
   const mode = c.options.auto ? 'Clip + upload' : 'Clip';
   const acct = (accts.find(a => a.id === (c.options.account || 'default')) || {}).name || 'Main channel';
+  const pillOf = (x) => !x.enabled ? ['idle', 'Not checking new videos'] : x.options.auto ? ['ok', 'Full auto → ' + ((accts.find(a => a.id === (x.options.account || 'default')) || {}).name || 'Main channel')] : ['idle', 'Clips only'];
   return dialog(`<div class="cdetail">
       <div class="cd-head"><span class="avatar">${esc((c.name || '?')[0].toUpperCase())}</span>
-        <div><h3>${esc(c.name)}</h3><span class="pill ${c.options.auto ? 'ok' : 'idle'}">${c.options.auto ? 'Full auto → ' + esc(acct) : 'Clips only'}</span></div>
+        <div><h3>${esc(c.name)}</h3><span class="pill ${pillOf(c)[0]}">${esc(pillOf(c)[1])}</span><small class="mut" style="display:block;margin-top:4px" data-edsum></small></div>
         <button class="ghost icon" data-c aria-label="Close">${icon('x')}</button></div>
+      <div class="cd-tabs" role="tablist"><button class="on" data-tab="videos" role="tab">Videos</button><button data-tab="settings" role="tab">Settings <i class="dirty" data-dirty hidden title="Unsaved changes"></i></button></div>
       <div class="cd-body">
-        <details class="cd-sec cd-set"><summary><h4 style="display:inline">Settings for ${esc(c.name)}</h4></summary><div class="sform" data-set></div>
-          <div class="acts"><button class="p sm" data-saveset>Save settings</button><button class="s sm danger" data-unfollow>Unfollow</button></div></details>
-        <div class="cd-sec"><h4>Already clipped</h4><div class="cl-clipped mut">Loading…</div></div>
-        <div class="cd-sec"><h4>Recent videos</h4><div class="cl-vids"></div>
-          <button class="s cd-more" data-more hidden>Show more</button><div class="mut cl-msg"></div></div>
+        <div data-pane="videos">
+          <div class="cd-sec"><div class="cl-head"><h4>Videos</h4><div class="seg" role="group" aria-label="Sort videos"><button class="on" data-sort="new" type="button">Newest</button><button data-sort="views" type="button">Most viewed</button></div></div>
+            <p class="mut cl-note" hidden>Ranked by views among this channel's latest 300 uploads.</p><div class="cl-vids"></div>
+            <button class="s cd-more" data-more hidden>Show more</button><div class="mut cl-msg"></div></div>
+          <div class="cd-sec"><h4>Already clipped</h4><div class="cl-clipped mut">Loading…</div></div>
+        </div>
+        <div data-pane="settings" hidden>
+          <div class="sform" data-set></div>
+          <div class="cd-save"><button class="p" data-saveset>Save settings</button><span class="mut" data-savemsg></span><button class="s sm danger" data-unfollow style="margin-left:auto">Unfollow</button></div>
+        </div>
       </div></div>`,
     (h, close) => {
       h.querySelector('.dlg').classList.add('wide');
-      h.querySelector('[data-c]').onclick = () => close(true);
-      const setBox = h.querySelector('[data-set]'); setBox.innerHTML = settingsForm({ ...c.options, enabled: c.enabled }); wireMode(setBox);
+      let dirty = false;
+      const setDirty = (d) => { dirty = d; h.querySelector('[data-dirty]').hidden = !d; h.querySelector('[data-savemsg]').textContent = d ? 'Unsaved changes' : ''; };
+      const tryClose = async () => { if (dirty && !await ask({ title: 'Discard your changes?', text: 'You changed settings but did not save them.', ok: 'Discard', danger: true })) return; close(true); };
+      h.querySelector('[data-c]').onclick = tryClose;
+      h.querySelectorAll('[data-tab]').forEach(t => t.onclick = () => {
+        h.querySelectorAll('[data-tab]').forEach(x => x.classList.toggle('on', x === t));
+        h.querySelectorAll('[data-pane]').forEach(p => { p.hidden = p.dataset.pane !== t.dataset.tab; });
+        if (t.dataset.tab === 'settings') pvShow();
+      });
+      const setBox = h.querySelector('[data-set]'); const sv = { ...c.options, enabled: c.enabled, preset: presetName(c.preset) ? c.preset : '', allowCustom: true };
+      setBox.innerHTML = settingsForm(sv); wireMode(setBox);
+      const pvShow = wirePresetPreview(setBox, { ...FOLLOW_DEFAULTS, ...sv }, () => close(true));
+      const edsum = () => { const x = presetName(c.preset); h.querySelector('[data-edsum]').textContent = 'Edit style: ' + (x || 'Custom look'); };
+      edsum();
+      setBox.addEventListener('input', () => setDirty(true)); setBox.addEventListener('change', () => setDirty(true));
       h.querySelector('[data-saveset]').onclick = (e) => busy(e.currentTarget, async () => {
-        try { const nc = await send(`/api/creators/${c.channel_id}/settings`, readSettings(setBox), 'PUT'); Object.assign(c, nc); h.querySelector('.cd-head .pill').textContent = !c.enabled ? 'Not checking new videos' : c.options.auto ? 'Clip + upload' : 'Clips only'; toast('Settings saved.', { type: 'ok', ms: 2500 }); } catch (err) { toast(err.message, { type: 'bad' }); }
+        const body = readSettings(setBox);
+        if (body.min_len >= body.max_len) { toast('Shortest clip must be shorter than the longest clip.', { type: 'bad' }); return; }
+        try {
+          const nc = await send(`/api/creators/${c.channel_id}/settings`, body, 'PUT'); Object.assign(c, nc); c.preset = nc.preset;
+          const [cls, txt] = pillOf(c); const pill = h.querySelector('.cd-head .pill'); pill.className = 'pill ' + cls; pill.textContent = txt; edsum();
+          setDirty(false); toast('Settings saved. They apply to new videos from now on.', { type: 'ok', ms: 3500 });
+        } catch (err) { toast(err.message, { type: 'bad' }); }
       });
       h.querySelector('[data-unfollow]').onclick = async () => { if (await ask({ title: `Unfollow ${c.name}?`, text: "Future uploads won't be clipped. Existing projects stay.", ok: 'Unfollow', danger: true })) { await api('/api/creators/' + c.channel_id, { method: 'DELETE' }); close(true); } };
       const vids = h.querySelector('.cl-vids'), more = h.querySelector('[data-more]'), msg = h.querySelector('.cl-msg');
-      let offset = 0; const PAGE = 5, shown = {};
+      let offset = 0, sortBy = 'new'; const PAGE = 5; let shown = {};
       api(`/api/creators/${c.channel_id}/detail`).then(d => {
         h.querySelector('.cl-clipped').innerHTML = d.clipped.length ? d.clipped.map(j => `<a class="cl-job" href="#/projects/${j.id}">
           <b>${esc(j.title || j.id)}</b><span class="mut">${esc(j.status)} · ${j.clips} clip${j.clips === 1 ? '' : 's'}${j.uploaded ? ' · ' + j.uploaded + ' uploaded' : ''} · ${fmtAgo(j.created)}</span></a>`).join('') : '<span class="mut">Nothing clipped from this creator yet.</span>';
@@ -880,7 +896,7 @@ async function openCreator(c) {
           <div class="cl-act">${v.job ? `<a class="s sm btn" href="#/projects/${v.job}">Clipped · View</a>` : `<button class="p sm">${mode}</button>`}</div>`;
         const b = r.querySelector('button');
         if (b) b.onclick = () => busy(b, async () => {
-          if (c.options.auto && !confirm(`Clip this video and upload the ${S.minScore}+ rated clips to ${acct}?`)) return;
+          if (c.options.auto && !await ask({ title: 'Clip and upload this video?', text: `Clips rated ${c.options.min_score ?? 50}+ will be uploaded to ${acct}, as ${c.options.auto_privacy || 'public'}.`, ok: 'Clip and upload' })) return;
           try { const res = await send(`/api/creators/${c.channel_id}/clip`, { video_id: v.id, title: v.title }); toast('Started. Follow it under Projects.', { type: 'ok', ms: 5000, action: { label: 'View', run: () => { location.hash = '#/projects/' + res.job; } } });
             b.outerHTML = `<a class="s sm btn" href="#/projects/${res.job}">Started · View</a>`; } catch (e) { toast(e.message, { type: 'bad' }); }
         });
@@ -889,84 +905,739 @@ async function openCreator(c) {
       const load = async () => {
         more.classList.add('busy'); more.disabled = true; msg.textContent = '';
         try {
-          const r = await api(`/api/creators/${c.channel_id}/videos?offset=${offset}&limit=${PAGE}`);
+          const mySort = sortBy; const r = await api(`/api/creators/${c.channel_id}/videos?offset=${offset}&limit=${PAGE}&sort=${sortBy}`); if (mySort !== sortBy) return;
           r.videos.forEach(v => { if (!shown[v.id]) { shown[v.id] = 1; vids.appendChild(row(v)); } });
           offset += PAGE; more.hidden = !r.has_more;
           if (!vids.children.length) msg.textContent = 'No videos found.';
         } catch (e) { msg.textContent = e.message; more.hidden = false; }
         more.classList.remove('busy'); more.disabled = false;
       };
-      more.onclick = load; more.hidden = false; load();
+      more.onclick = load; more.hidden = false;
+      h.querySelectorAll('[data-sort]').forEach(b => b.onclick = () => {
+        if (sortBy === b.dataset.sort) return;
+        sortBy = b.dataset.sort; offset = 0; shown = {}; vids.innerHTML = '';
+        h.querySelectorAll('[data-sort]').forEach(x => x.classList.toggle('on', x === b));
+        h.querySelector('.cl-note').hidden = sortBy !== 'views';
+        load();
+      });
+      load();
     });
 }
-$('#addc').onclick = (e) => {
-  const v = $('#curl').value.trim(), m = $('#curlMsg'); m.innerHTML = '';
-  if (!/youtube\.com\/(@|channel\/|c\/|user\/)/.test(v)) { m.innerHTML = '<div class="field-err">Paste a channel link like youtube.com/@channelname</div>'; return; }
-  busy(e.currentTarget, async () => {
-    try { const au = $('#cAuto').checked; const c = await send('/api/creators', { url: v, ...opts(), account: $('#cAcct').value || 'default', ...(au ? { num_clips: 0, auto: true, auto_privacy: $('#cPriv').value, hide_likes: S.hideLikes !== false } : {}) }); $('#curl').value = ''; toast(`Now following ${c.name}. ${c.options.auto ? 'New videos are clipped and uploaded automatically.' : 'New videos will be clipped automatically.'}`, { type: 'ok' }); loadCreators(); }
-    catch (err) { m.innerHTML = `<div class="field-err">${esc(err.message)}</div>`; }
-  });
-};
-$('#curl').addEventListener('keydown', (e) => { if (e.key === 'Enter') $('#addc').click(); });
-$('#checknow').onclick = (e) => busy(e.currentTarget, async () => {
-  try { const r = await api('/api/creators/check', { method: 'POST' }); r.queued.length ? toast(`Queued ${r.queued.length} new video${r.queued.length > 1 ? 's' : ''}`, { type: 'ok', action: { label: 'View', run: () => { location.hash = '#/projects'; } } }) : toast('No new videos yet.'); }
-  catch (err) { toast(err.message, { type: 'bad' }); }
-});
+/* ===================== edits: presets ===================== */
+let presetList = [];
+async function loadPresets() { try { presetList = await api('/api/presets'); } catch { /* keep the last list */ } return presetList; }
+const presetName = (id) => (presetList.find(p => p.id === id) || {}).name;
+const capName = (k) => (CAP[k] || [k])[0];
+const presetFacts = (s) => [layoutName(s.layout_id), s.subtitles ? capName(s.sub_style) + ' captions' : 'No captions', s.hook_text ? 'Hook text' : 'No hook text', s.resolution,
+  ...((s.look && s.look.filter && s.look.filter !== 'none') ? [((meta.filters || {})[s.look.filter] || s.look.filter) + ' filter'] : []), ...((s.pacing && s.pacing.speed > 100) ? ['Speed ' + s.pacing.speed + '%'] : []), ...((s.pacing && s.pacing.cut_pauses) ? ['Cuts pauses'] : []), ...((s.smart_framing === false) ? ['Fixed framing'] : []), ...((n) => n === 5 ? ['Retention edits'] : n > 0 ? ['Retention ' + n + '/5'] : [])(['trim_start', 'trim_end', 'hook_rules', 'hook_weight', 'punch'].filter(k => (s.retention || {})[k] !== false).length), ...((s.stock && s.stock.on) ? [s.stock.every_max <= 4.5 ? 'Fast-cut stock footage' : 'Stock cutaways'] : []), ...((s.music && s.music.track) ? ['Music'] : []), ...((s.motion && s.motion.zoom) ? ['Slow zoom ' + s.motion.zoom + '%'] : []), ...((s.motion && s.motion.shake) ? ['Shake ' + s.motion.shake + '%'] : [])];
+const layoutById = (id) => layouts.find(l => l.id === id);
 
-/* ===================== home: search, follow, settings ===================== */
+async function loadEdits() {
+  const grid = $('#edlist');
+  await loadPresets();
+  $('#pgActions').innerHTML = `<button class="p sm" id="newPreset" type="button">${icon('sparkles', 'sm')}New preset</button>`;
+  $('#newPreset').onclick = () => presetEditor(null).then(r => r && loadEdits());
+  grid.innerHTML = '';
+  let rep = {}; try { (await api('/api/styles/report')).forEach(r => { rep[r.preset] = r; }); } catch { /* report is optional */ }
+  presetList.forEach(p => {
+    const d = document.createElement('div'); d.className = 'edcard';
+    const rp = rep[p.id], repTxt = rp ? `${rp.clips} clip${rp.clips === 1 ? '' : 's'} made` + (rp.rated ? ` · avg ${rp.avg_watched_pct}% stayed (${rp.rated} rated)` : ' · no results entered yet') : '';
+    const lay = layoutById(p.settings.layout_id);
+    d.innerHTML = `<div class="edth"></div><div class="edbody"><b>${esc(p.name)}</b>${p.builtin ? '<span class="pill idle">Ready-made' + (p.modified ? ' (changed)' : '') + '</span>' : ''}
+      <p class="mut">${esc(p.description || '')}</p>
+      <div class="edfacts">${presetFacts(p.settings).map(f => `<span>${esc(f)}</span>`).join('')}</div>
+      <small class="mut">${p.used_by ? `Used by ${p.used_by} creator${p.used_by === 1 ? '' : 's'}` : 'Not used by anyone yet'}</small>${repTxt ? `<small class="mut">${esc(repTxt)}</small>` : ''}
+      <div class="acts"><button class="s sm" data-dup>Duplicate</button><button class="p sm" data-edit>Edit</button>${p.modified ? '<button class="s sm" data-reset>Reset</button>' : ''}${p.builtin ? '' : '<button class="s sm danger" data-del>Delete</button>'}</div></div>`;
+    if (lay) $('.edth', d).appendChild(LE.thumb(lay, 64));
+    $('[data-dup]', d).onclick = async () => {
+      try { await send('/api/presets', { name: (p.name + ' copy').slice(0, 40), description: p.description, settings: p.settings }); toast('Duplicated. Edit your copy to change it.', { type: 'ok' }); loadEdits(); } catch (e) { toast(e.message, { type: 'bad' }); }
+    };
+    const eb = $('[data-edit]', d); if (eb) eb.onclick = () => presetEditor(p).then(r => r && loadEdits());
+    const rb = $('[data-reset]', d); if (rb) rb.onclick = async () => {
+      if (!await ask({ title: `Reset "${p.name}"?`, text: 'Goes back to the original ready-made look. Creators using it get that look on new videos.', ok: 'Reset' })) return;
+      try { await send('/api/presets/' + p.id + '/reset', {}); toast('Reset to original', { type: 'ok' }); loadEdits(); } catch (e) { toast(e.message, { type: 'bad' }); }
+    };
+    const db = $('[data-del]', d); if (db) db.onclick = async () => {
+      if (!await ask({ title: `Delete "${p.name}"?`, text: p.used_by ? `${p.used_by} creator${p.used_by === 1 ? ' uses' : 's use'} it. They keep the look they have now, and it stops following this preset.` : 'This cannot be undone.', ok: 'Delete', danger: true })) return;
+      try { await api('/api/presets/' + p.id, { method: 'DELETE' }); toast('Preset deleted', { type: 'ok' }); loadEdits(); } catch (e) { toast(e.message, { type: 'bad' }); }
+    };
+    grid.appendChild(d);
+  });
+}
+let peTab = 0;
+function presetEditor(p) {
+  /* full-page editor with a live preview; resolves with the saved preset, or null if cancelled */
+  const st = JSON.parse(JSON.stringify(p ? p.settings : presetList[0].settings));
+  st.motion = { zoom: 0, shake: 0, ...(st.motion || {}) };
+  st.caption = { ...(st.caption || {}) };
+  st.hook = { ...(st.hook || {}) };
+  if (st.smart_framing === undefined) st.smart_framing = true;
+  st.retention = { trim_start: true, trim_end: true, hook_rules: true, hook_weight: true, punch: true, ...(st.retention || {}) };
+  st.stock = { on: false, source: 'library_first', every_min: 5, every_max: 10, len_min: 1.5, len_max: 3, confidence: 60, fallback: 'zoom', max: 8, judge: false, ...(st.stock || {}) };
+  st.music = { track: null, volume: 15, duck: true, ...(st.music || {}) };
+  st.pacing = { speed: 100, cut_pauses: false, pause: 0.6, ...(st.pacing || {}) };
+  st.look = { filter: 'none', strength: 60, brightness: 0, contrast: 0, saturation: 0, sharpness: 0, ...(st.look || {}) };
+  const page = $('#page-edits'), list = $('#edlist'), intro = page.querySelector('.ed-intro');
+  const acts = $('#pgActions'), savedActs = acts.innerHTML;
+  const fonts = meta.fonts || ['Arial'];
+  const sd = () => (meta.style_defs || {})[st.sub_style] || { font: 'Arial', size: 0.05, primary: '#FFFFFF', hi: '#FFFFFF', outline: 4, caps: false };
+  const cv = (k) => st.caption[k] !== undefined ? st.caption[k] : ({ font: sd().font, size: sd().size, primary: sd().primary, hi: sd().hi, outline: sd().outline, caps: sd().caps, outline_color: '#000000', shadow: 2, bold: true, bottom: 0.22, words: 3, highlight: true, box: false })[k];
+  const hv = (k) => st.hook[k] !== undefined ? st.hook[k] : ({ font: 'Arial', size: 0.05, color: '#FFFFFF', y: 0.14, duration: 3.5, bold: true, style: 'outline', outline_color: '#000000', box_color: '#000000' })[k];
+  const rng = (id, lab, min, max, step) => `<label>${lab}: <b id="${id}_v"></b><input type="range" id="${id}" min="${min}" max="${max}" step="${step}"></label>`;
+  const col = (id, lab) => `<label>${lab}<input type="color" id="${id}"></label>`;
+  const fsel = (id, lab) => `<label>${lab}<select id="${id}">${fonts.map(f => `<option>${esc(f)}</option>`).join('')}</select></label>`;
+  const soon = (title, text) => `<h5 class="wz-sec">${title} <span class="pill idle">Coming next</span></h5><p class="hint" style="opacity:.6">${text}</p>`;
+  list.hidden = true; if (intro) intro.hidden = true;
+  const root = document.createElement('div'); root.className = 'pe-full';
+  page.appendChild(root);
+  acts.innerHTML = '';
+  return new Promise((resolve) => {
+    const end = (r) => { root.remove(); list.hidden = false; if (intro) intro.hidden = false; acts.innerHTML = savedActs; const nb = $('#newPreset'); if (nb) nb.onclick = () => presetEditor(null).then(x => x && loadEdits()); resolve(r); };
+    root.innerHTML = `<div class="pe-form">
+      <div class="row" style="justify-content:space-between;margin:0 0 6px"><h3 style="margin:0">${p ? 'Edit preset' : 'New preset'}${p && p.builtin ? ' <span class="pill idle">Ready-made</span>' : ''}</h3>
+        <div class="row" style="margin:0"><button class="s" data-c type="button">Cancel</button><button class="p" data-o type="button">${p ? 'Save preset' : 'Create preset'}</button></div></div>
+      ${p && p.used_by ? `<div class="banner info" style="margin:8px 0">${icon('sparkles')}<div><p style="margin:0">${p.used_by} creator${p.used_by === 1 ? ' uses' : 's use'} this preset. Saving changes the look of their <em style="font-style:normal;font-weight:700">new</em> videos. Clips already made stay as they are.</p></div></div>` : ''}
+      <div class="sgrid"><label>Name<input id="pe_name" maxlength="40" value="${esc(p ? p.name : '')}" placeholder="e.g. Podcast look"></label>
+        <label>Short description (optional)<input id="pe_desc" maxlength="200" value="${esc(p ? p.description : '')}"></label></div>
+      <h5 class="wz-sec">Layout</h5><div class="pe-lays" id="pe_lays"></div>
+      <div class="sgrid one">${sw('pe_smart', 'Smart framing (for horizontal videos)', st.smart_framing)}</div>
+      <p class="hint">Follows the speaker shot by shot: when the camera cuts to someone off-centre the picture re-centres on them, and wide shots or shots with nobody in them show the whole picture over a blurred background instead of a crop that loses people. Works with Full frame. Not shown in the still preview.</p>
+      <h5 class="wz-sec">Captions</h5>
+      <div class="sgrid">${sw('pe_subs', 'Captions on', st.subtitles)}</div>
+      <div id="pe_capbox"><div class="chips" id="pe_caps"></div>
+        <p class="hint">Pick a starting style, then change anything below. Every change shows in the preview.</p>
+        <div class="sgrid">${fsel('c_font', 'Font')}${rng('c_size', 'Text size', 2.5, 9, 0.1)}${rng('c_bottom', 'Height from bottom', 3, 80, 1)}${rng('c_words', 'Words per line', 1, 6, 1)}</div>
+        <div class="sgrid">${col('c_primary', 'Text color')}${col('c_hi', 'Spoken-word color')}${col('c_outc', 'Outline color')}${rng('c_outline', 'Outline thickness', 0, 12, 0.5)}${rng('c_shadow', 'Shadow', 0, 8, 0.5)}</div>
+        <div class="sgrid">${sw('c_bold', 'Bold', cv('bold'))}${sw('c_caps', 'ALL CAPS', cv('caps'))}${sw('c_hl', 'Highlight the spoken word', cv('highlight'))}${sw('c_box', 'Box behind the text', cv('box'))}</div></div>
+      <h5 class="wz-sec">Hook text (first seconds)</h5>
+      <div class="sgrid">${sw('pe_hook', 'Show hook text', st.hook_text)}</div>
+      <div id="pe_hookbox"><div class="sgrid">${fsel('h_font', 'Font')}${rng('h_size', 'Text size', 2.5, 9, 0.1)}${rng('h_y', 'Height from top', 4, 95, 1)}${rng('h_dur', 'Shows for', 0.5, 15, 0.5)}</div>
+        <div class="sgrid"><label>Style<select id="h_style"><option value="outline">Outline</option><option value="plain">Plain</option><option value="box">Box</option></select></label>${col('h_color', 'Text color')}${col('h_outc', 'Outline color')}${col('h_boxc', 'Box color')}${sw('h_bold', 'Bold', hv('bold'))}</div></div>
+      <h5 class="wz-sec">Keep viewers watching</h5>
+      <p class="hint">Small edits that help viewers stay past the first seconds. They are all on by default; turn off any you don't want. None of them uses an extra AI request. They apply to new videos; clips already made stay as they are. (Not shown in the still preview.)</p>
+      <div class="sgrid one">
+        ${sw('rt_trim_start', 'Open on the hook: trim filler openers ("so", "um", "you know") and dead air at the start', st.retention.trim_start)}
+        ${sw('rt_trim_end', 'End on the payoff: cut a closing "thank you / see you" line and trailing filler', st.retention.trim_end)}
+        ${sw('rt_hook_rules', 'Stricter hook-text rules: short, a curiosity gap, specific, never gives the answer away', st.retention.hook_rules)}
+        ${sw('rt_hook_weight', 'Rank clips by hook strength and prefer tight clips (15 to 45 seconds)', st.retention.hook_weight)}
+        ${sw('rt_punch', 'Punch-in: a slight zoom that toggles at sentence starts, so the picture keeps changing', st.retention.punch)}
+      </div>
+      <h5 class="wz-sec">Quality</h5><div class="sgrid"><label>Resolution<select id="pe_res">${optHtml((meta.resolutions || ['720p', '1080p']).map(r => [r, r]), st.resolution)}</select></label></div>
+      <h5 class="wz-sec">Color look</h5>
+      <div class="sgrid"><label>Filter<select id="l_filter">${Object.entries(meta.filters || { none: 'No filter' }).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join('')}</select></label>${rng('l_strength', 'Filter strength', 0, 100, 5)}</div>
+      <div class="sgrid">${rng('l_bright', 'Brightness', -100, 100, 5)}${rng('l_contrast', 'Contrast', -100, 100, 5)}${rng('l_sat', 'Saturation', -100, 100, 5)}${rng('l_sharp', 'Sharpness', 0, 100, 5)}</div>
+      <p class="hint">Applies to the picture only; captions stay clean. All 0 and "No filter" = untouched.</p>
+      <h5 class="wz-sec">Pacing</h5>
+      <div class="sgrid">${rng('pc_speed', 'Speed', 100, 150, 5)}${sw('pc_cut', 'Cut long pauses', st.pacing.cut_pauses)}${rng('pc_pause', 'Cut pauses longer than', 0.3, 2, 0.1)}</div>
+      <p class="hint">Speed 100% = normal. Cutting removes silent gaps between words, keeping a short breath each side; captions follow the cut. Pauses are found from the transcript, so "um" and "uh" are not removed unless the transcript has them as words.</p>
+      <h5 class="wz-sec">Background music</h5>
+      <div class="sgrid"><label>Track<select id="mu_track"></select></label>${rng('mu_vol', 'Music volume', 0, 100, 5)}${sw('mu_duck', 'Lower the music while someone speaks', st.music.duck)}</div>
+      <div class="row" style="margin:0 0 8px;gap:10px"><label class="btn s sm" style="cursor:pointer">Upload a track<input type="file" id="mu_file" accept=".mp3,.wav,.m4a,.aac,.ogg,.flac,audio/*" hidden></label><button class="s sm" id="mu_play" type="button">Play</button><button class="s sm danger" id="mu_del" type="button">Delete this track</button><audio id="mu_audio" hidden></audio></div>
+      <p class="hint">Only upload music you have the right to use on YouTube. The track loops to fit the clip. Not shown in the picture preview.</p>
+      <h5 class="wz-sec">Motion</h5>
+      <div class="sgrid">${rng('pe_zoom', 'Slow zoom', 0, 100, 5)}${rng('pe_shake', 'Shake on loud moments', 0, 100, 5)}</div>
+      <p class="hint">0 = off. Zoom slowly moves in over the whole clip. Shake gives a short, light jolt when the audio suddenly gets loud. Captions stay still. (Motion isn't shown in the still preview.)</p>
+      <h5 class="wz-sec">Stock video cutaways</h5>
+      <div class="sgrid">${sw('sk_on', 'Cut away to stock footage', st.stock.on)}</div>
+      <div id="sk_box">
+        <p class="hint">The AI finds moments where the speaker mentions something you can film (an air hostess, a piece of paper) and the clip cuts to matching free stock footage for a moment. Matching is by the footage's description and tags, not by looking inside it. It costs 1 AI request per clip.</p>
+        <div class="row" style="margin:0 0 10px;gap:12px;align-items:center"><span class="mut">Pace</span><div class="seg" id="sk_pace" role="group" aria-label="Cutaway pace"><button type="button" data-pace="calm">Calm</button><button type="button" data-pace="fast">Fast cuts</button></div><small class="mut" id="sk_pacehint"></small></div>
+        <div class="sgrid"><label>Where to get footage<select id="sk_src"><option value="library_first">My library first, then live search</option><option value="library">My library only</option><option value="live">Live search only</option></select></label>
+          <label>When nothing matches well enough<select id="sk_fb"><option value="zoom">Quick zoom-in on the speaker</option><option value="skip">Skip that cutaway</option></select></label></div>
+        <div class="sgrid">${rng('sk_emin', 'Shortest gap between cutaways', 1, 30, 0.5)}${rng('sk_emax', 'Longest gap', 1, 60, 0.5)}${rng('sk_lmin', 'Shortest cutaway', 0.5, 8, 0.5)}${rng('sk_lmax', 'Longest cutaway', 0.5, 10, 0.5)}${rng('sk_conf', 'Match confidence needed', 0, 100, 5)}${rng('sk_max', 'Most cutaways per clip', 1, 40, 1)}</div>
+        <div class="sgrid one">${sw('sk_judge', 'Extra AI check on unclear picks (1 more AI request per clip, only if some picks are unclear)', st.stock.judge)}</div>
+        <p class="hint">Higher confidence = fewer but better-fitting cutaways (the rest use the fallback). "Fast cuts" is a new visual every 1.5-3 seconds, like viral edits; it finds more moments, so it needs more footage. The extra AI check is off by default to save AI requests. Cutaways are planned once per clip when it renders; the preview picture above doesn't show them.</p>
+        <div class="sk-keys" id="sk_keys"></div>
+        <details class="sk-test"><summary>Try a search phrase</summary>
+          <div class="row" style="margin:8px 0;gap:8px"><input id="sk_q" placeholder="e.g. air hostess" style="flex:1"><button class="s sm" id="sk_go" type="button">Search</button></div><div id="sk_res" class="sk-res"></div></details>
+      </div>
+    </div>
+    <div class="pe-prev"><div class="pe-prevbox"><img id="pe_img" alt="Preview"><div class="pe-spin" id="pe_spin">Updating…</div></div>
+      <p class="hint" style="text-align:center">Live preview on a frame from your latest video. Hook, captions and layout are real; the words are samples.</p></div>`;
+    /* split the long form into tabs: one topic at a time, the preview stays in view */
+    (() => {
+      const form = root.querySelector('.pe-form');
+      const kids = [...form.children];
+      const first = kids.findIndex(k => k.classList.contains('wz-sec'));
+      const top = document.createElement('div'); top.className = 'pe-top';
+      const meta_ = document.createElement('div'); meta_.className = 'pe-meta';
+      kids.slice(0, first).forEach((k, i) => (i === 0 ? top : meta_).appendChild(k));
+      const groups = [['Basics', null], ['Layout', ['Layout']], ['Captions', ['Captions']], ['Hook text', ['Hook text (first seconds)']], ['Retention', ['Keep viewers watching']], ['Look', ['Quality', 'Color look']],
+        ['Sound & pace', ['Pacing', 'Background music']], ['Motion', ['Motion']], ['Stock footage', ['Stock video cutaways']], ['Test', []]];
+      const secs = {}; let cur = null;
+      kids.slice(first).forEach(k => { if (k.classList.contains('wz-sec')) { cur = secs[k.textContent.trim()] = [k]; } else if (cur) cur.push(k); });
+      const bar = document.createElement('div'); bar.className = 'pe-tabs'; bar.setAttribute('role', 'tablist');
+      const panels = [];
+      groups.forEach(([label, titles], gi) => {
+        const panel = document.createElement('div'); panel.className = 'pe-panel'; panel.hidden = true;
+        if (!titles) panel.appendChild(meta_);
+        else titles.forEach(t => (secs[t] || []).forEach((el, i) => { panel.appendChild(el); if (i === 0 && titles.length === 1) el.hidden = true; }));
+        const b = document.createElement('button'); b.type = 'button'; b.textContent = label; b.setAttribute('role', 'tab');
+        b.onclick = () => { peTab = gi; bar.querySelectorAll('button').forEach((x, xi) => { x.classList.toggle('on', xi === gi); x.setAttribute('aria-selected', xi === gi); }); panels.forEach((p, pi) => { p.hidden = pi !== gi; }); };
+        bar.appendChild(b); panels.push(panel);
+      });
+      top.appendChild(bar); form.appendChild(top); panels.forEach(p => form.appendChild(p));
+      bar.children[Math.min(peTab, panels.length - 1)].click();
+    })();
+    const q = (s) => root.querySelector(s);
+    /* testing area: render a short throw-away video with the settings as they are right now (saved or not) */
+    (() => {
+      const panel = [...root.querySelectorAll('.pe-panel')].pop(); if (!panel) return;
+      panel.innerHTML = `<p class="hint" style="margin-top:0">Try this look on a real video before you save it. It renders a short test with the settings as they are right now (even unsaved ones), at 720p, with no stock footage. Nothing is added to the project.</p>
+        <label class="fld">Project<select id="tp_job"><option value="">Loading…</option></select></label>
+        <label class="fld">What to test<select id="tp_clip"></select></label>
+        <div class="row" id="tp_range" style="gap:8px;align-items:center" hidden><label>From (seconds)<input type="number" id="tp_s" min="0" value="0" style="width:90px"></label><label>To (seconds)<input type="number" id="tp_e" min="3" value="30" style="width:90px"></label><span class="mut">Up to 60 s</span></div>
+        <div class="row" style="margin-top:10px;gap:8px;align-items:center"><button class="p" type="button" id="tp_go">Render test</button><span class="mut" id="tp_state"></span></div>
+        <video id="tp_vid" controls playsinline hidden style="margin-top:10px;max-height:420px;max-width:100%;border-radius:10px;background:#000"></video>`;
+      let jobsL = [];
+      api('/api/jobs').then(js => {
+        jobsL = js.filter(j => (j.clips || []).length);
+        const sel = panel.querySelector('#tp_job');
+        sel.innerHTML = jobsL.length ? jobsL.map(j => `<option value="${esc(j.id)}">${esc(j.title || j.id)}</option>`).join('') : '<option value="">No projects yet</option>';
+        sel.onchange();
+      }).catch(() => { panel.querySelector('#tp_job').innerHTML = '<option value="">Couldn\'t load projects</option>'; });
+      const selJob = panel.querySelector('#tp_job'), selClip = panel.querySelector('#tp_clip');
+      selJob.onchange = () => {
+        const j = jobsL.find(x => x.id === selJob.value);
+        selClip.innerHTML = '<option value="">A part of the full video (choose the seconds)</option>' + ((j && j.clips) || []).map(c => `<option value="${esc(c.id)}">Clip: ${esc(c.title)} (${(c.params.end - c.params.start).toFixed(0)}s)</option>`).join('');
+        if (j && j.clips && j.clips.length) selClip.value = j.clips[0].id;
+        selClip.onchange();
+      };
+      selClip.onchange = () => { panel.querySelector('#tp_range').hidden = !!selClip.value; };
+      const go = panel.querySelector('#tp_go'), stt = panel.querySelector('#tp_state'), vid = panel.querySelector('#tp_vid');
+      go.onclick = async () => {
+        if (!selJob.value) return toast('Pick a project first.', { type: 'bad' });
+        go.disabled = true; vid.hidden = true; stt.textContent = 'Starting…';
+        try {
+          const body = { job_id: selJob.value, settings: clone(st) };
+          if (selClip.value) body.clip_id = selClip.value; else { body.start = +panel.querySelector('#tp_s').value; body.end = +panel.querySelector('#tp_e').value; }
+          const { id } = await send('/api/tests', body);
+          for (;;) {
+            await new Promise(r => setTimeout(r, 1000));
+            if (!panel.isConnected) return;
+            const t = await api('/api/tests/' + id);
+            if (t.status === 'error') throw new Error(t.error || 'The test failed.');
+            if (t.status === 'ready') { vid.src = t.url + '?v=' + Date.now(); vid.hidden = false; stt.textContent = 'Done (' + (t.range[1] - t.range[0]).toFixed(0) + ' s)'; break; }
+            stt.textContent = t.status === 'queued' ? 'Waiting…' : 'Rendering… ' + (t.progress || 0) + '%';
+          }
+        } catch (e) { stt.textContent = ''; toast(e.message, { type: 'bad' }); }
+        finally { go.disabled = false; }
+      };
+    })();
+    /* live preview: re-rendered shortly after the last change; only the newest answer is shown */
+    let timer = null, seq = 0;
+    const refresh = () => {
+      clearTimeout(timer);
+      timer = setTimeout(async () => {
+        const my = ++seq; q('#pe_spin').hidden = false;
+        try {
+          const r = await fetch('/api/presets/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ settings: st }) });
+          if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || 'preview failed');
+          const url = URL.createObjectURL(await r.blob());
+          if (my === seq) { const old = q('#pe_img').src; q('#pe_img').src = url; if (old.startsWith('blob:')) URL.revokeObjectURL(old); }
+        } catch (e) { if (my === seq) toast('Preview: ' + e.message, { type: 'bad' }); }
+        finally { if (my === seq) q('#pe_spin').hidden = true; }
+      }, 350);
+    };
+    const bindRange = (id, get, set, fmt) => { const r = q('#' + id), l = q('#' + id + '_v'); r.value = get(); l.textContent = fmt(+r.value); r.oninput = () => { set(+r.value); l.textContent = fmt(+r.value); refresh(); }; };
+    const bindVal = (id, get, set) => { const e = q('#' + id); e.value = get(); e.oninput = e.onchange = () => { set(e.value); refresh(); }; };
+    const bindChk = (key, get, set) => { const e = q(`[data-k="${key}"]`); e.checked = !!get(); e.onchange = () => { set(e.checked); refresh(); }; };
+    const lays = q('#pe_lays'), caps = q('#pe_caps');
+    const drawLays = () => { lays.innerHTML = ''; layouts.forEach(l => { const b = document.createElement('button'); b.type = 'button'; b.className = 'lay' + (l.id === st.layout_id ? ' on' : ''); b.appendChild(LE.thumb(l)); b.insertAdjacentHTML('beforeend', `<b>${esc(l.name)}</b>`); b.onclick = () => { st.layout_id = l.id; drawLays(); refresh(); }; lays.appendChild(b); }); };
+    const syncCap = () => {  /* show the controls' values for the chosen starting style */
+      q('#c_font').value = cv('font'); q('#c_size').value = cv('size') * 100; q('#c_size_v').textContent = pc(cv('size') * 100);
+      q('#c_primary').value = cv('primary'); q('#c_hi').value = cv('hi'); q('#c_outline').value = cv('outline'); q('#c_outline_v').textContent = cv('outline');
+      q('[data-k="c_caps"]').checked = !!cv('caps');
+    };
+    const drawCaps = () => {
+      caps.innerHTML = meta.sub_styles.map(k => `<button type="button" class="chip ${st.sub_style === k ? 'on' : ''}" data-k="${k}"><em>${(CAP[k] || [k, esc(k)])[1]}</em><small>${(CAP[k] || [k])[0]}</small></button>`).join('');
+      q('#pe_capbox').style.opacity = st.subtitles ? 1 : .4; q('#pe_capbox').style.pointerEvents = st.subtitles ? '' : 'none';
+      caps.querySelectorAll('.chip').forEach(c => c.onclick = () => { st.sub_style = c.dataset.k; ['font', 'size', 'primary', 'hi', 'outline', 'caps'].forEach(k => delete st.caption[k]); drawCaps(); syncCap(); refresh(); });
+    };
+    const C = st.caption, Hk = st.hook, pc = (v) => v.toFixed(1) + '%';
+    q('[data-k="pe_subs"]').checked = st.subtitles; q('[data-k="pe_subs"]').onchange = (e) => { st.subtitles = e.target.checked; drawCaps(); refresh(); };
+    const hookDim = () => { q('#pe_hookbox').style.opacity = st.hook_text ? 1 : .4; q('#pe_hookbox').style.pointerEvents = st.hook_text ? '' : 'none'; };
+    q('[data-k="pe_hook"]').checked = st.hook_text; q('[data-k="pe_hook"]').onchange = (e) => { st.hook_text = e.target.checked; hookDim(); refresh(); };
+    hookDim();
+    bindVal('c_font', () => cv('font'), (v) => { C.font = v; });
+    bindRange('c_size', () => cv('size') * 100, (v) => { C.size = v / 100; }, pc);
+    bindRange('c_bottom', () => cv('bottom') * 100, (v) => { C.bottom = v / 100; }, (v) => v + '%');
+    bindRange('c_words', () => cv('words'), (v) => { C.words = v; }, (v) => v);
+    bindVal('c_primary', () => cv('primary'), (v) => { C.primary = v; });
+    bindVal('c_hi', () => cv('hi'), (v) => { C.hi = v; });
+    bindVal('c_outc', () => cv('outline_color'), (v) => { C.outline_color = v; });
+    bindRange('c_outline', () => cv('outline'), (v) => { C.outline = v; }, (v) => v);
+    bindRange('c_shadow', () => cv('shadow'), (v) => { C.shadow = v; }, (v) => v);
+    bindChk('c_bold', () => cv('bold'), (v) => { C.bold = v; });
+    bindChk('c_caps', () => cv('caps'), (v) => { C.caps = v; });
+    bindChk('c_hl', () => cv('highlight'), (v) => { C.highlight = v; });
+    bindChk('c_box', () => cv('box'), (v) => { C.box = v; });
+    bindVal('h_font', () => hv('font'), (v) => { Hk.font = v; });
+    bindRange('h_size', () => hv('size') * 100, (v) => { Hk.size = v / 100; }, pc);
+    bindRange('h_y', () => hv('y') * 100, (v) => { Hk.y = v / 100; }, (v) => v + '%');
+    bindRange('h_dur', () => hv('duration'), (v) => { Hk.duration = v; }, (v) => v + ' s');
+    bindVal('h_style', () => hv('style'), (v) => { Hk.style = v; });
+    bindVal('h_color', () => hv('color'), (v) => { Hk.color = v; });
+    bindVal('h_outc', () => hv('outline_color'), (v) => { Hk.outline_color = v; });
+    bindVal('h_boxc', () => hv('box_color'), (v) => { Hk.box_color = v; });
+    bindChk('h_bold', () => hv('bold'), (v) => { Hk.bold = v; });
+    const L = st.look, sgn = (v) => v > 0 ? '+' + v : String(v);
+    bindVal('l_filter', () => L.filter, (v) => { L.filter = v; });
+    bindRange('l_strength', () => L.strength, (v) => { L.strength = v; }, (v) => v + '%');
+    bindRange('l_bright', () => L.brightness, (v) => { L.brightness = v; }, sgn);
+    bindRange('l_contrast', () => L.contrast, (v) => { L.contrast = v; }, sgn);
+    bindRange('l_sat', () => L.saturation, (v) => { L.saturation = v; }, sgn);
+    bindRange('l_sharp', () => L.sharpness, (v) => { L.sharpness = v; }, (v) => v ? v + '%' : 'off');
+    const P = st.pacing, M = st.music;
+    bindRange('pc_speed', () => P.speed, (v) => { P.speed = v; }, (v) => v + '%');
+    bindRange('pc_pause', () => P.pause, (v) => { P.pause = v; }, (v) => v + ' s');
+    const pcSync = () => { const r = q('#pc_pause'); r.disabled = !P.cut_pauses; r.closest('label').style.opacity = P.cut_pauses ? '' : '.4'; };
+    bindChk('pc_cut', () => P.cut_pauses, (v) => { P.cut_pauses = v; pcSync(); });
+    pcSync();
+    bindRange('mu_vol', () => M.volume, (v) => { M.volume = v; }, (v) => v + '%');
+    bindChk('mu_duck', () => M.duck, (v) => { M.duck = v; });
+    const drawTracks = async () => {
+      let tr = []; try { tr = await api('/api/music'); } catch { /* none */ }
+      const sel = q('#mu_track');
+      sel.innerHTML = '<option value="">No music</option>' + tr.map(t => `<option value="${esc(t.name)}">${esc(t.name)} (${t.mb} MB)</option>`).join('') + (M.track && !tr.some(t => t.name === M.track) ? `<option value="${esc(M.track)}">${esc(M.track)} (missing)</option>` : '');
+      sel.value = M.track || '';
+      q('#mu_play').disabled = q('#mu_del').disabled = !M.track;
+    };
+    q('#mu_track').onchange = (e) => { M.track = e.target.value || null; q('#mu_play').disabled = q('#mu_del').disabled = !M.track; q('#mu_audio').pause(); q('#mu_play').textContent = 'Play'; };
+    q('#mu_file').onchange = async (e) => {
+      const f = e.target.files[0]; if (!f) return;
+      const fd = new FormData(); fd.append('file', f);
+      try { const r = await fetch('/api/music', { method: 'POST', body: fd }); const j = await r.json(); if (!r.ok) throw new Error(j.detail || 'upload failed'); M.track = j.name; toast('Track added', { type: 'ok' }); await drawTracks(); } catch (err) { toast(err.message, { type: 'bad' }); }
+      e.target.value = '';
+    };
+    q('#mu_play').onclick = () => { const a = q('#mu_audio'); if (!a.paused) { a.pause(); q('#mu_play').textContent = 'Play'; return; } a.src = '/api/music/' + encodeURIComponent(M.track) + '/file'; a.volume = Math.max(0.05, M.volume / 100); a.play(); q('#mu_play').textContent = 'Stop'; a.onended = () => { q('#mu_play').textContent = 'Play'; }; };
+    q('#mu_del').onclick = async () => {
+      if (!await ask({ title: `Delete "${M.track}"?`, text: 'Removes the file. Any preset that uses it will have no music until you pick another track.', ok: 'Delete', danger: true })) return;
+      try { await api('/api/music/' + encodeURIComponent(M.track), { method: 'DELETE' }); M.track = null; await drawTracks(); toast('Track deleted', { type: 'ok' }); } catch (err) { toast(err.message, { type: 'bad' }); }
+    };
+    drawTracks();
+    const K = st.stock;
+    const skDim = () => { q('#sk_box').style.opacity = K.on ? 1 : .45; };
+    bindChk('sk_on', () => K.on, (v) => { K.on = v; skDim(); });
+    skDim();
+    bindVal('sk_src', () => K.source, (v) => { K.source = v; });
+    bindVal('sk_fb', () => K.fallback, (v) => { K.fallback = v; });
+    bindRange('sk_emin', () => K.every_min, (v) => { K.every_min = v; }, (v) => v + ' s');
+    bindRange('sk_emax', () => K.every_max, (v) => { K.every_max = v; }, (v) => v + ' s');
+    bindRange('sk_lmin', () => K.len_min, (v) => { K.len_min = v; }, (v) => v + ' s');
+    bindRange('sk_lmax', () => K.len_max, (v) => { K.len_max = v; }, (v) => v + ' s');
+    bindRange('sk_conf', () => K.confidence, (v) => { K.confidence = v; }, (v) => v + '%');
+    bindRange('sk_max', () => K.max, (v) => { K.max = v; }, (v) => v);
+    bindChk('sk_judge', () => K.judge, (v) => { K.judge = v; });
+    ['trim_start', 'trim_end', 'hook_rules', 'hook_weight', 'punch'].forEach(k => bindChk('rt_' + k, () => st.retention[k], (v) => { st.retention[k] = v; }));
+    const PACES = { calm: { every_min: 5, every_max: 10, len_min: 1.5, len_max: 3, max: 8, confidence: 60 }, fast: { every_min: 1.5, every_max: 3, len_min: 1, len_max: 2, max: 30, confidence: 55 } };
+    const PACE_IDS = { every_min: 'sk_emin', every_max: 'sk_emax', len_min: 'sk_lmin', len_max: 'sk_lmax', max: 'sk_max', confidence: 'sk_conf' };
+    const markPace = () => {
+      const on = Object.keys(PACES).find(n => Object.entries(PACES[n]).every(([k, v]) => Math.abs(K[k] - v) < 0.01));
+      q('#sk_pace').querySelectorAll('button').forEach(b => b.classList.toggle('on', b.dataset.pace === on));
+      q('#sk_pacehint').textContent = on ? '' : 'Custom';
+    };
+    q('#sk_pace').querySelectorAll('button').forEach(b => b.onclick = () => {
+      Object.entries(PACES[b.dataset.pace]).forEach(([k, v]) => { const r = q('#' + PACE_IDS[k]); r.value = v; r.oninput(); });
+      markPace();
+    });
+    Object.values(PACE_IDS).forEach(id => q('#' + id).addEventListener('input', markPace));
+    markPace();
+    const KEYSITES = { pexels: ['Pexels', 'https://www.pexels.com/api/'], pixabay: ['Pixabay', 'https://pixabay.com/api/docs/'] };
+    const drawKeys = async () => {
+      let s = null; try { s = await api('/api/stock/status'); } catch { /* offline */ }
+      const box = q('#sk_keys'); if (!s) { box.textContent = 'Could not load footage status.'; return; }
+      box.innerHTML = `<h6 style="margin:6px 0">Free footage keys</h6>` + Object.entries(KEYSITES).map(([id, [nm, url]]) => s.keys[id].set
+        ? `<div class="row" style="margin:4px 0;gap:10px"><span class="pill ok">${nm} connected ${esc(s.keys[id].hint)}</span><button class="s sm danger" data-rm="${id}" type="button">Remove</button></div>`
+        : `<div class="row" style="margin:4px 0;gap:8px"><span class="pill idle" style="min-width:120px">${nm}: no key</span><input data-key="${id}" placeholder="Paste your ${nm} key" autocomplete="off" style="flex:1"><button class="p sm" data-add="${id}" type="button">Save</button><a href="${url}" target="_blank" rel="noopener">Get a free key</a></div>`).join('')
+        + `<p class="hint">Keys are free: sign up on the site, copy the key and paste it here. Use at least one. Pexels has paused new keys for now, so Pixabay is the one to get. The key is saved on this computer only. Footage shown or used comes from Pexels / Pixabay.</p>`
+        + `<div class="row" style="margin:6px 0;gap:10px"><span class="mut">Library: ${s.library.count} clip${s.library.count === 1 ? '' : 's'} (${s.library.mb} MB), kept so the next clip can reuse them.</span>${s.library.count ? '<button class="s sm danger" data-clear type="button">Clear library</button>' : ''}</div>`;
+      box.querySelectorAll('[data-add]').forEach(b => b.onclick = () => busy(b, async () => {
+        const id = b.dataset.add, v = box.querySelector(`[data-key="${id}"]`).value.trim(); if (!v) { toast('Paste the key first', { type: 'bad' }); return; }
+        try { await send('/api/stock/key', { provider: id, key: v }); toast(KEYSITES[id][0] + ' key saved', { type: 'ok' }); drawKeys(); } catch (e) { toast(e.message, { type: 'bad' }); }
+      }));
+      box.querySelectorAll('[data-rm]').forEach(b => b.onclick = async () => {
+        if (!await ask({ title: `Remove the ${KEYSITES[b.dataset.rm][0]} key?`, text: 'Footage already in your library stays.', ok: 'Remove', danger: true })) return;
+        try { await send('/api/stock/key', { provider: b.dataset.rm, key: '' }); drawKeys(); } catch (e) { toast(e.message, { type: 'bad' }); }
+      });
+      const cb = box.querySelector('[data-clear]'); if (cb) cb.onclick = async () => {
+        if (!await ask({ title: 'Clear the footage library?', text: `Deletes ${s.library.count} downloaded clip(s) (${s.library.mb} MB). They can be downloaded again, but clips already made are not affected.`, ok: 'Delete', danger: true })) return;
+        try { await api('/api/stock/library', { method: 'DELETE' }); drawKeys(); } catch (e) { toast(e.message, { type: 'bad' }); }
+      };
+    };
+    drawKeys();
+    q('#sk_go').onclick = (e) => busy(e.currentTarget, async () => {
+      const phrase = q('#sk_q').value.trim(), out = q('#sk_res'); if (!phrase) return;
+      out.textContent = 'Searching…';
+      try {
+        const r = await api('/api/stock/test?q=' + encodeURIComponent(phrase));
+        out.innerHTML = r.length ? r.map(c => `<a class="sk-card" href="${esc(c.page || '#')}" target="_blank" rel="noopener">${c.thumb ? `<img alt="" src="${esc(c.thumb)}">` : '<span class="mut">no image</span>'}<b>${c.conf}%</b><small class="mut">${esc(c.source)} · ${Math.round(c.dur)} s${c.conf >= K.confidence ? '' : ' · below your cut-off'}</small></a>`).join('') : '<span class="mut">Nothing found.</span>';
+      } catch (err) { out.innerHTML = `<span class="field-err">${esc(err.message)}</span>`; }
+    });
+    bindChk('pe_smart', () => st.smart_framing, (v) => { st.smart_framing = v; });
+    q('#pe_res').onchange = (e) => { st.resolution = e.target.value; };
+    bindRange('pe_zoom', () => st.motion.zoom, (v) => { st.motion.zoom = v; }, (v) => v ? v + '%' : 'off');
+    bindRange('pe_shake', () => st.motion.shake, (v) => { st.motion.shake = v; }, (v) => v ? v + '%' : 'off');
+    drawLays(); drawCaps(); syncCap(); refresh();
+    q('[data-c]').onclick = () => end(null);
+    q('[data-o]').onclick = (e) => busy(e.currentTarget, async () => {
+      const body = { name: q('#pe_name').value.trim(), description: q('#pe_desc').value.trim(), settings: st };
+      if (!body.name) { toast('Give the preset a name', { type: 'bad' }); return; }
+      try { const r = p ? await send('/api/presets/' + p.id, body, 'PUT') : await send('/api/presets', body); toast(p ? 'Preset saved' : 'Preset created', { type: 'ok' }); end(r); } catch (err) { toast(err.message, { type: 'bad' }); }
+    });
+  });
+}
+const PRESET_KEYS = ['layout_id', 'subtitles', 'sub_style', 'hook_text', 'resolution', 'caption', 'hook', 'look', 'music', 'pacing', 'motion'];
+function grpPreset(v) {
+  const cur = v.preset || '';
+  const cards = presetList.map(p => `<label class="prc"><input type="radio" name="presetpick" data-k="preset" value="${esc(p.id)}" ${cur === p.id ? 'checked' : ''}><span class="prn">${esc(p.name)}</span><span class="mut">${esc(p.description || '')}</span><span class="edfacts">${presetFacts(p.settings).map(f => `<span>${esc(f)}</span>`).join('')}</span></label>`).join('');
+  const custom = v.allowCustom ? `<label class="prc"><input type="radio" name="presetpick" data-k="preset" value="" ${cur === '' ? 'checked' : ''}><span class="prn">Custom (current look)</span><span class="mut">Keep the look this creator already has. It won't follow any preset.</span><span class="edfacts">${presetFacts({ ...v, layout_id: v.layout_id || 'fill', subtitles: v.subtitles !== false, sub_style: v.sub_style || 'bold_yellow', hook_text: v.hook_text !== false, resolution: v.resolution || '1080p' }).map(f => `<span>${esc(f)}</span>`).join('')}</span></label>` : '';
+  return `<div class="pickgrid"><div class="pcards">${custom}${cards}</div>
+    <div class="pv" data-pvbox><div class="pv-img"><img alt="" hidden><span class="mut" data-pvmsg>Pick a style to see it</span></div><small class="mut" data-pvname></small></div></div>
+    <p class="hint">This creator's new videos are edited exactly like the style you pick, including later changes you make to that style. Change a style in the <a href="#/edits" data-editslink>Edits</a> tab.</p>`;
+}
+/* shows a picture of the selected edit style; returns a function that (re)loads it, so hidden steps can wait until they are shown */
+const pvCache = new Map();
+function wirePresetPreview(root, v, onNav) {
+  const box = root.querySelector('[data-pvbox]'); if (!box) return () => {};
+  const img = box.querySelector('img'), msg = box.querySelector('[data-pvmsg]'), nm = box.querySelector('[data-pvname]');
+  const lnk = root.querySelector('[data-editslink]'); if (lnk && onNav) lnk.addEventListener('click', () => onNav());
+  let seq = 0;
+  const show = async () => {
+    const sel = root.querySelector('[data-k="preset"]:checked'); if (!sel) return;
+    const p = sel.value ? presetList.find(x => x.id === sel.value) : null;
+    const s = p ? p.settings : Object.fromEntries(PRESET_KEYS.filter(k => v[k] !== undefined).map(k => [k, v[k]]));
+    nm.textContent = p ? p.name : 'Custom (current look)';
+    const key = JSON.stringify(s), my = ++seq;
+    if (pvCache.has(key)) { img.src = pvCache.get(key); img.hidden = false; msg.hidden = true; return; }
+    msg.hidden = false; msg.textContent = 'Loading preview…'; img.hidden = true;
+    try {
+      const r = await fetch('/api/presets/preview', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ settings: s }) });
+      if (!r.ok) throw new Error();
+      const url = URL.createObjectURL(await r.blob()); pvCache.set(key, url);
+      if (my === seq) { img.src = url; img.hidden = false; msg.hidden = true; }
+    } catch { if (my === seq) { msg.hidden = false; msg.textContent = 'Preview unavailable'; } }
+  };
+  root.querySelectorAll('[data-k="preset"]').forEach(r => r.addEventListener('change', show));
+  return show;
+}
+
+/* ===================== home: search, follow (step-by-step), settings ===================== */
 const fmtSubs = (n) => n == null ? '' : (n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '') + 'M' : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, '') + 'K' : String(n)) + ' subscribers';
 const sw = (id, label, on) => `<label class="chk"><span class="switch"><input type="checkbox" data-k="${id}" ${on ? 'checked' : ''}><span></span></span>${label}</label>`;
-function settingsForm(v) {
-  const opt = (arr, cur) => arr.map(([val, lbl]) => `<option value="${esc(val)}" ${val === cur ? 'selected' : ''}>${esc(lbl)}</option>`).join('');
-  return `<div class="sgrid">
-    <label>New videos<select data-k="mode">${opt([['off', "Don't check for new videos"], ['clips', 'Clip only (no upload)'], ['auto', 'Clip and upload to YouTube']], v.enabled === false ? 'off' : v.auto ? 'auto' : 'clips')}</select></label>
-    <label>YouTube channel<select data-k="account">${acctOpts(v.account || 'default')}</select></label>
-    <label>Upload as<select data-k="auto_privacy">${opt([['public', 'Public'], ['unlisted', 'Unlisted'], ['private', 'Private']], v.auto_privacy || 'public')}</select></label>
-    ${sw('hide_likes', 'Hide like count', v.hide_likes !== false)}
-    <label>Minimum score<input type="number" data-k="min_score" min="0" max="100" step="5" value="${v.min_score ?? 50}"></label>
-    <label>Layout<select data-k="layout_id">${opt(layouts.map(l => [l.id, l.name]), v.layout_id || 'fill')}</select></label>
-    ${sw('subtitles', 'Captions', v.subtitles !== false)}
-    <label>Caption style<select data-k="sub_style">${opt(meta.sub_styles.map(k => [k, k.replace(/_/g, ' ')]), v.sub_style)}</select></label>
-    <label>Quality<select data-k="resolution">${opt((meta.resolutions || ['720p', '1080p']).map(r => [r, r]), v.resolution || '1080p')}</select></label>
-    ${sw('hook_text', 'Hook text at the start', v.hook_text !== false)}
+const optHtml = (arr, cur) => arr.map(([val, lbl]) => `<option value="${esc(val)}" ${val === cur ? 'selected' : ''}>${esc(lbl)}</option>`).join('');
+const MODE_HINT = {
+  off: "Nothing is checked automatically. The creator stays in your list so you can still open their videos and clip one yourself.",
+  clips: 'When they post a new video it is clipped for you and the clips wait in Projects. Nothing is uploaded.',
+  auto: 'When they post a new video it is clipped, and the clips that score high enough are uploaded to your channel by themselves.',
+};
+/* the three groups of settings; the step-by-step follow screen shows one at a time, the edit screen shows all of them */
+const FOLLOW_DEFAULTS = { mode: 'auto', account: null, auto_privacy: 'public', hide_likes: true, min_score: 50, min_len: 20, max_len: 60, num_clips: 0, layout_id: 'fill', subtitles: true, sub_style: 'bold_yellow', resolution: '1080p', hook_text: true, preset: 'standard' };
+const modeOf = (v) => v.enabled === false ? 'off' : v.auto ? 'auto' : 'clips';
+function grpUpload(v) {
+  return `<div class="sgrid one">
+    <label>When they post a new video<select data-k="mode">${optHtml([['auto', 'Clip it and upload it automatically'], ['clips', 'Clip it and save it (no upload)'], ['off', "Don't check for new videos"]], v.mode)}</select></label>
+    <p class="hint wz-hint" data-hint></p>
+    <label>Upload to this YouTube channel<select data-k="account">${acctOpts(v.account || 'default')}</select></label>
+    <label>Upload as<select data-k="auto_privacy">${optHtml([['public', 'Public'], ['unlisted', 'Unlisted'], ['private', 'Private']], v.auto_privacy || 'public')}</select></label>
+    ${sw('hide_likes', 'Hide the like count', v.hide_likes !== false)}
   </div>`;
 }
+function grpPick(v) {
+  return `<div class="sgrid">
+    <label>Minimum score (0 to 100)<input type="number" data-k="min_score" min="0" max="100" step="5" value="${v.min_score ?? 50}"></label>
+    <label>How many clips<select data-k="num_clips">${optHtml([[0, 'The AI decides'], [3, 'Up to 3'], [5, 'Up to 5'], [8, 'Up to 8'], [10, 'Up to 10']].concat([0, 3, 5, 8, 10].includes(+(v.num_clips || 0)) ? [] : [[+v.num_clips, 'Up to ' + v.num_clips]]), +(v.num_clips || 0))}</select></label>
+    <label>Shortest clip (seconds)<input type="number" data-k="min_len" min="10" max="120" step="5" value="${v.min_len ?? 20}"></label>
+    <label>Longest clip (seconds)<input type="number" data-k="max_len" min="15" max="180" step="5" value="${v.max_len ?? 60}"></label>
+  </div><p class="hint">Only clips the AI scores at or above the minimum are made. A higher number means fewer, better clips.</p>`;
+}
+function settingsForm(v) {  /* all in one: used when editing a creator you already follow */
+  v = { ...FOLLOW_DEFAULTS, ...v, mode: v.mode || modeOf(v) };
+  return `<h5 class="wz-sec">Upload & automation</h5>${grpUpload(v)}<h5 class="wz-sec">Picking clips</h5>${grpPick(v)}<h5 class="wz-sec">Edit style</h5>${grpPreset(v)}`;
+}
 function wireMode(root) {
-  const m = root.querySelector('[data-k="mode"]');
-  const sync = () => root.querySelectorAll('[data-k="account"],[data-k="auto_privacy"],[data-k="hide_likes"]').forEach(e => { e.disabled = m.value !== 'auto'; e.closest('label').style.opacity = m.value === 'auto' ? '' : '.45'; });
+  const m = root.querySelector('[data-k="mode"]'), hint = root.querySelector('[data-hint]');
+  const sync = () => {
+    root.querySelectorAll('[data-k="account"],[data-k="auto_privacy"],[data-k="hide_likes"]').forEach(e => { e.disabled = m.value !== 'auto'; e.closest('label').style.opacity = m.value === 'auto' ? '' : '.45'; });
+    if (hint) hint.textContent = MODE_HINT[m.value];
+  };
   m.onchange = sync; sync();
 }
 function readSettings(root) {
   const o = {};
-  root.querySelectorAll('[data-k]').forEach(e => { o[e.dataset.k] = e.type === 'checkbox' ? e.checked : e.type === 'number' ? +e.value : e.value; });
+  root.querySelectorAll('[data-k]').forEach(e => { if (e.type === 'radio') { if (e.checked) o[e.dataset.k] = e.value; return; } o[e.dataset.k] = e.type === 'checkbox' ? e.checked : e.type === 'number' ? +e.value : (e.tagName === 'SELECT' && e.dataset.k === 'num_clips') ? +e.value : e.value; });
   o.enabled = o.mode !== 'off'; o.auto = o.mode === 'auto'; delete o.mode;
+  o.min_score = Math.max(0, Math.min(100, o.min_score || 0));
   return o;
 }
-async function loadHome() {
+/* step-by-step setup shown when you press Follow */
+function followWizard(r) {
+  const v = { ...FOLLOW_DEFAULTS, account: S.account || 'default' };
+  const steps = [['Upload & automation', grpUpload(v)], ['Picking clips', grpPick(v)], ['Edit style', grpPreset(v)]];
+  return dialog(`<div class="wiz"><div class="wz-head">${r.thumb ? `<img class="avatar" alt="" src="${esc(r.thumb)}">` : `<span class="avatar">${esc((r.name || '?')[0].toUpperCase())}</span>`}
+      <div><h3 style="margin:0">Follow ${esc(r.name)}</h3><span class="mut">${esc(fmtSubs(r.subs))}</span></div></div>
+    <ol class="wz-dots">${steps.map((s, i) => `<li data-i="${i}"><span>${i + 1}</span>${esc(s[0])}</li>`).join('')}</ol>
+    ${steps.map((s, i) => `<div class="wz-step" data-s="${i}" hidden>${s[1]}</div>`).join('')}
+    <div class="acts"><button class="s" data-c>Cancel</button><button class="s" data-back>Back</button><button class="p" data-next>Next</button></div></div>`,
+    (h, close) => {
+      h.querySelector('.dlg').classList.add('wide');
+      wireMode(h);
+      const pvShow = wirePresetPreview(h, v, () => close(null));
+      let i = 0;
+      const show = () => {
+        h.querySelectorAll('.wz-step').forEach((el, k) => { el.hidden = k !== i; });
+        h.querySelectorAll('.wz-dots li').forEach((el, k) => { el.className = k === i ? 'on' : k < i ? 'done' : ''; });
+        h.querySelector('[data-back]').hidden = i === 0; h.querySelector('[data-c]').hidden = i > 0;
+        h.querySelector('[data-next]').textContent = i === steps.length - 1 ? `Follow ${r.name}` : 'Next';
+        if (i === steps.length - 1) pvShow();
+      };
+      h.querySelector('[data-c]').onclick = () => close(null);
+      h.querySelector('[data-back]').onclick = () => { i = Math.max(0, i - 1); show(); };
+      h.querySelector('[data-next]').onclick = () => {
+        const cur = readSettings(h);
+        if (cur.min_len >= cur.max_len) { toast('Shortest clip must be shorter than the longest clip.', { type: 'bad' }); i = 1; show(); return; }
+        if (i < steps.length - 1) { i++; show(); return; }
+        close(cur);
+      };
+      show();
+    });
+}
+async function drawAiUse() {
+  const box = $('#aiuse'); if (!box) return;
+  try {
+    const u = await api('/api/ai-usage');
+    const row = (b) => b.by_what.length ? b.by_what.map(([k, n]) => `<li><span>${esc(k)}</span><b>${n}</b></li>`).join('') : '<li class="mut">Nothing yet</li>';
+    const prov = (b) => b.by_provider.map(([k, n]) => `${esc(k)} ${n}`).join(' · ') || '';
+    box.innerHTML = `<h2 style="margin:0 0 4px">AI usage</h2><p class="mut" style="margin:0 0 10px">Requests sent to AI services. Transcription, face tracking and rendering run on your PC and are not counted.</p>
+      <div class="row" style="gap:28px;align-items:flex-start">
+        <div><div class="mut">Today</div><div style="font-size:26px;font-weight:700">${u.today.requests}</div><small class="mut">${u.today.failed} failed${u.today.tokens ? ' · ' + u.today.tokens.toLocaleString() + ' tokens' : ''}</small><ul class="aiu">${row(u.today)}</ul><small class="mut">${prov(u.today)}</small></div>
+        <div><div class="mut">Last 7 days</div><div style="font-size:26px;font-weight:700">${u.week.requests}</div><small class="mut">${u.week.failed} failed${u.week.tokens ? ' · ' + u.week.tokens.toLocaleString() + ' tokens' : ''}</small><ul class="aiu">${row(u.week)}</ul><small class="mut">${prov(u.week)}</small></div>
+      </div>`;
+  } catch { box.innerHTML = ''; }
+}
+/* ---------- Explainers: 2D explainer videos ---------- */
+let xTimer = null, xOpts = null, xEditing = null, xParseT = null, xParseSeq = 0;
+const xPrompt = (long) => `Write a ${long ? '2.5-minute' : '40-second'} vertical explainer video script about: [TOPIC].
+${long ? 'Use between 400 and 450 spoken words in total (count them, never more than 450), split into 18 to 22 scenes.\nEvery VOICE line is 15 to 28 words: two short sentences, never a fragment.\nStructure: a hook, 4 short sections that each make one clear point with an example, a quick recap, and a payoff.' : 'Use 95 to 105 spoken words in total, split into 6 to 8 scenes of 3 to 6 seconds each (8 to 18 words per scene).'}
+Start with a curiosity gap in the first 6 words (no greeting). End with a payoff, never "like and subscribe".
+Only use facts you are sure of, and add a SOURCE: line for every number. Never invent numbers for a chart.
+Write for the ear: short sentences, plain words, numbers written as words in VOICE, no emojis, no brackets.
+${long ? 'Use at least 7 different VISUAL types and never the same one twice in a row.' : 'Use at least 4 different VISUAL types across the scenes.'}
+Use exactly this format:
+
+TITLE: (3 to 6 words)
+HOOK: (max 8 words shown on screen at the start, not spoken)
+
+SCENE 1
+VOICE: the exact words to speak
+VISUAL: one of text, counter, list, bars, compare, flow, quote, donut, stats, timeline
+TEXT: what shows on screen, items separated by |
+      counter: the number, like 20% | of your energy
+      quote: the quote | who said it
+      timeline: 1969: Moon landing | 1989: Berlin wall   (a short year or date, a colon, the event)
+DATA: only for bars, donut, stats or compare: Brain=20; Heart=8; Liver=5   (real numbers, same unit)
+ICON: 1 to 3 simple object words (brain, battery, clock)
+TONE: neutral, calm, serious, energetic, excited, slow or fast
+PAUSE: seconds of silence after the scene (0.2 to 0.8)
+SPEAKER: 2   (optional: a second voice, good for quotes)
+SOURCE: where a number comes from (optional)
+
+SCENE 2 ... (repeat).`;
+const xDur = (n) => n == null ? '' : Math.round(n) + ' s';
+async function loadExplainers() {
+  if (!xOpts) { try { xOpts = await api('/api/explainers/options'); } catch (e) { return toast(e.message, { type: 'bad' }); } fillXOpts(); }
+  xShowPrompt();
+  drawXList();
+  xParse();
+}
+const xLong = () => $('#xlen').value === 'long';
+function xShowPrompt() { $('#xfmt').textContent = xPrompt(xLong()); }
+function fillXOpts() {
+  const o = xOpts, d = o.default;
+  $('#xlen').innerHTML = '<option value="short">Short (about 40 seconds)</option><option value="long">Long (up to 3 minutes)</option>';
+  $('#xlen').onchange = () => { xShowPrompt(); xParse(); };
+  $('#xvoice2').innerHTML = '<option value="">Same voice</option>' + o.voices.filter(v => v.id !== 'windows').map(v => `<option value="${esc(v.id)}">${esc(v.name)}</option>`).join('');
+  $('#xvoice').innerHTML = o.voices.map(v => `<option value="${esc(v.id)}">${esc(v.name)}</option>`).join('');
+  $('#xtheme').innerHTML = o.themes.map(t => `<option value="${esc(t)}">${esc(t[0].toUpperCase() + t.slice(1))}</option>`).join('');
+  $('#xcap').innerHTML = (meta.sub_styles || ['bold_yellow', 'clean_white', 'green_pop']).map(k => `<option value="${esc(k)}">${esc((CAP[k] || [k])[0])}</option>`).join('');
+  $('#xmusic').innerHTML = '<option value="">No music</option>' + o.tracks.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('');
+  setXStyle(d);
+  $('#xrate').oninput = () => { $('#xratev').textContent = ($('#xrate').value > 0 ? '+' : '') + $('#xrate').value + '%'; };
+  $('#xscript').oninput = () => { clearTimeout(xParseT); xParseT = setTimeout(xParse, 400); };
+  $('#xcopy').onclick = () => navigator.clipboard.writeText(xPrompt(xLong())).then(() => toast('Prompt copied. Replace [TOPIC] and paste the answer into the script box.', { type: 'ok', ms: 4000 }));
+  $('#xwrite').onclick = () => busy($('#xwrite'), async () => {
+    try { const r = await send('/api/explainers/write', { topic: $('#xtopic').value, length: $('#xlen').value }); $('#xscript').value = r.script; xParse(); toast('Script written. Read it and fix anything wrong before you make the video.', { type: 'ok', ms: 6000 }); }
+    catch (e) { toast(e.message, { type: 'bad' }); }
+  });
+  $('#xgo').onclick = () => busy($('#xgo'), async () => {
+    try {
+      const body = { script: $('#xscript').value, style: getXStyle() };
+      if (xEditing) await send('/api/explainers/' + xEditing, body, 'PUT'); else await send('/api/explainers', body);
+      toast(xLong() ? 'Making the video. A long one takes several minutes.' : 'Making the video. This takes a minute or two.', { type: 'ok', ms: 5000 });
+      xResetForm(); drawXList();
+    } catch (e) { toast(e.message, { type: 'bad' }); }
+  });
+  $('#xnew').onclick = xResetForm;
+}
+function getXStyle() {
+  return { voice: $('#xvoice').value, voice2: $('#xvoice2').value, length: $('#xlen').value, rate: +$('#xrate').value, theme: $('#xtheme').value, caption_style: $('#xcap').value, music: { track: $('#xmusic').value || null, volume: 12, duck: true } };
+}
+function setXStyle(s) {
+  $('#xvoice').value = s.voice; $('#xvoice2').value = s.voice2 || ''; $('#xlen').value = s.length || 'short'; xShowPrompt(); $('#xrate').value = s.rate || 0; $('#xrate').oninput && $('#xrate').oninput(); $('#xtheme').value = s.theme; $('#xcap').value = s.caption_style;
+  $('#xmusic').value = (s.music && s.music.track) || '';
+}
+function xResetForm() {
+  xEditing = null; $('#xscript').value = ''; $('#xtopic').value = ''; $('#xhead').textContent = 'New 2D explainer'; $('#xgo').textContent = 'Make video'; $('#xnew').hidden = true; setXStyle(xOpts.default); xParse();
+}
+async function xParse() {
+  const box = $('#xparse'); if (!box) return;
+  const text = $('#xscript').value, my = ++xParseSeq;
+  if (!text.trim()) { box.innerHTML = ''; return; }
+  let p; try { p = await send('/api/explainers/parse', { script: text, length: $('#xlen').value }); } catch { return; }
+  if (my !== xParseSeq) return;
+  const over = p.total_est > p.limit;
+  box.innerHTML = `<div class="${over ? 'field-err' : 'mut'}"><b>${p.scenes.length}</b> scene${p.scenes.length === 1 ? '' : 's'} · about <b>${Math.round(p.total_est)} s</b>${p.title ? ' · ' + esc(p.title) : ''}</div>` +
+    p.warnings.map(w => `<div class="field-err">${esc(w)}</div>`).join('') +
+    `<div class="xscenes">${p.scenes.map(s => `<div class="xsc"><span class="pill idle">${esc(s.type)}</span>${s.icons[0] ? `<span>${s.icons[0]}</span>` : ''}<span class="xv">${esc(s.voice)}</span><small class="mut">${s.est}s${s.tone !== 'neutral' ? ' · ' + esc(s.tone) : ''}${s.speaker === '2' ? ' · voice 2' : ''}</small></div>`).join('')}</div>`;
+}
+async function explainerUpload(x, btn) {
   await loadAccts();
+  let r; try { r = await api('/api/explainers/' + x.id); } catch (e) { return toast(e.message, { type: 'bad' }); }
+  let hook = ''; try { hook = (await send('/api/explainers/parse', { script: r.script, length: (r.style || {}).length })).hook || ''; } catch { /* optional */ }
+  const v = await dialog(`<h3>Upload to YouTube</h3><p class="mut">Goes through the normal upload queue, so it also shows on the Uploads page.</p>
+    <label>Title<input id="xu_t" maxlength="100" value="${esc(x.title)}"></label>
+    <label>Description<textarea id="xu_d" rows="4" maxlength="4000">${esc(hook)}</textarea></label>
+    <div class="row" style="gap:10px;flex-wrap:wrap"><label>Channel<select id="xu_a" class="acct"></select></label>
+      <label>Who can see it<select id="xu_p"><option value="private">Only me (private)</option><option value="unlisted">Anyone with the link</option><option value="public">Public</option></select></label></div>
+    <label class="row" style="gap:8px;align-items:center"><input type="checkbox" id="xu_h" ${S.hideLikes !== false ? 'checked' : ''}> Hide the like count</label>
+    <div class="acts" style="margin-top:14px"><button class="s" data-c>Cancel</button><button class="p" data-ok>Upload</button></div>`,
+    (h, close) => {
+      fillAcct(h.querySelector('#xu_a'));
+      h.querySelector('[data-c]').onclick = () => close(null);
+      h.querySelector('[data-ok]').onclick = () => {
+        const title = h.querySelector('#xu_t').value.trim(); if (!title) return toast('Give it a title.', { type: 'warn' });
+        close({ title, description: h.querySelector('#xu_d').value, account: h.querySelector('#xu_a').value, privacy: h.querySelector('#xu_p').value, hide_likes: h.querySelector('#xu_h').checked });
+      };
+    });
+  if (!v) return;
+  await busy(btn, async () => {
+    try {
+      const b = await send(`/api/explainers/${x.id}/bridge`, {});
+      await send(`/api/jobs/${b.job_id}/clips/${b.clip_id}/publish/youtube-web`, v);
+      toast('Added to the upload queue.', { type: 'ok', ms: 5000, action: { label: 'View', run: () => { location.hash = '#/uploads'; } } });
+      $('#xlist').dataset.sig = ''; drawXList();
+    } catch (e) { toast(e.message, { type: 'bad' }); }
+  });
+}
+async function drawXList() {
+  const box = $('#xlist'); if (!box) return;
+  let items = []; try { items = await api('/api/explainers'); } catch { return; }
+  const busyAny = items.some(x => x.status === 'queued' || x.status === 'running' || ['queued', 'uploading'].includes((x.upload || {}).status));
+  clearInterval(xTimer); if (busyAny && !$('#page-explainers').hidden) xTimer = setInterval(drawXList, 2500);
+  if (!items.length) { box.innerHTML = '<div class="mut" style="padding:10px 2px">Nothing yet. Your finished videos will show up here.</div>'; return; }
+  const sig = JSON.stringify(items); if (box.dataset.sig === sig) return; box.dataset.sig = sig;
+  box.innerHTML = '';
+  items.forEach(x => {
+    const d = document.createElement('div'); d.className = 'xcard';
+    const ready = x.status === 'ready';
+    d.innerHTML = `<div class="xvid">${ready ? `<video src="/explainers/${esc(x.id)}/out.mp4?v=${x.version}" poster="/explainers/${esc(x.id)}/thumb.jpg?v=${x.version}" controls playsinline preload="metadata"></video>`
+      : x.status === 'error' ? `<div class="vph err">${esc(x.error || 'Failed')}</div>` : `<div class="vph"><span class="spin"></span><div>${esc(x.stage)}</div><div class="minibar"><i style="width:${x.progress || 0}%"></i></div></div>`}</div>
+      <div class="xb"><b>${esc(x.title)}</b><small class="mut">${ready ? xDur(x.duration) + ' · ' + (x.scenes || []).length + ' scenes' : esc(x.stage || '')}</small>
+      ${(x.warnings || []).map(w => `<small class="field-err">${esc(w)}</small>`).join('')}
+      ${(() => { const u = x.upload || {}, c = { queued: ['idle', u.note || 'Waiting to upload'], uploading: ['run', 'Uploading ' + (u.note || '')], done: ['ok', 'Uploaded'], error: ['bad', 'Upload failed'], cancelled: ['idle', 'Upload stopped'] }[u.status]; return c ? `<span class="pill ${c[0]}" title="${esc(u.error || '')}">${esc(c[1])}</span>${u.status === 'done' && u.url ? `<a href="${esc(u.url)}" target="_blank" rel="noopener" class="mut">Open on YouTube</a>` : ''}` : ''; })()}
+      <div class="row" style="gap:6px;margin-top:6px;flex-wrap:wrap">${ready ? `<a class="btn s sm" download href="/explainers/${esc(x.id)}/out.mp4">${icon('download', 'sm')}Download</a><button class="p sm" data-up ${['queued', 'uploading'].includes((x.upload || {}).status) ? 'disabled' : ''}>${icon('upload', 'sm')}${(x.upload || {}).status === 'done' ? 'Upload again' : 'Upload'}</button>` : ''}
+        <button class="s sm" data-edit ${x.status === 'running' || x.status === 'queued' ? 'disabled' : ''}>Edit script</button><button class="s sm danger" data-del ${x.status === 'running' || x.status === 'queued' ? 'disabled' : ''}>Delete</button></div></div>`;
+    const upBtn = d.querySelector('[data-up]');
+    if (upBtn) upBtn.onclick = () => explainerUpload(x, upBtn);
+    d.querySelector('[data-edit]').onclick = async () => {
+      let r; try { r = await api('/api/explainers/' + x.id); } catch (e) { return toast(e.message, { type: 'bad' }); }
+      xEditing = x.id; $('#xscript').value = r.script; setXStyle(r.style); $('#xhead').textContent = 'Edit: ' + (r.title || 'explainer'); $('#xgo').textContent = 'Update video (only changed scenes are redrawn)'; $('#xnew').hidden = false;
+      xParse(); $('#xform').scrollIntoView({ behavior: 'smooth' });
+    };
+    d.querySelector('[data-del]').onclick = async () => {
+      if (!await ask({ title: 'Delete this explainer?', text: 'The video file is deleted. This cannot be undone.', ok: 'Delete', danger: true })) return;
+      try { await api('/api/explainers/' + x.id, { method: 'DELETE' }); if (xEditing === x.id) xResetForm(); box.dataset.sig = ''; drawXList(); } catch (e) { toast(e.message, { type: 'bad' }); }
+    };
+    box.appendChild(d);
+  });
+}
+
+/* ---------- Home: paste a link + recommended videos ---------- */
+const fmtV = (n) => n == null ? '' : (n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '') + 'M' : n >= 1e3 ? Math.round(n / 1e3) + 'K' : String(n)) + ' views';
+const fmtLen = (s) => s >= 3600 ? Math.floor(s / 3600) + ':' + String(Math.floor(s % 3600 / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0') : mmss(s);
+async function quickClip(url, title, btn, presetOverride, accountOverride) {
+  const preset = presetOverride || $('#qpreset').value || null, account = accountOverride || $('#qacct').value || 'default';
+  store.set('qpreset', preset);
+  return busy(btn, async () => {
+    try {
+      const res = await send('/api/quickclip', { url, account, preset, title: title || null });
+      toast('Started. The clips will be ready to choose in Projects.', { type: 'ok', ms: 6000, action: { label: 'View', run: () => { location.hash = '#/projects/' + res.job; } } });
+      return true;
+    } catch (e) { toast(e.message, { type: 'bad' }); }
+  });
+}
+function drawQuick() {
+  const pre = $('#qpreset'), want = store.get('qpreset', null);
+  pre.innerHTML = presetList.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join('');
+  if (want && presetList.some(p => p.id === want)) pre.value = want;
+  fillAcct($('#qacct'));
+  $('#qgo').onclick = () => { const u = $('#qurl').value.trim(); if (!u) return toast('Paste a YouTube link first.', { type: 'warn' }); quickClip(u, null, $('#qgo')).then((ok) => { if (ok) $('#qurl').value = ''; }); };
+  $('#qurl').onkeydown = (e) => { if (e.key === 'Enter') $('#qgo').click(); };
+}
+let recAcct = null, recFilter = 'all', recSeq = 0;
+async function drawRecs(refresh) {
+  const box = $('#recs'); if (!box) return;
+  if (!recAcct || !accts.some(a => a.id === recAcct)) recAcct = (accts.find(a => a.id === S.account) || accts[0] || {}).id || 'default';
+  const my = ++recSeq, acct = accts.find(a => a.id === recAcct) || {};
+  box.innerHTML = `<h2>${icon('sparkles')}Recommended videos</h2><div class="seg" id="rtabs" role="tablist">${accts.map(a => `<button type="button" role="tab" class="${a.id === recAcct ? 'on' : ''}" data-a="${esc(a.id)}">${esc(a.name)}</button>`).join('')}</div>
+    <div class="mut" style="padding:14px 2px"><span class="spin"></span> Finding videos for ${esc(acct.name || 'this channel')}…</div>`;
+  box.querySelectorAll('#rtabs button').forEach(b => b.onclick = () => { recAcct = b.dataset.a; drawRecs(); });
+  let r; try { r = await api('/api/recs?account=' + encodeURIComponent(recAcct) + (refresh ? '&refresh=true' : '')); } catch (e) { if (my === recSeq) box.querySelector('.mut').innerHTML = `<span class="field-err">${esc(e.message)}</span>`; return; }
+  if (my !== recSeq) return;
+  const items = r.items.filter(v => recFilter === 'all' || (recFilter === 'follow' ? v.following : !v.following));
+  box.innerHTML = `<div class="row" style="justify-content:space-between;align-items:center"><h2 style="margin:0">${icon('sparkles')}Recommended videos</h2><button class="s sm" id="rref" type="button">${icon('refresh', 'sm')}Refresh</button></div>
+    <div class="seg" id="rtabs" role="tablist" style="margin-top:10px">${accts.map(a => `<button type="button" role="tab" class="${a.id === recAcct ? 'on' : ''}" data-a="${esc(a.id)}">${esc(a.name)}</button>`).join('')}</div>
+    <div class="row" style="gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap"><label class="grow" style="min-width:240px">Topics for this channel (separate with commas)<input id="rtopics" value="${esc(r.topics.join(', '))}" maxlength="200"></label><button class="s sm" id="rtsave" type="button" style="align-self:end">Save topics</button></div>
+    <div class="seg" id="rfil" style="margin-top:10px">${[['all', 'All'], ['follow', 'From creators I follow'], ['new', 'New channels']].map(([k, l]) => `<button type="button" class="${k === recFilter ? 'on' : ''}" data-f="${k}">${l}</button>`).join('')}</div>
+    <p class="mut" style="margin:8px 0 0">Long videos (8 min to 3 h) uploaded this month, most viewed first. Videos you already clipped are hidden.</p>
+    <div class="rgrid" id="rgrid">${items.length ? '' : '<div class="mut" style="padding:14px 2px">Nothing to show. Try different topics.</div>'}</div>`;
+  box.querySelectorAll('#rtabs button').forEach(b => b.onclick = () => { recAcct = b.dataset.a; drawRecs(); });
+  box.querySelectorAll('#rfil button').forEach(b => b.onclick = () => { recFilter = b.dataset.f; drawRecs(); });
+  $('#rref').onclick = () => drawRecs(true);
+  $('#rtsave').onclick = () => busy($('#rtsave'), async () => { try { await send(`/api/accounts/${recAcct}/topics`, { topics: $('#rtopics').value }, 'PUT'); await loadAccts(); toast('Topics saved', { type: 'ok', ms: 1500 }); drawRecs(true); } catch (e) { toast(e.message, { type: 'bad' }); } });
+  const grid = $('#rgrid');
+  items.forEach(v => {
+    const d = document.createElement('div'); d.className = 'rcard';
+    d.innerHTML = `<a class="rth" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener" title="Watch on YouTube"><img loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg"><span class="rdur">${fmtLen(v.duration)}</span></a>
+      <div class="rb"><b title="${esc(v.title)}">${esc(v.title)}</b><small class="mut">${esc(v.channel)}${v.views != null ? ' · ' + fmtV(v.views) : ''}</small>
+      <div class="row" style="gap:6px;align-items:center;margin-top:6px"><span class="pill ${v.following ? 'ok' : 'idle'}">${v.following ? 'Following' : 'New channel'}</span></div>
+      <div class="row" style="gap:6px;align-items:center;margin-top:6px"><select class="rpre grow" aria-label="Edit type" title="Edit type for this clip" style="min-width:0">${presetList.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join('')}</select><button class="p sm" type="button">Clip it</button></div></div>`;
+    const sel = d.querySelector('.rpre'), want = store.get('qpreset', null);
+    if (want && presetList.some(p => p.id === want)) sel.value = want;
+    d.querySelector('button').onclick = (e) => { const b = e.currentTarget; quickClip('https://www.youtube.com/watch?v=' + v.id, v.title, b, sel.value, recAcct).then((ok) => { if (ok) d.remove(); }); };
+    grid.appendChild(d);
+  });
+}
+
+async function loadHome() {
+  drawAiUse();
+  await Promise.all([loadAccts(), loadPresets()]);
+  drawQuick(); drawRecs();
   const list = $('#hlist');
   let cs = []; try { cs = await api('/api/creators'); } catch { toast("Couldn't load creators.", { type: 'bad' }); }
+  let paused = []; try { paused = ((await api('/api/auto/status')).stops || []).map(x => x.account); } catch { }
   $('#hcount').textContent = cs.length ? cs.length + ' followed' : '';
   list.innerHTML = cs.length ? '' : `<div class="empty-state" style="grid-column:1/-1"><div class="big">${icon('users')}</div><h3>You're not following anyone yet</h3><p>Search for a channel above and press Follow.</p></div>`;
   cs.forEach(c => {
     const acct = (accts.find(a => a.id === (c.options.account || 'default')) || {}).name || 'Main channel';
     const d = document.createElement('div'); d.className = 'hcard'; d.tabIndex = 0;
     d.innerHTML = `<span class="avatar lg">${esc((c.name || '?')[0].toUpperCase())}</span><b>${esc(c.name)}</b>
-      <span class="pill ${!c.enabled ? 'idle' : c.options.auto ? 'ok' : 'run'}">${!c.enabled ? 'Paused' : c.options.auto ? 'Full auto' : 'Clips only'}</span>
-      <small class="mut">${c.options.auto ? '→ ' + esc(acct) : 'No upload'}</small>`;
+      <span class="pill ${!c.enabled ? 'idle' : c.options.auto ? (paused.includes(c.options.account || 'default') ? 'bad' : 'ok') : 'run'}" ${c.enabled && c.options.auto && paused.includes(c.options.account || 'default') ? 'title="Uploads for this channel are paused. Press Resume in the banner at the top."' : ''}>${!c.enabled ? 'Not checking' : c.options.auto ? (paused.includes(c.options.account || 'default') ? 'Uploads paused' : 'Full auto') : 'Clips only'}</span>
+      <small class="mut">${c.options.auto ? '→ ' + esc(acct) : 'No upload'}</small><small class="mut">${esc(presetName(c.preset) || 'Custom look')}</small>`;
     d.onclick = () => openCreator(c).then(loadHome);
     d.onkeydown = (e) => { if (e.key === 'Enter') d.click(); };
     list.appendChild(d);
   });
-  const body = $('#hdefBody');
-  if (!body.dataset.ready) {
-    let v = {}; try { v = await api('/api/creators/defaults'); } catch { }
-    body.innerHTML = settingsForm(v) + '<div class="acts"><button class="p" id="hdefSave">Save defaults</button></div>'; wireMode(body);
-    body.dataset.ready = 1;
-    $('#hdefSave').onclick = (e) => busy(e.currentTarget, async () => {
-      try { await send('/api/creators/defaults', readSettings(body), 'PUT'); toast('Defaults saved. New creators will start with these.', { type: 'ok' }); } catch (err) { toast(err.message, { type: 'bad' }); }
-    });
-  }
 }
 let hqT, hqSeq = 0;
 $('#hq').addEventListener('input', () => {
@@ -983,16 +1654,24 @@ $('#hq').addEventListener('input', () => {
         d.innerHTML = `${r.thumb ? `<img class="avatar" alt="" src="${esc(r.thumb)}">` : `<span class="avatar">${esc((r.name || '?')[0].toUpperCase())}</span>`}<div class="meta"><b>${esc(r.name)}</b><span class="mut">${esc(fmtSubs(r.subs)) || '&nbsp;'}</span></div>
           ${r.following ? '<span class="pill ok">Following</span>' : '<button class="p sm">Follow</button>'}`;
         const b = d.querySelector('button');
-        if (b) b.onclick = () => busy(b, async () => {
-          try { await send('/api/creators/follow', { channel_id: r.channel_id, name: r.name }); toast(`Following ${r.name}. Tap them below to pick videos or change settings.`, { type: 'ok' }); b.outerHTML = '<span class="pill ok">Following</span>'; loadHome(); }
-          catch (err) { toast(err.message, { type: 'bad' }); }
-        });
+        if (b) b.onclick = async () => {
+          await Promise.all([loadAccts(), loadPresets()]);
+          const st = await followWizard(r); if (!st) return;
+          busy(b, async () => {
+            try { await send('/api/creators/follow', { channel_id: r.channel_id, name: r.name, ...st }); toast(`Following ${r.name}.`, { type: 'ok' }); b.outerHTML = '<span class="pill ok">Following</span>'; loadHome(); }
+            catch (err) { toast(err.message, { type: 'bad' }); }
+          });
+        };
         box.appendChild(d);
       });
     } catch (err) { if (my === hqSeq) box.innerHTML = `<div class="field-err">${esc(err.message)}</div>`; }
   }, 450);
 });
 $('#hq').addEventListener('keydown', (e) => { if (e.key === 'Escape') { e.target.value = ''; $('#hres').innerHTML = ''; } });
+$('#checknow').onclick = (e) => busy(e.currentTarget, async () => {
+  try { const r = await api('/api/creators/check', { method: 'POST' }); r.queued.length ? toast(`Queued ${r.queued.length} new video${r.queued.length > 1 ? 's' : ''}`, { type: 'ok', action: { label: 'View', run: () => { location.hash = '#/projects'; } } }) : toast('No new videos yet.'); }
+  catch (err) { toast(err.message, { type: 'bad' }); }
+});
 
 /* ===================== clip editor ===================== */
 let ed = null, draft = null, edCtx = null, pubTimer = null, applyPoll = null, snap0 = '';
@@ -1011,8 +1690,19 @@ async function closeModal(silent = false) {
   return true;
 }
 const videoHTML = (jid, c) => c.status === 'ready' || c.version > 0
-  ? `<video src="/media/${jid}/clips/${c.id}.mp4?v=${c.version}" controls playsinline loop ${c.status === 'ready' ? 'autoplay muted' : ''}></video>`
+  ? `<video src="/media/${jid}/clips/${c.id}.mp4?v=${c.version}" controls playsinline loop preload="metadata"></video>`
   : `<div class="vph">${c.status === 'error' ? 'Render failed' : 'Rendering…'}</div>`;
+
+function styleHTML(job, c) {
+  const o = job.options || {}, pr = presetList.find(p => p.id === o.preset);
+  const rt = c.params.retention, on = rt ? Object.values(rt).filter(Boolean).length : 0, n = rt ? Object.keys(rt).length : 0;
+  const res = c.results || {};
+  return `<div class="stylebox"><div class="mut">Style: <b>${esc(pr ? pr.name : 'custom')}</b> · Retention tools: ${rt ? `${on} of ${n} on` : 'not used (older clip)'}</div>
+    <div class="row" style="gap:6px;align-items:center;margin-top:6px"><span class="mut">YouTube results:</span>
+      <input id="resPct" type="number" min="0" max="100" step="0.1" placeholder="% stayed" value="${res.watched_pct ?? ''}" style="width:90px" aria-label="Percent who stayed to watch">
+      <input id="resViews" type="number" min="0" step="1" placeholder="views" value="${res.views ?? ''}" style="width:90px" aria-label="Views">
+      <button class="s sm" id="resSave" type="button">Save</button></div></div>`;
+}
 
 function ratingHTML(c) {
   const r = c.rating;
@@ -1027,6 +1717,7 @@ function ratingHTML(c) {
 
 async function openClip(jid, cid) {
   let job; try { job = await api('/api/jobs/' + jid); } catch { return toast('Couldn\'t open that clip.', { type: 'bad' }); }
+  if (job.source === 'explainer') return toast('Explainer videos are edited in the Explainers tab.', { type: 'warn', ms: 4000 });
   curJob = job; const c = job.clips.find(x => x.id === cid); if (!c) return;
   const base = clone(c.params);
   draft = { ...base, captions: base.captions || null, layout: base.layout || clone(layouts.find(l => l.id === base.layout_id) || layouts[0]), overlays: base.overlays || [] };
@@ -1038,6 +1729,7 @@ async function openClip(jid, cid) {
       <div class="mvid" id="mvid">${videoHTML(jid, c)}</div>
       <div class="mside">
         ${ratingHTML(c)}
+        ${styleHTML(job, c)}
         <p class="hint" style="margin-top:0">${esc(c.reason)}</p>
         <div class="tabs" role="tablist">
           <button data-t="layout" class="on" role="tab">${icon('layout', 'sm')}Layout</button><button data-t="text" role="tab">${icon('type', 'sm')}Captions &amp; text</button>
@@ -1050,6 +1742,11 @@ async function openClip(jid, cid) {
   hydrateIcons($('#mbox'));
   $$('[data-copycap]').forEach(b => b.onclick = () => navigator.clipboard.writeText(b.dataset.copycap).then(() => toast('Caption copied', { type: 'ok', ms: 1800 })));
   $('#mclose').onclick = () => closeModal();
+  const rsave = $('#resSave');
+  if (rsave) rsave.onclick = async () => {
+    try { await send(`/api/jobs/${jid}/clips/${cid}/results`, { watched_pct: $('#resPct').value.trim() === '' ? null : $('#resPct').value, views: $('#resViews').value.trim() === '' ? null : $('#resViews').value }, 'PUT'); toast('Results saved', { type: 'ok', ms: 1800 }); }
+    catch (e) { toast(e.message, { type: 'bad' }); }
+  };
   const tabs = $$('.tabs button');
   const showTab = (t) => { tabs.forEach(x => { x.classList.toggle('on', x === t); x.setAttribute('aria-selected', x === t); }); $$('[data-p]').forEach(p => { p.hidden = p.dataset.p !== t.dataset.t; }); if (t.dataset.t === 'pub') drawPub(); if (t.dataset.t === 'text' && edCtx && edCtx.reloadCaps) edCtx.reloadCaps(); };
   tabs.forEach(b => { b.onclick = () => showTab(b); b.onkeydown = (e) => { const i = tabs.indexOf(b); if (e.key === 'ArrowRight') { tabs[(i + 1) % 4].focus(); showTab(tabs[(i + 1) % 4]); } if (e.key === 'ArrowLeft') { tabs[(i + 3) % 4].focus(); showTab(tabs[(i + 3) % 4]); } }; });

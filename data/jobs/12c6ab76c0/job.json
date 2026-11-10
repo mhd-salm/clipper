@@ -1,0 +1,1921 @@
+{
+  "id": "12c6ab76c0",
+  "created": 1794136759.5445528,
+  "url": "https://www.youtube.com/watch?v=c2UegpzAt4c",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Curtis \u201c50 Cent\u201d Jackson on Beefing with Diddy, Being Intimidated by De Niro & Making Street Fighter",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 89,
+        "shareability": 92,
+        "overall": 89,
+        "hook_text": "How did Diddy watch his documentary in prison?",
+        "tip": "Trim the brief pause where he recalls the club location to keep the story pacing crisp.",
+        "caption": "50 Cent reveals how Sean Diddy Combs reacted to his documentary while in prison.",
+        "description": "Curtis 50 Cent Jackson shares an unbelievable story about Sean Diddy Combs watching a documentary about himself on a smuggled tablet in prison. He also recalls getting a surprising delivery at a club shortly after. What do you think about this wild story?",
+        "hashtags": [
+          "50cent",
+          "diddy",
+          "hiphopnews",
+          "popculture",
+          "documentary",
+          "celebritygossip"
+        ]
+      },
+      "id": "c1",
+      "title": "50 Cent Reveals Diddy's Jail iPad Reaction",
+      "reason": "50 Cent shares hilarious details about Diddy watching his documentary from prison on a jailbroken iPad.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 226.81,
+        "end": 281.62,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "How did Diddy watch his documentary in prison?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 226.81, 281.62]",
+        "items": [
+          {
+            "t": 7.0,
+            "dur": 1.5,
+            "phrase": "digital tablet in prison",
+            "said": "a jailbroken iPad in the middle of the jail.",
+            "alt": [
+              "jail cell screen",
+              "tablet device"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 13.6,
+            "dur": 2.5,
+            "phrase": "nightclub interior crowd",
+            "said": "This is a club.",
+            "alt": [
+              "dance club",
+              "party venue"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_1258.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 22.0,
+            "dur": 2.1,
+            "phrase": "person browsing internet",
+            "said": "for him to just scour the net",
+            "alt": [
+              "using tablet",
+              "web search"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_2294.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 34.6,
+            "dur": 1.6,
+            "phrase": "funeral floral arrangement",
+            "said": "he sent me like a funeral uh",
+            "alt": [
+              "condolence flowers",
+              "bouquet"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 41.5,
+            "dur": 2.7,
+            "phrase": "VIP nightclub entrance",
+            "said": "arrange Club 11.",
+            "alt": [
+              "party lounge",
+              "club interior"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_123709.mp4",
+            "conf": 60,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 49.6,
+            "dur": 2.2,
+            "phrase": "bump on head",
+            "said": "What did you send him? A bump ON THE",
+            "alt": [
+              "head injury bruise",
+              "painful hit"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/CVlUKOAbqzg",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794139686.761775
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 90,
+        "value": 91,
+        "shareability": 89,
+        "overall": 89,
+        "hook_text": "Riding in a car with DMX went wrong!",
+        "tip": "Subtitle his DMX impression with stylized fonts to heighten the comedic dramatic effect.",
+        "caption": "50 Cent recounts a terrifying driving experience with DMX in Manhattan.",
+        "description": "50 Cent tells an unforgettable story about riding in a car with the late rapper DMX in downtown Manhattan. What was supposed to be a quick studio break turned into a reckless wrong-way joyride. What is your favorite classic DMX memory?",
+        "hashtags": [
+          "50cent",
+          "dmx",
+          "hiphopstories",
+          "raplore",
+          "manhattan"
+        ]
+      },
+      "id": "c2",
+      "title": "The Time DMX Drove the Wrong Way Down a One-Way",
+      "reason": "50 Cent tells a terrifyingly funny story about riding in the car with the unpredictable DMX.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 744.17,
+        "end": 814.9,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Riding in a car with DMX went wrong!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 744.17, 814.9]",
+        "items": [
+          {
+            "t": 3.0,
+            "dur": 1.5,
+            "phrase": "recording studio mixing board",
+            "said": "went to a recording studio",
+            "alt": [
+              "audio recording booth",
+              "music studio"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_121113.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 19.6,
+            "dur": 2.5,
+            "phrase": "sitting in car interior",
+            "said": "we get in the car",
+            "alt": [
+              "getting into a car",
+              "car front seat"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_158316.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 25.0,
+            "dur": 2.1,
+            "phrase": "driver holding steering wheel",
+            "said": "And he started driving",
+            "alt": [
+              "person driving car",
+              "driving hands"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_133698.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 35.9,
+            "dur": 1.6,
+            "phrase": "downtown city street traffic",
+            "said": "Downtown Manhattan",
+            "alt": [
+              "urban street cars",
+              "city traffic"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_26115.mp4",
+            "conf": 100,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 49.0,
+            "dur": 2.7,
+            "phrase": "passenger looking stressed",
+            "said": "We was in the car",
+            "alt": [
+              "scared car passenger",
+              "person in car"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/v2wKtixUhUA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794139754.0131888
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 82,
+        "value": 88,
+        "shareability": 86,
+        "overall": 85,
+        "hook_text": "Robert De Niro took 50 Cent where?",
+        "tip": "Cut out the intro chatter and jump straight into De Niro taking him to the shooting range.",
+        "caption": "50 Cent describes an intense firing range meeting with Robert De Niro.",
+        "description": "Curtis 50 Cent Jackson shares a tense story about meeting legendary actor Robert De Niro at a shooting range before a movie role. De Niro questioned his commitment to acting in a surprisingly intimidating manner. How would you react if Robert De Niro tested you like this?",
+        "hashtags": [
+          "50cent",
+          "robertdeniro",
+          "actingstories",
+          "hollywood",
+          "celebritystories"
+        ]
+      },
+      "id": "c3",
+      "title": "When Robert De Niro Intimidated 50 Cent at a Firing Range",
+      "reason": "50 Cent shares a wild story about Robert De Niro testing him at a shooting range before a movie.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 669.85,
+        "end": 738.3,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Robert De Niro took 50 Cent where?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 669.85, 738.3]",
+        "items": [
+          {
+            "t": 7.0,
+            "dur": 1.5,
+            "phrase": "firing a gun",
+            "said": "I ended up shooting it with Val Kilmer,",
+            "alt": [
+              "shooting a pistol",
+              "firing weapon"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_131127.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 37.8,
+            "dur": 2.5,
+            "phrase": "indoor firing range",
+            "said": "he took me to a firing range. He did?",
+            "alt": [
+              "shooting range",
+              "gun range"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 44.7,
+            "dur": 2.1,
+            "phrase": "person shooting a gun",
+            "said": "at the firing range and we shooting and stuff",
+            "alt": [
+              "target practice",
+              "firing pistol"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_61418.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/SfD8lCa35ww",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794139803.5001051
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 75,
+        "value": 78,
+        "shareability": 84,
+        "overall": 80,
+        "hook_text": "The $750,000 Harry Potter reading challenge explained",
+        "tip": "Overlay a graphic pop-up of the original Harry Potter challenge clip for context.",
+        "caption": "50 Cent recalls offering Floyd Mayweather $750k to read one page of Harry Potter live.",
+        "description": "Curtis 50 Cent Jackson revisits his famous viral challenge offering Floyd Mayweather $750,000 to read a single page of Harry Potter on live TV. The hilarious bet remains one of the internet's most iconic moments. Do you remember when this bet first went viral?",
+        "hashtags": [
+          "50cent",
+          "floydmayweather",
+          "harrypotter",
+          "viralmoments",
+          "boxing"
+        ]
+      },
+      "id": "c4",
+      "title": "50 Cent's Viral Floyd Mayweather Harry Potter Bet",
+      "reason": "50 Cent recalls offering $750,000 for Floyd Mayweather to read a single page of Harry Potter.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 310.01,
+        "end": 330.3,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The $750,000 Harry Potter reading challenge explained",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 310.01, 330.3]",
+        "items": [
+          {
+            "t": 4.1,
+            "dur": 1.5,
+            "phrase": "person reading book",
+            "said": "read one page of Harry",
+            "alt": [
+              "reading a novel",
+              "holding open book"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_269207.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.5,
+            "dur": 2.5,
+            "phrase": "laughing group of friends",
+            "said": "funniest thing anyone has done",
+            "alt": [
+              "people laughing loudly",
+              "happy people socializing"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_232496.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/faD-k9Yd0LE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794139857.391348
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 72,
+        "value": 65,
+        "shareability": 74,
+        "overall": 70,
+        "hook_text": "Why did Vivica Fox turn down 50 Cent?",
+        "tip": "Add text on screen showing Vivica Fox's name as soon as she is mentioned.",
+        "caption": "50 Cent explains why his ex Vivica Fox turned down being in his documentary.",
+        "description": "50 Cent breaks down why his former partner Vivica Fox refused to participate in his latest documentary project. He humorously explains his rule about not paying documentary interviewees. Was she right to demand payment for her appearance?",
+        "hashtags": [
+          "50cent",
+          "vivicafox",
+          "celebrityexes",
+          "documentary",
+          "hiphop"
+        ]
+      },
+      "id": "c5",
+      "title": "Why Vivica Fox Refused to Be in 50 Cent's Doc",
+      "reason": "50 Cent hilariously explains why his ex Vivica Fox turned down appearing in his new documentary.",
+      "score": 70,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 399.49,
+        "end": 422.14,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why did Vivica Fox turn down 50 Cent?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 399.49, 422.14]",
+        "items": [
+          {
+            "t": 2.5,
+            "dur": 1.5,
+            "phrase": "woman refusing something",
+            "said": "She did not want to be in it.",
+            "alt": [
+              "disappointed woman",
+              "person saying no"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 13.8,
+            "dur": 2.5,
+            "phrase": "counting money cash",
+            "said": "how much I'm being paid",
+            "alt": [
+              "person getting paid",
+              "holding dollars"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_50622.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Yctwg0u2h6Y",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794139906.1603165
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 70,
+        "value": 68,
+        "shareability": 62,
+        "overall": 66,
+        "hook_text": "Why did 50 Cent punch his co-star?",
+        "tip": "Start the clip 3 seconds later right when he starts blaming his co-star for not ducking.",
+        "caption": "50 Cent reveals how an accidental punch happened on the movie set with Noah Centineo.",
+        "description": "Curtis 50 Cent Jackson talks about an accidental punch during movie fight choreography rehearsal with co-star Noah Centineo. He explains why the blame lands entirely on his fellow actor for forgetting to duck. Have you ever botched a stunt rehearsal?",
+        "hashtags": [
+          "50cent",
+          "noahcentineo",
+          "behindthescenes",
+          "moviestunts",
+          "streetfighter"
+        ]
+      },
+      "id": "c6",
+      "title": "How 50 Cent Accidentally Punched Noah Centineo",
+      "reason": "50 Cent explains how a fight scene rehearsal went wrong because his co-star failed to duck.",
+      "score": 66,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 633.85,
+        "end": 662.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why did 50 Cent punch his co-star?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 633.85, 662.26]",
+        "items": [
+          {
+            "t": 10.8,
+            "dur": 1.5,
+            "phrase": "throwing a punch",
+            "said": "you see the punches and everything",
+            "alt": [
+              "boxing punch",
+              "fight action"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_54875.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 18.4,
+            "dur": 2.5,
+            "phrase": "person ducking",
+            "said": "he didn't duck",
+            "alt": [
+              "avoiding a blow",
+              "dodging"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Zm71Urlj_i0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794139971.749034
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 62,
+        "retention": 68,
+        "value": 55,
+        "shareability": 58,
+        "overall": 61,
+        "hook_text": "Should celebrity guests get paid more for interviews?",
+        "tip": "Add animated screen text highlighting the low SAG fee punchline to increase humor.",
+        "caption": "50 Cent playfully demands a raise for his talk show appearance.",
+        "description": "50 Cent jokes about getting paid a minimal appearance fee during a TV interview. He hilariously demands a raise from the host right on camera. Would you ask for a raise on live television?",
+        "hashtags": [
+          "50cent",
+          "hiphop",
+          "celebrityinterview",
+          "humor",
+          "talkshow"
+        ]
+      },
+      "id": "c7",
+      "title": "50 Cent Asks Jimmy Kimmel for a Raise",
+      "reason": "50 Cent playfully confronts Jimmy Kimmel about getting paid more than his original appearance fee.",
+      "score": 61,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 56.41,
+        "end": 72.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Should celebrity guests get paid more for interviews?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 10.0, \"every_min\": 5.0, \"fallback\": \"zoom\", \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 56.41, 72.74]",
+        "items": [
+          {
+            "t": 7.0,
+            "dur": 1.5,
+            "phrase": "person looking at computer",
+            "said": "look into that",
+            "alt": [
+              "office worker typing",
+              "working at desk"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_10822.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/uO663MrTIWQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794140089.2586908
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {},
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": true,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794136759.551846,
+  "finished": 1794137925.3760018,
+  "log": [
+    {
+      "t": 1794136759.5675213,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=c2UegpzAt4c"
+    },
+    {
+      "t": 1794136789.4206946,
+      "level": "ok",
+      "msg": "Downloaded \"Curtis \u201c50 Cent\u201d Jackson on Beefing with Diddy, Being Intimidated by De Niro & Making Street Fighter\" (14:12) in 0:29"
+    },
+    {
+      "t": 1794136789.4297771,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794136792.532771,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794136792.5931506,
+      "level": "ok",
+      "msg": "Transcribed 470 segments / 2749 words in 0:03"
+    },
+    {
+      "t": 1794136792.601256,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794136793.517162,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794136794.9527807,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794136795.6605744,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794136795.664208,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794136797.1470652,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794136797.1591885,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Curtis \"50 Cent\" Jackson appears on Jimmy Kimmel Live to discuss his new movie Street Fighter, winning Emmys for his documentary about Sean \"Diddy\" Combs, his upcoming self-documentary series, and past viral moments like his bet involving Floyd Mayweather. | People: Curtis \"50 Cent\" Jackson"
+    },
+    {
+      "t": 1794136799.2434087,
+      "level": "info",
+      "msg": "Audio analysis: 7 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794136799.250642,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794136800.6715827,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794136801.2941241,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794136801.2977788,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794136804.0781343,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794136804.119798,
+      "level": "ok",
+      "msg": "AI picked 7 clips in 0:11"
+    },
+    {
+      "t": 1794136804.1233048,
+      "level": "info",
+      "msg": "  \u2022 50 Cent Asks Jimmy Kimmel for a Raise  [0:56-1:12, score 82]"
+    },
+    {
+      "t": 1794136804.127529,
+      "level": "info",
+      "msg": "  \u2022 50 Cent Reveals Diddy's Jail iPad Reaction  [3:46-4:41, score 94]"
+    },
+    {
+      "t": 1794136804.1310287,
+      "level": "info",
+      "msg": "  \u2022 50 Cent's Viral Floyd Mayweather Harry Potter Bet  [5:10-5:30, score 90]"
+    },
+    {
+      "t": 1794136804.134938,
+      "level": "info",
+      "msg": "  \u2022 Why Vivica Fox Refused to Be in 50 Cent's Doc  [6:39-7:02, score 85]"
+    },
+    {
+      "t": 1794136804.1390445,
+      "level": "info",
+      "msg": "  \u2022 How 50 Cent Accidentally Punched Noah Centineo  [10:33-11:02, score 88]"
+    },
+    {
+      "t": 1794136804.1433308,
+      "level": "info",
+      "msg": "  \u2022 When Robert De Niro Intimidated 50 Cent at a Firing Range  [11:09-12:18, score 96]"
+    },
+    {
+      "t": 1794136804.1470926,
+      "level": "info",
+      "msg": "  \u2022 The Time DMX Drove the Wrong Way Down a One-Way  [12:24-13:34, score 92]"
+    },
+    {
+      "t": 1794136804.1542835,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794136804.161111,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794136805.575364,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794136828.3275468,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794136828.3503814,
+      "level": "ok",
+      "msg": "Rated 7 clips in 0:24"
+    },
+    {
+      "t": 1794136828.3548298,
+      "level": "info",
+      "msg": "  - 50 Cent Asks Jimmy Kimmel for a Raise: 61/100 (hook 62, retention 68, value 55, share 58)"
+    },
+    {
+      "t": 1794136828.3611555,
+      "level": "info",
+      "msg": "  - 50 Cent Reveals Diddy's Jail iPad Reaction: 89/100 (hook 88, retention 85, value 89, share 92)"
+    },
+    {
+      "t": 1794136828.3653743,
+      "level": "info",
+      "msg": "  - 50 Cent's Viral Floyd Mayweather Harry Potter Bet: 80/100 (hook 82, retention 75, value 78, share 84)"
+    },
+    {
+      "t": 1794136828.3694382,
+      "level": "info",
+      "msg": "  - Why Vivica Fox Refused to Be in 50 Cent's Doc: 70/100 (hook 70, retention 72, value 65, share 74)"
+    },
+    {
+      "t": 1794136828.3742778,
+      "level": "info",
+      "msg": "  - How 50 Cent Accidentally Punched Noah Centineo: 66/100 (hook 65, retention 70, value 68, share 62)"
+    },
+    {
+      "t": 1794136828.379562,
+      "level": "info",
+      "msg": "  - When Robert De Niro Intimidated 50 Cent at a Firing Range: 85/100 (hook 85, retention 82, value 88, share 86)"
+    },
+    {
+      "t": 1794136828.38426,
+      "level": "info",
+      "msg": "  - The Time DMX Drove the Wrong Way Down a One-Way: 89/100 (hook 87, retention 90, value 91, share 89)"
+    },
+    {
+      "t": 1794136828.3962703,
+      "level": "ok",
+      "msg": "7 distinct clips found, 7 rated 50+"
+    },
+    {
+      "t": 1794136828.418546,
+      "level": "warn",
+      "msg": "Full auto upload is PAUSED (You stopped all uploads.). Clips will be rendered; resume from the banner, then use Upload all."
+    },
+    {
+      "t": 1794136828.4367855,
+      "level": "info",
+      "msg": "Rendering clip 1/7: 50 Cent Reveals Diddy's Jail iPad Reaction"
+    },
+    {
+      "t": 1794136828.4664814,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794136829.9699113,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794136830.6687286,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794136830.674096,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794136832.216015,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794136832.2262714,
+      "level": "info",
+      "msg": "Stock cutaways: 6 moment(s) chosen"
+    },
+    {
+      "t": 1794136848.1739202,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794136849.6153886,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794136850.1510153,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794136850.156406,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794136851.6257496,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794136851.6350935,
+      "level": "info",
+      "msg": "Cutaway at 7.0s: 'digital tablet in prison' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794136854.0324492,
+      "level": "info",
+      "msg": "Cutaway at 13.6s: 'nightclub interior crowd' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794136855.0817282,
+      "level": "info",
+      "msg": "Cutaway at 22.0s: 'person browsing internet' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794136855.0865715,
+      "level": "info",
+      "msg": "Cutaway at 34.6s: 'funeral floral arrangement' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794136855.0914772,
+      "level": "info",
+      "msg": "Cutaway at 34.6s: 'funeral floral arrangement' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794136857.2369795,
+      "level": "info",
+      "msg": "Cutaway at 41.5s: 'VIP nightclub entrance' -> pixabay (60% match)"
+    },
+    {
+      "t": 1794136857.2426565,
+      "level": "info",
+      "msg": "Cutaway at 49.6s: 'bump on head' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794136857.247935,
+      "level": "info",
+      "msg": "Cutaway at 49.6s: 'bump on head' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794137051.03343,
+      "level": "ok",
+      "msg": "Clip 1 ready in 3:42"
+    },
+    {
+      "t": 1794137051.0581417,
+      "level": "info",
+      "msg": "Rendering clip 2/7: The Time DMX Drove the Wrong Way Down a One-Way"
+    },
+    {
+      "t": 1794137051.0847054,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137052.5200965,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137053.088934,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137053.0942512,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137063.792875,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137063.80335,
+      "level": "info",
+      "msg": "Stock cutaways: 5 moment(s) chosen"
+    },
+    {
+      "t": 1794137073.6939662,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137075.1125004,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137075.4399178,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137075.4448998,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137079.952293,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137081.95152,
+      "level": "info",
+      "msg": "Cutaway at 3.0s: 'recording studio mixing board' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794137082.8885736,
+      "level": "info",
+      "msg": "Cutaway at 19.6s: 'sitting in car interior' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794137085.2028522,
+      "level": "info",
+      "msg": "Cutaway at 25.0s: 'driver holding steering wheel' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794137086.7591283,
+      "level": "info",
+      "msg": "Cutaway at 35.9s: 'downtown city street traffic' -> pixabay (100% match)"
+    },
+    {
+      "t": 1794137086.7654488,
+      "level": "info",
+      "msg": "Cutaway at 49.0s: 'passenger looking stressed' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794137086.770783,
+      "level": "info",
+      "msg": "Cutaway at 49.0s: 'passenger looking stressed' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794137329.0383976,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:37"
+    },
+    {
+      "t": 1794137329.0601652,
+      "level": "info",
+      "msg": "Rendering clip 3/7: When Robert De Niro Intimidated 50 Cent at a Firing Range"
+    },
+    {
+      "t": 1794137329.0889058,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137330.4108968,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137330.8241372,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137330.829378,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137336.7268395,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137336.7385657,
+      "level": "info",
+      "msg": "Stock cutaways: 3 moment(s) chosen"
+    },
+    {
+      "t": 1794137344.4127595,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137345.6218016,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137345.9753792,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137345.9856777,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137351.9887536,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137354.4220643,
+      "level": "info",
+      "msg": "Cutaway at 7.0s: 'firing a gun' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794137354.427141,
+      "level": "info",
+      "msg": "Cutaway at 37.8s: 'indoor firing range' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794137354.4327242,
+      "level": "info",
+      "msg": "Cutaway at 37.8s: 'indoor firing range' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794137355.5568304,
+      "level": "info",
+      "msg": "Cutaway at 44.7s: 'person shooting a gun' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794137584.559068,
+      "level": "ok",
+      "msg": "Clip 3 ready in 4:15"
+    },
+    {
+      "t": 1794137584.578341,
+      "level": "info",
+      "msg": "Rendering clip 4/7: 50 Cent's Viral Floyd Mayweather Harry Potter Bet"
+    },
+    {
+      "t": 1794137584.6065361,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137585.7932942,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137586.3152397,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137586.3223379,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137593.4740126,
+      "level": "warn",
+      "msg": "gemini-3.5-flash-lite: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794137593.4798367,
+      "level": "info",
+      "msg": "Trying gemini-3.1-flash-lite..."
+    },
+    {
+      "t": 1794137594.9310534,
+      "level": "ok",
+      "msg": "gemini-3.1-flash-lite answered"
+    },
+    {
+      "t": 1794137594.9426289,
+      "level": "info",
+      "msg": "Stock cutaways: 2 moment(s) chosen"
+    },
+    {
+      "t": 1794137597.0128884,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137598.3628042,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137598.7549648,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137598.761048,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137604.5727746,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137609.2273324,
+      "level": "info",
+      "msg": "Cutaway at 4.1s: 'person reading book' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794137610.4843466,
+      "level": "info",
+      "msg": "Cutaway at 10.5s: 'laughing group of friends' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794137681.3287148,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:36"
+    },
+    {
+      "t": 1794137681.3494349,
+      "level": "info",
+      "msg": "Rendering clip 5/7: Why Vivica Fox Refused to Be in 50 Cent's Doc"
+    },
+    {
+      "t": 1794137681.421584,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137682.809653,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137683.362197,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137683.3681645,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137684.8642254,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137684.875038,
+      "level": "info",
+      "msg": "Stock cutaways: 2 moment(s) chosen"
+    },
+    {
+      "t": 1794137687.848952,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137689.209615,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137689.5350602,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137689.5409977,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137692.5690336,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137692.5791628,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'woman refusing something' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794137692.5848312,
+      "level": "info",
+      "msg": "Cutaway at 2.5s: 'woman refusing something' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794137693.7348697,
+      "level": "info",
+      "msg": "Cutaway at 13.8s: 'counting money cash' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794137763.173757,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:21"
+    },
+    {
+      "t": 1794137763.190548,
+      "level": "info",
+      "msg": "Rendering clip 6/7: How 50 Cent Accidentally Punched Noah Centineo"
+    },
+    {
+      "t": 1794137763.2105742,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137764.3694859,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137764.907563,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137764.9133277,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137767.989961,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137768.0007591,
+      "level": "info",
+      "msg": "Stock cutaways: 2 moment(s) chosen"
+    },
+    {
+      "t": 1794137772.759257,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137773.988981,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137774.393638,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137774.3994946,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137776.159248,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137777.70715,
+      "level": "info",
+      "msg": "Cutaway at 10.8s: 'throwing a punch' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794137777.713098,
+      "level": "info",
+      "msg": "Cutaway at 18.4s: 'person ducking' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794137777.719452,
+      "level": "info",
+      "msg": "Cutaway at 18.4s: 'person ducking' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794137865.9097967,
+      "level": "ok",
+      "msg": "Clip 6 ready in 1:42"
+    },
+    {
+      "t": 1794137865.931734,
+      "level": "info",
+      "msg": "Rendering clip 7/7: 50 Cent Asks Jimmy Kimmel for a Raise"
+    },
+    {
+      "t": 1794137865.9909947,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137867.3446145,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137867.6993997,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137867.7060297,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137868.9714253,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137868.9825234,
+      "level": "info",
+      "msg": "Stock cutaways: 1 moment(s) chosen"
+    },
+    {
+      "t": 1794137869.9761775,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794137871.334487,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794137871.8941305,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794137871.900224,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794137873.092784,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794137874.1642547,
+      "level": "info",
+      "msg": "Cutaway at 7.0s: 'person looking at computer' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794137925.3713953,
+      "level": "ok",
+      "msg": "Clip 7 ready in 0:59"
+    },
+    {
+      "t": 1794137925.38471,
+      "level": "ok",
+      "msg": "All done in 18:16"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 852,
+  "heatmap": [],
+  "video_description": "50 Cent talks about winning an Emmy for his documentary about Diddy, hearing that Diddy watched it in prison, making a documentary series about himself, winning a big college football bet, his new movie Street Fighter, accidentally punching his co-star Noah Centineo, being intimidated by Robert De Niro, and DMX doing the craziest stuff.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 16 billion views and more than 19 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Curtis \"50 Cent\" Jackson appears on Jimmy Kimmel Live to discuss his new movie Street Fighter, winning Emmys for his documentary about Sean \"Diddy\" Combs, his upcoming self-documentary series, and past viral moments like his bet involving Floyd Mayweather.\nPeople: Curtis \"50 Cent\" Jackson; Jimmy Kimmel; Sean \"Diddy\" Combs; Floyd Mayweather; Vivica Fox; Robert De Niro; Noah Centineo; DMX; Jay-Z; Donald Trump\nContext: An interview on Jimmy Kimmel Live where 50 Cent talks about his various media projects, trolling rivals, and career updates.\nUnclear: The exact details of the college football bet and the full extent of the interactions with Donald Trump mentioned briefly in the speech.",
+  "render_index": 7,
+  "render_total": 7
+}

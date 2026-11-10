@@ -1,0 +1,1456 @@
+{
+  "id": "7388804597",
+  "created": 1794152448.3615274,
+  "url": "https://www.youtube.com/watch?v=9dSLJHS2Uns",
+  "source": "manual",
+  "creator_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+  "title": "Mayor Zohran Mamdani on His Relationship with Trump, People in Sewers & New Public Restrooms",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 80,
+        "shareability": 90,
+        "overall": 86,
+        "hook_text": "Please stop looking for socialism in sewers!",
+        "tip": "Emphasize the visual detail about the fishing waders earlier in the clip.",
+        "caption": "Why are New Yorkers walking through sewers in fishing waders?",
+        "description": "Mayor Zohran Mamdani reacts to the bizarre local trend of residents climbing down into New York sewers wearing fishing waders to look for socialism. He clarifies what he actually meant by sewer socialism and politely asks people to stay above ground. Have you ever seen anything this weird in city infrastructure?",
+        "hashtags": [
+          "newyork",
+          "sewers",
+          "socialism",
+          "funny",
+          "mayor"
+        ]
+      },
+      "id": "c1",
+      "title": "Zohran Mamdani Addresses People Living in Sewers",
+      "reason": "The mayor hilariously addresses New Yorkers venturing into the sewers in fishing waders to find socialism.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 347.81,
+        "end": 390.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Please stop looking for socialism in sewers!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/2u3PrFKxQkw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794153933.1803584
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 84,
+        "value": 79,
+        "shareability": 87,
+        "overall": 84,
+        "hook_text": "Pete Davidson is furious about this highway.",
+        "tip": "Cut down the length of the technical explanation of the multi-billion dollar plan to maintain momentum.",
+        "caption": "Mayor Mamdani responds to Pete Davidson hating the BQE traffic.",
+        "description": "Mayor Zohran Mamdani answers Pete Davidson's ongoing frustration regarding the endless construction and traffic on the BQE. Find out what the city's multi-billion dollar ten-year repair plan entails and whether local neighborhoods will be disrupted. Do you think city construction will ever actually finish?",
+        "hashtags": [
+          "petedavidson",
+          "traffic",
+          "construction",
+          "nyc",
+          "roads"
+        ]
+      },
+      "id": "c2",
+      "title": "Pete Davidson Slams the BQE Traffic",
+      "reason": "Mayor Mamdani responds to Pete Davidson's ongoing frustration with never-ending repairs on the BQE.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 654.93,
+        "end": 701.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Pete Davidson is furious about this highway.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/xHqgM7-AqKQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794153988.5076668
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 82,
+        "value": 81,
+        "shareability": 85,
+        "overall": 83,
+        "hook_text": "I text the president about housing.",
+        "tip": "Start directly with the text message reveal rather than the joke about the yard name.",
+        "caption": "Mayor Mamdani actually text messages Donald Trump about housing.",
+        "description": "Mayor Zohran Mamdani reveals that he occasionally texts President Donald Trump to advocate for New York housing developments and the stability of Haitian New Yorkers. Hear how municipal leaders use direct communication to deliver results for their city. What would you text the president if you had his number?",
+        "hashtags": [
+          "housing",
+          "texting",
+          "trump",
+          "nyc",
+          "policy"
+        ]
+      },
+      "id": "c3",
+      "title": "Zohran Mamdani Texts Trump About Sunnyside Yard",
+      "reason": "Mayor Mamdani reveals he actually text-messages the president to push for massive New York housing developments.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 546.21,
+        "end": 584.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I text the president about housing.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Xb1WTWA0Z74",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794154045.289173
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 75,
+        "shareability": 82,
+        "overall": 81,
+        "hook_text": "Free babysitting from the mayor of NYC?",
+        "tip": "Cut out the filler words at the start to get straight into the punchline about the 6-year-old.",
+        "caption": "Mayor Mamdani explains why New York is offering parents free date nights.",
+        "description": "Mayor Zohran Mamdani discusses his creative municipal parents' night out initiative designed to give stressed parents free time and babysitting. Find out how local kids are reacting to the program and whether parents are actually bringing them home. Would you trust city-run childcare for a date night?",
+        "hashtags": [
+          "nyc",
+          "parents",
+          "dating",
+          "politics",
+          "humor"
+        ]
+      },
+      "id": "c4",
+      "title": "Mayor Zohran Mamdani's Parents' Night Out",
+      "reason": "Mayor Mamdani shares a funny and relatable municipal initiative that gives parents free date nights.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 145.97,
+        "end": 192.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Free babysitting from the mayor of NYC?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/e8cNM2_AneA",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794154636.3921707
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 78,
+        "value": 72,
+        "shareability": 80,
+        "overall": 79,
+        "hook_text": "Ten minutes in a public bathroom?!",
+        "tip": "Lean harder into the audio joke of the bathroom door opening early.",
+        "caption": "Only 10 minutes in a public restroom before the door opens live?",
+        "description": "Jimmy Kimmel and Mayor Zohran Mamdani poke fun at the strict ten-minute time limit and automated safety features on New York's new public restrooms. Watch them debate whether Madonna could save the world in four minutes and if the bathroom needs a snooze button. How would you handle a timer ticking down while you use the restroom?",
+        "hashtags": [
+          "nyc",
+          "bathroom",
+          "comedy",
+          "talkshow",
+          "mayor"
+        ]
+      },
+      "id": "c5",
+      "title": "Zohran Mamdani's Strict 10-Minute Public Bathroom Rules",
+      "reason": "Jimmy Kimmel and Mayor Mamdani joke about the high-pressure 10-minute time limit on New York's public restrooms.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 254.93,
+        "end": 293.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Ten minutes in a public bathroom?!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/DdwdXCA6ddE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794154673.8585029
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 74,
+        "shareability": 78,
+        "overall": 77,
+        "hook_text": "How is the mayor friends with Trump?",
+        "tip": "Bring the punchline response about Jimmy moving to New York closer to the middle.",
+        "caption": "How did Mayor Mamdani charm Donald Trump?",
+        "description": "Jimmy Kimmel questions Mayor Zohran Mamdani about his unexpectedly friendly working relationship with President Donald Trump and asks for tips on how to charm him. Discover how the mayor handles bipartisan diplomacy in New York. Can you guess the secret to getting along with the president?",
+        "hashtags": [
+          "trump",
+          "politics",
+          "nyc",
+          "interview",
+          "government"
+        ]
+      },
+      "id": "c6",
+      "title": "Zohran Mamdani's Surprising Relationship with Trump",
+      "reason": "Jimmy Kimmel asks how Mayor Mamdani managed to charm Donald Trump and build a friendly working relationship.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 394.21,
+        "end": 437.1,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "How is the mayor friends with Trump?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/NQbv3-CjZxw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794154711.730995
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {},
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": true,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794152448.36543,
+  "finished": 1794153413.3123937,
+  "log": [
+    {
+      "t": 1794152448.3743942,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=9dSLJHS2Uns"
+    },
+    {
+      "t": 1794152467.069761,
+      "level": "ok",
+      "msg": "Downloaded \"Mayor Zohran Mamdani on His Relationship with Trump, People in Sewers & New Public Restrooms\" (12:26) in 0:18"
+    },
+    {
+      "t": 1794152467.0741837,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794152467.0851119,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794152470.013934,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794152470.055507,
+      "level": "ok",
+      "msg": "Transcribed 340 segments / 2097 words in 0:02"
+    },
+    {
+      "t": 1794152470.0634544,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794152470.073909,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794152471.450575,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794152472.0027971,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794152472.0078871,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794152499.3931808,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794152499.406851,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Jimmy Kimmel interviews Mayor Zohran Mamdani on his unlikely election victory, various creative municipal initiatives including free parents' night out and city-run grocery stores, public bathroom time limits, sewer dwellers, and his unexpected relationship with President Donald Trump. | Pe"
+    },
+    {
+      "t": 1794152501.0592272,
+      "level": "info",
+      "msg": "Audio analysis: 8 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794152501.0701118,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794152502.453653,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794152502.8350623,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794152502.8404562,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794152505.41418,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794152505.445562,
+      "level": "ok",
+      "msg": "AI picked 6 clips in 0:35"
+    },
+    {
+      "t": 1794152505.4500382,
+      "level": "info",
+      "msg": "  \u2022 Mayor Zohran Mamdani's Parents' Night Out  [2:25-3:12, score 88]"
+    },
+    {
+      "t": 1794152505.45571,
+      "level": "info",
+      "msg": "  \u2022 Zohran Mamdani's Strict 10-Minute Public Bathroom Rules  [4:14-4:53, score 92]"
+    },
+    {
+      "t": 1794152505.4602761,
+      "level": "info",
+      "msg": "  \u2022 Zohran Mamdani Addresses People Living in Sewers  [5:47-6:30, score 95]"
+    },
+    {
+      "t": 1794152505.4649363,
+      "level": "info",
+      "msg": "  \u2022 Zohran Mamdani's Surprising Relationship with Trump  [6:34-7:17, score 94]"
+    },
+    {
+      "t": 1794152505.4698267,
+      "level": "info",
+      "msg": "  \u2022 Zohran Mamdani Texts Trump About Sunnyside Yard  [9:06-9:44, score 90]"
+    },
+    {
+      "t": 1794152505.474935,
+      "level": "info",
+      "msg": "  \u2022 Pete Davidson Slams the BQE Traffic  [10:54-11:41, score 87]"
+    },
+    {
+      "t": 1794152505.4851048,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794152505.4926279,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794152506.880856,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794152507.6339872,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794152507.6395464,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794152512.3426442,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794152512.3516119,
+      "level": "ok",
+      "msg": "Rated 6 clips in 0:06"
+    },
+    {
+      "t": 1794152512.3569357,
+      "level": "info",
+      "msg": "  - Mayor Zohran Mamdani's Parents' Night Out: 81/100 (hook 85, retention 80, value 75, share 82)"
+    },
+    {
+      "t": 1794152512.3618586,
+      "level": "info",
+      "msg": "  - Zohran Mamdani's Strict 10-Minute Public Bathroom Rules: 79/100 (hook 82, retention 78, value 72, share 80)"
+    },
+    {
+      "t": 1794152512.3666992,
+      "level": "info",
+      "msg": "  - Zohran Mamdani Addresses People Living in Sewers: 86/100 (hook 88, retention 85, value 80, share 90)"
+    },
+    {
+      "t": 1794152512.3721766,
+      "level": "info",
+      "msg": "  - Zohran Mamdani's Surprising Relationship with Trump: 77/100 (hook 80, retention 75, value 74, share 78)"
+    },
+    {
+      "t": 1794152512.3773592,
+      "level": "info",
+      "msg": "  - Zohran Mamdani Texts Trump About Sunnyside Yard: 83/100 (hook 84, retention 82, value 81, share 85)"
+    },
+    {
+      "t": 1794152512.38157,
+      "level": "info",
+      "msg": "  - Pete Davidson Slams the BQE Traffic: 84/100 (hook 86, retention 84, value 79, share 87)"
+    },
+    {
+      "t": 1794152512.3928845,
+      "level": "ok",
+      "msg": "6 distinct clips found, 6 rated 50+"
+    },
+    {
+      "t": 1794152512.4155452,
+      "level": "warn",
+      "msg": "Full auto upload is PAUSED (You stopped all uploads.). Clips will be rendered; resume from the banner, then use Upload all."
+    },
+    {
+      "t": 1794152512.4324996,
+      "level": "info",
+      "msg": "Rendering clip 1/6: Zohran Mamdani Addresses People Living in Sewers"
+    },
+    {
+      "t": 1794152660.3764668,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:27"
+    },
+    {
+      "t": 1794152660.3963451,
+      "level": "info",
+      "msg": "Rendering clip 2/6: Pete Davidson Slams the BQE Traffic"
+    },
+    {
+      "t": 1794152822.1561613,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:41"
+    },
+    {
+      "t": 1794152822.1773946,
+      "level": "info",
+      "msg": "Rendering clip 3/6: Zohran Mamdani Texts Trump About Sunnyside Yard"
+    },
+    {
+      "t": 1794152972.06409,
+      "level": "ok",
+      "msg": "Clip 3 ready in 2:29"
+    },
+    {
+      "t": 1794152972.0839798,
+      "level": "info",
+      "msg": "Rendering clip 4/6: Mayor Zohran Mamdani's Parents' Night Out"
+    },
+    {
+      "t": 1794153130.5417075,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:38"
+    },
+    {
+      "t": 1794153130.5598428,
+      "level": "info",
+      "msg": "Rendering clip 5/6: Zohran Mamdani's Strict 10-Minute Public Bathroom Rules"
+    },
+    {
+      "t": 1794153268.9213386,
+      "level": "ok",
+      "msg": "Clip 5 ready in 2:18"
+    },
+    {
+      "t": 1794153268.940608,
+      "level": "info",
+      "msg": "Rendering clip 6/6: Zohran Mamdani's Surprising Relationship with Trump"
+    },
+    {
+      "t": 1794153413.308219,
+      "level": "ok",
+      "msg": "Clip 6 ready in 2:24"
+    },
+    {
+      "t": 1794153413.3192194,
+      "level": "ok",
+      "msg": "All done in 15:00"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Jimmy Kimmel Live",
+  "duration": 746,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.47,
+      "value": 0.377841859026288
+    },
+    {
+      "start_time": 7.47,
+      "end_time": 14.94,
+      "value": 0.28071259027323725
+    },
+    {
+      "start_time": 14.94,
+      "end_time": 22.41,
+      "value": 0.26797673877376854
+    },
+    {
+      "start_time": 22.41,
+      "end_time": 29.88,
+      "value": 0.2527262536498854
+    },
+    {
+      "start_time": 29.88,
+      "end_time": 37.35,
+      "value": 0.28482021577165284
+    },
+    {
+      "start_time": 37.35,
+      "end_time": 44.82,
+      "value": 0.3313524326980339
+    },
+    {
+      "start_time": 44.82,
+      "end_time": 52.29,
+      "value": 0.33924577776256665
+    },
+    {
+      "start_time": 52.29,
+      "end_time": 59.76,
+      "value": 0.30819997517354264
+    },
+    {
+      "start_time": 59.76,
+      "end_time": 67.23,
+      "value": 0.3045933531715095
+    },
+    {
+      "start_time": 67.23,
+      "end_time": 74.7,
+      "value": 0.16637232989356004
+    },
+    {
+      "start_time": 74.7,
+      "end_time": 82.17,
+      "value": 0.14750901800731453
+    },
+    {
+      "start_time": 82.17,
+      "end_time": 89.64,
+      "value": 0.14599359799750877
+    },
+    {
+      "start_time": 89.64,
+      "end_time": 97.11,
+      "value": 0.13705580142433363
+    },
+    {
+      "start_time": 97.11,
+      "end_time": 104.58,
+      "value": 0.17955146331423713
+    },
+    {
+      "start_time": 104.58,
+      "end_time": 112.05,
+      "value": 0.19225112449847892
+    },
+    {
+      "start_time": 112.05,
+      "end_time": 119.52,
+      "value": 0.16637139052745445
+    },
+    {
+      "start_time": 119.52,
+      "end_time": 126.99,
+      "value": 0.13432234493763184
+    },
+    {
+      "start_time": 126.99,
+      "end_time": 134.46,
+      "value": 0.08851687601490937
+    },
+    {
+      "start_time": 134.46,
+      "end_time": 141.93,
+      "value": 0.10240152282122592
+    },
+    {
+      "start_time": 141.93,
+      "end_time": 149.4,
+      "value": 0.11686642595904613
+    },
+    {
+      "start_time": 149.4,
+      "end_time": 156.87,
+      "value": 0.1352529353862092
+    },
+    {
+      "start_time": 156.87,
+      "end_time": 164.34,
+      "value": 0.14991705829890217
+    },
+    {
+      "start_time": 164.34,
+      "end_time": 171.81,
+      "value": 0.1265077830251675
+    },
+    {
+      "start_time": 171.81,
+      "end_time": 179.28,
+      "value": 0.1351695295640947
+    },
+    {
+      "start_time": 179.28,
+      "end_time": 186.75,
+      "value": 0.13615539429193937
+    },
+    {
+      "start_time": 186.75,
+      "end_time": 194.22,
+      "value": 0.11095759067327125
+    },
+    {
+      "start_time": 194.22,
+      "end_time": 201.69,
+      "value": 0.09578556733936774
+    },
+    {
+      "start_time": 201.69,
+      "end_time": 209.16,
+      "value": 0.07482055975268864
+    },
+    {
+      "start_time": 209.16,
+      "end_time": 216.63,
+      "value": 0.06654442300011706
+    },
+    {
+      "start_time": 216.63,
+      "end_time": 224.1,
+      "value": 0.07716923457841737
+    },
+    {
+      "start_time": 224.1,
+      "end_time": 231.57,
+      "value": 0.09317677462294555
+    },
+    {
+      "start_time": 231.57,
+      "end_time": 239.04,
+      "value": 0.12740673166808195
+    },
+    {
+      "start_time": 239.04,
+      "end_time": 246.51,
+      "value": 0.43215447460308165
+    },
+    {
+      "start_time": 246.51,
+      "end_time": 253.98,
+      "value": 0.15437165597253977
+    },
+    {
+      "start_time": 253.98,
+      "end_time": 261.45,
+      "value": 0.2116810719076967
+    },
+    {
+      "start_time": 261.45,
+      "end_time": 268.92,
+      "value": 0.2262593664225291
+    },
+    {
+      "start_time": 268.92,
+      "end_time": 276.39,
+      "value": 0.17667633558671195
+    },
+    {
+      "start_time": 276.39,
+      "end_time": 283.86,
+      "value": 0.13197803322026208
+    },
+    {
+      "start_time": 283.86,
+      "end_time": 291.33,
+      "value": 0.1634083331884114
+    },
+    {
+      "start_time": 291.33,
+      "end_time": 298.8,
+      "value": 0.1594890011538506
+    },
+    {
+      "start_time": 298.8,
+      "end_time": 306.27,
+      "value": 0.0689109705020132
+    },
+    {
+      "start_time": 306.27,
+      "end_time": 313.74,
+      "value": 0.05077656963348518
+    },
+    {
+      "start_time": 313.74,
+      "end_time": 321.21,
+      "value": 0.06233197166036284
+    },
+    {
+      "start_time": 321.21,
+      "end_time": 328.68,
+      "value": 0.08450120951420151
+    },
+    {
+      "start_time": 328.68,
+      "end_time": 336.15,
+      "value": 0.12934170224484892
+    },
+    {
+      "start_time": 336.15,
+      "end_time": 343.62,
+      "value": 0.1753375411249228
+    },
+    {
+      "start_time": 343.62,
+      "end_time": 351.09,
+      "value": 0.0985947169580537
+    },
+    {
+      "start_time": 351.09,
+      "end_time": 358.56,
+      "value": 0.09572811768596108
+    },
+    {
+      "start_time": 358.56,
+      "end_time": 366.03,
+      "value": 0.09909062810133729
+    },
+    {
+      "start_time": 366.03,
+      "end_time": 373.5,
+      "value": 0.07420688176395354
+    },
+    {
+      "start_time": 373.5,
+      "end_time": 380.97,
+      "value": 0.061832352492978145
+    },
+    {
+      "start_time": 380.97,
+      "end_time": 388.44,
+      "value": 0.04604939510817437
+    },
+    {
+      "start_time": 388.44,
+      "end_time": 395.91,
+      "value": 0.054923821549461405
+    },
+    {
+      "start_time": 395.91,
+      "end_time": 403.38,
+      "value": 0.07834488833983765
+    },
+    {
+      "start_time": 403.38,
+      "end_time": 410.85,
+      "value": 0.09292381321876725
+    },
+    {
+      "start_time": 410.85,
+      "end_time": 418.32,
+      "value": 0.1635898286080808
+    },
+    {
+      "start_time": 418.32,
+      "end_time": 425.79,
+      "value": 0.27943547261233004
+    },
+    {
+      "start_time": 425.79,
+      "end_time": 433.26,
+      "value": 0.3171326052331369
+    },
+    {
+      "start_time": 433.26,
+      "end_time": 440.73,
+      "value": 0.1567714891707836
+    },
+    {
+      "start_time": 440.73,
+      "end_time": 448.2,
+      "value": 0.10824089445550651
+    },
+    {
+      "start_time": 448.2,
+      "end_time": 455.67,
+      "value": 0.11957427235928954
+    },
+    {
+      "start_time": 455.67,
+      "end_time": 463.14,
+      "value": 0.21068606072040258
+    },
+    {
+      "start_time": 463.14,
+      "end_time": 470.61,
+      "value": 0.30684451932345913
+    },
+    {
+      "start_time": 470.61,
+      "end_time": 478.08,
+      "value": 0.288942970008401
+    },
+    {
+      "start_time": 478.08,
+      "end_time": 485.55,
+      "value": 1.0
+    },
+    {
+      "start_time": 485.55,
+      "end_time": 493.02,
+      "value": 0.24625632015712925
+    },
+    {
+      "start_time": 493.02,
+      "end_time": 500.49,
+      "value": 0.12814986913826742
+    },
+    {
+      "start_time": 500.49,
+      "end_time": 507.96,
+      "value": 0.11379872817986952
+    },
+    {
+      "start_time": 507.96,
+      "end_time": 515.43,
+      "value": 0.09679911864716745
+    },
+    {
+      "start_time": 515.43,
+      "end_time": 522.9,
+      "value": 0.08687100771722628
+    },
+    {
+      "start_time": 522.9,
+      "end_time": 530.37,
+      "value": 0.09376904495253686
+    },
+    {
+      "start_time": 530.37,
+      "end_time": 537.84,
+      "value": 0.12885189698125185
+    },
+    {
+      "start_time": 537.84,
+      "end_time": 545.31,
+      "value": 0.11253258627030163
+    },
+    {
+      "start_time": 545.31,
+      "end_time": 552.78,
+      "value": 0.06630314187185729
+    },
+    {
+      "start_time": 552.78,
+      "end_time": 560.25,
+      "value": 0.05609776961979515
+    },
+    {
+      "start_time": 560.25,
+      "end_time": 567.72,
+      "value": 0.09642767351287808
+    },
+    {
+      "start_time": 567.72,
+      "end_time": 575.19,
+      "value": 0.12080390259154175
+    },
+    {
+      "start_time": 575.19,
+      "end_time": 582.66,
+      "value": 0.0772537528077622
+    },
+    {
+      "start_time": 582.66,
+      "end_time": 590.13,
+      "value": 0.07438468151960216
+    },
+    {
+      "start_time": 590.13,
+      "end_time": 597.6,
+      "value": 0.05980094856942143
+    },
+    {
+      "start_time": 597.6,
+      "end_time": 605.07,
+      "value": 0.0830071477232182
+    },
+    {
+      "start_time": 605.07,
+      "end_time": 612.54,
+      "value": 0.07919925417297634
+    },
+    {
+      "start_time": 612.54,
+      "end_time": 620.01,
+      "value": 0.0879921164441191
+    },
+    {
+      "start_time": 620.01,
+      "end_time": 627.48,
+      "value": 0.10922433660760514
+    },
+    {
+      "start_time": 627.48,
+      "end_time": 634.95,
+      "value": 0.18165309721426903
+    },
+    {
+      "start_time": 634.95,
+      "end_time": 642.42,
+      "value": 0.31311701289291105
+    },
+    {
+      "start_time": 642.42,
+      "end_time": 649.89,
+      "value": 0.3820586240340798
+    },
+    {
+      "start_time": 649.89,
+      "end_time": 657.36,
+      "value": 0.343551485908464
+    },
+    {
+      "start_time": 657.36,
+      "end_time": 664.83,
+      "value": 0.11994902999510924
+    },
+    {
+      "start_time": 664.83,
+      "end_time": 672.3,
+      "value": 0.12067642072294531
+    },
+    {
+      "start_time": 672.3,
+      "end_time": 679.77,
+      "value": 0.1268083801789648
+    },
+    {
+      "start_time": 679.77,
+      "end_time": 687.24,
+      "value": 0.0871513590594315
+    },
+    {
+      "start_time": 687.24,
+      "end_time": 694.71,
+      "value": 0.05782806962626071
+    },
+    {
+      "start_time": 694.71,
+      "end_time": 702.18,
+      "value": 0.05491739430768613
+    },
+    {
+      "start_time": 702.18,
+      "end_time": 709.65,
+      "value": 0.08257063912603455
+    },
+    {
+      "start_time": 709.65,
+      "end_time": 717.12,
+      "value": 0.12652313424494613
+    },
+    {
+      "start_time": 717.12,
+      "end_time": 724.59,
+      "value": 0.25422142784809904
+    },
+    {
+      "start_time": 724.59,
+      "end_time": 732.06,
+      "value": 0.2370042314611433
+    },
+    {
+      "start_time": 732.06,
+      "end_time": 739.53,
+      "value": 0.08905948354170637
+    },
+    {
+      "start_time": 739.53,
+      "end_time": 747.0,
+      "value": 0.0
+    }
+  ],
+  "video_description": "Mayor Mamdani talks about his \u201cParents' Night Out\" initiative, wanting to open a city run grocery store, new public bathrooms, people getting down into the sewers, fixing the BQE, and his relationship with Donald Trump.\n\nSUBSCRIBE to get the latest #Kimmel: http://bit.ly/JKLSubscribe\n \nFollow Jimmy Kimmel on Instagram: https://bit.ly/KimmelInstagram \nFollow Jimmy Kimmel Live on Instagram: http://bit.ly/JKLInstagram\nFollow Jimmy Kimmel Live on TikTok: https://bit.ly/JKLTikTok \nLike Jimmy Kimmel on Facebook: http://bit.ly/KimmelFB  \nLike Jimmy Kimmel Live on Facebook: http://bit.ly/JKLFacebook  \nVisit the Jimmy Kimmel Live Website : http://bit.ly/JKLWebsite \n \nAbout Jimmy Kimmel Live: \n \nJimmy Kimmel serves as host and executive producer of Emmy\u00ae nominated \u201cJimmy Kimmel Live,\u201d ABC\u2019s late-night talk show. \u201cJimmy Kimmel Live\u201d is well known for its viral video successes, with over 16 billion views and more than 19 million subscribers on the show\u2019s YouTube channel. Some of Kimmel\u2019s most popular comedy bits include Celebrities Read Mean Tweets, Lie Witness News, Halloween Candy YouTube Challenge, Jimmy and Cousin Sal pranking Aunt Chippy and music stars like Rihanna and Dua Lipa surprising Jimmy in the middle of the night.",
+  "brief": "Summary: Jimmy Kimmel interviews Mayor Zohran Mamdani on his unlikely election victory, various creative municipal initiatives including free parents' night out and city-run grocery stores, public bathroom time limits, sewer dwellers, and his unexpected relationship with President Donald Trump.\nPeople: Zohran Mamdani; Jimmy Kimmel; Donald Trump; Mayor Adams; Wyatt; Madonna\nContext: An episode of Jimmy Kimmel Live featuring newly elected New York City Mayor Zohran Mamdani discussing his policies, public reception, and political relationship with the President.\nUnclear: The specific details of how many people are living in the sewers or what exact events led to people wearing fishing waders down there are left as a humorous premise rather than a thoroughly explained municipal crisis.",
+  "render_index": 6,
+  "render_total": 6
+}

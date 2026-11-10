@@ -41,7 +41,7 @@
     "channel_id": "UCzQUP1qoWDoEbmsQxvdjxgQ",
     "name": "PowerfulJRE",
     "url": "https://www.youtube.com/@joerogan/videos",
-    "enabled": true,
+    "enabled": false,
     "seen": [
       "dMBBOawFy_4",
       "_k9l-Qx3YvY",
@@ -60,26 +60,77 @@
       "_nng7TZUwpc"
     ],
     "options": {
-      "layout_id": "fit_blur",
+      "layout_id": "fill",
       "subtitles": true,
-      "sub_style": "green_pop",
+      "sub_style": "bold_yellow",
       "num_clips": 0,
-      "min_len": 20,
-      "max_len": 60,
+      "min_len": 15,
+      "max_len": 40,
       "resolution": "1080p",
       "hook_text": true,
       "content": "auto",
-      "auto": true,
+      "auto": false,
       "auto_privacy": "public",
       "hide_likes": true,
-      "account": "default"
-    }
+      "account": "default",
+      "min_score": 50,
+      "motion": {
+        "zoom": 40,
+        "shake": 0
+      },
+      "caption": {
+        "size": 0.045
+      },
+      "hook": {
+        "size": 0.057,
+        "duration": 6.0
+      },
+      "look": {
+        "filter": "warm",
+        "strength": 25,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "sharpness": 0
+      },
+      "music": {
+        "track": null,
+        "volume": 15,
+        "duck": true
+      },
+      "pacing": {
+        "speed": 100,
+        "cut_pauses": false,
+        "pause": 0.6
+      },
+      "stock": {
+        "on": false,
+        "source": "live",
+        "every_min": 3.0,
+        "every_max": 5.0,
+        "len_min": 1.5,
+        "len_max": 3.0,
+        "confidence": 60,
+        "fallback": "zoom",
+        "max": 8,
+        "judge": true
+      },
+      "smart_framing": true,
+      "retention": {
+        "trim_start": true,
+        "trim_end": true,
+        "hook_rules": true,
+        "hook_weight": true,
+        "punch": true
+      }
+    },
+    "preset": "standard"
   },
   {
     "channel_id": "UCzXwjTI6c6mVn6oui_p6oiw",
     "name": "SMii7Y",
     "url": "https://www.youtube.com/channel/UCzXwjTI6c6mVn6oui_p6oiw",
-    "enabled": true,
+    "enabled": false,
     "seen": [
       "5cS8Rw9cWZU",
       "Iz59N1TKcEE",
@@ -95,7 +146,8 @@
       "ZqYLyAA3aRQ",
       "Kbak6x1krqA",
       "PnSE00P-tp8",
-      "_2hPnNeJjEE"
+      "_2hPnNeJjEE",
+      "byyrywdt9_0"
     ],
     "options": {
       "layout_id": "fit_blur",
@@ -113,5 +165,194 @@
       "account": "entertainment-fun",
       "min_score": 50
     }
+  },
+  {
+    "channel_id": "UCa6vGFO9ty8v5KZJXQxdhaw",
+    "name": "Jimmy Kimmel Live",
+    "url": "https://www.youtube.com/channel/UCa6vGFO9ty8v5KZJXQxdhaw",
+    "enabled": false,
+    "seen": [
+      "TTzta6J30eo",
+      "rd2qzmINQCU",
+      "wgznUQoK2yI",
+      "UWDWyXvHo90",
+      "arJI2u2hp5I",
+      "DBcBmzz8Bf4",
+      "Dp_bpfEvvoQ",
+      "6KFG5Q7MK-s",
+      "RHWmbCnprXw",
+      "sdw-9wFMT1A",
+      "H9jo7ylQ1m8",
+      "KY9zDP4pH88",
+      "ouEPXMniOUQ",
+      "21an7lQV90Q",
+      "AKVUa3rRxzo"
+    ],
+    "options": {
+      "layout_id": "fill",
+      "subtitles": true,
+      "sub_style": "bold_yellow",
+      "num_clips": 0,
+      "min_len": 20,
+      "max_len": 60,
+      "resolution": "1080p",
+      "hook_text": true,
+      "content": "auto",
+      "auto": false,
+      "auto_privacy": "public",
+      "hide_likes": true,
+      "account": "entertainment-fun",
+      "min_score": 50,
+      "motion": {
+        "zoom": 40,
+        "shake": 0
+      },
+      "caption": {
+        "size": 0.045
+      },
+      "hook": {
+        "size": 0.057,
+        "duration": 6.0
+      },
+      "look": {
+        "filter": "warm",
+        "strength": 25,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "sharpness": 0
+      },
+      "music": {
+        "track": null,
+        "volume": 15,
+        "duck": true
+      },
+      "pacing": {
+        "speed": 100,
+        "cut_pauses": false,
+        "pause": 0.6
+      },
+      "stock": {
+        "on": false,
+        "source": "live",
+        "every_min": 3.0,
+        "every_max": 5.0,
+        "len_min": 1.5,
+        "len_max": 3.0,
+        "confidence": 60,
+        "fallback": "zoom",
+        "max": 8,
+        "judge": true
+      },
+      "smart_framing": true
+    },
+    "preset": "standard"
+  },
+  {
+    "channel_id": "UC8-Th83bH_thdKZDJCrn88g",
+    "name": "The Tonight Show Starring Jimmy Fallon",
+    "url": "https://www.youtube.com/channel/UC8-Th83bH_thdKZDJCrn88g",
+    "enabled": false,
+    "seen": [
+      "G0uMV6Rs0AA",
+      "2q5fRBkzA_k",
+      "s_pUQhVa3mU",
+      "KCZaSSr5m6o",
+      "lkXFJpasUts",
+      "uWmxJ9_q8t4",
+      "NCGspQaNqi4",
+      "qJB-oN4zHn8",
+      "v2E4D_CO2RE",
+      "q8yU8o8u1KM",
+      "m3aHDKejy38",
+      "wVQtdb99sn4",
+      "ttpK1lYnv0I",
+      "nJ7RYGHIxcI",
+      "rVoNx1yuOH0",
+      "r07P9Fa9Xo4",
+      "Hm3cwAWxo8o",
+      "En4fD03PNCM",
+      "zOQLrSi1peE",
+      "VCcfjWIK8gE",
+      "dIXqLYGRA8w",
+      "p4a3_cFy2-M",
+      "LtS4lur6unc",
+      "x4AClOJzbnk",
+      "korbMR6LobM",
+      "Kn_BC0VJxoY",
+      "xBesCJ0EhOM",
+      "OVB16EaDFCk",
+      "JO_iddaWTKM",
+      "NAIyJ3Q0Pug",
+      "4M39meZBCSE",
+      "euZty10_iIw",
+      "clK29yNTcNE"
+    ],
+    "options": {
+      "layout_id": "fill",
+      "subtitles": true,
+      "sub_style": "bold_yellow",
+      "num_clips": 0,
+      "min_len": 20,
+      "max_len": 60,
+      "resolution": "1080p",
+      "hook_text": true,
+      "content": "auto",
+      "auto": false,
+      "auto_privacy": "public",
+      "hide_likes": true,
+      "account": "entertainment-fun",
+      "min_score": 50,
+      "motion": {
+        "zoom": 40,
+        "shake": 0
+      },
+      "caption": {
+        "size": 0.045
+      },
+      "hook": {
+        "size": 0.057,
+        "duration": 6.0
+      },
+      "look": {
+        "filter": "warm",
+        "strength": 25,
+        "brightness": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "sharpness": 0
+      },
+      "music": {
+        "track": null,
+        "volume": 15,
+        "duck": true
+      },
+      "pacing": {
+        "speed": 100,
+        "cut_pauses": false,
+        "pause": 0.6
+      },
+      "stock": {
+        "on": false,
+        "source": "live",
+        "every_min": 3.0,
+        "every_max": 5.0,
+        "len_min": 1.5,
+        "len_max": 3.0,
+        "confidence": 60,
+        "fallback": "zoom",
+        "max": 8,
+        "judge": true
+      },
+      "smart_framing": true,
+      "retention": {
+        "trim_start": true,
+        "trim_end": true,
+        "hook_rules": true,
+        "hook_weight": true,
+        "punch": true
+      }
+    },
+    "preset": "standard"
   }
 ]

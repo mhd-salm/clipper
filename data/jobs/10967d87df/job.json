@@ -1,0 +1,1461 @@
+{
+  "id": "10967d87df",
+  "created": 1794154840.7470052,
+  "url": "https://www.youtube.com/watch?v=gfaACr_Adbc",
+  "source": "manual",
+  "creator_id": "UC8-Th83bH_thdKZDJCrn88g",
+  "title": "Florence Pugh Says Tom Holland Helped Her Land Her Spider-Man: Brand New Day Role | The Tonight Show",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 84,
+        "shareability": 90,
+        "overall": 87,
+        "hook_text": "Tom Holland got me my Marvel role!",
+        "tip": "Keep the focus entirely on Tom Holland's red carpet campaign to tighten the narrative flow.",
+        "caption": "How Tom Holland personally got Florence Pugh her Marvel role!",
+        "description": "Florence Pugh shares the heartwarming story of how Tom Holland successfully campaigned to work with her on a red carpet years ago. Learn how fan excitement and a simple interview comment kicked off her superhero journey. Are you a fan of this iconic onscreen duo?",
+        "hashtags": [
+          "florencepugh",
+          "tomholland",
+          "marvel",
+          "mcu",
+          "avengers"
+        ]
+      },
+      "id": "c1",
+      "title": "How Tom Holland Got Florence Pugh Her Marvel Role",
+      "reason": "Florence shares the heartwarming story of how Tom Holland personally campaigned to work with her on the red carpet years ago.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 208.61,
+        "end": 242.06,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Tom Holland got me my Marvel role!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/6POg65MD3jc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794156296.3663797
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 88,
+        "value": 82,
+        "shareability": 86,
+        "overall": 85,
+        "hook_text": "My bizarre trick for getting into character!",
+        "tip": "Emphasize the unique perfume brand name earlier to spark curiosity and intrigue.",
+        "caption": "Florence Pugh uses perfume and custom playlists to get into character!",
+        "description": "Florence Pugh shares her unique and immersive method acting process, including hunting down specific vintage-style perfumes and crafting custom character playlists. Discover the intense psychological tricks she uses to prepare for tough scenes. What is your go-to trick for staying focused?",
+        "hashtags": [
+          "florencepugh",
+          "acting",
+          "methodacting",
+          "bts",
+          "creative"
+        ]
+      },
+      "id": "c2",
+      "title": "Florence Pugh Uses Perfume and Music to Get Into Character",
+      "reason": "Florence shares her unique and immersive method acting process, including buying specific perfumes and creating playlists.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 400.84,
+        "end": 448.29,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "My bizarre trick for getting into character!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Tr4Dz88OD88",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794156454.6703162
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 70,
+        "value": 65,
+        "shareability": 85,
+        "overall": 80,
+        "hook_text": "Trying to describe Dune 3 using gibberish!",
+        "tip": "Use text on screen to visually translate her funny gibberish words for better comedic timing.",
+        "caption": "Florence Pugh hilariously tries to describe Dune 3 using pure gibberish!",
+        "description": "Florence Pugh attempts to explain a top-secret scene from her upcoming sci-fi epic using absolute nonsense and rhyming clues. Watch her hilariously dodge spoilers while talking about the highly anticipated sequel. Can you guess what happens in this mysterious scene?",
+        "hashtags": [
+          "florencepugh",
+          "dune",
+          "dune3",
+          "scifi",
+          "funny"
+        ]
+      },
+      "id": "c3",
+      "title": "Florence Pugh Cracks Up Jimmy Fallon Describing Dune 3",
+      "reason": "Florence hilariously attempts to explain a secret Dune: Part Three scene using gibberish and rhyming clues.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 269.36,
+        "end": 290.23,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Trying to describe Dune 3 using gibberish!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/LudWGcudpPE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794156575.9575503
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 78,
+        "value": 75,
+        "shareability": 79,
+        "overall": 79,
+        "hook_text": "I found out I was in Spider-Man by accident!",
+        "tip": "Highlight her reaction shot earlier to build up more anticipation for the potato lines reveal.",
+        "caption": "Florence Pugh found out she was in Spider-Man completely by accident!",
+        "description": "Florence Pugh reveals how she accidentally discovered she was cast in a massive superhero film and talks about improvising her iconic potato lines. Discover the hilarious reality behind shooting those secret scenes. Did you catch all her improvised moments in the movie?",
+        "hashtags": [
+          "florencepugh",
+          "spiderman",
+          "marvel",
+          "behindthescenes",
+          "interview"
+        ]
+      },
+      "id": "c4",
+      "title": "Florence Pugh Found Out She Was in Spider-Man by Accident",
+      "reason": "Florence reveals the hilarious reality of how she discovered her surprise role in Spider-Man: Brand New Day and her iconic potato lines.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 87.84,
+        "end": 120.31,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I found out I was in Spider-Man by accident!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/fxGFEp49Yms",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794156751.6540558
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 80,
+        "value": 70,
+        "shareability": 82,
+        "overall": 77,
+        "hook_text": "Why I did a cocktail workout in Italy!",
+        "tip": "Cut straight to the moment she explains why she sent the weird workout video to her trainer.",
+        "caption": "Florence Pugh breaks down her hilarious viral Aperol spritz workout video!",
+        "description": "Florence Pugh explains the hilarious and chaotic backstory behind her viral Italian workout video. Find out why she improvised an awkward routine with a cocktail instead of calling her actual trainer. Would you ever try this unconventional exercise method?",
+        "hashtags": [
+          "florencepugh",
+          "workout",
+          "funny",
+          "talkshow",
+          "celebrity"
+        ]
+      },
+      "id": "c5",
+      "title": "Florence Pugh Explains Her Viral Aperol Spritz Workout",
+      "reason": "Florence humorously breaks down why she improvised an awkward workout video with a cocktail while stranded in Italy.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5.91,
+        "end": 60.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Why I did a cocktail workout in Italy!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/VsX_cb5QTVs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794156892.7917848
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 82,
+        "value": 78,
+        "shareability": 74,
+        "overall": 76,
+        "hook_text": "How we brought East of Eden back to life!",
+        "tip": "Start directly with Zoe Kazan reaching out during lockdown to grab immediate interest.",
+        "caption": "Florence Pugh talks about producing the sweeping new East of Eden series!",
+        "description": "Florence Pugh opens up about teaming up with Zoe Kazan to bring the classic epic East of Eden back to the screen. Hear how a lockdown Zoom call turned into a massive passion project and career milestone. What classic book would you want to see adapted next?",
+        "hashtags": [
+          "florencepugh",
+          "eastofeden",
+          "booktok",
+          "producing",
+          "television"
+        ]
+      },
+      "id": "c6",
+      "title": "Florence Pugh on Producing the New East of Eden Series",
+      "reason": "Florence talks about teaming up with Zoe Kazan to bring the sweeping epic East of Eden to life.",
+      "score": 76,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 322.88,
+        "end": 370.37,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {},
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 5.0,
+          "every_max": 10.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "How we brought East of Eden back to life!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtu.be/2DDuAfI-LKk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "entertainment-fun",
+          "account_name": "Entertainment & fun",
+          "t": 1794157058.4897933
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {},
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 5.0,
+      "every_max": 10.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {},
+    "content": "auto",
+    "auto": true,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794154840.7534173,
+  "finished": 1794156995.6706474,
+  "log": [
+    {
+      "t": 1794154840.7657506,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=gfaACr_Adbc"
+    },
+    {
+      "t": 1794154864.6317337,
+      "level": "ok",
+      "msg": "Downloaded \"Florence Pugh Says Tom Holland Helped Her Land Her Spider-Man: Brand New Day Role | The Tonight Show\" (9:09) in 0:23"
+    },
+    {
+      "t": 1794154864.650184,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794154864.6653426,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794154867.5866497,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794154867.729802,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794155807.3581827,
+      "level": "ok",
+      "msg": "Transcribed 284 segments / 1707 words in 15:42"
+    },
+    {
+      "t": 1794155807.3678086,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794155808.2892604,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794155809.7107317,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794155810.628359,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794155810.6337633,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794155820.780471,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794155820.795684,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Florence Pugh discusses her viral Aperol spritz workout video, her surprise appearance in Spider-Man: Brand New Day, her upcoming roles in Dune: Part Three and Avengers: Doomsday, how Tom Holland helped her get the Spider-Man role, and her new project East of Eden. | People: Florence Pugh; "
+    },
+    {
+      "t": 1794155822.013424,
+      "level": "info",
+      "msg": "Audio analysis: 6 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794155822.022681,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794155823.3585951,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794155823.8727837,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794155823.877363,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794155834.9456742,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794155834.9966984,
+      "level": "ok",
+      "msg": "AI picked 6 clips in 0:27"
+    },
+    {
+      "t": 1794155835.0028486,
+      "level": "info",
+      "msg": "  \u2022 Florence Pugh Explains Her Viral Aperol Spritz Workout  [0:05-1:00, score 88]"
+    },
+    {
+      "t": 1794155835.0090747,
+      "level": "info",
+      "msg": "  \u2022 Florence Pugh Found Out She Was in Spider-Man by Accident  [1:27-2:00, score 92]"
+    },
+    {
+      "t": 1794155835.0156398,
+      "level": "info",
+      "msg": "  \u2022 How Tom Holland Got Florence Pugh Her Marvel Role  [3:28-4:02, score 95]"
+    },
+    {
+      "t": 1794155835.0213885,
+      "level": "info",
+      "msg": "  \u2022 Florence Pugh Cracks Up Jimmy Fallon Describing Dune 3  [4:29-4:50, score 90]"
+    },
+    {
+      "t": 1794155835.0270617,
+      "level": "info",
+      "msg": "  \u2022 Florence Pugh on Producing the New East of Eden Series  [5:22-6:10, score 82]"
+    },
+    {
+      "t": 1794155835.0327568,
+      "level": "info",
+      "msg": "  \u2022 Florence Pugh Uses Perfume and Music to Get Into Character  [6:40-7:28, score 93]"
+    },
+    {
+      "t": 1794155835.0447605,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794155835.052602,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794155836.499698,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794155837.1119347,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794155837.116999,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794155841.3959417,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794155841.4066699,
+      "level": "ok",
+      "msg": "Rated 6 clips in 0:06"
+    },
+    {
+      "t": 1794155841.4113917,
+      "level": "info",
+      "msg": "  - Florence Pugh Explains Her Viral Aperol Spritz Workout: 77/100 (hook 75, retention 80, value 70, share 82)"
+    },
+    {
+      "t": 1794155841.416103,
+      "level": "info",
+      "msg": "  - Florence Pugh Found Out She Was in Spider-Man by Accident: 79/100 (hook 82, retention 78, value 75, share 79)"
+    },
+    {
+      "t": 1794155841.4214454,
+      "level": "info",
+      "msg": "  - How Tom Holland Got Florence Pugh Her Marvel Role: 87/100 (hook 88, retention 85, value 84, share 90)"
+    },
+    {
+      "t": 1794155841.4265296,
+      "level": "info",
+      "msg": "  - Florence Pugh Cracks Up Jimmy Fallon Describing Dune 3: 80/100 (hook 90, retention 70, value 65, share 85)"
+    },
+    {
+      "t": 1794155841.4312868,
+      "level": "info",
+      "msg": "  - Florence Pugh on Producing the New East of Eden Series: 76/100 (hook 72, retention 82, value 78, share 74)"
+    },
+    {
+      "t": 1794155841.4363189,
+      "level": "info",
+      "msg": "  - Florence Pugh Uses Perfume and Music to Get Into Character: 85/100 (hook 85, retention 88, value 82, share 86)"
+    },
+    {
+      "t": 1794155841.4481735,
+      "level": "ok",
+      "msg": "6 distinct clips found, 6 rated 50+"
+    },
+    {
+      "t": 1794155841.471638,
+      "level": "ok",
+      "msg": "Full auto: each clip uploads to 'Entertainment & fun' (public) as soon as it is rendered"
+    },
+    {
+      "t": 1794155841.490266,
+      "level": "info",
+      "msg": "Rendering clip 1/6: How Tom Holland Got Florence Pugh Her Marvel Role"
+    },
+    {
+      "t": 1794156062.5832827,
+      "level": "ok",
+      "msg": "Clip 1 ready in 3:41"
+    },
+    {
+      "t": 1794156062.6308792,
+      "level": "info",
+      "msg": "Rendering clip 2/6: Florence Pugh Uses Perfume and Music to Get Into Character"
+    },
+    {
+      "t": 1794156367.4765742,
+      "level": "ok",
+      "msg": "Clip 2 ready in 5:04"
+    },
+    {
+      "t": 1794156367.5186062,
+      "level": "info",
+      "msg": "Rendering clip 3/6: Florence Pugh Cracks Up Jimmy Fallon Describing Dune 3"
+    },
+    {
+      "t": 1794156479.3900175,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:51"
+    },
+    {
+      "t": 1794156479.4498112,
+      "level": "info",
+      "msg": "Rendering clip 4/6: Florence Pugh Found Out She Was in Spider-Man by Accident"
+    },
+    {
+      "t": 1794156634.7358432,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:35"
+    },
+    {
+      "t": 1794156634.7702055,
+      "level": "info",
+      "msg": "Rendering clip 5/6: Florence Pugh Explains Her Viral Aperol Spritz Workout"
+    },
+    {
+      "t": 1794156839.3880432,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:24"
+    },
+    {
+      "t": 1794156839.4213314,
+      "level": "info",
+      "msg": "Rendering clip 6/6: Florence Pugh on Producing the New East of Eden Series"
+    },
+    {
+      "t": 1794156995.6606708,
+      "level": "ok",
+      "msg": "Clip 6 ready in 2:36"
+    },
+    {
+      "t": 1794156995.6847029,
+      "level": "ok",
+      "msg": "All done in 19:14"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 549,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.5,
+      "value": 0.4761309407963547
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 11.0,
+      "value": 0.2272973030785488
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 16.5,
+      "value": 0.18099857790855536
+    },
+    {
+      "start_time": 16.5,
+      "end_time": 22.0,
+      "value": 0.17398678982076304
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 27.5,
+      "value": 0.18326584650533326
+    },
+    {
+      "start_time": 27.5,
+      "end_time": 33.0,
+      "value": 0.18006689711016835
+    },
+    {
+      "start_time": 33.0,
+      "end_time": 38.5,
+      "value": 0.14287508269993698
+    },
+    {
+      "start_time": 38.5,
+      "end_time": 44.0,
+      "value": 0.1221698668416498
+    },
+    {
+      "start_time": 44.0,
+      "end_time": 49.5,
+      "value": 0.14346806522150546
+    },
+    {
+      "start_time": 49.5,
+      "end_time": 55.0,
+      "value": 0.13767812186243833
+    },
+    {
+      "start_time": 55.0,
+      "end_time": 60.5,
+      "value": 0.16573544047899658
+    },
+    {
+      "start_time": 60.5,
+      "end_time": 66.0,
+      "value": 0.17557664059556619
+    },
+    {
+      "start_time": 66.0,
+      "end_time": 71.5,
+      "value": 0.24133376786673952
+    },
+    {
+      "start_time": 71.5,
+      "end_time": 77.0,
+      "value": 0.35711621589142856
+    },
+    {
+      "start_time": 77.0,
+      "end_time": 82.5,
+      "value": 0.39597465977532115
+    },
+    {
+      "start_time": 82.5,
+      "end_time": 88.0,
+      "value": 0.298939060347935
+    },
+    {
+      "start_time": 88.0,
+      "end_time": 93.5,
+      "value": 0.2547002162144521
+    },
+    {
+      "start_time": 93.5,
+      "end_time": 99.0,
+      "value": 0.2616629169789856
+    },
+    {
+      "start_time": 99.0,
+      "end_time": 104.5,
+      "value": 0.21932305890781334
+    },
+    {
+      "start_time": 104.5,
+      "end_time": 110.0,
+      "value": 0.20223969207020187
+    },
+    {
+      "start_time": 110.0,
+      "end_time": 115.5,
+      "value": 0.17867286391995976
+    },
+    {
+      "start_time": 115.5,
+      "end_time": 121.0,
+      "value": 0.16954934258850568
+    },
+    {
+      "start_time": 121.0,
+      "end_time": 126.5,
+      "value": 0.3055040006620408
+    },
+    {
+      "start_time": 126.5,
+      "end_time": 132.0,
+      "value": 0.384415445881367
+    },
+    {
+      "start_time": 132.0,
+      "end_time": 137.5,
+      "value": 0.40754629437845347
+    },
+    {
+      "start_time": 137.5,
+      "end_time": 143.0,
+      "value": 0.25056811850560345
+    },
+    {
+      "start_time": 143.0,
+      "end_time": 148.5,
+      "value": 0.18515551703576033
+    },
+    {
+      "start_time": 148.5,
+      "end_time": 154.0,
+      "value": 0.18746362084079513
+    },
+    {
+      "start_time": 154.0,
+      "end_time": 159.5,
+      "value": 0.23693479505726173
+    },
+    {
+      "start_time": 159.5,
+      "end_time": 165.0,
+      "value": 0.3924306316020476
+    },
+    {
+      "start_time": 165.0,
+      "end_time": 170.5,
+      "value": 0.6863595681415127
+    },
+    {
+      "start_time": 170.5,
+      "end_time": 176.0,
+      "value": 0.9629796509277725
+    },
+    {
+      "start_time": 176.0,
+      "end_time": 181.5,
+      "value": 1.0
+    },
+    {
+      "start_time": 181.5,
+      "end_time": 187.0,
+      "value": 0.8500986295230889
+    },
+    {
+      "start_time": 187.0,
+      "end_time": 192.5,
+      "value": 0.664357132565926
+    },
+    {
+      "start_time": 192.5,
+      "end_time": 198.0,
+      "value": 0.4059005929490239
+    },
+    {
+      "start_time": 198.0,
+      "end_time": 203.5,
+      "value": 0.29998137903869315
+    },
+    {
+      "start_time": 203.5,
+      "end_time": 209.0,
+      "value": 0.23112407253232636
+    },
+    {
+      "start_time": 209.0,
+      "end_time": 214.5,
+      "value": 0.21169706249749398
+    },
+    {
+      "start_time": 214.5,
+      "end_time": 220.0,
+      "value": 0.17730962728264493
+    },
+    {
+      "start_time": 220.0,
+      "end_time": 225.5,
+      "value": 0.18524339780686325
+    },
+    {
+      "start_time": 225.5,
+      "end_time": 231.0,
+      "value": 0.23416963467647617
+    },
+    {
+      "start_time": 231.0,
+      "end_time": 236.5,
+      "value": 0.2591167354024778
+    },
+    {
+      "start_time": 236.5,
+      "end_time": 242.0,
+      "value": 0.2554027306748347
+    },
+    {
+      "start_time": 242.0,
+      "end_time": 247.5,
+      "value": 0.32903601254357634
+    },
+    {
+      "start_time": 247.5,
+      "end_time": 253.0,
+      "value": 0.4663210051361068
+    },
+    {
+      "start_time": 253.0,
+      "end_time": 258.5,
+      "value": 0.4959172581271728
+    },
+    {
+      "start_time": 258.5,
+      "end_time": 264.0,
+      "value": 0.3702231692516709
+    },
+    {
+      "start_time": 264.0,
+      "end_time": 269.5,
+      "value": 0.2929145484931045
+    },
+    {
+      "start_time": 269.5,
+      "end_time": 275.0,
+      "value": 0.32331393644989875
+    },
+    {
+      "start_time": 275.0,
+      "end_time": 280.5,
+      "value": 0.5267955665108054
+    },
+    {
+      "start_time": 280.5,
+      "end_time": 286.0,
+      "value": 0.5675426813132562
+    },
+    {
+      "start_time": 286.0,
+      "end_time": 291.5,
+      "value": 0.34353731811909183
+    },
+    {
+      "start_time": 291.5,
+      "end_time": 297.0,
+      "value": 0.27651096026294514
+    },
+    {
+      "start_time": 297.0,
+      "end_time": 302.5,
+      "value": 0.3205026025081102
+    },
+    {
+      "start_time": 302.5,
+      "end_time": 308.0,
+      "value": 0.32690398930581194
+    },
+    {
+      "start_time": 308.0,
+      "end_time": 313.5,
+      "value": 0.25807573534865297
+    },
+    {
+      "start_time": 313.5,
+      "end_time": 319.0,
+      "value": 0.21920659349093055
+    },
+    {
+      "start_time": 319.0,
+      "end_time": 324.5,
+      "value": 0.28589786868765643
+    },
+    {
+      "start_time": 324.5,
+      "end_time": 330.0,
+      "value": 0.20755894584909496
+    },
+    {
+      "start_time": 330.0,
+      "end_time": 335.5,
+      "value": 0.14681268146112436
+    },
+    {
+      "start_time": 335.5,
+      "end_time": 341.0,
+      "value": 0.1120810926408537
+    },
+    {
+      "start_time": 341.0,
+      "end_time": 346.5,
+      "value": 0.0920637160899818
+    },
+    {
+      "start_time": 346.5,
+      "end_time": 352.0,
+      "value": 0.05908998727765263
+    },
+    {
+      "start_time": 352.0,
+      "end_time": 357.5,
+      "value": 0.060210924378474175
+    },
+    {
+      "start_time": 357.5,
+      "end_time": 363.0,
+      "value": 0.05215810433435056
+    },
+    {
+      "start_time": 363.0,
+      "end_time": 368.5,
+      "value": 0.05468337913496428
+    },
+    {
+      "start_time": 368.5,
+      "end_time": 374.0,
+      "value": 0.0708399568918445
+    },
+    {
+      "start_time": 374.0,
+      "end_time": 379.5,
+      "value": 0.06826323398249458
+    },
+    {
+      "start_time": 379.5,
+      "end_time": 385.0,
+      "value": 0.06560426641151468
+    },
+    {
+      "start_time": 385.0,
+      "end_time": 390.5,
+      "value": 0.08895461478715097
+    },
+    {
+      "start_time": 390.5,
+      "end_time": 396.0,
+      "value": 0.07784824633809605
+    },
+    {
+      "start_time": 396.0,
+      "end_time": 401.5,
+      "value": 0.08511921038829408
+    },
+    {
+      "start_time": 401.5,
+      "end_time": 407.0,
+      "value": 0.10263945014924179
+    },
+    {
+      "start_time": 407.0,
+      "end_time": 412.5,
+      "value": 0.16123091290984212
+    },
+    {
+      "start_time": 412.5,
+      "end_time": 418.0,
+      "value": 0.22721312299819416
+    },
+    {
+      "start_time": 418.0,
+      "end_time": 423.5,
+      "value": 0.32096199860100066
+    },
+    {
+      "start_time": 423.5,
+      "end_time": 429.0,
+      "value": 0.23064057941289678
+    },
+    {
+      "start_time": 429.0,
+      "end_time": 434.5,
+      "value": 0.17105852255866374
+    },
+    {
+      "start_time": 434.5,
+      "end_time": 440.0,
+      "value": 0.10285467509192721
+    },
+    {
+      "start_time": 440.0,
+      "end_time": 445.5,
+      "value": 0.11390322556512458
+    },
+    {
+      "start_time": 445.5,
+      "end_time": 451.0,
+      "value": 0.10078463842419653
+    },
+    {
+      "start_time": 451.0,
+      "end_time": 456.5,
+      "value": 0.0979404342665949
+    },
+    {
+      "start_time": 456.5,
+      "end_time": 462.0,
+      "value": 0.08632719879505084
+    },
+    {
+      "start_time": 462.0,
+      "end_time": 467.5,
+      "value": 0.09586349602330206
+    },
+    {
+      "start_time": 467.5,
+      "end_time": 473.0,
+      "value": 0.10944806180761824
+    },
+    {
+      "start_time": 473.0,
+      "end_time": 478.5,
+      "value": 0.11551602487623462
+    },
+    {
+      "start_time": 478.5,
+      "end_time": 484.0,
+      "value": 0.17011284719411368
+    },
+    {
+      "start_time": 484.0,
+      "end_time": 489.5,
+      "value": 0.19150620011654304
+    },
+    {
+      "start_time": 489.5,
+      "end_time": 495.0,
+      "value": 0.1773002266774108
+    },
+    {
+      "start_time": 495.0,
+      "end_time": 500.5,
+      "value": 0.13998648088752474
+    },
+    {
+      "start_time": 500.5,
+      "end_time": 506.0,
+      "value": 0.1304093484510166
+    },
+    {
+      "start_time": 506.0,
+      "end_time": 511.5,
+      "value": 0.127019005285485
+    },
+    {
+      "start_time": 511.5,
+      "end_time": 517.0,
+      "value": 0.16594591194822084
+    },
+    {
+      "start_time": 517.0,
+      "end_time": 522.5,
+      "value": 0.1858884452189593
+    },
+    {
+      "start_time": 522.5,
+      "end_time": 528.0,
+      "value": 0.20542541255935853
+    },
+    {
+      "start_time": 528.0,
+      "end_time": 533.5,
+      "value": 0.1342877148918938
+    },
+    {
+      "start_time": 533.5,
+      "end_time": 539.0,
+      "value": 0.07160714836697157
+    },
+    {
+      "start_time": 539.0,
+      "end_time": 544.5,
+      "value": 0.013054101541222315
+    },
+    {
+      "start_time": 544.5,
+      "end_time": 550.0,
+      "value": 0.0
+    }
+  ],
+  "video_description": "Florence Pugh talks about her viral Aperol spritz workout, answers questions about Spider-Man: Brand New Day, Dune: Part Three and Avengers: Doomsday, and shares how she uses perfume to get into character.\n\n0:00 - Intro\n0:06 - Florence Pugh\u2019s Viral Aperol Spritz Workout\n1:06 - Florence Pugh Talks Spider-Man: Brand New Day\n2:23 - Florence Pugh Answers Movie Questions\n5:16 - Florence Pugh Talks East of Eden\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nFlorence Pugh Says Tom Holland Helped Her Land Her Spider-Man: Brand New Day Role | The Tonight Show\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight\n#FlorencePugh\n#JimmyFallon",
+  "brief": "Summary: Florence Pugh discusses her viral Aperol spritz workout video, her surprise appearance in Spider-Man: Brand New Day, her upcoming roles in Dune: Part Three and Avengers: Doomsday, how Tom Holland helped her get the Spider-Man role, and her new project East of Eden.\nPeople: Florence Pugh; Jimmy Fallon; Tom Holland; Zoe Kazan; Mike Feist; Chris Abbott\nContext: An interview on The Tonight Show Starring Jimmy Fallon where Florence Pugh promotes her recent and upcoming films and television projects.\nUnclear: The exact plot details and specific scenes of Dune: Part Three and Avengers: Doomsday are kept vague or secret.",
+  "render_index": 6,
+  "render_total": 6
+}

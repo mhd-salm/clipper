@@ -8,7 +8,13 @@ from pathlib import Path
 
 from pydantic import BaseModel
 
+import aiusage
 import config
+import retention
+import look
+import motion
+import sound
+import stock
 from layouts import build_filter, get_layout
 from subtitles import build_ass, clean_token
 
@@ -257,10 +263,13 @@ def _ask_gemini(prompt: str, schema, keys: list[str], log) -> list[dict]:
                             response_mime_type="application/json", response_schema=schema,
                             http_options=types.HttpOptions(timeout=75_000)))
                     log(f"{model} answered", "ok")
+                    um = getattr(resp, "usage_metadata", None)
+                    aiusage.record("gemini", model, True, len(prompt), getattr(um, "total_token_count", 0) or 0)
                     break
                 except Exception as e:
                     last = e
                     tried += 1
+                    aiusage.record("gemini", model, False, len(prompt))
                     overloaded = overloaded or "503" in str(e) or "UNAVAILABLE" in str(e) or "timed out" in str(e)
                     quota = "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e)
                     quota_n += 1 if quota else 0
@@ -342,6 +351,7 @@ def _ask_llm(prompt: str, schema, log, spread: bool = False) -> list[dict]:
     """Ask any configured AI: all Gemini keys first, then every other provider (Grok, Groq, ...) until one answers.
     spread=True starts with the second Gemini key so several jobs/steps share quota instead of draining one key."""
     import llm
+    aiusage.set_purpose(schema)
     keys = list(config.GEMINI_KEYS)
     if spread and len(keys) > 1:
         keys = keys[1:] + keys[:1]
@@ -355,8 +365,11 @@ def _ask_llm(prompt: str, schema, log, spread: bool = False) -> list[dict]:
                 log("Gemini is out of capacity - switching to your other AI providers", "warn")
     for p in llm.providers():
         try:
-            return llm.ask(p, prompt, schema, log)
+            out = llm.ask(p, prompt, schema, log)
+            aiusage.record(str(p), "", True, len(prompt))
+            return out
         except Exception as e:
+            aiusage.record(str(p), "", False, len(prompt))
             errors.append(str(e)[:120])
     if not errors:
         raise RuntimeError("No AI key configured. Add GEMINI_API_KEY (or another provider's key) to .env.")
@@ -445,7 +458,7 @@ Clips:
 """
 
 
-def rate_clips(transcript: list[dict], picks: list[dict], log=None, kind: str = "auto", context: dict | None = None) -> list:
+def rate_clips(transcript: list[dict], picks: list[dict], log=None, kind: str = "auto", context: dict | None = None, ret: dict | None = None) -> list:
     """Panel review of the picked clips. Uses GEMINI_API_KEY_2 first when set (separate quota), else the main key."""
     log = log or (lambda *a, **k: None)
     blocks = []
@@ -460,6 +473,7 @@ def rate_clips(transcript: list[dict], picks: list[dict], log=None, kind: str = 
         ctx = (f"Source video (context only, do not quote it): title \"{context.get('title', '')}\"\n"
                f"Original description: {(context.get('description') or '(none)')[:1500]}\n"
                + (f"VIDEO BRIEF (who is who, trusted background):\n{context['brief']}\n" if context.get("brief") else ""))
+    ctx = retention.hook_rules(ret) + ctx  # stricter hook-text rules (a switch in the preset), same request
     out = _ask_llm(note + RATE_PROMPT.format(clips="\n\n".join(blocks), context=ctx), list[ClipRating], log, spread=True)
     by = {r["index"]: r for r in out}
     res = []
@@ -473,7 +487,7 @@ def rate_clips(transcript: list[dict], picks: list[dict], log=None, kind: str = 
             return max(1, min(100, int(v)))
         h, rt, v, sh = (clamp(r[k]) for k in ("hook", "retention", "value", "shareability"))
         res.append({"hook": h, "retention": rt, "value": v, "shareability": sh,
-                    "overall": round(h * 0.35 + rt * 0.2 + v * 0.2 + sh * 0.25),
+                    "overall": retention.overall(h, rt, v, sh, picks[i - 1]["end"] - picks[i - 1]["start"], ret),
                     "hook_text": r["hook_text"].strip().strip("\"")[:80], "tip": r["tip"].strip(), "caption": r["caption"].strip()[:200],
                     "description": clean_text(r.get("description", ""), (context or {}).get("channel", ""))[:500],
                     "hashtags": [t.strip().lstrip("#").replace(" ", "") for t in r["hashtags"] if t.strip()][:6]})
@@ -593,6 +607,121 @@ def detect_face(video: Path, start: float, end: float) -> tuple[float, float]:
     return xs[len(xs) // 2], ys[len(ys) // 2]
 
 
+def scene_cuts(video: Path, start: float, end: float) -> list[float]:
+    """Times (seconds from the clip start) where the camera cuts to another shot."""
+    try:
+        r = subprocess.run(["ffmpeg", "-nostdin", "-hide_banner", "-ss", f"{start:.2f}", "-t", f"{end - start:.2f}", "-i", str(video),
+                            "-an", "-vf", "scale=320:-2,select='gt(scene,0.15)',showinfo", "-f", "null", "-"],
+                           capture_output=True, text=True, timeout=180)
+        cuts = sorted({round(float(m), 2) for m in re.findall(r"pts_time:([0-9.]+)", r.stderr)})
+        return [c for c in cuts if 0.5 < c < end - start - 0.5]
+    except Exception:
+        return []
+
+
+WIDE_FACE = 0.03  # a shot whose biggest face is under 3% of the picture is a wide shot (or has nobody in it)
+
+
+def detect_face_track(video: Path, start: float, end: float):
+    """Where the speaker is over time, shot by shot.
+    Returns ([(t, x), ...], y, wide) with t in seconds from the clip start, x and y as 0..1 of the frame, and `wide` a list of
+    (t0, t1) windows that are wide shots / shots with nobody in them (better shown whole than cropped).
+    A camera cut moves the framing at once; inside one shot it glides only when the speaker really moves.
+    Returns None when no face is found at all."""
+    import cv2
+    cuts = scene_cuts(video, start, end)
+    dur = end - start
+    step = max(1.0, dur / 90)
+    base = cv2.data.haarcascades
+    front = cv2.CascadeClassifier(base + "haarcascade_frontalface_default.xml")
+    side = cv2.CascadeClassifier(base + "haarcascade_profileface.xml")
+    cap = cv2.VideoCapture(str(video))
+    samples = []  # (t, [(cx, cy, area as a fraction of the picture), ...])
+    try:
+        t = step / 2
+        while t < dur:
+            cap.set(cv2.CAP_PROP_POS_MSEC, (start + t) * 1000)
+            ok, frame = cap.read()
+            faces = []
+            if ok:
+                h, w = frame.shape[:2]
+                gh = int(h * 640 / w)
+                gray = cv2.cvtColor(cv2.resize(frame, (640, gh)), cv2.COLOR_BGR2GRAY)
+                found = [tuple(f) for f in front.detectMultiScale(gray, 1.12, 5, minSize=(20, 20))]
+                if not found:  # people looking sideways are common in interviews
+                    found = [tuple(f) for f in side.detectMultiScale(gray, 1.12, 4, minSize=(20, 20))]
+                    flipped = cv2.flip(gray, 1)
+                    found += [(640 - x - fw, y, fw, fh) for x, y, fw, fh in side.detectMultiScale(flipped, 1.12, 4, minSize=(20, 20))]
+                faces = [((x + fw / 2) / 640, (y + fh / 2) / gh, fw * fh / (640 * gh)) for x, y, fw, fh in found]
+            samples.append((t, faces))
+            t += step
+    finally:
+        cap.release()
+    if not any(f for _, f in samples):
+        return None
+    shot_of = lambda tt: sum(1 for c in cuts if c <= tt)  # noqa: E731
+    picks, prev, prev_shot = [], None, -1  # (t, x or None, shot, y or None, biggest face fraction)
+    for t, faces in samples:
+        sh = shot_of(t)
+        if sh != prev_shot:
+            prev, prev_shot = None, sh
+        x = y = None
+        big_a = 0.0
+        if faces:
+            big = max(faces, key=lambda f: f[2])
+            x, y, big_a = big[0], big[1], big[2]
+            if prev is not None:  # stay with the same person unless someone clearly bigger shows up
+                near = [f for f in faces if abs(f[0] - prev) < 0.12 and f[2] >= 0.5 * big[2]]
+                if near:
+                    x = max(near, key=lambda f: f[2])[0]
+            prev = x
+        picks.append((t, x, sh, y, big_a))
+    ys = sorted(p[3] for p in picks if p[3] is not None)
+    face_y = ys[len(ys) // 2] if ys else 0.4
+    kf, wide = [], []
+    for sh in range(len(cuts) + 1):
+        pts = [(t, x) for t, x, s_, _, _ in picks if s_ == sh]
+        if not pts:
+            continue
+        t_start = cuts[sh - 1] if sh > 0 else 0.0
+        t_end = cuts[sh] if sh < len(cuts) else dur
+        areas = sorted(p[4] for p in picks if p[2] == sh)
+        if areas[len(areas) // 2] < WIDE_FACE and (t_end - t_start) >= 0.8:
+            wide.append((t_start, t_end))
+        known = [x for _, x in pts if x is not None] or [0.5]
+        last = next((x for _, x in pts if x is not None), known[0])
+        filled = []
+        for t, x in pts:
+            last = x if x is not None else last
+            filled.append((t, last))
+        sm = []
+        for i, (t, _) in enumerate(filled):
+            win = sorted(v for _, v in filled[max(0, i - 2): i + 3])
+            sm.append((t, win[len(win) // 2]))
+        held, out = sm[0][1], []
+        for t, x in sm:
+            if abs(x - held) > 0.05:
+                held = x
+            out.append((t, held))
+        keep = [(t_start, out[0][1])]
+        for (t0, x0), (t1, x1) in zip(out, out[1:]):
+            if abs(x1 - keep[-1][1]) > 0.005:
+                keep.append((t0, keep[-1][1]))
+                keep.append((t1, x1))
+        keep.append((t_end - 0.001, keep[-1][1]))
+        kf.extend(keep)
+    kf = [(float(t), float(x)) for t, x in sorted(kf, key=lambda k: k[0])]
+    if len(kf) > 90:
+        kf = kf[::2] + [kf[-1]]
+    merged = []
+    for w in wide:  # glue neighbouring wide windows together
+        if merged and w[0] - merged[-1][1] < 0.05:
+            merged[-1] = (merged[-1][0], w[1])
+        else:
+            merged.append(w)
+    return kf, float(face_y), merged
+
+
 def extract_frame(video: Path, t: float, out: Path, width: int = 960) -> Path:
     """Single JPEG frame for the layout editor preview (cached by the caller)."""
     if not out.exists():
@@ -610,29 +739,114 @@ def render_clip(video: Path, words: list[dict], params: dict, out_dir: Path, cli
     W, H = config.RESOLUTIONS.get(params.get("resolution", "1080p"), (1080, 1920))
     layout = params.get("layout") or get_layout(params.get("layout_id", "fill"))
     start, end = float(params["start"]), float(params["end"])
-    face_x, face_y = detect_face(video, start, end) if any(
-        r.get("follow_face") and not r.get("crop") for r in layout.get("regions", [])) else (0.5, 0.4)
-
-    fg = build_filter(layout, W, H, face_x, face_y)
-    ass = build_ass(words, start, end, W, H, bool(params.get("subtitles")),
-                    params.get("sub_style", "bold_yellow"), params.get("overlays"))
+    face_x, face_y, wide = 0.5, 0.4, []
+    follows = any(r.get("follow_face") and not r.get("crop") for r in layout.get("regions", []))
+    if follows:
+        try:  # follow the speaker over time (camera cuts, movement); fall back to one fixed position
+            trk = detect_face_track(video, start, end)
+            if trk:
+                kf, face_y, wide = trk
+                face_x = kf if len({round(x, 2) for _, x in kf}) > 1 else kf[0][1]
+            else:
+                face_x, face_y = detect_face(video, start, end)
+        except Exception:
+            face_x, face_y = detect_face(video, start, end)
+    regs = layout.get("regions", [])
+    single = len(regs) == 1 and regs[0].get("follow_face") and not regs[0].get("crop") and regs[0].get("w", 0) >= 0.98 and regs[0].get("h", 0) >= 0.98
+    if params.get("smart_framing", True) and single and wide:
+        # wide shots / shots with nobody in them show the whole picture over a blurred background instead of a crop that loses people
+        win = "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in wide)
+        fg = ("[0:v]split=2[va][vb];" + build_filter(layout, W, H, face_x, face_y, src="va", pre="a_") + ";"
+              + build_filter(get_layout("fit_blur"), W, H, 0.5, 0.4, src="vb", pre="b_")
+              + f";[a_base][b_base]overlay=enable='{win}'[base]")
+    else:
+        fg = build_filter(layout, W, H, face_x, face_y)
+    pace = sound.clean_pacing(params.get("pacing"))
+    music = sound.clean_music(params.get("music"))
+    music_file = sound.track_path(music)
+    speech = sound.has_audio(video)
+    keep = sound.keep_intervals(words, start, end, pace["pause"]) if (pace["cut_pauses"] and words) else None
+    if keep and len(keep) == 1 and keep[0] == (0.0, end - start):
+        keep = None  # no long pauses found: nothing to cut
+    length = sound.kept_length(keep) if keep else end - start
+    cw, cend = words, end
+    if keep:  # captions follow the cut: move every word to where it lands after the pauses are removed
+        cw = [{**w, "start": start + sound.remap(w["start"] - start, keep), "end": start + sound.remap(w["end"] - start, keep)} for w in words]
+        cend = start + length
+    ass = build_ass(cw, start, cend, W, H, bool(params.get("subtitles")),
+                    params.get("sub_style", "bold_yellow"), params.get("overlays"), cap=params.get("caption"))
     ass_name = f"{clip_id}.ass"
     (out_dir / ass_name).write_text(ass, "utf-8")
-    fg += f";[base]ass={ass_name}[v]"
+    last = "base"
+    cu_fg, last, cu_args = stock.overlay_graph(params.get("cutaways") or [], last, W, H, 2 if music_file else 1)
+    fg += cu_fg  # stock-video cutaways (and quick zoom-ins) sit on the picture first, so cuts/look/motion apply to them too
+    if keep:  # cut the long pauses out of the picture (the sound is cut the same way below)
+        fg += f";[{last}]select='{sound.select_expr(keep)}',setpts=N/FRAME_RATE/TB[cut]"
+        last = "cut"
+    if look.active(params.get("look")):  # color look: picture only
+        fg += f";[{last}]{look.build_filter(params['look'])}[looked]"
+        last = "looked"
+    mo = params.get("motion") or {}
+    ret = params.get("retention")
+    punches: list[float] = []
+    if isinstance(ret, dict) and ret.get("punch") and words:  # slight punch-in at sentence starts (only clips made with the switch on)
+        punches = retention.punch_times(words, start, end)
+        if keep:
+            punches = [sound.remap(t, keep) for t in punches]
+            punches = [t for i, t in enumerate(punches) if i == 0 or t - punches[i - 1] >= 1.2]
+    if motion.active(mo) or punches:  # zoom / shake / punch-in the picture only; captions are drawn on top afterwards
+        loud = motion.loud_moments(video, start, end) if mo.get("shake") else []
+        if keep:
+            loud = [sound.remap(t, keep) for t in loud]
+        fg += f";[{last}]{motion.build_filter(mo, W, H, length, loud, punches)}[mov]"
+        last = "mov"
+    speed = pace["speed"] / 100
+    if speed > 1.001:  # captions are drawn first, on the normal timeline, then everything is sped up together
+        fg += f";[{last}]ass={ass_name}[sub];[sub]setpts=PTS/{speed:.4f},fps=30[v]"
+    else:
+        fg += f";[{last}]ass={ass_name}[v]"
+    custom_audio = bool(keep) or speed > 1.001 or music_file is not None
+    amap = ["-map", "0:a?"]
+    if custom_audio:
+        sp = []
+        if keep:
+            sp.append(f"aselect='{sound.select_expr(keep)}',asetpts=N/SR/TB")
+        if speed > 1.001:
+            sp.append(sound.atempo_chain(speed))
+        if speech:
+            fg += f";[0:a]{','.join(sp) or 'anull'}[sp]"
+        if music_file:
+            fg += f";[1:a]volume={music['volume'] / 100:.3f}[mus]"
+            if speech and music["duck"]:
+                fg += ";[sp]asplit=2[s1][s2];[mus][s1]sidechaincompress=threshold=0.04:ratio=10:attack=30:release=500[md];[s2][md]amix=inputs=2:duration=first:normalize=0[a]"
+            elif speech:
+                fg += ";[sp][mus]amix=inputs=2:duration=first:normalize=0[a]"
+            else:
+                fg += ";[mus]anull[a]"
+            amap = ["-map", "[a]"]
+        elif speech:
+            amap = ["-map", "[sp]"]
+        else:
+            amap = []
     script = out_dir / f"{clip_id}.filter.txt"
     script.write_text(fg, "utf-8")
 
     out = out_dir / f"{clip_id}.mp4"
     part = out_dir / f"{clip_id}.part.mp4"  # render to a temp file: a failed/cancelled render never damages the finished clip
-    cmd = [
-        "ffmpeg", "-y", "-ss", f"{start:.2f}", "-t", f"{end - start:.2f}", "-i", str(video.resolve()),
-        "-/filter_complex", script.name, "-map", "[v]", "-map", "0:a?",
-        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", part.name,
-    ]
+    final_len = length / speed
+    cmd = ["ffmpeg", "-y", "-ss", f"{start:.2f}", "-t", f"{end - start:.2f}", "-i", str(video.resolve())]
+    if music_file:
+        cmd += ["-stream_loop", "-1", "-t", f"{end - start + 2:.2f}", "-i", str(music_file)]
+    cmd += cu_args
+    cmd += ["-/filter_complex", script.name, "-map", "[v]", *amap,
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart"]
+    if music_file:
+        cmd += ["-t", f"{final_len:.2f}"]  # the looped music has no end of its own
+    cmd += [part.name]
     cmd[1:1] = ["-nostats", "-progress", "pipe:1"]
     err_path = out_dir / f"{clip_id}.err.txt"
-    total = max(end - start, 0.1)
+    total = max(final_len, 0.1)
     with open(err_path, "w", encoding="utf-8") as errf:
         proc = subprocess.Popen(cmd, cwd=out_dir, stdout=subprocess.PIPE, stderr=errf, text=True,
                                 creationflags=getattr(subprocess, "BELOW_NORMAL_PRIORITY_CLASS", 0))  # keep the UI responsive while rendering
@@ -660,4 +874,42 @@ def render_clip(video: Path, words: list[dict], params: dict, out_dir: Path, cli
     thumb = out_dir / f"{clip_id}.jpg"
     subprocess.run(["ffmpeg", "-y", "-ss", "1", "-i", out.name, "-frames:v", "1", "-vf", "scale=360:-2", thumb.name],
                    cwd=out_dir, capture_output=True)
+    return out
+
+
+def preview_still(settings: dict, out: Path) -> Path:
+    """One JPEG showing how a preset looks (layout, captions, hook text) on a sample frame. Nothing is saved to any project."""
+    import tempfile
+    from subtitles import hook_overlay
+    W, H = 540, 960
+    layout = get_layout(settings.get("layout_id", "fill"))
+    sources = sorted(config.DATA.glob("jobs/*/source.*"), key=lambda p: p.stat().st_mtime, reverse=True)
+    frame = None
+    prev_dir = config.DATA / "preview"
+    prev_dir.mkdir(exist_ok=True)
+    for src in sources[:3]:
+        cand = prev_dir / f"{src.parent.name}.jpg"
+        try:
+            frame = extract_frame(src, 6, cand, 1280)
+            break
+        except Exception:
+            continue
+    words = [{"word": w, "start": i * 0.4, "end": i * 0.4 + 0.38} for i, w in enumerate("this is how your captions will look on every clip".split())]
+    ov = [hook_overlay("This is your hook text", settings.get("hook"))] if settings.get("hook_text", True) else []
+    ass = build_ass(words, 0, 6, W, H, bool(settings.get("subtitles", True)), settings.get("sub_style", "bold_yellow"), ov, cap=settings.get("caption"))
+    with tempfile.TemporaryDirectory() as td:
+        td = Path(td)
+        (td / "p.ass").write_text(ass, "utf-8")
+        fg = build_filter(layout, W, H, 0.5, 0.4)
+        last = "base"
+        if look.active(settings.get("look")):
+            fg += f";[base]{look.build_filter(settings['look'])}[looked]"
+            last = "looked"
+        fg += f";[{last}]ass=p.ass[v]"
+        (td / "f.txt").write_text(fg, "utf-8")
+        inp = ["-loop", "1", "-t", "2", "-i", str(frame)] if frame else ["-f", "lavfi", "-t", "2", "-i", "gradients=s=1280x720:r=30:speed=0"]
+        r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inp, "-/filter_complex", "f.txt", "-map", "[v]", "-ss", "0.6",
+                            "-frames:v", "1", "-q:v", "4", str(out)], cwd=td, capture_output=True, text=True)
+    if r.returncode != 0 or not out.exists():
+        raise RuntimeError("preview failed: " + r.stderr[-300:])
     return out

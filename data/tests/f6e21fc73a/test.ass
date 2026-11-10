@@ -1,0 +1,108 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Arial,56,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,2,60,60,281,1
+Style: Txt,Arial,51,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,40,40,40,1
+Style: TxtPlain,Arial,51,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,0,0,5,40,40,40,1
+Style: TxtBox,Arial,51,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,3,14,0,5,40,40,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.15,Sub,,0,0,0,,{\c&H00FFFFFF}is. {\c&H00FFFFFF}Before {\c&H00FFFFFF}I
+Dialogue: 0,0:00:00.15,0:00:00.47,Sub,,0,0,0,,{\c&H00FFFFFF}is. {\c&H00FFFFFF}Before {\c&H00FFFFFF}I
+Dialogue: 0,0:00:00.47,0:00:00.95,Sub,,0,0,0,,{\c&H00FFFFFF}is. {\c&H00FFFFFF}Before {\c&H00FFFFFF}I
+Dialogue: 0,0:00:00.95,0:00:01.11,Sub,,0,0,0,,{\c&H00FFFFFF}went {\c&H00FFFFFF}on,
+Dialogue: 0,0:00:01.11,0:00:01.35,Sub,,0,0,0,,{\c&H00FFFFFF}went {\c&H00FFFFFF}on,
+Dialogue: 0,0:00:01.35,0:00:01.59,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}actually {\c&H00FFFFFF}spoke
+Dialogue: 0,0:00:01.59,0:00:01.83,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}actually {\c&H00FFFFFF}spoke
+Dialogue: 0,0:00:01.83,0:00:02.15,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}actually {\c&H00FFFFFF}spoke
+Dialogue: 0,0:00:02.15,0:00:02.31,Sub,,0,0,0,,{\c&H00FFFFFF}to {\c&H00FFFFFF}some {\c&H00FFFFFF}of
+Dialogue: 0,0:00:02.31,0:00:02.47,Sub,,0,0,0,,{\c&H00FFFFFF}to {\c&H00FFFFFF}some {\c&H00FFFFFF}of
+Dialogue: 0,0:00:02.47,0:00:02.55,Sub,,0,0,0,,{\c&H00FFFFFF}to {\c&H00FFFFFF}some {\c&H00FFFFFF}of
+Dialogue: 0,0:00:02.55,0:00:02.71,Sub,,0,0,0,,{\c&H00FFFFFF}my {\c&H00FFFFFF}friends {\c&H00FFFFFF}who
+Dialogue: 0,0:00:02.71,0:00:02.95,Sub,,0,0,0,,{\c&H00FFFFFF}my {\c&H00FFFFFF}friends {\c&H00FFFFFF}who
+Dialogue: 0,0:00:02.95,0:00:03.11,Sub,,0,0,0,,{\c&H00FFFFFF}my {\c&H00FFFFFF}friends {\c&H00FFFFFF}who
+Dialogue: 0,0:00:03.11,0:00:03.27,Sub,,0,0,0,,{\c&H00FFFFFF}are {\c&H00FFFFFF}top {\c&H00FFFFFF}lobbyists.
+Dialogue: 0,0:00:03.27,0:00:03.51,Sub,,0,0,0,,{\c&H00FFFFFF}are {\c&H00FFFFFF}top {\c&H00FFFFFF}lobbyists.
+Dialogue: 0,0:00:03.51,0:00:03.91,Sub,,0,0,0,,{\c&H00FFFFFF}are {\c&H00FFFFFF}top {\c&H00FFFFFF}lobbyists.
+Dialogue: 0,0:00:03.91,0:00:04.07,Sub,,0,0,0,,{\c&H00FFFFFF}I'm {\c&H00FFFFFF}like,
+Dialogue: 0,0:00:04.07,0:00:04.47,Sub,,0,0,0,,{\c&H00FFFFFF}I'm {\c&H00FFFFFF}like,
+Dialogue: 0,0:00:04.47,0:00:04.71,Sub,,0,0,0,,{\c&H00FFFFFF}is {\c&H00FFFFFF}this {\c&H00FFFFFF}is
+Dialogue: 0,0:00:04.71,0:00:04.95,Sub,,0,0,0,,{\c&H00FFFFFF}is {\c&H00FFFFFF}this {\c&H00FFFFFF}is
+Dialogue: 0,0:00:04.95,0:00:05.19,Sub,,0,0,0,,{\c&H00FFFFFF}is {\c&H00FFFFFF}this {\c&H00FFFFFF}is
+Dialogue: 0,0:00:05.19,0:00:05.43,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}right {\c&H00FFFFFF}to
+Dialogue: 0,0:00:05.43,0:00:05.67,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}right {\c&H00FFFFFF}to
+Dialogue: 0,0:00:05.67,0:00:05.83,Sub,,0,0,0,,{\c&H00FFFFFF}this {\c&H00FFFFFF}right {\c&H00FFFFFF}to
+Dialogue: 0,0:00:05.83,0:00:06.15,Sub,,0,0,0,,{\c&H00FFFFFF}you? {\c&H00FFFFFF}Like,
+Dialogue: 0,0:00:06.15,0:00:06.31,Sub,,0,0,0,,{\c&H00FFFFFF}you? {\c&H00FFFFFF}Like,
+Dialogue: 0,0:00:06.31,0:00:06.55,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}we {\c&H00FFFFFF}are
+Dialogue: 0,0:00:06.55,0:00:06.71,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}we {\c&H00FFFFFF}are
+Dialogue: 0,0:00:06.71,0:00:06.79,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}we {\c&H00FFFFFF}are
+Dialogue: 0,0:00:06.79,0:00:06.95,Sub,,0,0,0,,{\c&H00FFFFFF}at {\c&H00FFFFFF}a {\c&H00FFFFFF}precipice
+Dialogue: 0,0:00:06.95,0:00:07.11,Sub,,0,0,0,,{\c&H00FFFFFF}at {\c&H00FFFFFF}a {\c&H00FFFFFF}precipice
+Dialogue: 0,0:00:07.11,0:00:07.51,Sub,,0,0,0,,{\c&H00FFFFFF}at {\c&H00FFFFFF}a {\c&H00FFFFFF}precipice
+Dialogue: 0,0:00:07.51,0:00:07.75,Sub,,0,0,0,,{\c&H00FFFFFF}in {\c&H00FFFFFF}American {\c&H00FFFFFF}history.
+Dialogue: 0,0:00:07.75,0:00:08.07,Sub,,0,0,0,,{\c&H00FFFFFF}in {\c&H00FFFFFF}American {\c&H00FFFFFF}history.
+Dialogue: 0,0:00:08.07,0:00:08.39,Sub,,0,0,0,,{\c&H00FFFFFF}in {\c&H00FFFFFF}American {\c&H00FFFFFF}history.
+Dialogue: 0,0:00:08.39,0:00:08.63,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}this {\c&H00FFFFFF}is
+Dialogue: 0,0:00:08.63,0:00:08.79,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}this {\c&H00FFFFFF}is
+Dialogue: 0,0:00:08.79,0:00:08.95,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}this {\c&H00FFFFFF}is
+Dialogue: 0,0:00:08.95,0:00:09.51,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}civilizational
+Dialogue: 0,0:00:09.51,0:00:10.47,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}civilizational
+Dialogue: 0,0:00:10.47,0:00:10.71,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}like {\c&H00FFFFFF}Americans
+Dialogue: 0,0:00:10.71,0:00:11.03,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}like {\c&H00FFFFFF}Americans
+Dialogue: 0,0:00:11.03,0:00:11.43,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}like {\c&H00FFFFFF}Americans
+Dialogue: 0,0:00:11.43,0:00:11.59,Sub,,0,0,0,,{\c&H00FFFFFF}are {\c&H00FFFFFF}going {\c&H00FFFFFF}to
+Dialogue: 0,0:00:11.59,0:00:11.67,Sub,,0,0,0,,{\c&H00FFFFFF}are {\c&H00FFFFFF}going {\c&H00FFFFFF}to
+Dialogue: 0,0:00:11.67,0:00:11.75,Sub,,0,0,0,,{\c&H00FFFFFF}are {\c&H00FFFFFF}going {\c&H00FFFFFF}to
+Dialogue: 0,0:00:11.75,0:00:11.99,Sub,,0,0,0,,{\c&H00FFFFFF}have {\c&H00FFFFFF}social {\c&H00FFFFFF}unrest
+Dialogue: 0,0:00:11.99,0:00:12.23,Sub,,0,0,0,,{\c&H00FFFFFF}have {\c&H00FFFFFF}social {\c&H00FFFFFF}unrest
+Dialogue: 0,0:00:12.23,0:00:12.55,Sub,,0,0,0,,{\c&H00FFFFFF}have {\c&H00FFFFFF}social {\c&H00FFFFFF}unrest
+Dialogue: 0,0:00:12.55,0:00:12.79,Sub,,0,0,0,,{\c&H00FFFFFF}and {\c&H00FFFFFF}rebel {\c&H00FFFFFF}against
+Dialogue: 0,0:00:12.79,0:00:13.11,Sub,,0,0,0,,{\c&H00FFFFFF}and {\c&H00FFFFFF}rebel {\c&H00FFFFFF}against
+Dialogue: 0,0:00:13.11,0:00:13.51,Sub,,0,0,0,,{\c&H00FFFFFF}and {\c&H00FFFFFF}rebel {\c&H00FFFFFF}against
+Dialogue: 0,0:00:13.51,0:00:13.67,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}we're {\c&H00FFFFFF}robbing
+Dialogue: 0,0:00:13.67,0:00:13.83,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}we're {\c&H00FFFFFF}robbing
+Dialogue: 0,0:00:13.83,0:00:14.23,Sub,,0,0,0,,{\c&H00FFFFFF}like {\c&H00FFFFFF}we're {\c&H00FFFFFF}robbing
+Dialogue: 0,0:00:14.23,0:00:14.39,Sub,,0,0,0,,{\c&H00FFFFFF}the {\c&H00FFFFFF}American {\c&H00FFFFFF}people.
+Dialogue: 0,0:00:14.39,0:00:14.71,Sub,,0,0,0,,{\c&H00FFFFFF}the {\c&H00FFFFFF}American {\c&H00FFFFFF}people.
+Dialogue: 0,0:00:14.71,0:00:15.03,Sub,,0,0,0,,{\c&H00FFFFFF}the {\c&H00FFFFFF}American {\c&H00FFFFFF}people.
+Dialogue: 0,0:00:15.03,0:00:15.27,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}right.
+Dialogue: 0,0:00:15.27,0:00:15.75,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}right.
+Dialogue: 0,0:00:15.75,0:00:15.91,Sub,,0,0,0,,{\c&H00FFFFFF}And {\c&H00FFFFFF}they're {\c&H00FFFFFF}like,
+Dialogue: 0,0:00:15.91,0:00:16.15,Sub,,0,0,0,,{\c&H00FFFFFF}And {\c&H00FFFFFF}they're {\c&H00FFFFFF}like,
+Dialogue: 0,0:00:16.15,0:00:16.23,Sub,,0,0,0,,{\c&H00FFFFFF}And {\c&H00FFFFFF}they're {\c&H00FFFFFF}like,
+Dialogue: 0,0:00:16.23,0:00:16.63,Sub,,0,0,0,,{\c&H00FFFFFF}"Yeah, {\c&H00FFFFFF}yeah." {\c&H00FFFFFF}I'm
+Dialogue: 0,0:00:16.63,0:00:16.87,Sub,,0,0,0,,{\c&H00FFFFFF}"Yeah, {\c&H00FFFFFF}yeah." {\c&H00FFFFFF}I'm
+Dialogue: 0,0:00:16.87,0:00:17.11,Sub,,0,0,0,,{\c&H00FFFFFF}"Yeah, {\c&H00FFFFFF}yeah." {\c&H00FFFFFF}I'm
+Dialogue: 0,0:00:17.11,0:00:17.51,Sub,,0,0,0,,{\c&H00FFFFFF}like, {\c&H00FFFFFF}"Well,
+Dialogue: 0,0:00:17.51,0:00:17.91,Sub,,0,0,0,,{\c&H00FFFFFF}like, {\c&H00FFFFFF}"Well,
+Dialogue: 0,0:00:17.91,0:00:18.07,Sub,,0,0,0,,{\c&H00FFFFFF}why {\c&H00FFFFFF}are {\c&H00FFFFFF}you
+Dialogue: 0,0:00:18.07,0:00:18.15,Sub,,0,0,0,,{\c&H00FFFFFF}why {\c&H00FFFFFF}are {\c&H00FFFFFF}you
+Dialogue: 0,0:00:18.15,0:00:18.31,Sub,,0,0,0,,{\c&H00FFFFFF}why {\c&H00FFFFFF}are {\c&H00FFFFFF}you
+Dialogue: 0,0:00:18.31,0:00:18.47,Sub,,0,0,0,,{\c&H00FFFFFF}doing {\c&H00FFFFFF}this?
+Dialogue: 0,0:00:18.47,0:00:19.67,Sub,,0,0,0,,{\c&H00FFFFFF}doing {\c&H00FFFFFF}this?
+Dialogue: 0,0:00:19.19,0:00:19.35,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}don't {\c&H00FFFFFF}have
+Dialogue: 0,0:00:19.35,0:00:19.43,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}don't {\c&H00FFFFFF}have
+Dialogue: 0,0:00:19.43,0:00:19.59,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}don't {\c&H00FFFFFF}have
+Dialogue: 0,0:00:19.59,0:00:19.67,Sub,,0,0,0,,{\c&H00FFFFFF}an {\c&H00FFFFFF}intro.
+Dialogue: 0,0:00:19.67,0:00:19.99,Sub,,0,0,0,,{\c&H00FFFFFF}an {\c&H00FFFFFF}intro.
+Dialogue: 0,0:00:19.99,0:00:20.15,Sub,,0,0,0,,{\c&H00FFFFFF}It's {\c&H00FFFFFF}the {\c&H00FFFFFF}game.
+Dialogue: 0,0:00:20.15,0:00:20.31,Sub,,0,0,0,,{\c&H00FFFFFF}It's {\c&H00FFFFFF}the {\c&H00FFFFFF}game.
+Dialogue: 0,0:00:20.31,0:00:20.55,Sub,,0,0,0,,{\c&H00FFFFFF}It's {\c&H00FFFFFF}the {\c&H00FFFFFF}game.
+Dialogue: 0,0:00:20.55,0:00:20.71,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}have {\c&H00FFFFFF}a
+Dialogue: 0,0:00:20.71,0:00:20.79,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}have {\c&H00FFFFFF}a
+Dialogue: 0,0:00:20.79,0:00:20.87,Sub,,0,0,0,,{\c&H00FFFFFF}I {\c&H00FFFFFF}have {\c&H00FFFFFF}a
+Dialogue: 0,0:00:20.87,0:00:21.03,Sub,,0,0,0,,{\c&H00FFFFFF}good {\c&H00FFFFFF}career,
+Dialogue: 0,0:00:21.03,0:00:21.35,Sub,,0,0,0,,{\c&H00FFFFFF}good {\c&H00FFFFFF}career,
+Dialogue: 0,0:00:21.35,0:00:21.51,Sub,,0,0,0,,{\c&H00FFFFFF}good, {\c&H00FFFFFF}good {\c&H00FFFFFF}life."
+Dialogue: 0,0:00:21.51,0:00:21.75,Sub,,0,0,0,,{\c&H00FFFFFF}good, {\c&H00FFFFFF}good {\c&H00FFFFFF}life."
+Dialogue: 0,0:00:21.75,0:00:22.95,Sub,,0,0,0,,{\c&H00FFFFFF}good, {\c&H00FFFFFF}good {\c&H00FFFFFF}life."
+Dialogue: 0,0:00:22.39,0:00:22.63,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}everyone
+Dialogue: 0,0:00:22.63,0:00:23.46,Sub,,0,0,0,,{\c&H00FFFFFF}Like, {\c&H00FFFFFF}everyone
+Dialogue: 1,0:00:00.00,0:00:03.50,Txt,,0,0,0,,{\an5\pos(360,179)\fs64\c&H00FFFFFF\fnArial\b1\3c&H00000000}We are robbing\Nthe American\Npeople.

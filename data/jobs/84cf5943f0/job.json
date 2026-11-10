@@ -1,0 +1,4431 @@
+{
+  "id": "84cf5943f0",
+  "created": 1794207975.3230472,
+  "url": "https://www.youtube.com/watch?v=dMBBOawFy_4",
+  "source": "manual",
+  "creator_id": "UCzQUP1qoWDoEbmsQxvdjxgQ",
+  "title": "Joe Rogan Experience #2578 - Calley Means",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 95,
+        "retention": 85,
+        "value": 95,
+        "shareability": 95,
+        "overall": 93,
+        "hook_text": "We are robbing the American people.",
+        "tip": "Let the raw cynicism of the quote breathe for maximum emotional impact.",
+        "caption": "Top DC lobbyists casually admit to robbing the American public.",
+        "description": "Calley Means recounts a chilling conversation with top DC lobbyists who openly admitted to taking advantage of the American public for personal profit. Hear why insiders treat civilizational decline like a casual game. Is modern politics beyond saving?",
+        "hashtags": [
+          "dc",
+          "lobbyists",
+          "politics",
+          "corruption",
+          "truth"
+        ]
+      },
+      "id": "c1",
+      "title": "Top DC Lobbyists Admit It's Just A Game",
+      "reason": "Calley Means recounts a chilling conversation with top DC lobbyists who openly admitted to taking advantage of the American public for personal profit.",
+      "score": 93,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 701.45,
+        "end": 724.38,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "We are robbing the American people.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/JLAA8HjqrKs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794208929.1189108
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 95,
+        "retention": 85,
+        "value": 95,
+        "shareability": 95,
+        "overall": 93,
+        "hook_text": "38% of teens have pre-diabetes.",
+        "tip": "Let Joe Rogan's stunned reaction play out fully to emphasize the shocking stat.",
+        "caption": "Nearly forty percent of American teenagers suffer from pre-diabetes.",
+        "description": "Joe Rogan is stunned when Calley Means shares recent USDA stats proving nearly 40 percent of American teenagers have pre-diabetes. Confront the terrifying reality of modern adolescent metabolic collapse. How did our teenagers get this sick?",
+        "hashtags": [
+          "health",
+          "diabetes",
+          "teens",
+          "wellness",
+          "rogan"
+        ]
+      },
+      "id": "c2",
+      "title": "38 Percent Of US Teens Suffer Pre-Diabetes",
+      "reason": "Joe Rogan is stunned when Calley Means shares recent USDA stats proving nearly 40 percent of American teenagers have pre-diabetes.",
+      "score": 93,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5217.85,
+        "end": 5239.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "38% of teens have pre-diabetes.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/E9slJvK0MLE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794209072.0785902
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 95,
+        "retention": 90,
+        "value": 90,
+        "shareability": 95,
+        "overall": 93,
+        "hook_text": "His license plate says vaccinate.",
+        "tip": "Punch up the shocking license plate reveal to grab instant viewer attention.",
+        "caption": "Former Merck executive regulating vaccines drives car with VACCINATE plate.",
+        "description": "Calley Means reveals that the former Merck executive in charge of FDA vaccine evaluations drives a personal vehicle custom-plated VACCINATE. Discover the unbelievable conflicts of interest inside federal regulatory agencies. Is this the ultimate regulatory capture?",
+        "hashtags": [
+          "fda",
+          "merck",
+          "vaccines",
+          "corruption",
+          "rogan"
+        ]
+      },
+      "id": "c3",
+      "title": "Vaccine Regulator Drives Car With VACCINATE License Plate",
+      "reason": "Calley Means reveals that the former Merck executive in charge of FDA vaccine evaluations drives a personal vehicle custom-plated VACCINATE.",
+      "score": 93,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6013.37,
+        "end": 6037.5,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "His license plate says vaccinate.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/YESHBVACRu0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794209182.8441064
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 95,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 92,
+        "hook_text": "Highest cancer rates in human history.",
+        "tip": "Deliver the terrifying geographic cancer statistic with absolute clarity.",
+        "caption": "US farm states have the highest recorded cancer rates on Earth.",
+        "description": "Calley Means delivers a shocking stat showing agricultural regions like Iowa and Kentucky have the highest recorded cancer rates on Earth. Learn the grim reality facing communities living near heavy pesticide use. What is causing this unprecedented cancer crisis?",
+        "hashtags": [
+          "cancer",
+          "farming",
+          "health",
+          "iowa",
+          "environment"
+        ]
+      },
+      "id": "c4",
+      "title": "US Farm States Have World's Highest Cancer Rates",
+      "reason": "Calley Means delivers a shocking stat showing agricultural regions like Iowa and Kentucky have the highest recorded cancer rates on Earth.",
+      "score": 92,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2071.53,
+        "end": 2091.18,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Highest cancer rates in human history.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/7XiuyIQayyc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794209319.3282428
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "Bayer bribed EPA officials.",
+        "tip": "Highlight the court revelation about ghostwritten research to shock the viewer.",
+        "caption": "How Bayer bribed EPA officials and ghostwrote safety research.",
+        "description": "Calley Means reveals how Bayer bribed EPA officials and ghostwrote safety studies to hide the dangers of glyphosate weedkiller. Find out how chemical corporations spin a pro-science PR narrative while corrupting agencies. Can we trust federal health agencies?",
+        "hashtags": [
+          "bayer",
+          "epa",
+          "corruption",
+          "science",
+          "rogan"
+        ]
+      },
+      "id": "c5",
+      "title": "Bayer Bribed EPA Officials Over Glyphosate Research",
+      "reason": "Calley Means reveals how Bayer bribed EPA officials and ghostwrote safety studies to hide the dangers of glyphosate weedkiller.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1503.21,
+        "end": 1525.1,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Bayer bribed EPA officials.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/bCcWe7WdLeY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794209459.0128462
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "I need money from the sugar people.",
+        "tip": "Emphasize the direct quote from the chief of staff for maximum impact.",
+        "caption": "Chief of staff demands corporate sugar money to fund midterms.",
+        "description": "Calley Means quotes Chief of Staff Susie Wiles claiming she needed money from sugar companies to fund midterm campaigns. Discover why corporate donations are prioritized over public health promises. Can campaigns win without dirty corporate money?",
+        "hashtags": [
+          "sugar",
+          "politics",
+          "campaign",
+          "corruption",
+          "rogan"
+        ]
+      },
+      "id": "c6",
+      "title": "Susie Wiles Demanded Corporate Sugar Money",
+      "reason": "Calley Means quotes Chief of Staff Susie Wiles claiming she needed money from sugar companies to fund midterm campaigns.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3121.69,
+        "end": 3141.82,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I need money from the sugar people.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/GWgjD9inpkU",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794209552.9409738
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "A CIA manual on how to subvert from within.",
+        "tip": "Emphasize the CIA manual detail to capture instant curiosity and intrigue.",
+        "caption": "Career bureaucrats circulate a manual on how to sabotage Trump.",
+        "description": "Calley Means claims career government officials circulated a CIA manual on intentional incompetence to undermine Donald Trump from within. Discover the internal resistance network operating inside federal agencies. Can a president truly reform the deep state?",
+        "hashtags": [
+          "bureaucracy",
+          "trump",
+          "deepstate",
+          "politics",
+          "rogan"
+        ]
+      },
+      "id": "c7",
+      "title": "Government Bureaucrats Pass Manual To Sabotage Trump",
+      "reason": "Calley Means claims career government officials circulated a CIA manual on intentional incompetence to undermine Donald Trump from within.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4710.73,
+        "end": 4728.3,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "A CIA manual on how to subvert from within.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/-vp5QrmJSkg",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794209762.1115072
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "Gas station heroin is a 3 billion dollar industry.",
+        "tip": "Highlight the 'gas station heroin' term immediately to hook scroll-stoppers.",
+        "caption": "Gas station heroin is a booming three billion dollar opioid industry.",
+        "description": "Calley Means warns about Kratom extract products sold openly in gas stations that function as potent, addictive opioids. Learn how a massive legal gray zone addiction market preys on unsuspecting customers. Why are dangerous opioids sold next to candy?",
+        "hashtags": [
+          "addiction",
+          "opioids",
+          "kratom",
+          "health",
+          "rogan"
+        ]
+      },
+      "id": "c8",
+      "title": "Gas Station Heroin Is A 3 Billion Dollar Industry",
+      "reason": "Calley Means warns about Kratom extract products sold openly in gas stations that function as potent, addictive opioids.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6418.97,
+        "end": 6439.02,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Gas station heroin is a 3 billion dollar industry.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/walGLta-r1E",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212335.570641
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "Written by the insurance industry.",
+        "tip": "Emphasize the insurance company profit statistic to shock viewers.",
+        "caption": "How major health insurance companies drafted laws to boost profits.",
+        "description": "Calley Means exposes how major health insurance corporations drafted healthcare legislation to artificially inflate profits and stock prices. Learn how monumental healthcare laws created direct incentives for skyrocketing premiums. Who really wrote our healthcare laws?",
+        "hashtags": [
+          "healthcare",
+          "insurance",
+          "politics",
+          "money",
+          "jre"
+        ]
+      },
+      "id": "c9",
+      "title": "Insurance Companies Wrote ACA Laws To Increase Profits",
+      "reason": "Calley Means exposes how major health insurance corporations drafted healthcare legislation to artificially inflate profits and stock prices.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 7837.13,
+        "end": 7859.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Written by the insurance industry.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/UadRgid1i4c",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212385.140843
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "I'm going to call Susie.",
+        "tip": "Let the lobbyist's arrogant phone call threat play out with full intensity.",
+        "caption": "Oreo lobbyist curses out White House staffer to kill food safety rules.",
+        "description": "Calley Means recounts how a processed food lobbyist openly threatened to call senior White House leadership to kill ultra-processed food definitions. Watch how corporate lobbyists treat White House officials like personal subordinates. Do lobbyists really run the administration?",
+        "hashtags": [
+          "lobbyists",
+          "whitehouse",
+          "food",
+          "corruption",
+          "rogan"
+        ]
+      },
+      "id": "c10",
+      "title": "Oreo Lobbyist Cursed Out White House Staffer",
+      "reason": "Calley Means recounts how a processed food lobbyist openly threatened to call senior White House leadership to kill ultra-processed food definitions.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8062.17,
+        "end": 8083.1,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I'm going to call Susie.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/v-QvHDJY9t0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212498.43714
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 95,
+        "overall": 90,
+        "hook_text": "Tens of millions of donuts going to kids.",
+        "tip": "Emphasize the government-funded donut statistic to outrage viewers.",
+        "caption": "The US government funds donuts and pastries for school children.",
+        "description": "Calley Means slams federal school meal programs for serving millions of sugar pastries and donuts to kids every morning without protein requirements. See how institutional breakfast programs actively destroy children's metabolic health. Why are we feeding kids pure sugar?",
+        "hashtags": [
+          "schoollunch",
+          "kids",
+          "health",
+          "nutrition",
+          "rogan"
+        ]
+      },
+      "id": "c11",
+      "title": "US Government Funds Donuts For School Children",
+      "reason": "Calley Means slams federal school meal programs for serving millions of sugar pastries and donuts to kids every morning without protein requirements.",
+      "score": 90,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 8149.21,
+        "end": 8170.94,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Tens of millions of donuts going to kids.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/EO40l-IAf8g",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212547.3504786
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 80,
+        "value": 90,
+        "shareability": 95,
+        "overall": 89,
+        "hook_text": "Corporate clients getting high priority access.",
+        "tip": "Highlight the chart reference on screen to boost visual engagement for viewers.",
+        "caption": "How hiring a chief of staff's daughter skyrockets firm revenue.",
+        "description": "Calley Means highlights how hiring Susie Wiles' daughter at a lobbying firm led to corporate clients receiving priority White House treatment. Discover the direct link between family ties and high-priority access. Does family nepotism rule Washington?",
+        "hashtags": [
+          "nepotism",
+          "lobbying",
+          "politics",
+          "power",
+          "jre"
+        ]
+      },
+      "id": "c12",
+      "title": "Firm Revenue Skyrockets After Hiring Susie Wiles' Daughter",
+      "reason": "Calley Means highlights how hiring Susie Wiles' daughter at a lobbying firm led to corporate clients receiving priority White House treatment.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 524.49,
+        "end": 546.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Corporate clients getting high priority access.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/_eJ4R5Us6sc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212593.1085548
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 90,
+        "overall": 89,
+        "hook_text": "American children are the sickest.",
+        "tip": "Emphasize the shocking statistic about children's chronic illness right at the start.",
+        "caption": "American children are officially the sickest in the developed world.",
+        "description": "Calley Means lays out the alarming statistics behind childhood chronic illness, cancer, and early puberty in the United States. See why the current generation faces unprecedented health decline. Why is childhood illness skyrocketing?",
+        "hashtags": [
+          "health",
+          "children",
+          "chronicillness",
+          "wellness",
+          "rogan"
+        ]
+      },
+      "id": "c13",
+      "title": "American Children Are The Sickest In Developed World",
+      "reason": "Calley Means lays out the alarming statistics behind childhood chronic illness, cancer, and early puberty in the United States.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1336.81,
+        "end": 1360.14,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "American children are the sickest.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtu.be/TfEKWcoxIC8",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212658.856161
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 90,
+        "overall": 89,
+        "hook_text": "A Bayer lawyer wrote a Supreme Court brief.",
+        "tip": "Clearly name the lawyer and her firm to give the factual claim maximum weight.",
+        "caption": "Former Bayer defense attorney inside the DOJ shields weedkiller lawsuits.",
+        "description": "Calley Means details how a former Bayer defense attorney working inside the DOJ wrote a Supreme Court brief shielding Bayer from pesticide lawsuits. Discover how corporate defense lawyers infiltrate the justice system. Who is really protecting corporate giants?",
+        "hashtags": [
+          "doj",
+          "bayer",
+          "lawsuit",
+          "supremecourt",
+          "rogan"
+        ]
+      },
+      "id": "c14",
+      "title": "DOJ Lawyer Protected Bayer From Cancer Lawsuits",
+      "reason": "Calley Means details how a former Bayer defense attorney working inside the DOJ wrote a Supreme Court brief shielding Bayer from pesticide lawsuits.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1835.85,
+        "end": 1857.82,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "A Bayer lawyer wrote a Supreme Court brief.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/O8uPXMjti9I",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212719.1378288
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 80,
+        "value": 90,
+        "shareability": 95,
+        "overall": 89,
+        "hook_text": "Junk food stocks went up 8%.",
+        "tip": "Highlight the exact stock market jump percentage right at the end of the clip.",
+        "caption": "Junk food stocks surged immediately after Calley Means resigned.",
+        "description": "Calley Means reveals that major junk food corporate stocks jumped 8 percent immediately after he resigned from his White House position. See how Wall Street reacts when healthy food reforms are blocked. Do markets profit from childhood sickness?",
+        "hashtags": [
+          "junkfood",
+          "stocks",
+          "wallstreet",
+          "health",
+          "jre"
+        ]
+      },
+      "id": "c15",
+      "title": "Junk Food Stocks Surged After Calley Means Resigned",
+      "reason": "Calley Means reveals that major junk food corporate stocks jumped 8 percent immediately after he resigned from his White House position.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3431.77,
+        "end": 3450.94,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Junk food stocks went up 8%.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/3YxOOOz2a9E",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212826.5364892
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 85,
+        "value": 90,
+        "shareability": 90,
+        "overall": 89,
+        "hook_text": "50% of kids vape.",
+        "tip": "Highlight the contrast between personal surveys and peer statistics.",
+        "caption": "Fifty percent of high school students are vaping nicotine.",
+        "description": "Calley Means exposes how survey data shows roughly half of American high school students are actively using nicotine vapes. Discover why peer group statistics reveal an epidemic that kids hide on personal surveys. Are nicotine vapes destroying a generation?",
+        "hashtags": [
+          "vaping",
+          "teens",
+          "health",
+          "nicotine",
+          "jre"
+        ]
+      },
+      "id": "c16",
+      "title": "50 Percent Of High School Students Vape",
+      "reason": "Calley Means exposes how survey data shows roughly half of American high school students are actively using nicotine vapes.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5404.97,
+        "end": 5428.22,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "50% of kids vape.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtu.be/KTNKehm0qJ0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212891.587857
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 80,
+        "value": 90,
+        "shareability": 95,
+        "overall": 89,
+        "hook_text": "We can't do that, I need sugar money.",
+        "tip": "Highlight the direct sugar money quote to maximize shareable outrage.",
+        "caption": "Chief of staff blocked child sugar study to protect corporate donations.",
+        "description": "Calley Means reveals how Chief of Staff Susie Wiles blocked an FDA inquiry into childhood sugar consumption to secure corporate political donations. Discover how children's health is traded away for campaign cash. Why won't Washington investigate sugar?",
+        "hashtags": [
+          "sugar",
+          "politics",
+          "corruption",
+          "health",
+          "rogan"
+        ]
+      },
+      "id": "c17",
+      "title": "Susie Wiles Blocked Food Safety Study For Sugar Money",
+      "reason": "Calley Means reveals how Chief of Staff Susie Wiles blocked an FDA inquiry into childhood sugar consumption to secure corporate political donations.",
+      "score": 89,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 7077.13,
+        "end": 7094.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "We can't do that, I need sugar money.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Nmxrbv0u2HI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212939.740223
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 90,
+        "overall": 85,
+        "hook_text": "She spent her career taking money.",
+        "tip": "Emphasize the financial ties clearly to hook viewers into the economic background.",
+        "caption": "The heavy-hitting lobbyist past of top White House staff.",
+        "description": "Calley Means exposes Susie Wiles' history of receiving money from pharmaceutical companies, pesticide interests, and foreign leaders. See the raw economic facts behind modern political leadership. Are lobbyists running the country?",
+        "hashtags": [
+          "lobbying",
+          "politics",
+          "bigpharma",
+          "corruption",
+          "rogan"
+        ]
+      },
+      "id": "c18",
+      "title": "Susie Wiles' Secret Lobbying Past Revealed",
+      "reason": "Calley Means exposes Susie Wiles' history of receiving money from pharmaceutical companies, pesticide interests, and foreign leaders.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 327.93,
+        "end": 346.86,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "She spent her career taking money.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/YPTVl-gMaIQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794212980.2219396
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 90,
+        "overall": 85,
+        "hook_text": "The top item on food stamps is soda.",
+        "tip": "Highlight the state-by-state fight over soda in food stamps to engage viewers.",
+        "caption": "The ongoing political battle to remove soda from food stamps.",
+        "description": "Calley Means highlights the fight to stop taxpayer-funded food stamps from subsidizing corporate sugary sodas across various states. See which states chose public health over soda industry lobbying. Should food stamps pay for sugary drinks?",
+        "hashtags": [
+          "foodstamps",
+          "soda",
+          "health",
+          "politics",
+          "jre"
+        ]
+      },
+      "id": "c19",
+      "title": "Soda Banned From Food Stamps In 30 States",
+      "reason": "Calley Means highlights the fight to stop taxpayer-funded food stamps from subsidizing corporate sugary sodas across various states.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5165.61,
+        "end": 5187.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The top item on food stamps is soda.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/nvCXQUXGGMk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213025.0563161
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 90,
+        "overall": 85,
+        "hook_text": "Approving vapes as a core midterm issue.",
+        "tip": "Emphasize the absurd justification used by officials for fruit-flavored vapes.",
+        "caption": "White House officials claimed fruit vapes were crucial to win voters.",
+        "description": "Calley Means exposes how White House officials pushed FDA approval of fruit-flavored vapes under the claim that it was crucial for midterm voters. Learn how youth health gets traded for political demographics. Do young men really care about flavored vapes?",
+        "hashtags": [
+          "vaping",
+          "fda",
+          "politics",
+          "whitehouse",
+          "rogan"
+        ]
+      },
+      "id": "c20",
+      "title": "White House Official Claimed Flavored Vapes Win Votes",
+      "reason": "Calley Means exposes how White House officials pushed FDA approval of fruit-flavored vapes under the claim that it was crucial for midterm voters.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5546.73,
+        "end": 5568.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Approving vapes as a core midterm issue.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/QT3Rwy3eRE0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213070.2128937
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 90,
+        "shareability": 85,
+        "overall": 85,
+        "hook_text": "Nicotine control in the tobacco industry.",
+        "tip": "Include archive footage of David Kessler speaking to give the clip extra visual weight.",
+        "caption": "Former FDA chief compares modern processed food to tobacco giants.",
+        "description": "Former FDA Commissioner David Kessler outlines how modern food companies use addictive tactics reminiscent of 1990s tobacco giants. See how food scientists deliberately manipulate ingredients to hook consumers. Is processed food as addictive as cigarettes?",
+        "hashtags": [
+          "food",
+          "fda",
+          "tobacco",
+          "health",
+          "jre"
+        ]
+      },
+      "id": "c21",
+      "title": "Former FDA Chief Compares Processed Food To Tobacco",
+      "reason": "Former FDA Commissioner David Kessler outlines how modern food companies use addictive tactics reminiscent of 1990s tobacco giants.",
+      "score": 85,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 6925.69,
+        "end": 6949.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Nicotine control in the tobacco industry.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/6MHnFjdxiBI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213115.8403964
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 85,
+        "overall": 84,
+        "hook_text": "Glyphosate is a national security issue.",
+        "tip": "Keep the tension high when describing the executive order being placed on the desk.",
+        "caption": "The executive order declaring chemical weedkillers a national security asset.",
+        "description": "Calley Means describes an executive order pushed through the White House framing chemical weedkillers as vital to national security. See how liability protection is quietly pushed through using defense reasons. Is national security being used to shield toxins?",
+        "hashtags": [
+          "executiveorder",
+          "glyphosate",
+          "politics",
+          "farming",
+          "jre"
+        ]
+      },
+      "id": "c22",
+      "title": "Executive Order Declared Glyphosate A National Security Asset",
+      "reason": "Calley Means describes an executive order pushed through the White House framing chemical weedkillers as vital to national security.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1679.77,
+        "end": 1700.94,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Glyphosate is a national security issue.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/iMfGT3W-Y00",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213162.070395
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 85,
+        "overall": 84,
+        "hook_text": "How the hell did this happen?",
+        "tip": "Keep Trump's quoted reaction punchy to maintain quick viewer retention.",
+        "caption": "Donald Trump's shocked reaction to the DOJ protecting chemical companies.",
+        "description": "Calley Means shares Donald Trump's surprised reaction upon learning his own DOJ assisted in protecting chemical companies from liability. Watch how leadership's good instincts clash with people working around them. Do presidents know what agencies are doing?",
+        "hashtags": [
+          "trump",
+          "doj",
+          "politics",
+          "bayer",
+          "rogan"
+        ]
+      },
+      "id": "c23",
+      "title": "Donald Trump Shocked By DOJ Glyphosate Decision",
+      "reason": "Calley Means shares Donald Trump's surprised reaction upon learning his own DOJ assisted in protecting chemical companies from liability.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2143.85,
+        "end": 2163.98,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "How the hell did this happen?",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/UcepvnMNm7M",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213201.4788055
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 85,
+        "shareability": 85,
+        "overall": 84,
+        "hook_text": "Promoting national defense with toxic herbicides.",
+        "tip": "Focus on the whitehouse.gov quote to prove the bureaucratic absurdity.",
+        "caption": "White House executive order uses defense rules to protect toxic weedkillers.",
+        "description": "Joe Rogan and Calley Means break down an official White House action using military defense logic to protect toxic herbicide manufacturing. Examine how national defense language gets weaponized for chemical supply chains. Is the government working for corporate monopolies?",
+        "hashtags": [
+          "whitehouse",
+          "glyphosate",
+          "policy",
+          "government",
+          "jre"
+        ]
+      },
+      "id": "c24",
+      "title": "Executive Order Used Defense Rules For Weedkiller",
+      "reason": "Joe Rogan and Calley Means break down an official White House action using military defense logic to protect toxic herbicide manufacturing.",
+      "score": 84,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4016.41,
+        "end": 4036.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Promoting national defense with toxic herbicides.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/lXYE8iOrspM",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213243.5450075
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 75,
+        "value": 85,
+        "shareability": 85,
+        "overall": 83,
+        "hook_text": "CEOs having dinner with mid-level staffers.",
+        "tip": "Cut straight to the private club mention to keep the insider exposure moving fast.",
+        "caption": "Pharma CEOs wine and dine White House staffers at private DC clubs.",
+        "description": "Calley Means exposes how top pharmaceutical executives wine and dine White House aides at exclusive private clubs in Washington DC. Witness how mid-level staffers get co-opted by corporate dining. Who is really influencing policy behind closed doors?",
+        "hashtags": [
+          "bigpharma",
+          "dc",
+          "lobbyists",
+          "politics",
+          "rogan"
+        ]
+      },
+      "id": "c25",
+      "title": "Pharma CEOs Court White House Staffers At Private Clubs",
+      "reason": "Calley Means exposes how top pharmaceutical executives wine and dine White House aides at exclusive private clubs in Washington DC.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3846.41,
+        "end": 3867.42,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "CEOs having dinner with mid-level staffers.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Oz--MJ0H84I",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213284.1371286
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 75,
+        "value": 85,
+        "shareability": 85,
+        "overall": 83,
+        "hook_text": "They rigged the study.",
+        "tip": "Keep the clinical trial critique concise to maintain quick delivery.",
+        "caption": "How pharmaceutical companies design rigged clinical trials.",
+        "description": "Calley Means explains how pharmaceutical companies designed flawed vaccine studies with minimal efficacy and significant side effects. Examine why proper control groups are routinely bypassed in modern medical approvals. Can we trust pharmaceutical safety trials?",
+        "hashtags": [
+          "clinicaltrials",
+          "pharma",
+          "fda",
+          "science",
+          "jre"
+        ]
+      },
+      "id": "c26",
+      "title": "FDA Approves Rigged Vaccine Clinical Trials",
+      "reason": "Calley Means explains how pharmaceutical companies designed flawed vaccine studies with minimal efficacy and significant side effects.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5851.61,
+        "end": 5871.82,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "They rigged the study.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/yunMFG3Sq-o",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213324.360231
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 75,
+        "value": 85,
+        "shareability": 80,
+        "overall": 82,
+        "hook_text": "It's not a part of our strategy.",
+        "tip": "Cut the introductory ballot mention to drop straight into the school lunch debate.",
+        "caption": "Why healthier school lunches were rejected by campaign strategists.",
+        "description": "Calley Means reveals how Trump pollster Tony Fabrizio dismissed healthier school lunches because it wasn't part of their campaign strategy. Learn how political strategy overrides common-sense public health. Should kids get healthy food at school?",
+        "hashtags": [
+          "schoollunches",
+          "health",
+          "politics",
+          "food",
+          "rogan"
+        ]
+      },
+      "id": "c27",
+      "title": "Trump Pollster Rejects School Lunch Reform",
+      "reason": "Calley Means reveals how Trump pollster Tony Fabrizio dismissed healthier school lunches because it wasn't part of their campaign strategy.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 812.89,
+        "end": 834.38,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "It's not a part of our strategy.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/dJ8pEfitFP0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213362.3990893
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 80,
+        "value": 85,
+        "shareability": 85,
+        "overall": 82,
+        "hook_text": "The biggest issue in the country is corruption.",
+        "tip": "Start directly with the Pew and Fox poll statistics to grab immediate attention.",
+        "caption": "Americans across all major polls agree corruption is our biggest issue.",
+        "description": "Calley Means points out that voters across all major polls cite political corruption as the single greatest problem facing America today. Explore the deep spiritual and economic root of modern voter frustration. What is America's true top crisis?",
+        "hashtags": [
+          "corruption",
+          "politics",
+          "america",
+          "polls",
+          "jre"
+        ]
+      },
+      "id": "c28",
+      "title": "Money In Politics Is America's Top Issue",
+      "reason": "Calley Means points out that voters across all major polls cite political corruption as the single greatest problem facing America today.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 996.17,
+        "end": 1016.38,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The biggest issue in the country is corruption.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Ifl46uMvsmo",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213402.650433
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 75,
+        "value": 85,
+        "shareability": 80,
+        "overall": 82,
+        "hook_text": "We use 20 percent of the world's glyphosate.",
+        "tip": "Speed up the pacing when delivering the glyphosate consumption statistics.",
+        "caption": "America consumes twenty percent of the world's toxic weedkillers.",
+        "description": "Calley Means exposes how America makes up 4 percent of the global population yet consumes 20 percent of the world's dangerous agricultural pesticides. Learn how deeply addicted the national food system is to chemicals. Are we poisoning our own food supply?",
+        "hashtags": [
+          "glyphosate",
+          "farming",
+          "health",
+          "food",
+          "environment"
+        ]
+      },
+      "id": "c29",
+      "title": "US Uses 20 Percent Of World's Glyphosate",
+      "reason": "Calley Means exposes how America makes up 4 percent of the global population yet consumes 20 percent of the world's dangerous agricultural pesticides.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1376.41,
+        "end": 1396.78,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "We use 20 percent of the world's glyphosate.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/ZBl7MuqHvxQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213444.2944424
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 85,
+        "shareability": 85,
+        "overall": 81,
+        "hook_text": "Doing things to enrich their families.",
+        "tip": "Start the clip directly with the word 'reality' to remove the hesitation stutter.",
+        "caption": "Why top officials are working against what voters actually want.",
+        "description": "Calley Means delivers a powerful statement on how key administration officials work to enrich their families rather than serve voters. Discover the shocking reality behind internal political motivations. Do politicians really care about the public?",
+        "hashtags": [
+          "corruption",
+          "politics",
+          "government",
+          "truth",
+          "jre"
+        ]
+      },
+      "id": "c30",
+      "title": "Calley Means Reveals Why He Resigned",
+      "reason": "Calley Means delivers a powerful statement on how key administration officials work to enrich their families rather than serve voters.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 144.01,
+        "end": 163.98,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Doing things to enrich their families.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/mx4ZafLLxZ0",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213482.8532112
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 85,
+        "shareability": 85,
+        "overall": 81,
+        "hook_text": "He takes money from Pepsi and Pharma.",
+        "tip": "Jump straight into the corporate names to maximize the shock value of the clip.",
+        "caption": "Trump pollster Tony Fabrizio's ties to Pepsi and Pharma.",
+        "description": "Calley Means exposes Trump pollster Tony Fabrizio for taking money from the exact food and pharma corporations they were attempting to regulate. Find out why key campaign figures are tied to the industries being fought. Can systemic health reform ever truly win?",
+        "hashtags": [
+          "tonyfabrizio",
+          "bigpharma",
+          "pepsi",
+          "food",
+          "politics"
+        ]
+      },
+      "id": "c31",
+      "title": "Tony Fabrizio Took Money From Pepsi And Pharma",
+      "reason": "Calley Means exposes Trump pollster Tony Fabrizio for taking money from the exact food and pharma corporations they were attempting to regulate.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 404.33,
+        "end": 423.74,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "He takes money from Pepsi and Pharma.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/PupNUJu6Bpw",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213523.3266087
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 70,
+        "value": 75,
+        "shareability": 80,
+        "overall": 79,
+        "hook_text": "I just recently resigned from my job.",
+        "tip": "Cut out the filler greeting at the very beginning to start straight with the resignation announcement.",
+        "caption": "Calley Means reveals his unexpected resignation from the White House.",
+        "description": "Calley Means opens up about his sudden resignation from his White House role and the initial high hopes surrounding the administration. Watch as he discusses the turning point of leaving public service behind. What led to this dramatic departure?",
+        "hashtags": [
+          "calleymeans",
+          "politics",
+          "whitehouse",
+          "news",
+          "rogan"
+        ]
+      },
+      "id": "c32",
+      "title": "Calley Means Resigns From White House Role",
+      "reason": "Calley Means opens with the shocking announcement that he resigned from his White House role despite initial excitement about the Trump-Kennedy coalition.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 17.21,
+        "end": 35.34,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "I just recently resigned from my job.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/71UUSVIGryI",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213560.5928988
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 80,
+        "shareability": 80,
+        "overall": 79,
+        "hook_text": "A senator spends 90% of their time fundraising.",
+        "tip": "Start directly with the 90 percent statistic to instantly hook the audience.",
+        "caption": "US Senators spend ninety percent of their time fundraising.",
+        "description": "Calley Means exposes how US Senators spend nearly their entire time raising money from corporate donors instead of helping citizens. Look back at the original constitutional design of the Senate. Are politicians too busy begging for cash to govern?",
+        "hashtags": [
+          "senate",
+          "fundraising",
+          "politics",
+          "government",
+          "jre"
+        ]
+      },
+      "id": "c33",
+      "title": "US Senators Spend 90 Percent Of Time Fundraising",
+      "reason": "Calley Means exposes how US Senators spend nearly their entire time raising money from corporate donors instead of helping citizens.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3072.81,
+        "end": 3092.86,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "A senator spends 90% of their time fundraising.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/ZZCk-wSi6yQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213600.1005664
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 70,
+        "value": 80,
+        "shareability": 80,
+        "overall": 78,
+        "hook_text": "The most powerful chief of staff ever.",
+        "tip": "Tighten the pause after mentioning Susie Wiles to maintain rapid speech momentum.",
+        "caption": "How Susie Wiles holds total control over every White House policy.",
+        "description": "Calley Means details how Susie Wiles holds unprecedented centralized power over every White House policy decision. Learn how cabinet secretaries must get approval for every single meeting. How much power should a single chief of staff have?",
+        "hashtags": [
+          "susiewiles",
+          "whitehouse",
+          "power",
+          "politics",
+          "podcast"
+        ]
+      },
+      "id": "c34",
+      "title": "Calley Means Exposes Chief Of Staff Susie Wiles",
+      "reason": "Calley Means details how Susie Wiles holds unprecedented centralized power over every White House policy decision.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 275.21,
+        "end": 295.26,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "The most powerful chief of staff ever.",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/bLDo4SLwt70",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "Main channel",
+          "t": 1794213640.1663451
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 15,
+    "max_len": 25,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794207975.3313913,
+  "finished": 1794210580.7095952,
+  "log": [
+    {
+      "t": 1794207975.3459668,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=dMBBOawFy_4"
+    },
+    {
+      "t": 1794208183.5034459,
+      "level": "ok",
+      "msg": "Downloaded \"Joe Rogan Experience #2578 - Calley Means\" (138:31) in 3:28"
+    },
+    {
+      "t": 1794208183.5150635,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794208188.683644,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794208189.1516623,
+      "level": "ok",
+      "msg": "Transcribed 3737 segments / 24312 words in 0:05"
+    },
+    {
+      "t": 1794208189.1613147,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (15-25s each)"
+    },
+    {
+      "t": 1794208189.1737854,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794208190.575562,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794208190.9780312,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794208190.9822717,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794208193.16662,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794208193.1816328,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Calley Means discusses his recent resignation from his senior advisor role in the Trump administration, citing deep corruption, centralized control by the chief of staff, and resistance from officials tied to special interests regarding his health and MAHA policy initiatives. | People: Joe "
+    },
+    {
+      "t": 1794208218.7802243,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794208218.7952948,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794208220.1492848,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794208267.5028434,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794208269.0687602,
+      "level": "ok",
+      "msg": "AI picked 34 clips in 1:19"
+    },
+    {
+      "t": 1794208269.074101,
+      "level": "info",
+      "msg": "  \u2022 Calley Means Resigns From White House Role  [0:17-0:35, score 88]"
+    },
+    {
+      "t": 1794208269.0786207,
+      "level": "info",
+      "msg": "  \u2022 Calley Means Reveals Why He Resigned  [2:24-2:43, score 92]"
+    },
+    {
+      "t": 1794208269.083056,
+      "level": "info",
+      "msg": "  \u2022 Calley Means Exposes Chief Of Staff Susie Wiles  [4:35-4:55, score 90]"
+    },
+    {
+      "t": 1794208269.08762,
+      "level": "info",
+      "msg": "  \u2022 Susie Wiles' Secret Lobbying Past Revealed  [5:27-5:46, score 94]"
+    },
+    {
+      "t": 1794208269.0919673,
+      "level": "info",
+      "msg": "  \u2022 Tony Fabrizio Took Money From Pepsi And Pharma  [6:44-7:03, score 91]"
+    },
+    {
+      "t": 1794208269.0958478,
+      "level": "info",
+      "msg": "  \u2022 Firm Revenue Skyrockets After Hiring Susie Wiles' Daughter  [8:44-9:06, score 95]"
+    },
+    {
+      "t": 1794208269.1001124,
+      "level": "info",
+      "msg": "  \u2022 Top DC Lobbyists Admit It's Just A Game  [11:41-12:04, score 96]"
+    },
+    {
+      "t": 1794208269.1047454,
+      "level": "info",
+      "msg": "  \u2022 Trump Pollster Rejects School Lunch Reform  [13:32-13:54, score 89]"
+    },
+    {
+      "t": 1794208269.1090238,
+      "level": "info",
+      "msg": "  \u2022 Money In Politics Is America's Top Issue  [16:36-16:56, score 87]"
+    },
+    {
+      "t": 1794208269.1132836,
+      "level": "info",
+      "msg": "  \u2022 American Children Are The Sickest In Developed World  [22:16-22:40, score 93]"
+    },
+    {
+      "t": 1794208269.1175277,
+      "level": "info",
+      "msg": "  \u2022 US Uses 20 Percent Of World's Glyphosate  [22:56-23:16, score 89]"
+    },
+    {
+      "t": 1794208269.1225386,
+      "level": "info",
+      "msg": "  \u2022 Bayer Bribed EPA Officials Over Glyphosate Research  [25:03-25:25, score 97]"
+    },
+    {
+      "t": 1794208269.1270971,
+      "level": "info",
+      "msg": "  \u2022 Executive Order Declared Glyphosate A National Security Asset  [27:59-28:20, score 91]"
+    },
+    {
+      "t": 1794208269.1319556,
+      "level": "info",
+      "msg": "  \u2022 DOJ Lawyer Protected Bayer From Cancer Lawsuits  [30:35-30:57, score 95]"
+    },
+    {
+      "t": 1794208269.1366858,
+      "level": "info",
+      "msg": "  \u2022 US Farm States Have World's Highest Cancer Rates  [34:31-34:51, score 96]"
+    },
+    {
+      "t": 1794208269.141207,
+      "level": "info",
+      "msg": "  \u2022 Donald Trump Shocked By DOJ Glyphosate Decision  [35:43-36:03, score 92]"
+    },
+    {
+      "t": 1794208269.1460414,
+      "level": "info",
+      "msg": "  \u2022 US Senators Spend 90 Percent Of Time Fundraising  [51:12-51:32, score 93]"
+    },
+    {
+      "t": 1794208269.1508842,
+      "level": "info",
+      "msg": "  \u2022 Susie Wiles Demanded Corporate Sugar Money  [52:01-52:21, score 94]"
+    },
+    {
+      "t": 1794208269.1551306,
+      "level": "info",
+      "msg": "  \u2022 Junk Food Stocks Surged After Calley Means Resigned  [57:11-57:30, score 93]"
+    },
+    {
+      "t": 1794208269.1595564,
+      "level": "info",
+      "msg": "  \u2022 Pharma CEOs Court White House Staffers At Private Clubs  [64:06-64:27, score 89]"
+    },
+    {
+      "t": 1794208269.1654403,
+      "level": "info",
+      "msg": "  \u2022 Executive Order Used Defense Rules For Weedkiller  [66:56-67:16, score 88]"
+    },
+    {
+      "t": 1794208269.1698654,
+      "level": "info",
+      "msg": "  \u2022 Government Bureaucrats Pass Manual To Sabotage Trump  [78:30-78:48, score 97]"
+    },
+    {
+      "t": 1794208269.1740754,
+      "level": "info",
+      "msg": "  \u2022 Soda Banned From Food Stamps In 30 States  [86:05-86:27, score 90]"
+    },
+    {
+      "t": 1794208269.1789844,
+      "level": "info",
+      "msg": "  \u2022 38 Percent Of US Teens Suffer Pre-Diabetes  [86:57-87:19, score 95]"
+    },
+    {
+      "t": 1794208269.1839747,
+      "level": "info",
+      "msg": "  \u2022 50 Percent Of High School Students Vape  [90:04-90:28, score 91]"
+    },
+    {
+      "t": 1794208269.1881037,
+      "level": "info",
+      "msg": "  \u2022 White House Official Claimed Flavored Vapes Win Votes  [92:26-92:48, score 89]"
+    },
+    {
+      "t": 1794208269.192128,
+      "level": "info",
+      "msg": "  \u2022 FDA Approves Rigged Vaccine Clinical Trials  [97:31-97:51, score 92]"
+    },
+    {
+      "t": 1794208269.1968973,
+      "level": "info",
+      "msg": "  \u2022 Vaccine Regulator Drives Car With VACCINATE License Plate  [100:13-100:37, score 91]"
+    },
+    {
+      "t": 1794208269.2015097,
+      "level": "info",
+      "msg": "  \u2022 Gas Station Heroin Is A 3 Billion Dollar Industry  [106:58-107:19, score 93]"
+    },
+    {
+      "t": 1794208269.2059782,
+      "level": "info",
+      "msg": "  \u2022 Former FDA Chief Compares Processed Food To Tobacco  [115:25-115:49, score 88]"
+    },
+    {
+      "t": 1794208269.2105196,
+      "level": "info",
+      "msg": "  \u2022 Susie Wiles Blocked Food Safety Study For Sugar Money  [117:57-118:14, score 96]"
+    },
+    {
+      "t": 1794208269.2153275,
+      "level": "info",
+      "msg": "  \u2022 Insurance Companies Wrote ACA Laws To Increase Profits  [130:37-130:59, score 91]"
+    },
+    {
+      "t": 1794208269.2202792,
+      "level": "info",
+      "msg": "  \u2022 Oreo Lobbyist Cursed Out White House Staffer  [134:22-134:43, score 95]"
+    },
+    {
+      "t": 1794208269.2251027,
+      "level": "info",
+      "msg": "  \u2022 US Government Funds Donuts For School Children  [135:49-136:10, score 94]"
+    },
+    {
+      "t": 1794208269.2344396,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794208269.3162673,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794208270.7426991,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794208271.3518155,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794208271.3565512,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794208288.5906909,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794208288.6075578,
+      "level": "ok",
+      "msg": "Rated 34 clips in 0:19"
+    },
+    {
+      "t": 1794208288.6131728,
+      "level": "info",
+      "msg": "  - Calley Means Resigns From White House Role: 79/100 (hook 85, retention 70, value 75, share 80)"
+    },
+    {
+      "t": 1794208288.6187422,
+      "level": "info",
+      "msg": "  - Calley Means Reveals Why He Resigned: 81/100 (hook 80, retention 75, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.6238217,
+      "level": "info",
+      "msg": "  - Calley Means Exposes Chief Of Staff Susie Wiles: 78/100 (hook 80, retention 70, value 80, share 80)"
+    },
+    {
+      "t": 1794208288.6293468,
+      "level": "info",
+      "msg": "  - Susie Wiles' Secret Lobbying Past Revealed: 85/100 (hook 85, retention 80, value 85, share 90)"
+    },
+    {
+      "t": 1794208288.635455,
+      "level": "info",
+      "msg": "  - Tony Fabrizio Took Money From Pepsi And Pharma: 81/100 (hook 80, retention 75, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.641077,
+      "level": "info",
+      "msg": "  - Firm Revenue Skyrockets After Hiring Susie Wiles' Daughter: 89/100 (hook 90, retention 80, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.6495464,
+      "level": "info",
+      "msg": "  - Top DC Lobbyists Admit It's Just A Game: 93/100 (hook 95, retention 85, value 95, share 95)"
+    },
+    {
+      "t": 1794208288.6611876,
+      "level": "info",
+      "msg": "  - Trump Pollster Rejects School Lunch Reform: 82/100 (hook 85, retention 75, value 85, share 80)"
+    },
+    {
+      "t": 1794208288.6674042,
+      "level": "info",
+      "msg": "  - Money In Politics Is America's Top Issue: 82/100 (hook 80, retention 80, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.6740892,
+      "level": "info",
+      "msg": "  - American Children Are The Sickest In Developed World: 89/100 (hook 90, retention 85, value 90, share 90)"
+    },
+    {
+      "t": 1794208288.6802778,
+      "level": "info",
+      "msg": "  - US Uses 20 Percent Of World's Glyphosate: 82/100 (hook 85, retention 75, value 85, share 80)"
+    },
+    {
+      "t": 1794208288.6870444,
+      "level": "info",
+      "msg": "  - Bayer Bribed EPA Officials Over Glyphosate Research: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.6924913,
+      "level": "info",
+      "msg": "  - Executive Order Declared Glyphosate A National Security Asset: 84/100 (hook 85, retention 80, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.7057438,
+      "level": "info",
+      "msg": "  - DOJ Lawyer Protected Bayer From Cancer Lawsuits: 89/100 (hook 90, retention 85, value 90, share 90)"
+    },
+    {
+      "t": 1794208288.7117457,
+      "level": "info",
+      "msg": "  - US Farm States Have World's Highest Cancer Rates: 92/100 (hook 95, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.7203748,
+      "level": "info",
+      "msg": "  - Donald Trump Shocked By DOJ Glyphosate Decision: 84/100 (hook 85, retention 80, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.7269702,
+      "level": "info",
+      "msg": "  - US Senators Spend 90 Percent Of Time Fundraising: 79/100 (hook 80, retention 75, value 80, share 80)"
+    },
+    {
+      "t": 1794208288.7344651,
+      "level": "info",
+      "msg": "  - Susie Wiles Demanded Corporate Sugar Money: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.7416172,
+      "level": "info",
+      "msg": "  - Junk Food Stocks Surged After Calley Means Resigned: 89/100 (hook 90, retention 80, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.7482,
+      "level": "info",
+      "msg": "  - Pharma CEOs Court White House Staffers At Private Clubs: 83/100 (hook 85, retention 75, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.7559457,
+      "level": "info",
+      "msg": "  - Executive Order Used Defense Rules For Weedkiller: 84/100 (hook 85, retention 80, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.7620685,
+      "level": "info",
+      "msg": "  - Government Bureaucrats Pass Manual To Sabotage Trump: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.7674503,
+      "level": "info",
+      "msg": "  - Soda Banned From Food Stamps In 30 States: 85/100 (hook 85, retention 80, value 85, share 90)"
+    },
+    {
+      "t": 1794208288.7728093,
+      "level": "info",
+      "msg": "  - 38 Percent Of US Teens Suffer Pre-Diabetes: 93/100 (hook 95, retention 85, value 95, share 95)"
+    },
+    {
+      "t": 1794208288.77951,
+      "level": "info",
+      "msg": "  - 50 Percent Of High School Students Vape: 89/100 (hook 90, retention 85, value 90, share 90)"
+    },
+    {
+      "t": 1794208288.7858832,
+      "level": "info",
+      "msg": "  - White House Official Claimed Flavored Vapes Win Votes: 85/100 (hook 85, retention 80, value 85, share 90)"
+    },
+    {
+      "t": 1794208288.7920973,
+      "level": "info",
+      "msg": "  - FDA Approves Rigged Vaccine Clinical Trials: 83/100 (hook 85, retention 75, value 85, share 85)"
+    },
+    {
+      "t": 1794208288.797865,
+      "level": "info",
+      "msg": "  - Vaccine Regulator Drives Car With VACCINATE License Plate: 93/100 (hook 95, retention 90, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.8037581,
+      "level": "info",
+      "msg": "  - Gas Station Heroin Is A 3 Billion Dollar Industry: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.8099983,
+      "level": "info",
+      "msg": "  - Former FDA Chief Compares Processed Food To Tobacco: 85/100 (hook 85, retention 80, value 90, share 85)"
+    },
+    {
+      "t": 1794208288.8156526,
+      "level": "info",
+      "msg": "  - Susie Wiles Blocked Food Safety Study For Sugar Money: 89/100 (hook 90, retention 80, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.8218415,
+      "level": "info",
+      "msg": "  - Insurance Companies Wrote ACA Laws To Increase Profits: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.8274236,
+      "level": "info",
+      "msg": "  - Oreo Lobbyist Cursed Out White House Staffer: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.8338566,
+      "level": "info",
+      "msg": "  - US Government Funds Donuts For School Children: 90/100 (hook 90, retention 85, value 90, share 95)"
+    },
+    {
+      "t": 1794208288.8508637,
+      "level": "ok",
+      "msg": "34 distinct clips found, 34 rated 50+"
+    },
+    {
+      "t": 1794208289.0402718,
+      "level": "info",
+      "msg": "Rendering clip 1/34: Top DC Lobbyists Admit It's Just A Game"
+    },
+    {
+      "t": 1794208363.6375828,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:14"
+    },
+    {
+      "t": 1794208363.676027,
+      "level": "info",
+      "msg": "Rendering clip 2/34: 38 Percent Of US Teens Suffer Pre-Diabetes"
+    },
+    {
+      "t": 1794208476.0812385,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:52"
+    },
+    {
+      "t": 1794208476.1145418,
+      "level": "info",
+      "msg": "Rendering clip 3/34: Vaccine Regulator Drives Car With VACCINATE License Plate"
+    },
+    {
+      "t": 1794208551.4424124,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:15"
+    },
+    {
+      "t": 1794208551.4846847,
+      "level": "info",
+      "msg": "Rendering clip 4/34: US Farm States Have World's Highest Cancer Rates"
+    },
+    {
+      "t": 1794208605.4058437,
+      "level": "ok",
+      "msg": "Clip 4 ready in 0:53"
+    },
+    {
+      "t": 1794208605.442613,
+      "level": "info",
+      "msg": "Rendering clip 5/34: Bayer Bribed EPA Officials Over Glyphosate Research"
+    },
+    {
+      "t": 1794208681.385219,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:15"
+    },
+    {
+      "t": 1794208681.4085,
+      "level": "info",
+      "msg": "Rendering clip 6/34: Susie Wiles Demanded Corporate Sugar Money"
+    },
+    {
+      "t": 1794208726.6249278,
+      "level": "ok",
+      "msg": "Clip 6 ready in 0:45"
+    },
+    {
+      "t": 1794208726.6512802,
+      "level": "info",
+      "msg": "Rendering clip 7/34: Government Bureaucrats Pass Manual To Sabotage Trump"
+    },
+    {
+      "t": 1794208775.503235,
+      "level": "ok",
+      "msg": "Clip 7 ready in 0:48"
+    },
+    {
+      "t": 1794208775.5377164,
+      "level": "info",
+      "msg": "Rendering clip 8/34: Gas Station Heroin Is A 3 Billion Dollar Industry"
+    },
+    {
+      "t": 1794208847.17739,
+      "level": "ok",
+      "msg": "Clip 8 ready in 1:11"
+    },
+    {
+      "t": 1794208847.217066,
+      "level": "info",
+      "msg": "Rendering clip 9/34: Insurance Companies Wrote ACA Laws To Increase Profits"
+    },
+    {
+      "t": 1794208914.7533197,
+      "level": "ok",
+      "msg": "Clip 9 ready in 1:07"
+    },
+    {
+      "t": 1794208914.792812,
+      "level": "info",
+      "msg": "Rendering clip 10/34: Oreo Lobbyist Cursed Out White House Staffer"
+    },
+    {
+      "t": 1794208988.2002149,
+      "level": "ok",
+      "msg": "Clip 10 ready in 1:13"
+    },
+    {
+      "t": 1794208988.2367766,
+      "level": "info",
+      "msg": "Rendering clip 11/34: US Government Funds Donuts For School Children"
+    },
+    {
+      "t": 1794209048.603329,
+      "level": "ok",
+      "msg": "Clip 11 ready in 1:00"
+    },
+    {
+      "t": 1794209048.6425266,
+      "level": "info",
+      "msg": "Rendering clip 12/34: Firm Revenue Skyrockets After Hiring Susie Wiles' Daughter"
+    },
+    {
+      "t": 1794209110.6325092,
+      "level": "ok",
+      "msg": "Clip 12 ready in 1:01"
+    },
+    {
+      "t": 1794209110.6635492,
+      "level": "info",
+      "msg": "Rendering clip 13/34: American Children Are The Sickest In Developed World"
+    },
+    {
+      "t": 1794209169.8227448,
+      "level": "ok",
+      "msg": "Clip 13 ready in 0:59"
+    },
+    {
+      "t": 1794209169.8523772,
+      "level": "info",
+      "msg": "Rendering clip 14/34: DOJ Lawyer Protected Bayer From Cancer Lawsuits"
+    },
+    {
+      "t": 1794209232.5736666,
+      "level": "ok",
+      "msg": "Clip 14 ready in 1:02"
+    },
+    {
+      "t": 1794209232.6050055,
+      "level": "info",
+      "msg": "Rendering clip 15/34: Junk Food Stocks Surged After Calley Means Resigned"
+    },
+    {
+      "t": 1794209296.7415836,
+      "level": "ok",
+      "msg": "Clip 15 ready in 1:04"
+    },
+    {
+      "t": 1794209296.780391,
+      "level": "info",
+      "msg": "Rendering clip 16/34: 50 Percent Of High School Students Vape"
+    },
+    {
+      "t": 1794209368.770969,
+      "level": "ok",
+      "msg": "Clip 16 ready in 1:11"
+    },
+    {
+      "t": 1794209368.802595,
+      "level": "info",
+      "msg": "Rendering clip 17/34: Susie Wiles Blocked Food Safety Study For Sugar Money"
+    },
+    {
+      "t": 1794209425.0988402,
+      "level": "ok",
+      "msg": "Clip 17 ready in 0:56"
+    },
+    {
+      "t": 1794209425.133962,
+      "level": "info",
+      "msg": "Rendering clip 18/34: Susie Wiles' Secret Lobbying Past Revealed"
+    },
+    {
+      "t": 1794209496.2582307,
+      "level": "ok",
+      "msg": "Clip 18 ready in 1:11"
+    },
+    {
+      "t": 1794209496.312382,
+      "level": "info",
+      "msg": "Rendering clip 19/34: Soda Banned From Food Stamps In 30 States"
+    },
+    {
+      "t": 1794209644.3223448,
+      "level": "ok",
+      "msg": "Clip 19 ready in 2:28"
+    },
+    {
+      "t": 1794209644.361102,
+      "level": "info",
+      "msg": "Rendering clip 20/34: White House Official Claimed Flavored Vapes Win Votes"
+    },
+    {
+      "t": 1794209755.2560842,
+      "level": "ok",
+      "msg": "Clip 20 ready in 1:50"
+    },
+    {
+      "t": 1794209755.2874987,
+      "level": "info",
+      "msg": "Rendering clip 21/34: Former FDA Chief Compares Processed Food To Tobacco"
+    },
+    {
+      "t": 1794209862.56189,
+      "level": "ok",
+      "msg": "Clip 21 ready in 1:47"
+    },
+    {
+      "t": 1794209862.594411,
+      "level": "info",
+      "msg": "Rendering clip 22/34: Executive Order Declared Glyphosate A National Security Asset"
+    },
+    {
+      "t": 1794209916.0393336,
+      "level": "ok",
+      "msg": "Clip 22 ready in 0:53"
+    },
+    {
+      "t": 1794209916.1284425,
+      "level": "info",
+      "msg": "Rendering clip 23/34: Donald Trump Shocked By DOJ Glyphosate Decision"
+    },
+    {
+      "t": 1794210019.6410258,
+      "level": "ok",
+      "msg": "Clip 23 ready in 1:43"
+    },
+    {
+      "t": 1794210019.6788526,
+      "level": "info",
+      "msg": "Rendering clip 24/34: Executive Order Used Defense Rules For Weedkiller"
+    },
+    {
+      "t": 1794210119.514945,
+      "level": "ok",
+      "msg": "Clip 24 ready in 1:39"
+    },
+    {
+      "t": 1794210119.5395453,
+      "level": "info",
+      "msg": "Rendering clip 25/34: Pharma CEOs Court White House Staffers At Private Clubs"
+    },
+    {
+      "t": 1794210164.4173973,
+      "level": "ok",
+      "msg": "Clip 25 ready in 0:44"
+    },
+    {
+      "t": 1794210164.4443429,
+      "level": "info",
+      "msg": "Rendering clip 26/34: FDA Approves Rigged Vaccine Clinical Trials"
+    },
+    {
+      "t": 1794210206.4665368,
+      "level": "ok",
+      "msg": "Clip 26 ready in 0:42"
+    },
+    {
+      "t": 1794210206.4961145,
+      "level": "info",
+      "msg": "Rendering clip 27/34: Trump Pollster Rejects School Lunch Reform"
+    },
+    {
+      "t": 1794210256.7335513,
+      "level": "ok",
+      "msg": "Clip 27 ready in 0:50"
+    },
+    {
+      "t": 1794210256.7640781,
+      "level": "info",
+      "msg": "Rendering clip 28/34: Money In Politics Is America's Top Issue"
+    },
+    {
+      "t": 1794210301.2830784,
+      "level": "ok",
+      "msg": "Clip 28 ready in 0:44"
+    },
+    {
+      "t": 1794210301.313287,
+      "level": "info",
+      "msg": "Rendering clip 29/34: US Uses 20 Percent Of World's Glyphosate"
+    },
+    {
+      "t": 1794210343.6215525,
+      "level": "ok",
+      "msg": "Clip 29 ready in 0:42"
+    },
+    {
+      "t": 1794210343.6513426,
+      "level": "info",
+      "msg": "Rendering clip 30/34: Calley Means Reveals Why He Resigned"
+    },
+    {
+      "t": 1794210384.4908805,
+      "level": "ok",
+      "msg": "Clip 30 ready in 0:40"
+    },
+    {
+      "t": 1794210384.520744,
+      "level": "info",
+      "msg": "Rendering clip 31/34: Tony Fabrizio Took Money From Pepsi And Pharma"
+    },
+    {
+      "t": 1794210425.2019217,
+      "level": "ok",
+      "msg": "Clip 31 ready in 0:40"
+    },
+    {
+      "t": 1794210425.2287698,
+      "level": "info",
+      "msg": "Rendering clip 32/34: Calley Means Resigns From White House Role"
+    },
+    {
+      "t": 1794210498.5871682,
+      "level": "ok",
+      "msg": "Clip 32 ready in 1:13"
+    },
+    {
+      "t": 1794210498.6187038,
+      "level": "info",
+      "msg": "Rendering clip 33/34: US Senators Spend 90 Percent Of Time Fundraising"
+    },
+    {
+      "t": 1794210539.6983712,
+      "level": "ok",
+      "msg": "Clip 33 ready in 0:41"
+    },
+    {
+      "t": 1794210539.7302258,
+      "level": "info",
+      "msg": "Rendering clip 34/34: Calley Means Exposes Chief Of Staff Susie Wiles"
+    },
+    {
+      "t": 1794210580.7040424,
+      "level": "ok",
+      "msg": "Clip 34 ready in 0:40"
+    },
+    {
+      "t": 1794210580.720281,
+      "level": "ok",
+      "msg": "All done in 38:11"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "PowerfulJRE",
+  "duration": 8311,
+  "heatmap": [],
+  "video_description": "Calley Means is a health advocate, author, and former senior advisor to the United States Department of Health and Human Services. He is also a co-founder of Truemed and co-author of the book \"Good Energy\" with his sister Casey Means, MD.\n\nhttps://www.penguinrandomhouse.com/books/727184/good-energy-by-casey-means-md-and-calley-means/\nhttps://www.calleymeans.com\n\nPerplexity: Download the app or ask Perplexity anything at https://pplx.ai/rogan.\n\n50 Don\u2019t miss out on all the action this week at DraftKings! Download the DraftKings app today! Sign-up using https://dkng.co/rogan or through my promo code ROGAN.\n\nonX Hunt - Use code JRE for 20% off your membership",
+  "brief": "Summary: Calley Means discusses his recent resignation from his senior advisor role in the Trump administration, citing deep corruption, centralized control by the chief of staff, and resistance from officials tied to special interests regarding his health and MAHA policy initiatives.\nPeople: Joe Rogan; Calley Means; Bobby Kennedy; Donald Trump; Casey Means; Susie Wiles; James Blair; Walker Barrett; Richard Walters; Tony Fabrizio; George Washington; Benjamin Netanyahu\nContext: Calley Means appears as a guest on The Joe Rogan Experience (JRE #2578) to talk about his time working in the White House implementing MAHA health initiatives and why he ultimately resigned.\nUnclear: The speech cuts off abruptly while Calley Means is describing Tony Fabrizio's role and background, leaving the full details of Fabrizio's influence and subsequent points incomplete.",
+  "render_index": 34,
+  "render_total": 34
+}

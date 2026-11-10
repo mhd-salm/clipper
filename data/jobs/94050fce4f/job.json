@@ -1,0 +1,2573 @@
+{
+  "id": "94050fce4f",
+  "created": 1794227137.7273946,
+  "url": "https://www.youtube.com/watch?v=yRB0_JP9T3I",
+  "source": "manual",
+  "creator_id": null,
+  "title": "Abdul El-Sayed Talks Michigan Senate Race, Big Pharma, Capitalism, Mike Rogers, Islamophobia + More",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 84,
+        "value": 91,
+        "shareability": 82,
+        "overall": 87,
+        "hook_text": "Why doctors skipped her emergency scan",
+        "tip": "Add text overlays highlighting key medical terms like CT scan and social admit to boost visual retention.",
+        "caption": "Abdul El-Sayed shares a shocking story from his medical residency about unequal emergency room care.",
+        "description": "A patient with a head injury was denied a standard CT scan simply due to her social status. Physician Abdul El-Sayed reveals how systemic bias leads to unequal treatment inside emergency rooms. How can hospitals eliminate this double standard in care?",
+        "hashtags": [
+          "healthcare",
+          "medicine",
+          "hospital",
+          "equality",
+          "doctor"
+        ]
+      },
+      "id": "c1",
+      "title": "Dr. Abdul El-Sayed Reveals ER Inequality",
+      "reason": "A shocking real-life ER story demonstrating how poor patients receive lower standards of care.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 212.05,
+        "end": 257.23,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why doctors skipped her emergency scan",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/qdp_PvThKy8",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794228546.5975664
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 86,
+        "retention": 88,
+        "value": 89,
+        "shareability": 84,
+        "overall": 87,
+        "hook_text": "The humbling lesson from his grandmother",
+        "tip": "Emphasize the grandmother's dialogue with dramatic sound effects or bold dynamic captions.",
+        "caption": "Abdul El-Sayed recalls a funny and humbling summer story about his grandmother and American opportunity.",
+        "description": "After acting boastful in front of his relatives in Egypt, a young Abdul El-Sayed received a blunt reality check from his grandmother. She reminded him that his greatest advantage was simply the opportunity of living in America. What family lesson stayed with you?",
+        "hashtags": [
+          "family",
+          "immigrant",
+          "perspective",
+          "humor",
+          "opportunity"
+        ]
+      },
+      "id": "c2",
+      "title": "Abdul El-Sayed's Grandmother Teaches Him Opportunity",
+      "reason": "A heartwarming and funny family story about perspective and American opportunity.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1340.43,
+        "end": 1394.13,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The humbling lesson from his grandmother",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/COv2INun95E",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794228694.2260504
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 90,
+        "retention": 89,
+        "value": 92,
+        "shareability": 91,
+        "overall": 87,
+        "hook_text": "Why he brought vodka to the counter",
+        "tip": "Add subtle sound design during the story climax when he brings the vodka to the register.",
+        "caption": "Abdul El-Sayed shares a powerful story about confronting hypocrisy and challenging discrimination.",
+        "description": "A quick trip to buy a drink turned into a confrontation about community standards and consistency. Abdul El-Sayed recounts calling out double standards while emphasizing the need to fight racial discrimination across all groups. How do we best address hypocrisy in our communities?",
+        "hashtags": [
+          "storytelling",
+          "hypocrisy",
+          "community",
+          "equality",
+          "respect"
+        ]
+      },
+      "id": "c3",
+      "title": "Abdul El-Sayed's Gas Station Store Encounter",
+      "reason": "A funny yet deeply impactful story about hypocrisy and community standards.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2206.41,
+        "end": 2272.86,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he brought vodka to the counter",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/QmBPKEMI_Yk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794228755.18059
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 91,
+        "retention": 90,
+        "value": 85,
+        "shareability": 93,
+        "overall": 87,
+        "hook_text": "The chemical trap that tricks politicians",
+        "tip": "Add a pop-up text showing 'H2O = Water' the moment the reveal happens.",
+        "caption": "Abdul El-Sayed demonstrates how scientific terminology can easily trick people into fearmongering.",
+        "description": "Scientific terms like dihydrogen oxide sound alarming until you realize it simply refers to ordinary water. Abdul El-Sayed shows how easily sensational claims can mislead people when complex vocabulary is weaponized. Have you ever fallen for fancy scientific jargon?",
+        "hashtags": [
+          "science",
+          "humor",
+          "politics",
+          "chemistry",
+          "debate"
+        ]
+      },
+      "id": "c4",
+      "title": "Abdul El-Sayed Traps RFK Jr With Science",
+      "reason": "A hilarious and clever hypothetical question confronting pseudo-scientific political rhetoric.",
+      "score": 87,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3782.97,
+        "end": 3843.43,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The chemical trap that tricks politicians",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/TwhbZk7YkHY",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794231671.8677921
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 87,
+        "retention": 86,
+        "value": 84,
+        "shareability": 83,
+        "overall": 86,
+        "hook_text": "What Bill Clinton said at graduation",
+        "tip": "Use subtle background music to build emotional impact during the Obama speech memory.",
+        "caption": "Abdul El-Sayed recounts the unexpected moment Bill Clinton encouraged him to enter public service.",
+        "description": "Speaking at his college graduation, Bill Clinton suggested that medical student Abdul El-Sayed consider entering political life. Abdul El-Sayed shares how that moment and seeing Barack Hussein Obama inspired his political journey. Who inspired your career path?",
+        "hashtags": [
+          "storytelling",
+          "bill-clinton",
+          "obama",
+          "inspiration",
+          "politics"
+        ]
+      },
+      "id": "c5",
+      "title": "Bill Clinton Told Abdul El-Sayed To Run",
+      "reason": "An entertaining story about Bill Clinton predicting Abdul El-Sayed's political career at graduation.",
+      "score": 86,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 4841.94,
+        "end": 4890.76,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What Bill Clinton said at graduation",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/dg0utb6IKqs",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794231722.255729
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 80,
+        "value": 86,
+        "shareability": 88,
+        "overall": 83,
+        "hook_text": "What politicians get wrong about solidarity",
+        "tip": "Cut the end slightly earlier right when he completes the tent metaphor.",
+        "caption": "Abdul El-Sayed explains the difference between superficial political photo-ops and genuine community solidarity.",
+        "description": "Showing up for a holiday dinner is easy, but true support requires speaking out during tough times. Abdul El-Sayed calls out politicians who choose superficial photo-ops over defending vulnerable communities. What does real political solidarity look like to you?",
+        "hashtags": [
+          "politics",
+          "solidarity",
+          "community",
+          "faith",
+          "advocacy"
+        ]
+      },
+      "id": "c6",
+      "title": "Abdul El-Sayed Calls Out Political Pandering",
+      "reason": "An insightful and bold message about true political solidarity versus superficial cultural pandering.",
+      "score": 83,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 637.83,
+        "end": 684.88,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What politicians get wrong about solidarity",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/FvZuaSZwrGk",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794231805.6654599
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 79,
+        "value": 81,
+        "shareability": 80,
+        "overall": 82,
+        "hook_text": "How to deal with political bullies",
+        "tip": "Start the clip right on 'I bully bullies' to maximize the initial scroll-stopping punch.",
+        "caption": "Abdul El-Sayed shares his strategy for standing up to political bullies while uniting communities.",
+        "description": "Confronting intimidation directly is essential when fighting for broader inclusion. Abdul El-Sayed discusses his personal philosophy on taking on bullies and focusing on shared values rather than differences. How should leaders respond to political attacks?",
+        "hashtags": [
+          "leadership",
+          "inspiration",
+          "unity",
+          "politics",
+          "courage"
+        ]
+      },
+      "id": "c7",
+      "title": "Abdul El-Sayed on Facing Political Bullies",
+      "reason": "A strong, empowering hook about taking on bullies and expanding the vision of America.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 949.46,
+        "end": 1000.72,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How to deal with political bullies",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/dUzHClwiTvo",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794231849.7877977
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 83,
+        "value": 88,
+        "shareability": 89,
+        "overall": 82,
+        "hook_text": "The math behind billionaire tax rates",
+        "tip": "Use animated on-screen graphics to display the financial math as he speaks.",
+        "caption": "Abdul El-Sayed breaks down the math of wealth accumulation and public investment.",
+        "description": "High returns on massive wealth allow billionaires to gain millions even under targeted tax proposals. Abdul El-Sayed demonstrates how tax revenue could be reinvested into childcare, schools, and essential public infrastructure. Should billionaire tax rates be adjusted?",
+        "hashtags": [
+          "economy",
+          "taxes",
+          "wealth",
+          "infrastructure",
+          "finance"
+        ]
+      },
+      "id": "c8",
+      "title": "Abdul El-Sayed Breaks Down Billionaire Taxes",
+      "reason": "A punchy financial breakdown showing how wealth accumulation impacts public resources.",
+      "score": 82,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2031.44,
+        "end": 2088.81,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The math behind billionaire tax rates",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/Q7EZhJNkR40",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794231937.9207263
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 82,
+        "value": 75,
+        "shareability": 85,
+        "overall": 80,
+        "hook_text": "The hidden monopoly controlling your travel",
+        "tip": "Insert image pop-ups of Spirit Airlines and phone brands when he lists them to enhance visual humor.",
+        "caption": "Abdul El-Sayed uses budget airlines to explain how monopolies dominate everyday American life.",
+        "description": "From smartphones to major airlines, corporate consolidation limits choices for everyday consumers. Abdul El-Sayed uses a humorous joke about budget flights to illustrate how monopolies shape our economy. Have you noticed how few choices consumers have today?",
+        "hashtags": [
+          "monopoly",
+          "economy",
+          "travel",
+          "business",
+          "humor"
+        ]
+      },
+      "id": "c9",
+      "title": "Abdul El-Sayed Jokes About Corporate Monopolies",
+      "reason": "A funny and relatable explanation of monopolies in America featuring a joke about budget airlines.",
+      "score": 80,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 788.55,
+        "end": 839.2,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The hidden monopoly controlling your travel",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/FMVzwoDcIAc",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794231983.807166
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 81,
+        "retention": 75,
+        "value": 68,
+        "shareability": 76,
+        "overall": 79,
+        "hook_text": "Challenging his political rival to football",
+        "tip": "End immediately on 'other ways to show your love' to eliminate trailing off at the end.",
+        "caption": "Abdul El-Sayed challenges his political opponent to a football drill while clarifying his comments on fireworks.",
+        "description": "Responding to attacks on his background and patriotism, high school football alumnus Abdul El-Sayed offers a lighthearted drill challenge to Mike Rogers. He also clarifies health concerns related to firework smoke. How do you feel about political rivalries getting personal?",
+        "hashtags": [
+          "sports",
+          "politics",
+          "football",
+          "humor",
+          "debate"
+        ]
+      },
+      "id": "c10",
+      "title": "Abdul El-Sayed Challenges Opponents To Football Drill",
+      "reason": "A high-energy, humorous clip responding to political attacks on his patriotism.",
+      "score": 79,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 5025.55,
+        "end": 5058.53,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Challenging his political rival to football",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/dkJFnkKTXiU",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794232151.1794245
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 78,
+        "value": 87,
+        "shareability": 81,
+        "overall": 78,
+        "hook_text": "The unfair bias in maternal healthcare",
+        "tip": "Display key maternal health statistics on screen during the opening statement to anchor authority.",
+        "caption": "Abdul El-Sayed exposes how bias and lower reimbursement rates impact healthcare outcomes for lower-income mothers.",
+        "description": "Disparities in medical insurance rates lead to drastic differences in how patients are treated during pregnancy. Physician Abdul El-Sayed explains why equal reimbursement is vital to preventing maternal mortality crises. How can we ensure equal care for every mother?",
+        "hashtags": [
+          "healthcare",
+          "medicare",
+          "equality",
+          "medicine",
+          "motherhood"
+        ]
+      },
+      "id": "c11",
+      "title": "Abdul El-Sayed Exposes Healthcare Disparities",
+      "reason": "A compelling physician's account of systemic inequality and bias in maternal healthcare.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1794.63,
+        "end": 1852.41,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The unfair bias in maternal healthcare",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/GtnBify81xE",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794232209.4445398
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 79,
+        "retention": 76,
+        "value": 74,
+        "shareability": 77,
+        "overall": 74,
+        "hook_text": "The truth about political label attacks",
+        "tip": "Trim out the host side-comment for a cleaner flow of Abdul's argument.",
+        "caption": "Abdul El-Sayed responds to political labels by refocusing on everyday economic concerns.",
+        "description": "Political opponents often rely on name-calling rather than addressing kitchen-table economic issues like rent, groceries, and healthcare. Abdul El-Sayed critiques attacks from Mike Rogers and discusses focus in campaigns. What issues matter most to you this election?",
+        "hashtags": [
+          "politics",
+          "michigan",
+          "elections",
+          "economy",
+          "debate"
+        ]
+      },
+      "id": "c12",
+      "title": "Abdul El-Sayed Calls Out Mike Rogers",
+      "reason": "A fiery political comeback addressing campaign smears and political opponents.",
+      "score": 74,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3974.74,
+        "end": 4034.96,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The truth about political label attacks",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/qpLpLaVkIhg",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794232249.5508835
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 70,
+        "value": 85,
+        "shareability": 78,
+        "overall": 71,
+        "hook_text": "Why politicians rarely listen to voters",
+        "tip": "Trim the initial hesitations to jump straight into the contrast between public and political consensus.",
+        "caption": "Abdul El-Sayed breaks down why political decisions often conflict with what the public actually wants.",
+        "description": "Political consensus often strays far from what everyday citizens actually want. Abdul El-Sayed explains how money from major corporate interests shifts political priorities away from public needs. Do you think campaign finance reform could fix this gap?",
+        "hashtags": [
+          "politics",
+          "democracy",
+          "healthcare",
+          "government",
+          "reform"
+        ]
+      },
+      "id": "c13",
+      "title": "Abdul El-Sayed Exposes Money in American Politics",
+      "reason": "Abdul El-Sayed gives a clear, provocative breakdown of why political consensus differs from public consensus due to corporate money.",
+      "score": 71,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 106.37,
+        "end": 164.64,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why politicians rarely listen to voters",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/MQllial1DrM",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794232289.3982856
+        }
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 68,
+        "value": 76,
+        "shareability": 72,
+        "overall": 71,
+        "hook_text": "How corporate money entered American elections",
+        "tip": "Cut out the secondary host interruption to keep the main point concise and punchy.",
+        "caption": "Abdul El-Sayed outlines strategies to counter corporate money in elections and reform political funding.",
+        "description": "The Supreme Court ruling on Citizens United reshaped how elections are funded across the country. Abdul El-Sayed discusses mechanisms like matching public funds to neutralize the impact of corporate campaign donations. What is the best way to reduce money in politics?",
+        "hashtags": [
+          "elections",
+          "supreme-court",
+          "politics",
+          "reform",
+          "law"
+        ]
+      },
+      "id": "c14",
+      "title": "Abdul El-Sayed Targets Citizens United Ruling",
+      "reason": "A sharp political take on corporate campaign funding and Supreme Court power.",
+      "score": 71,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 3574.89,
+        "end": 3626.87,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "How corporate money entered American elections",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "publish": {
+        "youtube": {
+          "status": "done",
+          "url": "https://youtube.com/shorts/gH8sdp4oImQ",
+          "privacy": "public",
+          "method": "browser",
+          "likes_hidden": true,
+          "account": "default",
+          "account_name": "theBigbrain",
+          "t": 1794232332.9747474
+        }
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "default",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794227137.732366,
+  "finished": 1794231249.983258,
+  "log": [
+    {
+      "t": 1794227137.7422,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=yRB0_JP9T3I"
+    },
+    {
+      "t": 1794227365.8045275,
+      "level": "ok",
+      "msg": "Downloaded \"Abdul El-Sayed Talks Michigan Senate Race, Big Pharma, Capitalism, Mike Rogers, Islamophobia + More\" (92:51) in 3:48"
+    },
+    {
+      "t": 1794227365.809646,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794227365.8218062,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794227372.5962589,
+      "level": "info",
+      "msg": "Using YouTube's own captions (skips the slow Whisper step)"
+    },
+    {
+      "t": 1794227372.9785135,
+      "level": "ok",
+      "msg": "Transcribed 3324 segments / 20712 words in 0:07"
+    },
+    {
+      "t": 1794227372.9875607,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794227374.0206022,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794227375.4438202,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794227377.8248343,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794227377.8293183,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794227379.506233,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794227379.5213394,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Abdul El-Sayed discusses his campaign for the US Senate in Michigan, his background as a physician, the failures of the American healthcare system, and how money in politics drives a wedge between public and political consensus. | People: Abdul El-Sayed; Charlamagne Tha God; Loren LoRosa; A"
+    },
+    {
+      "t": 1794227394.1038702,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794227394.1190238,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794227395.484891,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794227456.4743361,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794227456.824754,
+      "level": "ok",
+      "msg": "AI picked 14 clips in 1:23"
+    },
+    {
+      "t": 1794227456.8294582,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Exposes Money in American Politics  [1:46-2:44, score 92]"
+    },
+    {
+      "t": 1794227456.8341644,
+      "level": "info",
+      "msg": "  \u2022 Dr. Abdul El-Sayed Reveals ER Inequality  [3:32-4:17, score 88]"
+    },
+    {
+      "t": 1794227456.8389094,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Calls Out Political Pandering  [10:37-11:24, score 95]"
+    },
+    {
+      "t": 1794227456.8436031,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Jokes About Corporate Monopolies  [13:08-13:59, score 89]"
+    },
+    {
+      "t": 1794227456.8482153,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed on Facing Political Bullies  [15:49-16:40, score 86]"
+    },
+    {
+      "t": 1794227456.8530772,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed's Grandmother Teaches Him Opportunity  [22:20-23:14, score 91]"
+    },
+    {
+      "t": 1794227456.8582754,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Exposes Healthcare Disparities  [29:54-30:52, score 87]"
+    },
+    {
+      "t": 1794227456.8632793,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Breaks Down Billionaire Taxes  [33:51-34:48, score 90]"
+    },
+    {
+      "t": 1794227456.868002,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed's Gas Station Store Encounter  [36:46-37:52, score 96]"
+    },
+    {
+      "t": 1794227456.872768,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Targets Citizens United Ruling  [59:34-60:26, score 85]"
+    },
+    {
+      "t": 1794227456.877811,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Traps RFK Jr With Science  [63:01-64:03, score 94]"
+    },
+    {
+      "t": 1794227456.8828475,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Calls Out Mike Rogers  [66:14-67:14, score 93]"
+    },
+    {
+      "t": 1794227456.8878322,
+      "level": "info",
+      "msg": "  \u2022 Bill Clinton Told Abdul El-Sayed To Run  [80:41-81:30, score 87]"
+    },
+    {
+      "t": 1794227456.8924406,
+      "level": "info",
+      "msg": "  \u2022 Abdul El-Sayed Challenges Opponents To Football Drill  [83:45-84:18, score 89]"
+    },
+    {
+      "t": 1794227456.9644608,
+      "level": "ok",
+      "msg": "Tightened the clips: 1.8s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794227456.9743922,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794227457.0071378,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794227458.34298,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794227500.6145787,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794227500.6276925,
+      "level": "ok",
+      "msg": "Rated 14 clips in 0:43"
+    },
+    {
+      "t": 1794227500.6320863,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Exposes Money in American Politics: 71/100 (hook 72, retention 70, value 85, share 78)"
+    },
+    {
+      "t": 1794227500.6369295,
+      "level": "info",
+      "msg": "  - Dr. Abdul El-Sayed Reveals ER Inequality: 87/100 (hook 88, retention 84, value 91, share 82)"
+    },
+    {
+      "t": 1794227500.6417508,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Calls Out Political Pandering: 83/100 (hook 82, retention 80, value 86, share 88)"
+    },
+    {
+      "t": 1794227500.6472182,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Jokes About Corporate Monopolies: 80/100 (hook 78, retention 82, value 75, share 85)"
+    },
+    {
+      "t": 1794227500.6518896,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed on Facing Political Bullies: 82/100 (hook 85, retention 79, value 81, share 80)"
+    },
+    {
+      "t": 1794227500.6569803,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed's Grandmother Teaches Him Opportunity: 87/100 (hook 86, retention 88, value 89, share 84)"
+    },
+    {
+      "t": 1794227500.6615238,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Exposes Healthcare Disparities: 78/100 (hook 80, retention 78, value 87, share 81)"
+    },
+    {
+      "t": 1794227500.6653118,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Breaks Down Billionaire Taxes: 82/100 (hook 84, retention 83, value 88, share 89)"
+    },
+    {
+      "t": 1794227500.669657,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed's Gas Station Store Encounter: 87/100 (hook 90, retention 89, value 92, share 91)"
+    },
+    {
+      "t": 1794227500.6742184,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Targets Citizens United Ruling: 71/100 (hook 70, retention 68, value 76, share 72)"
+    },
+    {
+      "t": 1794227500.678946,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Traps RFK Jr With Science: 87/100 (hook 91, retention 90, value 85, share 93)"
+    },
+    {
+      "t": 1794227500.6839895,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Calls Out Mike Rogers: 74/100 (hook 79, retention 76, value 74, share 77)"
+    },
+    {
+      "t": 1794227500.6888974,
+      "level": "info",
+      "msg": "  - Bill Clinton Told Abdul El-Sayed To Run: 86/100 (hook 87, retention 86, value 84, share 83)"
+    },
+    {
+      "t": 1794227500.6942067,
+      "level": "info",
+      "msg": "  - Abdul El-Sayed Challenges Opponents To Football Drill: 79/100 (hook 81, retention 75, value 68, share 76)"
+    },
+    {
+      "t": 1794227500.7057571,
+      "level": "ok",
+      "msg": "14 distinct clips found, 14 rated 50+"
+    },
+    {
+      "t": 1794227500.718524,
+      "level": "ok",
+      "msg": "Waiting for you to choose which clips to render"
+    },
+    {
+      "t": 1794228125.7720854,
+      "level": "info",
+      "msg": "Rendering clip 1/14: Dr. Abdul El-Sayed Reveals ER Inequality"
+    },
+    {
+      "t": 1794228239.336573,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:53"
+    },
+    {
+      "t": 1794228239.3618245,
+      "level": "info",
+      "msg": "Rendering clip 2/14: Abdul El-Sayed's Grandmother Teaches Him Opportunity"
+    },
+    {
+      "t": 1794228404.002334,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:44"
+    },
+    {
+      "t": 1794228404.0812325,
+      "level": "info",
+      "msg": "Rendering clip 3/14: Abdul El-Sayed's Gas Station Store Encounter"
+    },
+    {
+      "t": 1794228574.0766425,
+      "level": "ok",
+      "msg": "Clip 3 ready in 2:49"
+    },
+    {
+      "t": 1794228574.0938287,
+      "level": "info",
+      "msg": "Rendering clip 4/14: Abdul El-Sayed Traps RFK Jr With Science"
+    },
+    {
+      "t": 1794228839.0165415,
+      "level": "ok",
+      "msg": "Clip 4 ready in 4:24"
+    },
+    {
+      "t": 1794228839.0342348,
+      "level": "info",
+      "msg": "Rendering clip 5/14: Bill Clinton Told Abdul El-Sayed To Run"
+    },
+    {
+      "t": 1794228958.5518243,
+      "level": "ok",
+      "msg": "Clip 5 ready in 1:59"
+    },
+    {
+      "t": 1794228958.5711713,
+      "level": "info",
+      "msg": "Rendering clip 6/14: Abdul El-Sayed Calls Out Political Pandering"
+    },
+    {
+      "t": 1794229160.4799788,
+      "level": "ok",
+      "msg": "Clip 6 ready in 3:21"
+    },
+    {
+      "t": 1794229160.5064478,
+      "level": "info",
+      "msg": "Rendering clip 7/14: Abdul El-Sayed on Facing Political Bullies"
+    },
+    {
+      "t": 1794229612.8909414,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794229612.9163845,
+      "level": "info",
+      "msg": "Rendering clip 1/8: Abdul El-Sayed on Facing Political Bullies"
+    },
+    {
+      "t": 1794229745.791281,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:12"
+    },
+    {
+      "t": 1794229745.810995,
+      "level": "info",
+      "msg": "Rendering clip 2/8: Abdul El-Sayed Breaks Down Billionaire Taxes"
+    },
+    {
+      "t": 1794230012.068182,
+      "level": "ok",
+      "msg": "Clip 2 ready in 4:26"
+    },
+    {
+      "t": 1794230012.0890503,
+      "level": "info",
+      "msg": "Rendering clip 3/8: Abdul El-Sayed Jokes About Corporate Monopolies"
+    },
+    {
+      "t": 1794230300.3689103,
+      "level": "ok",
+      "msg": "Clip 3 ready in 4:48"
+    },
+    {
+      "t": 1794230300.3949378,
+      "level": "info",
+      "msg": "Rendering clip 4/8: Abdul El-Sayed Challenges Opponents To Football Drill"
+    },
+    {
+      "t": 1794230474.4336145,
+      "level": "ok",
+      "msg": "Clip 4 ready in 2:54"
+    },
+    {
+      "t": 1794230474.4595222,
+      "level": "info",
+      "msg": "Rendering clip 5/8: Abdul El-Sayed Exposes Healthcare Disparities"
+    },
+    {
+      "t": 1794230696.8444948,
+      "level": "ok",
+      "msg": "Clip 5 ready in 3:42"
+    },
+    {
+      "t": 1794230696.891934,
+      "level": "info",
+      "msg": "Rendering clip 6/8: Abdul El-Sayed Calls Out Mike Rogers"
+    },
+    {
+      "t": 1794230983.5631096,
+      "level": "ok",
+      "msg": "Clip 6 ready in 4:46"
+    },
+    {
+      "t": 1794230983.596562,
+      "level": "info",
+      "msg": "Rendering clip 7/8: Abdul El-Sayed Exposes Money in American Politics"
+    },
+    {
+      "t": 1794231126.227379,
+      "level": "ok",
+      "msg": "Clip 7 ready in 2:22"
+    },
+    {
+      "t": 1794231126.2551746,
+      "level": "info",
+      "msg": "Rendering clip 8/8: Abdul El-Sayed Targets Citizens United Ruling"
+    },
+    {
+      "t": 1794231249.978324,
+      "level": "ok",
+      "msg": "Clip 8 ready in 2:03"
+    },
+    {
+      "t": 1794231249.9946587,
+      "level": "ok",
+      "msg": "All done in 27:17"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "Breakfast Club Power 105.1 FM",
+  "duration": 5571,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 55.71,
+      "value": 0.5624576005087115
+    },
+    {
+      "start_time": 55.71,
+      "end_time": 111.42,
+      "value": 0.4100732204075264
+    },
+    {
+      "start_time": 111.42,
+      "end_time": 167.13,
+      "value": 0.25890439618697864
+    },
+    {
+      "start_time": 167.13,
+      "end_time": 222.84,
+      "value": 0.36444329077501664
+    },
+    {
+      "start_time": 222.84,
+      "end_time": 278.55,
+      "value": 0.23926322527825813
+    },
+    {
+      "start_time": 278.55,
+      "end_time": 334.26,
+      "value": 0.1384264321183306
+    },
+    {
+      "start_time": 334.26,
+      "end_time": 389.97,
+      "value": 0.12630946664587406
+    },
+    {
+      "start_time": 389.97,
+      "end_time": 445.68,
+      "value": 0.45839452727362545
+    },
+    {
+      "start_time": 445.68,
+      "end_time": 501.39,
+      "value": 0.05653641729458123
+    },
+    {
+      "start_time": 501.39,
+      "end_time": 557.1,
+      "value": 0.23069826455320322
+    },
+    {
+      "start_time": 557.1,
+      "end_time": 612.81,
+      "value": 0.11865217744394778
+    },
+    {
+      "start_time": 612.81,
+      "end_time": 668.52,
+      "value": 0.24216968274018344
+    },
+    {
+      "start_time": 668.52,
+      "end_time": 724.23,
+      "value": 0.13562128694856612
+    },
+    {
+      "start_time": 724.23,
+      "end_time": 779.94,
+      "value": 0.22718837904509975
+    },
+    {
+      "start_time": 779.94,
+      "end_time": 835.65,
+      "value": 0.19580073100450093
+    },
+    {
+      "start_time": 835.65,
+      "end_time": 891.36,
+      "value": 0.09686694946216337
+    },
+    {
+      "start_time": 891.36,
+      "end_time": 947.07,
+      "value": 1.0
+    },
+    {
+      "start_time": 947.07,
+      "end_time": 1002.78,
+      "value": 0.0661424399088952
+    },
+    {
+      "start_time": 1002.78,
+      "end_time": 1058.49,
+      "value": 0.08042611256399279
+    },
+    {
+      "start_time": 1058.49,
+      "end_time": 1114.2,
+      "value": 0.10955628052087894
+    },
+    {
+      "start_time": 1114.2,
+      "end_time": 1169.91,
+      "value": 0.04116366145191648
+    },
+    {
+      "start_time": 1169.91,
+      "end_time": 1225.62,
+      "value": 0.0729512698030847
+    },
+    {
+      "start_time": 1225.62,
+      "end_time": 1281.33,
+      "value": 0.4155174482685486
+    },
+    {
+      "start_time": 1281.33,
+      "end_time": 1337.04,
+      "value": 0.8725416630752894
+    },
+    {
+      "start_time": 1337.04,
+      "end_time": 1392.75,
+      "value": 0.12755629577425223
+    },
+    {
+      "start_time": 1392.75,
+      "end_time": 1448.46,
+      "value": 0.263142189531288
+    },
+    {
+      "start_time": 1448.46,
+      "end_time": 1504.17,
+      "value": 0.13965041951183918
+    },
+    {
+      "start_time": 1504.17,
+      "end_time": 1559.88,
+      "value": 0.05607973589742283
+    },
+    {
+      "start_time": 1559.88,
+      "end_time": 1615.59,
+      "value": 0.034510680408141946
+    },
+    {
+      "start_time": 1615.59,
+      "end_time": 1671.3,
+      "value": 0.44041329129892015
+    },
+    {
+      "start_time": 1671.3,
+      "end_time": 1727.01,
+      "value": 0.4173890525006928
+    },
+    {
+      "start_time": 1727.01,
+      "end_time": 1782.72,
+      "value": 0.4952440327021592
+    },
+    {
+      "start_time": 1782.72,
+      "end_time": 1838.43,
+      "value": 0.1274011750999489
+    },
+    {
+      "start_time": 1838.43,
+      "end_time": 1894.14,
+      "value": 0.07215433853650935
+    },
+    {
+      "start_time": 1894.14,
+      "end_time": 1949.85,
+      "value": 0.11435419459525462
+    },
+    {
+      "start_time": 1949.85,
+      "end_time": 2005.56,
+      "value": 0.16105381493572754
+    },
+    {
+      "start_time": 2005.56,
+      "end_time": 2061.27,
+      "value": 0.148361379547273
+    },
+    {
+      "start_time": 2061.27,
+      "end_time": 2116.98,
+      "value": 0.17532736977537952
+    },
+    {
+      "start_time": 2116.98,
+      "end_time": 2172.69,
+      "value": 0.11713833763295778
+    },
+    {
+      "start_time": 2172.69,
+      "end_time": 2228.4,
+      "value": 0.5362149765973779
+    },
+    {
+      "start_time": 2228.4,
+      "end_time": 2284.11,
+      "value": 0.649061731666413
+    },
+    {
+      "start_time": 2284.11,
+      "end_time": 2339.82,
+      "value": 0.16747816784298408
+    },
+    {
+      "start_time": 2339.82,
+      "end_time": 2395.53,
+      "value": 0.1728691621977413
+    },
+    {
+      "start_time": 2395.53,
+      "end_time": 2451.24,
+      "value": 0.14194923317115063
+    },
+    {
+      "start_time": 2451.24,
+      "end_time": 2506.95,
+      "value": 0.21682593475105133
+    },
+    {
+      "start_time": 2506.95,
+      "end_time": 2562.66,
+      "value": 0.07303345789105098
+    },
+    {
+      "start_time": 2562.66,
+      "end_time": 2618.37,
+      "value": 0.045614657096695155
+    },
+    {
+      "start_time": 2618.37,
+      "end_time": 2674.08,
+      "value": 0.20348915931646339
+    },
+    {
+      "start_time": 2674.08,
+      "end_time": 2729.79,
+      "value": 0.11404040817873612
+    },
+    {
+      "start_time": 2729.79,
+      "end_time": 2785.5,
+      "value": 0.09766631436995386
+    },
+    {
+      "start_time": 2785.5,
+      "end_time": 2841.21,
+      "value": 0.07377443457220746
+    },
+    {
+      "start_time": 2841.21,
+      "end_time": 2896.92,
+      "value": 0.17751151485964078
+    },
+    {
+      "start_time": 2896.92,
+      "end_time": 2952.63,
+      "value": 0.190033077974746
+    },
+    {
+      "start_time": 2952.63,
+      "end_time": 3008.34,
+      "value": 0.10021893572922182
+    },
+    {
+      "start_time": 3008.34,
+      "end_time": 3064.05,
+      "value": 0.5066139278091568
+    },
+    {
+      "start_time": 3064.05,
+      "end_time": 3119.76,
+      "value": 0.30743265836901046
+    },
+    {
+      "start_time": 3119.76,
+      "end_time": 3175.47,
+      "value": 0.08129756690683321
+    },
+    {
+      "start_time": 3175.47,
+      "end_time": 3231.18,
+      "value": 0.1713732201890736
+    },
+    {
+      "start_time": 3231.18,
+      "end_time": 3286.89,
+      "value": 0.07233609512647442
+    },
+    {
+      "start_time": 3286.89,
+      "end_time": 3342.6,
+      "value": 0.07721123419373983
+    },
+    {
+      "start_time": 3342.6,
+      "end_time": 3398.31,
+      "value": 0.1400808865689794
+    },
+    {
+      "start_time": 3398.31,
+      "end_time": 3454.02,
+      "value": 0.4407422352760778
+    },
+    {
+      "start_time": 3454.02,
+      "end_time": 3509.73,
+      "value": 0.08110454274966734
+    },
+    {
+      "start_time": 3509.73,
+      "end_time": 3565.44,
+      "value": 0.2975222964650997
+    },
+    {
+      "start_time": 3565.44,
+      "end_time": 3621.15,
+      "value": 0.5140013894366711
+    },
+    {
+      "start_time": 3621.15,
+      "end_time": 3676.86,
+      "value": 0.2823572241144794
+    },
+    {
+      "start_time": 3676.86,
+      "end_time": 3732.57,
+      "value": 0.27958026702524613
+    },
+    {
+      "start_time": 3732.57,
+      "end_time": 3788.28,
+      "value": 0.6981115212445955
+    },
+    {
+      "start_time": 3788.28,
+      "end_time": 3843.99,
+      "value": 0.5635672642526964
+    },
+    {
+      "start_time": 3843.99,
+      "end_time": 3899.7,
+      "value": 0.46126614725736875
+    },
+    {
+      "start_time": 3899.7,
+      "end_time": 3955.41,
+      "value": 0.2243007391869009
+    },
+    {
+      "start_time": 3955.41,
+      "end_time": 4011.12,
+      "value": 0.3581994105682652
+    },
+    {
+      "start_time": 4011.12,
+      "end_time": 4066.83,
+      "value": 0.23084750233102588
+    },
+    {
+      "start_time": 4066.83,
+      "end_time": 4122.54,
+      "value": 0.26254807447432676
+    },
+    {
+      "start_time": 4122.54,
+      "end_time": 4178.25,
+      "value": 0.19135092343653595
+    },
+    {
+      "start_time": 4178.25,
+      "end_time": 4233.96,
+      "value": 0.14479561610386765
+    },
+    {
+      "start_time": 4233.96,
+      "end_time": 4289.67,
+      "value": 0.12734911050796838
+    },
+    {
+      "start_time": 4289.67,
+      "end_time": 4345.38,
+      "value": 0.07744185523330015
+    },
+    {
+      "start_time": 4345.38,
+      "end_time": 4401.09,
+      "value": 0.2044308826540747
+    },
+    {
+      "start_time": 4401.09,
+      "end_time": 4456.8,
+      "value": 0.2038196746210198
+    },
+    {
+      "start_time": 4456.8,
+      "end_time": 4512.51,
+      "value": 0.2594914594331747
+    },
+    {
+      "start_time": 4512.51,
+      "end_time": 4568.22,
+      "value": 0.09995596834028236
+    },
+    {
+      "start_time": 4568.22,
+      "end_time": 4623.93,
+      "value": 0.25710254356131546
+    },
+    {
+      "start_time": 4623.93,
+      "end_time": 4679.64,
+      "value": 0.06757008666330505
+    },
+    {
+      "start_time": 4679.64,
+      "end_time": 4735.35,
+      "value": 0.15616687175044225
+    },
+    {
+      "start_time": 4735.35,
+      "end_time": 4791.06,
+      "value": 0.20458452781362554
+    },
+    {
+      "start_time": 4791.06,
+      "end_time": 4846.77,
+      "value": 0.30826710986786326
+    },
+    {
+      "start_time": 4846.77,
+      "end_time": 4902.48,
+      "value": 0.2714240430491585
+    },
+    {
+      "start_time": 4902.48,
+      "end_time": 4958.19,
+      "value": 0.08282096881992047
+    },
+    {
+      "start_time": 4958.19,
+      "end_time": 5013.9,
+      "value": 0.3996873595027308
+    },
+    {
+      "start_time": 5013.9,
+      "end_time": 5069.61,
+      "value": 0.22060171951506996
+    },
+    {
+      "start_time": 5069.61,
+      "end_time": 5125.32,
+      "value": 0.2649452302337648
+    },
+    {
+      "start_time": 5125.32,
+      "end_time": 5181.03,
+      "value": 0.1570521039518156
+    },
+    {
+      "start_time": 5181.03,
+      "end_time": 5236.74,
+      "value": 0.0818693576172146
+    },
+    {
+      "start_time": 5236.74,
+      "end_time": 5292.45,
+      "value": 0.010945425921513575
+    },
+    {
+      "start_time": 5292.45,
+      "end_time": 5348.16,
+      "value": 0.3670273578447888
+    },
+    {
+      "start_time": 5348.16,
+      "end_time": 5403.87,
+      "value": 0.1998322588839306
+    },
+    {
+      "start_time": 5403.87,
+      "end_time": 5459.58,
+      "value": 0.024416569011223837
+    },
+    {
+      "start_time": 5459.58,
+      "end_time": 5515.29,
+      "value": 0.0
+    },
+    {
+      "start_time": 5515.29,
+      "end_time": 5571.0,
+      "value": 0.07942442967234872
+    }
+  ],
+  "video_description": "Catch the FULL EPISODE right now on Netflix!\n\nGet MORE of The Breakfast Club:\n\u25ba DISCORD: https://discord.gg/wsfddVFqZQ\n\u25ba LISTEN LIVE: https://bit.ly/3r17qJm\n\u25ba INSTAGRAM: https://www.instagram.com/BreakfastClubAM/\n\u25ba TWITTER: https://twitter.com/BreakfastClubAM\n\u25ba FACEBOOK: https://www.facebook.com/BreakfastClubAM/\n\nExecutive Producer: Eddie F.\nSenior News Producer: Loren LoRosa\nVideo Director: Nick Ciofalo\nLead Editor: Elijah Lugo\nAssistant Editor: Haley Morales\nSocial Media Manager: Sydney Brown\nAudio Imaging Producer: Taylor Hayes \nProducer: Brandon Tagoe\nProducer: Symantha Wilson\nBoard Op/Producer: Christopher Arce\nPodcast Producer: Arthur Roques\n\n\n\"The Breakfast Club\" Morning Show features uncut celebrity interviews, Jess Hilarious' unfiltered commentary, \"The Latest\" exclusives with Loren LoRosa, Charlamagne tha God\u2019s \"Donkey of the Day\", DJ Envy\u2019s mixes and more! Every guest visiting the world\u2019s most dangerous morning show is grilled with their signature blend of honesty and humor. The results are the best interviews to be found on radio and beyond. And with a reach of 11.3 million monthly listeners, the show continues to put it's stamp on the culture.\n\n#BreakfastClub",
+  "brief": "Summary: Abdul El-Sayed discusses his campaign for the US Senate in Michigan, his background as a physician, the failures of the American healthcare system, and how money in politics drives a wedge between public and political consensus.\nPeople: Abdul El-Sayed; Charlamagne Tha God; Loren LoRosa; Angela Rye\nContext: An interview on The Breakfast Club morning show where Abdul El-Sayed talks about his political run and experiences in medicine.\nUnclear: DJ Envy and Jess Hilarious were mentioned as not being present, but no other details about their absence were provided.",
+  "render_index": 8,
+  "render_total": 8
+}

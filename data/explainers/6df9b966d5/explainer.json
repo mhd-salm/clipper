@@ -1,0 +1,211 @@
+{
+ "id": "6df9b966d5",
+ "created": 1794234483.3457572,
+ "title": "Your Brain Is Lying",
+ "script": "TITLE: Your Brain Is Lying\n\nHOOK: YOU DIDN'T SEE THAT COMING\n\nSCENE 1\nVOICE: Your eyes can be wide open, yet your brain can miss something standing right in front of you. And researchers proved it.\nVISUAL: text\nTEXT: YOU CAN LOOK DIRECTLY AT SOMETHING | AND STILL NOT SEE IT\nICON: eye brain\nTONE: mysterious\nPAUSE: 0.3\n\nSCENE 2\nVOICE: Imagine watching people pass a basketball, while someone in a gorilla suit walks straight through the game. Would you notice?\nVISUAL: list\nTEXT: WATCH THE BALL | COUNT THE PASSES | IGNORE DISTRACTIONS\nICON: basketball gorilla\nTONE: energetic\nPAUSE: 0.3\n\nSCENE 3\nVOICE: Try this: focus on the players in white, and silently count their passes. Keep your eyes on the ball, not the background.\nVISUAL: flow\nTEXT: FOCUS ON PLAYERS \u2192 COUNT PASSES \u2192 IGNORE EVERYTHING ELSE\nICON: eye basketball\nTONE: serious\nPAUSE: 0.3\n\nSCENE 4\nVOICE: Here is the strange part: the gorilla is not hidden, tiny, or especially quick. It crosses the scene in plain sight.\nVISUAL: quote\nTEXT: GORILLAS IN OUR MIDST | SIMONS AND CHABRIS\nICON: gorilla eyes\nTONE: mysterious\nPAUSE: 0.5\n\nSCENE 5\nVOICE: That is called inattentional blindness. When attention is busy with one task, an obvious event can go unnoticed in psychology.\nVISUAL: text\nTEXT: INATTENTIONAL BLINDNESS | SEEING WITHOUT NOTICING\nICON: brain eye\nTONE: serious\nPAUSE: 0.3\n\nSCENE 6\nVOICE: In the original experiment, researchers tested one hundred and ninety-two observers across different viewing conditions. The results were surprisingly uneven.\nVISUAL: counter\nTEXT: 192 | OBSERVERS TESTED\nICON: people clipboard\nTONE: serious\nPAUSE: 0.4\nSOURCE: Simons and Chabris, 1999, Gorillas in Our Midst.\n\nSCENE 7\nVOICE: Overall, fifty-four percent noticed the unexpected event, while forty-six percent failed to report seeing it. The gorilla was visible in this experiment.\nVISUAL: compare\nTEXT: NOTICED | MISSED\nDATA: Noticed=54;Missed=46\nICON: gorilla eye\nTONE: surprised\nPAUSE: 0.5\nSOURCE: Simons and Chabris, 1999.\n\nSCENE 8\nVOICE: That does not mean people are careless. It shows attention is selective, prioritising what seems relevant to the task in that moment.\nVISUAL: flow\nTEXT: YOUR TASK \u2192 YOUR ATTENTION \u2192 WHAT YOU NOTICE\nICON: brain filter\nTONE: explanatory\nPAUSE: 0.3\n\nSCENE 9\nVOICE: Now think about driving. You may scan the road carefully, yet miss a cyclist when your attention is fixed elsewhere.\nVISUAL: text\nTEXT: LOOKING IS NOT ALWAYS SEEING\nICON: car bicycle\nTONE: serious\nPAUSE: 0.4\n\nSCENE 10\nVOICE: The same limitation can affect conversations. You might hear every word, but miss a facial expression or a change in tone.\nVISUAL: list\nTEXT: WORDS | EXPRESSIONS | BODY LANGUAGE | TONE\nICON: faces speech\nTONE: calm\nPAUSE: 0.3\n\nSCENE 11\nVOICE: Your brain also fills gaps using expectations. It does not passively record every detail like a camera at any moment.\nVISUAL: flow\nTEXT: INCOMPLETE INFORMATION \u2192 EXPECTATIONS \u2192 INTERPRETATION\nICON: brain camera\nTONE: explanatory\nPAUSE: 0.3\n\nSCENE 12\nVOICE: Think of reading a familiar sentence with a typo. Your mind may supply the expected word, so the error slips past.\nVISUAL: quote\nTEXT: I LOVE EATING CHOCOLATE | I LOVE EATING CHOCLATE\nICON: book eyes\nTONE: playful\nPAUSE: 0.5\n\nSCENE 13\nVOICE: Memory has a similar weakness. Remembering is not replaying a perfect recording; details can shift as we reconstruct an event.\nVISUAL: text\nTEXT: MEMORY IS RECONSTRUCTION | NOT PERFECT REPLAY\nICON: brain film\nTONE: serious\nPAUSE: 0.4\n\nSCENE 14\nVOICE: That is why confidence alone cannot guarantee accuracy. A vivid memory can still contain mistakes or missing details, even when it feels certain.\nVISUAL: list\nTEXT: CONFIDENCE IS NOT PROOF | MEMORIES CAN CHANGE\nICON: brain puzzle\nTONE: serious\nPAUSE: 0.4\n\nSCENE 15\nVOICE: Researchers also found task difficulty matters. In their study, people noticed unexpected events more often when the counting task was easier.\nVISUAL: bars\nTEXT: PEOPLE WHO NOTICED THE EVENT | EASIER TASK VS HARDER TASK\nDATA: Easier=64;Harder=45\nICON: brain chart\nTONE: explanatory\nPAUSE: 0.4\nSOURCE: Simons and Chabris, 1999.\n\nSCENE 16\nVOICE: Across the easier task, sixty-four percent noticed the event. In the harder task, only forty-five percent noticed it in that experiment.\nVISUAL: compare\nTEXT: EASIER TASK: MORE NOTICED | HARDER TASK: FEWER NOTICED\nICON: basketball people\nTONE: surprised\nPAUSE: 0.4\nSOURCE: Simons and Chabris, 1999.\n\nSCENE 17\nVOICE: So the lesson is not that your senses are useless. It is that attention has limits, especially under pressure.\nVISUAL: text\nTEXT: YOUR BRAIN IS POWERFUL | BUT NOT PERFECT\nICON: brain lightning\nTONE: calm\nPAUSE: 0.3\n\nSCENE 18\nVOICE: Here is the recap: attention filters what gets noticed, expectations shape what we perceive, and memory rebuilds what we recall.\nVISUAL: timeline\nTEXT: ATTENTION: FILTERS INFORMATION | EXPECTATIONS: SHAPE PERCEPTION | MEMORY: REBUILDS EXPERIENCES\nICON: brain clock\nTONE: energetic\nPAUSE: 0.3\nSOURCE: Simons and Chabris, 1999.\n\nSCENE 19\nVOICE: Next time you are certain you saw everything, pause. Ask what your attention might have filtered out in daily life.\nVISUAL: list\nTEXT: STOP | LOOK AGAIN | QUESTION YOUR ASSUMPTIONS\nICON: eye magnifying-glass\nTONE: serious\nPAUSE: 0.5\n\nSCENE 20\nVOICE: The biggest twist is this: you cannot notice what you never realise you missed. Stay curious, and check your assumptions.\nVISUAL: text\nTEXT: THE SCARIEST THING YOU MISSED... IS THAT YOU MISSED IT.\nICON: eye brain\nTONE: slow\nPAUSE: 0.8",
+ "style": {
+  "voice": "en-US-AndrewNeural",
+  "voice2": "",
+  "length": "short",
+  "rate": 0,
+  "theme": "midnight",
+  "caption_style": "bold_yellow",
+  "music": {
+   "track": null,
+   "volume": 12,
+   "duck": true
+  }
+ },
+ "status": "ready",
+ "stage": "Done",
+ "progress": 100,
+ "error": null,
+ "version": 1,
+ "duration": 175.1,
+ "scenes": [
+  {
+   "i": 0,
+   "voice": "Your eyes can be wide open, yet your brain can miss something standing right in front of you. And researchers proved it.",
+   "type": "text",
+   "start": 0.0,
+   "dur": 7.3,
+   "trans": "fade",
+   "cam": "zoomin"
+  },
+  {
+   "i": 1,
+   "voice": "Imagine watching people pass a basketball, while someone in a gorilla suit walks straight through the game. Would you notice?",
+   "type": "list",
+   "start": 7.3,
+   "dur": 6.9,
+   "trans": "circleopen",
+   "cam": "drift"
+  },
+  {
+   "i": 2,
+   "voice": "Try this: focus on the players in white, and silently count their passes. Keep your eyes on the ball, not the background.",
+   "type": "text",
+   "start": 14.2,
+   "dur": 10.7,
+   "trans": "dissolve",
+   "cam": "tiltup"
+  },
+  {
+   "i": 3,
+   "voice": "Here is the strange part: the gorilla is not hidden, tiny, or especially quick. It crosses the scene in plain sight.",
+   "type": "quote",
+   "start": 24.9,
+   "dur": 8.2,
+   "trans": "cut",
+   "cam": "panright"
+  },
+  {
+   "i": 4,
+   "voice": "That is called inattentional blindness. When attention is busy with one task, an obvious event can go unnoticed in psychology.",
+   "type": "text",
+   "start": 33.2,
+   "dur": 9.3,
+   "trans": "hlslice",
+   "cam": "zoomout"
+  },
+  {
+   "i": 5,
+   "voice": "In the original experiment, researchers tested one hundred and ninety-two observers across different viewing conditions. The results were surprisingly uneven.",
+   "type": "counter",
+   "start": 42.5,
+   "dur": 10.3,
+   "trans": "slideleft",
+   "cam": "panleft"
+  },
+  {
+   "i": 6,
+   "voice": "Overall, fifty-four percent noticed the unexpected event, while forty-six percent failed to report seeing it. The gorilla was visible in this experiment.",
+   "type": "compare",
+   "start": 52.8,
+   "dur": 11.3,
+   "trans": "zoomin",
+   "cam": "panleft"
+  },
+  {
+   "i": 7,
+   "voice": "That does not mean people are careless. It shows attention is selective, prioritising what seems relevant to the task in that moment.",
+   "type": "text",
+   "start": 64.1,
+   "dur": 8.1,
+   "trans": "cut",
+   "cam": "zoomin"
+  },
+  {
+   "i": 8,
+   "voice": "Now think about driving. You may scan the road carefully, yet miss a cyclist when your attention is fixed elsewhere.",
+   "type": "text",
+   "start": 72.1,
+   "dur": 7.8,
+   "trans": "slideup",
+   "cam": "drift"
+  },
+  {
+   "i": 9,
+   "voice": "The same limitation can affect conversations. You might hear every word, but miss a facial expression or a change in tone.",
+   "type": "list",
+   "start": 79.9,
+   "dur": 8.7,
+   "trans": "diagtl",
+   "cam": "tiltup"
+  },
+  {
+   "i": 10,
+   "voice": "Your brain also fills gaps using expectations. It does not passively record every detail like a camera at any moment.",
+   "type": "text",
+   "start": 88.7,
+   "dur": 8.4,
+   "trans": "wipeup",
+   "cam": "panright"
+  },
+  {
+   "i": 11,
+   "voice": "Think of reading a familiar sentence with a typo. Your mind may supply the expected word, so the error slips past.",
+   "type": "quote",
+   "start": 97.0,
+   "dur": 7.6,
+   "trans": "cut",
+   "cam": "zoomout"
+  },
+  {
+   "i": 12,
+   "voice": "Memory has a similar weakness. Remembering is not replaying a perfect recording; details can shift as we reconstruct an event.",
+   "type": "text",
+   "start": 104.7,
+   "dur": 9.3,
+   "trans": "radial",
+   "cam": "zoomout"
+  },
+  {
+   "i": 13,
+   "voice": "That is why confidence alone cannot guarantee accuracy. A vivid memory can still contain mistakes or missing details, even when it feels certain.",
+   "type": "list",
+   "start": 114.0,
+   "dur": 10.2,
+   "trans": "pixelize",
+   "cam": "panleft"
+  },
+  {
+   "i": 14,
+   "voice": "Researchers also found task difficulty matters. In their study, people noticed unexpected events more often when the counting task was easier.",
+   "type": "bars",
+   "start": 124.2,
+   "dur": 9.4,
+   "trans": "fade",
+   "cam": "zoomin"
+  },
+  {
+   "i": 15,
+   "voice": "Across the easier task, sixty-four percent noticed the event. In the harder task, only forty-five percent noticed it in that experiment.",
+   "type": "compare",
+   "start": 133.6,
+   "dur": 9.1,
+   "trans": "cut",
+   "cam": "drift"
+  },
+  {
+   "i": 16,
+   "voice": "So the lesson is not that your senses are useless. It is that attention has limits, especially under pressure.",
+   "type": "text",
+   "start": 142.7,
+   "dur": 7.4,
+   "trans": "dissolve",
+   "cam": "tiltup"
+  },
+  {
+   "i": 17,
+   "voice": "Here is the recap: attention filters what gets noticed, expectations shape what we perceive, and memory rebuilds what we recall.",
+   "type": "timeline",
+   "start": 150.1,
+   "dur": 8.2,
+   "trans": "wiperight",
+   "cam": "panright"
+  },
+  {
+   "i": 18,
+   "voice": "Next time you are certain you saw everything, pause. Ask what your attention might have filtered out in daily life.",
+   "type": "list",
+   "start": 158.3,
+   "dur": 7.4,
+   "trans": "hlslice",
+   "cam": "panright"
+  },
+  {
+   "i": 19,
+   "voice": "The biggest twist is this: you cannot notice what you never realise you missed. Stay curious, and check your assumptions.",
+   "type": "text",
+   "start": 165.7,
+   "dur": 9.4,
+   "trans": "cut",
+   "cam": "zoomout"
+  }
+ ],
+ "warnings": [
+  "About 172 seconds long. Aim for 40 or less (roughly 104 spoken words).",
+  "More than 12 scenes: each will be very short."
+ ]
+}

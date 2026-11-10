@@ -88,7 +88,7 @@ def update_account(aid: str, **fields) -> dict | None:
     rows = accounts()
     for a in rows:
         if a["id"] == aid:
-            a.update({k: v for k, v in fields.items() if k in ("name", "handle", "channel_id")})
+            a.update({k: v for k, v in fields.items() if k in ("name", "handle", "channel_id", "topics")})
             _save_accounts(rows)
             return a
     return None

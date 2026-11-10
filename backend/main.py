@@ -1,3 +1,4 @@
+import re
 import threading
 import tempfile
 from pathlib import Path
@@ -66,6 +67,11 @@ def _startup():
         jobs.recover()
     except Exception as e:
         print("[jobs] recover failed:", e)
+    try:
+        import explainer
+        explainer.recover()
+    except Exception as e:
+        print("[explainer] recover failed:", e)
 
     def _check_keys():  # find out which AI keys are invalid / rate limited right away, so jobs skip them
         try:
@@ -79,7 +85,12 @@ def _startup():
 # ---- meta
 @app.get("/api/meta")
 def meta():
-    return {"sub_styles": list(STYLES), "resolutions": list(config.RESOLUTIONS),
+    def _hex(a):  # ASS &H00BBGGRR -> #RRGGBB
+        return "#" + a[8:10] + a[6:8] + a[4:6]
+    sdefs = {k: {"font": v["font"], "size": v["size"], "primary": _hex(v["primary"]), "hi": _hex(v["hi"]), "outline": v["outline"], "caps": v["caps"]} for k, v in STYLES.items()}
+    import subtitles as _sub
+    import look as _look
+    return {"filters": _look.FILTERS, "fonts": _sub.FONTS, "style_defs": sdefs, "sub_styles": list(STYLES), "resolutions": list(config.RESOLUTIONS),
             "gemini_configured": pipeline.ai_available(),
             "gemini_key2": len(config.GEMINI_KEYS) > 1,
             "ai_providers": ([f"Gemini x{len(config.GEMINI_KEYS)}" if len(config.GEMINI_KEYS) > 1 else "Gemini"] if config.GEMINI_KEYS else [])
@@ -491,6 +502,187 @@ def patch_clip(job_id: str, clip_id: str, body: ClipEdit):
     return {"ok": True}
 
 
+class ResultsIn(BaseModel):
+    watched_pct: Optional[float] = None
+    views: Optional[float] = None
+
+
+@app.put("/api/jobs/{job_id}/clips/{clip_id}/results")
+def clip_results(job_id: str, clip_id: str, body: ResultsIn):
+    j = jobs.read_job(job_id)
+    if not j or not any(c["id"] == clip_id for c in j["clips"]):
+        raise HTTPException(404)
+    try:
+        return {"results": jobs.set_results(job_id, clip_id, body.model_dump())}
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+# ---- 2D explainer videos
+class ExplainerIn(BaseModel):
+    script: str = ""
+    style: Optional[dict] = None
+    topic: Optional[str] = None
+    notes: Optional[str] = None
+    length: Optional[str] = None
+
+
+@app.get("/api/explainers/options")
+def explainer_options():
+    import explainer
+    import sound
+    return {"voices": [{"id": v, "name": n} for v, n in explainer.VOICES], "themes": list(explainer.THEMES), "tones": list(explainer.TONES),
+            "tracks": [t["name"] for t in sound.list_tracks()], "lengths": explainer.LENGTHS, "max_seconds": explainer.MAX_SECONDS, "default": explainer.DEFAULT_STYLE}
+
+
+@app.post("/api/explainers/parse")
+def explainer_parse(body: ExplainerIn):
+    import explainer
+    return explainer.parse_script(body.script, body.length or "short")
+
+
+@app.post("/api/explainers/write")
+def explainer_write(body: ExplainerIn):
+    import explainer
+    try:
+        return {"script": explainer.write_script(body.topic or "", body.notes or "", None, body.length or "short")}
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    except Exception as e:
+        raise HTTPException(502, f"Couldn't write the script: {str(e)[:200]}")
+
+
+@app.get("/api/explainers")
+def explainer_list():
+    import explainer
+    return [{**x, "upload": explainer.upload_state(x["id"])} for x in explainer.list_all()]
+
+
+@app.post("/api/explainers/{eid}/bridge")
+def explainer_bridge(eid: str):
+    """Get the explainer ready for the YouTube uploader (the page then calls the normal clip upload)."""
+    import explainer
+    try:
+        return explainer.bridge_job(eid)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.post("/api/explainers")
+def explainer_create(body: ExplainerIn):
+    import explainer
+    try:
+        return explainer.create(body.script, body.style)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.get("/api/explainers/{eid}")
+def explainer_get(eid: str):
+    import explainer
+    r = explainer.get(eid)
+    if not r:
+        raise HTTPException(404)
+    return r
+
+
+@app.put("/api/explainers/{eid}")
+def explainer_update(eid: str, body: ExplainerIn):
+    import explainer
+    try:
+        return explainer.update(eid, body.script if body.script else None, body.style)
+    except KeyError:
+        raise HTTPException(404)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.delete("/api/explainers/{eid}")
+def explainer_delete(eid: str):
+    import explainer
+    try:
+        if not explainer.delete(eid):
+            raise HTTPException(404)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    return {"ok": True}
+
+
+@app.get("/api/recs")
+def get_recs(account: str = "default", refresh: bool = False):
+    import recs
+    import webupload
+    a = next((x for x in webupload.accounts() if x["id"] == account), None)
+    if not a:
+        raise HTTPException(404, "Unknown channel")
+    return recs.recommend(a, refresh)
+
+
+@app.put("/api/accounts/{aid}/topics")
+def put_topics(aid: str, body: dict):
+    import recs
+    import webupload
+    a = webupload.update_account(aid, topics=recs.clean_topics(body.get("topics")))
+    if not a:
+        raise HTTPException(404)
+    return {"topics": recs.topics_for(a)}
+
+
+class QuickClip(BaseModel):
+    url: str
+    account: str = "default"
+    preset: Optional[str] = None
+    title: Optional[str] = None
+
+
+@app.post("/api/quickclip")
+def quick_clip(body: QuickClip):
+    """Clip any video from a pasted link, with a chosen edit preset. The clips wait for you to choose (nothing is uploaded)."""
+    import presets
+    url = body.url.strip()
+    m = re.search(r"(?:v=|youtu\.be/|shorts/|live/)([\w-]{11})", url)
+    if not m:
+        raise HTTPException(400, "That doesn't look like a YouTube video link.")
+    pid = body.preset or presets.DEFAULT_ID
+    ps = presets.settings_for(pid)
+    if not ps:
+        raise HTTPException(400, "That edit preset no longer exists.")
+    opts = {**JobOptions().model_dump(), **ps, "preset": pid, "account": body.account, "auto": False}
+    if body.title:
+        opts["title"] = body.title
+    job = jobs.create_job(url="https://www.youtube.com/watch?v=" + m.group(1), upload=None, opts=opts)
+    return {"job": job["id"]}
+
+
+class TestIn(BaseModel):
+    job_id: str
+    clip_id: Optional[str] = None
+    start: Optional[float] = None
+    end: Optional[float] = None
+    settings: dict = {}
+
+
+@app.post("/api/tests")
+def tests_start(body: TestIn):
+    try:
+        return {"id": jobs.start_test(body.job_id, body.settings, body.clip_id, body.start, body.end)}
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.get("/api/tests/{test_id}")
+def tests_status(test_id: str):
+    t = jobs.test_status(test_id)
+    if not t:
+        raise HTTPException(404)
+    return t
+
+
+@app.get("/api/styles/report")
+def styles_report():
+    return jobs.style_report()
+
+
 @app.get("/api/jobs/{job_id}/captions")
 def get_captions(job_id: str, start: float, end: float):
     """The AI captions (from the transcript) for a time range, as editable lines."""
@@ -804,20 +996,199 @@ def creators_defaults_save(body: dict):
     return creators.save_defaults(body)
 
 
-class FollowIn(BaseModel):
-    channel_id: str
-    name: str
-
-
 @app.post("/api/creators/follow")
-def creators_follow(body: FollowIn):
+def creators_follow(body: dict):
     import webupload
-    if creators.defaults().get("auto") and not webupload.status()["ready"]:
-        raise HTTPException(400, "Full auto needs browser upload (Playwright + Chrome/Edge). Turn it off in the defaults to follow anyway.")
+    cid, name = body.get("channel_id"), body.get("name")
+    if not cid or not name:
+        raise HTTPException(400, "channel_id and name are required")
+    if body.get("auto_privacy", "public") not in ("private", "unlisted", "public"):
+        raise HTTPException(400, "bad privacy value")
+    if body.get("auto") and not webupload.status()["ready"]:
+        raise HTTPException(400, "Full auto needs browser upload (Playwright + Chrome/Edge). Choose 'Clip it and save it' to follow anyway.")
     try:
-        return creators.follow(body.channel_id, body.name)
+        return creators.follow(cid, name, body)
     except Exception as e:
         raise HTTPException(400, str(e))
+
+
+# ---- edit presets
+def _preset_out(p: dict) -> dict:
+    return {**p, "used_by": sum(1 for c in creators.list_creators() if c.get("preset") == p["id"])}
+
+
+@app.get("/api/presets")
+def presets_list():
+    import presets
+    return [_preset_out(p) for p in presets.list_presets()]
+
+
+class PresetIn(BaseModel):
+    name: Optional[str] = None
+    description: Optional[str] = None
+    settings: Optional[dict] = None
+
+
+@app.post("/api/presets")
+def presets_create(body: PresetIn):
+    import presets
+    try:
+        return _preset_out(presets.create(body.name or "", body.description or "", body.settings or {}))
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.put("/api/presets/{preset_id}")
+def presets_update(preset_id: str, body: PresetIn):
+    import presets
+    try:
+        if presets.get(preset_id) and presets.get(preset_id).get("builtin"):
+            p = presets.update_builtin(preset_id, body.name, body.description, body.settings)
+        else:
+            p = presets.update(preset_id, body.name, body.description, body.settings)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    if not p:
+        raise HTTPException(404)
+    return _preset_out(p)
+
+
+# ---- background music library (files you upload; presets pick one)
+@app.get("/api/music")
+def music_list():
+    import sound
+    return sound.list_tracks()
+
+
+@app.post("/api/music")
+async def music_upload(file: UploadFile = File(...)):
+    import sound
+    name = sound.safe_name(file.filename or "track")
+    if Path(name).suffix not in sound.AUDIO_EXT:
+        raise HTTPException(400, "Use an mp3, wav, m4a, aac, ogg or flac file.")
+    sound.MUSIC_DIR.mkdir(exist_ok=True)
+    data = await file.read()
+    if len(data) > 40_000_000:
+        raise HTTPException(400, "That file is over 40 MB. Use a shorter or smaller track.")
+    if not data:
+        raise HTTPException(400, "That file is empty.")
+    (sound.MUSIC_DIR / name).write_bytes(data)
+    return {"name": name}
+
+
+@app.get("/api/music/{name}/file")
+def music_file(name: str):
+    import sound
+    p = sound.MUSIC_DIR / Path(name).name
+    if not p.is_file():
+        raise HTTPException(404)
+    return FileResponse(p)
+
+
+@app.delete("/api/music/{name}")
+def music_delete(name: str):
+    import sound
+    p = sound.MUSIC_DIR / Path(name).name
+    if not p.is_file():
+        raise HTTPException(404)
+    p.unlink()
+    return {"ok": True}
+
+
+# ---- stock footage: keys, library, test search
+class StockKeyIn(BaseModel):
+    provider: str
+    key: str = ""
+
+
+@app.get("/api/ai-usage")
+def ai_usage():
+    import aiusage
+    return aiusage.summary()
+
+
+@app.get("/api/stock/status")
+def stock_status():
+    import stock
+    return stock.status()
+
+
+@app.post("/api/stock/key")
+def stock_key(body: StockKeyIn):
+    import stock
+    if body.provider not in stock.PROVIDERS:
+        raise HTTPException(400, "Unknown provider")
+    k = body.key.strip()
+    if not k:  # empty = remove
+        stock.set_key(body.provider, None)
+        return stock.status()
+    if not re.fullmatch(r"[A-Za-z0-9_\-]{10,200}", k):
+        raise HTTPException(400, "That does not look like an API key (letters and numbers only).")
+    why = stock.check_key(body.provider, k)
+    if why:
+        raise HTTPException(400, why)
+    stock.set_key(body.provider, k)
+    return stock.status()
+
+
+@app.get("/api/stock/test")
+def stock_test(q: str):
+    """Try a search phrase: what footage would be found and how confident the match is (nothing is downloaded)."""
+    import stock
+    if not stock.have_keys():
+        raise HTTPException(400, "Add a Pexels or Pixabay key first.")
+    out = [{"source": c["source"], "thumb": c["thumb"], "page": c["page"], "dur": c["dur"],
+            "conf": stock.confidence(q, set(c["labels"]), c["rank"])} for c in stock.search(q, 6)]
+    return sorted(out, key=lambda x: -x["conf"])[:4]
+
+
+@app.delete("/api/stock/library")
+def stock_clear():
+    import stock
+    return {"removed": stock.clear_library()}
+
+
+class PreviewIn(BaseModel):
+    settings: dict = {}
+
+
+@app.post("/api/presets/preview")
+def presets_preview(body: PreviewIn):
+    """A picture of how a preset looks on a sample frame (used live by the editor). Nothing is stored."""
+    import presets
+    import uuid
+    from fastapi.responses import Response
+    try:
+        s = presets.clean(body.settings)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    out = Path(tempfile.gettempdir()) / f"spark_preview_{uuid.uuid4().hex[:8]}.jpg"
+    try:
+        pipeline.preview_still(s, out)
+        return Response(out.read_bytes(), media_type="image/jpeg", headers={"Cache-Control": "no-store"})
+    except RuntimeError as e:
+        raise HTTPException(500, str(e))
+    finally:
+        out.unlink(missing_ok=True)
+
+
+@app.post("/api/presets/{preset_id}/reset")
+def presets_reset(preset_id: str):
+    import presets
+    if not presets.reset_builtin(preset_id):
+        raise HTTPException(400, "Nothing to reset: this preset has no changes.")
+    return _preset_out(presets.get(preset_id))
+
+
+@app.delete("/api/presets/{preset_id}")
+def presets_delete(preset_id: str):
+    import presets
+    p = presets.get(preset_id)
+    if p and p.get("builtin"):
+        raise HTTPException(400, "Ready-made presets can't be deleted.")
+    if not presets.delete(preset_id):
+        raise HTTPException(404)
+    return {"ok": True}
 
 
 @app.put("/api/creators/{channel_id}/settings")
@@ -826,7 +1197,18 @@ def creator_settings(channel_id: str, body: dict):
         raise HTTPException(404)
     if body.get("auto_privacy", "public") not in ("private", "unlisted", "public"):
         raise HTTPException(400, "bad privacy value")
-    creators.update_options(channel_id, body)
+    try:
+        for k, lo, hi in (("min_score", 0, 100), ("min_len", 5, 300), ("max_len", 5, 600), ("num_clips", 0, 30)):
+            if k in body:
+                body[k] = max(lo, min(hi, int(body[k])))
+    except (TypeError, ValueError):
+        raise HTTPException(400, "Minimum score, clip lengths and clip count must be numbers.")
+    if body.get("min_len", 0) >= body.get("max_len", 10**6):
+        raise HTTPException(400, "Shortest clip must be shorter than the longest clip.")
+    try:
+        creators.update_options(channel_id, body)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
     return creators.get_creator(channel_id)
 
 
@@ -885,12 +1267,13 @@ def creator_detail(channel_id: str):
 
 
 @app.get("/api/creators/{channel_id}/videos")
-def creator_videos(channel_id: str, offset: int = 0, limit: int = 5):
+def creator_videos(channel_id: str, offset: int = 0, limit: int = 5, sort: str = "new"):
     c = creators.get_creator(channel_id)
     if not c:
         raise HTTPException(404)
     try:
-        vids = creators.recent_videos(channel_id, max(0, offset), min(max(1, limit), 20))
+        pick = creators.popular_videos if sort == "views" else creators.recent_videos
+        vids = pick(channel_id, max(0, offset), min(max(1, limit), 20))
     except Exception as e:
         raise HTTPException(502, f"Couldn't load this channel's videos: {str(e)[:120]}")
     have = {_vid(j.get("url")): j["id"] for j in _creator_jobs(c) if _vid(j.get("url"))}
@@ -912,7 +1295,7 @@ def creator_clip(channel_id: str, body: ClipVideo):
     if c["options"].get("auto") and not webupload.status()["ready"]:
         raise HTTPException(400, "Full auto needs browser upload (Playwright + Chrome/Edge)")
     job = jobs.create_job(url=f"https://www.youtube.com/watch?v={body.video_id}", upload=None,
-                          opts={**c["options"], "title": body.title or body.video_id, "creator_id": channel_id})
+                          opts={**creators.job_options(c), "title": body.title or body.video_id, "creator_id": channel_id})
     return {"job": job["id"]}
 
 
@@ -937,4 +1320,7 @@ def check_now():
 (config.DATA / "incidents").mkdir(parents=True, exist_ok=True)
 app.mount("/incidents", StaticFiles(directory=config.DATA / "incidents"), name="incidents")
 app.mount("/media", StaticFiles(directory=config.JOBS_DIR), name="media")
+app.mount("/tests", StaticFiles(directory=jobs.TESTS_DIR), name="tests")
+(config.DATA / "explainers").mkdir(parents=True, exist_ok=True)
+app.mount("/explainers", StaticFiles(directory=config.DATA / "explainers"), name="explainers")
 app.mount("/", StaticFiles(directory=Path(__file__).parent / "static", html=True), name="static")

@@ -1,0 +1,1099 @@
+{
+  "id": "ea6d983937",
+  "created": 1794200883.5097244,
+  "url": "https://www.youtube.com/watch?v=zOQLrSi1peE",
+  "source": "watcher",
+  "creator_id": "UC8-Th83bH_thdKZDJCrn88g",
+  "title": "Trump Hires Stephen Miller as Chief of Staff, Butchers \"Genome\" Pronunciation | The Tonight Show",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 82,
+        "retention": 78,
+        "value": 75,
+        "shareability": 85,
+        "overall": 81,
+        "hook_text": "Can you pronounce this word better than Trump?",
+        "tip": "Add visual text highlights of the word genome versus the phonetic slip to emphasize the punchline visually.",
+        "caption": "Trump tried to pronounce human genome during a speech and it didn't go quite as planned.",
+        "description": "Donald Trump attempts to talk about scientific breakthroughs during a speech to aerospace leaders, but his pronunciation of human genome takes a hilarious turn. The mispronunciation leaves viewers in stitches over the unusual delivery. Have you ever mispronounced a word this badly in public?",
+        "hashtags": [
+          "trump",
+          "humor",
+          "politicaljokes",
+          "bloopers",
+          "viral"
+        ]
+      },
+      "id": "c1",
+      "title": "Donald Trump Butchers Human Genome Pronunciation",
+      "reason": "The humorous audio clip of Donald Trump mispronouncing a scientific term makes for classic late-night comedy gold.",
+      "score": 81,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 131.48,
+        "end": 162.98,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Can you pronounce this word better than Trump?",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 131.48, 162.98]",
+        "items": [
+          {
+            "t": 2.2,
+            "dur": 1.5,
+            "phrase": "aerospace conference",
+            "said": "aerospace leaders. Trump talked about",
+            "alt": [
+              "business meeting",
+              "conference room"
+            ],
+            "avoid": [
+              "rocket",
+              "spacecraft"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 5.2,
+            "dur": 2.5,
+            "phrase": "dna strand",
+            "said": "scientific victories, like charting",
+            "alt": [
+              "genetic code",
+              "science lab"
+            ],
+            "avoid": [
+              "astronomy",
+              "telescope"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_6368.mp4",
+            "conf": 95,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.2,
+            "dur": 2.1,
+            "phrase": "reading a document",
+            "said": "Which ordered the",
+            "alt": [
+              "person reading",
+              "holding papers"
+            ],
+            "avoid": [
+              "typing",
+              "writing"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 21.6,
+            "dur": 1.6,
+            "phrase": "blooming rose garden",
+            "said": "at the rose garden. I've added",
+            "alt": [
+              "flower garden",
+              "red roses"
+            ],
+            "avoid": [
+              "desert",
+              "vegetable"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_94999.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 72,
+        "retention": 70,
+        "value": 68,
+        "shareability": 70,
+        "overall": 70,
+        "hook_text": "You won't guess where this promo goes!",
+        "tip": "Trim the teleprompter pause to keep the comedic pacing fast and snappy for vertical feeds.",
+        "caption": "The ultimate Sunday night promo misdirect takes an unexpected turn into reality TV drama.",
+        "description": "A fake promotional announcement starts off sounding like a brutal football matchup before steering into political chaos and reality television drama. The sudden twist catches viewers off guard with unexpected pop culture references. Which upcoming TV reunion is your ultimate guilty pleasure?",
+        "hashtags": [
+          "tvpromos",
+          "loveisblind",
+          "comedy",
+          "parody",
+          "relatable"
+        ]
+      },
+      "id": "c2",
+      "title": "Funny Sunday Night Football Promo Blunders",
+      "reason": "Misdirecting the audience with fake promotional clips builds great comedic tension and payoff.",
+      "score": 70,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 177.23,
+        "end": 204.4,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "You won't guess where this promo goes!",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 177.23, 204.4]",
+        "items": [
+          {
+            "t": 3.3,
+            "dur": 1.5,
+            "phrase": "football player tackled",
+            "said": "down, and absolutely clobbered",
+            "alt": [
+              "rugby tackle",
+              "sports collision"
+            ],
+            "avoid": [
+              "boxing",
+              "soccer"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_177706.mp4",
+            "conf": 92,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 20.8,
+            "dur": 2.5,
+            "phrase": "angry sports fans fighting",
+            "said": "If you want to see shoving, kicking",
+            "alt": [
+              "brawling crowd",
+              "fight"
+            ],
+            "avoid": [
+              "peaceful",
+              "smiling"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_108415.mp4",
+            "conf": 85,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 58,
+        "value": 60,
+        "shareability": 65,
+        "overall": 63,
+        "hook_text": "Did Trump pick his staff using this test?",
+        "tip": "Seamlessly edit out the sports schedule joke to dive straight into the news about Donald Trump appointing Stephen Miller.",
+        "caption": "Trump's new chief of staff choice triggers some classic late-night roast commentary.",
+        "description": "A quick joke linking football team mascots to political cognitive tests sets up a commentary on Donald Trump's latest White House staff changes. Donald Trump replaces Susie Wiles with Stephen Miller, sparking political humor. Who do you think will be next in line for key White House roles?",
+        "hashtags": [
+          "trump",
+          "politics",
+          "stephenmiller",
+          "comedy",
+          "satire"
+        ]
+      },
+      "id": "c3",
+      "title": "Donald Trump's Cognitive Test Animals",
+      "reason": "This clip delivers a sharp political punchline comparing football schedules to cognitive test animals, keeping viewers engaged.",
+      "score": 63,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 101.92,
+        "end": 122.45,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 20,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "none",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": true,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "overlays": [
+          {
+            "text": "Did Trump pick his staff using this test?",
+            "start": 0.0,
+            "end": 5.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      },
+      "cutaway_plan": {
+        "sig": "[{\"confidence\": 60, \"every_max\": 5.0, \"every_min\": 3.0, \"fallback\": \"zoom\", \"judge\": true, \"len_max\": 3.0, \"len_min\": 1.5, \"max\": 8, \"on\": true, \"source\": \"live\"}, 101.92, 122.45]",
+        "items": [
+          {
+            "t": 2.6,
+            "dur": 1.5,
+            "phrase": "group of wild animals",
+            "said": "the Lions, Jaguars, Dolphins, and Seahawks.",
+            "alt": [
+              "various exotic animals",
+              "nature wildlife footage"
+            ],
+            "avoid": [
+              "cartoon",
+              "drawing",
+              "pet"
+            ],
+            "file": null,
+            "conf": 0,
+            "src": "none",
+            "kind": "zoom"
+          },
+          {
+            "t": 6.0,
+            "dur": 2.5,
+            "phrase": "medical test paper",
+            "said": "all the animals from Trump's cognitive test.",
+            "alt": [
+              "clinical exam form",
+              "document on desk"
+            ],
+            "avoid": [
+              "animal",
+              "digital",
+              "screen"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_170043.mp4",
+            "conf": 75,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 10.4,
+            "dur": 2.1,
+            "phrase": "person walking away",
+            "said": "midterm election losses, Trump has fired his chief of staff",
+            "alt": [
+              "sad business professional",
+              "office worker leaving"
+            ],
+            "avoid": [
+              "happy",
+              "interview",
+              "smiling"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_2302.mp4",
+            "conf": 80,
+            "src": "pixabay",
+            "kind": "stock"
+          },
+          {
+            "t": 13.4,
+            "dur": 1.6,
+            "phrase": "handshake between professionals",
+            "said": "replaced her with longtime adviser",
+            "alt": [
+              "men shaking hands",
+              "business meeting agreement"
+            ],
+            "avoid": [
+              "running",
+              "sport",
+              "women"
+            ],
+            "file": "C:\\Users\\salma\\OneDrive\\Desktop\\spark\\data\\stock\\pixabay_63846.mp4",
+            "conf": 90,
+            "src": "pixabay",
+            "kind": "stock"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 15,
+    "max_len": 25,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 20,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "none",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "stock": {
+      "on": true,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "duration": 5.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794200885.3862505,
+  "finished": 1794202291.5248256,
+  "log": [
+    {
+      "t": 1794200885.3956053,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=zOQLrSi1peE"
+    },
+    {
+      "t": 1794200901.3547714,
+      "level": "ok",
+      "msg": "Downloaded \"Trump Hires Stephen Miller as Chief of Staff, Butchers \"Genome\" Pronunciation | The Tonight Show\" (6:49) in 0:15"
+    },
+    {
+      "t": 1794200901.3641212,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794200903.4664266,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794200903.4713705,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794201248.481814,
+      "level": "ok",
+      "msg": "Transcribed 115 segments / 734 words in 5:47"
+    },
+    {
+      "t": 1794201248.4893603,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (15-25s each)"
+    },
+    {
+      "t": 1794201249.9424806,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201257.244252,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794201257.2643745,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: Jimmy Fallon delivers a monologue on The Tonight Show, poking fun at Donald Trump appointing Stephen Miller as White House Chief of Staff and mispronouncing the word 'genome'. He also jokes about CERN scientists discovering the 'zeptoverse', Rice Krispies recipe changes, and celebrates the "
+    },
+    {
+      "t": 1794201258.2272904,
+      "level": "info",
+      "msg": "Audio analysis: 1 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794201259.7400863,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201260.117193,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794201260.121741,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794201262.495193,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794201262.5230284,
+      "level": "ok",
+      "msg": "AI picked 4 clips in 0:14"
+    },
+    {
+      "t": 1794201262.5280588,
+      "level": "info",
+      "msg": "  \u2022 Donald Trump's Cognitive Test Animals  [1:41-2:02, score 88]"
+    },
+    {
+      "t": 1794201262.5326226,
+      "level": "info",
+      "msg": "  \u2022 Donald Trump Butchers Human Genome Pronunciation  [2:11-2:42, score 95]"
+    },
+    {
+      "t": 1794201262.537625,
+      "level": "info",
+      "msg": "  \u2022 Funny Sunday Night Football Promo Blunders  [2:57-3:24, score 85]"
+    },
+    {
+      "t": 1794201262.542986,
+      "level": "info",
+      "msg": "  \u2022 Creepy Snake Infested Dream Home  [4:39-4:54, score 86]"
+    },
+    {
+      "t": 1794201262.5537908,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794201264.1048083,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201264.5488856,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794201266.0955083,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794201266.1010852,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201266.6332479,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794201268.1445756,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794201268.1502419,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201268.6786115,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794201270.1362896,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794201270.141132,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201270.4881454,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794201271.9866114,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794201271.99039,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201272.5350988,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794201274.0288222,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794201274.0328515,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201274.6678646,
+      "level": "warn",
+      "msg": "This Gemini key is invalid or disabled - skipping it"
+    },
+    {
+      "t": 1794201276.1663585,
+      "level": "warn",
+      "msg": "Switching to the next API key"
+    },
+    {
+      "t": 1794201276.1718395,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201292.1922338,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794201292.204176,
+      "level": "ok",
+      "msg": "Rated 4 clips in 0:29"
+    },
+    {
+      "t": 1794201292.2086582,
+      "level": "info",
+      "msg": "  - Donald Trump's Cognitive Test Animals: 63/100 (hook 65, retention 58, value 60, share 65)"
+    },
+    {
+      "t": 1794201292.212627,
+      "level": "info",
+      "msg": "  - Donald Trump Butchers Human Genome Pronunciation: 81/100 (hook 82, retention 78, value 75, share 85)"
+    },
+    {
+      "t": 1794201292.2169135,
+      "level": "info",
+      "msg": "  - Funny Sunday Night Football Promo Blunders: 70/100 (hook 72, retention 70, value 68, share 70)"
+    },
+    {
+      "t": 1794201292.2212827,
+      "level": "info",
+      "msg": "  - Creepy Snake Infested Dream Home: 42/100 (hook 45, retention 42, value 40, share 38)"
+    },
+    {
+      "t": 1794201292.2306867,
+      "level": "ok",
+      "msg": "4 distinct clips found, 3 rated 50+"
+    },
+    {
+      "t": 1794201292.2604058,
+      "level": "info",
+      "msg": "Rendering clip 1/3: Donald Trump Butchers Human Genome Pronunciation"
+    },
+    {
+      "t": 1794201292.281049,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794201293.7038307,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201803.5809474,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794201803.6078696,
+      "level": "info",
+      "msg": "Rendering clip 1/3: Donald Trump Butchers Human Genome Pronunciation"
+    },
+    {
+      "t": 1794201806.914331,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201807.6783373,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794201807.682092,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794201809.6931522,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794201809.7055585,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794201815.636551,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794201816.7328982,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201817.0453749,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794201817.0491972,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794201818.1241815,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794201818.1356373,
+      "level": "info",
+      "msg": "Stock picking: 4 unclear moment(s) sent for one extra AI check, 0 decided by the tag score"
+    },
+    {
+      "t": 1794201818.1436636,
+      "level": "info",
+      "msg": "Cutaway at 2.2s: 'aerospace conference' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794201818.1498308,
+      "level": "info",
+      "msg": "Cutaway at 2.2s: 'aerospace conference' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794201819.6602976,
+      "level": "info",
+      "msg": "Cutaway at 5.2s: 'dna strand' -> pixabay (95% match)"
+    },
+    {
+      "t": 1794201819.6680546,
+      "level": "info",
+      "msg": "Cutaway at 10.2s: 'reading a document' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794201819.6722348,
+      "level": "info",
+      "msg": "Cutaway at 10.2s: 'reading a document' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794201821.647246,
+      "level": "info",
+      "msg": "Cutaway at 21.6s: 'blooming rose garden' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794201960.9991055,
+      "level": "ok",
+      "msg": "Clip 1 ready in 2:37"
+    },
+    {
+      "t": 1794201961.0232513,
+      "level": "info",
+      "msg": "Rendering clip 2/3: Funny Sunday Night Football Promo Blunders"
+    },
+    {
+      "t": 1794201961.0485206,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794201962.5361626,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201963.103345,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794201963.110193,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794201969.4278805,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794201969.444542,
+      "level": "info",
+      "msg": "Stock cutaways: 2 moment(s) chosen"
+    },
+    {
+      "t": 1794201974.2069027,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794201975.7371035,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794201976.2379212,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794201976.2450423,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794201981.7441957,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794201981.7590172,
+      "level": "info",
+      "msg": "Stock picking: 1 unclear moment(s) sent for one extra AI check, 1 decided by the tag score"
+    },
+    {
+      "t": 1794201984.4622712,
+      "level": "info",
+      "msg": "Cutaway at 3.3s: 'football player tackled' -> pixabay (92% match)"
+    },
+    {
+      "t": 1794201985.5298526,
+      "level": "info",
+      "msg": "Cutaway at 20.8s: 'angry sports fans fighting' -> pixabay (85% match)"
+    },
+    {
+      "t": 1794202124.4289806,
+      "level": "ok",
+      "msg": "Clip 2 ready in 2:43"
+    },
+    {
+      "t": 1794202124.4497228,
+      "level": "info",
+      "msg": "Rendering clip 3/3: Donald Trump's Cognitive Test Animals"
+    },
+    {
+      "t": 1794202124.470848,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794202125.9985561,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794202126.6381664,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794202126.6479206,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794202137.5779328,
+      "level": "warn",
+      "msg": "gemini-3.5-flash-lite: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794202137.5841165,
+      "level": "info",
+      "msg": "Trying gemini-3.1-flash-lite..."
+    },
+    {
+      "t": 1794202139.3269758,
+      "level": "ok",
+      "msg": "gemini-3.1-flash-lite answered"
+    },
+    {
+      "t": 1794202139.341714,
+      "level": "info",
+      "msg": "Stock cutaways: 4 moment(s) chosen"
+    },
+    {
+      "t": 1794202149.3608851,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794202150.8672357,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794202151.3984935,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794202151.4057858,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794202161.9629593,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794202161.9767208,
+      "level": "info",
+      "msg": "Stock picking: 4 unclear moment(s) sent for one extra AI check, 0 decided by the tag score"
+    },
+    {
+      "t": 1794202161.9836252,
+      "level": "info",
+      "msg": "Cutaway at 2.6s: 'group of wild animals' -> the AI found nothing in the shortlist that fits"
+    },
+    {
+      "t": 1794202161.9901388,
+      "level": "info",
+      "msg": "Cutaway at 2.6s: 'group of wild animals' -> no good match, zooming in instead"
+    },
+    {
+      "t": 1794202163.6003149,
+      "level": "info",
+      "msg": "Cutaway at 6.0s: 'medical test paper' -> pixabay (75% match)"
+    },
+    {
+      "t": 1794202164.9067612,
+      "level": "info",
+      "msg": "Cutaway at 10.4s: 'person walking away' -> pixabay (80% match)"
+    },
+    {
+      "t": 1794202166.0427587,
+      "level": "info",
+      "msg": "Cutaway at 13.4s: 'handshake between professionals' -> pixabay (90% match)"
+    },
+    {
+      "t": 1794202291.5197363,
+      "level": "ok",
+      "msg": "Clip 3 ready in 2:47"
+    },
+    {
+      "t": 1794202291.5352652,
+      "level": "ok",
+      "msg": "All done in 8:07"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 409,
+  "heatmap": [],
+  "video_description": "Jimmy addresses the latest news, like Trump responding to the midterm results by hiring Stephen Miller as White House Chief of Staff, the Chicago Bears facing off against the Tampa Bay Buccaneers and scientists finding evidence of a whole new world called the zeptoverse.\n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nTrump Hires Stephen Miller as Chief of Staff, Butchers \"Genome\" Pronunciation | The Tonight Show\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight\n#JimmyFallon",
+  "brief": "Summary: Jimmy Fallon delivers a monologue on The Tonight Show, poking fun at Donald Trump appointing Stephen Miller as White House Chief of Staff and mispronouncing the word 'genome'. He also jokes about CERN scientists discovering the 'zeptoverse', Rice Krispies recipe changes, and celebrates the arrival of the Rockefeller Center Christmas tree alongside guest Robert De Niro.\nPeople: Jimmy Fallon; Donald Trump; Stephen Miller; Susie Wiles; Robert De Niro; Ariana Grande; Marco Rubio\nContext: A monologue segment from The Tonight Show Starring Jimmy Fallon covering current events, political developments involving Donald Trump, sports promotions for NBC Sunday Night Football, science news, and holiday celebrations.\nUnclear: It is unclear whether Ariana Grande appears on stage during this specific clip, as she is only mentioned by Fallon as an episode guest.",
+  "render_index": 3,
+  "render_total": 3
+}

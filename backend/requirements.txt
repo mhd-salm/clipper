@@ -11,3 +11,4 @@ opencv-python<5
 google-api-python-client
 google-auth-oauthlib
 playwright
+edge-tts

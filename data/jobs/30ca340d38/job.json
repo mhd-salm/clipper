@@ -1,0 +1,1604 @@
+{
+  "id": "30ca340d38",
+  "created": 1794306462.6991282,
+  "url": "https://www.youtube.com/watch?v=RPd4xnU3R2U",
+  "source": "manual",
+  "creator_id": null,
+  "title": "MrBeast Counted to 100,000 in His First Viral Video, Leaves Another Message for Himself in 10 Years",
+  "status": "running",
+  "stage": "Waiting to render",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 88,
+        "retention": 85,
+        "value": 80,
+        "shareability": 82,
+        "overall": 87,
+        "hook_text": "The secret motive behind his viral hit",
+        "tip": "Add subtle background text highlighting the total hours spent counting.",
+        "caption": "The famous 40-hour counting video had a secret ulterior motive nobody noticed at the time.",
+        "description": "Watching popular television shows led MrBeast to create one of his biggest early viral hits just to stay productive. He tells Jimmy Fallon how he secretly binged his favorite series while recording himself counting for hours. What show would you watch if you had to count all day?",
+        "hashtags": [
+          "mrbeast",
+          "viral",
+          "jimmyfallon",
+          "counting",
+          "behindthescenes"
+        ]
+      },
+      "id": "c1",
+      "title": "The Real Reason MrBeast Counted to 100,000",
+      "reason": "MrBeast confesses he recorded his famous 40-hour counting video just to binge anime and Game of Thrones.",
+      "score": 87,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 181.8,
+        "end": 220.46,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The secret motive behind his viral hit",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 92,
+        "retention": 90,
+        "value": 88,
+        "shareability": 89,
+        "overall": 87,
+        "hook_text": "Why this shoot lost millions instantly",
+        "tip": "Speed up the mid-section explanation to keep the story moving briskly.",
+        "caption": "An unexpected wildlife law forced MrBeast to shut down a multi-million dollar production.",
+        "description": "Unexpected environmental rules forced MrBeast to relocate a massive production right before shooting commenced. He explains to Jimmy Fallon how finding a protected bird nest shut down millions of dollars in equipment. Would you have guessed wildlife laws could stop a shoot this big?",
+        "hashtags": [
+          "mrbeast",
+          "jimmyfallon",
+          "behindthescenes",
+          "production",
+          "wildlife"
+        ]
+      },
+      "id": "c2",
+      "title": "How a Bald Eagle Cost MrBeast Millions",
+      "reason": "MrBeast describes having to relocate a massive multi-million dollar video shoot due to federal wildlife laws.",
+      "score": 87,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 311.64,
+        "end": 369.49,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why this shoot lost millions instantly",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 84,
+        "retention": 82,
+        "value": 85,
+        "shareability": 80,
+        "overall": 83,
+        "hook_text": "What he begged for ten years ago",
+        "tip": "Overlay the original vintage video snippet directly side-by-side with his reaction.",
+        "caption": "Looking back at a video message from a decade ago shows just how far MrBeast has come.",
+        "description": "A message recorded a decade ago reveals how modest MrBeast's original subscriber goals were compared to today. While talking with Jimmy Fallon, he looks back at his younger self begging for milestone numbers. Did you expect him to reach this level of success?",
+        "hashtags": [
+          "mrbeast",
+          "jimmyfallon",
+          "nostalgia",
+          "subscribers",
+          "growth"
+        ]
+      },
+      "id": "c3",
+      "title": "MrBeast Reacts to His 10-Year-Old Prediction",
+      "reason": "MrBeast watches a video from 10 years ago where he prayed to reach 1 million subscribers.",
+      "score": 83,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 468.97,
+        "end": 515.54,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "What he begged for ten years ago",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 78,
+        "retention": 75,
+        "value": 72,
+        "shareability": 70,
+        "overall": 77,
+        "hook_text": "Why he posted his first video",
+        "tip": "Include a screenshot or recreation graphic of the online game mentioned.",
+        "caption": "MrBeast uploaded his first ever video for one specific reason: revenge against an online gamer.",
+        "description": "A childhood video game loss inspired MrBeast to post his very first clip online to get a rogue player banned. Speaking with Jimmy Fallon, he shares how that single revenge post kicked off his entire career. Have you ever done something extreme for revenge in a game?",
+        "hashtags": [
+          "mrbeast",
+          "gaming",
+          "jimmyfallon",
+          "firstvideo",
+          "storytime"
+        ]
+      },
+      "id": "c4",
+      "title": "MrBeast's First YouTube Video Was Pure Revenge",
+      "reason": "MrBeast explains how getting hacked in a Facebook game inspired his very first YouTube video.",
+      "score": 77,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 121.26,
+        "end": 156.52,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he posted his first video",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 78,
+        "value": 76,
+        "shareability": 74,
+        "overall": 73,
+        "hook_text": "Why he built an entire real city",
+        "tip": "Trim the introductory banter to jump faster into the city construction details.",
+        "caption": "Creating an entire city from scratch was the only way to keep contestants focused on the game.",
+        "description": "Setting up a massive competition required MrBeast to construct a full city for contestants to inhabit during production. He outlines to Jimmy Fallon why keeping everyone on site was key to creating intense drama. Would you live in a custom city for a huge cash prize?",
+        "hashtags": [
+          "mrbeast",
+          "beastgames",
+          "jimmyfallon",
+          "behindthescenes",
+          "competition"
+        ]
+      },
+      "id": "c5",
+      "title": "MrBeast Built a City for Beast Games",
+      "reason": "MrBeast details the extreme logistics and world records behind setting up Beast Games Season 2.",
+      "score": 73,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 588.27,
+        "end": 648.13,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "Why he built an entire real city",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 68,
+        "retention": 65,
+        "value": 62,
+        "shareability": 58,
+        "overall": 67,
+        "hook_text": "The channel name he almost picked",
+        "tip": "Add visual pop-ups of his early video thumbnails when mentioning his high school channel ideas.",
+        "caption": "Long before millions subscribed, MrBeast almost picked a completely different name for his channel.",
+        "description": "Before building a massive digital empire, MrBeast nearly rebranded his channel during high school because of his unpredictable content. He opened up to Jimmy Fallon about the funny alternative title he almost used. What name do you think fits his channel best?",
+        "hashtags": [
+          "mrbeast",
+          "youtube",
+          "jimmyfallon",
+          "channelname",
+          "behindthescenes"
+        ]
+      },
+      "id": "c6",
+      "title": "Why MrBeast Almost Named His Channel Mr. Random",
+      "reason": "MrBeast opens up about a high school breakdown that nearly made him change his channel name.",
+      "score": 67,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 66.1,
+        "end": 101.44,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The channel name he almost picked",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 62,
+        "retention": 60,
+        "value": 58,
+        "shareability": 55,
+        "overall": 62,
+        "hook_text": "His message to his future self",
+        "tip": "Add text graphics showing a countdown timer to 2036 on screen.",
+        "caption": "Looking ten years into the future, MrBeast leaves a message for his future self.",
+        "description": "Thinking a decade ahead, MrBeast records a personal message with Jimmy Fallon addressed to his future self. He reflects on his hopes for family life, personal growth, and business goals. Where do you see your life ten years from now?",
+        "hashtags": [
+          "mrbeast",
+          "jimmyfallon",
+          "future",
+          "timecapsule",
+          "goals"
+        ]
+      },
+      "id": "c7",
+      "title": "MrBeast Sends a Message to Himself in 2036",
+      "reason": "On live television, MrBeast records a 10-year time capsule message for his future 37-year-old self.",
+      "score": 62,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 532.01,
+        "end": 571.55,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "His message to his future self",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 55,
+        "retention": 58,
+        "value": 52,
+        "shareability": 60,
+        "overall": 58,
+        "hook_text": "The secret subreddit about his height",
+        "tip": "Cut straight to the explanation of the subreddit conspiracy to skip the awkward opening banter.",
+        "caption": "MrBeast addresses the strange internet theories about how tall he actually is.",
+        "description": "Internet users have created entire online threads dedicated to debating MrBeast's true height. During a chat with Jimmy Fallon, he explains why people refuse to believe his actual measurement. Do you think online fans overanalyze celebrity details?",
+        "hashtags": [
+          "mrbeast",
+          "jimmyfallon",
+          "reddit",
+          "height",
+          "conspiracy"
+        ]
+      },
+      "id": "c8",
+      "title": "Jimmy Fallon Asks MrBeast About Height Conspiracies",
+      "reason": "MrBeast reveals the absurd Reddit subreddit dedicated to proving he lies about his height.",
+      "score": 58,
+      "status": "pending",
+      "selected": true,
+      "error": null,
+      "version": 0,
+      "progress": 0,
+      "params": {
+        "start": 3.27,
+        "end": 30.9,
+        "layout_id": "fill",
+        "subtitles": true,
+        "sub_style": "bold_yellow",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 40,
+          "shake": 0
+        },
+        "caption": {
+          "size": 0.045
+        },
+        "look": {
+          "filter": "warm",
+          "strength": 25,
+          "brightness": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "sharpness": 0
+        },
+        "stock": {
+          "on": false,
+          "source": "live",
+          "every_min": 3.0,
+          "every_max": 5.0,
+          "len_min": 1.5,
+          "len_max": 3.0,
+          "confidence": 60,
+          "fallback": "zoom",
+          "max": 8,
+          "judge": true
+        },
+        "smart_framing": true,
+        "music": {
+          "track": null,
+          "volume": 15,
+          "duck": true
+        },
+        "pacing": {
+          "speed": 100,
+          "cut_pauses": false,
+          "pause": 0.6
+        },
+        "retention": {
+          "trim_start": true,
+          "trim_end": true,
+          "hook_rules": true,
+          "hook_weight": true,
+          "punch": true
+        },
+        "overlays": [
+          {
+            "text": "The secret subreddit about his height",
+            "start": 0.0,
+            "end": 6.0,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.057,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fill",
+    "subtitles": true,
+    "sub_style": "bold_yellow",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 40,
+      "shake": 0
+    },
+    "caption": {
+      "size": 0.045
+    },
+    "look": {
+      "filter": "warm",
+      "strength": 25,
+      "brightness": 0,
+      "contrast": 0,
+      "saturation": 0,
+      "sharpness": 0
+    },
+    "smart_framing": true,
+    "retention": {
+      "trim_start": true,
+      "trim_end": true,
+      "hook_rules": true,
+      "hook_weight": true,
+      "punch": true
+    },
+    "preset": "standard",
+    "stock": {
+      "on": false,
+      "source": "live",
+      "every_min": 3.0,
+      "every_max": 5.0,
+      "len_min": 1.5,
+      "len_max": 3.0,
+      "confidence": 60,
+      "fallback": "zoom",
+      "max": 8,
+      "judge": true
+    },
+    "music": {
+      "track": null,
+      "volume": 15,
+      "duck": true
+    },
+    "pacing": {
+      "speed": 100,
+      "cut_pauses": false,
+      "pause": 0.6
+    },
+    "hook": {
+      "size": 0.057,
+      "duration": 6.0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794306565.7469828,
+  "finished": null,
+  "log": [
+    {
+      "t": 1794306565.7707644,
+      "level": "info",
+      "msg": "Downloading https://www.youtube.com/watch?v=RPd4xnU3R2U"
+    },
+    {
+      "t": 1794306609.5474985,
+      "level": "ok",
+      "msg": "Downloaded \"MrBeast Counted to 100,000 in His First Viral Video, Leaves Another Message for Himself in 10 Years\" (11:56) in 0:43"
+    },
+    {
+      "t": 1794306609.5545185,
+      "level": "info",
+      "msg": "Found YouTube 'Most replayed' data (100 segments) - the AI will use it"
+    },
+    {
+      "t": 1794306609.5685961,
+      "level": "info",
+      "msg": "Trying YouTube's own captions first (much faster than Whisper)"
+    },
+    {
+      "t": 1794306612.796742,
+      "level": "warn",
+      "msg": "Captions unavailable (no usable English captions on this video) - falling back to Whisper"
+    },
+    {
+      "t": 1794306612.8031826,
+      "level": "info",
+      "msg": "Transcribing with Whisper 'small' on CPU - this is the slowest step"
+    },
+    {
+      "t": 1794308262.9478908,
+      "level": "ok",
+      "msg": "Transcribed 348 segments / 2477 words in 27:33"
+    },
+    {
+      "t": 1794308262.95967,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794308262.9750388,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794308267.22483,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794308269.0169368,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794308269.0225577,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794308271.1411526,
+      "level": "warn",
+      "msg": "gemini-3.5-flash-lite: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794308271.1492229,
+      "level": "info",
+      "msg": "Trying gemini-3.1-flash-lite..."
+    },
+    {
+      "t": 1794308273.942986,
+      "level": "ok",
+      "msg": "gemini-3.1-flash-lite answered"
+    },
+    {
+      "t": 1794308273.9631395,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: MrBeast visits The Tonight Show to discuss his career evolution, the origin of his channel name, his early viral successes, and the logistics behind his elaborate YouTube content. | People: Jimmy Fallon; MrBeast | Context: MrBeast, a prominent YouTuber, is interviewed by Jimmy Fallon on The"
+    },
+    {
+      "t": 1794308276.47519,
+      "level": "info",
+      "msg": "Audio analysis: 5 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794308276.488999,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794308279.719862,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794308299.5137854,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794308299.606423,
+      "level": "ok",
+      "msg": "AI picked 8 clips in 0:36"
+    },
+    {
+      "t": 1794308299.6128716,
+      "level": "info",
+      "msg": "  \u2022 Jimmy Fallon Asks MrBeast About Height Conspiracies  [0:03-0:30, score 85]"
+    },
+    {
+      "t": 1794308299.6204724,
+      "level": "info",
+      "msg": "  \u2022 Why MrBeast Almost Named His Channel Mr. Random  [1:06-1:41, score 88]"
+    },
+    {
+      "t": 1794308299.627338,
+      "level": "info",
+      "msg": "  \u2022 MrBeast's First YouTube Video Was Pure Revenge  [2:00-2:36, score 90]"
+    },
+    {
+      "t": 1794308299.6352568,
+      "level": "info",
+      "msg": "  \u2022 The Real Reason MrBeast Counted to 100,000  [3:01-3:40, score 93]"
+    },
+    {
+      "t": 1794308299.640957,
+      "level": "info",
+      "msg": "  \u2022 How a Bald Eagle Cost MrBeast Millions  [5:11-6:09, score 94]"
+    },
+    {
+      "t": 1794308299.646423,
+      "level": "info",
+      "msg": "  \u2022 MrBeast Reacts to His 10-Year-Old Prediction  [7:48-8:35, score 97]"
+    },
+    {
+      "t": 1794308299.653216,
+      "level": "info",
+      "msg": "  \u2022 MrBeast Sends a Message to Himself in 2036  [8:52-9:35, score 91]"
+    },
+    {
+      "t": 1794308299.6590326,
+      "level": "info",
+      "msg": "  \u2022 MrBeast Built a City for Beast Games  [9:48-10:48, score 87]"
+    },
+    {
+      "t": 1794308299.6922276,
+      "level": "ok",
+      "msg": "Tightened the clips: 4.9s of filler / dead air trimmed from their starts and ends"
+    },
+    {
+      "t": 1794308299.7049067,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794308299.7134428,
+      "level": "info",
+      "msg": "Using 10 of 16 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794308301.9260206,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794308330.0900812,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794308330.1104674,
+      "level": "ok",
+      "msg": "Rated 8 clips in 0:30"
+    },
+    {
+      "t": 1794308330.116147,
+      "level": "info",
+      "msg": "  - Jimmy Fallon Asks MrBeast About Height Conspiracies: 58/100 (hook 55, retention 58, value 52, share 60)"
+    },
+    {
+      "t": 1794308330.1225512,
+      "level": "info",
+      "msg": "  - Why MrBeast Almost Named His Channel Mr. Random: 67/100 (hook 68, retention 65, value 62, share 58)"
+    },
+    {
+      "t": 1794308330.1274915,
+      "level": "info",
+      "msg": "  - MrBeast's First YouTube Video Was Pure Revenge: 77/100 (hook 78, retention 75, value 72, share 70)"
+    },
+    {
+      "t": 1794308330.1342123,
+      "level": "info",
+      "msg": "  - The Real Reason MrBeast Counted to 100,000: 87/100 (hook 88, retention 85, value 80, share 82)"
+    },
+    {
+      "t": 1794308330.140477,
+      "level": "info",
+      "msg": "  - How a Bald Eagle Cost MrBeast Millions: 87/100 (hook 92, retention 90, value 88, share 89)"
+    },
+    {
+      "t": 1794308330.1462429,
+      "level": "info",
+      "msg": "  - MrBeast Reacts to His 10-Year-Old Prediction: 83/100 (hook 84, retention 82, value 85, share 80)"
+    },
+    {
+      "t": 1794308330.154454,
+      "level": "info",
+      "msg": "  - MrBeast Sends a Message to Himself in 2036: 62/100 (hook 62, retention 60, value 58, share 55)"
+    },
+    {
+      "t": 1794308330.1596074,
+      "level": "info",
+      "msg": "  - MrBeast Built a City for Beast Games: 73/100 (hook 75, retention 78, value 76, share 74)"
+    },
+    {
+      "t": 1794308330.178351,
+      "level": "ok",
+      "msg": "8 distinct clips found, 8 rated 50+"
+    }
+  ],
+  "stage_key": "render",
+  "progress": 0,
+  "channel": "The Tonight Show Starring Jimmy Fallon",
+  "duration": 716,
+  "heatmap": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.16,
+      "value": 0.7223311818097605
+    },
+    {
+      "start_time": 7.16,
+      "end_time": 14.32,
+      "value": 0.5574149966758062
+    },
+    {
+      "start_time": 14.32,
+      "end_time": 21.48,
+      "value": 0.41355448337004685
+    },
+    {
+      "start_time": 21.48,
+      "end_time": 28.64,
+      "value": 0.33847255259178083
+    },
+    {
+      "start_time": 28.64,
+      "end_time": 35.8,
+      "value": 0.3698491177148388
+    },
+    {
+      "start_time": 35.8,
+      "end_time": 42.96,
+      "value": 0.29829763248669755
+    },
+    {
+      "start_time": 42.96,
+      "end_time": 50.12,
+      "value": 0.2782402201451899
+    },
+    {
+      "start_time": 50.12,
+      "end_time": 57.28,
+      "value": 0.23892232272434907
+    },
+    {
+      "start_time": 57.28,
+      "end_time": 64.44,
+      "value": 0.14501360991741938
+    },
+    {
+      "start_time": 64.44,
+      "end_time": 71.6,
+      "value": 0.12279087829368637
+    },
+    {
+      "start_time": 71.6,
+      "end_time": 78.76,
+      "value": 0.09334308872117018
+    },
+    {
+      "start_time": 78.76,
+      "end_time": 85.92,
+      "value": 0.11399841283049822
+    },
+    {
+      "start_time": 85.92,
+      "end_time": 93.08,
+      "value": 0.1698343590272315
+    },
+    {
+      "start_time": 93.08,
+      "end_time": 100.24,
+      "value": 0.19702185733722222
+    },
+    {
+      "start_time": 100.24,
+      "end_time": 107.4,
+      "value": 0.17087320316031301
+    },
+    {
+      "start_time": 107.4,
+      "end_time": 114.56,
+      "value": 0.1509467279413881
+    },
+    {
+      "start_time": 114.56,
+      "end_time": 121.72,
+      "value": 0.2293146752818325
+    },
+    {
+      "start_time": 121.72,
+      "end_time": 128.88,
+      "value": 0.29066163405886414
+    },
+    {
+      "start_time": 128.88,
+      "end_time": 136.04,
+      "value": 0.33558632550023837
+    },
+    {
+      "start_time": 136.04,
+      "end_time": 143.2,
+      "value": 0.35225296599901923
+    },
+    {
+      "start_time": 143.2,
+      "end_time": 150.36,
+      "value": 0.24091404076293693
+    },
+    {
+      "start_time": 150.36,
+      "end_time": 157.52,
+      "value": 0.26614825642504464
+    },
+    {
+      "start_time": 157.52,
+      "end_time": 164.68,
+      "value": 0.3816414416969909
+    },
+    {
+      "start_time": 164.68,
+      "end_time": 171.84,
+      "value": 0.3915736267486036
+    },
+    {
+      "start_time": 171.84,
+      "end_time": 179.0,
+      "value": 0.2679631214240494
+    },
+    {
+      "start_time": 179.0,
+      "end_time": 186.16,
+      "value": 0.20434920031813172
+    },
+    {
+      "start_time": 186.16,
+      "end_time": 193.32,
+      "value": 0.14983025939178507
+    },
+    {
+      "start_time": 193.32,
+      "end_time": 200.48,
+      "value": 0.12946342401203584
+    },
+    {
+      "start_time": 200.48,
+      "end_time": 207.64,
+      "value": 0.1440500176458777
+    },
+    {
+      "start_time": 207.64,
+      "end_time": 214.8,
+      "value": 0.2799456964033288
+    },
+    {
+      "start_time": 214.8,
+      "end_time": 221.96,
+      "value": 0.3011097521255737
+    },
+    {
+      "start_time": 221.96,
+      "end_time": 229.12,
+      "value": 0.17613019883929726
+    },
+    {
+      "start_time": 229.12,
+      "end_time": 236.28,
+      "value": 0.17516194519502665
+    },
+    {
+      "start_time": 236.28,
+      "end_time": 243.44,
+      "value": 0.1441596017736244
+    },
+    {
+      "start_time": 243.44,
+      "end_time": 250.6,
+      "value": 0.1736490645765853
+    },
+    {
+      "start_time": 250.6,
+      "end_time": 257.76,
+      "value": 0.23785902731874944
+    },
+    {
+      "start_time": 257.76,
+      "end_time": 264.92,
+      "value": 0.18808117696870164
+    },
+    {
+      "start_time": 264.92,
+      "end_time": 272.08,
+      "value": 0.1686488072590413
+    },
+    {
+      "start_time": 272.08,
+      "end_time": 279.24,
+      "value": 0.12669615961852107
+    },
+    {
+      "start_time": 279.24,
+      "end_time": 286.4,
+      "value": 0.10544535212117755
+    },
+    {
+      "start_time": 286.4,
+      "end_time": 293.56,
+      "value": 0.10241134276668172
+    },
+    {
+      "start_time": 293.56,
+      "end_time": 300.72,
+      "value": 0.14098418814221444
+    },
+    {
+      "start_time": 300.72,
+      "end_time": 307.88,
+      "value": 0.1825673591910425
+    },
+    {
+      "start_time": 307.88,
+      "end_time": 315.04,
+      "value": 0.17423715117553992
+    },
+    {
+      "start_time": 315.04,
+      "end_time": 322.2,
+      "value": 0.14398498172696533
+    },
+    {
+      "start_time": 322.2,
+      "end_time": 329.36,
+      "value": 0.16115887448085095
+    },
+    {
+      "start_time": 329.36,
+      "end_time": 336.52,
+      "value": 0.21010881479190338
+    },
+    {
+      "start_time": 336.52,
+      "end_time": 343.68,
+      "value": 0.20017489917077458
+    },
+    {
+      "start_time": 343.68,
+      "end_time": 350.84,
+      "value": 0.10827915970382838
+    },
+    {
+      "start_time": 350.84,
+      "end_time": 358.0,
+      "value": 0.11594629442674623
+    },
+    {
+      "start_time": 358.0,
+      "end_time": 365.16,
+      "value": 0.1356709489539562
+    },
+    {
+      "start_time": 365.16,
+      "end_time": 372.32,
+      "value": 0.16365561178161958
+    },
+    {
+      "start_time": 372.32,
+      "end_time": 379.48,
+      "value": 0.22727265907763086
+    },
+    {
+      "start_time": 379.48,
+      "end_time": 386.64,
+      "value": 0.24918741910852293
+    },
+    {
+      "start_time": 386.64,
+      "end_time": 393.8,
+      "value": 0.25919932200752344
+    },
+    {
+      "start_time": 393.8,
+      "end_time": 400.96,
+      "value": 0.2711235879590741
+    },
+    {
+      "start_time": 400.96,
+      "end_time": 408.12,
+      "value": 0.48083416939728557
+    },
+    {
+      "start_time": 408.12,
+      "end_time": 415.28,
+      "value": 0.4927457352015808
+    },
+    {
+      "start_time": 415.28,
+      "end_time": 422.44,
+      "value": 1.0
+    },
+    {
+      "start_time": 422.44,
+      "end_time": 429.6,
+      "value": 0.2674639079434711
+    },
+    {
+      "start_time": 429.6,
+      "end_time": 436.76,
+      "value": 0.1869212767067262
+    },
+    {
+      "start_time": 436.76,
+      "end_time": 443.92,
+      "value": 0.17851880345771975
+    },
+    {
+      "start_time": 443.92,
+      "end_time": 451.08,
+      "value": 0.1637416936588409
+    },
+    {
+      "start_time": 451.08,
+      "end_time": 458.24,
+      "value": 0.15100726996204086
+    },
+    {
+      "start_time": 458.24,
+      "end_time": 465.4,
+      "value": 0.19621437918348172
+    },
+    {
+      "start_time": 465.4,
+      "end_time": 472.56,
+      "value": 0.30935973987028054
+    },
+    {
+      "start_time": 472.56,
+      "end_time": 479.72,
+      "value": 0.3773612687726232
+    },
+    {
+      "start_time": 479.72,
+      "end_time": 486.88,
+      "value": 0.7238784226068203
+    },
+    {
+      "start_time": 486.88,
+      "end_time": 494.04,
+      "value": 0.9965551618161002
+    },
+    {
+      "start_time": 494.04,
+      "end_time": 501.2,
+      "value": 0.663240439083168
+    },
+    {
+      "start_time": 501.2,
+      "end_time": 508.36,
+      "value": 0.3012450435843584
+    },
+    {
+      "start_time": 508.36,
+      "end_time": 515.52,
+      "value": 0.2881390498649999
+    },
+    {
+      "start_time": 515.52,
+      "end_time": 522.68,
+      "value": 0.17421440256012638
+    },
+    {
+      "start_time": 522.68,
+      "end_time": 529.84,
+      "value": 0.16491585716311857
+    },
+    {
+      "start_time": 529.84,
+      "end_time": 537.0,
+      "value": 0.25935191916146927
+    },
+    {
+      "start_time": 537.0,
+      "end_time": 544.16,
+      "value": 0.2865669111968371
+    },
+    {
+      "start_time": 544.16,
+      "end_time": 551.32,
+      "value": 0.20906938449817933
+    },
+    {
+      "start_time": 551.32,
+      "end_time": 558.48,
+      "value": 0.16813912662413164
+    },
+    {
+      "start_time": 558.48,
+      "end_time": 565.64,
+      "value": 0.3412279821227982
+    },
+    {
+      "start_time": 565.64,
+      "end_time": 572.8,
+      "value": 0.4801285436332923
+    },
+    {
+      "start_time": 572.8,
+      "end_time": 579.96,
+      "value": 0.3255146900405201
+    },
+    {
+      "start_time": 579.96,
+      "end_time": 587.12,
+      "value": 0.1577672652657776
+    },
+    {
+      "start_time": 587.12,
+      "end_time": 594.28,
+      "value": 0.1461343769784012
+    },
+    {
+      "start_time": 594.28,
+      "end_time": 601.44,
+      "value": 0.12216365849373811
+    },
+    {
+      "start_time": 601.44,
+      "end_time": 608.6,
+      "value": 0.08327014137810902
+    },
+    {
+      "start_time": 608.6,
+      "end_time": 615.76,
+      "value": 0.06487566677953747
+    },
+    {
+      "start_time": 615.76,
+      "end_time": 622.92,
+      "value": 0.06709491284087815
+    },
+    {
+      "start_time": 622.92,
+      "end_time": 630.08,
+      "value": 0.06943930419940487
+    },
+    {
+      "start_time": 630.08,
+      "end_time": 637.24,
+      "value": 0.09123853475888997
+    },
+    {
+      "start_time": 637.24,
+      "end_time": 644.4,
+      "value": 0.09410159454884559
+    },
+    {
+      "start_time": 644.4,
+      "end_time": 651.56,
+      "value": 0.07103481951224108
+    },
+    {
+      "start_time": 651.56,
+      "end_time": 658.72,
+      "value": 0.08860145385284611
+    },
+    {
+      "start_time": 658.72,
+      "end_time": 665.88,
+      "value": 0.08368490585754168
+    },
+    {
+      "start_time": 665.88,
+      "end_time": 673.04,
+      "value": 0.06945259050730285
+    },
+    {
+      "start_time": 673.04,
+      "end_time": 680.2,
+      "value": 0.055123740081717075
+    },
+    {
+      "start_time": 680.2,
+      "end_time": 687.36,
+      "value": 0.06875039796993031
+    },
+    {
+      "start_time": 687.36,
+      "end_time": 694.52,
+      "value": 0.09998765224694041
+    },
+    {
+      "start_time": 694.52,
+      "end_time": 701.68,
+      "value": 0.0809332863707009
+    },
+    {
+      "start_time": 701.68,
+      "end_time": 708.84,
+      "value": 0.013728293956771002
+    },
+    {
+      "start_time": 708.84,
+      "end_time": 716.0,
+      "value": 0.0
+    }
+  ],
+  "video_description": "MrBeast talks about how he came up with his YouTube channel name, his philanthropic work through his chocolate and snack brand Feastables and breaking world records in his reality competition show Beast Games. \n\nThe Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy\n\nSubscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN\n \nWatch The Tonight Show Starring Jimmy Fallon Weeknights 11:35ET/10:35c\n \nGet more The Tonight Show Starring Jimmy Fallon: https://www.nbc.com/the-tonight-show\n \nJIMMY FALLON ON SOCIAL\nFollow Jimmy: http://Twitter.com/JimmyFallon\nLike Jimmy: https://Facebook.com/JimmyFallon\nFollow Jimmy: https://www.instagram.com/jimmyfallon/\nFollow Jimmy on Threads: https://www.threads.net/@jimmyfallon\nFollow Jimmy on TikTok: https://www.tiktok.com/@jimmyfallon\n\nTHE TONIGHT SHOW ON SOCIAL\nFollow The Tonight Show: http://Twitter.com/FallonTonight\nLike The Tonight Show: https://Facebook.com/FallonTonight\nFollow The Tonight Show: https://www.instagram.com/fallontonight/\nFollow The Tonight Show on Threads: https://www.threads.net/@fallontonight\nThe Tonight Show TikTok: https://www.tiktok.com/@fallontonight\n \nThe Tonight Show Starring Jimmy Fallon features hilarious highlights from the show, including comedy sketches, music parodies, celebrity interviews, ridiculous games, and, of course, Jimmy's Thank You Notes and hashtags! You'll also find behind the scenes videos and other great web exclusives.\n \nGET MORE NBC\nNBC YouTube: http://bit.ly/1dM1qBH\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Instagram: http://instagram.com/nbctv\n \nMrBeast Counted to 100,000 in His First Viral Video, Leaves Another Message for Himself in 10 Years\nhttp://www.youtube.com/fallontonight\n\n#FallonTonight\n#MrBeast\n#JimmyFallon",
+  "brief": "Summary: MrBeast visits The Tonight Show to discuss his career evolution, the origin of his channel name, his early viral successes, and the logistics behind his elaborate YouTube content.\nPeople: Jimmy Fallon; MrBeast\nContext: MrBeast, a prominent YouTuber, is interviewed by Jimmy Fallon on The Tonight Show. They cover topics including his channel's name origin from an Xbox gamertag, his first viral video of him counting to 100,000, and the extreme challenges involved in his production stunts, such as the train and yacht experiments.\nUnclear: The specific contents of the reddit subreddit mentioned by MrBeast regarding his height, and the full extent of the legal challenges encountered during his various large-scale video productions."
+}

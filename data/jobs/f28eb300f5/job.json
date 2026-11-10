@@ -1,0 +1,1066 @@
+{
+  "id": "f28eb300f5",
+  "created": 1794116979.335324,
+  "url": "https://www.youtube.com/watch?v=byyrywdt9_0",
+  "source": "watcher",
+  "creator_id": "UCzXwjTI6c6mVn6oui_p6oiw",
+  "title": "We are not qualified for this...",
+  "status": "done",
+  "stage": "Done",
+  "error": null,
+  "clips": [
+    {
+      "rating": {
+        "hook": 85,
+        "retention": 80,
+        "value": 75,
+        "shareability": 70,
+        "overall": 78,
+        "hook_text": "Pull the rods before we explode!",
+        "tip": "Increase the sound effect volume of the alarm to raise the intensity.",
+        "caption": "The plant is melting down but we are rich.",
+        "description": "Panic ensues as a nuclear meltdown forces the team to frantically manage fuel rods. Balancing safety against pure greed, the group scrambles to sell energy just before everything explodes. Did the payday make the radiation poisoning worth it?",
+        "hashtags": [
+          "gaming",
+          "chaotic",
+          "funny",
+          "reaction",
+          "gamingmoments"
+        ]
+      },
+      "id": "c1",
+      "title": "SMii7Y and crew panic during a reactor meltdown",
+      "reason": "A sudden emergency forces the group to scream and frantically pull fuel rods before everything explodes.",
+      "score": 78,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 759.02,
+        "end": 806.92,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Pull the rods before we explode!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 75,
+        "value": 70,
+        "shareability": 80,
+        "overall": 77,
+        "hook_text": "Wear this so you don't forget.",
+        "tip": "Zoom in on the item placed on the head for better visual payoff.",
+        "caption": "Labeling your friends is the only way to get work done.",
+        "description": "When instructions are too difficult to follow, physical labeling becomes necessary. Watch as the crew resorts to ridiculous methods to ensure everyone stays on task in a failing power facility. Is this the most efficient way to manage a team?",
+        "hashtags": [
+          "gaming",
+          "fails",
+          "funny",
+          "coop",
+          "moments"
+        ]
+      },
+      "id": "c2",
+      "title": "SMii7Y labels Yumi so he won't forget instructions",
+      "reason": "SMii7Y puts an item on Yumi's head to make sure he follows simple steps in the nuclear plant.",
+      "score": 77,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 640.08,
+        "end": 691.74,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Wear this so you don't forget.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 70,
+        "value": 75,
+        "shareability": 85,
+        "overall": 76,
+        "hook_text": "Melting down the plant for cash!",
+        "tip": "Add a visual counter showing the money earned to emphasize the greed.",
+        "caption": "Destroying the planet for profit.",
+        "description": "Total environmental disregard leads to an unexpected payout for the crew. By letting the power plant melt down, they manage to rake in thousands while fleeing for their lives. Does a massive bank account justify a radiation leak?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "greed",
+          "fail",
+          "hilarious"
+        ]
+      },
+      "id": "c3",
+      "title": "SMii7Y gets rich by melting down the plant",
+      "reason": "The team ignores environmental safety and makes thousands of dollars from dangerous reactor meltdowns.",
+      "score": 76,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1015.64,
+        "end": 1059.92,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Melting down the plant for cash!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 80,
+        "retention": 70,
+        "value": 70,
+        "shareability": 75,
+        "overall": 75,
+        "hook_text": "Get that out of there!",
+        "tip": "Cut the dialogue faster to highlight the shouting match.",
+        "caption": "Ignoring instructions leads to total disaster.",
+        "description": "Clear warnings go completely unheeded as the team struggles to manage fuel rods. As the power demand spikes, the failure to coordinate brings the whole plant to the brink of catastrophe. Who is responsible for this disaster?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "chaos",
+          "fail",
+          "coop"
+        ]
+      },
+      "id": "c4",
+      "title": "Sovi completely ignores SMii7Y's warning",
+      "reason": "SMii7Y yells at Sovi to take the fuel rod out before it overflows, leading to total disaster.",
+      "score": 75,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1605.11,
+        "end": 1654.52,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Get that out of there!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 65,
+        "value": 70,
+        "shareability": 75,
+        "overall": 72,
+        "hook_text": "We are definitely not qualified for this.",
+        "tip": "Cut immediately to the escape sequence to heighten the sudden panic.",
+        "caption": "None of us should be allowed to run a nuclear plant.",
+        "description": "The terrifying realization that nobody on the team has any idea how a nuclear reactor actually works. After staring at alarming red lights, the group decides that immediate abandonment is the only professional choice left. How long until the whole building goes up?",
+        "hashtags": [
+          "gaming",
+          "fail",
+          "nuclear",
+          "funny",
+          "panic"
+        ]
+      },
+      "id": "c5",
+      "title": "SMii7Y and friends realize they are completely unqualified",
+      "reason": "The group questions how they got jobs running a nuclear power plant before abandoning their posts.",
+      "score": 72,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 517.95,
+        "end": 564.66,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "We are definitely not qualified for this.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 75,
+        "retention": 70,
+        "value": 65,
+        "shareability": 70,
+        "overall": 71,
+        "hook_text": "Check out this three-pointer!",
+        "tip": "Slow down the clip slightly during the three-pointer throw.",
+        "caption": "How to stay productive in a nuclear plant.",
+        "description": "In the middle of a serious crisis, one player decides to practice their basketball skills using trash. It turns out that keeping the pump room clear of debris is a skill that comes in handy. Who knew cleaning could look this cool?",
+        "hashtags": [
+          "gaming",
+          "skills",
+          "funny",
+          "basketball",
+          "sim"
+        ]
+      },
+      "id": "c6",
+      "title": "Yumi shows off his trash-throwing basketball skills",
+      "reason": "Yumi updates SMii7Y on the pump room while casually sinking impressive three-pointers with garbage.",
+      "score": 71,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2270.09,
+        "end": 2317.59,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Check out this three-pointer!",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 60,
+        "value": 65,
+        "shareability": 70,
+        "overall": 67,
+        "hook_text": "Why is my character spinning?",
+        "tip": "Show a wider angle to clearly demonstrate the character's glitching movement.",
+        "caption": "Yumi is stuck with a spinning glitch.",
+        "description": "After being shoved around, a player finds themselves cursed with a bizarre and constant spinning glitch. The team tries to find a cure for the involuntary movement while the power plant crumbles around them. Is there any way to fix this bug?",
+        "hashtags": [
+          "gaming",
+          "glitch",
+          "funny",
+          "simulation",
+          "bugs"
+        ]
+      },
+      "id": "c7",
+      "title": "Yumi is cursed with a glitching spin",
+      "reason": "Yumi complains that getting pushed earlier caused his character to slowly spin to the right constantly.",
+      "score": 67,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 845.19,
+        "end": 891.84,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Why is my character spinning?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 70,
+        "retention": 65,
+        "value": 60,
+        "shareability": 65,
+        "overall": 66,
+        "hook_text": "I have the technology to fix him.",
+        "tip": "Emphasize the visual difference between the syringes.",
+        "caption": "I accidentally gave him the wrong medicine.",
+        "description": "Attempting a medical revival goes horribly wrong when the wrong equipment is chosen. Instead of saving their teammate, the result is completely unexpected and chaotic. Is it even possible to get any work done today?",
+        "hashtags": [
+          "gaming",
+          "fail",
+          "funny",
+          "simulation",
+          "oops"
+        ]
+      },
+      "id": "c8",
+      "title": "SMii7Y tries to fix Yumi with the wrong syringe",
+      "reason": "SMii7Y attempts to revive Yumi with a medical tool but accidentally gives him the Australian version.",
+      "score": 66,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2381.83,
+        "end": 2421.15,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "I have the technology to fix him.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 70,
+        "value": 60,
+        "shareability": 65,
+        "overall": 65,
+        "hook_text": "Is this guy even listening to me?",
+        "tip": "Improve the initial audio clarity of the radio static effect to make the confusion feel more immersive.",
+        "caption": "Trying to run a nuclear plant with the new guy is a nightmare.",
+        "description": "Communication breakdown leads to total chaos in a high-stakes power plant simulation. When the team attempts to coordinate complex tasks over a radio, the language gap turns simple instructions into a hilarious disaster. Can the crew actually keep the lights on?",
+        "hashtags": [
+          "gaming",
+          "funny",
+          "simulation",
+          "chaos",
+          "multiplayer"
+        ]
+      },
+      "id": "c9",
+      "title": "SMii7Y tries to communicate with the new guy",
+      "reason": "SMii7Y attempts to use the phone to guide the new player, leading to immediate confusion and chaos.",
+      "score": 65,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 282.11,
+        "end": 328.4,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Is this guy even listening to me?",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 65,
+        "retention": 60,
+        "value": 55,
+        "shareability": 60,
+        "overall": 61,
+        "hook_text": "I know what you're doing.",
+        "tip": "Add an example of what the text might look like on screen to explain the joke.",
+        "caption": "Trying to prank the editor while the plant burns.",
+        "description": "While the facility is clearly failing, the group finds time to plot a petty prank on their editor. They discuss forcing an edit to roast a friend during the footage. Should they focus on the core or their next joke?",
+        "hashtags": [
+          "gaming",
+          "editing",
+          "funny",
+          "prank",
+          "behindthescenes"
+        ]
+      },
+      "id": "c10",
+      "title": "SMii7Y accuses Yumi of a prank setup",
+      "reason": "The group gets sidetracked and jokingly plots to trick the editor into adding text about Sovi.",
+      "score": 61,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 2034.62,
+        "end": 2084.1,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "I know what you're doing.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    },
+    {
+      "rating": {
+        "hook": 60,
+        "retention": 55,
+        "value": 50,
+        "shareability": 55,
+        "overall": 56,
+        "hook_text": "Watch and learn how it's done.",
+        "tip": "Add a text overlay pointing out the pipe is still leaking to emphasize the failure.",
+        "caption": "Confidence is not the same as competence.",
+        "description": "A self-proclaimed expert grabs the welding gun to fix a leak, only to prove exactly why they shouldn't be in charge. Watch the cringeworthy attempt to save the plant from a simple broken pipe. Can he pull it off or just make it worse?",
+        "hashtags": [
+          "gaming",
+          "fails",
+          "welding",
+          "funny",
+          "simulation"
+        ]
+      },
+      "id": "c11",
+      "title": "SMii7Y tries to weld a pipe to fix the leak",
+      "reason": "SMii7Y arrogantly takes the welding gun to fix a broken pipe, only for it to completely fail.",
+      "score": 56,
+      "status": "ready",
+      "selected": true,
+      "error": null,
+      "version": 1,
+      "progress": 100,
+      "params": {
+        "start": 1220.0,
+        "end": 1265.26,
+        "layout_id": "fit_blur",
+        "subtitles": false,
+        "sub_style": "green_pop",
+        "resolution": "1080p",
+        "motion": {
+          "zoom": 0,
+          "shake": 0
+        },
+        "caption": {},
+        "overlays": [
+          {
+            "text": "Watch and learn how it's done.",
+            "start": 0.0,
+            "end": 3.5,
+            "x": 0.5,
+            "y": 0.14,
+            "size": 0.05,
+            "color": "#FFFFFF",
+            "hook": true,
+            "font": "Arial",
+            "bold": true,
+            "style": "outline",
+            "outline_color": "#000000",
+            "box_color": "#000000"
+          }
+        ]
+      }
+    }
+  ],
+  "options": {
+    "layout_id": "fit_blur",
+    "subtitles": false,
+    "sub_style": "green_pop",
+    "num_clips": 0,
+    "min_len": 20,
+    "max_len": 60,
+    "resolution": "1080p",
+    "hook_text": true,
+    "motion": {
+      "zoom": 0,
+      "shake": 0
+    },
+    "content": "auto",
+    "auto": false,
+    "auto_privacy": "public",
+    "account": "entertainment-fun",
+    "hide_likes": true,
+    "notes": "",
+    "min_score": 50
+  },
+  "started": 1794120869.4247112,
+  "finished": 1794121896.3266926,
+  "log": [
+    {
+      "t": 1794120869.4390733,
+      "level": "info",
+      "msg": "Using uploaded video file"
+    },
+    {
+      "t": 1794120869.4676487,
+      "level": "info",
+      "msg": "Using cached transcript"
+    },
+    {
+      "t": 1794120869.498386,
+      "level": "ok",
+      "msg": "Transcribed 360 segments / 4041 words in 0:00"
+    },
+    {
+      "t": 1794120869.507258,
+      "level": "info",
+      "msg": "Asking the AI to find every clip-worthy moment (20-60s each)"
+    },
+    {
+      "t": 1794120869.5185454,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794120870.7248995,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794120879.918646,
+      "level": "ok",
+      "msg": "gemini-3.5-flash answered"
+    },
+    {
+      "t": 1794120879.930481,
+      "level": "ok",
+      "msg": "Video brief ready: Summary: SMii7Y plays a multiplayer co-op video game with his friends Yumi, imSovi, and daukey as they attempt to run a nuclear power plant. The group attempts to coordinate between the control room and the reactor room via phone, handling fuel rods and control rods, which leads to meltdowns, chaos,"
+    },
+    {
+      "t": 1794120885.2456603,
+      "level": "info",
+      "msg": "Audio analysis: 12 loud moments (laughs / screams / action) found"
+    },
+    {
+      "t": 1794120885.2524831,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794120886.43223,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794120886.9081318,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794120886.9123855,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794120895.9328415,
+      "level": "ok",
+      "msg": "gemini-3.5-flash-lite answered"
+    },
+    {
+      "t": 1794120895.999302,
+      "level": "ok",
+      "msg": "AI picked 11 clips in 0:26"
+    },
+    {
+      "t": 1794120896.0041056,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y tries to communicate with the new guy  [4:42-5:28, score 85]"
+    },
+    {
+      "t": 1794120896.0086188,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y and friends realize they are completely unqualified  [8:37-9:24, score 82]"
+    },
+    {
+      "t": 1794120896.0119588,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y labels Yumi so he won't forget instructions  [10:40-11:31, score 88]"
+    },
+    {
+      "t": 1794120896.015214,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y and crew panic during a reactor meltdown  [12:39-13:26, score 90]"
+    },
+    {
+      "t": 1794120896.0201833,
+      "level": "info",
+      "msg": "  \u2022 Yumi is cursed with a glitching spin  [14:05-14:51, score 84]"
+    },
+    {
+      "t": 1794120896.0262144,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y gets rich by melting down the plant  [16:55-17:39, score 89]"
+    },
+    {
+      "t": 1794120896.0307944,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y tries to weld a pipe to fix the leak  [20:20-21:05, score 87]"
+    },
+    {
+      "t": 1794120896.0358157,
+      "level": "info",
+      "msg": "  \u2022 Sovi completely ignores SMii7Y's warning  [26:45-27:34, score 91]"
+    },
+    {
+      "t": 1794120896.040952,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y accuses Yumi of a prank setup  [33:54-34:44, score 83]"
+    },
+    {
+      "t": 1794120896.0461502,
+      "level": "info",
+      "msg": "  \u2022 Yumi shows off his trash-throwing basketball skills  [37:50-38:37, score 86]"
+    },
+    {
+      "t": 1794120896.0505462,
+      "level": "info",
+      "msg": "  \u2022 SMii7Y tries to fix Yumi with the wrong syringe  [39:41-40:21, score 90]"
+    },
+    {
+      "t": 1794120896.0582337,
+      "level": "info",
+      "msg": "Review panel (hook / retention / value / shareability) is scoring each clip"
+    },
+    {
+      "t": 1794120896.0641606,
+      "level": "info",
+      "msg": "Using 3 of 9 Gemini keys (the rest are rate limited right now)"
+    },
+    {
+      "t": 1794120897.177002,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash..."
+    },
+    {
+      "t": 1794120897.978989,
+      "level": "warn",
+      "msg": "gemini-3.5-flash: daily quota used up - trying next model"
+    },
+    {
+      "t": 1794120897.9829051,
+      "level": "info",
+      "msg": "Trying gemini-3.5-flash-lite..."
+    },
+    {
+      "t": 1794120905.4883113,
+      "level": "warn",
+      "msg": "gemini-3.5-flash-lite: unavailable (503 UNAVAILABLE. {'error': {'code': 503, 'message') - trying next model"
+    },
+    {
+      "t": 1794120905.4921474,
+      "level": "info",
+      "msg": "Trying gemini-3.1-flash-lite..."
+    },
+    {
+      "t": 1794120913.136719,
+      "level": "ok",
+      "msg": "gemini-3.1-flash-lite answered"
+    },
+    {
+      "t": 1794120913.1425552,
+      "level": "ok",
+      "msg": "Rated 11 clips in 0:17"
+    },
+    {
+      "t": 1794120913.149838,
+      "level": "info",
+      "msg": "  - SMii7Y tries to communicate with the new guy: 65/100 (hook 65, retention 70, value 60, share 65)"
+    },
+    {
+      "t": 1794120913.155612,
+      "level": "info",
+      "msg": "  - SMii7Y and friends realize they are completely unqualified: 72/100 (hook 75, retention 65, value 70, share 75)"
+    },
+    {
+      "t": 1794120913.160125,
+      "level": "info",
+      "msg": "  - SMii7Y labels Yumi so he won't forget instructions: 77/100 (hook 80, retention 75, value 70, share 80)"
+    },
+    {
+      "t": 1794120913.1651852,
+      "level": "info",
+      "msg": "  - SMii7Y and crew panic during a reactor meltdown: 78/100 (hook 85, retention 80, value 75, share 70)"
+    },
+    {
+      "t": 1794120913.1699731,
+      "level": "info",
+      "msg": "  - Yumi is cursed with a glitching spin: 67/100 (hook 70, retention 60, value 65, share 70)"
+    },
+    {
+      "t": 1794120913.1744554,
+      "level": "info",
+      "msg": "  - SMii7Y gets rich by melting down the plant: 76/100 (hook 75, retention 70, value 75, share 85)"
+    },
+    {
+      "t": 1794120913.1785674,
+      "level": "info",
+      "msg": "  - SMii7Y tries to weld a pipe to fix the leak: 56/100 (hook 60, retention 55, value 50, share 55)"
+    },
+    {
+      "t": 1794120913.1839488,
+      "level": "info",
+      "msg": "  - Sovi completely ignores SMii7Y's warning: 75/100 (hook 80, retention 70, value 70, share 75)"
+    },
+    {
+      "t": 1794120913.188393,
+      "level": "info",
+      "msg": "  - SMii7Y accuses Yumi of a prank setup: 61/100 (hook 65, retention 60, value 55, share 60)"
+    },
+    {
+      "t": 1794120913.192649,
+      "level": "info",
+      "msg": "  - Yumi shows off his trash-throwing basketball skills: 71/100 (hook 75, retention 70, value 65, share 70)"
+    },
+    {
+      "t": 1794120913.1969514,
+      "level": "info",
+      "msg": "  - SMii7Y tries to fix Yumi with the wrong syringe: 66/100 (hook 70, retention 65, value 60, share 65)"
+    },
+    {
+      "t": 1794120913.2063923,
+      "level": "ok",
+      "msg": "11 distinct clips found, 11 rated 50+"
+    },
+    {
+      "t": 1794120913.235485,
+      "level": "info",
+      "msg": "Rendering clip 1/11: SMii7Y and crew panic during a reactor meltdown"
+    },
+    {
+      "t": 1794120987.1929662,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:13"
+    },
+    {
+      "t": 1794120987.2066145,
+      "level": "info",
+      "msg": "Rendering clip 2/11: SMii7Y labels Yumi so he won't forget instructions"
+    },
+    {
+      "t": 1794121064.304989,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:17"
+    },
+    {
+      "t": 1794121064.322304,
+      "level": "info",
+      "msg": "Rendering clip 3/11: SMii7Y gets rich by melting down the plant"
+    },
+    {
+      "t": 1794121142.7842727,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:18"
+    },
+    {
+      "t": 1794121142.8019516,
+      "level": "info",
+      "msg": "Rendering clip 4/11: Sovi completely ignores SMii7Y's warning"
+    },
+    {
+      "t": 1794121222.6267173,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:19"
+    },
+    {
+      "t": 1794121222.642758,
+      "level": "info",
+      "msg": "Rendering clip 5/11: SMii7Y and friends realize they are completely unqualified"
+    },
+    {
+      "t": 1794121308.5949707,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794121308.6207347,
+      "level": "info",
+      "msg": "Rendering clip 1/7: SMii7Y and friends realize they are completely unqualified"
+    },
+    {
+      "t": 1794121398.054875,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:29"
+    },
+    {
+      "t": 1794121398.0736089,
+      "level": "info",
+      "msg": "Rendering clip 2/7: Yumi shows off his trash-throwing basketball skills"
+    },
+    {
+      "t": 1794121468.1770718,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:10"
+    },
+    {
+      "t": 1794121468.1887844,
+      "level": "info",
+      "msg": "Rendering clip 3/7: Yumi is cursed with a glitching spin"
+    },
+    {
+      "t": 1794121534.0893643,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:05"
+    },
+    {
+      "t": 1794121534.1001563,
+      "level": "info",
+      "msg": "Rendering clip 4/7: SMii7Y tries to fix Yumi with the wrong syringe"
+    },
+    {
+      "t": 1794121609.920742,
+      "level": "ok",
+      "msg": "Clip 4 ready in 1:15"
+    },
+    {
+      "t": 1794121609.9326997,
+      "level": "info",
+      "msg": "Rendering clip 5/7: SMii7Y tries to communicate with the new guy"
+    },
+    {
+      "t": 1794121681.689732,
+      "level": "info",
+      "msg": "Resumed after restart"
+    },
+    {
+      "t": 1794121681.7119534,
+      "level": "info",
+      "msg": "Rendering clip 1/3: SMii7Y tries to communicate with the new guy"
+    },
+    {
+      "t": 1794121752.9833326,
+      "level": "ok",
+      "msg": "Clip 1 ready in 1:11"
+    },
+    {
+      "t": 1794121753.003466,
+      "level": "info",
+      "msg": "Rendering clip 2/3: SMii7Y accuses Yumi of a prank setup"
+    },
+    {
+      "t": 1794121823.3481793,
+      "level": "ok",
+      "msg": "Clip 2 ready in 1:10"
+    },
+    {
+      "t": 1794121823.3612494,
+      "level": "info",
+      "msg": "Rendering clip 3/3: SMii7Y tries to weld a pipe to fix the leak"
+    },
+    {
+      "t": 1794121896.3235805,
+      "level": "ok",
+      "msg": "Clip 3 ready in 1:12"
+    },
+    {
+      "t": 1794121896.331694,
+      "level": "ok",
+      "msg": "All done in 3:34"
+    }
+  ],
+  "stage_key": "done",
+  "progress": 100,
+  "channel": "SMii7Y",
+  "duration": 2525,
+  "heatmap": [],
+  "video_description": "Who the heck let us run a nuclear power plant?\n\nMERCH Available now! https://smii7y.store/\n\nUse code S7 on Gamer Supps for 10% OFF your order\nGet my GamerSupps flavor, GOOD here!: https://gamersupps.gg/s7\n\nCheck out my other channels!\nSolo Let's Play Channel: https://www.youtube.com/@SMii7Yplays\nStream Highlight Channel:  https://www.youtube.com/c/SMii7Yplus\nStream VODs:  https://www.youtube.com/c/SMii7Yminus\n\nFollow my social medias and stream!\n\ud83d\udd34 Stream  -  http://www.twitch.tv/smii7y\n\ud83d\udc55 Merch - https://smii7y.store/\n\ud83d\udc26 Twitter  -  https://twitter.com/SMii7Y\n\ud83d\udcf7 Instagram  -  https://www.instagram.com/smii7y/\n\ud83c\udfac Clips Page - https://www.instagram.com/smii7y.clips/\n\nFriends in the video:\n@Yumi \n@imSovi \n@daukey \n\nEdited by: https://x.com/MrNoxn\nThumbnail Milkbag Character Artist: https://twitter.com/ArtzyYT\nIntro Milkbag Character Artist: https://twitter.com/RoboEye5\nOutro Music Created by:  https://www.youtube.com/@MattercellEntertainment\n\n\ud83c\udfb5 Music licensing provided by:\nhttp://www.epidemicsound.com/\nhttps://www.shutterstock.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nhttps://www.soundsnap.com/\nhttps://www.pond5.com/\nhttps://motionarray.com/\nKevin MacLeod - incompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/",
+  "brief": "Summary: SMii7Y plays a multiplayer co-op video game with his friends Yumi, imSovi, and daukey as they attempt to run a nuclear power plant. The group attempts to coordinate between the control room and the reactor room via phone, handling fuel rods and control rods, which leads to meltdowns, chaos, and earning money to purchase shop items.\nPeople: SMii7Y; Yumi; imSovi; daukey\nContext: Gameplay footage and commentary from SMii7Y playing a co-op nuclear plant simulator video game with friends Yumi, imSovi, and daukey.\nUnclear: The specific title of the video game being played is not explicitly named in the video description or transcript.",
+  "render_index": 3,
+  "render_total": 3
+}
